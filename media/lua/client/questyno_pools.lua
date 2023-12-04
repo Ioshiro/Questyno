@@ -1,0 +1,538 @@
+require 'SFQuest_Database'
+--[[                *** STARTING POOLS ***
+        Quest date alla creazione del pg
+]]
+
+-- inserimento prima quest Test1
+--table.insert(SFQuest_Database.StartingPool, {
+--world = "Questyno_Pynocchio;SFQuest_Questyno_Test1_Dialogo1;Questyno_Test1"
+--condition = "profession;Carpenter;trait;Handy", -- condizione per sbloccare la quest
+--click = "parametri per evento rightclick?" -- guarda comandi e rightclick
+--daily = "codice giornaliero" -- nome del pool di eventi giornalieri da prendere random
+--quest = "Questyno_Test1" -- nome della quest
+--timer = "SFQuest_Questyno_Test1_Timer1" -- nome del timer dopo il quale attivare la cosa (certe meccaniche non funzionano se date subito alla creazione)
+--world = "WorldEventID;Questyno_Dialogo;SFQuest_Questno_Test2" -- WorldEvent passato alla creazione del pg
+--})
+
+--[[                *** DAILY POOLS ***
+        Quest date ogni giorno.
+        Tavole che randomizzano world events
+        Entry composte da "WorldEvent;DialogueCode;QuestGuid"
+        Quando si usa randomcodeworldfrompool gli ultimi due parametri di
+        questo ExamplePool saranno ExamplePool più Pool1 o Pool2
+
+ ExamplePool = {
+	Pool1 = {
+	"PondStalker_Bandits;ThePondStalker_AmmoBox_Bandits;ThePondStalker_AmmoBox_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Animal_Bandits;ThePondStalker_Animal_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Artifact_Bandits;ThePondStalker_Artifact_Bandits",
+	"PondStalker_Bandits;ThePondStalker_BigFish_Bandits;ThePondStalker_BigFish_Bandits",
+	"PondStalker_Bandits;ThePondStalker_CannedFood_Bandits;ThePondStalker_CannedFood_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Fish_Bandits;ThePondStalker_Fish_Bandits",
+	"PondStalker_Bandits;ThePondStalker_ForagedFood_Bandits;ThePondStalker_ForagedFood_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Medicine_Bandits;ThePondStalker_Medicine_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Patches_Bandits;ThePondStalker_Patches_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Pistol_Bandits;ThePondStalker_Pistol_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Rifle_Bandits;ThePondStalker_Rifle_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Shotgun_Bandits;ThePondStalker_Shotgun_Bandits",
+	"PondStalker_Bandits;ThePondStalker_SkillBook_Bandits;ThePondStalker_SkillBook_Bandits",
+	"PondStalker_Bandits;ThePondStalker_Zombies_Bandits;ThePondStalker_Zombies_Bandits",
+	},
+	Pool2 = {
+	"PondStalker_ClearSky;ThePondStalker_AmmoBox_ClearSky;ThePondStalker_AmmoBox_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Animal_ClearSky;ThePondStalker_Animal_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Artifact_ClearSky;ThePondStalker_Artifact_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_BigFish_ClearSky;ThePondStalker_BigFish_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_CannedFood_ClearSky;ThePondStalker_CannedFood_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Fish_ClearSky;ThePondStalker_Fish_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_ForagedFood_ClearSky;ThePondStalker_ForagedFood_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Medicine_ClearSky;ThePondStalker_Medicine_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Pistol_ClearSky;ThePondStalker_Pistol_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Rifle_ClearSky;ThePondStalker_Rifle_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Shotgun_ClearSky;ThePondStalker_Shotgun_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_SkillBook_ClearSky;ThePondStalker_SkillBook_ClearSky",
+	"PondStalker_ClearSky;ThePondStalker_Zombies_ClearSky;ThePondStalker_Zombies_ClearSky",
+	},
+}
+
+SFQuest_Database.RandomEventPool.ExamplePool = ExamplePool;
+
+	WORK IN PROGRESS
+
+	This is how you insert a daily event:
+table.insert(SFQuest_Database.DailyEventPool, { dailycode = "Example_DailyCode", condition = "notmaxedwithcode;QuestDailyCodeForThisPool;1", commands = "randomcodedworldfrompool;PondStalker_Bandits;ThePondStalker;Bandits", days = 0, frequency = 12});
+
+]]
+
+Questyno = {
+	--[[ 	Money = {
+		"Questyno_Pynocchio;SFQuest_Questyno_Money1_Begin;Questyno_Money1",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money2_Begin;Questyno_Money2",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money3_Begin;Questyno_Money3",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money4_Begin;Questyno_Money4",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money5_Begin;Questyno_Money5",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money6_Begin;Questyno_Money6",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money7_Begin;Questyno_Money7",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money8_Begin;Questyno_Money8",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money9_Begin;Questyno_Money9",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random1_Begin;Questyno_Money10_random1",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random2_Begin;Questyno_Money10_random2",
+		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random3_Begin;Questyno_Money10_random3",
+	}, ]]
+	--[[ 	Lupo = {
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo1_Begin;Questyno_Lupo1",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo2_Begin;Questyno_Lupo2",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo3_Begin;Questyno_Lupo3",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo4_Begin;Questyno_Lupo4",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo5_Begin;Questyno_Lupo5",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo6_Begin;Questyno_Lupo6",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo7_Begin;Questyno_Lupo7",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo8_Begin;Questyno_Lupo8",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo9_Begin;Questyno_Lupo9",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo10_Begin;Questyno_Lupo10",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo11_Begin;Questyno_Lupo11",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo12_Begin;Questyno_Lupo12",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo13_Begin;Questyno_Lupo13",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo14_Begin;Questyno_Lupo14",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo15_Begin;Questyno_Lupo15",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo16_Begin;Questyno_Lupo16",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo17_Begin;Questyno_Lupo17",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo18_Begin;Questyno_Lupo18",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo19_Begin;Questyno_Lupo19",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo20_Begin;Questyno_Lupo20",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo21_Begin;Questyno_Lupo21",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo22_Begin;Questyno_Lupo22",
+		"Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Begin;Questyno_Lupo23",
+	}, ]]
+	Grif = {
+		"Questyno_Grif;SFQuest_Questyno_Grif1_Begin;Questyno_Grif1",
+		"Questyno_Grif;SFQuest_Questyno_Grif2_Begin;Questyno_Grif2",
+		"Questyno_Grif;SFQuest_Questyno_Grif3_Begin;Questyno_Grif3",
+		"Questyno_Grif;SFQuest_Questyno_Grif4_Begin;Questyno_Grif4",
+		"Questyno_Grif;SFQuest_Questyno_Grif5_Begin;Questyno_Grif5",
+		"Questyno_Grif;SFQuest_Questyno_Grif6_Begin;Questyno_Grif6",
+		"Questyno_Grif;SFQuest_Questyno_Grif7_Begin;Questyno_Grif7",
+		"Questyno_Grif;SFQuest_Questyno_Grif8_Begin;Questyno_Grif8",
+		"Questyno_Grif;SFQuest_Questyno_Grif9_Begin;Questyno_Grif9",
+		"Questyno_Grif;SFQuest_Questyno_Grif10_Begin;Questyno_Grif10",
+		"Questyno_Grif;SFQuest_Questyno_Grif11_Begin;Questyno_Grif11",
+		"Questyno_Grif;SFQuest_Questyno_Grif12_Begin;Questyno_Grif12",
+		"Questyno_Grif;SFQuest_Questyno_Grif13_Begin;Questyno_Grif13",
+		"Questyno_Grif;SFQuest_Questyno_Grif14_Begin;Questyno_Grif14",
+		"Questyno_Grif;SFQuest_Questyno_Grif15_Begin;Questyno_Grif15",
+		"Questyno_Grif;SFQuest_Questyno_Grif16_Begin;Questyno_Grif16",
+		"Questyno_Grif;SFQuest_Questyno_Grif17_Begin;Questyno_Grif17",
+		"Questyno_Grif;SFQuest_Questyno_Grif18_Begin;Questyno_Grif18",
+		"Questyno_Grif;SFQuest_Questyno_Grif19_Begin;Questyno_Grif19",
+		"Questyno_Grif;SFQuest_Questyno_Grif20_Begin;Questyno_Grif20",
+		"Questyno_Grif;SFQuest_Questyno_Grif21_Begin;Questyno_Grif21",
+		"Questyno_Grif;SFQuest_Questyno_Grif22_Begin;Questyno_Grif22",
+		"Questyno_Grif;SFQuest_Questyno_Grif23_Begin;Questyno_Grif23",
+		"Questyno_Grif;SFQuest_Questyno_Grif24_Begin;Questyno_Grif24",
+		"Questyno_Grif;SFQuest_Questyno_Grif25_Begin;Questyno_Grif25",
+		"Questyno_Grif;SFQuest_Questyno_Grif26_Begin;Questyno_Grif26",
+		"Questyno_Grif;SFQuest_Questyno_Grif27_Begin;Questyno_Grif27",
+		"Questyno_Grif;SFQuest_Questyno_Grif28_Begin;Questyno_Grif28",
+	},
+	AngelicaStella = {
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella1_Begin;Questyno_AngelicaStella1",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella2_Begin;Questyno_AngelicaStella2",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella3_Begin;Questyno_AngelicaStella3",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella4_Begin;Questyno_AngelicaStella4",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella5_Begin;Questyno_AngelicaStella5",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella6_Begin;Questyno_AngelicaStella6",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella7_Begin;Questyno_AngelicaStella7",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella8_Begin;Questyno_AngelicaStella8",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella9_Begin;Questyno_AngelicaStella9",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella10_Begin;Questyno_AngelicaStella10",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella11_Begin;Questyno_AngelicaStella11",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella12_Begin;Questyno_AngelicaStella12",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella13_Begin;Questyno_AngelicaStella13",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella14_Begin;Questyno_AngelicaStella14",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella15_Begin;Questyno_AngelicaStella15",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella16_Begin;Questyno_AngelicaStella16",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella17_Begin;Questyno_AngelicaStella17",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella18_Begin;Questyno_AngelicaStella18",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella19_Begin;Questyno_AngelicaStella19",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Begin;Questyno_AngelicaStella20",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella21_Begin;Questyno_AngelicaStella21",
+	},
+	HeatherThomas = {
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas1_Begin;Questyno_HeatherThomas1",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas2_Begin;Questyno_HeatherThomas2",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas3_Begin;Questyno_HeatherThomas3",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas4_Begin;Questyno_HeatherThomas4",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas5_Begin;Questyno_HeatherThomas5",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas6_Begin;Questyno_HeatherThomas6",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas7_Begin;Questyno_HeatherThomas7",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas8_Begin;Questyno_HeatherThomas8",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas9_Begin;Questyno_HeatherThomas9",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas10_Begin;Questyno_HeatherThomas10",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas11_Begin;Questyno_HeatherThomas11",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas12_Begin;Questyno_HeatherThomas12",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas13_Begin;Questyno_HeatherThomas13",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas14_Begin;Questyno_HeatherThomas14",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas15_Begin;Questyno_HeatherThomas15",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas16_Begin;Questyno_HeatherThomas16",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas17_Begin;Questyno_HeatherThomas17",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas18_Begin;Questyno_HeatherThomas18",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas19_Begin;Questyno_HeatherThomas19",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas20_Begin;Questyno_HeatherThomas20",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas21_Begin;Questyno_HeatherThomas21",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas22_Begin;Questyno_HeatherThomas22",
+		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas23_Begin;Questyno_HeatherThomas23",
+	},
+	EliaRima = {
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima1_Begin;Questyno_EliaRima1",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima2_Begin;Questyno_EliaRima2",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima3_Begin;Questyno_EliaRima3",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima4_Begin;Questyno_EliaRima4",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima5_Begin;Questyno_EliaRima5",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima6_Begin;Questyno_EliaRima6",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima7_Begin;Questyno_EliaRima7",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima8_Begin;Questyno_EliaRima8",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima9_Begin;Questyno_EliaRima9",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima10_Begin;Questyno_EliaRima10",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima11_Begin;Questyno_EliaRima11",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima12_Begin;Questyno_EliaRima12",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima13_Begin;Questyno_EliaRima13",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima14_Begin;Questyno_EliaRima14",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima15_Begin;Questyno_EliaRima15",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima16_Begin;Questyno_EliaRima16",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima17_Begin;Questyno_EliaRima17",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima18_Begin;Questyno_EliaRima18",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima19_Begin;Questyno_EliaRima19",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima20_Begin;Questyno_EliaRima20",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima21_Begin;Questyno_EliaRima21",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima22_Begin;Questyno_EliaRima22",
+		"Questyno_EliaRima;SFQuest_Questyno_EliaRima23_Begin;Questyno_EliaRima23",
+	},
+	BobRepair = {
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair1_Begin;Questyno_BobRepair1",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair2_Begin;Questyno_BobRepair2",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair3_Begin;Questyno_BobRepair3",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair4_Begin;Questyno_BobRepair4",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair5_Begin;Questyno_BobRepair5",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair6_Begin;Questyno_BobRepair6",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair7_Begin;Questyno_BobRepair7",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair8_Begin;Questyno_BobRepair8",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair9_Begin;Questyno_BobRepair9",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair10_Begin;Questyno_BobRepair10",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair11_Begin;Questyno_BobRepair11",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair12_Begin;Questyno_BobRepair12",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair13_Begin;Questyno_BobRepair13",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair14_Begin;Questyno_BobRepair14",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair15_Begin;Questyno_BobRepair15",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair16_Begin;Questyno_BobRepair16",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair17_Begin;Questyno_BobRepair17",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair18_Begin;Questyno_BobRepair18",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair19_Begin;Questyno_BobRepair19",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair20_Begin;Questyno_BobRepair20",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair21_Begin;Questyno_BobRepair21",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair22_Begin;Questyno_BobRepair22",
+		"Questyno_BobRepair;SFQuest_Questyno_BobRepair23_Begin;Questyno_BobRepair23",
+	},
+	MikePozzo = {
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo1_Begin;Questyno_MikePozzo1",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo2_Begin;Questyno_MikePozzo2",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo3_Begin;Questyno_MikePozzo3",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo4_Begin;Questyno_MikePozzo4",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo5_Begin;Questyno_MikePozzo5",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo6_Begin;Questyno_MikePozzo6",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo7_Begin;Questyno_MikePozzo7",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo8_Begin;Questyno_MikePozzo8",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo9_Begin;Questyno_MikePozzo9",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo10_Begin;Questyno_MikePozzo10",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo11_Begin;Questyno_MikePozzo11",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo12_Begin;Questyno_MikePozzo12",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo13_Begin;Questyno_MikePozzo13",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo14_Begin;Questyno_MikePozzo14",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo15_Begin;Questyno_MikePozzo15",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo16_Begin;Questyno_MikePozzo16",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo17_Begin;Questyno_MikePozzo17",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo18_Begin;Questyno_MikePozzo18",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo19_Begin;Questyno_MikePozzo19",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo20_Begin;Questyno_MikePozzo20",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo21_Begin;Questyno_MikePozzo21",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo22_Begin;Questyno_MikePozzo22",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo23_Begin;Questyno_MikePozzo23",
+		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo24_Begin;Questyno_MikePozzo24",
+	},
+	RosaChina = {
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina1_Begin;Questyno_RosaChina1",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina2_Begin;Questyno_RosaChina2",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina3_Begin;Questyno_RosaChina3",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina4_Begin;Questyno_RosaChina4",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina5_Begin;Questyno_RosaChina5",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina6_Begin;Questyno_RosaChina6",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina7_Begin;Questyno_RosaChina7",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina8_Begin;Questyno_RosaChina8",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina9_Begin;Questyno_RosaChina9",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina10_Begin;Questyno_RosaChina10",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina11_Begin;Questyno_RosaChina11",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina12_Begin;Questyno_RosaChina12",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina13_Begin;Questyno_RosaChina13",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina14_Begin;Questyno_RosaChina14",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina15_Begin;Questyno_RosaChina15",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina16_Begin;Questyno_RosaChina16",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina17_Begin;Questyno_RosaChina17",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina18_Begin;Questyno_RosaChina18",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Begin;Questyno_RosaChina19",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina20_Begin;Questyno_RosaChina20",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina21_Begin;Questyno_RosaChina21",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina22_Begin;Questyno_RosaChina22",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina23_Begin;Questyno_RosaChina23",
+		"Questyno_RosaChina;SFQuest_Questyno_RosaChina24_Begin;Questyno_RosaChina24",
+	},
+	EmilyTerry = {
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry1_Begin;Questyno_EmilyTerry1",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry2_Begin;Questyno_EmilyTerry2",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry3_Begin;Questyno_EmilyTerry3",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry4_Begin;Questyno_EmilyTerry4",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry5_Begin;Questyno_EmilyTerry5",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry6_Begin;Questyno_EmilyTerry6",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry7_Begin;Questyno_EmilyTerry7",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry8_Begin;Questyno_EmilyTerry8",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry9_Begin;Questyno_EmilyTerry9",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry10_Begin;Questyno_EmilyTerry10",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry11_Begin;Questyno_EmilyTerry11",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry12_Begin;Questyno_EmilyTerry12",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry13_Begin;Questyno_EmilyTerry13",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry14_Begin;Questyno_EmilyTerry14",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry15_Begin;Questyno_EmilyTerry15",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry16_Begin;Questyno_EmilyTerry16",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry17_Begin;Questyno_EmilyTerry17",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry18_Begin;Questyno_EmilyTerry18",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry19_Begin;Questyno_EmilyTerry19",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry20_Begin;Questyno_EmilyTerry20",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry21_Begin;Questyno_EmilyTerry21",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry22_Begin;Questyno_EmilyTerry22",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry23_Begin;Questyno_EmilyTerry23",
+		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry24_Begin;Questyno_EmilyTerry24",
+	},
+	VictoriaSecret = {
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret1_Begin;Questyno_VictoriaSecret1",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret2_Begin;Questyno_VictoriaSecret2",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret3_Begin;Questyno_VictoriaSecret3",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret4_Begin;Questyno_VictoriaSecret4",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret5_Begin;Questyno_VictoriaSecret5",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret6_Begin;Questyno_VictoriaSecret6",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret7_Begin;Questyno_VictoriaSecret7",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret8_Begin;Questyno_VictoriaSecret8",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret9_Begin;Questyno_VictoriaSecret9",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret10_Begin;Questyno_VictoriaSecret10",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret11_Begin;Questyno_VictoriaSecret11",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret12_Begin;Questyno_VictoriaSecret12",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret13_Begin;Questyno_VictoriaSecret13",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret14_Begin;Questyno_VictoriaSecret14",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret15_Begin;Questyno_VictoriaSecret15",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret16_Begin;Questyno_VictoriaSecret16",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret17_Begin;Questyno_VictoriaSecret17",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret18_Begin;Questyno_VictoriaSecret18",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret19_Begin;Questyno_VictoriaSecret19",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret20_Begin;Questyno_VictoriaSecret20",
+		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret21_Begin;Questyno_VictoriaSecret21",
+	},
+	SusanLee = {
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee1_Begin;Questyno_SusanLee1",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee2_Begin;Questyno_SusanLee2",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee3_Begin;Questyno_SusanLee3",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee4_Begin;Questyno_SusanLee4",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee5_Begin;Questyno_SusanLee5",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee6_Begin;Questyno_SusanLee6",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee7_Begin;Questyno_SusanLee7",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee8_Begin;Questyno_SusanLee8",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee9_Begin;Questyno_SusanLee9",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee10_Begin;Questyno_SusanLee10",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee11_Begin;Questyno_SusanLee11",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee12_Begin;Questyno_SusanLee12",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee13_Begin;Questyno_SusanLee13",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee14_Begin;Questyno_SusanLee14",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee15_Begin;Questyno_SusanLee15",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee16_Begin;Questyno_SusanLee16",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee17_Begin;Questyno_SusanLee17",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee18_Begin;Questyno_SusanLee18",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee19_Begin;Questyno_SusanLee19",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee20_Begin;Questyno_SusanLee20",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee21_Begin;Questyno_SusanLee21",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee22_Begin;Questyno_SusanLee22",
+		"Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Begin;Questyno_SusanLee23",
+	},
+	GeorgeScott = {
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott1_Begin;Questyno_GeorgeScott1",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Begin;Questyno_GeorgeScott2",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott3_Begin;Questyno_GeorgeScott3",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott4_Begin;Questyno_GeorgeScott4",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott5_Begin;Questyno_GeorgeScott5",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott6_Begin;Questyno_GeorgeScott6",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott7_Begin;Questyno_GeorgeScott7",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott8_Begin;Questyno_GeorgeScott8",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott9_Begin;Questyno_GeorgeScott9",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott10_Begin;Questyno_GeorgeScott10",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott11_Begin;Questyno_GeorgeScott11",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott12_Begin;Questyno_GeorgeScott12",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott13_Begin;Questyno_GeorgeScott13",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott14_Begin;Questyno_GeorgeScott14",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott15_Begin;Questyno_GeorgeScott15",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott16_Begin;Questyno_GeorgeScott16",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott17_Begin;Questyno_GeorgeScott17",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott18_Begin;Questyno_GeorgeScott18",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott19_Begin;Questyno_GeorgeScott19",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott20_Begin;Questyno_GeorgeScott20",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott21_Begin;Questyno_GeorgeScott21",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Begin;Questyno_GeorgeScott22",
+		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott23_Begin;Questyno_GeorgeScott23",
+	}
+}
+
+SFQuest_Database.RandomEventPool.Questyno = Questyno;
+-- def quest daily
+--[[ table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Money",
+	condition = "notmaxedwithcode;Questyno_Money;1",
+	commands = "randomcodedworldfrompool;Questyno_Money;Questyno;Money",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Lupo",
+	condition = "notmaxedwithcode;Questyno_Lupo;1",
+	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
+	days = 0,
+	frequency = 1
+});]]
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Grif",
+	condition = "notmaxedwithcode;Questyno_Grif;1",
+	commands = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_AngelicaStella",
+	condition = "notmaxedwithcode;Questyno_AngelicaStella;1",
+	commands = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_HeatherThomas",
+	condition = "notmaxedwithcode;Questyno_HeatherThomas;1",
+	commands = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_EliaRima",
+	condition = "notmaxedwithcode;Questyno_EliaRima;1",
+	commands = "randomcodedworldfrompool;Questyno_EliaRima;Questyno;EliaRima",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_BobRepair",
+	condition = "notmaxedwithcode;Questyno_BobRepair;1",
+	commands = "randomcodedworldfrompool;Questyno_BobRepair;Questyno;BobRepair",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MikePozzo",
+	condition = "notmaxedwithcode;Questyno_MikePozzo;1",
+	commands = "randomcodedworldfrompool;Questyno_MikePozzo;Questyno;MikePozzo",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_RosaChina",
+	condition = "notmaxedwithcode;Questyno_RosaChina;1",
+	commands = "randomcodedworldfrompool;Questyno_RosaChina;Questyno;RosaChina",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_EmilyTerry",
+	condition = "notmaxedwithcode;Questyno_EmilyTerry;1",
+	commands = "randomcodedworldfrompool;Questyno_EmilyTerry;Questyno;EmilyTerry",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_VictoriaSecret",
+	condition = "notmaxedwithcode;Questyno_VictoriaSecret;1",
+	commands = "randomcodedworldfrompool;Questyno_VictoriaSecret;Questyno;VictoriaSecret",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_SusanLee",
+	condition = "notmaxedwithcode;Questyno_SusanLee;1",
+	commands = "randomcodedworldfrompool;Questyno_SusanLee;Questyno;SusanLee",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_GeorgeScott",
+	condition = "notmaxedwithcode;Questyno_GeorgeScott;1",
+	commands = "randomcodedworldfrompool;Questyno_GeorgeScott;Questyno;GeorgeScott",
+	days = 0,
+	frequency = 1
+});
+
+
+-- quest introduttive daily
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Lupo_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HeatherThomas_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EliaRima_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_BobRepair_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MikePozzo_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RosaChina_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EmilyTerry_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_VictoriaSecret_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_SusanLee_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GeorgeScott_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_SamuelYoung_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_XuMishura_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intro" })
+-- quest introduttive catene
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
+
+-- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
+--table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })
+--table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_TonyLupo;SFQuest_Questyno_Lupo_Intro_Complete;Questyno_Lupo_Intro" })
+--[[ table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete;Questyno_Grif_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete;Questyno_AngelicaStella_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete;Questyno_HeatherThomas_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete;Questyno_EliaRima_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete;Questyno_BobRepair_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete;Questyno_MikePozzo_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete;Questyno_RosaChina_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete;Questyno_EmilyTerry_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete;Questyno_VictoriaSecret_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete;Questyno_SusanLee_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete;Questyno_GeorgeScott_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete;Questyno_SamuelYoung_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete;Questyno_XuMishura_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete;Questyno_DavidTurner_Intro" }) ]]
+-- completamento quest introduttive catene
+--[[ table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn_Intro_Complete;Questyno_EzekielFlynn_Intro" })
+table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett_Intro_Complete;Questyno_ElowenBeckett_Intro" })
+ ]]
+-- quest daily
+--table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
+--table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Grif" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EliaRima" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BobRepair" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MikePozzo" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RosaChina" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EmilyTerry" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SusanLee" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GeorgeScott" })

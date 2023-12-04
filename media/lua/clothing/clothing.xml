@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_MaleOutfits>
+        <m_Name>PonchoGiallo</m_Name>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+        <m_Guid>questyno-9999-male-9999-000000000001</m_Guid>
+        <m_items>
+            <itemGUID>traders0-9999-male-9999-000000000001</itemGUID>
+            <subItems>
+                <itemGUID>traders0-9999-male-9999-000000000002</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>traders0-9999-male-9999-000000000003</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>traders0-9999-male-9999-000000000004</itemGUID>
+            </subItems>
+            <subItems>
+            <itemGUID>traders0-9999-male-9999-000000000005</itemGUID>
+        </subItems>
+        </m_items>
+        <m_items>
+            <itemGUID>9602c0a8-07d5-410e-a3db-3721bb48ea04</itemGUID>
+        </m_items>
+        <m_items>
+            <itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+        </m_items>		
+        <m_items>
+            <itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+        </m_items>
+        <m_items>
+            <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+        </m_items>
+	</m_MaleOutfits>
+</outfitManager>
