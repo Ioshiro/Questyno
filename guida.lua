@@ -23,6 +23,10 @@
 
     -   Lista completa quest:
     https://docs.google.com/spreadsheets/d/1Q7fcf4-uQmY4-rYCtd4-YeTpEkc1YS4M/edit?usp=sharing&ouid=104817968375836269197&rtpof=true&sd=true
+
+    -   Le quest partono tutte da un Intro e si va avanti numerando da 1-x in ordine del foglio excel. 
+        Importante mantenerlo perché in parallelo sta venendo compilata la lista delle stringhe.
+    
 ]]
 
 --                                          *** 1) questyni_NOME.lua ***
@@ -41,15 +45,14 @@
                                                                                                                     ├ UNO ──> Pattern 6
                                                                                                                     |
                                                                                                                     └ MULTIPLI ──> Pattern 7
-
 ]]
 
 --[[ Pattern 1:
     -   Caso Base: quest che viene completata con un solo step, cioè parlando con un npc
     es. Parla con Elia Rima per sbloccare le sue quest giornaliere
-    [NomeCognome] = Nome e Cognome o Soprannome dell'NPC
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
     [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
-    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà icon
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
                 in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
 ]]
 
@@ -78,6 +81,10 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumero)                         
     -   Caso Recupera Item Base: Quest che richiede X item dello stesso tipo da recuperare,
         poi sblocca un dialogo per completare la quest
     es. Recupera 5 Base.Book per Elia Rima
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
     [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
     [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
     [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
@@ -111,8 +118,17 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumero);                        
 
 --[[ Pattern 3:
     -   Caso Recupera Item Avanzato: Quest che richiede X item di Y tipi diversi da recuperare,
-        ottenuti gli item sblocca una seconda quest che completa effetivamente la quest e da la ricompensa
+        ottenuti gli item sblocca una seconda sotto quest che completa effetivamente la quest e da la ricompensa
     es. Recupera 5 Base.Book e 3 Base.Magazine per Elia Rima
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
+    [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
+    [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
+    [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
+    [NomeRichiestoY] = Nome Y dell'oggetto che viene richiesto per completare la quest (il modulo serve solo se diverso da Base)
+    [NumeroRichiestoX] = Quantità X dell'oggetto Y che viene richiesta per completare la quest
  ]]
 
 local cognomeNumero = {
@@ -128,20 +144,20 @@ local cognomeNumero = {
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A",                                                                   -- Testo dell'obiettivo, seguire il pattern       
         hidden = false,                                                                                                         -- Obiettivo nascosto, in questo caso sempre false                  
         needsitem = "[NomeRichiesto1];[NumeroRichiesto1]",                                                                      -- Item che viene richiesto per completare l'obiettivo
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:2:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"  -- Codice che viene eseguito all'ottenimento degli item richiesti
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:1:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"  -- Codice che viene eseguito all'ottenimento degli item richiesti
                                                                                                                                 -- in questo caso aggiorna l'obiettivo e rimuove gli item richiesti
     }, {
         guid = "Questyno_[NomeCognomeNumero]_B",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
         hidden = false,
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:3:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     }, {
         guid = "Questyno_[NomeCognomeNumero]_C",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_C",
         hidden = false,
         needsitem = "[NomeRichiesto3];[NumeroRichiesto3]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:4:Completed;removeitem;[NomeRichiesto3];[NumeroRichiesto3]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:3:Completed;removeitem;[NomeRichiesto3];[NumeroRichiesto3]"
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
@@ -177,6 +193,16 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
         da recuperare parlando con un npc o interagendo con un tile a coordinate specifiche, 
         poi sblocca un dialogo per completare la quest
     es. Recupera 1 Base.Journal per Elia Rima a 12420,1337,0
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
+    [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
+    [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
+    [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
+    [NomeRichiesto] = Nome dell'oggetto che viene richiesto per completare la quest (il modulo serve solo se diverso da Base)
+    [NumeroRichiesto] = Quantità X dell'oggetto che viene richiesta per completare la quest
+    [Coordinate] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
 local cognomeNumero = {
@@ -191,7 +217,7 @@ local cognomeNumero = {
         guid = "Questyno_[NomeCognomeNumero]_A",                                                                                -- ID dell'obiettivo
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A",                                                                   -- Testo dell'obiettivo, seguire il pattern
         hidden = false,                                                                                                         -- Obiettivo nascosto, in questo caso sempre false
-        oncompleted = "additem;[NomeRichiesto];[NumeroRichiesto];removeclickevent;Questyno_[NomeCognomeNumero]",                -- Codice che viene eseguito al completamento dell'obiettivo
+        oncompleted = "removeclickevent;Evento[NomeCognomeNumero];additem;[NomeRichiesto];[NumeroRichiesto]",                   -- Codice che viene eseguito al completamento dell'obiettivo
                                                                                                                                 -- in questo caso aggiunge l'item richiesto e rimuove l'interazione
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
@@ -199,8 +225,9 @@ local cognomeNumero = {
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern
     unlocks = "clickevent;[Coordinate]:Evento[NomeCognomeNumero];time:50:anim:loot;updateobjective:Questyno_[NomeCognomeNumero]:1:Completed",   
                                                                                                                         -- Codice che viene eseguito allo sblocco della quest
-                                                                                                                        -- in questo caso aggiunge l'interazione e aggiorna l'obiettivo
+                                                                                                                        -- in questo caso aggiunge l'interazione che aggiorna l'obiettivo
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
+                                                                                                                        -- ATTENZIONE COORDINATE SEPARATE DA "x" NON ","
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
 }
 table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
@@ -233,6 +260,16 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
         da recuperare parlando con Z npc o interagendo con Z tile a coordinate specifiche, 
         poi sblocca un dialogo per completare la quest
     es. Recupera 1 Base.Journal a 12420,1337,0 e 1 Base.Book a 12069,1337,0 per Elia Rima  
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
+    [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
+    [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
+    [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
+    [NomeRichiesto] = Nome dell'oggetto che viene richiesto per completare la quest (il modulo serve solo se diverso da Base)
+    [NumeroRichiestoX] = Quantità X dell'oggetto che viene richiesta per completare la quest
+    [CoordinateZ] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
 ]]
 
 local cognomeNumero = {
@@ -249,7 +286,8 @@ local cognomeNumero = {
         hidden = false,                                                                                                         -- Obiettivo nascosto, il primo sempre false                  
         oncompleted = "removeclickevent;Evento[NomeCognomeNumero];additem;[NomeRichiesto];[NumeroRichiesto1];revealobjective;Questyno_[NomeCognomeNumero];2;clickevent;[Coordinate2]:Evento[NomeCognomeNumero]A;anim:loot:time:50;updateobjective:Questyno_[NomeCognomeNumero]:2:Completed",                
                                                                                                                                 -- Codice che viene eseguito al completamento dell'obiettivo
-                                                                                                                                -- in questo caso rimuove l'interazione, da l'item e aggiunge quella per il secondo obiettivo, rivelandolo
+                                                                                                                                -- in questo caso rimuove l'interazione, da l'item, 
+                                                                                                                                -- aggiunge l'interazione per l'obiettivo successivo e lo rivela
     }, {
         guid = "Questyno_[NomeCognomeNumero]_B",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
@@ -263,6 +301,7 @@ local cognomeNumero = {
                                                                                                                         -- Codice che viene eseguito allo sblocco della quest
                                                                                                                         -- in questo caso aggiunge l'interazione che aggiorna l'obiettivo
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
+                                                                                                                        -- ATTENZIONE COORDINATE SEPARATE DA "x" NON ","
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
 }
 table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
@@ -296,6 +335,16 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
         da recuperare parlando con un npc o interagendo con un tile a coordinate specifiche, 
         ottenuti gli item sblocca una seconda quest che completa effetivamente la quest e da la ricompensa
     es. Recupera 1 Base.Journal e 1 Base.Book per Elia Rima a 12420,1337,0
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
+    [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
+    [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
+    [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
+    [NomeRichiestoY] = Nome Y dell'oggetto che viene richiesto per completare la quest (il modulo serve solo se diverso da Base)
+    [NumeroRichiestoX] = Quantità X dell'oggetto Y che viene richiesta per completare la quest
+    [Coordinate] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
 local cognomeNumero = {
@@ -337,13 +386,13 @@ local cognomeNumeroA = {
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
         hidden = false,
         needsitem = "[NomeRichiesto1];[NumeroRichiesto1]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:1:Completed;removeitem;[NomeRichiesto3];[NumeroRichiesto3]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:1:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"
     }, {
         guid = "Questyno_[NomeCognomeNumero]_C",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_C",
         hidden = false,
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:2:Completed;removeitem;[NomeRichiesto4];[NumeroRichiesto4]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
@@ -379,6 +428,16 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroB);                       
         da recuperare parlando con Z npc o interagendo con Z tile a coordinate specifiche, 
         ottenuti gli item sblocca una seconda quest che completa effetivamente la quest e da la ricompensa
     es. Recupera 1 Base.Journal a 12420,1337,0 e 1 Base.Book a 12042,1733,0 per Elia Rima  
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
+    [NomeIcona] = Nome dell'icona che compare nel menu vicino alla quest. Si trova nella definizione degli oggetti sotto la proprietà Icon
+                in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
+    [NumeroReputazione] = Numero di reputazione che viene aggiunta al completamento della quest
+    [NomeRicompensa] = Nome dell'oggetto che viene dato al completamento della quest (il modulo serve solo se diverso da Base)
+    [NumeroRicompensa] = Quantità dell'oggetto che viene data al completamento della quest
+    [NomeRichiestoY] = Nome Y dell'oggetto che viene richiesto per completare la quest (il modulo serve solo se diverso da Base)
+    [NumeroRichiestoX] = Quantità X dell'oggetto Y che viene richiesta per completare la quest
+    [CoordinateZ] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
 local cognomeNumero = {
@@ -395,7 +454,8 @@ local cognomeNumero = {
         hidden = false,                                                                                                         -- Obiettivo nascosto, in questo caso sempre false                  
         oncompleted = "removeclickevent;Evento[NomeCognomeNumero];additem;[NomeRichiesto1];[NumeroRichiesto1];revealobjective;Questyno_[NomeCognomeNumero];2;clickevent;[Coordinate2]:Evento[NomeCognomeNumero]A;anim:loot:time:50;updateobjective:Questyno_[NomeCognomeNumero]:2:Completed",                
                                                                                                                                 -- Codice che viene eseguito al completamento dell'obiettivo
-                                                                                                                                -- in questo caso rimuove l'interazione, da l'item e aggiunge quella per il secondo obiettivo, rivelandolo
+                                                                                                                                -- in questo caso rimuove l'interazione, da l'item,
+                                                                                                                                -- aggiunge l'interazione per l'obiettivo successivo e lo rivela
     }, {
         guid = "Questyno_[NomeCognomeNumero]_B",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
@@ -469,7 +529,10 @@ table.insert(SFQuest_Database.QuestPool, congomeNumeroB);                       
 --[[ Pattern 1:
     -   Caso Dialogo Base: Dialogo che sblocca il completamento della quest
         tendenzialmente è la prima quest di una catena o l'intro di un NPC daily
-        es. Parla con Elia Rima per sbloccare le sue quest daily.            
+        es. Parla con Elia Rima per sbloccare le sue quest daily. 
+
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"           
  ]]
 
  table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_[NomeCognome]_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_[NomeCognome]_Intro", text = "IGUI_SFQuest_Questyno_[NomeCognome]_Intro_Complete_Text"})
@@ -484,9 +547,11 @@ table.insert(SFQuest_Database.QuestPool, congomeNumeroB);                       
             il dialogo di completamento completa l'ultimo guid. 
             es. command = "completequest;Questyno_[NomeCognomeNumero]_A" -> se la quest è composta da 2 sotto quest
 
+    [NomeCognome] = Nome e Cognome/Soprannome dell'NPC
+    [NomeCognomeNumero] = Nome e Cognome + Numero della quest nell'elenco excel, se è un intro Numero = "_Intro", es. "EliaRima_Intro" o "EliaRima1"
 ]]
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_[NomeCognomeNumero]_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_[NomeCognomeNumero]", optional = true, text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_[NomeCognomeNumero]_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_[NomeCognomeNumero]", optional = true, text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_[NomeCognomeNumero]_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_[NomeCognomeNumero]", text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Complete"})
 
 
