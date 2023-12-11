@@ -3379,7 +3379,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Declined = "Pff, pivello",
 	IGUI_SFQuest_Questyno_SamuelYoung23_A = "Cerca a Rosewood (8008,11896,0)",
 	IGUI_SFQuest_Questyno_SamuelYoung23_A_Text = "Prendi il sale.",
-    
+
 --[[
             *** Xu Mishura ***
             Elenco:
@@ -3622,15 +3622,250 @@ IGUI_EN = {
             *** David Turner ***
             Elenco:
                 intro. Parla con David Turner per sbloccare le daily.
+				1. Recuperare Base.SmallSheetMetal;4 (70rep)
+				2. Recuperare Base.SheetMetal;4 (200rep + Base.ScrapVestStudded)
+				3. Recuperare Sweapons.ScrapSpear parlando con (4750,10181,0) (100rep + 20$ + Base.PropaneTank)
+				4. Recuperare Base.ElectronicsScrap;30,Base.ElectricWire;4,Base.SheetMetal;2 (250rep)
+				5. Recuperare Base.ElectronicsScrap;40 (200rep)
+				6. Recuperare Base.ElectronicsScrap;20,Base.Battery;4,Radio.RadioTransmitter;4 (250rep + SWeapons.HugeScrapPickaxe)
+				7. Recuperare Base.Generator parlando con (9503,6174,0) (80rep + 50$)
+				8. Recuperare Base.ElectricWire;10 (70rep + Base.Steak)
+				9. Recuperare Base.ScrapMetal;8,Base.ElectronicsScrap;32 (100rep)
+				10. Recuperare Base.EngineParts;4 (225rep)
+				11. Recuperare Base.MetalPipe;4 (180rep)
+				12. Recuperare Base.UnusableMetal;8 (50rep + Base.ScrapKiltStudded)
+				13. Recuperare Base.ElectronicsMag1 parlando con (7289,8262,0) (130rep)
+				14. Recuperare WaterBottleFull (35rep)
+				15. Recuperare Base.SheetMetal;20,Base.EngineParts;20,Base.ElectronicsScrap;20,Base.UnusableMetal;2 parlando con (8224,7501,0) (80rep + Base.SheetMetal;2,Base.EngineParts;6)
+				16. Recuperare Base.ElectronicsScrap;40 (100rep)
+				17. Recuperare Base.Wrench parlando con (10452,8267,0) (60rep)
+				18. Recuperare Base.SheetPaper2 parlando con (16514,6503,0) (65rep + 25$) - password?: swR48x3j
+				19. Recuperare Base.MetalPipe;2 (65rep)
+				20. Recuperare Base.ScrapMetal;15 (120rep)
+				21. Recuperare Base.ScrapMetal;40 (200rep)
+				22. Recuperare Base.PipeWrench parlando con (8235,10993,0) (50rep + Base.PipeWrench)
+				23. Recuperare Base.ScrapMetal;12 (130rep)
 ]]
     IGUI_SFQuest_Questyno_DavidTurner_Name = "David Turner",
 
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Title = "David Turner",
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Text = "Parla con David Turner per sbloccare le sue quest giornaliere.",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore = "Sono David Turner, ma tutti mi chiamano "Turner". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. ",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text = "Sono David Turner, ma tutti mi chiamano "Turner". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
-
+    IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
+    IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner1_Title = "Più Metallo per David",
+    IGUI_SFQuest_Questyno_DavidTurner1_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner1_Lore = "David mi ha chiesto di portargli 4 Lamiere Piccole. Credo che le scioglierà per ottenere del metallo di scarto, o chissà cos'altro.",
+    IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text = "Ho bisogno di un po' di Lamiere per completare la riparazione di una macchina, posso contare su di te?",
+    IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner1_Complete = "Wow, già di ritorno? Grazie mille, accendo la fornace!",
+	
+	IGUI_SFQuest_Questyno_DavidTurner2_Title = "Più Metallo per David",
+    IGUI_SFQuest_Questyno_DavidTurner2_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner2_Lore = "David mi ha chiesto di portargli 4 Lamiere. Credo che le scioglierà per ottenere del metallo di scarto, o chissà cos'altro.",
+    IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text = "Ho bisogno di un po' di Lamiere per completare la riparazione di una macchina, posso contare su di te?",
+    IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner2_Complete = "Wow, già di ritorno? Sapevo di poter contare su di te, straniero! Questa l'ho assemblata per te!",
+	
+	IGUI_SFQuest_Questyno_DavidTurner3_Title = "L'arma speciale di David",
+    IGUI_SFQuest_Questyno_DavidTurner3_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner3_Lore = "David mi ha chiesto di recuperare un'arma per conto suo. Si trova alla stazione dei treni di Wilbore (4750,10181,0). Dice che mi ricompenserà con del propano...",
+    IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text = "C'è un arma speciale che un collega aveva un tempo. E' costruita con gli ingranaggi, Si trova a Wilbore. Puoi fare un salto e vedere se ne è avanzata qualcuna?",
+    IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner3_Complete = "Wow, mi brillano gli occhi, mi viene da piangere, grazie, grazie straniero!",
+	IGUI_SFQuest_Questyno_DavidTurner3_A = "Cerca a Wilbore (4750,10181,0)",
+	IGUI_SFQuest_Questyno_DavidTurner3_A_Text = "Porta l'arma a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner4_Title = "Il generatore di David",
+    IGUI_SFQuest_Questyno_DavidTurner4_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner4_Lore = "David mi ha chiesto di recuperare 30 Parti elettroniche, 4 Cavi elettrici e 2 Lamiere. Vuole assemblare un generatore, ce la farà?",
+    IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text = "Sto cercando di assemblare un generatore. Mi servono tanto metallo, scarti elettrici e dei bellissimi ingranaggi. Riesci a trovarli per me?",
+    IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner4_Complete = "Bene, non pensavo saresti stato così efficiente, ti ringrazio molto! Speriamo non scoppi tutto.",
+	IGUI_SFQuest_Questyno_DavidTurner4_A = "30 Parti elettroniche",
+	IGUI_SFQuest_Questyno_DavidTurner4_B = "4 Cavi elettrici",
+	IGUI_SFQuest_Questyno_DavidTurner4_C = "2 Lamiere",
+	IGUI_SFQuest_Questyno_DavidTurner4_A_Text = "Torna da David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner5_Title = "Scarti elettrici per David",
+    IGUI_SFQuest_Questyno_DavidTurner5_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner5_Lore = "David mi ha chiesto di recuperare 40 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che è.",
+    IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text = "Mi sono fissato con questi Chippini, servono molte parti elettroniche, riesci a procurarmene qualcuna?",
+    IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner5_Complete = "Bene, credo che possano bastare, grazie straniero.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner6_Title = "David e la telefonia",
+    IGUI_SFQuest_Questyno_DavidTurner6_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner6_Lore = "David mi ha chiesto di recuperare 20 Parti elettroniche, 4 Batterie e 4 Trasmettitori radio per assemblare dei Walkie Talkie. Vediamo cosa mi avanza.",
+    IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text = "Il nostro gruppo ha bisogno di walkie talkie performanti, ho bisogno di qualche trasmettitore, delle batterie e i soliti scarti elettrici, posso contare su di te?",
+    IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner6_Complete = "Era propio quello che mi serviva, grazie! Questa è per te!",
+	IGUI_SFQuest_Questyno_DavidTurner6_A = "20 Parti elettroniche",
+	IGUI_SFQuest_Questyno_DavidTurner6_B = "4 Batterie",
+	IGUI_SFQuest_Questyno_DavidTurner6_C = "4 Trasmettitori radio",
+	IGUI_SFQuest_Questyno_DavidTurner6_A_Text = "Torna da David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner7_Title = "Recupero del generatore di David",
+    IGUI_SFQuest_Questyno_DavidTurner7_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner7_Lore = "David mi ha chiesto di recuperare il suo Generatore nella sua vecchia abitazione a Coryerdon (9503,6174,0). Devo fare attenzione in quella zona, specialmente durante il ritorno.",
+    IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text = "Ho bisogno di un vecchio generatore che ho lasciato nella mia vecchia abitazione a Coryerdon, puoi fare un salto a recuperarlo?",
+    IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner7_Complete = "Ti ringrazio, tieni questi per il tempo perso.",
+	IGUI_SFQuest_Questyno_DavidTurner7_A = "Cerca a Coryerdon (9503,6174,0)",
+	IGUI_SFQuest_Questyno_DavidTurner7_A_Text = "Porta il Generatore a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner8_Title = "Più cavi per David",
+    IGUI_SFQuest_Questyno_DavidTurner8_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner8_Lore = "David mi ha chiesto di recuperare 10 Cavi elettrici. Dovrei mettermi a smontare qualcosa.",
+    IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text = "Ho bisogno di diversi cavi elettrici per far ripartire il frigo della mia base, pensi di riuscire a trovarli?",
+    IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner8_Complete = "Grazie, stava cominciando a marcire la roba nel frigo. Questo è per te, prima che vada a male.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner9_Title = "David l'aggiustatore",
+    IGUI_SFQuest_Questyno_DavidTurner9_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner9_Lore = "David mi ha chiesto di recuperare 8 Scarti metallici e 32 Parti elettroniche per creare delle Parti di ricambio per motore. Non lo deluderò.",
+    IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text = "Ho bisogno di costruire delle Parti di Ricambio per motore, riesci a portarmi un po' di materiale utile?",
+    IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner9_Complete = "Grazie, mi metto subito a lavoro.",
+	IGUI_SFQuest_Questyno_DavidTurner9_A = "8 Scarti metallici",
+	IGUI_SFQuest_Questyno_DavidTurner9_B = "32 Parti elettroniche",
+	IGUI_SFQuest_Questyno_DavidTurner9_A_Text = "Torna da David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner10_Title = "David aggiusta motori",
+    IGUI_SFQuest_Questyno_DavidTurner10_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner10_Lore = "David mi ha chiesto di recuperare 4 Parti di ricambio per motore. Mi bastano degli Scarti Metallici e delle Parti elettroniche. Ovviamente anche un martello.",
+    IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text = "Si è fuso il motore della mia auto, ne ho assolutamente bisogno per spostarmi. Ti avanza qualche parte di ricambio per motore?",
+    IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner10_Complete = "Grazie infinite, a buon rendere!",
+	
+	IGUI_SFQuest_Questyno_DavidTurner11_Title = "David crea motori",
+    IGUI_SFQuest_Questyno_DavidTurner11_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner11_Lore = "David mi ha chiesto di recuperare 4 Tubi di metallo. Gli serviranno per assemblare un motore a scoppio.",
+    IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text = "Sto costruendo un motore a scoppio. Credi che io non ne sia capace? Te lo dimostrerò, basta che mi porti dei tubi di acciaio per completare l'opera!",
+    IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner11_Complete = "Grazie infinite, a buon rendere!",
+	
+	IGUI_SFQuest_Questyno_DavidTurner12_Title = "David il fabbro",
+    IGUI_SFQuest_Questyno_DavidTurner12_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner12_Lore = "David mi ha chiesto di recuperare 8 Metallo di scarto. Probabilmente vuole prepararmi qualcosa di utile?",
+    IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text = "Riesci a procurarti del Metallo di scarto? Comincio ad essere un poco a corto.",
+    IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner12_Complete = "Grazie, mi rimetto subito a lavoro! Prendi questa, te lo meriti!",
+	
+	IGUI_SFQuest_Questyno_DavidTurner13_Title = "David il comodone",
+    IGUI_SFQuest_Questyno_DavidTurner13_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner13_Lore = "David mi ha chiesto di recuperare una rivista per conto suo che servirà a creare un cancello automatico. La trovo nella sua officina a New Ekron (7289,8262,0)",
+    IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text = "Avrei bisogno di una vecchia rivista, vorrei costruire un cancello automatico ma mi sono scordato alcuni passaggi. Dovrebbe essere nella mia vecchia officina a New Ekron.",
+    IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner13_Complete = "Grazie mille straniero, se riesco a capire come si fa, sarai il primo ad avere una porta automatica nella tua base!",
+	IGUI_SFQuest_Questyno_DavidTurner13_A = "Cerca a New Ekron (7289,8262,0)",
+	IGUI_SFQuest_Questyno_DavidTurner13_A_Text = "Porta la rivista a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner14_Title = "David l'assetato",
+    IGUI_SFQuest_Questyno_DavidTurner14_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner14_Lore = "David mi ha chiesto di portargli una Bottiglia di Acqua, ha molta sete poverino e non vuole staccarsi dal suo progetto. Se non bestemmio guarda...",
+    IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono in un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner15_Title = "David vuole metallo",
+    IGUI_SFQuest_Questyno_DavidTurner15_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner15_Lore = "David mi ha chiesto di recuperare tutto il metallo rimasto nel magazzino di Greenport (8224,7501,0). Meglio andare con una macchina.",
+    IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text = "Salve straniero! Non hai nulla da fare oggi? Che ne dici di recuperare tutto il metallo rimasto nel mio magazzino a Greenport?",
+    IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner15_Complete = "Cavoli è più roba di quanto pensassi. Tieni pure una parte per il disturbo.",
+	IGUI_SFQuest_Questyno_DavidTurner15_A = "Cerca a Greenport (8224,7501,0)",
+	IGUI_SFQuest_Questyno_DavidTurner15_A_Text = "Prendi il metallo per David",
+	IGUI_SFQuest_Questyno_DavidTurner15_B = "20 Base.SheetMetal",
+	IGUI_SFQuest_Questyno_DavidTurner15_C = "20 Base.EngineParts",
+	IGUI_SFQuest_Questyno_DavidTurner15_D = "20 Base.ElectronicsScrap",
+	IGUI_SFQuest_Questyno_DavidTurner15_E = "2 Base.UnusableMetal",
+	IGUI_SFQuest_Questyno_DavidTurner15_B_Text = "Torna da David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner16_Title = "Parti elettroniche per David",
+    IGUI_SFQuest_Questyno_DavidTurner16_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner16_Lore = "David mi ha chiesto di recuperare 40 Parti elettroniche. Dovrei cominciare a smontare qualche orologio penso.",
+    IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text = "Ancora tu? Se non sei impegnato e riesci a trovare un po' di Parti elettroniche, te ne sarei davvero grato.",
+    IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner16_Complete = "Grazie, ne farò buon uso.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner17_Title = "David l'idraulico",
+    IGUI_SFQuest_Questyno_DavidTurner17_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner17_Lore = "David mi ha chiesto di recuperare una Chiave giratubi nel negozio di attrezzi di Springwood (10452,8267,0). Devo stare attento, quella è una zona piena di banditi.",
+    IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text = "Abbiamo un problema con le tubature, l'acqua schizza ovunque. Credo che dovrò improvvisarmi idraulico, ho soltanto bisogno che mi recuperi una chiave giratubi nel negozio di attrezzi a Springwood.",
+    IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner17_Complete = "Grazie mille, forse potremo smettere di puzzare!",
+	IGUI_SFQuest_Questyno_DavidTurner17_A = "Cerca a Springwood (10452,8267,0)",
+	IGUI_SFQuest_Questyno_DavidTurner17_A_Text = "Porta la Chiave a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner18_Title = "David l'ingegnere",
+    IGUI_SFQuest_Questyno_DavidTurner18_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner18_Lore = "David vorrebbe che trovassi una password su un foglio nella sua abitazione a Ztardew Valley (16514,6503,0). Spero di riuscire a trovarla.",
+    IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text = "Heilà, vieni qui presto! Non riesco a far partire questo trasmettitore, ho lasciato la password per collegarlo su un foglietto in uno degli armadi di casa mia a Ztardew Valley. Puoi fare un salto per trovarlo?",
+    IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner18_Complete = "Eccola qui, grazie di cuore! Questi per il disturbo.",
+	IGUI_SFQuest_Questyno_DavidTurner18_A = "Cerca a Ztardew Valley (16514,6503,0)",
+	IGUI_SFQuest_Questyno_DavidTurner18_A_Text = "Porta la password a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner19_Title = "David l'armaiolo",
+    IGUI_SFQuest_Questyno_DavidTurner19_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner19_Lore = "David mi ha chiesto di potargli 2 Tubo di metallo per creare un'arma speciale. Dovrei disassemblare una ringhiera?",
+    IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text = "Pensi di riuscire a trovarmi un tubo largo circa... così? Sto cercando di assemblare l'arma definitiva!",
+    IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner19_Complete = "Okay credo questo vada bene, ti ringrazio.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner20_Title = "David cerca metallo",
+    IGUI_SFQuest_Questyno_DavidTurner20_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner20_Lore = "David mi ha chiesto di procurargli 15 Scarti metallici. Vediamo se riesco a procurarmene un poco da queste lattine.",
+    IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text = "Buona sera mio caro! Riusciresti a recuperare qualche scarto metallico per me?",
+    IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner20_Complete = "Grazie, era proprio quello di cui avevo bisogno.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner21_Title = "David cerca metallo",
+    IGUI_SFQuest_Questyno_DavidTurner21_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner21_Lore = "David mi ha chiesto di procurargli 40 Scarti metallici. Vediamo se riesco a procurarmene un poco da queste lattine.",
+    IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text = "Buona sera mio caro! Riusciresti a recuperare qualche scarto metallico per me?",
+    IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner21_Complete = "Grazie, era proprio quello di cui avevo bisogno.",
+	
+	IGUI_SFQuest_Questyno_DavidTurner22_Title = "David l'idraulico",
+    IGUI_SFQuest_Questyno_DavidTurner22_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner22_Lore = "David mi ha chiesto di recuperare una Chiave giratubi nel magazzino di attrezzi di Rosewood Nord (8235,10993,0). Devo stare attento, quella è una zona piena di banditi.",
+    IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text = "Non riesco a riparare la mia chiave giratubi, riusciresti a recuperarne un'altra nel magazzino degli attrezzi a Rosewood Nord?",
+    IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner22_Complete = "Heilà, mi dispiace di averti disturbato, alla fine sono riuscito a rimontarla. Puoi tenerti la chiave se vuoi.",
+	IGUI_SFQuest_Questyno_DavidTurner22_A = "Cerca a Rosewood (8235,10993,0)",
+	IGUI_SFQuest_Questyno_DavidTurner22_A_Text = "Porta la Chiave a David",
+	
+	IGUI_SFQuest_Questyno_DavidTurner23_Title = "David cerca metallo",
+    IGUI_SFQuest_Questyno_DavidTurner23_Text = "David da Muldraugh 10839,9071,0 ",
+    IGUI_SFQuest_Questyno_DavidTurner23_Lore = "David mi ha chiesto di procurargli 12 Scarti metallici. Vediamo se riesco a procurarmene un poco da queste lattine.",
+    IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text = "Sciolgo più metallo io che ghiaccio l'effetto serra, dio boia! Portami altro metallo di scarto che sto per finirlo.",
+    IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Declined = "Diamine, okay.",
+    IGUI_SFQuest_Questyno_DavidTurner23_Complete = "Grazie, mi rimetto a lavoro!",
 
 --[[
                         *** Ezekiel Flynn ***

@@ -404,7 +404,6 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_[NomeCognome]",                                                                               -- Codice che raggruppa i pool di quest daily
                                                                                                                         -- c'è solo se la quest fa parte di un pool di daily 
     lore = { "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Lore" },                                                        -- Testo lore della quest, seguire il pattern
-    needsitem = "[NomeRichiesto];[NumeroRichiesto]",                                                                    -- Item che viene richiesto per completare la quest
     onobtained = "unlockworldevent;Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero]_Complete",               -- Codice che viene eseguito all'ottenimento degli item richiesti
                                                                                                                         -- in questo caso sblocca sempre il dialogo per completare la quest
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")

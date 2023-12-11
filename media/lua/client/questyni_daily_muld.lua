@@ -3779,9 +3779,32 @@ table.insert(SFQuest_Database.QuestPool,{
             *** David Turner ***
             Elenco:
                 intro. Parla con David Turner per sbloccare le daily.
+				1. Recuperare Base.SmallSheetMetal;4 (70rep)
+				2. Recuperare Base.SheetMetal;4 (200rep + Base.ScrapVestStudded)
+				3. Recuperare Sweapons.ScrapSpear parlando con (4750,10181,0) (100rep + 20$ + Base.PropaneTank)
+				4. Recuperare Base.ElectronicsScrap;30,Base.ElectricWire;4,Base.SheetMetal;2 (250rep)
+				5. Recuperare Base.ElectronicsScrap;40 (200rep)
+				6. Recuperare Base.ElectronicsScrap;20,Base.Battery;4,Radio.RadioTransmitter;4 (250rep + SWeapons.HugeScrapPickaxe)
+				7. Recuperare Base.Generator parlando con (9503,6174,0) (80rep + 50$)
+				8. Recuperare Base.ElectricWire;10 (70rep + Base.Steak)
+				9. Recuperare Base.ScrapMetal;8;Base.ElectronicsScrap;32 (100rep)
+				10. Recuperare Base.EngineParts;4 (225rep)
+				11. Recuperare Base.MetalPipe;4 (180rep)
+				12. Recuperare Base.UnusableMetal;8 (50rep + Base.ScrapKiltStudded)
+				13. Recuperare Base.ElectronicsMag1 parlando con (7289,8262,0) (130rep)
+				14. Recuperare WaterBottleFull (35rep)
+				15. Recuperare Base.SheetMetal;20,Base.EngineParts;20,Base.ElectronicsScrap;20,Base.UnusableMetal;2 parlando con (8224,7501,0) (80rep + Base.SheetMetal;2,Base.EngineParts;6)
+				16. Recuperare Base.ElectronicsScrap;40 (100rep)
+				17. Recuperare Base.Wrench parlando con (10452,8267,0) (60rep)
+				18. Recuperare Base.SheetPaper2 parlando con (16514,6503,0) (65rep + 25$) - password?: swR48x3j
+				19. Recuperare Base.MetalPipe;2 (65rep)
+				20. Recuperare Base.ScrapMetal;15 (120rep)
+				21. Recuperare Base.ScrapMetal;40 (200rep)
+				22. Recuperare Base.PipeWrench parlando con (8235,10993,0) (50rep + Base.PipeWrench)
+				23. Recuperare Base.ScrapMetal;12 (130rep)
 ]]
 
-local turnerIntro = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_DavidTurner_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
@@ -3793,5 +3816,588 @@ local turnerIntro = {
     unique = true,
     unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Title",
-}
-table.insert(SFQuest_Database.QuestPool, turnerIntro);
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner1",
+
+    awardsrep = "LaResistenza;70", -- REP REWARD
+    needsitem = "SmallSheetMetal;4", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner1_Lore" },
+    text = "IGUI_SFQuest_Questyno_DavidTurner1_Text",
+    texture = "Item_SmallSheetMetal",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner1_Complete",
+    title = "IGUI_SFQuest_Questyno_DavidTurner1_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner2",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsitem = "ScrapVestStudded;1", -- ITEM REWARD
+    needsitem = "SheetMetal;4", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner2_Lore" },
+    text = "IGUI_SFQuest_Questyno_DavidTurner2_Text",
+    texture = "Item_SheetMetal",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner2_Complete",
+    title = "IGUI_SFQuest_Questyno_DavidTurner2_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner3",
+
+    awardstask = "Questyno_DavidTurner3_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner3_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner3_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner3;additem;Sweapons.ScrapSpear;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner3_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner3_Title",
+    unlocks = "clickevent;4750x10181x0:EventoDavidTurner3;time:50:anim:loot;updateobjective:Questyno_DavidTurner3:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner3_A",
+
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;20;PropaneTank;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner3_Lore" },
+    needsitem = "Sweapons.ScrapSpear;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner3_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner3_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner3_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DavidTurner4",
+
+    awardstask = "Questyno_DavidTurner4_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner4_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner4_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner4_A",
+        hidden = false,
+        needsitem = "ElectronicsScrap;30",
+        onobtained = "updateobjective;Questyno_DavidTurner4:1:Completed;removeitem;ElectronicsScrap;30"
+    }, {
+        guid = "Questyno_DavidTurner4_B",
+        text = "IGUI_SFQuest_Questyno_DavidTurner4_B",
+        hidden = false,
+        needsitem = "ElectricWire;4",
+        onobtained = "updateobjective;Questyno_DavidTurner4:2:Completed;removeitem;ElectricWire;4"
+    }, {
+        guid = "Questyno_DavidTurner4_C",
+        text = "IGUI_SFQuest_Questyno_DavidTurner4_C",
+        hidden = false,
+        needsitem = "SheetMetal;2",
+        onobtained = "updateobjective;Questyno_DavidTurner4:3:Completed;removeitem;SheetMetal;2"
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner4_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner4_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner4_A",
+
+    awardsrep = "LaResistenza;250",
+    completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner4_Lore" },
+    unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner4_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner4_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner4_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner5",
+
+    awardsrep = "LaResistenza;200",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner5_Lore" },
+    needsitem = "ElectronicsScrap;40",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner5_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner5_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner5_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner6",
+
+    awardstask = "Questyno_DavidTurner6_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner6_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner6_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner6_A",
+        hidden = false,
+        needsitem = "ElectronicsScrap;20",
+        onobtained = "updateobjective;Questyno_DavidTurner6:1:Completed;removeitem;ElectronicsScrap;20"
+    }, {
+        guid = "Questyno_DavidTurner6_B",
+        text = "IGUI_SFQuest_Questyno_DavidTurner6_B",
+        hidden = false,
+        needsitem = "Battery;4",
+        onobtained = "updateobjective;Questyno_DavidTurner6:2:Completed;removeitem;Battery;4"
+    }, {
+        guid = "Questyno_DavidTurner6_C",
+        text = "IGUI_SFQuest_Questyno_DavidTurner6_C",
+        hidden = false,
+        needsitem = "RadioTransmitter;4",
+        onobtained = "updateobjective;Questyno_DavidTurner6:3:Completed;removeitem;RadioTransmitter;4"
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner6_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner6_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner6_A",
+
+    awardsrep = "LaResistenza;250",
+    awardsitem = "Sweapons.HugeScrapPickaxe;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner6_Lore" },
+    unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner6_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner6_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner6_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner7",
+
+    awardstask = "Questyno_DavidTurner7_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner7_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner7_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner7_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner7;additem;Generator;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner7_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner7_Title",
+    unlocks = "clickevent;9503x6174x0:EventoDavidTurner7;time:50:anim:loot;updateobjective:Questyno_DavidTurner7:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner7_A",
+
+    awardsrep = "LaResistenza;80",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner7_Lore" },
+    needsitem = "Generator;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner7_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner7_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner7_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner8",
+
+    awardsrep = "LaResistenza;70",
+    awardsitem = "Steak;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner8_Lore" },
+    needsitem = "ElectricWire;10",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner8_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner8_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner8_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner9",
+
+    awardstask = "Questyno_DavidTurner9_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner9_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner9_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner9_A",
+        hidden = false,
+        needsitem = "ScrapMetal;8",
+        onobtained = "updateobjective;Questyno_DavidTurner9:1:Completed;removeitem;ScrapMetal;8"
+    }, {
+        guid = "Questyno_DavidTurner9_B",
+        text = "IGUI_SFQuest_Questyno_DavidTurner9_B",
+        hidden = false,
+        needsitem = "ElectronicsScrap;32",
+        onobtained = "updateobjective;Questyno_DavidTurner9:2:Completed;removeitem;ElectronicsScrap;32"
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner9_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner9_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner9_A",
+
+    awardsrep = "LaResistenza;100",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner9_Lore" },
+    unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner9_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner9_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner9_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner10",
+
+    awardsrep = "LaResistenza;225",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner10_Lore" },
+    needsitem = "EngineParts;4",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner10_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner10_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner10_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner11",
+
+    awardsrep = "LaResistenza;180",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner11_Lore" },
+    needsitem = "MetalPipe;4",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner11_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner11_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner11_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner12",
+
+    awardsrep = "LaResistenza;50",
+    awardsitem = "ScrapKiltStudded;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner12_Lore" },
+    needsitem = "UnusableMetal;8",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner12_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner12_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner12_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner13",
+
+    awardstask = "Questyno_DavidTurner13_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner13_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner13_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner13_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner13;additem;ElectronicsMag1;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner13_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner13_Title",
+    unlocks = "clickevent;7289x8262x0:EventoDavidTurner13;time:50:anim:loot;updateobjective:Questyno_DavidTurner13:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner13_A",
+
+    awardsrep = "LaResistenza;130",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner13_Lore" },
+    needsitem = "ElectronicsMag1;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner13_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner13_A_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner13_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner14",
+
+    awardsrep = "LaResistenza;35",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner14_Lore" },
+    needsitem = "WaterBottleFull;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner14_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner14_Text",
+    texture = "Item_SheetMetal",
+    title = "IGUI_SFQuest_Questyno_DavidTurner14_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner15",
+    
+    awardstask = "Questyno_DavidTurner15_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner15_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner15_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner15_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner15;additem;SheetMetal;20;additem;EngineParts;20;additem;ElectronicsScrap;20;additem;UnusableMetal;2",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner15_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
+    unlocks = "clickevent;8224x7501x0:EventoDavidTurner15;time:50:anim:loot;updateobjective:Questyno_DavidTurner15:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner15_A",
+    
+    awardstask = "Questyno_DavidTurner15_B",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner15_Lore" },
+    objectives = {{
+        guid = "Questyno_DavidTurner15_B",
+        text = "IGUI_SFQuest_Questyno_DavidTurner15_B",
+        hidden = false,
+        needsitem = "SheetMetal;20",
+        onobtained = "updateobjective;Questyno_DavidTurner15_A:1:Completed;removeitem;SheetMetal;20"
+    }, {
+        guid = "Questyno_DavidTurner15_C",
+        text = "IGUI_SFQuest_Questyno_DavidTurner15_C",
+        hidden = false,
+        needsitem = "EngineParts;20",
+        onobtained = "updateobjective;Questyno_DavidTurner15_A:2:Completed;removeitem;EngineParts;20"
+    }, {
+        guid = "Questyno_DavidTurner15_D",
+        text = "IGUI_SFQuest_Questyno_DavidTurner15_D",
+        hidden = false,
+        needsitem = "ElectronicsScrap;20",
+        onobtained = "updateobjective;Questyno_DavidTurner15_A:3:Completed;removeitem;ElectronicsScrap;20"
+    }, {
+        guid = "Questyno_DavidTurner15_E",
+        text = "IGUI_SFQuest_Questyno_DavidTurner15_E",
+        hidden = false,
+        needsitem = "UnusableMetal;2",
+        onobtained = "updateobjective;Questyno_DavidTurner15_A:4:Completed;removeitem;UnusableMetal;2"
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner15_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner15_B",
+    awardsrep = "LaResistenza;80",
+    awardsitem = "SheetMetal;2;EngineParts;6",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner15_Lore" },
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner15_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner15_B_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner16",
+
+    awardsrep = "LaResistenza;100",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner16_Lore" },
+    needsitem = "ElectronicsScrap;40",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner16_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner16_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner16_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner17",
+
+    awardstask = "Questyno_DavidTurner17_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner17_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner17_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner17_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner17;additem;Wrench;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner17_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner17_Title",
+    unlocks = "clickevent;10452x8267x0:EventoDavidTurner17;time:50:anim:loot;updateobjective:Questyno_DavidTurner17:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner17_A",
+
+    awardsrep = "LaResistenza;60",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner17_Lore" },
+    needsitem = "Wrench;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner17_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner17_A_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner17_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner18",
+
+    awardstask = "Questyno_DavidTurner18_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner18_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner18_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner18_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner18;additem;SheetPaper2;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner18_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner18_Title",
+    unlocks = "clickevent;16514x6503x0:EventoDavidTurner18;time:50:anim:loot;updateobjective:Questyno_DavidTurner18:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner18_A",
+
+    awardsrep = "LaResistenza;65",
+    awardsitem = "Money;25",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner18_Lore" },
+    needsitem = "SheetPaper2;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner18_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner18_A_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner18_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner19",
+
+    awardsrep = "LaResistenza;65",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner19_Lore" },
+    needsitem = "MetalPipe;2",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner19_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner19_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner19_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner20",
+
+    awardsrep = "LaResistenza;120",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner20_Lore" },
+    needsitem = "ScrapMetal;15",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner20_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner20_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner20_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner21",
+
+    awardsrep = "LaResistenza;200",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner21_Lore" },
+    needsitem = "ScrapMetal;40",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner21_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner21_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner21_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner22",
+
+    awardstask = "Questyno_DavidTurner22_A",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner22_Lore" },
+    objectives = { {
+        guid = "Questyno_DavidTurner22_A",
+        text = "IGUI_SFQuest_Questyno_DavidTurner22_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDavidTurner22;additem;PipeWrench;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_DavidTurner22_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner22_Title",
+    unlocks = "clickevent;8235x10993x0:EventoDavidTurner22;time:50:anim:loot;updateobjective:Questyno_DavidTurner22:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner22_A",
+
+    awardsrep = "LaResistenza;50",
+    awardsitem = "PipeWrench;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner22_Lore" },
+    needsitem = "PipeWrench;1",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner22_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner22_A_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner22_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_DavidTurner23",
+
+    awardsrep = "LaResistenza;130",
+    completesound = "levelup",
+    dailycode = "Questyno_DavidTurner",
+    lore = { "IGUI_SFQuest_Questyno_DavidTurner23_Lore" },
+    needsitem = "ScrapMetal;12",
+    onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner23_Complete",
+    text = "IGUI_SFQuest_Questyno_DavidTurner23_Text",
+    texture = "Item_EngineParts",
+    title = "IGUI_SFQuest_Questyno_DavidTurner23_Title",
+})

@@ -1446,9 +1446,100 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_X
             *** David Turner ***
             Elenco:
                 intro. Parla con David Turner per sbloccare le daily.
+				1. Recuperare Base.SmallSheetMetal;4 (70rep)
+				2. Recuperare Base.SheetMetal;4 (200rep + Base.ScrapVestStudded)
+				3. Recuperare Sweapons.ScrapSpear parlando con (4750,10181,0) (100rep + 20$ + Base.PropaneTank)
+				4. Recuperare Base.ElectronicsScrap;30,Base.ElectricWire;4,Base.SheetMetal;2 (250rep)
+				5. Recuperare Base.ElectronicsScrap;40 (200rep)
+				6. Recuperare Base.ElectronicsScrap;20,Base.Battery;4,Radio.RadioTransmitter;4 (250rep + SWeapons.HugeScrapPickaxe)
+				7. Recuperare Base.Generator parlando con (9503,6174,0) (80rep + 50$)
+				8. Recuperare Base.ElectricWire;10 (70rep + Base.Steak)
+				9. Recuperare Base.ScrapMetal;8;Base.ElectronicsScrap;32 (100rep)
+				10. Recuperare Base.EngineParts;4 (225rep)
+				11. Recuperare Base.MetalPipe;4 (180rep)
+				12. Recuperare Base.UnusableMetal;8 (50rep + Base.ScrapKiltStudded)
+				13. Recuperare Base.ElectronicsMag1 parlando con (7289,8262,0) (130rep)
+				14. Recuperare WaterBottleFull (35rep)
+				15. Recuperare Base.SheetMetal;20,Base.EngineParts;20,Base.ElectronicsScrap;20,Base.UnusableMetal;2 parlando con (8224,7501,0) (80rep + Base.SheetMetal;2,Base.EngineParts;6)
+				16. Recuperare Base.ElectronicsScrap;40 (100rep)
+				17. Recuperare Base.Wrench parlando con (10452,8267,0) (60rep)
+				18. Recuperare Base.SheetPaper2 parlando con (16514,6503,0) (65rep + 25$) - password?: swR48x3j
+				19. Recuperare Base.MetalPipe;2 (65rep)
+				20. Recuperare Base.ScrapMetal;15 (120rep)
+				21. Recuperare Base.ScrapMetal;40 (200rep)
+				22. Recuperare Base.PipeWrench parlando con (8235,10993,0) (50rep + Base.PipeWrench)
+				23. Recuperare Base.ScrapMetal;12 (130rep)
 ]]
 
 -- intro. parla con David Turner per sbloccare le daily
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner_Intro", text = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text"})
---table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner1", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Declined"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner1", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner1", text = "IGUI_SFQuest_Questyno_DavidTurner1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner2", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner2", text = "IGUI_SFQuest_Questyno_DavidTurner2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner3", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner3_A", text = "IGUI_SFQuest_Questyno_DavidTurner3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner4", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner4_A", text = "IGUI_SFQuest_Questyno_DavidTurner4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner5", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner5", text = "IGUI_SFQuest_Questyno_DavidTurner5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner6", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner6_A", text = "IGUI_SFQuest_Questyno_DavidTurner6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner7", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner7_A", text = "IGUI_SFQuest_Questyno_DavidTurner7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner8", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner8", text = "IGUI_SFQuest_Questyno_DavidTurner8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner9", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner9_A", text = "IGUI_SFQuest_Questyno_DavidTurner9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner10", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner10", text = "IGUI_SFQuest_Questyno_DavidTurner10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner11", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner11", text = "IGUI_SFQuest_Questyno_DavidTurner11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner12", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner12", text = "IGUI_SFQuest_Questyno_DavidTurner12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner13", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner13_A", text = "IGUI_SFQuest_Questyno_DavidTurner13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner14", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner14", text = "IGUI_SFQuest_Questyno_DavidTurner14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner15", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner15_B", text = "IGUI_SFQuest_Questyno_DavidTurner15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner16", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner16", text = "IGUI_SFQuest_Questyno_DavidTurner16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner17", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner17_A", text = "IGUI_SFQuest_Questyno_DavidTurner17_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner18", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner18_A", text = "IGUI_SFQuest_Questyno_DavidTurner18_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner19", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner19", text = "IGUI_SFQuest_Questyno_DavidTurner19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner20", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner20", text = "IGUI_SFQuest_Questyno_DavidTurner20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner21", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner21", text = "IGUI_SFQuest_Questyno_DavidTurner21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner22", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner22_A", text = "IGUI_SFQuest_Questyno_DavidTurner22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner23", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner23", text = "IGUI_SFQuest_Questyno_DavidTurner23_Complete"})
 
