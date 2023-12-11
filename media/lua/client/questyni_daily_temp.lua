@@ -943,6 +943,7 @@ local chinaQuest8A = {
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_RosaChina8_Title",
 }
+table.insert(SFQuest_Database.QuestPool, chinaQuest8A);
 
 local chinaQuest9 = {
     guid = "Questyno_RosaChina9",

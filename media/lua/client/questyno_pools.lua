@@ -20,49 +20,7 @@ require 'SFQuest_Database'
         Entry composte da "WorldEvent;DialogueCode;QuestGuid"
         Quando si usa randomcodeworldfrompool gli ultimi due parametri di
         questo ExamplePool saranno ExamplePool più Pool1 o Pool2
-
- ExamplePool = {
-	Pool1 = {
-	"PondStalker_Bandits;ThePondStalker_AmmoBox_Bandits;ThePondStalker_AmmoBox_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Animal_Bandits;ThePondStalker_Animal_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Artifact_Bandits;ThePondStalker_Artifact_Bandits",
-	"PondStalker_Bandits;ThePondStalker_BigFish_Bandits;ThePondStalker_BigFish_Bandits",
-	"PondStalker_Bandits;ThePondStalker_CannedFood_Bandits;ThePondStalker_CannedFood_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Fish_Bandits;ThePondStalker_Fish_Bandits",
-	"PondStalker_Bandits;ThePondStalker_ForagedFood_Bandits;ThePondStalker_ForagedFood_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Medicine_Bandits;ThePondStalker_Medicine_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Patches_Bandits;ThePondStalker_Patches_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Pistol_Bandits;ThePondStalker_Pistol_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Rifle_Bandits;ThePondStalker_Rifle_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Shotgun_Bandits;ThePondStalker_Shotgun_Bandits",
-	"PondStalker_Bandits;ThePondStalker_SkillBook_Bandits;ThePondStalker_SkillBook_Bandits",
-	"PondStalker_Bandits;ThePondStalker_Zombies_Bandits;ThePondStalker_Zombies_Bandits",
-	},
-	Pool2 = {
-	"PondStalker_ClearSky;ThePondStalker_AmmoBox_ClearSky;ThePondStalker_AmmoBox_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Animal_ClearSky;ThePondStalker_Animal_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Artifact_ClearSky;ThePondStalker_Artifact_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_BigFish_ClearSky;ThePondStalker_BigFish_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_CannedFood_ClearSky;ThePondStalker_CannedFood_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Fish_ClearSky;ThePondStalker_Fish_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_ForagedFood_ClearSky;ThePondStalker_ForagedFood_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Medicine_ClearSky;ThePondStalker_Medicine_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Pistol_ClearSky;ThePondStalker_Pistol_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Rifle_ClearSky;ThePondStalker_Rifle_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Shotgun_ClearSky;ThePondStalker_Shotgun_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_SkillBook_ClearSky;ThePondStalker_SkillBook_ClearSky",
-	"PondStalker_ClearSky;ThePondStalker_Zombies_ClearSky;ThePondStalker_Zombies_ClearSky",
-	},
-}
-
-SFQuest_Database.RandomEventPool.ExamplePool = ExamplePool;
-
-	WORK IN PROGRESS
-
-	This is how you insert a daily event:
-table.insert(SFQuest_Database.DailyEventPool, { dailycode = "Example_DailyCode", condition = "notmaxedwithcode;QuestDailyCodeForThisPool;1", commands = "randomcodedworldfrompool;PondStalker_Bandits;ThePondStalker;Bandits", days = 0, frequency = 12});
-
-]]
+]]--
 
 Questyno = {
 	--[[ 	Money = {
@@ -382,7 +340,32 @@ Questyno = {
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott21_Begin;Questyno_GeorgeScott21",
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Begin;Questyno_GeorgeScott22",
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott23_Begin;Questyno_GeorgeScott23",
-	}
+	},
+	SamuelYoung = {
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung1_Begin;Questyno_SamuelYoung1",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung2_Begin;Questyno_SamuelYoung2",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung3_Begin;Questyno_SamuelYoung3",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung4_Begin;Questyno_SamuelYoung4",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung5_Begin;Questyno_SamuelYoung5",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung6_Begin;Questyno_SamuelYoung6",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung7_Begin;Questyno_SamuelYoung7",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung8_Begin;Questyno_SamuelYoung8",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung9_Begin;Questyno_SamuelYoung9",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung10_Begin;Questyno_SamuelYoung10",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung11_Begin;Questyno_SamuelYoung11",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung12_Begin;Questyno_SamuelYoung12",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung13_Begin;Questyno_SamuelYoung13",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung14_Begin;Questyno_SamuelYoung14",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung15_Begin;Questyno_SamuelYoung15",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung16_Begin;Questyno_SamuelYoung16",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung17_Begin;Questyno_SamuelYoung17",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung18_Begin;Questyno_SamuelYoung18",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung19_Begin;Questyno_SamuelYoung19",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung20_Begin;Questyno_SamuelYoung20",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung21_Begin;Questyno_SamuelYoung21",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung22_Begin;Questyno_SamuelYoung22",
+		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung23_Begin;Questyno_SamuelYoung23",
+	},
 }
 
 SFQuest_Database.RandomEventPool.Questyno = Questyno;
@@ -478,6 +461,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_SamuelYoung",
+	condition = "notmaxedwithcode;Questyno_SamuelYoung;1",
+	commands = "randomcodedworldfrompool;Questyno_SamuelYoung;Questyno;SamuelYoung",
+	days = 0,
+	frequency = 1
+});
 
 
 -- quest introduttive daily
@@ -501,6 +491,22 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
 
+-- quest daily (così vengono sbloccate da subito?)
+--table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
+--table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Grif" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EliaRima" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BobRepair" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MikePozzo" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RosaChina" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EmilyTerry" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SusanLee" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GeorgeScott" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamuelYoung" })
+
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_TonyLupo;SFQuest_Questyno_Lupo_Intro_Complete;Questyno_Lupo_Intro" })
@@ -522,17 +528,3 @@ table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_DavidTurner;SFQue
 --[[ table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn_Intro_Complete;Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett_Intro_Complete;Questyno_ElowenBeckett_Intro" })
  ]]
--- quest daily
---table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
---table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Grif" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EliaRima" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BobRepair" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MikePozzo" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RosaChina" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EmilyTerry" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SusanLee" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GeorgeScott" })

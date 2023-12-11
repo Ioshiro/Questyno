@@ -2,7 +2,7 @@ require("SFQuest_ServerCommands")
 local Commands = {}
 
 function Commands.saveData(player, args)
-	if not isClient() or not args then return end
+	if isClient() or not args then return end
 	local id = player:getUsername();
 
 	--print("Parsing data table for ID " .. id);
@@ -22,8 +22,31 @@ function Commands.saveData(player, args)
 		filereader:close();
 	end
 	local tempsize = #temp;
-	if tempsize > #args.data then
-		print("zSOUL QUEST SYSTEM - Backup file has more lines than current progress, aborting backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. progresssize .. ")");
+	local datasize = 0
+	for k,v in pairs(args) do
+    	if type(v)=="table" then
+			for kn,vn in pairs(v) do
+				if type(vn)=="table" then
+					for kkn,vvn in pairs(vn) do
+						if type(vvn) == "table" then
+							for kkkn,vvvn in pairs(vvn) do
+								datasize = datasize + 1
+							end
+							datasize = datasize + 1
+						end
+						datasize = datasize + 1
+					end
+				end
+				datasize = datasize + 1
+			end
+		end
+		datasize = datasize + 1
+	end
+	datasize = datasize + 1
+	if tempsize > datasize then
+		print("zSOUL QUEST SYSTEM - Backup file has more lines than current progress, sending backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. datasize .. ")");
+		local newargs = { id = id , data = temp };
+		sendServerCommand('SFQuest', "setProgress", newargs);
 		return
 	end
 	local filewriter = getFileWriter(filepath, true, false);

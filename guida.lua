@@ -56,7 +56,7 @@
                 in /media/scripts del codice sorgente. Spesso sono nomi strani e diversi dal type dell'oggetto, quindi nel dubbio mettere "Item_Money"
 ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardsworld = "Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero+1]_Begin;Questyno_[NomeCognomeNumero+1]", -- Dialogo sbloccato al completamento della quest,
@@ -74,8 +74,7 @@ local cognomeNumero = {
     unlocks = "unlockworldevent;Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero]_Complete",                  -- Codice che viene eseguito allo sblocco della quest
                                                                                                                         -- in questo caso sblocca sempre il dialogo per completare la quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                 
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero)                                                                 -- Inserisce la quest nel database delle quest
+})
 
 --[[ Pattern 2:
     -   Caso Recupera Item Base: Quest che richiede X item dello stesso tipo da recuperare,
@@ -92,7 +91,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumero)                         
     [NumeroRichiesto] = Quantità dell'oggetto che viene richiesta per completare la quest
  ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest                                         
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -113,8 +112,7 @@ local cognomeNumero = {
                                                                                                                         -- in questo caso c'è sempre il dialogo per completare la quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+})
 
 --[[ Pattern 3:
     -   Caso Recupera Item Avanzato: Quest che richiede X item di Y tipi diversi da recuperare,
@@ -131,7 +129,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumero);                        
     [NumeroRichiestoX] = Quantità X dell'oggetto Y che viene richiesta per completare la quest
  ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_A",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -163,10 +161,9 @@ local cognomeNumero = {
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+})
 
-local cognomeNumeroA = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_A",                                                                            -- ID della quest
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -177,7 +174,7 @@ local cognomeNumeroA = {
     awardsworld = "Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero+1]_Begin;Questyno_[NomeCognomeNumero+1]", -- Dialogo sbloccato al completamento della quest,
                                                                                                                         -- c'è solo se la quest fa parte di una catena,
     completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
-    dailycode = "Questyno_HeatherThomas",                                                                               -- Codice che raggruppa i pool di quest daily
+    dailycode = "Questyno_[NomeCognome]",                                                                               -- Codice che raggruppa i pool di quest daily
                                                                                                                         -- c'è solo se la quest fa parte di un pool di daily 
     lore = { "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Lore" },                                                        -- Testo lore della quest, seguire il pattern
     unlocks = "unlockworldevent;Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero]_Complete",                  -- Codice che viene eseguito allo sblocco della quest
@@ -185,8 +182,7 @@ local cognomeNumeroA = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                                                               -- Inserisce la quest nel database delle quest
+})
 
 --[[ Pattern 4:
     -   Caso Recupero Item Base Parlando con NPC/Tile: Quest che richiede X item dello stesso tipo,
@@ -205,7 +201,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
     [Coordinate] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_A",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -229,10 +225,9 @@ local cognomeNumero = {
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
                                                                                                                         -- ATTENZIONE COORDINATE SEPARATE DA "x" NON ","
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+})
 
-local cognomeNumeroA = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_A",                                                                            -- ID della quest
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -252,8 +247,7 @@ local cognomeNumeroA = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                                                               -- Inserisce la quest nel database delle quest
+})
 
 --[[ Pattern 5:
     - Caso Recupero Item Base Parlando con Multipli NPC/Tile: Quest che richiede X item dello stesso tipo,
@@ -272,7 +266,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
     [CoordinateZ] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
 ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_A",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -303,10 +297,9 @@ local cognomeNumero = {
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
                                                                                                                         -- ATTENZIONE COORDINATE SEPARATE DA "x" NON ","
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+} )
 
-local cognomeNumeroA = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_A",                                                                            -- ID della quest
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -317,7 +310,7 @@ local cognomeNumeroA = {
     awardsworld = "Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero+1]_Begin;Questyno_[NomeCognomeNumero+1]", -- Dialogo sbloccato al completamento della quest,
                                                                                                                         -- c'è solo se la quest fa parte di una catena,
     completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
-    dailycode = "Questyno_HeatherThomas",                                                                               -- Codice che raggruppa i pool di quest daily
+    dailycode = "Questyno_[NomeCognome]",                                                                               -- Codice che raggruppa i pool di quest daily
                                                                                                                         -- c'è solo se la quest fa parte di un pool di daily 
     lore = { "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Lore" },                                                        -- Testo lore della quest, seguire il pattern
     needsitem = "[NomeRichiesto];[NumeroRichiesto]",                                                                    -- Item che viene richiesto per completare la quest
@@ -326,8 +319,7 @@ local cognomeNumeroA = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                                                               -- Inserisce la quest nel database delle quest
+})
 
 
 --[[ Pattern 6:
@@ -347,7 +339,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                       
     [Coordinate] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_A",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -371,10 +363,9 @@ local cognomeNumero = {
                                                                                                                         -- in questo caso aggiunge l'interazione che aggiorna l'obiettivo
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+})
 
-local cognomeNumeroA = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_A",                                                                            -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_B",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -397,10 +388,9 @@ local cognomeNumeroA = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                                                               -- Inserisce la quest nel database delle quest
+})
 
-local cognomeNumeroB = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_B",                                                                            -- ID della quest
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -420,8 +410,7 @@ local cognomeNumeroB = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroB);                                                               -- Inserisce la quest nel database delle quest
+})
 
 --[[ Pattern 7:
     -   Caso Recupero Item Avanzato Parlando con Multipli NPC/Tile: Quest che richiede X item di Y tipi diversi,
@@ -440,7 +429,7 @@ table.insert(SFQuest_Database.QuestPool, cognomeNumeroB);                       
     [CoordinateZ] = Coordinate dell'interazione che viene aggiunta allo sblocco della quest (ATTENZIONE: il formato è "1234x1234x0", non metterci le virgole)
  ]]
 
-local cognomeNumero = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]",                                                                              -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_A",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -470,10 +459,9 @@ local cognomeNumero = {
                                                                                                                         -- in questo caso aggiunge l'interazione che aggiorna l'obiettivo
                                                                                                                         -- ATTENZIONE ALLE ";" E ":", MANTENERE IL PATTERN
     unlockedsound = "QuestUnlocked"                                                                                     -- Suono sblocco quest, sempre uguale
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumero);                                                                -- Inserisce la quest nel database delle quest
+} )
 
-local cognomeNumeroA = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_A",                                                                            -- ID della quest
 
     awardstask = "Questyno_[NomeCognomeNumero]_B",                                                                      -- Quest che viene sbloccata al completamento della quest attuale
@@ -498,10 +486,9 @@ local cognomeNumeroA = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_B")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
-}
-table.insert(SFQuest_Database.QuestPool, cognomeNumeroA);                                                               -- Inserisce la quest nel database delle quest
+})
 
-local congomeNumeroB = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_[NomeCognomeNumero]_B",                                                                            -- ID della quest
 
     awardsrep = "LaResistenza;[NumeroReputazione]",                                                                     -- Reputazione che viene aggiunta al completamento della quest
@@ -520,8 +507,7 @@ local congomeNumeroB = {
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_B")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vic
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
-}
-table.insert(SFQuest_Database.QuestPool, congomeNumeroB);                                                               -- Inserisce la quest nel database delle quest
+} )
 
 
 --                                                              *** 2) dialoghyni_NOME.lua ***

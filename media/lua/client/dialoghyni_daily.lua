@@ -1237,12 +1237,101 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_G
             *** Samuel Young ***
             Elenco:
                 intro. Parla con Samuel Young per sbloccare le daily.
+				1. Recuperare Base.DeadRabbit;4 (275rep)
+				2. Recuperare Base.DeadRabbit;2 (150rep)
+				3. Recuperare TrapCrate:30 (100rep + Spago)
+				4. Recuperare Base.TrapBox;15 (200rep + 30$)
+				5. Recuperare Base.DeadSquirrel;2 (80rep)
+				6. Recuperare Base.Bird;4 (200rep)
+				7. Recuperare Base.DeadRabbit;2 (80rep + DehydratedMeatStick;8)
+				8. Recuperare Moveables.camping_01_17 parlando con (11217,8963,0) (40rep + 50$)
+				9. Recuperare Base.Bird;2 (90rep + Base.BeefJerky)
+				10. Recuperare Base.DeadSquirrel;2 (50rep + 30$ + Base.BeefJerky;3)
+				11. Recuperare Base.TrapBox;6 (50rep + 30$)
+				12. Recuperare Base.TrapCrate;8 (60rep + 20$)
+				13. Recuperare Base.Cabbage;10;Base.Carrots;2;farming.Potato;4 (200rep)
+				14. Recuperare Base.Grasshopper;10;Base.Worm;20 (140rep)
+				15. Recuperare Base.DeadRabbit;6 (190rep)
+				16. Recuperare Base.DeadSquirrel;10 parlando con (11380,9501,0) (150rep + Base.DeadSquirrel)
+				17. Recuperare Base.DeadRabbit;10 parlando con (11330,9482,0) (150rep + Base.DeadRabbit)
+				18. Recuperare Base.DeadRabbit;2 (60rep)
+				19. Recuperare Base.LeatherStrips;20 (60rep + Scrap Club)
+				20. Recuperare Base.LeatherStrips;10 (40rep)
+				21. Recuperare Base.TrapMouse (50rep)
+				22. Recuperare Base.DeadRabbit;6 (250rep + 50$)
+				23. Parlare con (8008,11896,0) (35rep + Base.Salt)
 ]]
 
 -- intro. parla con Samuel Young per sbloccare le daily
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung_Intro", text = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text"})
---table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung1", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Declined"})
 
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung1", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung1", text = "IGUI_SFQuest_Questyno_SamuelYoung1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung2", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung2", text = "IGUI_SFQuest_Questyno_SamuelYoung2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung3", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung3", text = "IGUI_SFQuest_Questyno_SamuelYoung3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung4", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung4", text = "IGUI_SFQuest_Questyno_SamuelYoung4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung5", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung5", text = "IGUI_SFQuest_Questyno_SamuelYoung5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung6", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung6", text = "IGUI_SFQuest_Questyno_SamuelYoung6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung7", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung7", text = "IGUI_SFQuest_Questyno_SamuelYoung7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung8", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung8_A", text = "IGUI_SFQuest_Questyno_SamuelYoung8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung9", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung9", text = "IGUI_SFQuest_Questyno_SamuelYoung9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung10", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung10", text = "IGUI_SFQuest_Questyno_SamuelYoung10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung11", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung11", text = "IGUI_SFQuest_Questyno_SamuelYoung11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung12", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung12", text = "IGUI_SFQuest_Questyno_SamuelYoung12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung13", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung13_A", text = "IGUI_SFQuest_Questyno_SamuelYoung13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung14", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung14_A", text = "IGUI_SFQuest_Questyno_SamuelYoung14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung15", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung15", text = "IGUI_SFQuest_Questyno_SamuelYoung15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung16", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung16_A", text = "IGUI_SFQuest_Questyno_SamuelYoung16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung17", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung17_A", text = "IGUI_SFQuest_Questyno_SamuelYoung17_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung18", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung18", text = "IGUI_SFQuest_Questyno_SamuelYoung18_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung19", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung19", text = "IGUI_SFQuest_Questyno_SamuelYoung19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung20", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung20", text = "IGUI_SFQuest_Questyno_SamuelYoung20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung21", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung21", text = "IGUI_SFQuest_Questyno_SamuelYoung21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung22", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamuelYoung22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamuelYoung22", text = "IGUI_SFQuest_Questyno_SamuelYoung22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamuelYoung23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamuelYoung23", optional = true, text = "IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Declined"})
 
 --[[
             *** Xu Mishura ***

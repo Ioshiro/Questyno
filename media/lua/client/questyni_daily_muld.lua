@@ -2848,9 +2848,32 @@ table.insert(SFQuest_Database.QuestPool, scottQuest23);
             *** Samuel Young ***
             Elenco:
                 intro. Parla con Samuel Young per sbloccare le daily.
+				1. Recuperare Base.DeadRabbit;4 (275rep)
+				2. Recuperare Base.DeadRabbit;2 (150rep)
+				3. Recuperare TrapCrate:30 (100rep + Spago)
+				4. Recuperare Base.TrapBox;15 (200rep + 30$)
+				5. Recuperare Base.DeadSquirrel;2 (80rep)
+				6. Recuperare Base.Bird;4 (200rep)
+				7. Recuperare Base.DeadRabbit;2 (80rep + DehydratedMeatStick;8)
+				8. Recuperare Moveables.camping_01_17 parlando con (11217,8963,0) (40rep + 50$)
+				9. Recuperare Base.Bird;2 (90rep + Base.BeefJerky)
+				10. Recuperare Base.DeadSquirrel;2 (50rep + 30$ + Base.BeefJerky;3)
+				11. Recuperare Base.TrapBox;6 (50rep + 30$)
+				12. Recuperare Base.TrapCrate;8 (60rep + 20$)
+				13. Recuperare Base.Cabbage;10;Base.Carrots;2;farming.Potato;4 (200rep)
+				14. Recuperare Base.Grasshopper;10;Base.Worm;20 (140rep)
+				15. Recuperare Base.DeadRabbit;6 (190rep)
+				16. Recuperare Base.DeadSquirrel;10 parlando con (11380,9501,0) (150rep + Base.DeadSquirrel)
+				17. Recuperare Base.DeadRabbit;10 parlando con (11330,9482,0) (150rep + Base.DeadRabbit)
+				18. Recuperare Base.DeadRabbit;2 (60rep)
+				19. Recuperare Base.LeatherStrips;20 (60rep + Scrap Club)
+				20. Recuperare Base.LeatherStrips;10 (40rep)
+				21. Recuperare Base.TrapMouse (50rep)
+				22. Recuperare Base.DeadRabbit;6 (250rep + 50$)
+				23. Parlare con (8008,11896,0) (35rep + Base.Salt)
 ]]
 
-local youngIntro = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
@@ -2862,8 +2885,475 @@ local youngIntro = {
     unique = true,
     unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title",
-}
-table.insert(SFQuest_Database.QuestPool, youngIntro);
+});
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung1",
+
+    awardsrep = "LaResistenza;275", -- REP REWARD
+    needsitem = "DeadRabbit;4", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung1_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung1_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung1_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung1_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung2",
+
+    awardsrep = "LaResistenza;150", -- REP REWARD
+    needsitem = "DeadRabbit;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung2_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung2_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung2_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung2_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung3",
+
+    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsitem = "Base.Twine;1", -- ITEM REWARD
+    needsitem = "TrapCrate;30", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung3_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung3_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung3_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung3_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung4",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsitem = "Money;30", -- ITEM REWARD
+    needsitem = "TrapBox;15", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung4_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung4_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung4_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung4_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung5",
+
+    awardsrep = "LaResistenza;80", -- REP REWARD
+    needsitem = "DeadSquirrel;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung5_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung5_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung5_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung5_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung6",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    needsitem = "Bird;4", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung6_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung6_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung6_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung6_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung7",
+
+    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsitem = "Base.DehydratedMeatStick;8", -- ITEM REWARD
+    needsitem = "DeadRabbit;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung7_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung7_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung7_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung7_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung8",
+
+    awardstask = "Questyno_SamuelYoung8_A",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung8_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung8_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung8_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamuelYoung8;additem;Moveables.camping_01_17;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung8_Text",
+    texture = "Item_Tent",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung8_Title",
+    unlocks = "clickevent;11217x8963x0:EventoSamuelYoung8;time:50:anim:loot;updateobjective:Questyno_SamuelYoung8:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung8_A",
+
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung8_Lore" },
+    needsitem = "Moveables.camping_01_17;1",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung8_Complete",
+    text = "IGUI_SFQuest_Questyno_SamuelYoung8_A_Text",
+    texture = "Item_Tent",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung8_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung9",
+
+    awardsrep = "LaResistenza;90", -- REP REWARD
+    awardsitem = "Base.BeefJerky;2", -- ITEM REWARD
+    needsitem = "Bird;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung9_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung9_Text",
+    texture = "Item_BirdDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung9_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung9_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung10",
+
+    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsitem = "Money;30;Base.BeefJerky;3", -- ITEM REWARD
+    needsitem = "DeadSquirrel;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung10_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung10_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung10_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung10_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung11",
+
+    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsitem = "Money;30", -- ITEM REWARD
+    needsitem = "TrapBox;6", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung11_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung11_Text",
+    texture = "Item_TrapBox",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung11_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung11_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung12",
+
+    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsitem = "Money;20", -- ITEM REWARD
+    needsitem = "TrapCrate;8", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung12_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung12_Text",
+    texture = "Item_TrapCrate",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung12_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung12_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamuelYoung13",
+    
+    awardstask = "Questyno_SamuelYoung13_A",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung13_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung13_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung13_A",
+        hidden = false,
+        needsitem = "Cabbage;10",
+        onobtained = "updateobjective;Questyno_SamuelYoung13:1:Completed;removeitem;Cabbage;10"
+    }, {
+        guid = "Questyno_SamuelYoung13_B",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung13_B",
+        hidden = false,
+        needsitem = "Carrots;2",
+        onobtained = "updateobjective;Questyno_SamuelYoung13:2:Completed;removeitem;Carrots;2"
+    }, {
+        guid = "Questyno_SamuelYoung13_C",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung13_C",
+        hidden = false,
+        needsitem = "Potato;4",
+        onobtained = "updateobjective;Questyno_SamuelYoung13:3:Completed;removeitem;Potato;4"
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung13_Text",
+    texture = "Item_Potato",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung13_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung13_A",
+
+    awardsrep = "LaResistenza;200",
+    completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung13_Lore" },
+    unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung13_Complete",
+    text = "IGUI_SFQuest_Questyno_SamuelYoung13_A_Text",
+    texture = "Item_Potato",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung13_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamuelYoung14",
+    
+    awardstask = "Questyno_SamuelYoung14_A",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung14_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung14_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung14_A",
+        hidden = false,
+        needsitem = "Grasshopper;10",
+        onobtained = "updateobjective;Questyno_SamuelYoung14:1:Completed;removeitem;Grasshopper;10"
+    }, {
+        guid = "Questyno_SamuelYoung14_B",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung14_B",
+        hidden = false,
+        needsitem = "Worm;20",
+        onobtained = "updateobjective;Questyno_SamuelYoung14:2:Completed;removeitem;Worm;20"
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung14_Text",
+    texture = "Item_Worm",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung14_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung14_A",
+
+    awardsrep = "LaResistenza;140",
+    completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung14_Lore" },
+    unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung14_Complete",
+    text = "IGUI_SFQuest_Questyno_SamuelYoung14_A_Text",
+    texture = "Item_Worm",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung14_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung15",
+
+    awardsrep = "LaResistenza;190", -- REP REWARD
+    needsitem = "DeadRabbit;6", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung15_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung15_Text",
+    texture = "Item_TrapCrate",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung15_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung15_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung16",
+
+    awardstask = "Questyno_SamuelYoung16_A",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung16_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung16_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung16_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamuelYoung16;additem;DeadSquirrel;10",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung16_Text",
+    texture = "Item_SquirrelDead",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung16_Title",
+    unlocks = "clickevent;11380x9501x0:EventoSamuelYoung16;time:50:anim:loot;updateobjective:Questyno_SamuelYoung16:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung16_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "DeadSquirrel;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung16_Lore" },
+    needsitem = "DeadSquirrel;10",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung16_Complete",
+    text = "IGUI_SFQuest_Questyno_SamuelYoung16_A_Text",
+    texture = "Item_SquirrelDead",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung16_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung17",
+
+    awardstask = "Questyno_SamuelYoung17_A",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung17_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung17_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung17_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamuelYoung17;additem;DeadRabbit;10",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung17_Text",
+    texture = "Item_RabbitDead",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung17_Title",
+    unlocks = "clickevent;11330x9482x0:EventoSamuelYoung17;time:50:anim:loot;updateobjective:Questyno_SamuelYoung17:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung17_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "DeadRabbit;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung17_Lore" },
+    needsitem = "DeadRabbit;10",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung17_Complete",
+    text = "IGUI_SFQuest_Questyno_SamuelYoung17_A_Text",
+    texture = "Item_RabbitDead",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung17_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung18",
+
+    awardsrep = "LaResistenza;60", -- REP REWARD
+    needsitem = "DeadRabbit;2", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung18_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung18_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung18_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung18_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung19",
+
+    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsitem = "ScrapClub;1", -- ITEM REWARD
+    needsitem = "LeatherStrips;20", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung19_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung19_Text",
+    texture = "Item_LeatherStrips",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung19_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung19_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung20",
+
+    awardsrep = "LaResistenza;40", -- REP REWARD
+    needsitem = "LeatherStrips;10", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung20_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung20_Text",
+    texture = "Item_LeatherStrips",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung20_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung20_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung21",
+
+    awardsrep = "LaResistenza;50", -- REP REWARD
+    needsitem = "TrapMouse;1", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung21_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung21_Text",
+    texture = "Item_TrapMouse",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung21_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung21_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung22",
+
+    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsitem = "Money;50", -- ITEM REWARD
+    needsitem = "DeadRabbit;6", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung22_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung22_Text",
+    texture = "Item_RabbitDead",
+    onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung22_Complete",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung22_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_SamuelYoung23",
+
+    awardsrep = "LaResistenza;35", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_SamuelYoung",
+    lore = { "IGUI_SFQuest_Questyno_SamuelYoung23_Lore" },
+    objectives = { {
+        guid = "Questyno_SamuelYoung23_A",
+        text = "IGUI_SFQuest_Questyno_SamuelYoung23_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamuelYoung23;additem;Salt;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamuelYoung23_Text",
+    texture = "Item_Salt",
+    title = "IGUI_SFQuest_Questyno_SamuelYoung23_Title",
+    unlocks = "clickevent;8008x11896x0:EventoSamuelYoung23;time:50:anim:loot;updateobjective:Questyno_SamuelYoung23:1:Completed",
+    unlockedsound = "QuestUnlocked"
+})
 
 --[[
             *** Xu Mishura ***

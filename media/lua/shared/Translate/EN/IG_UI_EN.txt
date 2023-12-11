@@ -3151,16 +3151,234 @@ IGUI_EN = {
             *** Samuel Young ***
             Elenco:
                 intro. Parla con Samuel Young per sbloccare le daily.
+				1. Recuperare Base.DeadRabbit;4 (275rep)
+				2. Recuperare Base.DeadRabbit;2 (150rep)
+				3. Recuperare TrapCrate:30 (100rep + Spago)
+				4. Recuperare Base.TrapBox;15 (200rep + 30$)
+				5. Recuperare Base.DeadSquirrel;2 (80rep)
+				6. Recuperare Base.Bird;4 (200rep)
+				7. Recuperare Base.DeadRabbit;2 (80rep + DehydratedMeatStick;8)
+				8. Recuperare Moveables.camping_01_17 parlando con (11217,8963,0) (40rep + 50$)
+				9. Recuperare Base.Bird;2 (90rep + Base.BeefJerky)
+				10. Recuperare Base.DeadSquirrel;2 (50rep + 30$ + Base.BeefJerky;3)
+				11. Recuperare Base.TrapBox;6 (50rep + 30$)
+				12. Recuperare Base.TrapCrate;8 (60rep + 20$)
+				13. Recuperare Base.Cabbage;10;Base.Carrots;2;farming.Potato;4 (200rep)
+				14. Recuperare Base.Grasshopper;10;Base.Worm;20 (140rep)
+				15. Recuperare Base.DeadRabbit;6 (190rep)
+				16. Recuperare Base.DeadSquirrel;10 parlando con (11380,9501,0) (150rep + Base.DeadSquirrel)
+				17. Recuperare Base.DeadRabbit;10 parlando con (11330,9482,0) (150rep + Base.DeadRabbit)
+				18. Recuperare Base.DeadRabbit;2 (60rep)
+				19. Recuperare Base.LeatherStrips;20 (60rep + Scrap Club)
+				20. Recuperare Base.LeatherStrips;10 (40rep)
+				21. Recuperare Base.TrapMouse (50rep)
+				22. Recuperare Base.DeadRabbit;6 (250rep + 50$)
+				23. Parlare con (8008,11896,0) (35rep + Base.Salt)
 ]]
     IGUI_SFQuest_Questyno_SamuelYoung_Name = "Samuel Young",
 
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title = "Samuel Young",
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text = "Parla con Samuel Young per sbloccare le sue quest giornaliere.",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore = "Sono Samuel Young, ma tutti mi chiamano "Young". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. ",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text = "Sono Samuel Young, ma tutti mi chiamano "Young". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
-
-
+    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
+    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung1_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Lore = "Samuel mi ha chiesto di cacciare 4 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text = "Cattura 4 conigli per me, ricordati che non disprezzano cavoli, pomodori o patate, oltre che le carote!",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung1_Complete = "Bene sembrano belli carnosi!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung2_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Lore = "Samuel mi ha chiesto di cacciare 2 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text = "Cattura 2 conigli per me, ricordati che non disprezzano cavoli, pomodori o patate, oltre che le carote!",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung2_Complete = "Complimenti, tutto integro.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung3_Title = "Trappole per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Lore = "Samuel mi ha chiesto di costruire 10 Scatola per trappole. Mi serviranno delle assi.",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamene 10 e sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung3_Complete = "Wow sono perfette! Prendi questo, usalo per farci una bella Trappola adesiva per uccellini, ricordati che amano i vermi!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung4_Title = "Trappole per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Lore = "Samuel mi ha chiesto di costruire 15 Trappola a scatola. Mi serviranno delle assi.",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamene 15 e sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung4_Complete = "Grazie mille, questo mi ha fatto risparmiare parecchio tempo.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung5_Title = "Scoiattoli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Lore = "Samuel mi ha chiesto di cacciare 2 Scoiattoli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text = "Cattura uno scoiattolo per me, sono difficili da prendere, potresti dismostrarmi di che pasta sei fatto!",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung5_Complete = "Congratulazioni, questi sono difficili da prendere.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung6_Title = "Uccellini per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Lore = "Samuel mi ha chiesto di cacciare 4 Uccellini per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text = "Cattura 4 Uccellini per me, sono ghiotti di vermi e insetti vari!",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung6_Complete = "Wow questi non volano più ormai.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung7_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Lore = "Samuel mi ha chiesto di cacciare 2 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung8_Title = "Il cimelio di Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Lore = "Samuel mi ha chiesto di recuperare un oggetto per lui nella sua vecchia casa a Chinatown (11217,8963,0)",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text = "Pensi di poter recuperare un vecchio cimelio nella mia casa sul lago a Chinatow?",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Complete = "Grazie mille, cominciavo a sentirmi a disagio senza questi occhietti che mi fissavano.",
+	IGUI_SFQuest_Questyno_SamuelYoung8_A = "Cerca a Chinatown (11217,8963,0)",
+	IGUI_SFQuest_Questyno_SamuelYoung8_A_Text = "Porta il cimelio a Samuel",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung9_Title = "Uccellini per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Lore = "Samuel mi ha chiesto di cacciare 2 Uccelli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung10_Title = "Scoiattoli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Lore = "Samuel mi ha chiesto di cacciare 2 Scoiattoli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung11_Title = "Trappole per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Lore = "Samuel mi ha chiesto di costruire 6 Trappole a scatola. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamene 6 e sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung11_Complete = "Grazie mille, questo mi ha fatto risparmiare parecchio tempo.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung12_Title = "Trappole per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Lore = "Samuel mi ha chiesto di costruire 8 Scatola per trappole. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamene 8 e sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung12_Complete = "Grazie mille, questo mi ha fatto risparmiare parecchio tempo.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung13_Title = "Esche per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Lore = "Samuel mi ha chiesto di portargli delle esche. Vorrebbe 10 Cavoli, 2 Carote e 4 Patate. Speriamo piova, governo ladro!",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text = "Sono un poco a corto di esche, riusciresti a portarmene qualcuna per le mie trappole?",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung13_Complete = "Grazie, spero di riuscire a prenderci qualcosa.",
+	IGUI_SFQuest_Questyno_SamuelYoung13_A = "10 Cavoli",
+	IGUI_SFQuest_Questyno_SamuelYoung13_B = "2 Carote",
+	IGUI_SFQuest_Questyno_SamuelYoung13_C = "4 Patate",
+	IGUI_SFQuest_Questyno_SamuelYoung13_A_Text = "Torna da Samuel",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung14_Title = "Esche per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Lore = "Samuel mi ha chiesto di portargli delle esche. Vorrebbe 10 Cavallette e 20 Vermi. Speriamo di trovarli.",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text = "Sono un poco a corto di esche, riusciresti a portarmene qualcuna per le mie trappole per uccellini?",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung14_Complete = "Grazie questa roba la tramuterò in carne!",
+	IGUI_SFQuest_Questyno_SamuelYoung14_A = "10 Cavallette",
+	IGUI_SFQuest_Questyno_SamuelYoung14_B = "20 Vermi",
+	IGUI_SFQuest_Questyno_SamuelYoung14_A_Text = "Torna a Samuel",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung15_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Lore = "Samuel mi ha chiesto di cacciare 6 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text = "Queste persone sono sempre più affamate, non possiamo continuare a mangiare le bacche! Portami altri 6 conigli al più presto!",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung15_Complete = "Accipicchia, sei stato più veloce di quello che pensavo.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung16_Title = "Scoiattoli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Lore = "Samuel mi ha chiesto di recuperare dei conigli per lui nel bosco a est di Muldraugh (11380,9501,0)",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text = "Oggi sono molto impegnato ma ho necessità di recuperare le prede che devo aver catturato nel bosco a sud-ovest per lo stufato di stasera. Puoi andare a prenderle per me?",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung16_Complete = "Wow grande, hanno preso tutte! Tieni, questo è per te!",
+	IGUI_SFQuest_Questyno_SamuelYoung16_A = "Cerca a Muldraugh (11380,9501,0)",
+	IGUI_SFQuest_Questyno_SamuelYoung16_A_Text = "Porta i conigli a Samuel",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung17_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Lore = "Samuel mi ha chiesto di recuperare i conigli nelle sue trappole nel bosco a Nord-Est (11330,9482,0). Magari me ne frego qualcuno?",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text = "Oggi sono molto impegnato ma ho necessità di recuperare le prede che devo aver catturato nel bosco a Nord-Est per lo stufato di stasera. Puoi andare a prenderle per me?",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung17_Complete = "Wow grande, hanno preso tutte! Tieni, questo è per te!",
+	IGUI_SFQuest_Questyno_SamuelYoung17_A = "Cerca a Nord-Est (11330,9482,0)",
+	IGUI_SFQuest_Questyno_SamuelYoung17_A_Text = "Porta i conigli a Samuel",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung18_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Lore = "Samuel mi ha chiesto di cacciare 2 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text = "Hei vuoi essiccare un po' di carne? Portami un coniglio, ci penso io!",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung18_Complete = "Ottimo, ecco a te!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung19_Title = "Strisce di pelle per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Lore = "Samuel mi ha chiesto di recuperargli 20 Strisce di cuoio. Dovrei riuscirci con delle forbici.",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text = "Il nostro Sarto ha bisogno costantemente di pelli per continuare a fabbricare i nostri vestiti. Come te la cavi a scuoiare? Riusciresti a portarmi 20 Strisce di pelle? Ti aspetto qua.",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung19_Complete = "Grazie mille, mi torneranno molto utili. Questa l'ho preparata per te.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung20_Title = "Strisce di pelle per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Lore = "Samuel mi ha chiesto di recuperargli 10 Strisce di cuoio. Dovrei riuscirci con delle forbici.",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text = "Il nostro Sarto ha bisogno costantemente di pelli per continuare a fabbricare i nostri vestiti. Come te la cavi a scuoiare? Riusciresti a portarmi 10 Strisce di pelle? Ti aspetto qua.",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung20_Complete = "Grazie mille, mi torneranno molto utili.",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung21_Title = "Maledetti Topi",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Lore = "Samuel mi ha chiesto di recuperargli una Trappola per topi.",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text = "Recuperami una trappola per topi, quei maledetti stanno rosicchiando tutte le nostre provviste!",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung21_Complete = "Ti ringrazio, quei maledetti hanno le ore contate!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung22_Title = "Conigli per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Lore = "Samuel mi ha chiesto di cacciare 6 Conigli per lui. Devo piazzare delle trappole nel bosco.",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text = "Spero tu sia riuscito a trovare altri conigli, perché da questa parte sono tutti scomparsi.",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_SamuelYoung22_Complete = "Menomale che ci sei tu, mio caro. Questi sono per te!",
+	
+	IGUI_SFQuest_Questyno_SamuelYoung23_Title = "Del sale per Samuel",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Text = "Samuel da Muldarugh 10824,9065,0",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Lore = "Samuel mi ha chiesto di recuperare del sale per lui a Rosewood (8008,11896,0) per insegnarmi ad essiccare la carne.",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text = "Hei hai mai provato a creare della carne essiccata? Ti basta del sale e un procedimento particolare che magari un giorno ti spiegherò. Se vuoi provare dovrebbe essere rimasto del sale nella mia vecchia abitazione a Rosewood. ",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Declined = "Pff, pivello",
+	IGUI_SFQuest_Questyno_SamuelYoung23_A = "Cerca a Rosewood (8008,11896,0)",
+	IGUI_SFQuest_Questyno_SamuelYoung23_A_Text = "Prendi il sale.",
 --[[
             *** Xu Mishura ***
             Elenco:
