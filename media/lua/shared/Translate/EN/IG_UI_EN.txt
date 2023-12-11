@@ -3379,18 +3379,243 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Declined = "Pff, pivello",
 	IGUI_SFQuest_Questyno_SamuelYoung23_A = "Cerca a Rosewood (8008,11896,0)",
 	IGUI_SFQuest_Questyno_SamuelYoung23_A_Text = "Prendi il sale.",
+    
 --[[
             *** Xu Mishura ***
             Elenco:
                 intro. Parla con Tony per sbloccare le daily.
+				1. Recuperare Base.Dress_Long (100rep)
+				2. Recuperare Base.Shoes_ArmyBootsDesert (80rep)
+				3. Recuperare Base.Briefs_SmallTrunks_Red (50rep)
+				4. Recuperare Base.Briefs_AnimalPrints (60rep)
+				5. Recuperare Base.Shoes_RedTrainers (100rep)
+				6. Recuperare Base.Trousers_Scrubs (150rep)
+				7. Recuperare Base.Skirt_Mini (50rep)
+				8. Recuperare Base.Jumper_DiamondPatternTINT (40rep)
+				9. Recuperare Base.Shirt_Lumberjack (40rep)
+				10. Recuperare Base.Apron_Spiffos (200rep)
+				11. Recuperare Base.Vest_Hunting_Camo (180rep)
+				12. Recuperare Base.Jacket_Black (100rep)
+				13. Recuperare Base.Jacket_Shellsuit_Teal (100rep)
+				14. Recuperare Base.Shellsuit_Black (120rep)
+				15. Recuperare Base.Jacket_Varsity (100rep)
+				16. Recuperare Base.Jacket_WhiteTINT (50rep)
+				17. Recuperare Base.HoodieDown_ThiteTINT (60rep)
+				18. Recuperare Base.Jumper_PoloNeck (50rep)
+				19. Recuperare Spongie.Jumper_military (70rep)
+				20. Recuperare Base.Vest_DefaultTEXTURE (80rep)
+				21. Recuperare Base.Shirt_HawaiianRed (200rep)
+				22. Recuperare Base.Shirt_Denim (50rep)
+				23. Recuperare Base.Shirt_PrisonGuard (80rep)
+				24. Recuperare Base.Shirt_PoliceBlue (100rep)
+				25. Recuperare Base.LongCoat_Bathrobe (100rep)
 ]]
     IGUI_SFQuest_Questyno_XuMishura_Name = "Xu Mishura",
 
     IGUI_SFQuest_Questyno_XuMishura_Intro_Title = "Xu Mishura",
     IGUI_SFQuest_Questyno_XuMishura_Intro_Text = "Parla con Xu Mishura per sbloccare le sue quest giornaliere.",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Lore = "Sono Xu Mishura, ma tutti mi chiamano "Mishura". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. ",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text = "Sono Xu Mishura, ma tutti mi chiamano "Mishura". Sono un soldato e adoro le armi. Adesso non ho più tempo per le armi, ma mi piacerebbe poterle usare. Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Lore = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
+	
+	IGUI_SFQuest_Questyno_XuMishura1_Title = "Un vestito per Xu",
+    IGUI_SFQuest_Questyno_XuMishura1_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura1_Lore = "Xu mi ha chiesto di portargli un Vestito lungo. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura1_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura1_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura1_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura2_Title = "Degli Stivali per Xu",
+    IGUI_SFQuest_Questyno_XuMishura2_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura2_Lore = "Xu mi ha chiesto di portargli un paio di Stivali desertici militari. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura2_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura2_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura2_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura3_Title = "Per la festa di fine anno",
+    IGUI_SFQuest_Questyno_XuMishura3_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura3_Lore = "Xu mi ha chiesto di portargli uno Slip a tronchetto rosso. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura3_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura3_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura3_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura4_Title = "Le mutande per Xu",
+    IGUI_SFQuest_Questyno_XuMishura4_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura4_Lore = "Xu mi ha chiesto di portargli uno Slip a tronchetto animale. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura4_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura4_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura4_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura5_Title = "Le scarpe rosse per Xu",
+    IGUI_SFQuest_Questyno_XuMishura5_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura5_Lore = "Xu mi ha chiesto di portargli un paio di Scarpe da ginnastica rosse. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura5_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura5_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura5_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura6_Title = "I pantaloni medici",
+    IGUI_SFQuest_Questyno_XuMishura6_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura6_Lore = "Xu mi ha chiesto di portargli un paio di Pantaloni medici. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura6_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura6_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura6_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura7_Title = "La minigonna per Xu",
+    IGUI_SFQuest_Questyno_XuMishura7_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura7_Lore = "Xu mi ha chiesto di portargli una Mini gonna. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura7_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura7_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura7_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura8_Title = "Un maglione per Xu",
+    IGUI_SFQuest_Questyno_XuMishura8_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura8_Lore = "Xu mi ha chiesto di portargli un Maglione con motivo a rombi. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura8_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura8_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura8_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura9_Title = "Una camicia per Xu",
+    IGUI_SFQuest_Questyno_XuMishura9_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura9_Lore = "Xu mi ha chiesto di portargli un Vestito. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura9_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura9_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura9_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura10_Title = "Un grembiule per Xu",
+    IGUI_SFQuest_Questyno_XuMishura10_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura10_Lore = "Xu mi ha chiesto di portargli un Grembiule di Spiffo. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura10_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura10_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura10_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura11_Title = "Un gilet per Xu",
+    IGUI_SFQuest_Questyno_XuMishura11_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura11_Lore = "Xu mi ha chiesto di portargli un Gilet da caccia mimetico. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura11_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura11_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura11_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura12_Title = "Una giacca per Xu",
+    IGUI_SFQuest_Questyno_XuMishura12_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura12_Lore = "Xu mi ha chiesto di portargli una Giacca di pelle. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura12_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura12_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura12_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura13_Title = "Una tuta per Xu",
+    IGUI_SFQuest_Questyno_XuMishura13_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura13_Lore = "Xu mi ha chiesto di portargli una Giacca della tuta acetata verde acqua. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura13_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura13_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura13_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura14_Title = "Una tuta per Xu",
+    IGUI_SFQuest_Questyno_XuMishura14_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura14_Lore = "Xu mi ha chiesto di portargli una Giacca della tuta acetata nera. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura14_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura14_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura14_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura15_Title = "Una giacca per Xu",
+    IGUI_SFQuest_Questyno_XuMishura15_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura15_Lore = "Xu mi ha chiesto di portargli una Giacca college. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura15_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura15_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura15_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura16_Title = "Una giacca per Xu",
+    IGUI_SFQuest_Questyno_XuMishura16_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura16_Lore = "Xu mi ha chiesto di portargli una Giacca. Vediamo se la trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura16_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura16_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura16_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura17_Title = "Una felpa per Xu",
+    IGUI_SFQuest_Questyno_XuMishura17_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura17_Lore = "Xu mi ha chiesto di portargli una Felpa con cappuccio. Vediamo se la trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura17_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura17_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura17_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura18_Title = "Un maglione per Xu",
+    IGUI_SFQuest_Questyno_XuMishura18_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura18_Lore = "Xu mi ha chiesto di portargli un Dolcevita. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura18_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura18_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura18_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura19_Title = "Il maglione militare",
+    IGUI_SFQuest_Questyno_XuMishura19_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura19_Lore = "Xu mi ha chiesto di portargli un Military Sweater. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura19_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura19_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura19_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura20_Title = "La cannottiera per Xu",
+    IGUI_SFQuest_Questyno_XuMishura20_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura20_Lore = "Xu mi ha chiesto di portargli un Canotta. Vediamo se la trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura20_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura20_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura20_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura21_Title = "Una camicia Hawaiana per Xu",
+    IGUI_SFQuest_Questyno_XuMishura21_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura21_Lore = "Xu mi ha chiesto di portargli una Camicia Hawaiana. Vediamo se la trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura21_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura21_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura21_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura22_Title = "Una camicia per Xu",
+    IGUI_SFQuest_Questyno_XuMishura22_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura22_Lore = "Xu mi ha chiesto di portargli una Camicia di jeans. Vediamo se la trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura22_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura22_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura22_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura23_Title = "Una camicia per Xu",
+    IGUI_SFQuest_Questyno_XuMishura23_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura23_Lore = "Xu mi ha chiesto di portargli una Camicia da guardia carceraria. Vediamo se la trovo su qualche zombie infame.",
+    IGUI_SFQuest_Questyno_XuMishura23_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura23_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura23_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura24_Title = "Dei pantaloni per Xu",
+    IGUI_SFQuest_Questyno_XuMishura24_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura24_Lore = "Xu mi ha chiesto di portargli una Camicia da poliziotto. Vediamo se la trovo su qualche zombie infame.",
+    IGUI_SFQuest_Questyno_XuMishura24_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura24_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura24_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura24_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura25_Title = "Un accappatoio per Xu",
+    IGUI_SFQuest_Questyno_XuMishura25_Text = "Xu da Muldraugh 10844,9074,0",
+    IGUI_SFQuest_Questyno_XuMishura25_Lore = "Xu mi ha chiesto di portargli un Accappatoio. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura25_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura25_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_XuMishura25_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura25_Complete = "Bene, sistemiamo un po' questo capo.",
 
 
 --[[
