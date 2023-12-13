@@ -3,7 +3,7 @@ temp = {}
 function Commands.setProgress(args)
 	local player = getPlayer();
 	local id = player:getUsername();
-	if not id == args.id then
+	if id ~= args.id then
 		return
 	end
 

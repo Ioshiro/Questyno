@@ -442,6 +442,10 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif10_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif10_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif10_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Grif10_A = "Betabloccanti",
+    IGUI_SFQuest_Questyno_Grif10_B = "Antidolorifici",
+    IGUI_SFQuest_Questyno_Grif10_C = "Disinfettante",
+    IGUI_SFQuest_Questyno_Grif10_A_Text = "Torna da Grif",
 
     IGUI_SFQuest_Questyno_Grif11_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif11_Text = "Medicine su medicine",
@@ -450,6 +454,11 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif11_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif11_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif11_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Grif11_A = "Vitamine",
+    IGUI_SFQuest_Questyno_Grif11_B = "Antidepressivi",
+    IGUI_SFQuest_Questyno_Grif11_C = "Salviette con Alcohol",
+    IGUI_SFQuest_Questyno_Grif11_A_Text = "Torna da Grif",
+
 
     IGUI_SFQuest_Questyno_Grif12_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif12_Text = "Medicine su medicine",
@@ -458,6 +467,10 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif12_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif12_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif12_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Grif12_A = "Vitamine",
+    IGUI_SFQuest_Questyno_Grif12_B = "Antidepressivi",
+    IGUI_SFQuest_Questyno_Grif12_C = "Salviette con Alcohol",
+    IGUI_SFQuest_Questyno_Grif12_A_Text = "Torna da Grif",
 
     IGUI_SFQuest_Questyno_Grif13_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif13_Text = "Un poco di Cotone",
@@ -490,6 +503,9 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif16_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif16_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif16_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Grif16_A = "Ago da Sutura",
+    IGUI_SFQuest_Questyno_Grif16_B = "Porta Ago da Sutura",
+    IGUI_SFQuest_Questyno_Grif16_A_Text = "Torna da Grif",
 
     IGUI_SFQuest_Questyno_Grif17_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif17_Text = "Suturando tagli profondi",

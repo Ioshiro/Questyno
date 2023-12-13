@@ -5,10 +5,10 @@ function Commands.saveData(player, args)
 	if isClient() or not args then return end
 	local id = player:getUsername();
 
-	--print("Parsing data table for ID " .. id);
+	print("Parsing data table for ID " .. id);
 	--Write the text file
 	local filepath = "/Backup/SFQuest_" .. id .. ".txt";
-	--print("File path is: " .. filepath);
+	print("File path is: " .. filepath);
 	-- check if file has more lines than the current progress
 	local filereader = getFileReader(filepath, false);
 	local temp = {};
@@ -42,7 +42,7 @@ function Commands.saveData(player, args)
 		end
 		datasize = datasize + 1
 	end
-	datasize = datasize + 1
+	datasize = datasize + 1 + 20 -- add 20 for margin 1 for delivery
 	if tempsize > datasize then
 		print("zSOUL QUEST SYSTEM - Backup file has more lines than current progress, sending backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. datasize .. ")");
 		local newargs = { id = id , data = temp };
