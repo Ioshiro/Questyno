@@ -4,29 +4,29 @@ require 'SFQuest_Database'
                 Totale: 1825PF 350$
                 Elenco:
                     intro. Parla con Tony per sbloccare le daily.
-                    1. Recupera 1 pacco di .308 e uccidi 30z (25 rep + 20$)
-                    2. Recupera 2 pacchi di 9mm e uccidi 20z (40 rep + 25$)
-                    3. Recupera 1 fucile R700, 1 pacco .223 e uccidi 20z (50 rep + 25$)
-                    4. Recupera 1 fucile R788, 1 caricatore R788, 1 pacco .308 e uccidi 10z (60 rep + 15$)
-                    5. Recupera 3 fucili a pompa, 1 scatola di cartucce e uccidi 40 zombie. (100 rep + 25$)
-                    6. Recupera 10 pacchi .38 e 1 scatola di cartucce dalla stazione di Muldraugh (150 rep + 15$)
-                    7. Recupera 10 pacchi .45 dall'armeria di Chernaville (150 rep + 15$)
-                    8. Recupera 1 pacco di 7.76 e uccidere 30z (150 rep + 25$)
-                    9. Recupera 1 MSR700 e 1 pacco .223 (40 rep)
-                    10. Recupera 5 pacchi .45, 2 colt 1911 e 2 caricatori (150 rep)
-                    11. Recupera 2 fucili a pompa e 2 pacchi di cartucce (150 rep)
+                    1. Recupera 1 pacco di .308 e uccidi 100z (35 rep + 15$) (TODO: fare la logica delle kill con consegna oggetto)
+                    2. Recupera 2 pacchi di 9mm e uccidi 50z (40 rep + 25$) (TODO: fare la logica delle kill con consegna oggetto)
+                    3. Recupera Base.Shotgun;3 (65 rep + 50$)
+                    #4. Recupera Base.AssaultRifle,Base.556Clip (100 rep + 20$)
+                    #5. Recupera Base.AssaultRifle2;2,Base.M14Clip (140 rep)
+                    #6. Recupera 10 pacchi .38  a 10633,10401,0 (150 rep)
+                    #7. Recupera 10 pacchi .45 a 9745,10566,2 (150 rep + 25$)
+                    8. Recupera Base.762Box (100 rep + 40$)
+                    #9. Recupera Base.Pistol,Base.9mmClip (40 rep + 20$)
+                    #10. Recupera Base.Bullets45Box;2,Base.45Clip;2 (200 rep)
+                    #11. Recupera 2 fucili a pompa e 2 pacchi di cartucce (150 rep)
                     12. Recupeera 3 molotov (120 rep)
                     13. Recupera 1 molotov (35 rep)
-                    14. Recupera 1 doppietta e 2 pacchi di cartucce (120 rep)
-                    15. Recupera 1 magnum e 3 pacchi .44 (140 rep)
-                    16. Recupera 1 pacco .44, 1 pacco 9mm, 1 pacco .38 e 1 pacco .45 auto (150 rep)
+                    #14. Recupera 1 doppietta e 2 pacchi di cartucce (120 rep + 30$)
+                    #15. Recupera Base.Revolver_Long,Base.Bullets44Box;3 (140 rep)
+                    #16. Recupera Base.Bullets44Box,Base.Bullets9mmBox,Base.Bullets38Box,Base.Bullets45Box (150 rep)
                     17. Recupera 2 pacchi .44 (45 rep)
-                    18. Recupera 1 pacco 9mm (20 rep)
+                    18. Recupera 1 pacco 9mm (40 rep)
                     19. Recupera 1 pacco .308 (35 rep)
-                    20. Recupera 1 revolver m625 (35 rep)
-                    21. Recupera 1 Desert Eagle (40 rep)
-                    22. Recupera 1 Magnum (40 rep)
-                    23. Recupera 5 scatole cartucce (200 rep)
+                    20. Recupera Base.Revolver (35 rep + 30$)
+                    21. Recupera Base.Pistol3(40 rep)
+                    22. Recupera 1 Magnum (60 rep)
+                    #23. Recupera 5 scatole cartucce a xxx,xxx,x (200 rep + 4 shotgunshellsbox)
 ]]
 local lupoIntro = {
     guid = "Questyno_Lupo_Intro",
@@ -47,7 +47,8 @@ table.insert(SFQuest_Database.QuestPool, lupoIntro);
 local lupoQuest1 = {
     guid = "Questyno_Lupo1",
 
-    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsitem = "Money;15",       -- MONEY REWARD
     awardstask = "Questyno_Lupo2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -65,6 +66,7 @@ local lupoQuest2 = {
     guid = "Questyno_Lupo2",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsitem = "Money;25",       -- MONEY REWARD
     awardstask = "Questyno_Lupo3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -82,7 +84,7 @@ local lupoQuest3 = {
     guid = "Questyno_Lupo3",
 
     awardsitem = "Money;50",       -- MONEY REWARD
-    awardsrep = "LaResistenza;45", -- REP REWARD
+    awardsrep = "LaResistenza;65", -- REP REWARD
     awardstask = "Questyno_Lupo4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -149,7 +151,7 @@ local lupoQuest6 = {
     text = "IGUI_SFQuest_Questyno_Lupo6_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo6_Title",
-    unlocks = "clickevent;12426x1341x0:Lupo6Container1Event;anim:loot:time:50;updateobjective:Questyno_Lupo6:1:Completed",
+    unlocks = "clickevent;10633x10401x0:Lupo6Container1Event;anim:loot:time:50;updateobjective:Questyno_Lupo6:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, lupoQuest6);
@@ -174,12 +176,13 @@ table.insert(SFQuest_Database.QuestPool, lupoQuest7);
 local lupoQuest8 = {
     guid = "Questyno_Lupo8",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsitem = "Money;40",       -- MONEY REWARD
     awardstask = "Questyno_Lupo9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo8_Lore" },
-    needsitem = "Bullets44Box;1", -- REQUIRE
+    needsitem = "762Box;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo8_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo8_Text",
     texture = "Item_Money",
@@ -250,7 +253,7 @@ local lupoQuest12 = {
     needsitem = "Molotov;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo12_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo12_Text",
-    texture = "Item_Money",
+    texture = "Item_Molotov",
     title = "IGUI_SFQuest_Questyno_Lupo12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -267,7 +270,7 @@ local lupoQuest13 = {
     needsitem = "Molotov;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo13_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo13_Text",
-    texture = "Item_Money",
+    texture = "Item_Molotov",
     title = "IGUI_SFQuest_Questyno_Lupo13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -343,7 +346,7 @@ table.insert(SFQuest_Database.QuestPool, lupoQuest17);
 local lupoQuest18 = {
     guid = "Questyno_Lupo18",
 
-    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsrep = "LaResistenza;40", -- REP REWARD
     awardstask = "Questyno_Lupo19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -378,6 +381,7 @@ local lupoQuest20 = {
     guid = "Questyno_Lupo20",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsitem = "Money;30",       -- MONEY REWARD
     awardstask = "Questyno_Lupo21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -411,7 +415,7 @@ table.insert(SFQuest_Database.QuestPool, lupoQuest21);
 local lupoQuest22 = {
     guid = "Questyno_Lupo22",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;60", -- REP REWARD
     awardstask = "Questyno_Lupo23", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
