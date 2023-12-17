@@ -41,6 +41,7 @@ local grifIntro = {
     guid = "Questyno_Grif_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
+    awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
@@ -56,6 +57,7 @@ local grifQuest1 = {
     guid = "Questyno_Grif1",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_Grif2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif1_Lore" },
@@ -72,6 +74,7 @@ local grifQuest2 = {
     guid = "Questyno_Grif2",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
+    awardstask = "Questyno_Grif3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif2_Lore" },
@@ -88,6 +91,7 @@ local grifQuest3 = {
     guid = "Questyno_Grif3",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
+    awardstask = "Questyno_Grif4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif3_Lore" },
@@ -104,6 +108,7 @@ local grifQuest4 = {
     guid = "Questyno_Grif4",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
+    awardstask = "Questyno_Grif5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif4_Lore" },
@@ -120,6 +125,7 @@ local grifQuest5 = {
     guid = "Questyno_Grif5",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_Grif6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif5_Lore" },
@@ -136,6 +142,7 @@ local grifQuest6 = {
     guid = "Questyno_Grif6",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_Grif7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif6_Lore" },
@@ -152,6 +159,7 @@ local grifQuest7 = {
     guid = "Questyno_Grif7",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_Grif8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif7_Lore" },
@@ -168,6 +176,7 @@ local grifQuest8 = {
     guid = "Questyno_Grif8",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_Grif9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif8_Lore" },
@@ -185,6 +194,7 @@ local grifQuest9 = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
+    awardstask = "Questyno_Grif10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif9_Lore" },
@@ -239,6 +249,7 @@ local grifQuest10A = {
     guid = "Questyno_Grif10_A",
 
     awardsrep = "LaResistenza;135", -- REP REWARD
+    awardstask = "Questyno_Grif11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
@@ -293,6 +304,7 @@ local grifQuest11A = {
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;40",        -- MONEY REWARD
+    awardstask = "Questyno_Grif12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
@@ -347,6 +359,7 @@ local grifQuest12A = {
     guid = "Questyno_Grif12_A",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_Grif13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
@@ -361,6 +374,7 @@ local grifQuest13 = {
     guid = "Questyno_Grif13",
 
     awardsrep = "LaResistenza;75", -- REP REWARD
+    awardstask = "Questyno_Grif14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif13_Lore" },
@@ -377,6 +391,7 @@ local grifQuest14 = {
     guid = "Questyno_Grif14",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_Grif15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif14_Lore" },
@@ -393,6 +408,7 @@ local grifQuest15 = {
     guid = "Questyno_Grif15",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_Grif16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif15_Lore" },
@@ -439,6 +455,7 @@ local grifQuest16A = {
 
     awardsrep = "LaResistenza;250", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
+    awardstask = "Questyno_Grif17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
@@ -454,6 +471,7 @@ local grifQuest17 = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
+    awardstask = "Questyno_Grif18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif17_Lore" },
@@ -470,6 +488,7 @@ local grifQuest18 = {
     guid = "Questyno_Grif18",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
+    awardstask = "Questyno_Grif19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif18_Lore" },
@@ -486,6 +505,7 @@ local grifQuest19 = {
     guid = "Questyno_Grif19",
 
     awardsrep = "LaResistenza;20", -- REP REWARD
+    awardstask = "Questyno_Grif20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif19_Lore" },
@@ -503,6 +523,7 @@ local grifQuest20 = {
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Money;25",       -- MONEY REWARD
+    awardstask = "Questyno_Grif21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif20_Lore" },
@@ -519,6 +540,7 @@ local grifQuest21 = {
     guid = "Questyno_Grif21",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_Grif22", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif21_Lore" },
@@ -535,6 +557,7 @@ local grifQuest22 = {
     guid = "Questyno_Grif22",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
+    awardstask = "Questyno_Grif23", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif22_Lore" },
@@ -551,6 +574,7 @@ local grifQuest23 = {
     guid = "Questyno_Grif23",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
+    awardstask = "Questyno_Grif24", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif23_Lore" },
@@ -568,6 +592,7 @@ local grifQuest24 = {
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Pills;1",        -- MONEY REWARD
+    awardstask = "Questyno_Grif25", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif24_Lore" },
@@ -585,6 +610,7 @@ local grifQuest25 = {
 
     awardsrep = "LaResistenza;25",         -- REP REWARD
     awardsitem = "PillsSleepingTablets;1", -- MONEY REWARD
+    awardstask = "Questyno_Grif26",        -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif25_Lore" },
@@ -602,6 +628,7 @@ local grifQuest26 = {
 
     awardsrep = "LaResistenza;60",        -- REP REWARD
     awardsitem = "LabItems.LabSyringe;5", -- MONEY REWARD
+    awardstask = "Questyno_Grif27",       -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif26_Lore" },
@@ -619,6 +646,7 @@ local grifQuest27 = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_Grif28", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif27_Lore" },
@@ -636,6 +664,7 @@ local grifQuest28 = {
 
     awardsrep = "LaResistenza;40",     -- REP REWARD
     awardsitem = "PynoTweaks.Joint;1", -- MONEY REWARD
+    awardstask = "Questyno_Grif1",    -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif28_Lore" },
@@ -678,6 +707,7 @@ local stellaIntro = {
     guid = "Questyno_AngelicaStella_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
+    awardstask = "Questyno_AngelicaStella1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",
@@ -715,6 +745,7 @@ local stellaQuest1A = {
 
     awardsrep = "LaResistenza;25", -- REP REWARD
     awardsitem = "Shovel2;1",      -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella1_Lore" },
@@ -753,6 +784,7 @@ local stellaQuest2A = {
 
     awardsrep = "LaResistenza;15", -- REP REWARD
     awardsitem = "DuctTape;1",     -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella2_Lore" },
@@ -791,6 +823,7 @@ local stellaQuest3A = {
 
     awardsrep = "LaResistenza;20", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella3_Lore" },
@@ -829,6 +862,7 @@ local stellaQuest4A = {
 
     awardsrep = "LaResistenza;25", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella4_Lore" },
@@ -867,6 +901,7 @@ local stellaQuest5A = {
 
     awardsrep = "LaResistenza;20", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella5_Lore" },
@@ -905,6 +940,7 @@ local stellaQuest6A = {
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella6_Lore" },
@@ -943,6 +979,7 @@ local stellaQuest7A = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella7_Lore" },
@@ -981,6 +1018,7 @@ local stellaQuest8A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella8_Lore" },
@@ -1018,6 +1056,7 @@ local stellaQuest9A = {
     guid = "Questyno_AngelicaStella9_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_AngelicaStella10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella9_Lore" },
@@ -1055,6 +1094,7 @@ local stellaQuest10A = {
     guid = "Questyno_AngelicaStella10_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_AngelicaStella11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella10_Lore" },
@@ -1092,6 +1132,7 @@ local stellaQuest11A = {
     guid = "Questyno_AngelicaStella11_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_AngelicaStella12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella11_Lore" },
@@ -1129,6 +1170,7 @@ local stellaQuest12A = {
     guid = "Questyno_AngelicaStella12_A",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_AngelicaStella13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella12_Lore" },
@@ -1166,6 +1208,7 @@ local stellaQuest13A = {
 
     awardsrep = "LaResistenza;70", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella13_Lore" },
@@ -1204,6 +1247,7 @@ local stellaQuest14A = {
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella14_Lore" },
@@ -1242,6 +1286,7 @@ local stellaQuest15A = {
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;80",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella15_Lore" },
@@ -1280,6 +1325,7 @@ local stellaQuest16A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;80",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella16_Lore" },
@@ -1318,6 +1364,7 @@ local stellaQuest17A = {
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella17_Lore" },
@@ -1356,6 +1403,7 @@ local stellaQuest18A = {
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella18_Lore" },
@@ -1394,6 +1442,7 @@ local stellaQuest19A = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;70",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella19_Lore" },
@@ -1432,6 +1481,7 @@ local stellaQuest20A = {
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella20_Lore" },
@@ -1449,6 +1499,7 @@ local stellaQuest21 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;25",       -- MONEY REWARD
+    awardstask = "Questyno_AngelicaStella1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella21_Lore" },
@@ -1494,6 +1545,7 @@ local thomasIntro = {
     guid = "Questyno_HeatherThomas_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
@@ -1509,6 +1561,7 @@ local thomasQuest1 = {
     guid = "Questyno_HeatherThomas1",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas1_Lore" },
@@ -1525,6 +1578,7 @@ local thomasQuest2 = {
     guid = "Questyno_HeatherThomas2",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas2_Lore" },
@@ -1542,6 +1596,7 @@ local thomasQuest3 = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Twine;1",         -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas3_Lore" },
@@ -1559,6 +1614,7 @@ local thomasQuest4 = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas4_Lore" },
@@ -1575,6 +1631,7 @@ local thomasQuest5 = {
     guid = "Questyno_HeatherThomas5",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas5_Lore" },
@@ -1591,6 +1648,7 @@ local thomasQuest6 = {
     guid = "Questyno_HeatherThomas6",
 
     awardsrep = "LaResistenza;140", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas6_Lore" },
@@ -1608,6 +1666,7 @@ local thomasQuest7 = {
 
     awardsrep = "LaResistenza;50",        -- REP REWARD
     awardsitem = "DehydratedMeatStick;6", -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas7_Lore" },
@@ -1625,6 +1684,7 @@ local thomasQuest8 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
@@ -1642,6 +1702,7 @@ local thomasQuest9 = {
 
     awardsrep = "LaResistenza;70",        -- REP REWARD
     awardsitem = "DehydratedMeatStick;2", -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas9_Lore" },
@@ -1659,6 +1720,7 @@ local thomasQuest10 = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "BeefJerky;2",     -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas10_Lore" },
@@ -1676,6 +1738,7 @@ local thomasQuest11 = {
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;20",       -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas11_Lore" },
@@ -1693,6 +1756,7 @@ local thomasQuest12 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;20",       -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas12_Lore" },
@@ -1741,6 +1805,7 @@ local thomasQuest13A = {
     guid = "Questyno_HeatherThomas13_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas13_Lore" },
@@ -1781,6 +1846,7 @@ local thomasQuest14A = {
     guid = "Questyno_HeatherThomas14_A",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas14_Lore" },
@@ -1795,6 +1861,7 @@ local thomasQuest15 = {
     guid = "Questyno_HeatherThomas15",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas15_Lore" },
@@ -1833,6 +1900,7 @@ local thomasQuest16A = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "DeadSquirrel;1",  -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas16_Lore" },
@@ -1871,6 +1939,7 @@ local thomasQuest17A = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "DeadRabbit;1",    -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas17_Lore" },
@@ -1914,6 +1983,7 @@ local thomasQuest18A = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "BeefJerky;2",    -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas18_Lore" },
@@ -1929,6 +1999,7 @@ local thomasQuest19 = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "ScrapClub;1",    -- MONEY REWARD TODO: fixxa
+    awardstask = "Questyno_HeatherThomas20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas19_Lore" },
@@ -1945,6 +2016,7 @@ local thomasQuest20 = {
     guid = "Questyno_HeatherThomas20",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
+    awardstask = "Questyno_HeatherThomas21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas20_Lore" },
@@ -1962,6 +2034,7 @@ local thomasQuest21 = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "TrapMouse;1",     -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas22", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas21_Lore" },
@@ -1979,6 +2052,7 @@ local thomasQuest22 = {
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;50",        -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas23", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas22_Lore" },
@@ -1996,6 +2070,7 @@ local thomasQuest23 = {
 
     awardsrep = "LaResistenza;20", -- REP REWARD
     awardsitem = "Salt;1",         -- MONEY REWARD
+    awardstask = "Questyno_HeatherThomas1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     objectives = { {
@@ -2046,6 +2121,7 @@ local rimaIntro = {
     guid = "Questyno_EliaRima_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
+    awardstask = "Questyno_EliaRima1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EliaRima_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EliaRima;Questyno;EliaRima",
@@ -2097,6 +2173,7 @@ local rimaQuest1A = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;10",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima1_Lore" },
@@ -2147,6 +2224,7 @@ local rimaQuest2A = {
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;10",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima2_Lore" },
@@ -2190,6 +2268,7 @@ local rimaQuest3A = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;10",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima3_Lore" },
@@ -2239,6 +2318,7 @@ local rimaQuest4A = {
     guid = "Questyno_EliaRima4_A",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_EliaRima5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima4_Lore" },
@@ -2289,6 +2369,7 @@ local rimaQuest5A = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;10",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima5_Lore" },
@@ -2338,6 +2419,7 @@ local rimaQuest6A = {
     guid = "Questyno_EliaRima6_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
+    awardstask = "Questyno_EliaRima7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima6_Lore" },
@@ -2408,6 +2490,7 @@ local rimaQuest7B = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;15",       -- MONEY REWARD
+    awardstask = "Questyno_EliaRima8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima7_Lore" }, -- REQUIRE
@@ -2491,6 +2574,7 @@ local rimaQuest8B = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;15",       -- MONEY REWARD
+    awardstask = "Questyno_EliaRima9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima8_Lore" }, -- REQUIRE
@@ -2602,6 +2686,7 @@ local rimaQuest9B = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Book;2",         -- MONEY REWARD
+    awardstask = "Questyno_EliaRima10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima9_Lore" }, -- REQUIRE
@@ -2666,6 +2751,7 @@ local rimaQuest10A = {
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;20",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima10_Lore" }, -- REQUIRE
@@ -2730,6 +2816,7 @@ local rimaQuest11A = {
 
     awardsrep = "LaResistenza;180", -- REP REWARD
     awardsitem = "Money;20",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima11_Lore" }, -- REQUIRE
@@ -2745,6 +2832,7 @@ local rimaQuest12 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "HerbalistMag;1",
+    awardstask = "Questyno_EliaRima13", -- TODO: REMOVE WHEN TESTING IS DONE
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima12_Lore" },
     objectives = { {
@@ -2808,6 +2896,7 @@ local rimaQuest13A = {
     guid = "Questyno_EliaRima13_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_EliaRima14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima13_Lore" }, -- REQUIRE
@@ -2864,6 +2953,7 @@ local rimaQuest14A = {
     guid = "Questyno_EliaRima14_A",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_EliaRima15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima14_Lore" }, -- REQUIRE
@@ -2920,6 +3010,7 @@ local rimaQuest15A = {
     guid = "Questyno_EliaRima15_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_EliaRima16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima15_Lore" }, -- REQUIRE
@@ -2983,6 +3074,7 @@ local rimaQuest16B = {
     guid = "Questyno_EliaRima16_B",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_EliaRima17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima16_Lore" },
@@ -3046,6 +3138,7 @@ local rimaQuest17B = {
     guid = "Questyno_EliaRima17_B",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_EliaRima18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima17_Lore" },
@@ -3118,6 +3211,7 @@ local rimaQuest18B = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima18_Lore" },
@@ -3160,6 +3254,7 @@ local rimaQuest19A = {
     guid = "Questyno_EliaRima19_A",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
+    awardstask = "Questyno_EliaRima20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima19_Lore" }, -- REQUIRE
@@ -3174,6 +3269,7 @@ local rimaQuest20 = {
     guid = "Questyno_EliaRima20",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
+    awardstask = "Questyno_EliaRima21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima20_Lore" },
@@ -3212,6 +3308,7 @@ local rimaQuest21A = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;40",        -- MONEY REWARD
+    awardstask = "Questyno_EliaRima22", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima21_Lore" },
@@ -3228,6 +3325,7 @@ local rimaQuest22 = {
     guid = "Questyno_EliaRima22",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
+    awardstask = "Questyno_EliaRima23", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima22_Lore" },
@@ -3244,6 +3342,7 @@ local rimaQuest23 = {
     guid = "Questyno_EliaRima23",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
+    awardstask = "Questyno_EliaRima1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima23_Lore" },
@@ -3289,6 +3388,7 @@ local bobIntro = {
     guid = "Questyno_BobRepair_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
+    awardstask = "Questyno_BobRepair1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_BobRepair;Questyno;BobRepair",
@@ -3304,6 +3404,7 @@ local bobQuest1 = {
     guid = "Questyno_BobRepair1",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
+    awardstask = "Questyno_BobRepair2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair1_Lore" },
@@ -3321,6 +3422,7 @@ local bobQuest2 = {
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "ScrapVest",       -- ITEM REWARD
+    awardstask = "Questyno_BobRepair3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair2_Lore" },
@@ -3360,6 +3462,7 @@ local bobQuest3A = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;20",        -- MONEY REWARD
+    awardstask = "Questyno_BobRepair4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair3_Lore" },
@@ -3411,6 +3514,7 @@ local bobQuest4A = {
     guid = "Questyno_BobRepair4_A",
 
     awardsrep = "LaResistenza;140", -- REP REWARD
+    awardstask = "Questyno_BobRepair5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair4_Lore" },
@@ -3425,6 +3529,7 @@ local bobQuest5 = {
     guid = "Questyno_BobRepair5",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
+    awardstask = "Questyno_BobRepair6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair5_Lore" },
@@ -3479,6 +3584,7 @@ local bobQuest6A = {
 
     awardsrep = "LaResistenza;150",      -- REP REWARD
     awardsitem = "SWeapons.TireIronAxe", -- ITEM REWARD
+    awardstask = "Questyno_BobRepair7",  -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair6_Lore" },
@@ -3493,7 +3599,6 @@ local bobQuest7 = {
     guid = "Questyno_BobRepair7",
 
     awardstask = "Questyno_BobRepair7_A", -- TASK REWARD
-    awardsitem = "Money;30",              -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair7_Lore" },
@@ -3516,6 +3621,7 @@ local bobQuest7A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
+    awardstask = "Questyno_BobRepair8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair7_Lore" },
@@ -3533,6 +3639,7 @@ local bobQuest8 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Ham",            -- ITEM REWARD
+    awardstask = "Questyno_BobRepair9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair8_Lore" },
@@ -3578,6 +3685,7 @@ local bobQuest9A = {
     guid = "Questyno_BobRepair9_A",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
+    awardstask = "Questyno_BobRepair10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair9_Lore" },
@@ -3592,6 +3700,7 @@ local bobQuest10 = {
     guid = "Questyno_BobRepair10",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
+    awardstask = "Questyno_BobRepair11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair10_Lore" },
@@ -3608,6 +3717,7 @@ local bobQuest11 = {
     guid = "Questyno_BobRepair11",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_BobRepair12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair11_Lore" },
@@ -3625,6 +3735,7 @@ local bobQuest12 = {
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "ScrapKilt",      -- ITEM REWARD
+    awardstask = "Questyno_BobRepair13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair12_Lore" },
@@ -3663,6 +3774,7 @@ local bobQuest13A = {
     guid = "Questyno_BobRepair13_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_BobRepair14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair13_Lore" },
@@ -3680,6 +3792,7 @@ local bobQuest14 = {
 
     awardsrep = "LaResistenza;30",  -- REP REWARD
     awardsitem = "WaterBottleFull", -- ITEM REWARD
+    awardstask = "Questyno_BobRepair15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair14_Lore" },
@@ -3696,7 +3809,6 @@ local bobQuest15 = {
     guid = "Questyno_BobRepair15",
 
     awardstask = "Questyno_BobRepair15_A",     -- TASK REWARD
-    awardsitem = "SheetMetal;2,EngineParts;2", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair15_Lore" },
@@ -3704,7 +3816,7 @@ local bobQuest15 = {
         guid = "Questyno_BobRepair15_A",
         text = "IGUI_SFQuest_Questyno_BobRepair15_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoBobRepair15;additem;SheetMetal;2;additem;EngineParts;2"
+        oncompleted = "removeclickevent;EventoBobRepair15;additem;SheetMetal;10;additem;EngineParts;10;additem;ElectronicsScrap;10;additem;UnusableMetal;10"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair15_Text",
     texture = "Item_SheetMetal",
@@ -3761,6 +3873,7 @@ local bobQuest15B = {
 
     awardsrep = "LaResistenza;50",             -- REP REWARD
     awardsitem = "SheetMetal;2,EngineParts;2", -- ITEM REWARD
+    awardstask = "Questyno_BobRepair16",       -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair15_Lore" },
@@ -3776,6 +3889,7 @@ local bobQuest16 = {
 
     awardsrep = "LaResistenza;50",      -- REP REWARD
     awardsitem = "ElectronicsScrap;20", -- ITEM REWARD
+    awardstask = "Questyno_BobRepair17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair16_Lore" },
@@ -3814,6 +3928,7 @@ local bobQuest17A = {
     guid = "Questyno_BobRepair17_A",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardstask = "Questyno_BobRepair18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair17_Lore" },
@@ -3852,6 +3967,7 @@ local bobQuest18A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;25",       -- ITEM REWARD
+    awardstask = "Questyno_BobRepair19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair18_Lore" },
@@ -3867,6 +3983,7 @@ local bobQuest19 = {
     guid = "Questyno_BobRepair19",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
+    awardstask = "Questyno_BobRepair20", -- TODO: REMOVE WHEN TESTING IS DONE
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair19_Lore" },
@@ -3883,6 +4000,7 @@ local bobQuest20 = {
     guid = "Questyno_BobRepair20",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
+    awardstask = "Questyno_BobRepair21", -- TODO: REMOVE WHEN TESTING IS DONE
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair20_Lore" },
@@ -3899,6 +4017,7 @@ local bobQuest21 = {
     guid = "Questyno_BobRepair21",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
+    awardstask = "Questyno_BobRepair22", -- TODO: REMOVE WHEN TESTING IS DONE
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair21_Lore" },
@@ -3938,6 +4057,7 @@ local bobQuest22A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "PipeWrench",     -- ITEM REWARD
+    awardstask = "Questyno_BobRepair23", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair22_Lore" },
@@ -3953,6 +4073,7 @@ local bobQuest23 = {
     guid = "Questyno_BobRepair23",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
+    awardstask = "Questyno_BobRepair1", -- TODO: REMOVE WHEN TESTING IS DONE
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair23_Lore" },
