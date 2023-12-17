@@ -2793,8 +2793,8 @@ local scottQuest18 = {
         guid = "Questyno_GeorgeScott18_A",
         text = "IGUI_SFQuest_Questyno_GeorgeScott18_A",
         hidden = false,
-        needsitem = "Base.CDplayer;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott18_A;1:Completed;removeitem;Base.CDplayer;1"
+        needsitem = "Radio.CDplayer;1",
+        onobtained = "updateobjective;Questyno_GeorgeScott18_A;1:Completed;removeitem;Radio.CDplayer;1"
     },{
         guid = "Questyno_GeorgeScott18_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott18_B",
