@@ -7,19 +7,19 @@ require 'SFQuest_Database'
                     1. Recupera 1 pacco di .308 e uccidi 100z (35 rep + 15$) (TODO: fare la logica delle kill con consegna oggetto)
                     2. Recupera 2 pacchi di 9mm e uccidi 50z (40 rep + 25$) (TODO: fare la logica delle kill con consegna oggetto)
                     3. Recupera Base.Shotgun;3 (65 rep + 50$)
-                    #4. Recupera Base.AssaultRifle,Base.556Clip (100 rep + 20$)
-                    #5. Recupera Base.AssaultRifle2;2,Base.M14Clip (140 rep)
-                    #6. Recupera 10 pacchi .38  a 10633,10401,0 (150 rep)
-                    #7. Recupera 10 pacchi .45 a 9745,10566,2 (150 rep + 25$)
+                    4. Recupera Base.AssaultRifle,Base.556Clip (100 rep + 20$)
+                    5. Recupera Base.AssaultRifle2;2,Base.M14Clip (140 rep)
+                    6. Recupera 10 pacchi .38  a 10633,10401,0 (150 rep)
+                    7. Recupera 10 pacchi .45 a 9745,10566,2 (150 rep + 25$)
                     8. Recupera Base.762Box (100 rep + 40$)
-                    #9. Recupera Base.Pistol,Base.9mmClip (40 rep + 20$)
-                    #10. Recupera Base.Bullets45Box;2,Base.45Clip;2 (200 rep)
-                    #11. Recupera 2 fucili a pompa e 2 pacchi di cartucce (150 rep)
+                    9. Recupera Base.Pistol,Base.9mmClip (40 rep + 20$)
+                    10. Recupera Base.Bullets45Box;2,Base.45Clip;2 (200 rep)
+                    11. Recupera 2 fucili a pompa e 2 pacchi di cartucce (150 rep)
                     12. Recupeera 3 molotov (120 rep)
                     13. Recupera 1 molotov (35 rep)
-                    #14. Recupera 1 doppietta e 2 pacchi di cartucce (120 rep + 30$)
-                    #15. Recupera Base.Revolver_Long,Base.Bullets44Box;3 (140 rep)
-                    #16. Recupera Base.Bullets44Box,Base.Bullets9mmBox,Base.Bullets38Box,Base.Bullets45Box (150 rep)
+                    14. Recupera Base.DoubleBarrelShotgun,Base.ShotgunShellsBox;2 (120 rep + 30$)
+                    15. Recupera Base.Revolver_Long,Base.Bullets44Box;3 (140 rep)
+                    16. Recupera Base.Bullets44Box,Base.Bullets9mmBox,Base.Bullets38Box,Base.Bullets45Box (150 rep)
                     17. Recupera 2 pacchi .44 (45 rep)
                     18. Recupera 1 pacco 9mm (40 rep)
                     19. Recupera 1 pacco .308 (35 rep)
@@ -98,80 +98,154 @@ local lupoQuest3 = {
 }
 table.insert(SFQuest_Database.QuestPool, lupoQuest3);
 
-local lupoQuest4 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo4",
-
-    awardsrep = "LaResistenza;100", -- REP REWARD
-    awardstask = "Questyno_Lupo5", -- TODO: REMOVE WHEN TESTING IS DONE
-    completesound = "levelup",
+    
+    awardstask = "Questyno_Lupo4_A",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
-    needsitem = "AssaultRifle;1;556Clip;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo4_Complete",
+    lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },                                                        
+    objectives = { {
+        guid = "Questyno_Lupo4_A",
+        text = "IGUI_SFQuest_Questyno_Lupo4_A",
+        hidden = false,
+        needsitem = "AssualtRifle;1",
+        onobtained = "updateobjective;Questyno_Lupo4:1:Completed;removeitem;AssualtRifle;1"
+    }, {
+        guid = "Questyno_Lupo4_B",
+        text = "IGUI_SFQuest_Questyno_Lupo4_B",
+        hidden = false,
+        needsitem = "556Clip;1",
+        onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;556Clip;1"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo4_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo4_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest4);
+})
 
-local lupoQuest5 = {
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo4_A",
+    
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;20",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo5_Begin;Questyno_Lupo5",
+    completesound = "levelup",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo4_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo4_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo4_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo5",
+    
+    awardstask = "Questyno_Lupo4_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
+    objectives = { {
+        guid = "Questyno_Lupo4_A",
+        text = "IGUI_SFQuest_Questyno_Lupo4_A",
+        hidden = false,
+        needsitem = "AssualtRifle2;2",
+        onobtained = "updateobjective;Questyno_Lupo4:1:Completed;removeitem;AssualtRifle2;2"
+    }, {
+        guid = "Questyno_Lupo4_B",
+        text = "IGUI_SFQuest_Questyno_Lupo4_B",
+        hidden = false,
+        needsitem = "M14Clip;1",
+        onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;M14Clip;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_Lupo4_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo4_Title",
+    unlockedsound = "QuestUnlocked"
+})
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
-    awardstask = "Questyno_Lupo6", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo5_A",
+    
+    awardsrep = "LaResistenza;140",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo6_Begin;Questyno_Lupo6",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo5_Lore" },
-    needsitem = "AssaultRifle2;2;M14Clip;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo5_Complete",
-    text = "IGUI_SFQuest_Questyno_Lupo5_Text",
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo5_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo5_A_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo5_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest5);
+})
 
-local lupoQuest6 = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo6",
-
-    awardsrep = "LaResistenza;25", -- REP REWARD
-    awardstask = "Questyno_Lupo7", -- TODO: REMOVE WHEN TESTING IS DONE
-    completesound = "levelup",
+    
+    awardstask = "Questyno_Lupo6_A",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo6_Lore" },
-    needsitem = "Bullets38Box;10;ShotgunShellsBox;1", -- REQUIRE
-    --onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo6_Complete",
     objectives = { {
-        guid = "Questyno_Lupo6_Objective1",
-        text = "IGUI_SFQuest_Questyno_Lupo6_Objective1_Text",
+        guid = "Questyno_Lupo6_A",
+        text = "IGUI_SFQuest_Questyno_Lupo6_A",
         hidden = false,
-        oncompleted = "additem;Bullets38Box;10;ShotgunShellsBox;1"
+        oncompleted = "removeclickevent;EventoLupo6;additem;Bullets38Box;10",
     } },
     text = "IGUI_SFQuest_Questyno_Lupo6_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo6_Title",
-    unlocks = "clickevent;10633x10401x0:Lupo6Container1Event;anim:loot:time:50;updateobjective:Questyno_Lupo6:1:Completed",
+    unlocks = "clickevent;10633x10401x0:EventoLupo6;time:50:anim:loot;updateobjective:Questyno_Lupo6:1:Completed",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest6);
+})
 
-local lupoQuest7 = {
-    guid = "Questyno_Lupo7",
-
-    awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_Lupo8", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo6_A",
+    
+    awardsrep = "LaResistenza;[NumeroReputazione]",
+    awardsitem = "[NomeRicompensa];[NumeroRicompensa]",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo7_Begin;Questyno_Lupo7",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo6_Lore" },
+    needsitem = "Bullets38Box;10",
+    onobtained = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo6_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo6_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo6_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo7",
+    
+    awardstask = "Questyno_Lupo7_A",
+    dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo7_Lore" },
-    needsitem = "556Box;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo7_Complete",
+    objectives = { {
+        guid = "Questyno_Lupo7_A",
+        text = "IGUI_SFQuest_Questyno_Lupo7_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLupo7;additem;Bullets45Box;10",
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo7_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo7_Title",
+    unlocks = "clickevent;9745x10566x2:EventoLupo7;time:50:anim:loot;updateobjective:Questyno_Lupo7:1:Completed",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest7);
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo7_A",
+    
+    awardsrep = "LaResistenza;[NumeroReputazione]",
+    awardsitem = "[NomeRicompensa];[NumeroRicompensa]",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo8_Begin;Questyno_Lupo8",
+    completesound = "levelup",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo7_Lore" },
+    needsitem = "Bullets45Box;10",
+    onobtained = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo7_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo7_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo7_Title",
+})
 
 local lupoQuest8 = {
     guid = "Questyno_Lupo8",
@@ -191,56 +265,124 @@ local lupoQuest8 = {
 }
 table.insert(SFQuest_Database.QuestPool, lupoQuest8);
 
-local lupoQuest9 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo9",
+    
+    awardstask = "Questyno_Lupo9_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },                                                        
+    objectives = { {
+        guid = "Questyno_Lupo9_A",
+        text = "IGUI_SFQuest_Questyno_Lupo9_A",
+        hidden = false,
+        needsitem = "Pistol;1",
+        onobtained = "updateobjective;Questyno_Lupo9:1:Completed;removeitem;Pistol;1"
+    }, {
+        guid = "Questyno_Lupo9_B",
+        text = "IGUI_SFQuest_Questyno_Lupo9_B",
+        hidden = false,
+        needsitem = "9mmClip;1",
+        onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;9mmClip;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_Lupo9_Text",
+    texture = "Item_Pistol",
+    title = "IGUI_SFQuest_Questyno_Lupo9_Title",
+    unlockedsound = "QuestUnlocked"
+})
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
-    awardstask = "Questyno_Lupo10", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo9_A",
+    
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Money;20",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo10_Begin;Questyno_Lupo10",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
-    needsitem = "VarmintRifle;1;223Box;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo9_Complete",
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo9_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo9_A_Text",
+    texture = "Item_Pistol",
+    title = "IGUI_SFQuest_Questyno_Lupo9_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo10",
+    
+    awardstask = "Questyno_Lupo9_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
+    objectives = { {
+        guid = "Questyno_Lupo9_A",
+        text = "IGUI_SFQuest_Questyno_Lupo9_A",
+        hidden = false,
+        needsitem = "Bullets45Box;2",
+        onobtained = "updateobjective;Questyno_Lupo9:1:Completed;removeitem;Bullets45Box;2"
+    }, {
+        guid = "Questyno_Lupo9_B",
+        text = "IGUI_SFQuest_Questyno_Lupo9_B",
+        hidden = false,
+        needsitem = "45Clip;2",
+        onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;45Clip;2"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo9_Text",
-    texture = "Item_Money",
+    texture = "Item_Pistol",
     title = "IGUI_SFQuest_Questyno_Lupo9_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest9);
+})
 
-local lupoQuest10 = {
-    guid = "Questyno_Lupo10",
-
-    awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_Lupo11", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo10_A",
+    
+    awardsrep = "LaResistenza;200",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo11_Begin;Questyno_Lupo11",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
-    needsitem = "Bullets45Box;5;Pistol2;2;45Clip;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo10_Complete",
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo10_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo10_A_Text",
+    texture = "Item_Pistol",
+    title = "IGUI_SFQuest_Questyno_Lupo10_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo11",
+    
+    awardstask = "Questyno_Lupo10_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
+    objectives = { {
+        guid = "Questyno_Lupo10_A",
+        text = "IGUI_SFQuest_Questyno_Lupo10_A",
+        hidden = false,
+        needsitem = "ShotgunShellsBox;2",
+        onobtained = "updateobjective;Questyno_Lupo10:1:Completed;removeitem;ShotgunShellsBox;2"
+    },
+    {
+        guid = "Questyno_Lupo10_B",
+        text = "IGUI_SFQuest_Questyno_Lupo10_B",
+        hidden = false,
+        needsitem = "Shotgun;2",
+        onobtained = "updateobjective;Questyno_Lupo10:2:Completed;removeitem;Shotgun;2"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo10_Text",
-    texture = "Item_Money",
+    texture = "Item_Pistol",
     title = "IGUI_SFQuest_Questyno_Lupo10_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest10);
+})
 
-local lupoQuest11 = {
-    guid = "Questyno_Lupo11",
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo11_A",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_Lupo12", -- TODO: REMOVE WHEN TESTING IS DONE
+    awardsrep = "LaResistenza;150",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo12_Begin;Questyno_Lupo12",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo11_Lore" },
-    needsitem = "Shotgun;2;ShotgunShellsBox;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo11_Complete",
-    text = "IGUI_SFQuest_Questyno_Lupo11_Text",
-    texture = "Item_Money",
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo11_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo11_A_Text",
+    texture = "Item_Pistol",
     title = "IGUI_SFQuest_Questyno_Lupo11_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest11);
+})
 
 local lupoQuest12 = {
     guid = "Questyno_Lupo12",
@@ -276,55 +418,135 @@ local lupoQuest13 = {
 }
 table.insert(SFQuest_Database.QuestPool, lupoQuest13);
 
-local lupoQuest14 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo14",
-
-    awardsrep = "LaResistenza;120", -- REP REWARD
-    completesound = "levelup",
+    
+    awardstask = "Questyno_Lupo14_A",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },
-    needsitem = "DoubleBarrelShotgun;1;ShotgunShellsBox;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo14_Complete",
+    lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },                                                        
+    objectives = { {
+        guid = "Questyno_Lupo14_A",
+        text = "IGUI_SFQuest_Questyno_Lupo14_A",
+        hidden = false,
+        needsitem = "DoubleBarrelShotgun;1",
+        onobtained = "updateobjective;Questyno_Lupo14:1:Completed;removeitem;DoubleBarrelShotgun;1"
+    }, {
+        guid = "Questyno_Lupo14_B",
+        text = "IGUI_SFQuest_Questyno_Lupo14_B",
+        hidden = false,
+        needsitem = "ShotgunShellsBox;2",
+        onobtained = "updateobjective;Questyno_Lupo14:2:Completed;removeitem;ShotgunShellsBox;2"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo14_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo14_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest14);
+})
 
-local lupoQuest15 = {
-    guid = "Questyno_Lupo15",
-
-    awardsrep = "LaResistenza;140", -- REP REWARD
-    awardstask = "Questyno_Lupo16", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo14_A",
+    
+    awardsrep = "LaResistenza;120",
+    awardsitem = "Money;30",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo15_Begin;Questyno_Lupo15",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },
-    needsitem = "Revolver_Long;1;Bullets44Box;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo15_Complete",
+    lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo14_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo14_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo14_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Lupo15",
+    
+    awardstask = "Questyno_Lupo15_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },                                                        
+    objectives = { {
+        guid = "Questyno_Lupo15_A",
+        text = "IGUI_SFQuest_Questyno_Lupo15_A",
+        hidden = false,
+        needsitem = "Revolver_Long;1",
+        onobtained = "updateobjective;Questyno_Lupo15:1:Completed;removeitem;Revolver_Long;1"
+    }, {
+        guid = "Questyno_Lupo15_B",
+        text = "IGUI_SFQuest_Questyno_Lupo15_B",
+        hidden = false,
+        needsitem = "Bullets44Box;3",
+        onobtained = "updateobjective;Questyno_Lupo15:2:Completed;removeitem;Bullets44Box;3"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo15_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo15_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest15);
+})
 
-local lupoQuest16 = {
-    guid = "Questyno_Lupo16",
-
-    awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_Lupo17", -- TODO: REMOVE WHEN TESTING IS DONE
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo15_A",
+    
+    awardsrep = "LaResistenza;140",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo16_Begin;Questyno_Lupo16",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },
-    needsitem = "Bullets44Box;1;Bullets9mmBox;1;Bullets38Box;1;Bullets45Box;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo16_Complete",
+    lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo15_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo15_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo15_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Lupo16",
+    
+    awardstask = "Questyno_Lupo16_A",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },                                                        
+    objectives = { {
+        guid = "Questyno_Lupo16_A",
+        text = "IGUI_SFQuest_Questyno_Lupo16_A",
+        hidden = false,
+        needsitem = "Bullets44Box;1",
+        onobtained = "updateobjective;Questyno_Lupo16:1:Completed;removeitem;Bullets44Box;1"
+    }, {
+        guid = "Questyno_Lupo16_B",
+        text = "IGUI_SFQuest_Questyno_Lupo16_B",
+        hidden = false,
+        needsitem = "Bullets9mmBox;1",
+        onobtained = "updateobjective;Questyno_Lupo16:2:Completed;removeitem;Bullets9mmBox;1"
+    }, {
+        guid = "Questyno_Lupo16_C",
+        text = "IGUI_SFQuest_Questyno_Lupo16_C",
+        hidden = false,
+        needsitem = "Bullets38Box;1",
+        onobtained = "updateobjective;Questyno_Lupo16:3:Completed;removeitem;Bullets38Box;1"
+    }, {
+        guid = "Questyno_Lupo16_D",
+        text = "IGUI_SFQuest_Questyno_Lupo16_D",
+        hidden = false,
+        needsitem = "Bullets45Box;1",
+        onobtained = "updateobjective;Questyno_Lupo16:4:Completed;removeitem;Bullets45Box;1"
+    } },
     text = "IGUI_SFQuest_Questyno_Lupo16_Text",
     texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_Lupo16_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, lupoQuest16);
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_Lupo16_A",
+    
+    awardsrep = "LaResistenza;150",
+    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo17_Begin;Questyno_Lupo17",
+    completesound = "levelup",
+    dailycode = "Questyno_Lupo",
+    lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },
+    unlocks = "unlockworldevent;Questyno_Lupo;SFQuest_Questyno_Lupo16_Complete",
+    text = "IGUI_SFQuest_Questyno_Lupo16_A_Text",
+    texture = "Item_Money",
+    title = "IGUI_SFQuest_Questyno_Lupo16_Title",
+})
 
 local lupoQuest17 = {
     guid = "Questyno_Lupo17",
@@ -416,7 +638,7 @@ local lupoQuest22 = {
     guid = "Questyno_Lupo22",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardstask = "Questyno_Lupo23", -- TODO: REMOVE WHEN TESTING IS DONE
+    awardstask = "Questyno_Lupo1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo22_Lore" },

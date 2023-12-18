@@ -38,7 +38,7 @@ Questyno = {
 		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random2_Begin;Questyno_Money10_random2",
 		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random3_Begin;Questyno_Money10_random3",
 	}, ]]
-	--[[ 	Lupo = {
+		Lupo = {
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo1_Begin;Questyno_Lupo1",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo2_Begin;Questyno_Lupo2",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo3_Begin;Questyno_Lupo3",
@@ -61,8 +61,8 @@ Questyno = {
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo20_Begin;Questyno_Lupo20",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo21_Begin;Questyno_Lupo21",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo22_Begin;Questyno_Lupo22",
-		"Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Begin;Questyno_Lupo23",
-	}, ]]
+--		"Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Begin;Questyno_Lupo23",
+	},
 	Grif = {
 		"Questyno_Grif;SFQuest_Questyno_Grif1_Begin;Questyno_Grif1",
 		"Questyno_Grif;SFQuest_Questyno_Grif2_Begin;Questyno_Grif2",
@@ -429,14 +429,14 @@ SFQuest_Database.RandomEventPool.Questyno = Questyno;
 	commands = "randomcodedworldfrompool;Questyno_Money;Questyno;Money",
 	days = 0,
 	frequency = 1
-});
+});]]
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_Lupo",
 	condition = "notmaxedwithcode;Questyno_Lupo;1",
 	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
 	days = 0,
 	frequency = 1
-});]]
+}); 
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_Grif",
 	condition = "notmaxedwithcode;Questyno_Grif;1",
@@ -539,7 +539,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
---table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Lupo_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Lupo_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HeatherThomas_Intro" })
@@ -560,7 +560,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_In
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
---table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Grif" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })
