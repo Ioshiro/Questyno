@@ -45,26 +45,26 @@ SFQuest_Database.MannequinPool["12430x1341x0"] = {
 
 --[[                            ***       NPC DAILY QUEST     ***
                     Elenco:
-                        x. Tony "Lupo" (Spawn Point: 12427x1340x0)
+                        x. Tony "Lupo" (West Point: 10157,6611,0 )
                         Spawn Point:
                         1. Sergente Grif (Spawn Point: 12427x1339x0)
 ]]
 
--- Tony "Lupo"
---[[ table.insert(SFQuest_Database.WorldPool, {
+-- Tony "Lupo" 
+table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_TonyLupo",
-    square = "12427x1340x0",
+    square = "10157x6611x0 ",
     name = "IGUI_SFQuest_Questyno_TonyLupo_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_TonyLupo.png",
 })
 
-SFQuest_Database.MannequinPool["12427x1340x0"] = {
+SFQuest_Database.MannequinPool["10157x6611x0 "] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
     outfit = "Farmer"
-} ]]
+}
 
 --[[
                                                             *** NPC DAILY SPAWN POINT ***
