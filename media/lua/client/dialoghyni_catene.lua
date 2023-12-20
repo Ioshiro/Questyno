@@ -61,3 +61,31 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_E
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ElowenBeckett5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ElowenBeckett5", optional = true, text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ElowenBeckett5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ElowenBeckett5", text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Complete"})
+
+--[[
+        *** John Baker ***
+        Elenco:
+            intro. Parla con John Baker per sbloccare la catena di quest.
+            1. Uccidere 50 Zombie (30rep)
+            2. Uccidere 200 Zombie (80rep + SWeapons.ScrapMachete)
+            3. Recuperare Base.Book parlando con (10009,13072,1) (150rep)
+            4. Uccidere 500 Zombie (200rep + Base.Katana)
+            5. Recuperare Base.CannedChili;3,Base.CannedPineapple;3,Base.CornedBeef;3,Base.DriedChickpeas parlando con (4418,6236,0) (50rep + Base.DriedChickpeas)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker_Intro", text = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker1", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker1", text = "IGUI_SFQuest_Questyno_JohnBaker1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker2", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker2", text = "IGUI_SFQuest_Questyno_JohnBaker2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker3", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker3_A", text = "IGUI_SFQuest_Questyno_JohnBaker3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker4", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker4", text = "IGUI_SFQuest_Questyno_JohnBaker4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker5", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker5_B", text = "IGUI_SFQuest_Questyno_JohnBaker5_Complete"})

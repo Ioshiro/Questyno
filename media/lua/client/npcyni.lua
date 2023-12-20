@@ -53,13 +53,13 @@ SFQuest_Database.MannequinPool["12430x1341x0"] = {
 -- Tony "Lupo" 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_TonyLupo",
-    square = "10157x6611x0 ",
+    square = "10157x6611x0",
     name = "IGUI_SFQuest_Questyno_TonyLupo_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_TonyLupo.png",
 })
 
-SFQuest_Database.MannequinPool["10157x6611x0 "] = {
+SFQuest_Database.MannequinPool["10157x6611x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
@@ -352,3 +352,20 @@ SFQuest_Database.MannequinPool["9330x8632x0"] = {
     beard = "",
     outfit = "PonchoGiallo"
 }
+
+-- John Baker, Trelai 6867,7360,0
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_JohnBaker",
+    square = "6867x7360x0",
+    name = "IGUI_SFQuest_Questyno_JohnBaker_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_JohnBaker.png",
+})
+
+SFQuest_Database.MannequinPool["6867x7360x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoGiallo"
+}
+

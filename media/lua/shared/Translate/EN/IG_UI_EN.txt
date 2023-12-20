@@ -3883,6 +3883,219 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_DavidTurner23_Complete = "Grazie, mi rimetto a lavoro!",
 
+
+--[[
+                                *** Rafael 'Prezioso' ***
+                        Elenco:
+                            intro. Parla con Rafael per sbloccare le daily.
+                            
+
+]]
+
+IGUI_SFQuest_Questyno_RafaelPrezioso_Name = "Rafael 'Prezioso'",
+
+IGUI_SFQuest_Questyno_Rafael_Intro_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael_Intro_Text = "Parla con Rafael per sbloccare le sue quest giornaliere.",
+IGUI_SFQuest_Questyno_Rafael_Intro_Lore = "Sono Rafael, ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
+IGUI_SFQuest_Questyno_Rafael_Intro_Complete_Text = "Sono Rafael, ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
+
+
+IGUI_SFQuest_Questyno_Rafael1_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael1_Text = "Whiskey per Rafael",
+IGUI_SFQuest_Questyno_Rafael1_Lore = "Rafael vuole che gli porti una bottiglia di Whiskey. Sembra che sia un collezionista di alcolici.",
+IGUI_SFQuest_Questyno_Rafael1_Begin_Text = "La nostra storia deve essere ricordata, in ogni modo!",
+IGUI_SFQuest_Questyno_Rafael1_Begin_Text_Accepted = "Grazie collega!",
+IGUI_SFQuest_Questyno_Rafael1_Begin_Text_Declined = "Peccato! Non sai cosa ti perdi. Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael1_Complete = "La nostra storia verrà ricordata!",
+
+
+IGUI_SFQuest_Questyno_Rafael2_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael2_Text = "Chardonnay per Rafael",
+IGUI_SFQuest_Questyno_Rafael2_Lore = "Rafael vuole che gli porti una bottiglia di Chardonnay. Sembra che sia un collezionista di alcolici.",
+IGUI_SFQuest_Questyno_Rafael2_Begin_Text = "La nostra storia deve essere ricordata, in ogni modo!",
+IGUI_SFQuest_Questyno_Rafael2_Begin_Text_Accepted = "Grazie collega!",
+IGUI_SFQuest_Questyno_Rafael2_Begin_Text_Declined = "Peccato! Non sai cosa ti perdi. Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael2_Complete = "La nostra storia verrà ricordata!",
+
+
+IGUI_SFQuest_Questyno_Rafael3_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael3_Text = "Una tromba per Rafael",
+IGUI_SFQuest_Questyno_Rafael3_Lore = "Rafael vuole che gli porti una tromba. Sembra che sia un musicista.",
+IGUI_SFQuest_Questyno_Rafael3_Begin_Text = "La nostra storia deve essere ricordata, in ogni modo!",
+IGUI_SFQuest_Questyno_Rafael3_Begin_Text_Accepted = "Vai a casa di un ex collega a Muldraugh e recupera la sua tromba d'epoca!",
+IGUI_SFQuest_Questyno_Rafael3_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael3_Complete = "Fantastica! Senti come suona!",
+
+
+IGUI_SFQuest_Questyno_Rafael4_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael4_Text = "Basso elettrico blu",
+IGUI_SFQuest_Questyno_Rafael4_Lore = "Rafael vuole che gli porti un basso elettrico blu. Sembra che sia un musicista.",
+IGUI_SFQuest_Questyno_Rafael4_Begin_Text = "Non dobbiamo scordarci come siamo arrivati a questo punto e chi eravamo prima!",
+IGUI_SFQuest_Questyno_Rafael4_Begin_Text_Accepted = "Vai nel negozio di elettronica a New Ekron e recupera un Basso elettrico blue!",
+IGUI_SFQuest_Questyno_Rafael4_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael4_Complete = "Boia ma è bellissimo! Credo serva un amplificatore per questo!",
+
+
+IGUI_SFQuest_Questyno_Rafael5_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael5_Text = "Altoparlanti per Rafael",
+IGUI_SFQuest_Questyno_Rafael5_Lore = "Rafael vuole che gli porti degli altoparlanti. Sembra che sia un musicista.",
+IGUI_SFQuest_Questyno_Rafael5_Begin_Text = "Non dobbiamo scordarci come siamo arrivati a questo punto e chi eravamo prima!",
+IGUI_SFQuest_Questyno_Rafael5_Begin_Text_Accepted = "Vai nel negozio di elettronica a New Ekron e recupera un Altoparlante!",
+IGUI_SFQuest_Questyno_Rafael5_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael5_Complete = "Boia ma è bellissimo! Credo serva un amplificatore per questo!",
+
+
+IGUI_SFQuest_Questyno_Rafael6_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael6_Text = "Un favore per la comunità",
+IGUI_SFQuest_Questyno_Rafael6_Lore = "Non so come tu faccia ma credo di poter fare un favore a tutti se recuperassimo della Carta Igenica, ormai vale più dell'acqua!",
+IGUI_SFQuest_Questyno_Rafael6_Begin_Text = "Recupera dei rotoli di carta igenica Grazie, da parte di tutti mio caro.",
+IGUI_SFQuest_Questyno_Rafael6_Begin_Text_Accepted = "Grazie, da parte di tutti mio caro.",
+IGUI_SFQuest_Questyno_Rafael6_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael6_Complete = "Grazie, da parte di tutti mio caro.",
+
+
+IGUI_SFQuest_Questyno_Rafael7_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael7_Text = "Un favore per la comunità",
+IGUI_SFQuest_Questyno_Rafael7_Lore = "Vai a West Point e riportami la mia campanella",
+IGUI_SFQuest_Questyno_Rafael7_Begin_Text =  "Ho bisogno che torni nella mia vecchia abitazione a West Point e recuperi la mia Campanella. Non chiedere a cosa serve.",
+IGUI_SFQuest_Questyno_Rafael7_Begin_Text_Accepted = "Grazie non puoi capire il valore di quest'oggetto!",
+IGUI_SFQuest_Questyno_Rafael7_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael7_Complete = "Grazie, da parte di tutti mio caro.",
+
+
+IGUI_SFQuest_Questyno_Rafael8_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael8_Text = "Un mazzo di carte per Rafael",
+IGUI_SFQuest_Questyno_Rafael8_Lore = "Non voglio che le prossime generazioni non sappiano cosa sia una partita a scopa o briscola! Devi assolutamente recuperare un mazzo di carte per intrattenerci in questi giorni bui.",
+IGUI_SFQuest_Questyno_Rafael8_Begin_Text = "Recupero un mazzo di carte per Rafael",
+IGUI_SFQuest_Questyno_Rafael8_Begin_Text_Accepted = "Bene, quando tornerai ci faremo due partite?",
+IGUI_SFQuest_Questyno_Rafael8_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael8_Complete = "Bene, ti va di fare due partite?",
+
+
+IGUI_SFQuest_Questyno_Rafael9_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael9_Text = "I videogiochi per Rafael",
+IGUI_SFQuest_Questyno_Rafael9_Lore = "Ti piacciono i videogiochi? Neanche a me, però potrebbero servirci per ricordarci come si divertivano le ultime generazioni del Vecchio Mondo. Cerca nelle case di Pitstop + Pitstop, sono certo che ne troverai qualcuno.",
+IGUI_SFQuest_Questyno_Rafael9_Begin_Text = "Recupera 2 Pitstop. Grazie molte, adesso vediamo come si gioca con questi arnesi.",
+IGUI_SFQuest_Questyno_Rafael9_Begin_Text_Accepted = "Grazie molte, adesso vediamo come si giocavano",
+IGUI_SFQuest_Questyno_Rafael9_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael9_Complete = "Grazie molte, adesso vediamo come si gioca con questi arnesi.",
+
+
+IGUI_SFQuest_Questyno_Rafael10_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael10_Text = "Moseca!",
+IGUI_SFQuest_Questyno_Rafael10_Lore = "Da quanto tempo è che non ascolti un pò di musica?  Cerca nelle case di Muldraugh degli strumenti musicali, sono certo che ne troverai molti.",
+IGUI_SFQuest_Questyno_Rafael10_Begin_Text = "Recupera una basso elettrico, una tromba, una bacchetta da batteria musicale",
+IGUI_SFQuest_Questyno_Rafael10_Begin_Text_Accepted = "Recupera una basso elettrico, una tromba, una bacchetta da batteria musicale",
+IGUI_SFQuest_Questyno_Rafael10_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael10_Complete = "Ottimo, hai fatto un bel lavoro. Questi te li devo questa volta.",
+
+
+IGUI_SFQuest_Questyno_Rafael11_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael11_Text = "La dama di Rafael",
+IGUI_SFQuest_Questyno_Rafael11_Lore = "Non ti andrebbe una bella partita a Dama?"
+IGUI_SFQuest_Questyno_Rafael11_Begin_Text = "Vai nel mio vecchio appartamento a New Ekron c'è tutto quello che serve!",
+IGUI_SFQuest_Questyno_Rafael11_Begin_Text_Accepted = "Vai nel mio vecchio appartamento a Rosewood c'è tutto quello che serve! Recupera schacchiera, pedine nere e rosse.",
+IGUI_SFQuest_Questyno_Rafael11_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael11_Complete = "Grazie! Ti va di fare una partita?",
+
+IGUI_SFQuest_Questyno_Rafael12_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael12_Text = "Uno Yoyo per Rafael",
+IGUI_SFQuest_Questyno_Rafael12_Lore = "Vorrei un fottuto Yo-yo!",
+IGUI_SFQuest_Questyno_Rafael12_Begin_Text = "Sai cosa mi manca? Un fottuto Yo-yo! Riesci a trovarne uno per me?",
+IGUI_SFQuest_Questyno_Rafael12_Begin_Text_Accepted = "Recupera uno Yoyo.",
+IGUI_SFQuest_Questyno_Rafael12_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael12_Complete = "Wow, ti ricordi come si usa? Tieni questi sono per te.",
+
+IGUI_SFQuest_Questyno_Rafael13_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael13_Text = "Il cappello da Pirata",
+IGUI_SFQuest_Questyno_Rafael13_Lore = "Ho sempre amato i pirati perché andavano a caccia di tesori! Conoscevo un Collezionista nella città di Utopia, vai li e guarda se gli rimane qualche cappello da pirata!",
+IGUI_SFQuest_Questyno_Rafael13_Begin_Text = "Mi piacerebbe avere un cappello da pirata, puoi recuperarne uno?",
+IGUI_SFQuest_Questyno_Rafael13_Begin_Text_Accepted = "Recupera un cappello da pirata nella città di Utopia.",
+IGUI_SFQuest_Questyno_Rafael13_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael13_Complete = "Cavoli questo è ancora più bello del mio! Grazie di cuore, amico.",
+
+IGUI_SFQuest_Questyno_Rafael14_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael14_Text = "Vestiti per Rafael",
+IGUI_SFQuest_Questyno_Rafael14_Lore = "Continuare ad assomigliare a dei senza tetto non ci farà mai recuperare la Speranza! Perché non mi porti qualche bel vestito da distribuire?",
+IGUI_SFQuest_Questyno_Rafael14_Begin_Text = "Recupero 1 girocollo, 1 maglietta, 1 pantaloni",
+IGUI_SFQuest_Questyno_Rafael14_Begin_Text_Accepted = "Mi servono 1 girocollo, 1 maglietta, 1 pantaloni",
+IGUI_SFQuest_Questyno_Rafael14_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael14_Complete = "Wow, bellissimi!",
+
+
+IGUI_SFQuest_Questyno_Rafael15_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael15_Text = "Un tamburo per Rafael",
+IGUI_SFQuest_Questyno_Rafael15_Lore = "Devi recuperare assolutamente un tamburo. Mi raccomando, non percuoterlo è un pezzo di antiquariato! Vai a Chinatown per trovarlo.",
+IGUI_SFQuest_Questyno_Rafael15_Begin_Text = "Recupero 1 tamburo dallla città di Chinatown",
+IGUI_SFQuest_Questyno_Rafael15_Begin_Text_Accepted = "Recupero 1 tamburo dallla città di Chinatown",
+IGUI_SFQuest_Questyno_Rafael15_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael15_Complete = "Wow bellissimo! 'Tumb Tumb' direi che funziona.",
+
+
+IGUI_SFQuest_Questyno_Rafael16_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael16_Text = "Un tagliaerba per Rafael",
+IGUI_SFQuest_Questyno_Rafael16_Lore = "Mi mancano i pratini all'inglese, voglio che vai a cercare un altro pezzo di elettronica che ci ha distinto come civiltà industrializzata. Lo troverai sicuramente al negozio di elettronica a New Ekron.",
+IGUI_SFQuest_Questyno_Rafael16_Begin_Text = "Recupera un tagliaerba dal negozio di elettronica a New Ekron",
+IGUI_SFQuest_Questyno_Rafael16_Begin_Text_Accepted = "Recupera un tagliaerba dal negozio di elettronica a New Ekron",
+IGUI_SFQuest_Questyno_Rafael16_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael16_Complete = "Finalmente queste vespe spariranno una volta per tutte! Grazie!",
+
+
+IGUI_SFQuest_Questyno_Rafael17_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael17_Text = "Olio su tela",
+IGUI_SFQuest_Questyno_Rafael17_Lore = "Ti intendi di dipinti? Non è un problema, questo lo riconoscerai perforza, si trova in una casa a Rosewood, capirai qual è quando lo vedrai, fidati.",
+IGUI_SFQuest_Questyno_Rafael17_Begin_Text = "Recupera una ??? tela ??? in una casa a Rosewood",
+IGUI_SFQuest_Questyno_Rafael17_Begin_Text_Accepted = "Recupera una tela a Rosewood. La metterò in camera.",
+IGUI_SFQuest_Questyno_Rafael17_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael17_Complete = "Wow incredibile, la metterò in camera.",
+
+
+IGUI_SFQuest_Questyno_Rafael18_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael18_Text = "Rafael il Pirata",
+IGUI_SFQuest_Questyno_Rafael18_Lore = "Mi piacerebbe avere un una benda da pirata, puoi recuperarne uno?",
+IGUI_SFQuest_Questyno_Rafael18_Begin_Text = "Mi dicono tutti che mi manca un benda sull'occhio, secondo te mi starebbe bene?",
+IGUI_SFQuest_Questyno_Rafael18_Begin_Text_Accepted = "Perché non me ne porti una così verifico subito! Ne trovi una nel Centro commerciale a Utopia.",
+IGUI_SFQuest_Questyno_Rafael18_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael18_Complete = "Wow, bellissima!",
+
+
+IGUI_SFQuest_Questyno_Rafael19_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael19_Text = "Il completo di Rafael",
+IGUI_SFQuest_Questyno_Rafael19_Lore = "Mi piacerebbe avere un completo da uomo, puoi recuperarne uno?",
+IGUI_SFQuest_Questyno_Rafael19_Begin_Text = "Mi dicono tutti che mi manca un completo da uomo, secondo te mi starebbe bene?",
+IGUI_SFQuest_Questyno_Rafael19_Begin_Text_Accepted = "Questo vestito ormai è pieno di buchi, ne riusciresti a trovare uno simile o magari uguale?",
+IGUI_SFQuest_Questyno_Rafael19_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael19_Complete = "Grazie mio caro, devo dargli una stirata ma sono perfetti.",
+
+
+IGUI_SFQuest_Questyno_Rafael20_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael20_Text = "Bigiotteria per Rafael",
+IGUI_SFQuest_Questyno_Rafael20_Lore = "Mi piacerebbe recuperare le 2 medagline dei militari, puoi recuperarle?",
+IGUI_SFQuest_Questyno_Rafael20_Begin_Text = "Dobbiamo onorare la resistenza di questi due eroi, recuperale!",
+IGUI_SFQuest_Questyno_Rafael20_Begin_Text_Accepted = "Dobbiamo onorare la loro resistenza, recuperale!",
+IGUI_SFQuest_Questyno_Rafael20_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael20_Complete = "Onore a questi due, che riposino in pace.",
+
+
+IGUI_SFQuest_Questyno_Rafael21_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael21_Text = "Un anello per Rafael.",
+IGUI_SFQuest_Questyno_Rafael21_Lore = "Mi piacerebbe avere un anello d'oro sul naso, puoi recuperarne uno?",
+IGUI_SFQuest_Questyno_Rafael21_Begin_Text = "Mi dicono tutti che mi manca un anello d'oro sul naso, secondo te mi starebbe bene?",
+IGUI_SFQuest_Questyno_Rafael21_Begin_Text_Accepted = "Come lo vedi un bell'anello d'oro sul mio naso? Riusciresti a recuperarne uno non troppo grosso?",
+IGUI_SFQuest_Questyno_Rafael21_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael21_Complete = "Mmm credo di averci ripensato.",
+
+
+IGUI_SFQuest_Questyno_Rafael22_Title = "Rafael 'Prezioso' (9331x8640x0)",
+IGUI_SFQuest_Questyno_Rafael22_Text = "Un papillon per Rafale",
+IGUI_SFQuest_Questyno_Rafael22_Lore = "Mi mancano i tempi dei grand gala, forse un papillon potrebbe far riaffiorare alla mente quei bellissimi ricordi. Te lo chiedo come favore personale, riesci a trovarne uno?",
+IGUI_SFQuest_Questyno_Rafael22_Begin_Text = "Recuperami un papillon, per favore.",
+IGUI_SFQuest_Questyno_Rafael22_Begin_Text_Accepted = "Recuperami un papillon, per favore.",
+IGUI_SFQuest_Questyno_Rafael22_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
+IGUI_SFQuest_Questyno_Rafael22_Complete = "Bellissimo. Direi che mi sta benissimo. Tieni e grazie.",
+
+
+
 --[[
                         *** Ezekiel Flynn ***
                 Elenco:
@@ -4003,4 +4216,73 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Complete = "Bene, ecco a te. Fammi sapere se ti torna utile!",
+
+    --[[
+            *** John Baker ***
+            Elenco:
+                intro. Parla con John Baker per sbloccare la catena di quest.
+				1. Uccidere 50 Zombie (30rep)
+				2. Uccidere 200 Zombie (80rep + SWeapons.ScrapMachete)
+				3. Recuperare Base.Book parlando con (10009,13072,1) (150rep)
+				4. Uccidere 500 Zombie (200rep + Base.Katana)
+				5. Recuperare Base.CannedChili;3,Base.CannedPineapple;3,Base.CornedBeef;3,Base.DriedChickpeas parlando con (4418,6236,0) (50rep + Base.DriedChickpeas)
+]]
+    IGUI_SFQuest_Questyno_JohnBaker_Name = "John Baker",
+
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Parla con John Baker per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
+	
+	IGUI_SFQuest_Questyno_JohnBaker1_Title = "Uccidi 50 Zombie",
+    IGUI_SFQuest_Questyno_JohnBaker1_Text = "John da Trelai 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker1_Lore = "Devo dimostrare a John di meritarmi una delle sue Katane. Devo uccidere 50 Zombie per suo conto.",
+    IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text = "Puoi cominciare con il far saltare 50 teste di quei bastardi. Quando lo hai fatto, torna da me",
+    IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text_Declined = "Ti facevo più tosto.",
+    IGUI_SFQuest_Questyno_JohnBaker1_Complete = "Okay, non male.",
+	
+	IGUI_SFQuest_Questyno_JohnBaker2_Title = "Uccidi 200 Zombie",
+    IGUI_SFQuest_Questyno_JohnBaker2_Text = "John da Trelai 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker2_Lore = "Devo dimostrare a John di meritarmi una delle sue Katane. Devo uccidere 200 Zombie per suo conto. ",
+    IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text = "Bene, quelli erano per riscaldarsi. Uccidene altri 200 e torna da me.",
+    IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text_Accepted = "Ti aspetto qui.",
+    IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text_Declined = "Peccato.",
+    IGUI_SFQuest_Questyno_JohnBaker2_Complete = "Complimenti, i prossimi uccidili con questo.",
+	
+	IGUI_SFQuest_Questyno_JohnBaker3_Title = "Recupero Libro a 10009,13072,1",
+    IGUI_SFQuest_Questyno_JohnBaker3_Text = "John da Trelai 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker3_Lore = "Devo andare alla vecchia casa della madre di Jhon per recuperare dei libri che gli interessano. Comincio a pensare che mi stia prendendo in giro. La casa si trova a March Ridge (10009,13072,1)",
+    IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text = "Okay okay, forse sei solo fortunato. Prova a recupeare un libro a casa mia a March Ridge e portalo da me. Quella città è un puttanaio se ce la farai forse potrò darti una mano.",
+    IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Accepted = "Ottimo. Ti aspetto qui.",
+    IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Declined = "Cercherò qualcun'altro.",
+    IGUI_SFQuest_Questyno_JohnBaker3_Complete = "Okey, hai la stoffa che serve.",
+	IGUI_SFQuest_Questyno_JohnBaker3_A = "Cerca a March Ridge (10009,13072,1)",
+	IGUI_SFQuest_Questyno_JohnBaker3_A_Text = "Porta il libro a John",
+	
+	IGUI_SFQuest_Questyno_JohnBaker4_Title = "Uccidi 500 Zombie.",
+    IGUI_SFQuest_Questyno_JohnBaker4_Text = "John da Trelai 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker4_Lore = "Jhon vuole che ammazzi altri 500 zombie, forse è impazzito?",
+    IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text = "Grazie per il libro, ci sono scritte cose importanti per affinare la mia tecnica. Adesso voglio che elimini altri 500 zombie. Se ce la farai ti donerò una delle mie Katane.",
+    IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
+    IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_JohnBaker4_Complete = "Bene, complimenti, ce l'hai fatta. Questa è tua. Aspetta di avere una buona manutenzione o la romperai subito.",
+	
+	IGUI_SFQuest_Questyno_JohnBaker5_Title = "Recupero <Canned Chili>, <Canned Pineapple>, <Base.CornedBeef>, <Dried Chick Peas> a 4418,6236,0",
+    IGUI_SFQuest_Questyno_JohnBaker5_Text = "John da Trelai 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker5_Lore = "Jhon vorrebbe che recuperassi alcune scorte di cibo che il suo amico ha lasciato a Southwood (4418,6236,0)",
+    IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text = "Adesso che hai la tua Katana nulla potrà fermarti, che ne dici di recuperare le scorte che ha lasciato il mio collega nel suo appartamento a Southwood?",
+    IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Accepted = "Okay, ti aspetto qui.",
+    IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Declined = "Lo immaginavo.",
+    IGUI_SFQuest_Questyno_JohnBaker5_Complete = "Ottimo, puoi tenerti i ceci se vuoi, a me non sono mai piaciuti. E questi sono per il disturbo",
+	IGUI_SFQuest_Questyno_JohnBaker5_A = "Cerca a Southwood (4418,6236,0)",
+	IGUI_SFQuest_Questyno_JohnBaker5_A_Text = "Prendi il cibo per John",
+	IGUI_SFQuest_Questyno_JohnBaker5_B = "3 <Canned Chili>",
+	IGUI_SFQuest_Questyno_JohnBaker5_C = "3 <Canned Pineapple>",
+	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 <Base.CornedBeef>",
+	IGUI_SFQuest_Questyno_JohnBaker5_E = "<Dried Chick Peas>";
+	IGUI_SFQuest_Questyno_JohnBaker5_B_Text = "Parla con John",
+}
+
+
 }

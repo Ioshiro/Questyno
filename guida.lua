@@ -385,7 +385,7 @@ table.insert(SFQuest_Database.QuestPool,{
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
         onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     } },
-    text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
+    text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
     title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern
 })
@@ -408,7 +408,8 @@ table.insert(SFQuest_Database.QuestPool,{
                                                                                                                         -- in questo caso sblocca sempre il dialogo per completare la quest
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_A")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
-    title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
+    title = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Title",
+    unlocks = "unlockworldevent;Questyno_[NomeCognome];SFQuest_Questyno_[NomeCognomeNumero]_Complete",                                                          -- Titolo della quest, seguire il pattern                                                                                 -- Su
 })
 
 --[[ Pattern 7:
