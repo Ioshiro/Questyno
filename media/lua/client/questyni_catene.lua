@@ -300,6 +300,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "SWeapons.ScrapMachete;1", -- ITEM REWARD
+    awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker3_Begin;Questyno_JohnBaker3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker2_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker2_Text",

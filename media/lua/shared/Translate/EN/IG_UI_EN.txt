@@ -4229,7 +4229,7 @@ IGUI_SFQuest_Questyno_Rafael22_Complete = "Bellissimo. Direi che mi sta benissim
 ]]
     IGUI_SFQuest_Questyno_JohnBaker_Name = "John Baker",
 
-    IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker, 6867,7360,0",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Parla con John Baker per sbloccare la sua catena di quest.",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
