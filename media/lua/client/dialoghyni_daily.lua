@@ -1543,3 +1543,104 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_D
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DavidTurner23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DavidTurner23", optional = true, text = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DavidTurner23_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DavidTurner23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DavidTurner23", text = "IGUI_SFQuest_Questyno_DavidTurner23_Complete"})
 
+
+--[[
+            *** Rafael 'Prezioso' ***
+            Elenco:
+                intro. Parla con Rafael per sbloccare le daily.
+				1. Recuperare Base.WhiskeyFull (120rep + 25$)
+				2. Recuperare Base.Wine (80rep + 15$)
+				3. Recuperare Base.Trumpet parlando con (10837,10184,0) (35rep)
+				4. Recuperare Base.GuitarElectricBassBlue parlando con (7386,8285,0) (45rep)
+				5. Recuperare Base.Speaker;2 parlando con (7383,8285,0) (35rep)
+				6. Recuperare Base.ToiletPaper;2 (40rep + 30$)
+				7. Recuperare Base.Bell parlando con (11437,6665,0) (150rep + 30$)
+				8. Recuperare Base.CardDeck (25rep)
+				9. Recuperare Base.VideoGame parlando con (9693,11536,0), Base.VideoGame parlando con (10013,11552,0) (80rep)
+				10. Recuperare Base.GuitarAcoustic parlando con (10757,10088,0), Base.Trumpet parlando con (10913,10035,0), Base.Drumstick parlando con (10750,9913,0) (100rep + 50$)
+				11. Recuperare Base.GamePieceRed,Base.PieceBlack,Base.CheckerBoard parlando con (8244, 11686,0) (45rep)
+				12. Recuperare Base.CheckerBoard,ChessWhite,ChessBlack parlando con (6984,8428,0) (50rep)
+				13. Recuperare Base.Yoyo (50rep + 20$)
+				14. Recuperare Base.PirateHat parlando con (7465,9615,0) (50rep + 100$)
+				15. Recuperare Base.Jumper_RoundNeck,Base.Trousers_Denim (40rep + 50$)
+				16. Recuperare Moveables.DylansClutter01_55 parlando con (11228,8859,0) (100rep + SWeapons.SalvagedBlade)
+				17. Recuperare Moveables.DylansGardenStuff01_32 parlando con (7383,8285,0) (45rep)
+				18. Recuperare Moveables.DylansWallDeco01_10 parlando con (8346,11716,0) (35rep)
+				19. Recuperare Base.Glasses_Eyepatch_Right parlando con (7338,9663,0) (50rep)
+				20. Recuperare Base.Suit_Jacket,Base.Trousers_Suit (80rep)
+				21. Recuperare Base.Neackle_DogTag;2 (50rep)
+				22. Recuperare Base.NoseStud_Gold (30rep)
+				23. Recuperare Base.Tie_BowTieWorn (150rep + 40$)
+]]
+
+-- intro. parla con Rafael per sbloccare le daily
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso_Intro", text = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso1", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso1", text = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso2", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso2", text = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso3", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso3_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso4", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso4_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso5", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso5_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso6", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso6", text = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso7", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso7_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso8", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso8", text = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso9", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso9_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso10", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso10_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso11", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso11_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso12", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso12_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso13", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso13", text = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso14", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso14_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso15", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso15_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso16", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso16_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso17", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso17_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso18", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso18_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso19", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso19_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso20", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso20_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso21", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso21", text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso22", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso22", text = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso23", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso23", text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Complete"})

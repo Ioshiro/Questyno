@@ -10,6 +10,12 @@ function SF_MissionPanel.Commands.removeitem(item, quantity)
     end
 end
 
+function SF_MissionPanel.Commands.addserverpoints(points)
+    local player = getPlayer();
+    sendClientCommand("ServerPoints", "add", { player:getUsername(), points })
+    --sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
+end
+
 -- override SF_MissionPanel:readCommandTable(commandtable) to add removeitem
 local base_SF_MissionPanel_readCommandTable = SF_MissionPanel.readCommandTable;
 function SF_MissionPanel:readCommandTable(commandTable)
@@ -28,6 +34,9 @@ function SF_MissionPanel:readCommandTable(commandTable)
             count = count + 3;
         elseif commandTable[count] == "addmannequin" then
             SF_MissionPanel.instance:runCommand("addmannequin", commandTable[count + 1]);
+            count = count + 2;
+        elseif commandTable[count] == "addserverpoints" then
+            SF_MissionPanel.instance:runCommand("addserverpoints", tonumber(commandTable[count + 1]));
             count = count + 2;
         elseif commandTable[count] == "removeitem" then
             SF_MissionPanel.instance:runCommand("removeitem", commandTable[count + 1], tonumber(commandTable[count + 2]));

@@ -42,30 +42,6 @@ SFQuest_Database.MannequinPool["12430x1341x0"] = {
     outfit = "Farmer"
 } ]]
 
-
---[[                            ***       NPC DAILY QUEST     ***
-                    Elenco:
-                        x. Tony "Lupo" (West Point: 10157,6611,0 )
-                        Spawn Point:
-                        1. Sergente Grif (Spawn Point: 12427x1339x0)
-]]
-
--- Tony "Lupo" 
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_TonyLupo",
-    square = "10157x6611x0",
-    name = "IGUI_SFQuest_Questyno_TonyLupo_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_TonyLupo.png",
-})
-
-SFQuest_Database.MannequinPool["10157x6611x0"] = {
-    sprite = "location_shop_mall_01_69",
-    direction = "E",
-    beard = "",
-    outfit = "Farmer"
-}
-
 --[[
                                                             *** NPC DAILY SPAWN POINT ***
                     Elenco:
@@ -314,6 +290,44 @@ SFQuest_Database.MannequinPool["10839x9071x0"] = {
     outfit = "Police"
 }
 
+--[[
+                                                    *** NPC DAILY WESTPOINT ***
+                    Elenco:
+                        1. Tony Lupo (10157x6611x0)
+                        2. Rafael Prezioso (10152,6622,1)
+]]
+
+-- Tony "Lupo" 
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_TonyLupo",
+    square = "10157x6611x0",
+    name = "IGUI_SFQuest_Questyno_TonyLupo_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_TonyLupo.png",
+})
+
+SFQuest_Database.MannequinPool["10157x6611x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "Farmer"
+}
+
+-- Rafael Prezioso 10152,6622,1
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_RafaelPrezioso",
+    square = "10156x6611x0",
+    name = "IGUI_SFQuest_Questyno_RafaelPrezioso_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_RafaelPrezioso.png",
+})
+
+SFQuest_Database.MannequinPool["10156x6611x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "Farmer"
+}
 --[[
                                                     *** NPC CATENE SPAWN ***
                     Elenco:
