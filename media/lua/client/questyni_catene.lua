@@ -19,7 +19,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EzekielFlynn;Questyno;EzekielFlynn",
     text = "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_EzekielFlynn.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Title",
@@ -34,7 +34,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn1_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn1_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn1_Title",
     unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn1_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -59,7 +59,7 @@ table.insert(SFQuest_Database.QuestPool, {
         hidden = false,
     }},
     text = "IGUI_SFQuest_Questyno_EzekielFlynn2_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn2_Title",
     unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EzekielFlynn2:2:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -74,7 +74,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn2_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn2A_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn2A_Title",
     unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Complete", -- ZOMBIE REQUEST
 });
@@ -89,7 +89,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn3_Text",
-    texture = "Item_DigitalWatch",
+    texture = "media/textures/Item_EzekielFlynn.png",
     onobtained = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn3_Complete",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn3_Title",
     unlockedsound = "QuestUnlocked"
@@ -105,7 +105,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn4_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn4_Text",
-    texture = "Item_Rag",
+    texture = "media/textures/Item_EzekielFlynn.png",
     onobtained = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn4_Complete",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn4_Title",
     unlockedsound = "QuestUnlocked"
@@ -121,7 +121,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Text",
-    texture = "Item_Crowbar",
+    texture = "media/textures/Item_EzekielFlynn.png",
     onobtained = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Complete",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn5_Title",
     unlockedsound = "QuestUnlocked"
@@ -148,7 +148,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_ElowenBeckett;Questyno;ElowenBeckett",
     text = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_ElowenBeckett.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Title",
@@ -163,7 +163,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett1_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett1_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett1_Title",
     unlocks = "actionevent;killzombies:30;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett1_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -189,7 +189,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett2_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett2_Text",
-    texture = "Item_Nails",
+    texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett2_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -203,7 +203,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett2_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett2A_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett2A_Title",
     unlocks = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett2_Complete", -- ZOMBIE REQUEST
 });
@@ -219,7 +219,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett3_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett3_Text",
-    texture = "Item_BeefJerky",
+    texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett3_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -234,7 +234,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett4_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett4_Text",
-    texture = "Item_Logs",
+    texture = "media/textures/Item_ElowenBeckett.png",
     onobtained = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Complete",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett4_Title",
     unlockedsound = "QuestUnlocked"
@@ -250,7 +250,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Text",
-    texture = "Item_ScrapMetal",
+    texture = "media/textures/Item_ElowenBeckett.png",
     onobtained = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett5_Complete",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett5_Title",
     unlockedsound = "QuestUnlocked"
@@ -275,7 +275,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_JohnBaker;Questyno;JohnBaker",
     text = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Title",
@@ -289,7 +289,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker1_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker1_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker1_Title",
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker1_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -304,7 +304,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker2_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker2_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker2_Title",
     unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker2_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -323,7 +323,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoJohnBaker3;additem;Base.Book;1",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker3_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker3_Title",
     unlocks = "clickevent;10009x13072x1:EventoJohnBaker3;time:50:anim:loot;updateobjective:Questyno_JohnBaker2:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -340,7 +340,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Book;1",
     onobtained = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker3_Complete",
     text = "IGUI_SFQuest_Questyno_JohnBaker3A_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker3A_Title",
 });
 
@@ -353,7 +353,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker4_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker4_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker4_Title",
     unlocks = "actionevent;killzombies:500;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker4_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
@@ -371,7 +371,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoJohnBaker5;additem;Base.DriedChickpeas;1;additem;Base.CannedChili;3;additem;Base.CannedPineapple;3;additem;Base.CornedBeef;3",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
     unlocks = "clickevent;4418x6236x0:EventoJohnBaker5;time:50:anim:loot;updateobjective:Questyno_JohnBaker5:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -408,7 +408,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_JohnBaker5;4;Completed;removeitem;Base.CornedBeef;3",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_A_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
 })
 
@@ -420,7 +420,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker5_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker5_B_Text",
-    texture = "Item_HoodieWhite",
+    texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
     unlocks = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker5_Complete",
 })

@@ -365,7 +365,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif1_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif1_Text = "Un medik-kit per la speranza.",
-    IGUI_SFQuest_Questyno_Grif1_Lore = "Grifis vuole che gli porto un Medic-kit vuoto. Voglio dargli una mano con i sopravvissuti al campo base.",
+    IGUI_SFQuest_Questyno_Grif1_Lore = "Grifis vuole che gli porto un Kit di Pronto Soccorso vuoto. Voglio dargli una mano con i sopravvissuti al campo base.",
     IGUI_SFQuest_Questyno_Grif1_Begin_Text = "Vai alla clinica, recupera le attrezzature e riportale qui. Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif1_Begin_Text_Accepted = "Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif1_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -397,8 +397,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif5_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif5_Text = "Le bende per fasciare",
-    IGUI_SFQuest_Questyno_Grif5_Lore = "Grifis vuole che gli porto 3 Bende. Possono essere utili a trattare le ferite e le infezioni, se sterilizzate.",
-    IGUI_SFQuest_Questyno_Grif5_Begin_Text = "Vai alla clinica, recupera delle Bende e portale qui.",
+    IGUI_SFQuest_Questyno_Grif5_Lore = "Grifis vuole che gli porto 3 Fasciature. Possono essere utili a trattare le ferite e le infezioni, se sterilizzate.",
+    IGUI_SFQuest_Questyno_Grif5_Begin_Text = "Vai alla clinica, recupera delle Fasciature e portale qui.",
     IGUI_SFQuest_Questyno_Grif5_Begin_Text_Accepted = "Che fai ancora li?!",
     IGUI_SFQuest_Questyno_Grif5_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif5_Complete = "Grazie, spero di rivederti presto",
@@ -601,7 +601,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif28_Begin_Text = "Fatti un giro e guarda se riesci a trovare degli Antidepressivi Che fai ancora li?!",
     IGUI_SFQuest_Questyno_Grif28_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif28_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
-    IGUI_SFQuest_Questyno_Grif28_Complete = "Basta con questa merda, sono passato a cose naturali per i miei pazienti. Tieniti pure gli Antidepressivi e prova una di quest",
+    IGUI_SFQuest_Questyno_Grif28_Complete = "Basta con questa merda, sono passato a cose naturali per i miei pazienti. Tieniti pure gli Antidepressivi e prova una di queste ;)",
 
 --[[
             *** Angelica Stella ***

@@ -40,7 +40,7 @@ local pozzoIntro = {
     lore = { "IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_MikePozzo;Questyno;MikePozzo",
     text = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Title",
@@ -59,7 +59,7 @@ local pozzoQuest1 = {
     needsitem = "Base.PotOfSoupRecipe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo1_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo1_Text",
-    texture = "Item_Pizza",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -77,7 +77,7 @@ local pozzoQuest2 = {
     needsitem = "Base.PanFriedVegetables;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo2_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -95,7 +95,7 @@ local pozzoQuest3 = {
     needsitem = "farming.Cabbage;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo3_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -113,7 +113,7 @@ local pozzoQuest4 = {
     needsitem = "Base.Salad;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo4_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -128,12 +128,12 @@ local pozzoQuest5 = {
     objectives = { {
         guid = "Questyno_MikePozzo5_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo5_A",
-        icon = "Item_Butter",
+        icon = "media/textures/Item_Butter",
         hidden = false,
         oncompleted = "removeclickevent;EventoMikePozzo5;additem;Butter;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -153,7 +153,7 @@ local pozzoQuest5A = {
     needsitem = "Base.Butter;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo5_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo5_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest5A);
@@ -167,12 +167,12 @@ local pozzoQuest6 = {
     objectives = { {
         guid = "Questyno_MikePozzo6_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_A",
-        icon = "Item_SushiEgg",
+        icon = "media/textures/Item_SushiEgg",
         hidden = false,
         oncompleted = "removeclickevent;EventoMikePozzo6;additem;Hotsauce;1;additem;Pepper;1;additem;FishRoe;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -190,27 +190,27 @@ local pozzoQuest6A = {
     objectives = { {
         guid = "Questyno_MikePozzo6_B",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_B",
-        icon = "Item_SushiEgg",
+        icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Hotsauce;1",
         oncompleted = "updateobjective;Questyno_MikePozzo6;1;Completed;removeitem;Base.Hotsauce;1"
     }, {
         guid = "Questyno_MikePozzo6_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_C",
-        icon = "Item_SushiEgg",
+        icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Pepper;1",
         oncompleted = "updateobjective;Questyno_MikePozzo6;2;Completed;removeitem;Base.Pepper;1"
     }, {
         guid = "Questyno_MikePozzo6_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_D",
-        icon = "Item_SushiEgg",
+        icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.FishRoe;1",
         oncompleted = "updateobjective;Questyno_MikePozzo6;3;Completed;removeitem;Base.FishRoe;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -227,7 +227,7 @@ local pozzoQuest6B = {
     lore = { "IGUI_SFQuest_Questyno_MikePozzo6_Lore" },
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo6_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo6_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest6B);
@@ -244,7 +244,7 @@ local pozzoQuest7 = {
     needsitem = "Rabbitmeat;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo7_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -263,7 +263,7 @@ local pozzoQuest8 = {
         oncompleted = "removeclickevent;EventoMikePozzo8;additem;Salt;1;additem;Flour;1;additem;Yeast;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo8_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -282,26 +282,26 @@ local pozzoQuest8A = {
         guid = "Questyno_MikePozzo8_B",
         text = "IGUI_SFQuest_Questyno_MikePozzo8_B",
         needsitem = "Salt;1",
-        icon = "Item_Salt",
+        icon = "media/textures/Item_Salt",
         onobtained = "updateobjective;Questyno_MikePozzo8;1;Completed;removeitem;Salt;1",
         hidden = false,
     }, {
         guid = "Questyno_MikePozzo8_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo8_C",
         needsitem = "Flour;1",
-        icon = "Item_Flour",
+        icon = "media/textures/Item_Flour",
         onobtained = "updateobjective;Questyno_MikePozzo8;2;Completed;removeitem;Flour;1",
         hidden = false,
     }, {
         guid = "Questyno_MikePozzo8_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo8_D",
         needsitem = "Yeast;1",
-        icon = "Item_Yeast",
+        icon = "media/textures/Item_Yeast",
         onobtained = "updateobjective;Questyno_MikePozzo8;3;Completed;removeitem;Yeast;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo8_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest8A);
@@ -317,7 +317,7 @@ local pozzoQuest8B = {
     lore = { "IGUI_SFQuest_Questyno_MikePozzo8_Lore" },
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo8_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo8_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest8B);
@@ -333,7 +333,7 @@ local pozzoQuest9 = {
     needsitem = "Base.GridlePan;1", -- ITEM REQUEST
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo9_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -350,7 +350,7 @@ local pozzoQuest10 = {
     needsitem = "Base.Saucepan;1", -- ITEM REQUEST
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo10_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -365,27 +365,27 @@ local pozzoQuest11 = {
     objectives = { {
         guid = "Questyno_MikePozzo11_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo11_A",
-        icon = "Item_KitchenKnife",
+        icon = "media/textures/Item_KitchenKnife",
         hidden = false,
         needsitem = "Base.KitchenKnife;1",
         oncompleted = "updateobjective;Questyno_MikePozzo11;1;Completed;removeitem;Base.KitchenKnife;1"
     }, {
         guid = "Questyno_MikePozzo11_B",
         text = "IGUI_SFQuest_Questyno_MikePozzo11_B",
-        icon = "Item_BreadKnife",
+        icon = "media/textures/Item_BreadKnife",
         hidden = false,
         needsitem = "Base.BreadKnife;1",
         oncompleted = "updateobjective;Questyno_MikePozzo11;2;Completed;removeitem;Base.BreadKnife;1"
     }, {
         guid = "Questyno_MikePozzo11_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo11_C",
-        icon = "Item_ButcherKnife",
+        icon = "media/textures/Item_ButcherKnife",
         hidden = false,
         needsitem = "Base.ButterKnife;1",
         oncompleted = "updateobjective;Questyno_MikePozzo11;3;Completed;removeitem;Base.ButterKnife;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -401,7 +401,7 @@ local pozzoQuest11A = {
     lore = { "IGUI_SFQuest_Questyno_MikePozzo11_Lore" },
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo11_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo11_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest11A);
@@ -415,13 +415,13 @@ local pozzoQuest12 = {
     objectives = { {
         guid = "Questyno_MikePozzo12_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo12_A",
-        icon = "Item_Sugar",
+        icon = "media/textures/Item_Sugar",
         hidden = false,
         needsitem = "Base.Cereal;2",
         oncompleted = "removeclickevent;EventoMikePozzo12;additem;Cereal;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -441,7 +441,7 @@ local pozzoQuest12A = {
     needsitem = "Base.Cereal;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo12_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo12_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest12A);
@@ -457,7 +457,7 @@ local pozzoQuest13 = {
     needsitem = "Base.BeerCan;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo13_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -474,7 +474,7 @@ local pozzoQuest14 = {
     needsitem = "Base.WaterBottleFull;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo14_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -489,12 +489,12 @@ local pozzoQuest15 = {
     objectives = { {
         guid = "Questyno_MikePozzo15_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_A",
-        icon = "Item_TVDinner",
+        icon = "media/textures/Item_TVDinner",
         hidden = false,
         oncompleted = "removeclickevent;EventoMikePozzo15;additem;CannedCornedBeef;2;additem;TVDinner;3;additem;CannedChili;3;additem;CandyPackage;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8192x7516x0:EventoMikePozzo15;time:50:anim:loot;updateobjective:Questyno_MikePozzo15:1:Completed",
@@ -510,34 +510,34 @@ local pozzoQuest15A = {
     objectives = { {
         guid = "Questyno_MikePozzo15_B",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_B",
-        icon = "Item_TVDinner",
+        icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedCornedBeef;2",
         oncompleted = "updateobjective;Questyno_MikePozzo15;1;Completed;removeitem;Base.CannedCornedBeef;2"
     }, {
         guid = "Questyno_MikePozzo15_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_C",
-        icon = "Item_TVDinner",
+        icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.TVDinner;3",
         oncompleted = "updateobjective;Questyno_MikePozzo15;2;Completed;removeitem;Base.TVDinner;3"
     }, {
         guid = "Questyno_MikePozzo15_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_D",
-        icon = "Item_TVDinner",
+        icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedChili;3",
         oncompleted = "updateobjective;Questyno_MikePozzo15;3;Completed;removeitem;Base.CannedChili;3"
     }, {
         guid = "Questyno_MikePozzo15_E",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_E",
-        icon = "Item_TVDinner",
+        icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CandyPackage;1",
         oncompleted = "updateobjective;Questyno_MikePozzo15;4;Completed;removeitem;Base.CandyPackage;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest15A);
@@ -553,7 +553,7 @@ local pozzoQuest15B = {
     lore = { "IGUI_SFQuest_Questyno_MikePozzo15_Lore" },
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo15_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo15_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest15B);
@@ -567,12 +567,12 @@ local pozzoQuest16 = {
     objectives = { {
         guid = "Questyno_MikePozzo16_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo16_A",
-        icon = "Item_Cheese",
+        icon = "media/textures/Item_Cheese",
         hidden = false,
         oncompleted = "removeclickevent;EventoMikePozzo16;additem;Lard;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo16_Text",
-    texture = "Item_Lard",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -592,7 +592,7 @@ local pozzoQuest16A = {
     needsitem = "Base.Lard;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo16_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest16A);
@@ -609,7 +609,7 @@ local pozzoQuest17 = {
     needsitem = "Money;35", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo17_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -624,12 +624,12 @@ local pozzoQuest18 = {
     objectives = { {
         guid = "Questyno_MikePozzo18_A",
         text = "IGUI_SFQuest_Questyno_MikePozzo18_A",
-        icon = "Item_Egg",
+        icon = "media/textures/Item_Egg",
         hidden = false,
         oncompleted = "removeclickevent;EventoMikePozzo18;additem;Egg;4"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo18_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -649,7 +649,7 @@ local pozzoQuest18A = {
     needsitem = "Base.Egg;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo18_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo18_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest18A);
@@ -666,7 +666,7 @@ local pozzoQuest19 = {
     needsitem = "Base.Spoon;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo19_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -684,7 +684,7 @@ local pozzoQuest20 = {
     needsitem = "Base.PanFriedVegetables;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo20_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -702,7 +702,7 @@ local pozzoQuest21 = {
     needsitem = "Base.PotOfSoupRecipe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo21_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo21_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -720,7 +720,7 @@ local pozzoQuest22 = {
     needsitem = "Base.CleaningLiquid2;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo22_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -738,7 +738,7 @@ local pozzoQuest23 = {
     needsitem = "Base.RoastingPan;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo23_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo23_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -756,7 +756,7 @@ local pozzoQuest24 = {
     needsitem = "Base.Fork;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo24_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo24_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo24_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -802,7 +802,7 @@ local chinaIntro = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_RosaChina;Questyno;RosaChina",
     text = "IGUI_SFQuest_Questyno_RosaChina_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RosaChina_Intro_Title",
@@ -820,7 +820,7 @@ local chinaQuest1 = {
     needsitem = "Base.Stone;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina1_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -837,7 +837,7 @@ local chinaQuest2 = {
     needsitem = "Base.Stone;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina2_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -854,7 +854,7 @@ local chinaQuest3 = {
     needsitem = "Base.SharpedStone;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina3_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -872,7 +872,7 @@ local chinaQuest4 = {
     needsitem = "Base.SharpedStone;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina4_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -889,7 +889,7 @@ local chinaQuest5 = {
     needsitem = "Base.SpearCrafted;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina5_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -906,7 +906,7 @@ local chinaQuest6 = {
     needsitem = "Base.SpearCrafted;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina6_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -923,7 +923,7 @@ local chinaQuest7 = {
     needsitem = "Base.TreeBranch;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina7_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -938,27 +938,27 @@ local chinaQuest8 = {
     objectives = { {
         guid = "Questyno_RosaChina8_A",
         text = "IGUI_SFQuest_Questyno_RosaChina8_A",
-        icon = "Item_Grasshopper",
+        icon = "media/textures/Item_Grasshopper",
         hidden = false,
         needsitem = "Base.Grasshopper;5",
         oncompleted = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Base.Grasshopper;5"
     }, { 
         guid = "Questyno_RosaChina8_B",
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
-        icon = "Item_Pillbug",
+        icon = "media/textures/Item_Pillbug",
         hidden = false,
         needsitem = "Base.Pillbug;5",
         oncompleted = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Base.Pillbug;5"
     }, {
         guid = "Questyno_RosaChina8_C",
         text = "IGUI_SFQuest_Questyno_RosaChina8_C",
-        icon = "Item_Cockroach",
+        icon = "media/textures/Item_Cockroach",
         hidden = false,
         needsitem = "Base.Cockroach;5",
         oncompleted = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Base.Cockroach;5"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -974,7 +974,7 @@ local chinaQuest8A = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina8_Lore" },
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina8_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina8_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest8A);
@@ -988,20 +988,20 @@ local chinaQuest9 = {
     objectives = { {
         guid = "Questyno_RosaChina8_A",
         text = "IGUI_SFQuest_Questyno_RosaChina8_A",
-        icon = "Item_Grasshopper",
+        icon = "media/textures/Item_Grasshopper",
         hidden = false,
         needsitem = "Base.LemonGrass;3",
         oncompleted = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Base.LemonGrass;3"
     }, { 
         guid = "Questyno_RosaChina8_B",
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
-        icon = "Item_Pillbug",
+        icon = "media/textures/Item_Pillbug",
         hidden = false,
         needsitem = "Base.BlackSage;2",
         oncompleted = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Base.BlackSage;2"
     }}, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1018,7 +1018,7 @@ local chinaQuest9A = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina9_Lore" },
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina9_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina9_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest9A);
@@ -1035,7 +1035,7 @@ local chinaQuest10 = {
     needsitem = "Base.LogStacks3;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina10_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1053,7 +1053,7 @@ local chinaQuest11 = {
     needsitem = "Base.NailsBox;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina11_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1070,7 +1070,7 @@ local chinaQuest12 = {
     needsitem = "Base.Plank;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina12_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1087,7 +1087,7 @@ local chinaQuest13 = {
     needsitem = "Base.Twigs;30", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina13_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1104,7 +1104,7 @@ local chinaQuest14 = {
     needsitem = "Base.Twigs;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina14_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1119,20 +1119,20 @@ local chinaQuest15 = {
     objectives = { {
         guid = "Questyno_RosaChina15_A",
         text = "IGUI_SFQuest_Questyno_RosaChina15_A",
-        icon = "Item_HammerStone",
+        icon = "media/textures/Item_HammerStone",
         hidden = false,
         needsitem = "Base.HammerStone;4",
         oncompleted = "updateobjective;Questyno_RosaChina15;1;Completed;removeitem;Base.HammerStone;4"
     }, { 
         guid = "Questyno_RosaChina15_B",
         text = "IGUI_SFQuest_Questyno_RosaChina15_B",
-        icon = "Item_AxeStone",
+        icon = "media/textures/Item_AxeStone",
         hidden = false,
         needsitem = "Base.AxeStone;2",
         oncompleted = "updateobjective;Questyno_RosaChina15;2;Completed;removeitem;Base.AxeStone;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1148,7 +1148,7 @@ local chinaQuest15A = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina15_Lore" },
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina15_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest15A);
@@ -1162,27 +1162,27 @@ local chinaQuest16 = {
     objectives = { {
         guid = "Questyno_RosaChina16_A",
         text = "IGUI_SFQuest_Questyno_RosaChina16_A",
-        icon = "Item_AxeStone",
+        icon = "media/textures/Item_AxeStone",
         hidden = false,
         needsitem = "Base.AxeStone;2",
         oncompleted = "updateobjective;Questyno_RosaChina16;1;Completed;removeitem;Base.AxeStone;2"
     }, { 
         guid = "Questyno_RosaChina16_B",
         text = "IGUI_SFQuest_Questyno_RosaChina16_B",
-        icon = "Item_SpearCrafted",
+        icon = "media/textures/Item_SpearCrafted",
         hidden = false,
         needsitem = "Base.SpearCrafted;2",
         oncompleted = "updateobjective;Questyno_RosaChina16;2;Completed;removeitem;Base.SpearCrafted;2"
     }, {
         guid = "Questyno_RosaChina16_C",
         text = "IGUI_SFQuest_Questyno_RosaChina16_C",
-        icon = "Item_FlintKnife",
+        icon = "media/textures/Item_FlintKnife",
         hidden = false,
         needsitem = "Base.FlintKnife;2",
         oncompleted = "updateobjective;Questyno_RosaChina16;3;Completed;removeitem;Base.FlintKnife;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1198,7 +1198,7 @@ local chinaQuest16A = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina16_Lore" },
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina16_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest16A);
@@ -1215,7 +1215,7 @@ local chinaQuest17 = {
     needsitem = "Base.ThreeBrench;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina17_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1230,20 +1230,20 @@ local chinaQuest18 = {
     objectives = { {
         guid = "Questyno_RosaChina18_A",
         text = "IGUI_SFQuest_Questyno_RosaChina18_A",
-        icon = "Item_ThreeBrench",
+        icon = "media/textures/Item_ThreeBrench",
         hidden = false,
         needsitem = "Base.ThreeBrench;1",
         oncompleted = "updateobjective;Questyno_RosaChina18;1;Completed;removeitem;Base.ThreeBrench;1"
     }, { 
         guid = "Questyno_RosaChina18_B",
         text = "IGUI_SFQuest_Questyno_RosaChina18_B",
-        icon = "Item_SharpStone",
+        icon = "media/textures/Item_SharpStone",
         hidden = false,
         needsitem = "Base.SharpedStone;1",
         oncompleted = "updateobjective;Questyno_RosaChina18;2;Completed;removeitem;Base.SharpedStone;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina18_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1260,7 +1260,7 @@ local chinaQuest18A = {
     lore = { "IGUI_SFQuest_Questyno_RosaChina18_Lore" },
     unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina18_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina18_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest18A);
@@ -1276,7 +1276,7 @@ local chinaQuest19 = {
     needsitem = "MushroomGeneric3;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1294,7 +1294,7 @@ local chinaQuest20 = {
     needsitem = "Base.PotOfSoupRecipe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina20_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1313,7 +1313,7 @@ local chinaQuest21 = {
         oncompleted = "removeclickevent;EventoRosaChina21;additem;Moveables.vegetation_farm_01_16;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina21_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8314x8902x0:EventoRosaChina21;time:50:anim:loot;updateobjective:Questyno_RosaChina21:1:Completed",
@@ -1331,7 +1331,7 @@ local chinaQuest21A = {
     needsitem = "Moveables.vegetation_farm_01_16;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina21_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina21_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina21_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest21A);
@@ -1348,7 +1348,7 @@ local chinaQuest22 = {
     needsitem = "Base.SharpedStone;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina22_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1365,7 +1365,7 @@ local chinaQuest23 = {
     needsitem = "Base.ComfreyCataplas;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina23_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina23_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1382,7 +1382,7 @@ local chinaQuest24 = {
     needsitem = "Base.WildGarlicCataplasm;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina24_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina24_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina24_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1427,7 +1427,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EmilyTerry;Questyno;EmilyTerry",
     text = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title",
@@ -1444,7 +1444,7 @@ local emilyTerryQuest1 = {
     needsitem = "farming.RedRadishSeed;12", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry1_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1462,7 +1462,7 @@ local emilyTerryQuest2 = {
     needsitem = "farming.StrawberrySeed;12", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry2_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1480,7 +1480,7 @@ local emilyTerryQuest3 = {
     needsitem = "Base.LogStacks3;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry3_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1498,7 +1498,7 @@ local emilyTerryQuest4 = {
     needsitem = "Base.LogStacks4;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry4_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1515,7 +1515,7 @@ local emilyTerryQuest5 = {
     needsitem = "Base.SheetRope;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry5_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1532,7 +1532,7 @@ local emilyTerryQuest6 = {
     needsitem = "Base.SheetRope;40", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry6_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1549,7 +1549,7 @@ local emilyTerryQuest7 = {
     needsitem = "Base.ThreeBrench;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry7_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1566,7 +1566,7 @@ local emilyTerryQuest8 = {
     needsitem = "Base.Grasshopper;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry8_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1584,7 +1584,7 @@ local emilyTerryQuest9 = {
     needsitem = "Base.LemonGrass;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry9_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1601,7 +1601,7 @@ local emilyTerryQuest10 = {
     needsitem = "Base.BlackSage;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry10_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1619,7 +1619,7 @@ local emilyTerryQuest11 = {
     needsitem = "Base.NailsBox;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry11_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1636,7 +1636,7 @@ local emilyTerryQuest12 = {
     needsitem = "Base.LogStacks2;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry12_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1654,7 +1654,7 @@ local emilyTerryQuest13 = {
     needsitem = "Base.LogStacks2;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry13_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1669,20 +1669,20 @@ local emilyTerryQuest14 = {
     objectives = { {
         guid = "Questyno_EmilyTerry14_A",
         text = "IGUI_SFQuest_Questyno_EmilyTerry14_A",
-        icon = "Item_PercedWood",
+        icon = "media/textures/Item_PercedWood",
         hidden = false,
         needsitem = "Base.PercedWood;1",
         oncompleted = "updateobjective;Questyno_EmilyTerry14;1;Completed;removeitem;Base.PercedWood;1"
     }, { 
         guid = "Questyno_EmilyTerry14_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry14_B",
-        icon = "Item_ThreeBrench",
+        icon = "media/textures/Item_ThreeBrench",
         hidden = false,
         needsitem = "Base.ThreeBrench;1",
         oncompleted = "updateobjective;Questyno_EmilyTerry14;2;Completed;removeitem;Base.ThreeBrench;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1698,7 +1698,7 @@ local emilyTerryQuest14A = {
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry14_Lore" },
     unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry14_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry14_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest14A);
@@ -1712,20 +1712,20 @@ local emilyTerryQuest15 = {
     objectives = { {
         guid = "Questyno_EmilyTerry15_A",
         text = "IGUI_SFQuest_Questyno_EmilyTerry15_A",
-        icon = "Item_MushroomGeneric6",
+        icon = "media/textures/Item_MushroomGeneric6",
         hidden = false,
         needsitem = "MushroomGeneric6;1",
         oncompleted = "updateobjective;Questyno_EmilyTerry15;1;Completed;removeitem;MushroomGeneric6;1"
     }, { 
         guid = "Questyno_EmilyTerry15_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry15_B",
-        icon = "Item_MushroomGeneric7",
+        icon = "media/textures/Item_MushroomGeneric7",
         hidden = false,
         needsitem = "MushroomGeneric7;1",
         oncompleted = "updateobjective;Questyno_EmilyTerry15;2;Completed;removeitem;MushroomGeneric7;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1742,7 +1742,7 @@ local emilyTerryQuest15A = {
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry15_Lore" },
     unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry15_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest15A);
@@ -1756,27 +1756,27 @@ local emilyTerryQuest16 = {
     objectives = { {
         guid = "Questyno_EmilyTerry16_A",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_A",
-        icon = "Item_AxeStone",
+        icon = "media/textures/Item_AxeStone",
         hidden = false,
         needsitem = "Base.AxeStone;2",
         oncompleted = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;Base.AxeStone;2"
     }, { 
         guid = "Questyno_EmilyTerry16_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_B",
-        icon = "Item_SpearCrafted",
+        icon = "media/textures/Item_SpearCrafted",
         hidden = false,
         needsitem = "Base.SpearCrafted;2",
         oncompleted = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;Base.SpearCrafted;2"
     }, { 
         guid = "Questyno_EmilyTerry16_C",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_C",
-        icon = "Item_FlintKnife",
+        icon = "media/textures/Item_FlintKnife",
         hidden = false,
         needsitem = "FlintKnife;2",
         oncompleted = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1792,7 +1792,7 @@ local emilyTerryQuest16A = {
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry16_Lore" },
     unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry16_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest16A);
@@ -1806,20 +1806,20 @@ local emilyTerryQuest17 = {
     objectives = { {
         guid = "Questyno_EmilyTerry17_A",
         text = "IGUI_SFQuest_Questyno_EmilyTerry17_A",
-        icon = "Item_ScrapMetal",
+        icon = "media/textures/Item_ScrapMetal",
         hidden = false,
         needsitem = "Base.ScrapMetal;2",
         oncompleted = "updateobjective;Questyno_EmilyTerry17;1;Completed;removeitem;Base.ScrapMetal;2"
     }, { 
         guid = "Questyno_EmilyTerry17_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry17_B",
-        icon = "Item_Plank",
+        icon = "media/textures/Item_Plank",
         hidden = false,
         needsitem = "Base.Plank;1",
         oncompleted = "updateobjective;Questyno_EmilyTerry17;2;Completed;removeitem;Base.Plank;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1836,7 +1836,7 @@ local emilyTerryQuest17A = {
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry17_Lore" },
     unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry17_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry17_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest17A);
@@ -1852,7 +1852,7 @@ local emilyTerryQuest18 = {
     needsitem = "RippedSheets;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry18_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry18_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1871,7 +1871,7 @@ local emilyTerryQuest19 = {
         oncompleted = "removeclickevent;EventoEmilyTerry19;additem;Doll;1"
     } }, -- REQUIRE    
     text = "IGUI_SFQuest_Questyno_EmilyTerry19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7901x8180x0:EventoEmilyTerry19;time:50:anim:loot;updateobjective:Questyno_EmilyTerry19:1:Completed",
@@ -1890,7 +1890,7 @@ local emilyTerryQuest19A = {
     needsitem = "Doll;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry19_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry19_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest19A);
@@ -1907,7 +1907,7 @@ local emilyTerryQuest20 = {
     needsitem = "Base.PotOfSoupRecipe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry20_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1926,7 +1926,7 @@ local emilyTerryQuest21 = {
         oncompleted = "removeclickevent;EventoEmilyTerry21;additem;Mattress;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry21_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10934x8492x0:EventoEmilyTerry21;time:50:anim:loot;updateobjective:Questyno_EmilyTerry21:1:Completed",
@@ -1944,7 +1944,7 @@ local emilyTerryQuest21A = {
     needsitem = "Mattress;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry21_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry21_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry21_Title",
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest21A);
@@ -1961,7 +1961,7 @@ local emilyTerryQuest22 = {
     needsitem = "Base.AxeStone;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry22_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1979,7 +1979,7 @@ local emilyTerryQuest23 = {
     needsitem = "Base.HammerStone;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry23_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry23_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1996,7 +1996,7 @@ local emilyTerryQuest24 = {
     needsitem = "Base.Stone;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry24_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry24_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry24_Title",
     unlockedsound = "QuestUnlocked"
 }

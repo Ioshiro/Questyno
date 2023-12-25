@@ -36,7 +36,7 @@ local secretIntro = {
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_VictoriaSecret;Questyno;VictoriaSecret",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_VictoriaSecret.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title",
@@ -56,7 +56,7 @@ local secretQuest1 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret1;additem;Shoes_Fancy;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret1_Text",
-    texture = "Item_Shoes",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret1_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;17334x6563x0:EventoVictoriaSecret1;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret1:1:Completed"
@@ -75,7 +75,7 @@ local secretQuest1A = {
     needsitem = "Shoes_Fancy;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret1_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret1_A_Text",
-    texture = "Item_Shoes",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret1_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest1A);
@@ -93,7 +93,7 @@ local secretQuest2 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret2;additem;DressKnees_Straps;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret2_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret2_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;12242x11879x0:EventoVictoriaSecret2;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret2:1:Completed"
@@ -112,7 +112,7 @@ local secretQuest2A = {
     needsitem = "DressKnees_Straps;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret2_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret2_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret2_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest2A);
@@ -130,7 +130,7 @@ local secretQuest3 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret3;additem;Glasses_Sun;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret3_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret3_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;6525x10599x0:EventoVictoriaSecret3;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret3:1:Completed"
@@ -149,7 +149,7 @@ local secretQuest3A = {
     needsitem = "Glasses_Sun;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret3_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret3_A_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest3A);
@@ -167,7 +167,7 @@ local secretQuest4 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret4;additem;Lipstick;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret4_Text",
-    texture = "Item_Lipstick",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret4_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;4908x10172x0:EventoVictoriaSecret4;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret4:1:Completed"
@@ -185,7 +185,7 @@ local secretQuest4A = {
     needsitem = "Lipstick;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret4_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret4_A_Text",
-    texture = "Item_Lipstick",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest4A);
@@ -203,7 +203,7 @@ local secretQuest5 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret5;additem;Skirt_short;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret5_Text",
-    texture = "Item_Skirt",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;4003x9110x0:EventoVictoriaSecret5;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret5:1:Completed"
@@ -222,7 +222,7 @@ local secretQuest5A = {
     needsitem = "Skirt_short;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret5_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret5_A_Text",
-    texture = "Item_Skirt",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest5A);
@@ -240,7 +240,7 @@ local secretQuest6 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret6;additem;Dress_SmallBlackStrapless;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret6_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret6_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8535x6438x0:EventoVictoriaSecret6;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret6:1:Completed"
@@ -258,7 +258,7 @@ local secretQuest6A = {
     needsitem = "Dress_SmallBlackStrapless;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret6_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret6_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret6_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest6A);
@@ -276,7 +276,7 @@ local secretQuest7 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret7;additem;Dress_SmallBlackStrapless;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret7_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret7_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11874x6908x0:EventoVictoriaSecret7;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret7:1:Completed"
@@ -295,7 +295,7 @@ local secretQuest7A = {
     needsitem = "Dress_SmallBlackStrapless;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret7_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret7_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret7_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest7A);
@@ -313,7 +313,7 @@ local secretQuest8 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret8;additem;Hat_Beret;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret8_Text",
-    texture = "Item_Hat",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret8_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11207x8794x0:EventoVictoriaSecret8;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret8:1:Completed"
@@ -332,7 +332,7 @@ local secretQuest8A = {
     needsitem = "Hat_Beret;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret8_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret8_A_Text",
-    texture = "Item_Hat",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest8A);
@@ -350,7 +350,7 @@ local secretQuest9 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret9;additem;Dress_SmallBlackStrap;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret9_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret9_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;6399x5266x0:EventoVictoriaSecret9;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret9:1:Completed"
@@ -368,7 +368,7 @@ local secretQuest9A = {
     needsitem = "Dress_SmallBlackStrap;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret9_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret9_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest9A);
@@ -386,7 +386,7 @@ local secretQuest10 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret10;additem;TightsFishnets;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret10_Text",
-    texture = "Item_Tights",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;16874x7265x0:EventoVictoriaSecret10;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret10:1:Completed"
@@ -404,7 +404,7 @@ local secretQuest10A = {
     needsitem = "TightsFishnets;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret10_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret10_A_Text",
-    texture = "Item_Tights",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest10A);
@@ -422,7 +422,7 @@ local secretQuest11 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret11;additem;HairDyeBlack;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret11_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret11_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10606x10333x0:EventoVictoriaSecret11;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret11:1:Completed"
@@ -440,7 +440,7 @@ local secretQuest11A = {
     needsitem = "HairDyeBlack;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret11_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret11_A_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest11A);
@@ -458,7 +458,7 @@ local secretQuest12 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret12;additem;HairDyeBlack;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret12_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11862x6884x0:EventoVictoriaSecret12;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret12:1:Completed"
@@ -476,7 +476,7 @@ local secretQuest12A = {
     needsitem = "HairDyeBlack;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret12_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret12_A_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest12A);
@@ -494,7 +494,7 @@ local secretQuest13 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret13;additem;Dress_Knees;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret13_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret13_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;4692x6731x0:EventoVictoriaSecret13;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret13:1:Completed"
@@ -513,7 +513,7 @@ local secretQuest13A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret13_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret13_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest13A);
@@ -531,7 +531,7 @@ local secretQuest14 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret14;additem;Dress_Knees;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret14_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret14_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;9722x10332x0:EventoVictoriaSecret14;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret14:1:Completed"
@@ -550,7 +550,7 @@ local secretQuest14A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret14_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret14_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest14A);
@@ -568,7 +568,7 @@ local secretQuest15 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret15;additem;Dress_Knees;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret15_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret15_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7701x11530x0:EventoVictoriaSecret15;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret15:1:Completed"
@@ -587,7 +587,7 @@ local secretQuest15A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret15_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret15_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest15A);
@@ -605,7 +605,7 @@ local secretQuest16 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret16;additem;Dress_Knees;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret16_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11488x6982x0:EventoVictoriaSecret16;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret16:1:Completed"
@@ -624,7 +624,7 @@ local secretQuest16A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret16_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret16_A_Text",
-    texture = "Item_Dress",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest16A);
@@ -644,7 +644,7 @@ local secretQuest17 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret17;additem;Glasses_Sun;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret17_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret17_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;4463x6385x0:EventoVictoriaSecret17;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret17:1:Completed"
@@ -663,7 +663,7 @@ local secretQuest17A = {
     needsitem = "Glasses_Sun;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret17_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret17_A_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest17A);
@@ -683,7 +683,7 @@ local secretQuest18 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret18;additem;MakeupEyeshadow;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret18_Text",
-    texture = "Item_Makeup",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret18_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7346x11326x0:EventoVictoriaSecret18;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret18:1:Completed"
@@ -702,7 +702,7 @@ local secretQuest18A = {
     needsitem = "MakeupEyeshadow;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret18_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret18_A_Text",
-    texture = "Item_Makeup",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest18A);
@@ -722,7 +722,7 @@ local secretQuest19 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret19;additem;Tshirt_WhiteTINT;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret19_Text",
-    texture = "Item_Tshirt",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;4810x10118x0:EventoVictoriaSecret19;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret19:1:Completed"
@@ -741,7 +741,7 @@ local secretQuest19A = {
     needsitem = "Tshirt_WhiteTINT;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret19_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret19_A_Text",
-    texture = "Item_Tshirt",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest19A);
@@ -761,7 +761,7 @@ local secretQuest20 = {
         oncompleted = "removeclickevent;EventoVictoriaSecret20;additem;Mov_MannequinFemale;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret20_Text",
-    texture = "Item_Mannequin",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret20_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10612x10314x0:EventoVictoriaSecret20;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret20:1:Completed"
@@ -780,7 +780,7 @@ local secretQuest20A = {
     needsitem = "Mov_MannequinFemale;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret20_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text",
-    texture = "Item_Mannequin",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest20A);
@@ -798,7 +798,7 @@ local secretQuest21 = {
     text = "IGUI_SFQuest_Questyno_VictoriaSecret21_Text",
     needsitem = "NecklaceLong_GoldDiamond;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret21_Complete",
-    texture = "Item_Necklace",
+    texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -862,7 +862,7 @@ local leeQuest1 = {
         oncompleted = "removeclickevent;EventoSusanLee1;additem;Antibiotics;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee1_Text",
-    texture = "Item_Disinfectant",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee1_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10875x10028x0:EventoSusanLee1;anim:loot:time:50;updateobjective:Questyno_SusanLee1:1:Completed"
@@ -881,7 +881,7 @@ local leeQuest1A = {
     needsitem = "Antibiotics;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee1_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee1_A_Text",
-    texture = "Item_Disinfectant",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee1_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest1A);
@@ -899,7 +899,7 @@ local leeQuest2 = {
         oncompleted = "removeclickevent;EventoSusanLee2;additem;LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee2_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee2_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7683x11515x0:EventoSusanLee2;anim:loot:time:50;updateobjective:Questyno_SusanLee2:1:Completed"
@@ -918,7 +918,7 @@ local leeQuest2A = {
     needsitem = "LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee2_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee2_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee2_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest2A);
@@ -936,7 +936,7 @@ local leeQuest3 = {
         oncompleted = "removeclickevent;EventoSusanLee3;additem;LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee3_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee3_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;9463x11239x0:EventoSusanLee3;anim:loot:time:50;updateobjective:Questyno_SusanLee3:1:Completed"
@@ -955,7 +955,7 @@ local leeQuest3A = {
     needsitem = "LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee3_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee3_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest3A);
@@ -973,7 +973,7 @@ local leeQuest4 = {
         oncompleted = "removeclickevent;EventoSusanLee4;additem;PillsSleepingTablets;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee4_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee4_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8087x11524x0:EventoSusanLee4;anim:loot:time:50;updateobjective:Questyno_SusanLee4:1:Completed"
@@ -992,7 +992,7 @@ local leeQuest4A = {
     needsitem = "PillsSleepingTablets;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee4_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee4_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest4A);
@@ -1010,7 +1010,7 @@ local leeQuest5 = {
         oncompleted = "removeclickevent;EventoSusanLee5;additem;PillsVitamins;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee5_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11939x6795x1:EventoSusanLee5;anim:loot:time:50;updateobjective:Questyno_SusanLee5:1:Completed"
@@ -1029,7 +1029,7 @@ local leeQuest5A = {
     needsitem = "PillsVitamins;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee5_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee5_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest5A);
@@ -1044,7 +1044,7 @@ local leeQuest6 = {
     needsitem = "Splint;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee6_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee6_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee6_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1060,7 +1060,7 @@ local leeQuest7 = {
     needsitem = "Antibiotics;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee7_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee7_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee7_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1076,7 +1076,7 @@ local leeQuest8 = {
     needsitem = "AlcoholRippedSheets;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee8_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee8_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee8_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1092,7 +1092,7 @@ local leeQuest9 = {
     needsitem = "LabSyringe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee9_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee9_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee9_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1111,7 +1111,7 @@ local leeQuest10 = {
         oncompleted = "removeclickevent;EventoSusanLee10;additem;Moveable.location_community_medical_01_24;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee10_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7250x8369x0:EventoSusanLee10;anim:loot:time:50;updateobjective:Questyno_SusanLee10:1:Completed"
@@ -1130,7 +1130,7 @@ local leeQuest10A = {
     needsitem = "Moveable.location_community_medical_01_24;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee10_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee10_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest10A);
@@ -1148,7 +1148,7 @@ local leeQuest11 = {
         oncompleted = "removeclickevent;EventoSusanLee11;additem;Moveable.location_community_medical_01_24;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee11_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee11_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;5033x10038x0:EventoSusanLee11;anim:loot:time:50;updateobjective:Questyno_SusanLee11:1:Completed"
@@ -1167,7 +1167,7 @@ local leeQuest11A = {
     needsitem = "Moveable.location_community_medical_01_24;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee11_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee11_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest11A);
@@ -1185,7 +1185,7 @@ local leeQuest12 = {
         oncompleted = "removeclickevent;EventoSusanLee12;additem;Moveable.location_community_medical_01_28;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee12_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10287x11351x0:EventoSusanLee12;anim:loot:time:50;updateobjective:Questyno_SusanLee12:1:Completed"
@@ -1204,7 +1204,7 @@ local leeQuest12A = {
     needsitem = "Moveable.location_community_medical_01_28;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee12_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee12_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest12A);
@@ -1222,7 +1222,7 @@ local leeQuest13 = {
         oncompleted = "removeclickevent;EventoSusanLee13;additem;SutureNeedle;3"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee13_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee13_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7713x11429x0:EventoSusanLee13;anim:loot:time:50;updateobjective:Questyno_SusanLee13:1:Completed"
@@ -1241,7 +1241,7 @@ local leeQuest13A = {
     needsitem = "SutureNeedle;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee13_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee13_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest13A);
@@ -1259,7 +1259,7 @@ local leeQuest14 = {
         oncompleted = "removeclickevent;EventoSusanLee14;additem;SutureNeedleHolder;3"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee14_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee14_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7681x11518x0:EventoSusanLee14;anim:loot:time:50;updateobjective:Questyno_SusanLee14:1:Completed"
@@ -1278,7 +1278,7 @@ local leeQuest14A = {
     needsitem = "SutureNeedleHolder;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee14_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee14_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest14A);
@@ -1296,7 +1296,7 @@ local leeQuest15 = {
         oncompleted = "removeclickevent;EventoSusanLee15;additem;JacketLong_Doctor;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee15_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee15_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7298x9618x0:EventoSusanLee15;anim:loot:time:50;updateobjective:Questyno_SusanLee15:1:Completed"
@@ -1315,7 +1315,7 @@ local leeQuest15A = {
     needsitem = "JacketLong_Doctor;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee15_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee15_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest15A);
@@ -1333,7 +1333,7 @@ local leeQuest16 = {
         oncompleted = "removeclickevent;EventoSusanLee16;additem;PillsAntieDep;10"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee16_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10673x9819x0:EventoSusanLee16;anim:loot:time:50;updateobjective:Questyno_SusanLee16:1:Completed"
@@ -1352,7 +1352,7 @@ local leeQuest16A = {
     needsitem = "PillsAntieDep;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee16_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee16_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest16A);
@@ -1370,7 +1370,7 @@ local leeQuest17 = {
         oncompleted = "removeclickevent;EventoSusanLee17;additem;PillsAntieDep;10"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee17_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee17_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8211x10887x0:EventoSusanLee17;anim:loot:time:50;updateobjective:Questyno_SusanLee17:1:Completed"
@@ -1388,7 +1388,7 @@ local leeQuest17A = {
     needsitem = "PillsAntieDep;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee17_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee17_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest17A);
@@ -1406,7 +1406,7 @@ local leeQuest18 = {
         oncompleted = "removeclickevent;EventoSusanLee18;additem;PillsVitamins;2;additem;PillsSleepingTablets;2;additem;SutureNeedle;additem;Pills;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee18_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7244x8373x0:EventoSusanLee18;anim:loot:time:50;updateobjective:Questyno_SusanLee18:1:Completed"
@@ -1446,7 +1446,7 @@ local leeQuest18A = {
         onobtained = "updateobjective;Questyno_SusanLee18_A;1;Completed;removeitem;Pills;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee18_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest18A);
@@ -1461,7 +1461,7 @@ local leeQuest18B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee18_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee18_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee18_B_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest18B);
@@ -1481,7 +1481,7 @@ local leeQuest19 = {
         oncompleted = "removeclickevent;EventoSusanLee19;additem;PillsBeta;2;additem;AlcoholWipes;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee19_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7244x8357x0:EventoSusanLee19;anim:loot:time:50;updateobjective:Questyno_SusanLee19:1:Completed"
@@ -1509,7 +1509,7 @@ local leeQuest19A = {
         onobtained = "updateobjective;Questyno_SusanLee19_A;1:Completed;removeitem;AlcoholWipes;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest19A);
@@ -1525,7 +1525,7 @@ local leeQuest19B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee19_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee19_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest19B);
@@ -1545,7 +1545,7 @@ local leeQuest20 = {
         oncompleted = "removeclickevent;EventoSusanLee20;additem;PillsBeta;2;additem;Disinfectant;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee20_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7246x8363x0:EventoSusanLee20;anim:loot:time:50;updateobjective:Questyno_SusanLee20:1:Completed"
@@ -1573,7 +1573,7 @@ local leeQuest20A = {
         onobtained = "updateobjective;Questyno_SusanLee20_A;1:Completed;removeitem;Disinfectant;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee20_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest20A);
@@ -1589,7 +1589,7 @@ local leeQuest20B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee20_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee20_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee20_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest20B);
@@ -1608,7 +1608,7 @@ local leeQuest21 = {
     needsitem = "PlantainCataplasm;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee21_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee21_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1628,7 +1628,7 @@ local leeQuest22 = {
     needsitem = "LemonGrass;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee22_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee22_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee22_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1649,7 +1649,7 @@ local leeQuest23 = {
         oncompleted = "removeclickevent;EventoSusanLee23;additem;Moveable.location_community_medical_01_16;1;additem;Moveable.location_community_medical_01_17;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee23_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;6318x5267x0:EventoSusanLee23;anim:loot:time:50;updateobjective:Questyno_SusanLee23:1:Completed"
@@ -1676,7 +1676,7 @@ local leeQuest23A = {
         onobtained = "updateobjective;Questyno_SusanLee23_A;1:Completed;removeitem;Moveable.location_community_medical_01_17;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23A);
@@ -1691,7 +1691,7 @@ local leeQuest23B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee23_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
-    texture = "Item_SutureNeedle",
+    texture = "Item_Money",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23B);
@@ -2551,7 +2551,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_SamuelYoung;Questyno;SamuelYoung",
     text = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SamuelYoung.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title",
@@ -2567,7 +2567,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung1_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung1_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung1_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung1_Title",
     unlockedsound = "QuestUnlocked"
@@ -2583,7 +2583,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung2_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung2_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung2_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung2_Title",
     unlockedsound = "QuestUnlocked"
@@ -2600,7 +2600,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung3_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung3_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung3_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung3_Title",
     unlockedsound = "QuestUnlocked"
@@ -2617,7 +2617,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung4_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung4_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung4_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung4_Title",
     unlockedsound = "QuestUnlocked"
@@ -2633,7 +2633,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung5_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung5_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung5_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung5_Title",
     unlockedsound = "QuestUnlocked"
@@ -2649,7 +2649,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung6_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung6_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung6_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung6_Title",
     unlockedsound = "QuestUnlocked"
@@ -2666,7 +2666,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung7_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung7_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung7_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung7_Title",
     unlockedsound = "QuestUnlocked"
@@ -2685,7 +2685,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoSamuelYoung8;additem;Moveables.camping_01_17;1",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung8_Text",
-    texture = "Item_Tent",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung8_Title",
     unlocks = "clickevent;11217x8963x0:EventoSamuelYoung8;time:50:anim:loot;updateobjective:Questyno_SamuelYoung8:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2703,7 +2703,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Moveables.camping_01_17;1",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung8_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung8_A_Text",
-    texture = "Item_Tent",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung8_Title",
 })
 
@@ -2718,7 +2718,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung9_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung9_Text",
-    texture = "Item_BirdDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung9_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung9_Title",
     unlockedsound = "QuestUnlocked"
@@ -2735,7 +2735,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung10_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung10_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung10_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung10_Title",
     unlockedsound = "QuestUnlocked"
@@ -2752,7 +2752,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung11_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung11_Text",
-    texture = "Item_TrapBox",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung11_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung11_Title",
     unlockedsound = "QuestUnlocked"
@@ -2769,7 +2769,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung12_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung12_Text",
-    texture = "Item_TrapCrate",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung12_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung12_Title",
     unlockedsound = "QuestUnlocked"
@@ -2801,7 +2801,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_SamuelYoung13:3:Completed;removeitem;Potato;4"
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung13_Text",
-    texture = "Item_Potato",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung13_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -2816,7 +2816,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung13_Lore" },
     unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung13_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung13_A_Text",
-    texture = "Item_Potato",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung13_Title",
 })
 
@@ -2840,7 +2840,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_SamuelYoung14:2:Completed;removeitem;Worm;20"
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung14_Text",
-    texture = "Item_Worm",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung14_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -2855,7 +2855,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung14_Lore" },
     unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung14_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung14_A_Text",
-    texture = "Item_Worm",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung14_Title",
 })
 
@@ -2869,7 +2869,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung15_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung15_Text",
-    texture = "Item_TrapCrate",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung15_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung15_Title",
     unlockedsound = "QuestUnlocked"
@@ -2888,7 +2888,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoSamuelYoung16;additem;DeadSquirrel;10",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung16_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung16_Title",
     unlocks = "clickevent;11380x9501x0:EventoSamuelYoung16;time:50:anim:loot;updateobjective:Questyno_SamuelYoung16:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2906,7 +2906,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "DeadSquirrel;10",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung16_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung16_A_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung16_Title",
 })
 
@@ -2923,7 +2923,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoSamuelYoung17;additem;DeadRabbit;10",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung17_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung17_Title",
     unlocks = "clickevent;11330x9482x0:EventoSamuelYoung17;time:50:anim:loot;updateobjective:Questyno_SamuelYoung17:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2941,7 +2941,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "DeadRabbit;10",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung17_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung17_A_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung17_Title",
 })
 
@@ -2955,7 +2955,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung18_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung18_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung18_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung18_Title",
     unlockedsound = "QuestUnlocked"
@@ -2972,7 +2972,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung19_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung19_Text",
-    texture = "Item_LeatherStrips",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung19_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung19_Title",
     unlockedsound = "QuestUnlocked"
@@ -2988,7 +2988,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung20_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung20_Text",
-    texture = "Item_LeatherStrips",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung20_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung20_Title",
     unlockedsound = "QuestUnlocked"
@@ -3004,7 +3004,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung21_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung21_Text",
-    texture = "Item_TrapMouse",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung21_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung21_Title",
     unlockedsound = "QuestUnlocked"
@@ -3021,7 +3021,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung22_Lore" },
     text = "IGUI_SFQuest_Questyno_SamuelYoung22_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_SamuelYoung.png",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung22_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung22_Title",
     unlockedsound = "QuestUnlocked"
@@ -3042,7 +3042,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoSamuelYoung23;additem;Salt;1",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung23_Text",
-    texture = "Item_Salt",
+    texture = "media/textures/Item_SamuelYoung.png",
     title = "IGUI_SFQuest_Questyno_SamuelYoung23_Title",
     unlocks = "clickevent;8008x11896x0:EventoSamuelYoung23;time:50:anim:loot;updateobjective:Questyno_SamuelYoung23:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3088,7 +3088,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_XuMishura_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_XuMishura;Questyno;XuMishura",
     text = "IGUI_SFQuest_Questyno_XuMishura_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_XuMishura.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura_Intro_Title",
@@ -3104,7 +3104,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura1_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura1_Text",
-    texture = "Item_Dress_Long",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura1_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura1_Title",
     unlockedsound = "QuestUnlocked"
@@ -3120,7 +3120,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura2_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura2_Text",
-    texture = "Item_Shoes_ArmyBootsDesert",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura2_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura2_Title",
     unlockedsound = "QuestUnlocked"
@@ -3136,7 +3136,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura3_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura3_Text",
-    texture = "Item_Briefs_SmallTrunks_Red",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura3_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura3_Title",
     unlockedsound = "QuestUnlocked"
@@ -3152,7 +3152,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura4_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura4_Text",
-    texture = "Item_Briefs_AnimalPrints",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura4_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura4_Title",
     unlockedsound = "QuestUnlocked"
@@ -3168,7 +3168,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura5_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura5_Text",
-    texture = "Item_Shoes_RedTrainers",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura5_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura5_Title",
     unlockedsound = "QuestUnlocked"
@@ -3184,7 +3184,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura6_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura6_Text",
-    texture = "Item_Trousers_Scrubs",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura6_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura6_Title",
     unlockedsound = "QuestUnlocked"
@@ -3200,7 +3200,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura7_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura7_Text",
-    texture = "Item_Skirt_Mini",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura7_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura7_Title",
     unlockedsound = "QuestUnlocked"
@@ -3216,7 +3216,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura8_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura8_Text",
-    texture = "Item_Jumper_DiamondPatternTINT",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura8_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura8_Title",
     unlockedsound = "QuestUnlocked"
@@ -3232,7 +3232,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura9_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura9_Text",
-    texture = "Item_Shirt_Lumberjack",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura9_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura9_Title",
     unlockedsound = "QuestUnlocked"
@@ -3248,7 +3248,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura10_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura10_Text",
-    texture = "Item_Apron_Spiffos",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura10_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura10_Title",
     unlockedsound = "QuestUnlocked"
@@ -3264,7 +3264,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura11_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura11_Text",
-    texture = "Item_Vest_Hunting_Camo",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura11_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura11_Title",
     unlockedsound = "QuestUnlocked"
@@ -3280,7 +3280,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura12_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura12_Text",
-    texture = "Item_Jacket_Black",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura12_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura12_Title",
     unlockedsound = "QuestUnlocked"
@@ -3296,7 +3296,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura13_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura13_Text",
-    texture = "Item_Jacket_Shellsuit_Teal",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura13_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura13_Title",
     unlockedsound = "QuestUnlocked"
@@ -3312,7 +3312,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura14_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura14_Text",
-    texture = "Item_Shellsuit_Black",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura14_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura14_Title",
     unlockedsound = "QuestUnlocked"
@@ -3328,7 +3328,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura15_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura15_Text",
-    texture = "Item_Jacket_Varsity",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura15_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura15_Title",
     unlockedsound = "QuestUnlocked"
@@ -3344,7 +3344,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura16_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura16_Text",
-    texture = "Item_Jacket_WhiteTINT",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura16_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura16_Title",
     unlockedsound = "QuestUnlocked"
@@ -3355,12 +3355,12 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;60", -- REP REWARD
     awardstask = "Questyno_XuMishura18", -- TODO: REMOVE WHEN TESTING IS DONE
-    needsitem = "HoodieDown_ThiteTINT;1", -- REQUIRE
+    needsitem = "HoodieDown_WhiteTINT;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura17_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura17_Text",
-    texture = "Item_HoodieDown_ThiteTINT",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura17_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura17_Title",
     unlockedsound = "QuestUnlocked"
@@ -3376,7 +3376,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura18_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura18_Text",
-    texture = "Item_Jumper_PoloNeck",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura18_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura18_Title",
     unlockedsound = "QuestUnlocked"
@@ -3392,7 +3392,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura19_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura19_Text",
-    texture = "Item_Jumper_military",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura19_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura19_Title",
     unlockedsound = "QuestUnlocked"
@@ -3408,7 +3408,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura20_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura20_Text",
-    texture = "Item_Vest_DefaultTEXTURE",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura20_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura20_Title",
     unlockedsound = "QuestUnlocked"
@@ -3424,7 +3424,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura21_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura21_Text",
-    texture = "Item_Shirt_HawaiianRed",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura21_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura21_Title",
     unlockedsound = "QuestUnlocked"
@@ -3440,7 +3440,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura22_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura22_Text",
-    texture = "Item_Shirt_Denim",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura22_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura22_Title",
     unlockedsound = "QuestUnlocked"
@@ -3456,7 +3456,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura23_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura23_Text",
-    texture = "Item_Shirt_PrisonGuard",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura23_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura23_Title",
     unlockedsound = "QuestUnlocked"
@@ -3472,7 +3472,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura24_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura24_Text",
-    texture = "Item_Shirt_PoliceBlue",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura24_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura24_Title",
     unlockedsound = "QuestUnlocked"
@@ -3488,7 +3488,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "QuestyNo_XuMishura",
     lore = { "IGUI_SFQuest_QuestyNo_XuMishura25_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura25_Text",
-    texture = "Item_LongCoat_Bathrobe",
+    texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura25_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura25_Title",
     unlockedsound = "QuestUnlocked"
@@ -3532,7 +3532,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_DavidTurner;Questyno;DavidTurner",
     text = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_DavidTurner.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Title",
@@ -3548,7 +3548,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_DavidTurner",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner1_Lore" },
     text = "IGUI_SFQuest_Questyno_DavidTurner1_Text",
-    texture = "Item_SmallSheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner1_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner1_Title",
     unlockedsound = "QuestUnlocked"
@@ -3565,7 +3565,7 @@ table.insert(SFQuest_Database.QuestPool,{
     dailycode = "Questyno_DavidTurner",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner2_Lore" },
     text = "IGUI_SFQuest_Questyno_DavidTurner2_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner2_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner2_Title",
     unlockedsound = "QuestUnlocked"
@@ -3584,7 +3584,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner3;additem;Sweapons.ScrapSpear;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner3_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner3_Title",
     unlocks = "clickevent;4750x10181x0:EventoDavidTurner3;time:50:anim:loot;updateobjective:Questyno_DavidTurner3:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3602,7 +3602,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Sweapons.ScrapSpear;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner3_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner3_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner3_Title",
 })
 
@@ -3632,7 +3632,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_DavidTurner4:3:Completed;removeitem;SheetMetal;2"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner4_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner4_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -3647,7 +3647,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_DavidTurner4_Lore" },
     unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner4_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner4_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner4_Title",
 })
 
@@ -3662,7 +3662,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ElectronicsScrap;40",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner5_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner5_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner5_Title",
 })
 
@@ -3692,7 +3692,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_DavidTurner6:3:Completed;removeitem;RadioTransmitter;4"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner6_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner6_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -3708,7 +3708,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_DavidTurner6_Lore" },
     unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner6_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner6_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner6_Title",
 })
 
@@ -3725,7 +3725,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner7;additem;Generator;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner7_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner7_Title",
     unlocks = "clickevent;9503x6174x0:EventoDavidTurner7;time:50:anim:loot;updateobjective:Questyno_DavidTurner7:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3743,7 +3743,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Generator;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner7_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner7_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner7_Title",
 })
 
@@ -3759,7 +3759,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ElectricWire;10",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner8_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner8_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner8_Title",
 })
 
@@ -3783,7 +3783,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_DavidTurner9:2:Completed;removeitem;ElectronicsScrap;32"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner9_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner9_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -3798,7 +3798,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_DavidTurner9_Lore" },
     unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner9_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner9_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner9_Title",
 })
 
@@ -3813,7 +3813,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "EngineParts;4",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner10_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner10_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner10_Title",
 })
 
@@ -3828,7 +3828,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "MetalPipe;4",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner11_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner11_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner11_Title",
 })
 
@@ -3844,7 +3844,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "UnusableMetal;8",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner12_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner12_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner12_Title",
 })
 
@@ -3861,7 +3861,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner13;additem;ElectronicsMag1;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner13_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner13_Title",
     unlocks = "clickevent;7289x8262x0:EventoDavidTurner13;time:50:anim:loot;updateobjective:Questyno_DavidTurner13:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3878,7 +3878,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ElectronicsMag1;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner13_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner13_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner13_Title",
 })
 
@@ -3893,7 +3893,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "WaterBottleFull;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner14_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner14_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner14_Title",
 })
 
@@ -3910,7 +3910,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner15;additem;SheetMetal;20;additem;EngineParts;20;additem;ElectronicsScrap;20;additem;UnusableMetal;2",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner15_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
     unlocks = "clickevent;8224x7501x0:EventoDavidTurner15;time:50:anim:loot;updateobjective:Questyno_DavidTurner15:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3948,7 +3948,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_DavidTurner15_A:4:Completed;removeitem;UnusableMetal;2"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner15_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
 })
 
@@ -3962,7 +3962,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_DavidTurner15_Lore" },
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner15_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner15_B_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner15_Title",
 })
 
@@ -3977,7 +3977,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ElectronicsScrap;40",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner16_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner16_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner16_Title",
 })
 
@@ -3994,7 +3994,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner17;additem;Wrench;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner17_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner17_Title",
     unlocks = "clickevent;10452x8267x0:EventoDavidTurner17;time:50:anim:loot;updateobjective:Questyno_DavidTurner17:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -4011,7 +4011,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Wrench;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner17_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner17_A_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner17_Title",
 })
 
@@ -4028,7 +4028,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner18;additem;SheetPaper2;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner18_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner18_Title",
     unlocks = "clickevent;16514x6503x0:EventoDavidTurner18;time:50:anim:loot;updateobjective:Questyno_DavidTurner18:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -4046,7 +4046,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "SheetPaper2;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner18_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner18_A_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner18_Title",
 })
 
@@ -4061,7 +4061,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "MetalPipe;2",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner19_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner19_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner19_Title",
 })
 
@@ -4076,7 +4076,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ScrapMetal;15",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner20_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner20_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner20_Title",
 })
 
@@ -4091,7 +4091,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ScrapMetal;40",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner21_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner21_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner21_Title",
 })
 
@@ -4108,7 +4108,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoDavidTurner22;additem;PipeWrench;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner22_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner22_Title",
     unlocks = "clickevent;8235x10993x0:EventoDavidTurner22;time:50:anim:loot;updateobjective:Questyno_DavidTurner22:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -4126,7 +4126,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "PipeWrench;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner22_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner22_A_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner22_Title",
 })
 
@@ -4141,6 +4141,6 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "ScrapMetal;12",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner23_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner23_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_DavidTurner.png",
     title = "IGUI_SFQuest_Questyno_DavidTurner23_Title",
 })

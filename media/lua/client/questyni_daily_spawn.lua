@@ -46,7 +46,7 @@ local grifIntro = {
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_Grif_Intro_Title",
@@ -64,7 +64,7 @@ local grifQuest1 = {
     needsitem = "FirstAidKit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif1_Complete",
     text = "IGUI_SFQuest_Questyno_Grif1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -81,7 +81,7 @@ local grifQuest2 = {
     needsitem = "Pills;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif2_Complete",
     text = "IGUI_SFQuest_Questyno_Grif2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -98,7 +98,7 @@ local grifQuest3 = {
     needsitem = "PillsSleepingTablets;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif3_Complete",
     text = "IGUI_SFQuest_Questyno_Grif3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -115,7 +115,7 @@ local grifQuest4 = {
     needsitem = "LabItems.LabSyringe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif4_Complete",
     text = "IGUI_SFQuest_Questyno_Grif4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -132,7 +132,7 @@ local grifQuest5 = {
     needsitem = "Bandage;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif5_Complete",
     text = "IGUI_SFQuest_Questyno_Grif5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -149,7 +149,7 @@ local grifQuest6 = {
     needsitem = "PillsAntiDep;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif6_Complete",
     text = "IGUI_SFQuest_Questyno_Grif6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -166,7 +166,7 @@ local grifQuest7 = {
     needsitem = "PillsVitamins;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif7_Complete",
     text = "IGUI_SFQuest_Questyno_Grif7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -183,7 +183,7 @@ local grifQuest8 = {
     needsitem = "Antibiotics;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif8_Complete",
     text = "IGUI_SFQuest_Questyno_Grif8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -201,7 +201,7 @@ local grifQuest9 = {
     needsitem = "PillsBeta;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif9_Complete",
     text = "IGUI_SFQuest_Questyno_Grif9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -239,7 +239,7 @@ local grifQuest10 = {
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_Grif10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -255,7 +255,7 @@ local grifQuest10A = {
     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif10_Complete",
     text = "IGUI_SFQuest_Questyno_Grif10_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest10A);
@@ -293,7 +293,7 @@ local grifQuest11 = {
         hidden = false,
     } },                    -- REQUIRE
     text = "IGUI_SFQuest_Questyno_Grif11_Text",
-    texture = "Item_Money", -- ICONA
+    texture = "media/textures/Item_Grif.png", -- ICONA
     title = "IGUI_SFQuest_Questyno_Grif11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -310,7 +310,7 @@ local grifQuest11A = {
     lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif11_Complete",
     text = "IGUI_SFQuest_Questyno_Grif11_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest11A);
@@ -349,7 +349,7 @@ local grifQuest12 = {
     }
     }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_Grif12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -365,7 +365,7 @@ local grifQuest12A = {
     lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif12_Complete",
     text = "IGUI_SFQuest_Questyno_Grif12_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest12A);
@@ -381,7 +381,7 @@ local grifQuest13 = {
     needsitem = "CottonBalls;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif13_Complete",
     text = "IGUI_SFQuest_Questyno_Grif13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -398,7 +398,7 @@ local grifQuest14 = {
     needsitem = "Disinfectant;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif14_Complete",
     text = "IGUI_SFQuest_Questyno_Grif14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -415,7 +415,7 @@ local grifQuest15 = {
     needsitem = "AlcoholWipes;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif15_Complete",
     text = "IGUI_SFQuest_Questyno_Grif15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -444,7 +444,7 @@ local grifQuest16 = {
     }
     }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_Grif16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -461,7 +461,7 @@ local grifQuest16A = {
     lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif16_Complete",
     text = "IGUI_SFQuest_Questyno_Grif16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest16A);
@@ -478,7 +478,7 @@ local grifQuest17 = {
     needsitem = "SutureNeedle;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif17_Complete",
     text = "IGUI_SFQuest_Questyno_Grif17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -495,7 +495,7 @@ local grifQuest18 = {
     needsitem = "AlcoholBandage;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif18_Complete",
     text = "IGUI_SFQuest_Questyno_Grif18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif18_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -512,7 +512,7 @@ local grifQuest19 = {
     needsitem = "Bandaid;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif19_Complete",
     text = "IGUI_SFQuest_Questyno_Grif19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -530,7 +530,7 @@ local grifQuest20 = {
     needsitem = "Bandaid;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif20_Complete",
     text = "IGUI_SFQuest_Questyno_Grif20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -547,7 +547,7 @@ local grifQuest21 = {
     needsitem = "Tweezers;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif21_Complete",
     text = "IGUI_SFQuest_Questyno_Grif21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif21_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -564,7 +564,7 @@ local grifQuest22 = {
     needsitem = "Splint;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif22_Complete",
     text = "IGUI_SFQuest_Questyno_Grif22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -581,7 +581,7 @@ local grifQuest23 = {
     needsitem = "FirstAidKit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif23_Complete",
     text = "IGUI_SFQuest_Questyno_Grif23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif23_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -599,7 +599,7 @@ local grifQuest24 = {
     needsitem = "Pills;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif24_Complete",
     text = "IGUI_SFQuest_Questyno_Grif24_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif24_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -617,7 +617,7 @@ local grifQuest25 = {
     needsitem = "PillsSleepingTablets;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif25_Complete",
     text = "IGUI_SFQuest_Questyno_Grif25_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif25_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -635,7 +635,7 @@ local grifQuest26 = {
     needsitem = "LabItems.LabSyringe;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif26_Complete",
     text = "IGUI_SFQuest_Questyno_Grif26_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif26_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -653,7 +653,7 @@ local grifQuest27 = {
     needsitem = "Bandage;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif27_Complete",
     text = "IGUI_SFQuest_Questyno_Grif27_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif27_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -663,7 +663,7 @@ local grifQuest28 = {
     guid = "Questyno_Grif28",
 
     awardsrep = "LaResistenza;40",     -- REP REWARD
-    awardsitem = "PynoTweaks.Joint;1", -- MONEY REWARD
+    awardsitem = "PynoTweaks.Joint;1;PillsAntiDep;1", -- MONEY REWARD
     awardstask = "Questyno_Grif1",    -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -671,7 +671,7 @@ local grifQuest28 = {
     needsitem = "PillsAntiDep;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif28_Complete",
     text = "IGUI_SFQuest_Questyno_Grif28_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif28_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -712,7 +712,7 @@ local stellaIntro = {
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",
     text = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text",
-    texture = "Item_Lipstick",
+    texture = "media/textures/Item_AngelicaStella.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title",
@@ -732,7 +732,7 @@ local stellaQuest1 = {
         oncompleted = "additem;Shoes_Fancy;1;removeclickevent;EventoAngelicaStella1"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella1_Text",
-    texture = "Item_Shoes",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella1_Title",
     unlocks =
     "clickevent;10609x10331x0:EventoAngelicaStella1;time:50:anim:loot;updateobjective:Questyno_AngelicaStella1:1:Completed",
@@ -752,7 +752,7 @@ local stellaQuest1A = {
     needsitem = "Shoes_Fancy;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella1_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella1_A_Text",
-    texture = "Item_Shoes",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -771,7 +771,7 @@ local stellaQuest2 = {
         oncompleted = "additem;Dress_SmallBlackStrapless;1;removeclickevent;EventoAngelicaStella2"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella2_Text",
-    texture = "Item_DuctTape",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella2_Title",
     unlocks =
     "clickevent;10629x9903x0:EventoAngelicaStella2;time:50:anim:loot;updateobjective:Questyno_AngelicaStella2:1:Completed",
@@ -791,7 +791,7 @@ local stellaQuest2A = {
     needsitem = "Dress_SmallBlackStrapless;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella2_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella2_A_Text",
-    texture = "Item_DuctTape",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -810,7 +810,7 @@ local stellaQuest3 = {
         oncompleted = "additem;Glasses_Sun;1;removeclickevent;EventoAngelicaStella3"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella3_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella3_Title",
     unlocks =
     "clickevent;10634x9904x0:EventoAngelicaStella3;time:50:anim:loot;updateobjective:Questyno_AngelicaStella3:1:Completed",
@@ -830,7 +830,7 @@ local stellaQuest3A = {
     needsitem = "Glasses_Sun;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella3_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella3_A_Text",
-    texture = "Item_Glasses",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -849,7 +849,7 @@ local stellaQuest4 = {
         oncompleted = "additem;Lipstick;1;removeclickevent;EventoAngelicaStella4"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella4_Text",
-    texture = "Item_Lipstick",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella4_Title",
     unlocks =
     "clickevent;10857x9940x0:EventoAngelicaStella4;time:50:anim:loot;updateobjective:Questyno_AngelicaStella4:1:Completed",
@@ -869,7 +869,7 @@ local stellaQuest4A = {
     needsitem = "Lipstick;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella4_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella4_A_Text",
-    texture = "Item_Lipstick",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -888,7 +888,7 @@ local stellaQuest5 = {
         oncompleted = "additem;Skirt_Short;1;removeclickevent;EventoAngelicaStella5"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella5_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella5_Title",
     unlocks =
     "clickevent;8147x11115x1:EventoAngelicaStella5;time:50:anim:loot;updateobjective:Questyno_AngelicaStella5:1:Completed",
@@ -908,7 +908,7 @@ local stellaQuest5A = {
     needsitem = "Skirt_Short;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella5_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella5_A_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -927,7 +927,7 @@ local stellaQuest6 = {
         oncompleted = "additem;Dress_Short;1;removeclickevent;EventoAngelicaStella6"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella6_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella6_Title",
     unlocks =
     "clickevent;7207x11247x0:EventoAngelicaStella6;time:50:anim:loot;updateobjective:Questyno_AngelicaStella6:1:Completed",
@@ -947,7 +947,7 @@ local stellaQuest6A = {
     needsitem = "Dress_Short;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella6_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella6_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -966,7 +966,7 @@ local stellaQuest7 = {
         oncompleted = "additem;Skirt_Short;1;removeclickevent;EventoAngelicaStella7"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella7_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella7_Title",
     unlocks =
     "clickevent;11884x6909x0:EventoAngelicaStella7;time:50:anim:loot;updateobjective:Questyno_AngelicaStella7:1:Completed",
@@ -986,7 +986,7 @@ local stellaQuest7A = {
     needsitem = "Skirt_Short;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella7_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella7_A_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1005,7 +1005,7 @@ local stellaQuest8 = {
         oncompleted = "additem;Skirt_Mini;1;removeclickevent;EventoAngelicaStella8"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella8_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella8_Title",
     unlocks =
     "clickevent;11204x8801x1:EventoAngelicaStella8;time:50:anim:loot;updateobjective:Questyno_AngelicaStella8:1:Completed",
@@ -1025,7 +1025,7 @@ local stellaQuest8A = {
     needsitem = "Skirt_Mini;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella8_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella8_A_Text",
-    texture = "Item_SkirtGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1044,7 +1044,7 @@ local stellaQuest9 = {
         oncompleted = "additem;Dress_Long;1;removeclickevent;EventoAngelicaStella9"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella9_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella9_Title",
     unlocks =
     "clickevent;10210x8216x0:EventoAngelicaStella9;time:50:anim:loot;updateobjective:Questyno_AngelicaStella9:1:Completed",
@@ -1063,7 +1063,7 @@ local stellaQuest9A = {
     needsitem = "Dress_Long;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella9_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella9_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1082,7 +1082,7 @@ local stellaQuest10 = {
         oncompleted = "additem;TightsFishnets;1;removeclickevent;EventoAngelicaStella10"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella10_Text",
-    texture = "Item_PantyhoseFishnet",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella10_Title",
     unlocks =
     "clickevent;9725x10333x0:EventoAngelicaStella10;time:50:anim:loot;updateobjective:Questyno_AngelicaStella10:1:Completed",
@@ -1101,7 +1101,7 @@ local stellaQuest10A = {
     needsitem = "TightsFishnets;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella10_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella10_A_Text",
-    texture = "Item_PantyhoseFishnet",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1120,7 +1120,7 @@ local stellaQuest11 = {
         oncompleted = "additem;HairDyeBrown;1;removeclickevent;EventoAngelicaStella11"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella11_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella11_Title",
     unlocks =
     "clickevent;9289x10065x0:EventoAngelicaStella11;time:50:anim:loot;updateobjective:Questyno_AngelicaStella11:1:Completed",
@@ -1139,7 +1139,7 @@ local stellaQuest11A = {
     needsitem = "HairDyeBrown;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella11_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella11_A_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1158,7 +1158,7 @@ local stellaQuest12 = {
         oncompleted = "additem;HairDyeLightBrown;1;removeclickevent;EventoAngelicaStella12"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella12_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella12_Title",
     unlocks =
     "clickevent;8144x9687x0:EventoAngelicaStella12;time:50:anim:loot;updateobjective:Questyno_AngelicaStella12:1:Completed",
@@ -1177,7 +1177,7 @@ local stellaQuest12A = {
     needsitem = "HairDyeLightBrown;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella12_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella12_A_Text",
-    texture = "Item_HairDye",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest12A);
@@ -1195,7 +1195,7 @@ local stellaQuest13 = {
         oncompleted = "additem;Dress_Knees;1;removeclickevent;EventoAngelicaStella13"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella13_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella13_Title",
     unlocks =
     "clickevent;8757x6545x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
@@ -1215,7 +1215,7 @@ local stellaQuest13A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella13_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella13_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1234,7 +1234,7 @@ local stellaQuest14 = {
         oncompleted = "additem;Dress_Knees;1;removeclickevent;EventoAngelicaStella14"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella14_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella14_Title",
     unlocks =
     "clickevent;9719x10537x0:EventoAngelicaStella14;time:50:anim:loot;updateobjective:Questyno_AngelicaStella14:1:Completed",
@@ -1254,7 +1254,7 @@ local stellaQuest14A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella14_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella14_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1273,7 +1273,7 @@ local stellaQuest15 = {
         oncompleted = "additem;Dress_Knees;1;removeclickevent;EventoAngelicaStella15"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella15_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella15_Title",
     unlocks =
     "clickevent;8395x7581x0:EventoAngelicaStella15;time:50:anim:loot;updateobjective:Questyno_AngelicaStella15:1:Completed",
@@ -1293,7 +1293,7 @@ local stellaQuest15A = {
     needsitem = "Dress_Knees;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella15_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella15_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1312,7 +1312,7 @@ local stellaQuest16 = {
         oncompleted = "additem;Gloves_LongWomenGloves;1;removeclickevent;EventoAngelicaStella16"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella16_Text",
-    texture = "Item_Gloves",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella16_Title",
     unlocks =
     "clickevent;9030x11491x0:EventoAngelicaStella16;time:50:anim:loot;updateobjective:Questyno_AngelicaStella16:1:Completed",
@@ -1332,7 +1332,7 @@ local stellaQuest16A = {
     needsitem = "Gloves_LongWomenGloves;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella16_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella16_A_Text",
-    texture = "Item_Gloves",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1351,7 +1351,7 @@ local stellaQuest17 = {
         oncompleted = "additem;Dress_Normal;1;removeclickevent;EventoAngelicaStella17"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella17_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella17_Title",
     unlocks =
     "clickevent;7266x8474x1:EventoAngelicaStella17;time:50:anim:loot;updateobjective:Questyno_AngelicaStella17:1:Completed",
@@ -1371,7 +1371,7 @@ local stellaQuest17A = {
     needsitem = "Dress_Normal;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella17_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella17_A_Text",
-    texture = "Item_DressGeneric",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1390,7 +1390,7 @@ local stellaQuest18 = {
         oncompleted = "additem;MakeupFoundation;1;removeclickevent;EventoAngelicaStella18"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella18_Text",
-    texture = "Item_Makeup",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella18_Title",
     unlocks =
     "clickevent;7016x8535x0:EventoAngelicaStella18;time:50:anim:loot;updateobjective:Questyno_AngelicaStella18:1:Completed",
@@ -1410,7 +1410,7 @@ local stellaQuest18A = {
     needsitem = "MakeupFoundation;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella18_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella18_A_Text",
-    texture = "Item_Makeup",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella18_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1429,7 +1429,7 @@ local stellaQuest19 = {
         oncompleted = "additem;Tshirt_WhiteTINT;3;removeclickevent;EventoAngelicaStella19"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella19_Text",
-    texture = "Item_Tshirt",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella19_Title",
     unlocks =
     "clickevent;5143x9463x0:EventoAngelicaStella19;time:50:anim:loot;updateobjective:Questyno_AngelicaStella19:1:Completed",
@@ -1449,7 +1449,7 @@ local stellaQuest19A = {
     needsitem = "Tshirt_WhiteTINT;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella19_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella19_A_Text",
-    texture = "Item_Tshirt",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1468,7 +1468,7 @@ local stellaQuest20 = {
         oncompleted = "additem;Mov_MannequinFemale;1;removeclickevent;EventoAngelicaStella20"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella20_Text",
-    texture = "Item_Mannequin",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella20_Title",
     unlocks =
     "clickevent;7338x9683x1:EventoAngelicaStella20;time:50:anim:loot;updateobjective:Questyno_AngelicaStella20:1:Completed",
@@ -1488,7 +1488,7 @@ local stellaQuest20A = {
     needsitem = "Mov_MannequinFemale;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella20_A_Text",
-    texture = "Item_Mannequin",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1506,7 +1506,7 @@ local stellaQuest21 = {
     needsitem = "Necklace_GoldDiamond;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella21_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella21_Text",
-    texture = "Item_Necklace",
+    texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella21_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1550,7 +1550,7 @@ local thomasIntro = {
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
     text = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text",
-    texture = "Item_BirdDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title",
@@ -1568,7 +1568,7 @@ local thomasQuest1 = {
     needsitem = "DeadRabbit;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas1_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas1_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1585,7 +1585,7 @@ local thomasQuest2 = {
     needsitem = "DeadRabbit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas2_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas2_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1603,7 +1603,7 @@ local thomasQuest3 = {
     needsitem = "TrapCrate;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas3_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas3_Text",
-    texture = "Item_TrapCrate",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1621,7 +1621,7 @@ local thomasQuest4 = {
     needsitem = "TrapBox;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas4_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas4_Text",
-    texture = "Item_TrapBox",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1638,7 +1638,7 @@ local thomasQuest5 = {
     needsitem = "DeadSquirrel;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas5_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas5_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1655,7 +1655,7 @@ local thomasQuest6 = {
     needsitem = "DeadBird;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas6_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas6_Text",
-    texture = "Item_BirdDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1673,7 +1673,7 @@ local thomasQuest7 = {
     needsitem = "DeadRabbit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas7_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas7_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1691,7 +1691,7 @@ local thomasQuest8 = {
     needsitem = "CampfireKit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas8_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas8_Text",
-    texture = "Item_TZ_CampfireKitWood",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1709,7 +1709,7 @@ local thomasQuest9 = {
     needsitem = "DeadBird;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas9_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas9_Text",
-    texture = "Item_BirdDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1727,7 +1727,7 @@ local thomasQuest10 = {
     needsitem = "DeadSquirrel;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas10_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas10_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1745,7 +1745,7 @@ local thomasQuest11 = {
     needsitem = "TrapBox;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas11_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas11_Text",
-    texture = "Item_TrapBox",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1763,7 +1763,7 @@ local thomasQuest12 = {
     needsitem = "TrapCrate;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas12_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas12_Text",
-    texture = "Item_TrapCrate",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1795,7 +1795,7 @@ local thomasQuest13 = {
         onobtained = "updateobjective;Questyno_HeatherThomas13:4:Completed;removeitem;Potato;2"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
-    texture = "Item_Worm",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1811,7 +1811,7 @@ local thomasQuest13A = {
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas13_Lore" },
     unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas13_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_A_Text",
-    texture = "Item_Worm",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest13A);
@@ -1836,7 +1836,7 @@ local thomasQuest14 = {
         onobtained = "updateobjective;Questyno_HeatherThomas14:3:Completed;removeitem;Worm;10"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas14_Text",
-    texture = "Item_Grasshopper",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1852,7 +1852,7 @@ local thomasQuest14A = {
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas14_Lore" },
     unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas14_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas14_A_Text",
-    texture = "Item_Grasshopper",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest14A);
@@ -1868,7 +1868,7 @@ local thomasQuest15 = {
     needsitem = "DeadRabbit;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas15_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas15_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1887,7 +1887,7 @@ local thomasQuest16 = {
         oncompleted = "additem;DeadSquirrel;10;removeclickevent;EventoHeatherThomas16"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas16_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas16_Title",
     unlocks =
     "clickevent;8509x10359x0:EventoHeatherThomas16;time:50:anim:loot;updateobjective:Questyno_HeatherThomas16:1:Completed",
@@ -1907,7 +1907,7 @@ local thomasQuest16A = {
     needsitem = "DeadSquirrel;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas16_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas16_A_Text",
-    texture = "Item_SquirrelDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1926,7 +1926,7 @@ local thomasQuest17 = {
         oncompleted = "additem;DeadRabbit;10;removeclickevent;EventoHeatherThomas17"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas17_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas17_Title",
     unlocks =
     "clickevent;10936x8488x0:EventoHeatherThomas17;time:50:anim:loot;updateobjective:Questyno_HeatherThomas17:1:Completed",
@@ -1946,7 +1946,7 @@ local thomasQuest17A = {
     needsitem = "DeadRabbit;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas17_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas17_A_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas17_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1972,7 +1972,7 @@ local thomasQuest18 = {
         onobtained = "updateobjective;Questyno_HeatherThomas18:2:Completed;removeitem;Money;5"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas18_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas18_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -1989,7 +1989,7 @@ local thomasQuest18A = {
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas18_Lore" },
     unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas18_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas18_A_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest18A);
@@ -2006,7 +2006,7 @@ local thomasQuest19 = {
     needsitem = "LeatherStrips;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas19_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas19_Text",
-    texture = "Item_LeatherStrips",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2023,7 +2023,7 @@ local thomasQuest20 = {
     needsitem = "LeatherStrips;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas20_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas20_Text",
-    texture = "Item_LeatherStrips",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2041,7 +2041,7 @@ local thomasQuest21 = {
     needsitem = "TrapMouse;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas21_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas21_Text",
-    texture = "Item_Mousetrap",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas21_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2059,7 +2059,7 @@ local thomasQuest22 = {
     needsitem = "DeadRabbit;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas22_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas22_Text",
-    texture = "Item_RabbitDead",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2081,7 +2081,7 @@ local thomasQuest23 = {
     } },
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas23_Lore" },
     text = "IGUI_SFQuest_Questyno_HeatherThomas23_Text",
-    texture = "Item_Salt",
+    texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas23_Title",
     unlocks =
     "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:Questyno_HeatherThomas23:1:Completed",
@@ -2126,7 +2126,7 @@ local rimaIntro = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EliaRima;Questyno;EliaRima",
     text = "IGUI_SFQuest_Questyno_EliaRima_Intro_Text",
-    texture = "Item_Book2",
+    texture = "media/textures/Item_EliaRima.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EliaRima_Intro_Title",
@@ -2143,26 +2143,26 @@ local rimaQuest1 = {
         guid = "Questyno_EliaRima1_A",
         text = "IGUI_SFQuest_Questyno_EliaRima1_A",
         needsitem = "BookCooking1;1",
-        icon = "Item_Book9",
+        icon = "media/textures/Item_Book9",
         onobtained = "updateobjective;Questyno_EliaRima1;1;Completed;removeitem;BookCooking1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima1_B",
         text = "IGUI_SFQuest_Questyno_EliaRima1_B",
         needsitem = "BookCarpentry1;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima1;2;Completed;removeitem;BookCarpentry1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima1_C",
         text = "IGUI_SFQuest_Questyno_EliaRima1_C",
         needsitem = "BookElectrician1;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima1;3;Completed;removeitem;BookElectrician1;1",
         hidden = false,
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima1_Text",
-    texture = "Item_Book9",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2179,7 +2179,7 @@ local rimaQuest1A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima1_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima1_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima1_A_Text",
-    texture = "Item_Book9",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima1_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest1A);
@@ -2194,26 +2194,26 @@ local rimaQuest2 = {
         guid = "Questyno_EliaRima2_A",
         text = "IGUI_SFQuest_Questyno_EliaRima2_A",
         needsitem = "BookCarpentry2;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima2;1;Completed;removeitem;BookCarpentry2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima2_B",
         text = "IGUI_SFQuest_Questyno_EliaRima2_B",
         needsitem = "BookCooking3;1",
-        icon = "Item_Book9",
+        icon = "media/textures/Item_Book9",
         onobtained = "updateobjective;Questyno_EliaRima2;2;Completed;removeitem;BookCooking3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima2_C",
         text = "IGUI_SFQuest_Questyno_EliaRima2_C",
         needsitem = "BookForaging1;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima2;3;Completed;removeitem;BookForaging1;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima2_Text",
-    texture = "Item_Book9",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2230,7 +2230,7 @@ local rimaQuest2A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima2_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima2_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima2_A_Text",
-    texture = "Item_Book9",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima2_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest2A);
@@ -2245,19 +2245,19 @@ local rimaQuest3 = {
         guid = "Questyno_EliaRima3_A",
         text = "IGUI_SFQuest_Questyno_EliaRima3_A",
         needsitem = "BookMechanic2;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima3;1;Completed;removeitem;BookMechanic2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima3_B",
         text = "IGUI_SFQuest_Questyno_EliaRima3_B",
         needsitem = "BookMetalWelding1;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima3;2;Completed;removeitem;BookMetalWelding1;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima3_Text",
-    texture = "Item_Book7",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2274,7 +2274,7 @@ local rimaQuest3A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima3_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima3_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima3_A_Text",
-    texture = "Item_Book7",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest3A);
@@ -2289,26 +2289,26 @@ local rimaQuest4 = {
         guid = "Questyno_EliaRima4_A",
         text = "IGUI_SFQuest_Questyno_EliaRima4_A",
         needsitem = "BookMechanic3;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima4;1;Completed;removeitem;BookMechanic3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima4_B",
         text = "IGUI_SFQuest_Questyno_EliaRima4_B",
         needsitem = "BookFirstAid1;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima4;2;Completed;removeitem;BookFirstAid1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima4_C",
         text = "IGUI_SFQuest_Questyno_EliaRima4_C",
         needsitem = "BookFishing1;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima4;3;Completed;removeitem;BookFishing1;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima4_Text",
-    texture = "Item_Book7",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2324,7 +2324,7 @@ local rimaQuest4A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima4_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima4_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima4_A_Text",
-    texture = "Item_Book7",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest4A);
@@ -2339,26 +2339,26 @@ local rimaQuest5 = {
         guid = "Questyno_EliaRima5_A",
         text = "IGUI_SFQuest_Questyno_EliaRima5_A",
         needsitem = "BookFarming2;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima5;1;Completed;removeitem;BookFarming2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima5_B",
         text = "IGUI_SFQuest_Questyno_EliaRima5_B",
         needsitem = "BookFirstAid3;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima5;2;Completed;removeitem;BookFirstAid3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima5_C",
         text = "IGUI_SFQuest_Questyno_EliaRima5_C",
         needsitem = "BookFishing2;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima5;3;Completed;removeitem;BookFishing2;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima5_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2375,7 +2375,7 @@ local rimaQuest5A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima5_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima5_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima5_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest5A);
@@ -2390,26 +2390,26 @@ local rimaQuest6 = {
         guid = "Questyno_EliaRima6_A",
         text = "IGUI_SFQuest_Questyno_EliaRima6_A",
         needsitem = "BookFarming4;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima6;1;Completed;removeitem;BookFarming4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima6_B",
         text = "IGUI_SFQuest_Questyno_EliaRima6_B",
         needsitem = "BookTrapping4;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima6;2;Completed;removeitem;BookTrapping4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima6_C",
         text = "IGUI_SFQuest_Questyno_EliaRima6_C",
         needsitem = "BookForaging4;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima6;3;Completed;removeitem;BookForaging4;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima6_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2425,7 +2425,7 @@ local rimaQuest6A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima6_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima6_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima6_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima6_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest6A);
@@ -2444,7 +2444,7 @@ local rimaQuest7 = {
         "removeclickevent;EventoEliaRima7;additem;ElectronicsMag4;1;additem;FarmingMag1;1;additem;FishingMag2;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima7_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima7_Title",
     unlocks = "clickevent;10611x10363x0:EventoEliaRima7;time:50:anim:loot;updateobjective:Questyno_EliaRima7:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2461,26 +2461,26 @@ local rimaQuest7A = {
         guid = "Questyno_EliaRima7_B",
         text = "IGUI_SFQuest_Questyno_EliaRima7_B",
         needsitem = "ElectronicsMag4;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima7_A;1;Completed;removeitem;ElectronicsMag4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima7_C",
         text = "IGUI_SFQuest_Questyno_EliaRima7_C",
         needsitem = "FarmingMag1;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima7_A;2;Completed;removeitem;FarmingMag1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima7_D",
         text = "IGUI_SFQuest_Questyno_EliaRima7_D",
         needsitem = "FishingMag2;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima7_A;3;Completed;removeitem;FishingMag2;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima7_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima7_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest7A);
@@ -2496,7 +2496,7 @@ local rimaQuest7B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima7_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima7_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima7_B_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima7_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest7B);
@@ -2515,7 +2515,7 @@ local rimaQuest8 = {
         "removeclickevent;EventoEliaRima8;additem;BookCarpentry5;1;additem;BookFarming5;1;additem;BookFirstAid5;1;additem;BookMechanic5;1;additem;BookMetalWelding5;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima8_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima8_Title",
     unlocks = "clickevent;10611x10366x0:EventoEliaRima8;time:50:anim:loot;updateobjective:Questyno_EliaRima8:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2531,40 +2531,40 @@ local rimaQuest8A = {
         guid = "Questyno_EliaRima8_B",
         text = "IGUI_SFQuest_Questyno_EliaRima8_B",
         needsitem = "BookCarpentry5;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima8;1;Completed;removeitem;BookCarpentry5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_C",
         text = "IGUI_SFQuest_Questyno_EliaRima8_C",
         needsitem = "BookFarming5;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima8;2;Completed;removeitem;BookFarming5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_D",
         text = "IGUI_SFQuest_Questyno_EliaRima8_D",
         needsitem = "BookFirstAid5;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima8;3;Completed;removeitem;BookFirstAid5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_E",
         text = "IGUI_SFQuest_Questyno_EliaRima8_E",
         needsitem = "BookMechanic5;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima8;4;Completed;removeitem;BookMechanic5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_F",
         text = "IGUI_SFQuest_Questyno_EliaRima8_F",
         needsitem = "BookMetalWelding5;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima8;5;Completed;removeitem;BookMetalWelding5;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima8_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest8A);
@@ -2580,7 +2580,7 @@ local rimaQuest8B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima8_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima8_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima8_B_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima8_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest8B);
@@ -2599,7 +2599,7 @@ local rimaQuest9 = {
         "removeclickevent;EventoEliaRima9;additem;BookCarpentry3;1;additem;BookFarming2;1;additem;BookFirstAid1;1;additem;BookMechanic4;1;additem;BookMetalWelding5;1;additem;BookFishing4;1;additem;TVMagazine;1;additem;Book;5;additem;ElectronicsMag4;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima9_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima9_Title",
     unlocks = "clickevent;6932x8127x0:EventoEliaRima9;time:50:anim:loot;updateobjective:Questyno_EliaRima9:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -2615,68 +2615,68 @@ local rimaQuest9A = {
         guid = "Questyno_EliaRima9_B",
         text = "IGUI_SFQuest_Questyno_EliaRima9_B",
         needsitem = "BookCarpentry3;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima9;1;Completed;removeitem;BookCarpentry3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_C",
         text = "IGUI_SFQuest_Questyno_EliaRima9_C",
         needsitem = "BookFarming2;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima9;2;Completed;removeitem;BookFarming2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_D",
         text = "IGUI_SFQuest_Questyno_EliaRima9_D",
         needsitem = "BookFirstAid1;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima9;3;Completed;removeitem;BookFirstAid1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_E",
         text = "IGUI_SFQuest_Questyno_EliaRima9_E",
         needsitem = "BookMechanic4;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima9;4;Completed;removeitem;BookMechanic4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_F",
         text = "IGUI_SFQuest_Questyno_EliaRima9_F",
         needsitem = "BookMetalWelding5;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima9;5;Completed;removeitem;BookMetalWelding5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_G",
         text = "IGUI_SFQuest_Questyno_EliaRima9_G",
         needsitem = "BookFishing4;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima9;6;Completed;removeitem;BookFishing4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_H",
         text = "IGUI_SFQuest_Questyno_EliaRima9_H",
         needsitem = "TVMagazine;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima9;7;Completed;removeitem;TVMagazine;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_I",
         text = "IGUI_SFQuest_Questyno_EliaRima9_I",
         needsitem = "Book;5",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima9;8;Completed;removeitem;Book;5",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_J",
         text = "IGUI_SFQuest_Questyno_EliaRima9_J",
         needsitem = "ElectronicsMag4;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima9;9;Completed;removeitem;ElectronicsMag4;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima9_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest9A);
@@ -2692,7 +2692,7 @@ local rimaQuest9B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima9_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima9_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima9_B_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest9B);
@@ -2707,40 +2707,40 @@ local rimaQuest10 = {
         guid = "Questyno_EliaRima10_A",
         text = "IGUI_SFQuest_Questyno_EliaRima10_A",
         needsitem = "BookFarming1;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima10;1;Completed;removeitem;BookFarming1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima10_B",
         text = "IGUI_SFQuest_Questyno_EliaRima10_B",
         needsitem = "BookFarming2;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima10;2;Completed;removeitem;BookFarming2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima10_C",
         text = "IGUI_SFQuest_Questyno_EliaRima10_C",
         needsitem = "BookFarming3;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima10;3;Completed;removeitem;BookFarming3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima10_D",
         text = "IGUI_SFQuest_Questyno_EliaRima10_D",
         needsitem = "BookFarming4;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima10;4;Completed;removeitem;BookFarming4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima10_E",
         text = "IGUI_SFQuest_Questyno_EliaRima10_E",
         needsitem = "BookFarming5;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima10;5;Completed;removeitem;BookFarming5;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima10_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2757,7 +2757,7 @@ local rimaQuest10A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima10_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima10_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima10_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest10A);
@@ -2772,40 +2772,40 @@ local rimaQuest11 = {
         guid = "Questyno_EliaRima11_A",
         text = "IGUI_SFQuest_Questyno_EliaRima11_A",
         needsitem = "BookElectrician1;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima11;1;Completed;removeitem;BookElectrician1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima11_B",
         text = "IGUI_SFQuest_Questyno_EliaRima11_B",
         needsitem = "BookElectrician2;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima11;2;Completed;removeitem;BookElectrician2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima11_C",
         text = "IGUI_SFQuest_Questyno_EliaRima11_C",
         needsitem = "BookElectrician3;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima11;3;Completed;removeitem;BookElectrician3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima11_D",
         text = "IGUI_SFQuest_Questyno_EliaRima11_D",
         needsitem = "BookElectrician4;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima11;4;Completed;removeitem;BookElectrician4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima11_E",
         text = "IGUI_SFQuest_Questyno_EliaRima11_E",
         needsitem = "BookElectrician5;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima11;5;Completed;removeitem;BookElectrician5;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima11_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2822,7 +2822,7 @@ local rimaQuest11A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima11_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima11_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima11_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest11A);
@@ -2842,7 +2842,7 @@ local rimaQuest12 = {
         oncompleted = "removeclickevent;EventoEliaRima12"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima12_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima12_Title",
     unlocks =
     "clickevent;11354x6769x0:EventoEliaRima12;time:50:anim:loot;updateobjective:Questyno_EliaRima12:1:Completed",
@@ -2860,33 +2860,33 @@ local rimaQuest13 = {
         guid = "Questyno_EliaRima13_A",
         text = "IGUI_SFQuest_Questyno_EliaRima13_A",
         needsitem = "BookFishing3;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima13;1;Completed;removeitem;BookFishing3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima13_B",
         text = "IGUI_SFQuest_Questyno_EliaRima13_B",
         needsitem = "BookMetalWelding2;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima13;2;Completed;removeitem;BookMetalWelding2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima13_C",
         text = "IGUI_SFQuest_Questyno_EliaRima13_C",
         needsitem = "BookCarpentry4;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima13;3;Completed;removeitem;BookCarpentry4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima13_D",
         text = "IGUI_SFQuest_Questyno_EliaRima13_D",
         needsitem = "BookTrapping2;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima13;4;Completed;removeitem;BookTrapping2;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima13_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2902,7 +2902,7 @@ local rimaQuest13A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima13_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima13_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima13_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest13A);
@@ -2917,33 +2917,33 @@ local rimaQuest14 = {
         guid = "Questyno_EliaRima14_A",
         text = "IGUI_SFQuest_Questyno_EliaRima14_A",
         needsitem = "BookFishing4;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima14;1;Completed;removeitem;BookFishing4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima14_B",
         text = "IGUI_SFQuest_Questyno_EliaRima14_B",
         needsitem = "BookMetalWelding1;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima14;2;Completed;removeitem;BookMetalWelding1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima14_C",
         text = "IGUI_SFQuest_Questyno_EliaRima14_C",
         needsitem = "BookCarpentry2;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima14;3;Completed;removeitem;BookCarpentry2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima14_D",
         text = "IGUI_SFQuest_Questyno_EliaRima14_D",
         needsitem = "BookTrapping5;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima14;4;Completed;removeitem;BookTrapping5;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima14_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -2959,7 +2959,7 @@ local rimaQuest14A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima14_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima14_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima14_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest14A);
@@ -2974,33 +2974,33 @@ local rimaQuest15 = {
         guid = "Questyno_EliaRima15_A",
         text = "IGUI_SFQuest_Questyno_EliaRima15_A",
         needsitem = "BookForaging4;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima15;1;Completed;removeitem;BookForaging4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima15_B",
         text = "IGUI_SFQuest_Questyno_EliaRima15_B",
         needsitem = "BookMechanic1;1",
-        icon = "Item_Book6",
+        icon = "media/textures/Item_Book6",
         onobtained = "updateobjective;Questyno_EliaRima15;2;Completed;removeitem;BookMechanic1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima15_C",
         text = "IGUI_SFQuest_Questyno_EliaRima15_C",
         needsitem = "BookCarpentry2;1",
-        icon = "Item_Book8",
+        icon = "media/textures/Item_Book8",
         onobtained = "updateobjective;Questyno_EliaRima15;3;Completed;removeitem;BookCarpentry2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima15_D",
         text = "IGUI_SFQuest_Questyno_EliaRima15_D",
         needsitem = "BookFarming5;1",
-        icon = "Item_Book2",
+        icon = "media/textures/Item_Book2",
         onobtained = "updateobjective;Questyno_EliaRima15;4;Completed;removeitem;BookFarming5;1",
         hidden = false,
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima15_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima15_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3016,7 +3016,7 @@ local rimaQuest15A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima15_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima15_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima15_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest15A);
@@ -3035,7 +3035,7 @@ local rimaQuest16 = {
     } },
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima16_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima16_Text",
-    texture = "Item_HuntingMag1",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima16_Title",
     unlocks =
     "clickevent;9681x11177x0:EventoEliaRima16;time:50:anim:loot;updateobjective:Questyno_EliaRima16:1:Completed",
@@ -3053,19 +3053,19 @@ local rimaQuest16A = {
         guid = "Questyno_EliaRima16_B",
         text = "IGUI_SFQuest_Questyno_EliaRima16_B",
         needsitem = "HuntingMag1;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima16_A;1;Completed;removeitem;HuntingMag1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima16_C",
         text = "IGUI_SFQuest_Questyno_EliaRima16_C",
         needsitem = "HuntingMag2;1",
-        icon = "Item_Book5",
+        icon = "media/textures/Item_Book5",
         onobtained = "updateobjective;Questyno_EliaRima16_A;2;Completed;removeitem;HuntingMag2;1",
         hidden = false,
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima16_A_Text",
-    texture = "Item_HuntingMag1",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest16A);
@@ -3080,7 +3080,7 @@ local rimaQuest16B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima16_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima16_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima16_B_Text",
-    texture = "Item_HuntingMag1",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest16B);
@@ -3098,7 +3098,7 @@ local rimaQuest17 = {
         oncompleted = "removeclickevent;EventoEliaRima17;additem;FishingMag1;1;additem;FishingMag2;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima17_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima17_Title",
     unlocks =
     "clickevent;8086x11513x0:EventoEliaRima17;time:50:anim:loot;updateobjective:Questyno_EliaRima17:1:Completed",
@@ -3117,19 +3117,19 @@ local rimaQuest17A = {
         guid = "Questyno_EliaRima17_B",
         text = "IGUI_SFQuest_Questyno_EliaRima17_B",
         needsitem = "FishingMag1;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima17_A;1;Completed;removeitem;FishingMag1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima17_C",
         text = "IGUI_SFQuest_Questyno_EliaRima17_C",
         needsitem = "FishingMag2;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima17_A;2;Completed;removeitem;FishingMag2;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima17_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest17A);
@@ -3144,7 +3144,7 @@ local rimaQuest17B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima17_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima17_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima17_B_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest17B);
@@ -3163,7 +3163,7 @@ local rimaQuest18 = {
         "removeclickevent;EventoEliaRima18;additem;ElectronicsMag1;1;additem;ElectronicsMag2;1;additem;ElectronicsMag3;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima18_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima18_Title",
     unlocks =
     "clickevent;11361x6771x0:EventoEliaRima18;time:50:anim:loot;updateobjective:Questyno_EliaRima18:1:Completed",
@@ -3182,26 +3182,26 @@ local rimaQuest18A = {
         guid = "Questyno_EliaRima18_B",
         text = "IGUI_SFQuest_Questyno_EliaRima18_B",
         needsitem = "ElectronicsMag1;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima18_A;1;Completed;removeitem;ElectronicsMag1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima18_C",
         text = "IGUI_SFQuest_Questyno_EliaRima18_C",
         needsitem = "ElectronicsMag2;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima18_A;2;Completed;removeitem;ElectronicsMag2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima18_D",
         text = "IGUI_SFQuest_Questyno_EliaRima18_D",
         needsitem = "ElectronicsMag3;1",
-        icon = "Item_Book4",
+        icon = "media/textures/Item_Book4",
         onobtained = "updateobjective;Questyno_EliaRima18_A;3;Completed;removeitem;ElectronicsMag3;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima18_A_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest18A);
@@ -3217,7 +3217,7 @@ local rimaQuest18B = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima18_Lore" },
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima18_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima18_B_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest18B);
@@ -3232,19 +3232,19 @@ local rimaQuest19 = {
         guid = "Questyno_EliaRima19_A",
         text = "IGUI_SFQuest_Questyno_EliaRima19_A",
         needsitem = "SheetPaper2;1",
-        icon = "Item_SheetPaper2",
+        icon = "media/textures/Item_SheetPaper2",
         onobtained = "updateobjective;Questyno_EliaRima19;1;Completed;removeitem;SheetPaper2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima19_B",
         text = "IGUI_SFQuest_Questyno_EliaRima19_B",
         needsitem = "Crayons;1",
-        icon = "Item_Crayons",
+        icon = "media/textures/Item_Crayons",
         onobtained = "updateobjective;Questyno_EliaRima19;2;Completed;removeitem;Crayons;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima19_Text",
-    texture = "Item_SheetPaper2",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima19_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3260,7 +3260,7 @@ local rimaQuest19A = {
     lore = { "IGUI_SFQuest_Questyno_EliaRima19_Lore" }, -- REQUIRE
     unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima19_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima19_A_Text",
-    texture = "Item_SheetPaper2",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest19A);
@@ -3276,7 +3276,7 @@ local rimaQuest20 = {
     needsitem = "Journal;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima20_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima20_Text",
-    texture = "Item_Notebook",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima20_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3295,7 +3295,7 @@ local rimaQuest21 = {
         oncompleted = "additem;Journal;1;removeclickevent;EventoEliaRima21"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima21_Text",
-    texture = "Item_Notebook",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima21_Title",
     unlocks =
     "clickevent;11192x6713x0:EventoEliaRima21;time:50:anim:loot;updateobjective:Questyno_EliaRima21:1:Completed",
@@ -3315,7 +3315,7 @@ local rimaQuest21A = {
     needsitem = "Journal;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima21_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima21_A_Text",
-    texture = "Item_Notebook",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima21_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3332,7 +3332,7 @@ local rimaQuest22 = {
     needsitem = "BookCarpentry1;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima22_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima22_Text",
-    texture = "Item_Book8",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima22_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3349,7 +3349,7 @@ local rimaQuest23 = {
     needsitem = "BookTrapping1;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima23_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima23_Text",
-    texture = "Item_Book4",
+    texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima23_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3393,7 +3393,7 @@ local bobIntro = {
     lore = { "IGUI_SFQuest_Questyno_BobRepair_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_BobRepair;Questyno;BobRepair",
     text = "IGUI_SFQuest_Questyno_BobRepair_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_BobRepair.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_BobRepair_Intro_Title",
@@ -3411,7 +3411,7 @@ local bobQuest1 = {
     needsitem = "SmallSheetMetal;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair1_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair1_Text",
-    texture = "Item_SmallSheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair1_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3429,7 +3429,7 @@ local bobQuest2 = {
     needsitem = "SheetMetal;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair2_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair2_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair2_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3449,7 +3449,7 @@ local bobQuest3 = {
         oncompleted = "removeclickevent;EventoBobRepair3;additem;GearMace;1"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair3_Text",
-    texture = "Item_GearMace",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair3_Title",
     unlocks =
     "clickevent;11599x9788x0:EventoBobRepair3;time:50:anim:loot;updateobjective:Questyno_BobRepair3:1:Completed",
@@ -3469,7 +3469,7 @@ local bobQuest3A = {
     needsitem = "GearMace;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair3_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair3_A_Text",
-    texture = "Item_GearMace",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair3_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3485,26 +3485,26 @@ local bobQuest4 = {
         guid = "Questyno_BobRepair4_A",
         text = "IGUI_SFQuest_Questyno_BobRepair4_A",
         needsitem = "ElectronicsScrap;15",
-        icon = "Item_ElectronicsScrap",
+        icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair4;1;Completed;removeitem;ElectronicsScrap;15",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair4_B",
         text = "IGUI_SFQuest_Questyno_BobRepair4_B",
         needsitem = "ElectricWire;2",
-        icon = "Item_ElectricWire",
+        icon = "media/textures/Item_ElectricWire",
         onobtained = "updateobjective;Questyno_BobRepair4;2;Completed;removeitem;ElectricWire;2",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair4_C",
         text = "IGUI_SFQuest_Questyno_BobRepair4_C",
         needsitem = "SheetMetal;1",
-        icon = "Item_SheetMetal",
+        icon = "media/textures/Item_SheetMetal",
         onobtained = "updateobjective;Questyno_BobRepair4;3;Completed;removeitem;SheetMetal;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair4_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair4_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3520,7 +3520,7 @@ local bobQuest4A = {
     lore = { "IGUI_SFQuest_Questyno_BobRepair4_Lore" },
     unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair4_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair4_A_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest4A);
@@ -3536,7 +3536,7 @@ local bobQuest5 = {
     needsitem = "ElectronicsScrap;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair5_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair5_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair5_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3554,26 +3554,26 @@ local bobQuest6 = {
         guid = "Questyno_BobRepair6_A",
         text = "IGUI_SFQuest_Questyno_BobRepair6_A",
         needsitem = "ElectronicsScrap;10",
-        icon = "Item_ElectronicsScrap",
+        icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair6;1;Completed;removeitem;ElectronicsScrap;10",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_B",
         text = "IGUI_SFQuest_Questyno_BobRepair6_B",
         needsitem = "Battery;2",
-        icon = "Item_Battery",
+        icon = "media/textures/Item_Battery",
         onobtained = "updateobjective;Questyno_BobRepair6;2;Completed;removeitem;Battery;2",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_C",
         text = "IGUI_SFQuest_Questyno_BobRepair6_C",
         needsitem = "RadioTransmitter;2",
-        icon = "Item_RadioTransmitter",
+        icon = "media/textures/Item_RadioTransmitter",
         onobtained = "updateobjective;Questyno_BobRepair6;3;Completed;removeitem;RadioTransmitter;2",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair6_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair6_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3590,7 +3590,7 @@ local bobQuest6A = {
     lore = { "IGUI_SFQuest_Questyno_BobRepair6_Lore" },
     unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair6_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair6_A_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair6_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest6A);
@@ -3609,7 +3609,7 @@ local bobQuest7 = {
         oncompleted = "removeclickevent;EventoBobRepair7;additem;Generator;1"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair7_Text",
-    texture = "Item_Generator",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair7_Title",
     unlocks = "clickevent;7183x9601x0:EventoBobRepair7;time:50:anim:loot;updateobjective:Questyno_BobRepair7:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -3628,7 +3628,7 @@ local bobQuest7A = {
     needsitem = "Generator;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair7_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair7_A_Text",
-    texture = "Item_Generator",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair7_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3646,7 +3646,7 @@ local bobQuest8 = {
     needsitem = "ElectricWire;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair8_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair8_Text",
-    texture = "Item_ElectricWire",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair8_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3663,19 +3663,19 @@ local bobQuest9 = {
         guid = "Questyno_BobRepair9_A",
         text = "IGUI_SFQuest_Questyno_BobRepair9_A",
         needsitem = "ScrapMetal;4",
-        icon = "Item_ScrapMetal",
+        icon = "media/textures/Item_ScrapMetal",
         onobtained = "updateobjective;Questyno_BobRepair9;1;Completed;removeitem;ScrapMetal;4",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair9_B",
         text = "IGUI_SFQuest_Questyno_BobRepair9_B",
         needsitem = "ElectronicsScrap;16",
-        icon = "Item_ElectronicsScrap",
+        icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair9;2;Completed;removeitem;ElectronicsScrap;16",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair9_Text",
-    texture = "Item_ScrapMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair9_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3691,7 +3691,7 @@ local bobQuest9A = {
     lore = { "IGUI_SFQuest_Questyno_BobRepair9_Lore" },
     unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair9_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair9_A_Text",
-    texture = "Item_ScrapMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest9A);
@@ -3707,7 +3707,7 @@ local bobQuest10 = {
     needsitem = "EngineParts;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair10_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair10_Text",
-    texture = "Item_EngineParts",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair10_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3724,7 +3724,7 @@ local bobQuest11 = {
     needsitem = "MetalPipe;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair11_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair11_Text",
-    texture = "Item_MetalPipe",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair11_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3742,7 +3742,7 @@ local bobQuest12 = {
     needsitem = "UnusableMetal;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair12_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair12_Text",
-    texture = "Item_UnusableMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair12_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3762,7 +3762,7 @@ local bobQuest13 = {
         oncompleted = "removeclickevent;EventoBobRepair13;additem;ElectronicsMag1;1"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair13_Text",
-    texture = "Item_ElectronicsMag1",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair13_Title",
     unlocks =
     "clickevent;9767x11179x0:EventoBobRepair13;time:50:anim:loot;updateobjective:Questyno_BobRepair13:1:Completed",
@@ -3781,7 +3781,7 @@ local bobQuest13A = {
     needsitem = "ElectronicsMag1;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair13_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair13_A_Text",
-    texture = "Item_ElectronicsMag1",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair13_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3799,7 +3799,7 @@ local bobQuest14 = {
     needsitem = "WaterBottleFull", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair14_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair14_Text",
-    texture = "Item_WaterBottleFull",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair14_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3819,7 +3819,7 @@ local bobQuest15 = {
         oncompleted = "removeclickevent;EventoBobRepair15;additem;SheetMetal;10;additem;EngineParts;10;additem;ElectronicsScrap;10;additem;UnusableMetal;10"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair15_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair15_Title",
     unlocks =
     "clickevent;8261x7507x0:EventoBobRepair15;time:50:anim:loot;updateobjective:Questyno_BobRepair15:1:Completed",
@@ -3837,33 +3837,33 @@ local bobQuest15A = {
         guid = "Questyno_BobRepair15_B",
         text = "IGUI_SFQuest_Questyno_BobRepair15_B",
         needsitem = "SheetMetal;10",
-        icon = "Item_SheetMetal",
+        icon = "media/textures/Item_SheetMetal",
         onobtained = "updateobjective;Questyno_BobRepair15;1;Completed;removeitem;SheetMetal;10",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair15_C",
         text = "IGUI_SFQuest_Questyno_BobRepair15_C",
         needsitem = "EngineParts;10",
-        icon = "Item_EngineParts",
+        icon = "media/textures/Item_EngineParts",
         onobtained = "updateobjective;Questyno_BobRepair15;2;Completed;removeitem;EngineParts;10",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair15_D",
         text = "IGUI_SFQuest_Questyno_BobRepair15_D",
         needsitem = "ElectronicsScrap;10",
-        icon = "Item_ElectronicsScrap",
+        icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair15;3;Completed;removeitem;ElectronicsScrap;10",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair15_E",
         text = "IGUI_SFQuest_Questyno_BobRepair15_E",
         needsitem = "UnusableMetal;10",
-        icon = "Item_UnusableMetal",
+        icon = "media/textures/Item_UnusableMetal",
         onobtained = "updateobjective;Questyno_BobRepair15;4;Completed;removeitem;UnusableMetal;10",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair15_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest15A);
@@ -3879,7 +3879,7 @@ local bobQuest15B = {
     lore = { "IGUI_SFQuest_Questyno_BobRepair15_Lore" },
     unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair15_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair15_B_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest15B);
@@ -3896,7 +3896,7 @@ local bobQuest16 = {
     needsitem = "ElectronicsScrap;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair16_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair16_Text",
-    texture = "Item_ElectronicsScrap",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair16_Title",
     unlockedsound = "QuestUnlocked"
 }
@@ -3911,12 +3911,12 @@ local bobQuest17 = {
     objectives = { {
         guid = "Questyno_BobRepair17_A",
         text = "IGUI_SFQuest_Questyno_BobRepair17_A",
-        icon = "Item_Wrench",
+        icon = "media/textures/Item_Wrench",
         hidden = false,
         oncompleted = "removeclickevent;EventoBobRepair17;additem;Wrench;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair17_Text",
-    texture = "Item_Wrench",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair17_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -3935,7 +3935,7 @@ local bobQuest17A = {
     needsitem = "Wrench;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair17_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair17_A_Text",
-    texture = "Item_Wrench",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest17A);
@@ -3949,12 +3949,12 @@ local bobQuest18 = {
     objectives = { {
         guid = "Questyno_BobRepair18_A",
         text = "IGUI_SFQuest_Questyno_BobRepair18_A",
-        icon = "Item_SheetMetal",
+        icon = "media/textures/Item_SheetMetal",
         hidden = false,
         oncompleted = "removeclickevent;EventoBobRepair18;additem;SheetPaper2;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair18_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair18_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -3974,7 +3974,7 @@ local bobQuest18A = {
     needsitem = "SheetPaper2;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair18_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair18_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest18A);
@@ -3990,7 +3990,7 @@ local bobQuest19 = {
     needsitem = "MetalPipe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair19_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair19_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair19_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -4007,7 +4007,7 @@ local bobQuest20 = {
     needsitem = "ScrapMetal;15", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair20_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair20_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair20_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -4024,7 +4024,7 @@ local bobQuest21 = {
     needsitem = "ScrapMetal;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair21_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair21_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -4039,12 +4039,12 @@ local bobQuest22 = {
     objectives = { {
         guid = "Questyno_BobRepair22_A",
         text = "IGUI_SFQuest_Questyno_BobRepair22_A",
-        icon = "Item_PipeWrench",
+        icon = "media/textures/Item_PipeWrench",
         hidden = false,
         oncompleted = "removeclickevent;EventoBobRepair22;additem;PipeWrench;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair22_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair22_Title",
     unlockedsound = "QuestUnlocked",
     unlocks =
@@ -4064,7 +4064,7 @@ local bobQuest22A = {
     needsitem = "PipeWrench;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair22_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair22_A_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair22_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest22A);
@@ -4080,7 +4080,7 @@ local bobQuest23 = {
     needsitem = "ScrapMetal;6", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair23_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair23_Text",
-    texture = "Item_SheetMetal",
+    texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair23_Title",
     unlockedsound = "QuestUnlocked",
 }

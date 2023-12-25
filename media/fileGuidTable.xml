@@ -3416,4 +3416,45 @@
 		<path>media/clothing/clothingItems/Zed_Skin.xml</path>
 		<guid>ff6a89d6-0609-43e6-98e9-e271ed15fa19</guid>
 	</files>
+	<!--This is the end of the stalker armor list, from now on skin entries !!! !!! !!! !!! !!! !!! !!! !!! !!! -->
+<files>
+	<path>media/clothing/clothingItems/Special_FemaleSkin01.xml</path>
+	<guid>traders0-9999-feme-9999-000000000001</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_FemaleSkin02.xml</path>
+	<guid>traders0-9999-feme-9999-000000000002</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_FemaleSkin03.xml</path>
+	<guid>traders0-9999-feme-9999-000000000003</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_FemaleSkin04.xml</path>
+	<guid>traders0-9999-feme-9999-000000000004</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_FemaleSkin05.xml</path>
+	<guid>traders0-9999-feme-9999-000000000005</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_MaleSkin01.xml</path>
+	<guid>traders0-9999-male-9999-000000000001</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_MaleSkin02.xml</path>
+	<guid>traders0-9999-male-9999-000000000002</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_MaleSkin03.xml</path>
+	<guid>traders0-9999-male-9999-000000000003</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_MaleSkin04.xml</path>
+	<guid>traders0-9999-male-9999-000000000004</guid>
+</files>
+<files>
+	<path>media/clothing/clothingItems/Special_MaleSkin05.xml</path>
+	<guid>traders0-9999-male-9999-000000000005</guid>
+</files>
 </fileGuidTable>

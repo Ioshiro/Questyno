@@ -65,10 +65,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9331x8640x0"] = {
-    sprite = "location_shop_mall_01_76",
+    sprite = "location_shop_mall_01_68",
     direction = "W",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 -- Angelica Stella  9344x8618,0
 table.insert(SFQuest_Database.WorldPool, {
@@ -80,10 +81,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9344x8618x0"] = {
-    sprite = "location_shop_mall_01_73",
+    sprite = "location_shop_mall_01_65",
     direction = "S",
     beard = "",
-    outfit = "TraderFarmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Heather Thomas  9315x8624,0
@@ -96,10 +98,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9315x8624x0"] = {
-    sprite = "location_shop_mall_01_76",
+    sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Elia Rima  9330x8631,0
@@ -112,10 +115,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9330x8631x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Bob Repair 9340,8578,0
@@ -128,10 +132,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9340x8578x0"] = {
-    sprite = "location_shop_mall_01_69",
+    sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Mike Pozzo 9315x8638x0
@@ -144,10 +149,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9315x8638x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Rosa China 9270,8491,0
@@ -160,10 +166,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9270x8491x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 -- Emily Terry 9277,8491,0
@@ -176,10 +183,11 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9277x8491x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    hair = "Bald",
+    outfit = "TraderBandit"
 }
 
 
@@ -204,10 +212,10 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["10827x9074x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 -- Dr. Susan Lee 10831,9073,0
@@ -220,10 +228,10 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["10831x9073x0"] = {
-    sprite = "location_shop_mall_01_70",
+    sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 -- George Scott 10830,9078,0
@@ -239,7 +247,7 @@ SFQuest_Database.MannequinPool["10830x9078x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 -- Samuel Young 10824,9065,0
@@ -255,7 +263,7 @@ SFQuest_Database.MannequinPool["10824x9065x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 -- Xu Mishura 10844,9074,0
@@ -271,7 +279,7 @@ SFQuest_Database.MannequinPool["10844x9074x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 -- David Turner 10839,9071,0
@@ -287,7 +295,7 @@ SFQuest_Database.MannequinPool["10839x9071x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "Police"
+    outfit = "TraderBandit"
 }
 
 --[[
@@ -310,7 +318,7 @@ SFQuest_Database.MannequinPool["10157x6611x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    outfit = "TraderBandit"
 }
 
 -- Rafael Prezioso 10152,6622,1
@@ -326,7 +334,7 @@ SFQuest_Database.MannequinPool["10156x6611x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
-    outfit = "Farmer"
+    outfit = "TraderBandit"
 }
 --[[
                                                     *** NPC CATENE SPAWN ***
@@ -348,6 +356,7 @@ SFQuest_Database.MannequinPool["9345x8618x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Bald",
     outfit = "PonchoGiallo"
 }
 
@@ -364,6 +373,7 @@ SFQuest_Database.MannequinPool["9330x8632x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Bald",
     outfit = "PonchoGiallo"
 }
 

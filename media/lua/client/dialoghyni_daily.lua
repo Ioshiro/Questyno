@@ -162,7 +162,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Gr
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif9", text = "IGUI_SFQuest_Questyno_Grif9_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif10", optional = true, text = "IGUI_SFQuest_Questyno_Grif10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif10_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif10", text = "IGUI_SFQuest_Questyno_Grif10_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif10_A", text = "IGUI_SFQuest_Questyno_Grif10_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif11", optional = true, text = "IGUI_SFQuest_Questyno_Grif11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif11_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif11_A", text = "IGUI_SFQuest_Questyno_Grif11_Complete"})
@@ -171,7 +171,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Gr
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif12_A", text = "IGUI_SFQuest_Questyno_Grif12_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif13", optional = true, text = "IGUI_SFQuest_Questyno_Grif13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif13_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif13_A", text = "IGUI_SFQuest_Questyno_Grif13_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif13", text = "IGUI_SFQuest_Questyno_Grif13_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif14", optional = true, text = "IGUI_SFQuest_Questyno_Grif14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif14_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Grif14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif14", text = "IGUI_SFQuest_Questyno_Grif14_Complete"})

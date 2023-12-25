@@ -38,7 +38,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_Lupo_Intro_Lore" },
     ondone = "addserverpoints;1000",
     text = "IGUI_SFQuest_Questyno_Lupo_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_Lupo_Intro_Title",
@@ -56,7 +56,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "308Box;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo1_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo1_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -74,7 +74,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Bullets9mmBox;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo2_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo2_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -92,7 +92,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Shotgun;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo3_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo3_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -117,7 +117,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;556Clip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo4_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -133,7 +133,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo4_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo4_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo4_Title",
 })
 
@@ -157,7 +157,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;M14Clip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo4_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -172,7 +172,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo5_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo5_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo5_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo5_Title",
 })
 
@@ -189,7 +189,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoLupo6;additem;Bullets38Box;10",
     } },
     text = "IGUI_SFQuest_Questyno_Lupo6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo6_Title",
     unlocks = "clickevent;10633x10401x0:EventoLupo6;time:50:anim:loot;updateobjective:Questyno_Lupo6:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -207,7 +207,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Bullets38Box;10",
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo6_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo6_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo6_Title",
 })
 
@@ -224,7 +224,7 @@ table.insert(SFQuest_Database.QuestPool,{
         oncompleted = "removeclickevent;EventoLupo7;additem;Bullets45Box;10",
     } },
     text = "IGUI_SFQuest_Questyno_Lupo7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo7_Title",
     unlocks = "clickevent;9745x10566x2:EventoLupo7;time:50:anim:loot;updateobjective:Questyno_Lupo7:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -242,7 +242,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Bullets45Box;10",
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo7_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo7_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo7_Title",
 })
 
@@ -259,7 +259,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "762Box;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo8_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo8_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -284,7 +284,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;9mmClip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo9_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo9_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -300,7 +300,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo9_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo9_A_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo9_Title",
 })
 
@@ -324,7 +324,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;45Clip;2"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo9_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo9_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -339,7 +339,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo10_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo10_A_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo10_Title",
 })
 
@@ -364,7 +364,7 @@ table.insert(SFQuest_Database.QuestPool,{
         onobtained = "updateobjective;Questyno_Lupo10:2:Completed;removeitem;Shotgun;2"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo10_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo10_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -379,7 +379,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo11_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo11_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo11_A_Text",
-    texture = "Item_Pistol",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo11_Title",
 })
  
@@ -394,7 +394,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Molotov;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo12_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo12_Text",
-    texture = "Item_Molotov",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo12_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -410,7 +410,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Molotov;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo13_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo13_Text",
-    texture = "Item_Molotov",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo13_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -435,7 +435,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_Lupo14:2:Completed;removeitem;ShotgunShellsBox;2"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo14_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -451,7 +451,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo14_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo14_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo14_Title",
 })
 
@@ -475,7 +475,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_Lupo15:2:Completed;removeitem;Bullets44Box;3"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo15_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -490,7 +490,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo15_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo15_Title",
 })
 
@@ -526,7 +526,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_Lupo16:4:Completed;removeitem;Bullets45Box;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo16_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -541,7 +541,7 @@ table.insert(SFQuest_Database.QuestPool,{
     lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },
     unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo16_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo16_Title",
 })
 
@@ -556,7 +556,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Bullets44Box;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo17_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo17_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -572,7 +572,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Bullets9mmBox;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo18_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo18_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -588,7 +588,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "308Box;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo19_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo19_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -605,7 +605,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Revolver;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo20_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo20_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -621,7 +621,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Pistol3;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo21_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo21_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -637,7 +637,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Revolver_Long;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo22_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo22_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -653,7 +653,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "ShotgunShellsBox;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_TonyLupo.png",
     title = "IGUI_SFQuest_Questyno_Lupo23_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -696,7 +696,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title",
@@ -714,7 +714,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.WhiskeyFull;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso1_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso1_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -731,7 +731,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Wine;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso2_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso2_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -748,7 +748,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso3;additem;Base.Trumpet;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Title",
     unlocks = "clickevent;10837x10184x0:EventoRafaelPrezioso3;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso3:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -764,7 +764,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Trumpet;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso3_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso3_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso3_Title",
 });
 
@@ -780,7 +780,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso4;additem;Base.GuitarElectricBassBlue;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Title",
     unlocks = "clickevent;7386x8285x0:EventoRafaelPrezioso4;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso4:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -796,7 +796,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.GuitarElectricBassBlue;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso4_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso4_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso4_Title",
 });
 
@@ -812,7 +812,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso5;additem;Base.Speaker;2",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Title",
     unlocks = "clickevent;7383x8285x0:EventoRafaelPrezioso5;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso5:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -828,7 +828,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Speaker;2",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso5_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso5_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso5_Title",
 });
 
@@ -843,7 +843,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.ToiletPaper;2",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso6_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso6_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -860,7 +860,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso7;additem;Base.Bell;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Title",
     unlocks = "clickevent;11437x6665x0:EventoRafaelPrezioso7;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso7:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -877,7 +877,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Bell;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso7_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso7_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso7_Title",
 });
 
@@ -891,7 +891,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.CardDeck;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso8_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -913,7 +913,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso9A;additem;Base.VideoGame;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Title",
     unlocks = "clickevent;9693x11536x0:EventoRafaelPrezioso9;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso9:1:Completed;clickevent;10013x11552x0:EventoRafaelPrezioso9;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso9:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -930,7 +930,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.VideoGame;2",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso9_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Title",
 });
 
@@ -956,7 +956,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso10B;additem;Base.Drumstick;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Title",
     unlocks = "clickevent;10757x10088x0:EventoRafaelPrezioso10;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso10:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -990,7 +990,7 @@ table.insert(SFQuest_Database.QuestPool, {
         }
     },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Title",
 });
 
@@ -1003,7 +1003,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso10_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso10_Complete",
 });
@@ -1020,7 +1020,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso11;additem;Base.GamePieceRed;1;additem;Base.PieceBlack;1;additem;Base.CheckerBoard;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Title",
     unlocks = "clickevent;8244x11686x0:EventoRafaelPrezioso11;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso11:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1054,7 +1054,7 @@ table.insert(SFQuest_Database.QuestPool, {
         }
     },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso11_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Title",
 });
 
@@ -1066,7 +1066,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso11_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso11_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso11_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso11_Complete",
 });
@@ -1083,7 +1083,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso12;additem;Base.CheckerBoard;1;additem;ChessWhite;1;additem;ChessBlack;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Title",
     unlocks = "clickevent;6984x8428x0:EventoRafaelPrezioso12;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso12:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1117,7 +1117,7 @@ table.insert(SFQuest_Database.QuestPool, {
         }
     },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso12_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Title",
 });
 
@@ -1129,7 +1129,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso12_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso12_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso12_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso12_Complete",
 });
@@ -1145,7 +1145,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Yoyo;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso13_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso13_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -1162,7 +1162,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso14;additem;Base.PirateHat;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Title",
     unlocks = "clickevent;7465x9615x0:EventoRafaelPrezioso14;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso14:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1179,7 +1179,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.PirateHat;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso14_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso14_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso14_Title",
 });
 
@@ -1202,7 +1202,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_RafaelPrezioso15:2:Completed;removeitem;Base.Trousers_Denim;1",
     }},
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -1216,7 +1216,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso15_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso15_Complete",
 });
@@ -1233,7 +1233,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso16;additem;Moveables.DylansClutter01_55;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Title",
     unlocks = "clickevent;11228x8859x0:EventoRafaelPrezioso16;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso16:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1250,7 +1250,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Moveables.DylansClutter01_55;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso16_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Title",
 });
 
@@ -1266,7 +1266,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso17;additem;Moveables.DylansGardenStuff01_32;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Title",
     unlocks = "clickevent;7383x8285x0:EventoRafaelPrezioso17;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso17:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1282,7 +1282,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Moveables.DylansGardenStuff01_32;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso17_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Title",
 });
 
@@ -1298,7 +1298,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso18;additem;Moveables.DylansWallDeco01_10;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Title",
     unlocks = "clickevent;8346x11716x0:EventoRafaelPrezioso18;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso18:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1314,7 +1314,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Moveables.DylansWallDeco01_10;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso18_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Title",
 });
 
@@ -1330,7 +1330,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoRafaelPrezioso19;additem;Base.Glasses_Eyepatch_Right;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Title",
     unlocks = "clickevent;7338x9663x0:EventoRafaelPrezioso19;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso19:1:Completed",
     unlockedsound = "QuestUnlocked"
@@ -1347,7 +1347,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Glasses_Eyepatch_Right;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso19_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Title",
 });
 
@@ -1370,7 +1370,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_RafaelPrezioso20:2:Completed;removeitem;Base.Trousers_Suit;1",
     }},
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -1382,7 +1382,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso20_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso20_Complete",
 });
@@ -1397,7 +1397,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "Base.Neackle_DogTag;2",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso21_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Title",
     unlockedsound = "QuestUnlocked"
 });
@@ -1409,7 +1409,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso22_Complete",
 });
@@ -1422,7 +1422,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso23_Complete",
 });
