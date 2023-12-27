@@ -1,5 +1,5 @@
 IGUI_EN = {
-        IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
+    IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
     IGUI_SFQuest_Questino_Test1_Title = "Giorno della Pizza",
     IGUI_SFQuest_Questyno_Test1_Lore = "Ho parlato con pino e mi ha detto di cercare della pizza. Sicuramente se vado piu' in la e ammazzo due zombie trovero' la soluzione.",
     IGUI_SFQuest_Questyno_Test1_Lore_Award = "Wow e' stata un'esperienza fantastica, probabilmente cambio server.",
@@ -18,7 +18,6 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text = "Ciao troia, hai pizza?",
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text_Accepted = "Si padrone",
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text_Declined = "Fottiti",
-
 
     IGUI_Factions_LaResistenza = "La Resistenza",
     IGUI_Factions_Template_Tier1 = "Neutrale",
@@ -44,8 +43,6 @@ IGUI_EN = {
                     10a. 100 soldi per pistola
                     10b. 100 soldi per fucile a pompa
                     10c. 100 soldi per revolver
-
-        Ogni quest ha due dialoghi, uno di inizio e uno di completamento.
 ]]
     IGUI_SFQuest_Questyno_Money_Intro_Title = "Il benvenuto di brioshi",
     IGUI_SFQuest_Questyno_Money_Intro_Text = "Parla con brioshi per sbloccare le quest per soldi.",
@@ -437,39 +434,42 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif10_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif10_Text = "Medicine su medicine",
-    IGUI_SFQuest_Questyno_Grif10_Lore = "Grifis vuole che gli porto un Medic-kit vuoto, un pacco di Betabloccanti, un Pacco di Antidolorifici, una bottiglia di Disinfettante. Spero di riuscire a trovare tutto in tempo.",
+    IGUI_SFQuest_Questyno_Grif10_Lore = "Grifis vuole che gli porto un Kit di Pronto Soccorso vuoto, un pacco di Betabloccanti, un Pacco di Antidolorifici, una bottiglia di Disinfettante. Spero di riuscire a trovare tutto in tempo.",
     IGUI_SFQuest_Questyno_Grif10_Begin_Text = "Vai alla clinica, recupera i medicinali e portali qui. Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif10_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif10_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif10_Complete = "Grazie, spero di rivederti presto",
-    IGUI_SFQuest_Questyno_Grif10_A = "Betabloccanti",
-    IGUI_SFQuest_Questyno_Grif10_B = "Antidolorifici",
-    IGUI_SFQuest_Questyno_Grif10_C = "Disinfettante",
+    IGUI_SFQuest_Questyno_Grif10_A = "Kit di Pronto Soccorso vuoto",
+    IGUI_SFQuest_Questyno_Grif10_B = "Betabloccanti",
+    IGUI_SFQuest_Questyno_Grif10_C = "Antidolorifici",
+    IGUI_SFQuest_Questyno_Grif10_D = "Disinfettante",
     IGUI_SFQuest_Questyno_Grif10_A_Text = "Torna da Grif",
 
     IGUI_SFQuest_Questyno_Grif11_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif11_Text = "Medicine su medicine",
-    IGUI_SFQuest_Questyno_Grif11_Lore = "Grifis vuole che gli porto un Medic-kit vuoto, un pacco di Vitamine, un pacco di Antidepressivi e un pacco di Salviette con Alcohol. Spero di risucire a trovare tutto.",
+    IGUI_SFQuest_Questyno_Grif11_Lore = "Grifis vuole che gli porto un Kit di Pronto Soccorso vuoto, un pacco di Vitamine, un pacco di Antidepressivi e un pacco di Salviette con Alcohol. Spero di risucire a trovare tutto.",
     IGUI_SFQuest_Questyno_Grif11_Begin_Text = "Vai alla clinica, recupera i medicinali e portali qui. Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif11_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif11_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif11_Complete = "Grazie, spero di rivederti presto",
-    IGUI_SFQuest_Questyno_Grif11_A = "Vitamine",
-    IGUI_SFQuest_Questyno_Grif11_B = "Antidepressivi",
-    IGUI_SFQuest_Questyno_Grif11_C = "Salviette con Alcohol",
+    IGUI_SFQuest_Questyno_Grif11_A = "Kit di Pronto Soccorso vuoto",
+    IGUI_SFQuest_Questyno_Grif11_B = "Vitamine",
+    IGUI_SFQuest_Questyno_Grif11_C = "Antidepressivi",
+    IGUI_SFQuest_Questyno_Grif11_D = "Salviette con Alcohol",
     IGUI_SFQuest_Questyno_Grif11_A_Text = "Torna da Grif",
 
 
     IGUI_SFQuest_Questyno_Grif12_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif12_Text = "Medicine su medicine",
-    IGUI_SFQuest_Questyno_Grif12_Lore = "Grifis vuole che gli porto un pacco di Vitamine, un pacco di Antidepressivi e un pacco di Salviette con Alcohol. Spero di risucire a trovare tutto.",
+    IGUI_SFQuest_Questyno_Grif12_Lore = "Grifis vuole che gli porto un pacco di Kit di prontosoccorso vuoto, Sonniferi, una Siringa e del Cotone. Spero di risucire a trovare tutto.",
     IGUI_SFQuest_Questyno_Grif12_Begin_Text = "Vai alla clinica, recupera i medicinali e portali qui. Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif12_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif12_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif12_Complete = "Grazie, spero di rivederti presto",
-    IGUI_SFQuest_Questyno_Grif12_A = "Vitamine",
-    IGUI_SFQuest_Questyno_Grif12_B = "Antidepressivi",
-    IGUI_SFQuest_Questyno_Grif12_C = "Salviette con Alcohol",
+    IGUI_SFQuest_Questyno_Grif12_A = "Kit di Pronto Soccorso vuoto",
+    IGUI_SFQuest_Questyno_Grif12_B = "Sonniferi",
+    IGUI_SFQuest_Questyno_Grif12_C = "Siringa",
+    IGUI_SFQuest_Questyno_Grif12_D = "Cotone",
     IGUI_SFQuest_Questyno_Grif12_A_Text = "Torna da Grif",
 
     IGUI_SFQuest_Questyno_Grif13_Title = "Sergente Grif (9331x8640x0)",
@@ -509,23 +509,23 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif17_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif17_Text = "Suturando tagli profondi",
-    IGUI_SFQuest_Questyno_Grif17_Lore = "Non so come farai ma devi assolutamente rimediare degli aghi da sutura o continueremo a sanguirane per giorni con certi tagli.",
-    IGUI_SFQuest_Questyno_Grif17_Begin_Text = "Grifis vuole che gli porto un Ago da Sutura. Può essere utilizzato contro le ferite profonde. Cura meglio con un Porta ago da Sutura. Dice che mi ricompenserà con 30$",
+    IGUI_SFQuest_Questyno_Grif17_Lore = "Grifis vuole che gli porto un Ago da Sutura. Può essere utilizzato contro le ferite profonde. Cura meglio con un Porta ago da Sutura. Dice che mi ricompenserà con 30$",
+    IGUI_SFQuest_Questyno_Grif17_Begin_Text = "Non so come farai ma devi assolutamente rimediare degli aghi da sutura o continueremo a sanguirane per giorni con certi tagli.",
     IGUI_SFQuest_Questyno_Grif17_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif17_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif17_Complete = "Grazie, spero di rivederti presto",
 
     IGUI_SFQuest_Questyno_Grif18_Title = "Sergente Grif (9331x8640x0)",
-    IGUI_SFQuest_Questyno_Grif18_Text = "Le salviette con Alcohol",
-    IGUI_SFQuest_Questyno_Grif18_Lore = "Grifis vuole che gli porto 2 salviette con Alcohol. Voglio rendirmi utile, le troverò.",
-    IGUI_SFQuest_Questyno_Grif18_Begin_Text = "Abbiamo bisogno che recuperi qualche benda sterilizzata, questi stracci fanno come il cazzo alle vecchie!",
+    IGUI_SFQuest_Questyno_Grif18_Text = "Le Bende Sterilizzate",
+    IGUI_SFQuest_Questyno_Grif18_Lore = "Grifis vuole che gli porto 2 Benda sterilizzata. Voglio rendirmi utile, le troverò.",
+    IGUI_SFQuest_Questyno_Grif18_Begin_Text = "Abbiamo bisogno che recuperi qualche benda sterilizzata, questi stracci fanno come il cazzo alle vecchie! ",
     IGUI_SFQuest_Questyno_Grif18_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif18_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_Grif18_Complete = "Grazie, spero di rivederti presto",
 
     IGUI_SFQuest_Questyno_Grif19_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif19_Text = "Una benda sul dito",
-    IGUI_SFQuest_Questyno_Grif19_Lore = "Grifis vuole che gli porto una Fasciatura. Aiuterà la guardigione della sua ferita.",
+    IGUI_SFQuest_Questyno_Grif19_Lore = "Grifis vuole che gli porto un Cerotto. Aiuterà la guardigione della sua ferita.",
     IGUI_SFQuest_Questyno_Grif19_Begin_Text = "Ho assolutamente bisogno di un cerotto, questa serve a me, mi sono scheggiato un dito, dio boia!",
     IGUI_SFQuest_Questyno_Grif19_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif19_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -533,7 +533,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif20_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif20_Text = "Fasciature per le lacerazioni",
-    IGUI_SFQuest_Questyno_Grif20_Lore = "Grifis vuole che gli porto un Medic-kit vuoto. Voglio dargli una mano con i sopravvissuti al campo base. Dice che verrò ricompensato.",
+    IGUI_SFQuest_Questyno_Grif20_Lore = "Grifis vuole che gli porto tre Cerotti. Voglio dargli una mano con i sopravvissuti al campo base. Dice che verrò ricompensato.",
     IGUI_SFQuest_Questyno_Grif20_Begin_Text = "Ho assolutamente bisogno di molti cerotti per i bambini, quei mocciosi non riescono a non togliersi le bende che gli metto, dio boia! ",
     IGUI_SFQuest_Questyno_Grif20_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif20_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -541,7 +541,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif21_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif21_Text = "Pinzette per peli facciali",
-    IGUI_SFQuest_Questyno_Grif21_Lore = "Grifis vuole che gli porto una Pinzetta vuoto. Può essere usata in caso di scheggia o proiettile conficcato nella carne.",
+    IGUI_SFQuest_Questyno_Grif21_Lore = "Grifis vuole che gli porto una Pinzetta. Può essere usata in caso di scheggia o proiettile conficcato nella carne.",
     IGUI_SFQuest_Questyno_Grif21_Begin_Text = "Devi trovarmi delle pinzette, i pazienti urlano come dei cani quando provo a togliergli i proiettili o le schegge con le mani, poveracci! ",
     IGUI_SFQuest_Questyno_Grif21_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif21_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -557,11 +557,11 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif23_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif23_Text = "Un medik-kit per la speranza.",
-    IGUI_SFQuest_Questyno_Grif23_Lore = "Grifis vuole che gli porto un Medic-kit vuoto. Servirà per dare un ordine a tutti i medicinali.",
+    IGUI_SFQuest_Questyno_Grif23_Lore = "Grifis vuole che gli porto un Kit di Pronto Soccorso vuoto. Servirà per dare un ordine a tutti i medicinali.",
     IGUI_SFQuest_Questyno_Grif23_Begin_Text = "Vai alla clinica, recupera le attrezzature e riportale qui. Fallo, soldato!",
     IGUI_SFQuest_Questyno_Grif23_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif23_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
-    IGUI_SFQuest_Questyno_Grif23_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Grif23_Complete = "Alla fine abbiamo messo tutto dentro un kit da cucito, non mi serve più, grazie comunque per averci provato",
 
     IGUI_SFQuest_Questyno_Grif24_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif24_Text = "Qualcosa per dormire meglio",

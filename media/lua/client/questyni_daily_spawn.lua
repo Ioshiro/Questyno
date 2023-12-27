@@ -574,6 +574,7 @@ local grifQuest23 = {
     guid = "Questyno_Grif23",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsitem = "FirstAidKit;1",
     awardstask = "Questyno_Grif24", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -2083,8 +2084,7 @@ local thomasQuest23 = {
     text = "IGUI_SFQuest_Questyno_HeatherThomas23_Text",
     texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas23_Title",
-    unlocks =
-    "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:Questyno_HeatherThomas23:1:Completed",
+    unlocks = "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:Questyno_HeatherThomas23:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest23);
