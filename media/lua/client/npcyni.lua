@@ -303,6 +303,10 @@ SFQuest_Database.MannequinPool["10839x9071x0"] = {
                     Elenco:
                         1. Tony Lupo (10157x6611x0)
                         2. Rafael Prezioso (10152,6622,1)
+                        3. Jeffrey Lewis (10150,6620,0)
+                        4. Cristopher Davis (10161,6627,0)
+                        5. Pamela Perez 10115,662,0
+                        6. Sam Fisher (10153,6571,0)
 ]]
 
 -- Tony "Lupo" 

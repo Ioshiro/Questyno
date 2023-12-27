@@ -1523,7 +1523,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest21);
 				5. Recuperare Base.DeadSquirrel (50rep)
 				6. Recuperare Base.Bird;4 (140rep)
                 7. Recuperare Base.DeadRabbit (50rep + DehydratedMeatStick;6)
-				8. Recuperare Moveables.camping_01_17 (40rep + 50$)
+				8. Recuperare Moveables.camping_01_17 parlando con (11064,10640,0) (40rep + 50$)
 				9. Recuperare Base.Bird;2 (70rep + DehydratedMeatStick;2)
                 10. Recuperare Base.DeadSquirrel (100rep + Base.BeefJerky;2)
                 11. Recuperare Base.TrapBox;3 (35rep + 20$)
@@ -1680,23 +1680,47 @@ local thomasQuest7 = {
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest7);
 
+--				8. Recuperare Moveables.camping_01_17 parlando con (11064,10640,0) (40rep + 50$)
+
 local thomasQuest8 = {
     guid = "Questyno_HeatherThomas8",
+
+    awardstask = "Questyno_HeatherThomas8_A", -- TASK REWARD
+    dailycode = "Questyno_HeatherThomas",
+    lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
+    objectives = { {
+        guid = "Questyno_HeatherThomas8_A",
+        text = "IGUI_SFQuest_Questyno_HeatherThomas8_A",
+        hidden = false,
+        oncompleted = "additem;Moveables.camping_01_17;1;removeclickevent;EventoHeatherThomas8"
+    } },
+    text = "IGUI_SFQuest_Questyno_HeatherThomas8_Text",
+    texture = "media/textures/Item_HeatherThomas.png",
+    title = "IGUI_SFQuest_Questyno_HeatherThomas8_Title",
+    unlocks =
+    "clickevent;11064x10640x0:EventoHeatherThomas8;time:50:anim:loot;updateobjective:Questyno_HeatherThomas8:1:Completed",
+    unlockedsound = "QuestUnlocked"
+}
+table.insert(SFQuest_Database.QuestPool, thomasQuest8);
+
+local thomasQuest8A = {
+    guid = "Questyno_HeatherThomas8_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     awardstask = "Questyno_HeatherThomas9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
+    hidden = true,
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
-    needsitem = "CampfireKit;1", -- REQUIRE
+    needsitem = "Moveables.camping_01_17;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas8_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas8_Text",
+    text = "IGUI_SFQuest_Questyno_HeatherThomas8_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
     title = "IGUI_SFQuest_Questyno_HeatherThomas8_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, thomasQuest8);
+table.insert(SFQuest_Database.QuestPool, thomasQuest8A);
 
 local thomasQuest9 = {
     guid = "Questyno_HeatherThomas9",
