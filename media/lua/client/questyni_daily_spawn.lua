@@ -925,7 +925,7 @@ local stellaQuest6 = {
         guid = "Questyno_AngelicaStella6_A",
         text = "IGUI_SFQuest_Questyno_AngelicaStella6_A",
         hidden = false,
-        oncompleted = "additem;Dress_Short;1;removeclickevent;EventoAngelicaStella6"
+        oncompleted = "additem;Hat_BunnyEarsBlack;1;removeclickevent;EventoAngelicaStella6"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella6_Text",
     texture = "media/textures/Item_AngelicaStella.png",
@@ -940,12 +940,11 @@ local stellaQuest6A = {
     guid = "Questyno_AngelicaStella6_A",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
-    awardsitem = "Money;40",       -- MONEY REWARD
     awardstask = "Questyno_AngelicaStella7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella6_Lore" },
-    needsitem = "Dress_Short;1", -- REQUIRE
+    needsitem = "Hat_BunnyEarsBlack;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella6_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella6_A_Text",
     texture = "media/textures/Item_AngelicaStella.png",
@@ -1118,7 +1117,7 @@ local stellaQuest11 = {
         guid = "Questyno_AngelicaStella11_A",
         text = "IGUI_SFQuest_Questyno_AngelicaStella11_A",
         hidden = false,
-        oncompleted = "additem;HairDyeBrown;1;removeclickevent;EventoAngelicaStella11"
+        oncompleted = "additem;HairDyeLightBrown;1;removeclickevent;EventoAngelicaStella11"
     } },
     text = "IGUI_SFQuest_Questyno_AngelicaStella11_Text",
     texture = "media/textures/Item_AngelicaStella.png",
@@ -1137,7 +1136,7 @@ local stellaQuest11A = {
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella11_Lore" },
-    needsitem = "HairDyeBrown;1", -- REQUIRE
+    needsitem = "HairDyeLightBrown;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella11_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella11_A_Text",
     texture = "media/textures/Item_AngelicaStella.png",
@@ -1355,7 +1354,7 @@ local stellaQuest17 = {
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella17_Title",
     unlocks =
-    "clickevent;7266x8474x1:EventoAngelicaStella17;time:50:anim:loot;updateobjective:Questyno_AngelicaStella17:1:Completed",
+    "clickevent;7226x8474x1:EventoAngelicaStella17;time:50:anim:loot;updateobjective:Questyno_AngelicaStella17:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest17);
@@ -1442,7 +1441,7 @@ local stellaQuest19A = {
     guid = "Questyno_AngelicaStella19_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardsitem = "Money;70",       -- MONEY REWARD
+    awardsitem = "Money;70;Tshirt_WhiteTINT;3",       -- MONEY REWARD
     awardstask = "Questyno_AngelicaStella20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1805,19 +1804,19 @@ local thomasQuest13 = {
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
         hidden = false,
         needsitem = "Worm;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:2:Completed;removeitem;Worm;5"
+        onobtained = "updateobjective;Questyno_HeatherThomas13:1:Completed;removeitem;Worm;5"
     }, {
         guid = "Questyno_HeatherThomas13_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
         hidden = false,
         needsitem = "Carrots;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:3:Completed;removeitem;Carrots;1"
+        onobtained = "updateobjective;Questyno_HeatherThomas13:2:Completed;removeitem;Carrots;1"
     }, {
         guid = "Questyno_HeatherThomas13_C",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
         hidden = false,
         needsitem = "Potato;2",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:4:Completed;removeitem;Potato;2"
+        onobtained = "updateobjective;Questyno_HeatherThomas13:3:Completed;removeitem;Potato;2"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1852,13 +1851,13 @@ local thomasQuest14 = {
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_A",
         hidden = false,
         needsitem = "Grasshopper;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas14:2:Completed;removeitem;Grasshopper;5"
+        onobtained = "updateobjective;Questyno_HeatherThomas14:1:Completed;removeitem;Grasshopper;5"
     }, {
         guid = "Questyno_HeatherThomas14_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_B",
         hidden = false,
         needsitem = "Worm;10",
-        onobtained = "updateobjective;Questyno_HeatherThomas14:3:Completed;removeitem;Worm;10"
+        onobtained = "updateobjective;Questyno_HeatherThomas14:2:Completed;removeitem;Worm;10"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas14_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -2023,7 +2022,7 @@ local thomasQuest19 = {
     guid = "Questyno_HeatherThomas19",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "ScrapClub;1",    -- MONEY REWARD TODO: fixxa
+    awardsitem = "SWeapons.ScrapClub;1",    -- MONEY REWARD TODO: fixxa
     awardstask = "Questyno_HeatherThomas20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -2058,7 +2057,6 @@ local thomasQuest21 = {
     guid = "Questyno_HeatherThomas21",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "TrapMouse;1",     -- MONEY REWARD
     awardstask = "Questyno_HeatherThomas22", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -2196,7 +2194,6 @@ local rimaQuest1A = {
     guid = "Questyno_EliaRima1_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    awardsitem = "Money;10",        -- MONEY REWARD
     awardstask = "Questyno_EliaRima2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2247,7 +2244,6 @@ local rimaQuest2A = {
     guid = "Questyno_EliaRima2_A",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
-    awardsitem = "Money;10",        -- MONEY REWARD
     awardstask = "Questyno_EliaRima3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2291,7 +2287,6 @@ local rimaQuest3A = {
     guid = "Questyno_EliaRima3_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "Money;10",        -- MONEY REWARD
     awardstask = "Questyno_EliaRima4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2392,7 +2387,6 @@ local rimaQuest5A = {
     guid = "Questyno_EliaRima5_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "Money;10",        -- MONEY REWARD
     awardstask = "Questyno_EliaRima6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2549,6 +2543,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest8);
 local rimaQuest8A = {
     guid = "Questyno_EliaRima8_A",
 
+    awardstask = "Questyno_EliaRima8_B", -- TASK REWARD
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima8_Lore" },
     objectives = { {
@@ -2633,6 +2628,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest9);
 local rimaQuest9A = {
     guid = "Questyno_EliaRima9_A",
 
+    awardstask = "Questyno_EliaRima9_B", -- TASK REWARD
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima9_Lore" },
     objectives = { {
@@ -3190,7 +3186,7 @@ local rimaQuest18 = {
     texture = "media/textures/Item_EliaRima.png",
     title = "IGUI_SFQuest_Questyno_EliaRima18_Title",
     unlocks =
-    "clickevent;11361x6771x0:EventoEliaRima18;time:50:anim:loot;updateobjective:Questyno_EliaRima18:1:Completed",
+    "clickevent;11361x6770x0:EventoEliaRima18;time:50:anim:loot;updateobjective:Questyno_EliaRima18:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, rimaQuest18);
@@ -3255,9 +3251,9 @@ local rimaQuest19 = {
     objectives = { {
         guid = "Questyno_EliaRima19_A",
         text = "IGUI_SFQuest_Questyno_EliaRima19_A",
-        needsitem = "SheetPaper2;1",
+        needsitem = "SheetPaper2;3",
         icon = "media/textures/Item_SheetPaper2",
-        onobtained = "updateobjective;Questyno_EliaRima19;1;Completed;removeitem;SheetPaper2;1",
+        onobtained = "updateobjective;Questyno_EliaRima19;1;Completed;removeitem;SheetPaper2;3",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima19_B",

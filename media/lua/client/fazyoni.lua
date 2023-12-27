@@ -37,7 +37,7 @@ LaResistenzaTiersTemplate = {
         minrep = 500000,
         barcolor = "green"
     }, {
-        tiername = "IGUI_Factions_Template_Tier7",
+        tiername = "IGUI_Factions_Template_Tier8",
         minrep = 1000000,
         barcolor = "green"
     }

@@ -340,6 +340,70 @@ SFQuest_Database.MannequinPool["10156x6611x0"] = {
     beard = "",
     outfit = "TraderBandit"
 }
+
+-- Jeffrey Lewis 10150,6620,0
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_JeffreyLewis",
+    square = "10150x6620x0",
+    name = "IGUI_SFQuest_Questyno_JeffreyLewis_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_JeffreyLewis.png",
+})
+
+SFQuest_Database.MannequinPool["10150x6620x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "TraderBandit"
+}
+
+-- Cristopher Davis 10161,6627,0
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_CristopherDavis",
+    square = "10161x6627x0",
+    name = "IGUI_SFQuest_Questyno_CristopherDavis_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_CristopherDavis.png",
+})
+
+SFQuest_Database.MannequinPool["10161x6627x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "TraderBandit"
+}
+
+-- Pamela Perez 10115,662,0
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_PamelaPerez",
+    square = "10115x662x0",
+    name = "IGUI_SFQuest_Questyno_PamelaPerez_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_PamelaPerez.png",
+})
+
+SFQuest_Database.MannequinPool["10115x662x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "TraderBandit"
+}
+
+-- Sam Fisher 10153,6571,0
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_SamFisher",
+    square = "10153x6571x0",
+    name = "IGUI_SFQuest_Questyno_SamFisher_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_SamFisher.png",
+})
+
+SFQuest_Database.MannequinPool["10153x6571x0"] = {
+    sprite = "location_shop_mall_01_69",
+    direction = "E",
+    beard = "",
+    outfit = "TraderBandit"
+}
 --[[
                                                     *** NPC CATENE SPAWN ***
                     Elenco:

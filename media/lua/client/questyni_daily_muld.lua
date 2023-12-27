@@ -842,7 +842,7 @@ local leeIntro = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_SusanLee;Questyno;SusanLee",
     text = "IGUI_SFQuest_Questyno_SusanLee_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SusanLee_Intro_Title",
@@ -862,7 +862,7 @@ local leeQuest1 = {
         oncompleted = "removeclickevent;EventoSusanLee1;additem;Antibiotics;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee1_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10875x10028x0:EventoSusanLee1;anim:loot:time:50;updateobjective:Questyno_SusanLee1:1:Completed"
@@ -881,7 +881,7 @@ local leeQuest1A = {
     needsitem = "Antibiotics;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee1_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee1_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee1_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest1A);
@@ -899,7 +899,7 @@ local leeQuest2 = {
         oncompleted = "removeclickevent;EventoSusanLee2;additem;LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee2_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7683x11515x0:EventoSusanLee2;anim:loot:time:50;updateobjective:Questyno_SusanLee2:1:Completed"
@@ -918,7 +918,7 @@ local leeQuest2A = {
     needsitem = "LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee2_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee2_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee2_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest2A);
@@ -936,7 +936,7 @@ local leeQuest3 = {
         oncompleted = "removeclickevent;EventoSusanLee3;additem;LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee3_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;9463x11239x0:EventoSusanLee3;anim:loot:time:50;updateobjective:Questyno_SusanLee3:1:Completed"
@@ -955,7 +955,7 @@ local leeQuest3A = {
     needsitem = "LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee3_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee3_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest3A);
@@ -973,7 +973,7 @@ local leeQuest4 = {
         oncompleted = "removeclickevent;EventoSusanLee4;additem;PillsSleepingTablets;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee4_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8087x11524x0:EventoSusanLee4;anim:loot:time:50;updateobjective:Questyno_SusanLee4:1:Completed"
@@ -992,7 +992,7 @@ local leeQuest4A = {
     needsitem = "PillsSleepingTablets;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee4_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee4_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest4A);
@@ -1010,7 +1010,7 @@ local leeQuest5 = {
         oncompleted = "removeclickevent;EventoSusanLee5;additem;PillsVitamins;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11939x6795x1:EventoSusanLee5;anim:loot:time:50;updateobjective:Questyno_SusanLee5:1:Completed"
@@ -1029,7 +1029,7 @@ local leeQuest5A = {
     needsitem = "PillsVitamins;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee5_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee5_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest5A);
@@ -1044,7 +1044,7 @@ local leeQuest6 = {
     needsitem = "Splint;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee6_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee6_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1060,7 +1060,7 @@ local leeQuest7 = {
     needsitem = "Antibiotics;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee7_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee7_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1076,7 +1076,7 @@ local leeQuest8 = {
     needsitem = "AlcoholRippedSheets;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee8_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee8_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1092,7 +1092,7 @@ local leeQuest9 = {
     needsitem = "LabSyringe;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee9_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee9_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1111,7 +1111,7 @@ local leeQuest10 = {
         oncompleted = "removeclickevent;EventoSusanLee10;additem;Moveable.location_community_medical_01_24;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7250x8369x0:EventoSusanLee10;anim:loot:time:50;updateobjective:Questyno_SusanLee10:1:Completed"
@@ -1130,7 +1130,7 @@ local leeQuest10A = {
     needsitem = "Moveable.location_community_medical_01_24;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee10_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee10_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest10A);
@@ -1148,7 +1148,7 @@ local leeQuest11 = {
         oncompleted = "removeclickevent;EventoSusanLee11;additem;Moveable.location_community_medical_01_24;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee11_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;5033x10038x0:EventoSusanLee11;anim:loot:time:50;updateobjective:Questyno_SusanLee11:1:Completed"
@@ -1167,7 +1167,7 @@ local leeQuest11A = {
     needsitem = "Moveable.location_community_medical_01_24;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee11_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee11_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest11A);
@@ -1185,7 +1185,7 @@ local leeQuest12 = {
         oncompleted = "removeclickevent;EventoSusanLee12;additem;Moveable.location_community_medical_01_28;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10287x11351x0:EventoSusanLee12;anim:loot:time:50;updateobjective:Questyno_SusanLee12:1:Completed"
@@ -1204,7 +1204,7 @@ local leeQuest12A = {
     needsitem = "Moveable.location_community_medical_01_28;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee12_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee12_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest12A);
@@ -1222,7 +1222,7 @@ local leeQuest13 = {
         oncompleted = "removeclickevent;EventoSusanLee13;additem;SutureNeedle;3"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee13_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7713x11429x0:EventoSusanLee13;anim:loot:time:50;updateobjective:Questyno_SusanLee13:1:Completed"
@@ -1241,7 +1241,7 @@ local leeQuest13A = {
     needsitem = "SutureNeedle;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee13_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee13_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest13A);
@@ -1259,7 +1259,7 @@ local leeQuest14 = {
         oncompleted = "removeclickevent;EventoSusanLee14;additem;SutureNeedleHolder;3"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee14_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7681x11518x0:EventoSusanLee14;anim:loot:time:50;updateobjective:Questyno_SusanLee14:1:Completed"
@@ -1278,7 +1278,7 @@ local leeQuest14A = {
     needsitem = "SutureNeedleHolder;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee14_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee14_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest14A);
@@ -1296,7 +1296,7 @@ local leeQuest15 = {
         oncompleted = "removeclickevent;EventoSusanLee15;additem;JacketLong_Doctor;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee15_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7298x9618x0:EventoSusanLee15;anim:loot:time:50;updateobjective:Questyno_SusanLee15:1:Completed"
@@ -1315,7 +1315,7 @@ local leeQuest15A = {
     needsitem = "JacketLong_Doctor;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee15_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest15A);
@@ -1333,7 +1333,7 @@ local leeQuest16 = {
         oncompleted = "removeclickevent;EventoSusanLee16;additem;PillsAntieDep;10"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10673x9819x0:EventoSusanLee16;anim:loot:time:50;updateobjective:Questyno_SusanLee16:1:Completed"
@@ -1352,7 +1352,7 @@ local leeQuest16A = {
     needsitem = "PillsAntieDep;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee16_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest16A);
@@ -1370,7 +1370,7 @@ local leeQuest17 = {
         oncompleted = "removeclickevent;EventoSusanLee17;additem;PillsAntieDep;10"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee17_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8211x10887x0:EventoSusanLee17;anim:loot:time:50;updateobjective:Questyno_SusanLee17:1:Completed"
@@ -1388,7 +1388,7 @@ local leeQuest17A = {
     needsitem = "PillsAntieDep;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee17_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee17_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee17_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest17A);
@@ -1406,7 +1406,7 @@ local leeQuest18 = {
         oncompleted = "removeclickevent;EventoSusanLee18;additem;PillsVitamins;2;additem;PillsSleepingTablets;2;additem;SutureNeedle;additem;Pills;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7244x8373x0:EventoSusanLee18;anim:loot:time:50;updateobjective:Questyno_SusanLee18:1:Completed"
@@ -1446,7 +1446,7 @@ local leeQuest18A = {
         onobtained = "updateobjective;Questyno_SusanLee18_A;1;Completed;removeitem;Pills;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee18_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest18A);
@@ -1461,7 +1461,7 @@ local leeQuest18B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee18_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee18_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee18_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest18B);
@@ -1481,7 +1481,7 @@ local leeQuest19 = {
         oncompleted = "removeclickevent;EventoSusanLee19;additem;PillsBeta;2;additem;AlcoholWipes;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7244x8357x0:EventoSusanLee19;anim:loot:time:50;updateobjective:Questyno_SusanLee19:1:Completed"
@@ -1509,7 +1509,7 @@ local leeQuest19A = {
         onobtained = "updateobjective;Questyno_SusanLee19_A;1:Completed;removeitem;AlcoholWipes;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest19A);
@@ -1525,7 +1525,7 @@ local leeQuest19B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee19_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee19_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest19B);
@@ -1545,7 +1545,7 @@ local leeQuest20 = {
         oncompleted = "removeclickevent;EventoSusanLee20;additem;PillsBeta;2;additem;Disinfectant;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7246x8363x0:EventoSusanLee20;anim:loot:time:50;updateobjective:Questyno_SusanLee20:1:Completed"
@@ -1573,7 +1573,7 @@ local leeQuest20A = {
         onobtained = "updateobjective;Questyno_SusanLee20_A;1:Completed;removeitem;Disinfectant;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee20_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest20A);
@@ -1589,7 +1589,7 @@ local leeQuest20B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee20_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee20_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee20_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest20B);
@@ -1608,7 +1608,7 @@ local leeQuest21 = {
     needsitem = "PlantainCataplasm;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee21_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1628,7 +1628,7 @@ local leeQuest22 = {
     needsitem = "LemonGrass;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee22_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee22_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1649,7 +1649,7 @@ local leeQuest23 = {
         oncompleted = "removeclickevent;EventoSusanLee23;additem;Moveable.location_community_medical_01_16;1;additem;Moveable.location_community_medical_01_17;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;6318x5267x0:EventoSusanLee23;anim:loot:time:50;updateobjective:Questyno_SusanLee23:1:Completed"
@@ -1676,7 +1676,7 @@ local leeQuest23A = {
         onobtained = "updateobjective;Questyno_SusanLee23_A;1:Completed;removeitem;Moveable.location_community_medical_01_17;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23A);
@@ -1691,7 +1691,7 @@ local leeQuest23B = {
     lore = { "IGUI_SFQuest_Questyno_SusanLee23_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23B);
@@ -1734,7 +1734,7 @@ local scottIntro = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_GeorgeScott;Questyno;GeorgeScott",
     text = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title",
@@ -1753,7 +1753,7 @@ local scottQuest1 = {
     needsitem = "Wine2;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott1_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott1_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott1_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1770,7 +1770,7 @@ local scottQuest2 = {
     needsitem = "Jacket_Chef;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott2_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott2_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1789,7 +1789,7 @@ local scottQuest3 = {
         oncompleted = "removeclickevent;EventoGeorgeScott3;additem;Hat_HockeyMask;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott3_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott3_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10780x9885x0:EventoGeorgeScott3;anim:loot:time:50;updateobjective:Questyno_GeorgeScott3:1:Completed"
@@ -1807,7 +1807,7 @@ local scottQuest3A = {
     needsitem = "Hat_HockeyMask;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott3_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott3_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest3A);
@@ -1825,7 +1825,7 @@ local scottQuest4 = {
         oncompleted = "removeclickevent;EventoGeorgeScott4;additem;Earbuds;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott4_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott4_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10780x9885x0:EventoGeorgeScott4;anim:loot:time:50;updateobjective:Questyno_GeorgeScott4:1:Completed"
@@ -1843,7 +1843,7 @@ local scottQuest4A = {
     needsitem = "Earbuds;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott4_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott4_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest4A);
@@ -1861,7 +1861,7 @@ local scottQuest5 = {
         oncompleted = "removeclickevent;EventoGeorgeScott5;additem;Dart;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott5_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10211x8251x0:EventoGeorgeScott5;anim:loot:time:50;updateobjective:Questyno_GeorgeScott5:1:Completed"
@@ -1879,7 +1879,7 @@ local scottQuest5A = {
     needsitem = "Dart;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott5_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott5_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest5A);
@@ -1896,7 +1896,7 @@ local scottQuest6 = {
     needsitem = "ToiletPaper;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott6_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott6_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott6_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1915,7 +1915,7 @@ local scottQuest7 = {
         oncompleted = "removeclickevent;EventoGeorgeScott7;additem;Cube;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott7_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott7_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11128x6856x0:EventoGeorgeScott7;anim:loot:time:50;updateobjective:Questyno_GeorgeScott7:1:Completed"
@@ -1934,7 +1934,7 @@ local scottQuest7A = {
     needsitem = "Cube;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott7_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott7_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott7_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest7A);
@@ -1950,7 +1950,7 @@ local scottQuest8 = {
     needsitem = "CardDeck;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott8_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott8_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott8_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1974,7 +1974,7 @@ local scottQuest9 = {
         oncompleted = "removeclickevent;EventoGeorgeScott9A;additem;VideoGame;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott9_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott9_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10339x8175x0:EventoGeorgeScott9;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:1:Completed"
@@ -1992,7 +1992,7 @@ local scottQuest9A = {
     needsitem = "VideoGame;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott9_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott9_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest9A);
@@ -2020,7 +2020,7 @@ local scottQuest10 = {
         oncompleted = "removeclickevent;EventoGeorgeScott10B;additem;GuitarAcoustic;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8506x7685x0:EventoGeorgeScott10;anim:loot:time:50;updateobjective:Questyno_GeorgeScott10:1:Completed"
@@ -2053,7 +2053,7 @@ local scottQuest10A = {
         onobtained = "updateobjective;Questyno_GeorgeScott10_A;3:Completed;removeitem;GuitarAcoustic;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest10A);
@@ -2069,7 +2069,7 @@ local scottQuest10B = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott10_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott10_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_B_Text",
-    texture = "Item_Money",
+    texture = "ey",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest10B);
@@ -2087,7 +2087,7 @@ local scottQuest11 = {
         oncompleted = "removeclickevent;EventoGeorgeScott11;additem;Basketball;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott11_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott11_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;12566x9951x0:EventoGeorgeScott11;anim:loot:time:50;updateobjective:Questyno_GeorgeScott11:1:Completed"
@@ -2105,7 +2105,7 @@ local scottQuest11A = {
     needsitem = "Basketball;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott11_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott11_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest11A);
@@ -2123,7 +2123,7 @@ local scottQuest12 = {
         oncompleted = "removeclickevent;EventoGeorgeScott12;additem;ChessWhite;1;additem;ChessBlack;1;additem;CheckerBoard;1",
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;12338x9647x1:EventoGeorgeScott12;anim:loot:time:50;updateobjective:Questyno_GeorgeScott12:1:Completed"
@@ -2157,7 +2157,7 @@ local scottQuest12A = {
         onobtained = "updateobjective;Questyno_GeorgeScott12_A;3:Completed;removeitem;CheckerBoard;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest12A);
@@ -2173,7 +2173,7 @@ local scottQuest12B = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott12_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott12_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_B_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest12B);
@@ -2190,7 +2190,7 @@ local scottQuest13 = {
     needsitem = "Toothpaste;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott13_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott13_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott13_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2209,7 +2209,7 @@ local scottQuest14 = {
         oncompleted = "removeclickevent;EventoGeorgeScott14;additem;Hat_Cowboy;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott14_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott14_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8159x9611x0:EventoGeorgeScott14;anim:loot:time:50;updateobjective:Questyno_GeorgeScott14:1:Completed"
@@ -2228,7 +2228,7 @@ local scottQuest14A = {
     needsitem = "Hat_Cowboy;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott14_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott14_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest14A);
@@ -2259,7 +2259,7 @@ local scottQuest15 = {
         onobtained = "updateobjective;Questyno_GeorgeScott15_A;3:Completed;removeitem;Skirt_Long;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott15_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2276,7 +2276,7 @@ local scottQuest15A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott15_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott15_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest15A);
@@ -2294,7 +2294,7 @@ local scottQuest16 = {
         oncompleted = "removeclickevent;EventoGeorgeScott16;additem;Moveables.DylansElectronics01_46;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott16_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;9747x10589x0:EventoGeorgeScott16;anim:loot:time:50;updateobjective:Questyno_GeorgeScott16:1:Completed"
@@ -2313,7 +2313,7 @@ local scottQuest16A = {
     needsitem = "Moveables.DylansElectronics01_46;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott16_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott16_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest16A);
@@ -2330,7 +2330,7 @@ local scottQuest17 = {
     needsitem = "Base.Disc_Retail;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott17_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott17_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott17_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2357,7 +2357,7 @@ local scottQuest18 = {
         onobtained = "updateobjective;Questyno_GeorgeScott18_A;2:Completed;removeitem;Base.Battery;2"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott18_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott18_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2374,7 +2374,7 @@ local scottQuest18A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott18_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott18_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott18_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest18A);
@@ -2393,7 +2393,7 @@ local scottQuest19 = {
         oncompleted = "removeclickevent;EventoGeorgeScott19;additem;Base.Hat_Bandana;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott19_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7431x9700x0:EventoGeorgeScott19;anim:loot:time:50;updateobjective:Questyno_GeorgeScott19:1:Completed"
@@ -2411,7 +2411,7 @@ local scottQuest19A = {
     needsitem = "Base.Hat_Bandana;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott19_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott19_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest19A);
@@ -2437,7 +2437,7 @@ local scottQuest20 = {
         onobtained = "updateobjective;Questyno_GeorgeScott20_A;2:Completed;removeitem;Base.JacketLong_Random;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott20_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2454,7 +2454,7 @@ local scottQuest20A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott20_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott20_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_A_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest20A);
@@ -2471,7 +2471,7 @@ local scottQuest21 = {
     needsitem = "Base.AmmoStrap_Shells;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott21_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott21_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2489,7 +2489,7 @@ local scottQuest22 = {
     needsitem = "Base.WristWatch_Right_ClassicGold;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott22_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott22_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2507,7 +2507,7 @@ local scottQuest23 = {
     needsitem = "Base.HolsterDouble;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott23_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott23_Text",
-    texture = "Item_Money",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott23_Title",
     unlockedsound = "QuestUnlocked",
 }
