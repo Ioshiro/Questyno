@@ -208,156 +208,183 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Lupo4_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo5_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo5_Text = "Recupera 3 fucili a pompa, 1 scatola di cartucce e uccidi 40 zombie.",
-    IGUI_SFQuest_Questyno_Lupo5_Lore = "Ho bisogno tu mi porti altre armi da fuoco per i nostri Compagni!  ",
-    IGUI_SFQuest_Questyno_Lupo5_Begin_Text = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni!",
+    IGUI_SFQuest_Questyno_Lupo5_Text = "Più potenza di fuoco",
+    IGUI_SFQuest_Questyno_Lupo5_Lore = "Tony mi ha chiesto di recupearere un Fucile da battaglia m14 con Caricatore per proiettili m14. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo5_Begin_Text = "Ho bisogno tu mi porti altre armi da fuoco per i nostri Compagni! ",
     IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo5_Complete = "Grazie ti siamo grati. Questi sono per te.",
+    IGUI_SFQuest_Questyno_Lupo5_Complete = " Ce n'hai messo di tempo! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo5_A = "Fucile m14",
+    IGUI_SFQuest_Questyno_Lupo5_B = "Caricatore m14",
+    IGUI_SFQuest_Questyno_Lupo5_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo6_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo6_Text = "Devo raggiungere la stazione di Polizia du Muldraugh per recuperare delle munizioni. Speriamo non sia infestata.",
-    IGUI_SFQuest_Questyno_Lupo6_Lore = "Ho bisogno di minuzioni. Molte. Fai un salto alla stazione di polizia di Muldraugh, ne troverai sicuramente molte li.",
-    IGUI_SFQuest_Questyno_Lupo6_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto alla stazione di polizia di Muldraugh, ne troverai sicuramente molte li.",
+    IGUI_SFQuest_Questyno_Lupo6_Text = "Le munizioni speciali",
+    IGUI_SFQuest_Questyno_Lupo6_Lore = "Tony mi ha chiesto di recupearere delle munizioni alla stazione di polizia di Muldraugh (10633,10401,0). Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo6_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto alla stazione di polizia di Muldraugh, ne troverai molte di sicuro in quel posto.",
     IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo6_Complete = "Finalmente sei arrivato! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo6_A = "Cerca a Muldraugh (10633,10401,0)",
+    IGUI_SFQuest_Questyno_Lupo6_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo7_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo7_Text = "Devo controllare se sono rimaste delle munizioni all'armeria di Chernaville e portarle a Lupo",
-    IGUI_SFQuest_Questyno_Lupo7_Lore = "Ho bisogno di minuzioni. Molte. Fai un salto all'armeria di Chernaville",
-    IGUI_SFQuest_Questyno_Lupo7_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto all'armeria di Chernaville",
+    IGUI_SFQuest_Questyno_Lupo7_Text = "Le munizioni per la Colt 1911",
+    IGUI_SFQuest_Questyno_Lupo7_Lore = "Tony mi ha chiesto di recupearere delle munizioni alla stazione di polizia di Chernaville (9745,10566,2). Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo7_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto all'armeria di Chernaville, ne troverai molte di sicuro in quel posto.",
     IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo7_Complete = "Finalmente sei arrivato! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo7_A = "Cerca a Chernaville (9745,10566,2)",
+    IGUI_SFQuest_Questyno_Lupo7_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo8_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo8_Text = "Devo recuperare 1 pacco di 7.76 per Lupo e uccidere 30 zombie. ",
-    IGUI_SFQuest_Questyno_Lupo8_Lore = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca. ",
+    IGUI_SFQuest_Questyno_Lupo8_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo8_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni .762",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca.",
-    IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
+    IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare sul tuo Lupacchiotto!",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo8_Complete = "Finalmente sei arrivato! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo8_Complete = "Queste sono difficili da trovare. Ecco a te.",
 
     IGUI_SFQuest_Questyno_Lupo9_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo9_Text = "Devo recuperare 1 pacco di 7.76 per lupo e uccidere 30 zombie.",
-    IGUI_SFQuest_Questyno_Lupo9_Lore = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca. ",
-    IGUI_SFQuest_Questyno_Lupo9_Begin_Text = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca.",
-    IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
+    IGUI_SFQuest_Questyno_Lupo9_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo9_Lore = "Tony mi ha chiesto di recupearere una Pistola e un Caricatore per proiettili M9. Spero di trovarli in qualche armeria.",
+    IGUI_SFQuest_Questyno_Lupo9_Begin_Text = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni!",
+    IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo9_Complete = "Finalmente sei arrivato! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo9_Complete = " Grazie ti siamo grati. Questi sono per te.",
+    IGUI_SFQuest_Questyno_Lupo9_A = "Pistola M9",
+    IGUI_SFQuest_Questyno_Lupo9_B = "Caricatore M9",
+    IGUI_SFQuest_Questyno_Lupo9_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo10_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo10_Text = "Lupo sta cercando 1 fucile MSR700 e 1 pacco di .223. Non lo deluderò",
-    IGUI_SFQuest_Questyno_Lupo10_Lore = "Ho bisogno di minuzioni. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
+    IGUI_SFQuest_Questyno_Lupo10_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo10_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da .45 e 2 Caricatori per proiettili 1911",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text = "Ho bisogno di minuzioni. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo10_Complete = "Finalmente, eccoti qua! Ci sentiamo presto.",
+    IGUI_SFQuest_Questyno_Lupo10_A = "Scatola di munizioni da .45",
+    IGUI_SFQuest_Questyno_Lupo10_B = "Caricatore per proiettili 1911",
+    IGUI_SFQuest_Questyno_Lupo10_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo11_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo11_Text = "Devo trovare 2 Colt 1911, 2 caricatori per Colt e 2 pacchi .45",
-    IGUI_SFQuest_Questyno_Lupo11_Lore = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
+    IGUI_SFQuest_Questyno_Lupo11_Text = "Più fuoco per Tony",
+    IGUI_SFQuest_Questyno_Lupo11_Lore = "Tony mi ha chiesto di recupearere 2 Fucili a Pompa M500 e 2 Scatole di cartucce per fucile. Meglio darsi da fare.",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo11_Complete = "Finalmente, eccoti qua! Ci sentiamo presto.",
+    IGUI_SFQuest_Questyno_Lupo11_A = "Fucile a Pompa M500",
+    IGUI_SFQuest_Questyno_Lupo11_B = "Scatola di cartucce per fucile",
+    IGUI_SFQuest_Questyno_Lupo11_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo12_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo12_Text = "Devo trovare 3 Molotov per Lupo.",
-    IGUI_SFQuest_Questyno_Lupo12_Lore = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
+    IGUI_SFQuest_Questyno_Lupo12_Text = "Tony e la piromania",
+    IGUI_SFQuest_Questyno_Lupo12_Lore = "Tony mi ha chiesto di recupearere o fabbricare 3 Molotov. Che vorrà farci?",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo12_Complete = "Finalmente, eccoti qua! Spero non abbia sostituito l'alcool con acqua.",
 
     IGUI_SFQuest_Questyno_Lupo13_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo13_Text = "Devo trovare 1 molotov per lupo",
-    IGUI_SFQuest_Questyno_Lupo13_Lore = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
+    IGUI_SFQuest_Questyno_Lupo13_Text = "Tony e la piromania",
+    IGUI_SFQuest_Questyno_Lupo13_Lore = "Tony mi ha chiesto di recupearere o fabbricare una Molotov. Che vorrà farci?",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo13_Complete = "Grazie ti siamo grati. Ecco a te.",
 
     IGUI_SFQuest_Questyno_Lupo14_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo14_Text = "Devo trovare 1 Doppietta e 2 pacchi di cartucce per Lupo.",
-    IGUI_SFQuest_Questyno_Lupo14_Lore = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
+    IGUI_SFQuest_Questyno_Lupo14_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo14_Lore = "Tony mi ha chiesto di recupearere un Fucile a Doppia Canna e 2 Scatola di cartucce per fucile.",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo14_Complete = " Finalmente sei tornato! Ci rivediamo presto. Non scordarti questi. ",
+    IGUI_SFQuest_Questyno_Lupo14_A = "Fucile a Doppia Canna",
+    IGUI_SFQuest_Questyno_Lupo14_B = "Scatola di cartucce per fucile",
+    IGUI_SFQuest_Questyno_Lupo14_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo15_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo15_Text = "Devo trovare 1 magnum in buono stato e 3 pacchi .44 per Lupo",
-    IGUI_SFQuest_Questyno_Lupo15_Lore = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
+    IGUI_SFQuest_Questyno_Lupo15_Text = "Più fuoco per Tony",
+    IGUI_SFQuest_Questyno_Lupo15_Lore = "Tony mi ha chiesto di recupearere una pistola Magnum e 3 Scatole di proiettili da 44 Magnum. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo15_Complete = "Ce n'hai messo di tempo! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo15_A = "Pistola Magnum",
+    IGUI_SFQuest_Questyno_Lupo15_B = "Scatola di proiettili da 44 Magnum",
+    IGUI_SFQuest_Questyno_Lupo15_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo16_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo16_Text = "Recupera 1 fucile R788 1 Caricatore R788 1 Pacco .308 e uccidi 10 zombie",
-    IGUI_SFQuest_Questyno_Lupo16_Lore = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni!",
-    IGUI_SFQuest_Questyno_Lupo16_Begin_Text = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni!",
-    IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
+    IGUI_SFQuest_Questyno_Lupo16_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo16_Lore = "Tony mi ha chiesto di recupearere una Scatole di munizioni da 44 Magnum, una Scatola di munizioni per 9mm, una Scatola di munizioni da 38 Special, una Scatola di proiettili .45 automatica. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo16_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai.",
+    IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Accepted = "Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi!",
     IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo16_Complete = "Ce n'hai messo di tempo! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo16_Complete = "Finalmente sei tornato! Ci rivediamo presto. ",
+    IGUI_SFQuest_Questyno_Lupo16_A = "Scatole di munizioni da 44 Magnum",
+    IGUI_SFQuest_Questyno_Lupo16_B = "Scatola di munizioni per 9mm",
+    IGUI_SFQuest_Questyno_Lupo16_C = "Scatola di munizioni da 38 Special",
+    IGUI_SFQuest_Questyno_Lupo16_D = "Scatola di proiettili .45 automatica",
+    IGUI_SFQuest_Questyno_Lupo16_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo17_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo17_Text = "Recupera 1 pacco .44, 1 pacco 9mm, 1 pacco .38 e 1 pacco .45 auto",
-    IGUI_SFQuest_Questyno_Lupo17_Lore = "Ho bisogno tu mi porti altre armi da fuoco per i nostri Compagni! ",
-    IGUI_SFQuest_Questyno_Lupo17_Begin_Text = "Ho bisogno tu mi porti altre armi da fuoco per i nostri Compagni!",
-    IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Accepted = " Mi raccomando, controlla che siano funzionanti!",
+    IGUI_SFQuest_Questyno_Lupo17_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo17_Lore = "Tony mi ha chiesto di recupearere 2 Scatole di munizioni da 44 Magnum. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo17_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai.",
+    IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Accepted = "Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi!",
     IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo17_Complete = "Ce n'hai messo di tempo! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo17_Complete = "Finalmente sei tornato! Ci rivediamo presto.",
 
     IGUI_SFQuest_Questyno_Lupo18_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo18_Text = "Lupo ha bisogno di 1 pacco 9mm",
-    IGUI_SFQuest_Questyno_Lupo18_Lore = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
+    IGUI_SFQuest_Questyno_Lupo18_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo18_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da 9mm. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text_Accepted = " Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo18_Complete = "Finalmente! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo18_Complete = "Ce l'hai fatta diamine.",
 
     IGUI_SFQuest_Questyno_Lupo19_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo19_Text = "Devo recuperare 1 pacco di .308 per Lupo.",
-    IGUI_SFQuest_Questyno_Lupo19_Lore = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
+    IGUI_SFQuest_Questyno_Lupo19_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo19_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da .308. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text_Accepted = " Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo19_Complete = "Bene! Dà qua.",
+    IGUI_SFQuest_Questyno_Lupo19_Complete = "Ce l'hai fatta diamine.",
 
     IGUI_SFQuest_Questyno_Lupo20_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo20_Text = "Devo recuperare una Desert Eagle per Lupo",
-    IGUI_SFQuest_Questyno_Lupo20_Lore = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Guarda negli armadi di qualche fanatico, ho bisogno di una pistola particolare.",
+    IGUI_SFQuest_Questyno_Lupo20_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo20_Lore = "Tony mi ha chiesto di recuperare un Revolver M625. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo20_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Guarda negli armadi di qualche fanatico, ho bisogno di una pistola particolare.",
     IGUI_SFQuest_Questyno_Lupo20_Begin_Text_Accepted = "Spero non sia troppo pesante da portare!",
     IGUI_SFQuest_Questyno_Lupo20_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo20_Complete = "Ottimo, ben fatto.",
+    IGUI_SFQuest_Questyno_Lupo20_Complete = "Ce l'hai fatta diamine. Prendi questi.",
 
     IGUI_SFQuest_Questyno_Lupo21_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo21_Text = "Devo recuperare una Magnum per Lupo",
-    IGUI_SFQuest_Questyno_Lupo21_Lore = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca. Verrai ben ricompensato, sai che puoi contare su di me!",
-    IGUI_SFQuest_Questyno_Lupo21_Begin_Text = "todo",
-    IGUI_SFQuest_Questyno_Lupo21_Begin_Text_Accepted = "todo",
+    IGUI_SFQuest_Questyno_Lupo21_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo21_Lore = "Tony mi ha chiesto di recuperare una D-E Pistola. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo21_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi!",
+    IGUI_SFQuest_Questyno_Lupo21_Begin_Text_Accepted = "Guarda negli armadi di qualche fanatico, ho bisogno di una pistola particolare.",
     IGUI_SFQuest_Questyno_Lupo21_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo21_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Lupo21_Complete = "Ce l'hai fatta diamine.",
 
     IGUI_SFQuest_Questyno_Lupo22_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo22_Text = "todo",
-    IGUI_SFQuest_Questyno_Lupo22_Lore = "todo",
-    IGUI_SFQuest_Questyno_Lupo22_Begin_Text = "todo",
-    IGUI_SFQuest_Questyno_Lupo22_Begin_Text_Accepted = "todo",
+    IGUI_SFQuest_Questyno_Lupo22_Text = "Più armi per Tony",
+    IGUI_SFQuest_Questyno_Lupo22_Lore = "Tony mi ha chiesto di recuperare una pistola Magnum. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo22_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! ",
+    IGUI_SFQuest_Questyno_Lupo22_Begin_Text_Accepted = "Guarda negli armadi di qualche fanatico, ho bisogno di una pistola particolare.",
     IGUI_SFQuest_Questyno_Lupo22_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo22_Complete = "Grazie, spero di rivederti presto",
+    IGUI_SFQuest_Questyno_Lupo22_Complete = "Ce l'hai fatta diamine.",
 
     IGUI_SFQuest_Questyno_Lupo23_Title = "Tony Lupo da West Point 10157,6611,0",
-    IGUI_SFQuest_Questyno_Lupo23_Text = "todo",
-    IGUI_SFQuest_Questyno_Lupo23_Lore = "todo",
-    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "todo",
-    IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Accepted = "todo",
+    IGUI_SFQuest_Questyno_Lupo23_Text = "Più munizioni per Tony",
+    IGUI_SFQuest_Questyno_Lupo23_Lore = "Tony mi ha chiesto di recuperare delle cartucce per fucile da NPC X. Spero di trovarlo presto.",
+    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Portami quante più cartucce per fucile riesci a trovare!",
+    IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Accepted = "Questa volta ti pagherò, sono molto importanti!",
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
-    IGUI_SFQuest_Questyno_Lupo23_Complete = "Grazie, spero di rivederti presto",    
+    IGUI_SFQuest_Questyno_Lupo23_Complete = "Hei hai provato gli intrugli del nostro amico NPC x? Cazzo che sballo, non so cosa ci metta maaa... dio boia! Hai trovato la scatola di cui ti avevo parlato?",    
     
     
     IGUI_SFQuest_Questyno_Grif_Name = "Sergente Grif",
@@ -4182,8 +4209,866 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
 	IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso23_Complete = "Bellissimo. Direi che mi sta benissimo. Tieni e grazie.",
+--[[
+            *** Jeffrey Lewis ***
+            Elenco:
+                intro. Parla con Jeffrey Lewis per sbloccare le daily.
+				1. Recuperare Base.BookCarpentry1,Base.BookCarpentry2,Base.BookCooking1,Base.BookElectrician2 (200rep)
+				2. Recuperare Base.BookCarpentry2,Base.BookCooking3,Base.BookForaging1,Base.BookForaging3 (160rep)
+				3. Recuperare Base.BookMechanic2,Base.BookMetalWelding1,Base.BookMechanic4 (150rep)
+				4. Recuperare Base.BookFirstAid2,Base.BookMechanic3,Base.BookFirstAid1,Base.BookFishing1 (150rep)
+				5. Recuperare BaseBookFarming2,Base.BookFirstAid3,Base.BookFishing2,Base.BookFirstAid5 (130rep)
+				6. Recuperare Base.BookFarming4,Base.BookTrapping4,Base.BookForaging4,Base.BookForaging5 (180rep)
+				7. Recuperare  
+				8. Recuperare  
+				9. Recuperare Base.TVMagazine;5 (60rep)
+				10. Recuperare Base.BookFarming1,Base.BookFarming2,Base.BookFarming3,Base.BookFarming4,Base.BookFarming5 (250rep)
+				11. Recuperare Base.BookElectrician1,Base.BookElectrician2,Base.BookElectrician3,Base.BookElectrician4,Base.BookElectrician5 (220rep)
+				12. Recuperare Base.TVMagazine;10 (200rep)
+				13. Recuperare Base.BookFishing3,Base.BookMetalWelding2,Base.BookMetalWelding3,Base.BookCarpentry4,Base.BookTrapping2 (140rep)
+				14. Recuperare Base.BookFishing4,Base.BookMetalWelding1,Base.BookMetalWelding2,Base.BookCarpentry2,Base.BookTrapping5 (150rep)
+				15. Recuperare Base.BookForaging4,Base.BookForaging3,Base.BookMechanic1,Base.BookCarpentry2,BaseBookFarming5 (130rep)
+				16. Recuperare 
+				17. Recuperare Base.FishingMag1,Base.FishingMag2 parlando con (8090,11511,0) (75rep)
+				18. Recuperare Base.ElectronicsMag1,Base.ElectronicsMag2,Base.ElectronicsMag3 parlando con (10627,9973,0) (70rep + 30$)
+				19. Recuperare Base.SheetPaper2;4,Base.Crayons;2 (100rep + 20$)
+				20. Recuperare Base.Magazine;5 (120rep)
+				21. Recuperare Base.MagazineWordsearch1,Base.MagazineWordsearch2,Base.MagazineWordsearch3,MagazineCrossword1,MagazineCrossword2,MagazineCrossword3 (200rep)
+				22. Recuperare Base.BookCarpentry5 (40rep)
+				23. Recuperare Base.BookTrapping3 (50rep)
+]]
+    IGUI_SFQuest_Questyno_JeffreyLewis_Name = "Jeffrey Lewis",
 
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Title = "Jeffrey Lewis",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text = "Parla con Jeffrey Lewis per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis1_Title = "Il prezzo della cultura",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Carpenteria 1, Carpenteria 2, Cucina 1, Elettricista 2. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Complete = "Grazie erano quelli che ci servivano.",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_A = "Carpenteria 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_B = "Carpenteria 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_C = "Cucina 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_D = "Elettricista 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_B_Text = "Parla con Jeffrey",
 
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis2_Title = "Il prezzo della cultura",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Carpenteria 2, Cucina 3, Ispezione 1, Ispezione 3 . Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Complete = "Grazie, ne faremo buon uso.",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_A = "Carpenteria 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_B = "Cucina 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_C = "Ispezione 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_D = "Ispezione 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_B_Text = "Parla con Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis3_Title = "Il prezzo della cultura",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 2, Lavorazione Metalli 1, Meccanica 4. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Complete = "Grazie, ne faremo buon uso.",
+	IGUI_SFQuest_Questyno_JeffreyLewis3_A = "Meccanica 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis3_B = "Metalli 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis3_C = "Meccanica 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis3_A_Text = "Parla con Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis4_Title = "Il prezzo della civiltà",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pronto Soccorso 2, Meccanica 3, Pronto Soccorso 1, Pesca 1. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca. ",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Complete = "Grazie, non riuscivo proprio a trovarli.",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_A = "Pronto Soccorso 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_B = "Meccanica 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_C = "Pronto Soccorso 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_D = "Pesca 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_A_Text = "Parla con Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis5_Title = "Il prezzo della civiltà",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 2, Pronto soccorso 3, Pesca 2, Pronto soccorso 5. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Complete = "Grazie, non riuscivo proprio a trovarli.",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_A = "Coltivazione 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_B = "Pronto Soccorso 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_C = "Pesca 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_D = "Pronto Soccorso 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_A_Text = "Parla con Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis6_Title = "Il prezzo della civiltà",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 4, Trappole 4, Ispezione 4, Ispezione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Complete = "Grazie, non riuscivo proprio a trovarli.",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_A = "Coltivazione 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_B = "Trappole 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_C = "Ispezione 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_D = "Ispezione 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_A_Text = "Parla con Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis7_Title = "Il prezzo della cultura",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Complete = "",
+	IGUI_SFQuest_Questyno_JeffreyLewis7_A = "Cerca a ",
+	IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text = "Porta  a Jeffrey",
+
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis8_Title = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Lore = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Complete = "",
+	IGUI_SFQuest_Questyno_JeffreyLewis8_A = "Cerca a ",
+	IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text = "Porta  a Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis9_Title = "Jeffrey il segaiolo",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifiche per lui. Vorrebbe 5 Riviste TV. Dovrei andare a controllare in qualche casa.",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text = "Cerca queste riviste per me, è molto importante per farmi delle pippe di stile.",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Complete = "Grazie, ne farò buon uso.",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis10_Title = "Pollice verde con Jeffrey",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 1, Coltivazione 2, Coltivazione 3, Coltivazione 4, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text = "Heila, come va? Ho bisogno che mi trovi tutta la collezione di Coltivazione, pensi di farcela?",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Complete = "Grazie, non deve essere stato semplice.",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_A = "Coltivazione 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_B = "Coltivazione 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_C = "Coltivazione 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_D = "Coltivazione 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_E = "Coltivazione 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_A_Text = "Parla con Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis11_Title = "Nozioni di elettrica con Jeffrey",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Elettrica 1, Elettrica 2, Elettrica 3, Elettrica 4, Elettrica 5 Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text = "Heila, come va? Ho bisogno che mi trovi tutta la collezione di Elettrica, pensi di farcela?",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Complete = "Grazie, non deve essere stato semplice.",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_A = "Elettrica 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_B = "Elettrica 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_C = "Elettrica 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_D = "Elettrica 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_E = "Elettrica 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_A_Text = "Parla con Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis12_Title = "Jeffrey il segaiolo",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifici per lui. Vorrebbe 10 Riviste TV. Dovrei andare a controllare in qualche casa.",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text = "Cerca queste riviste per me, è molto importante per farmi delle pippe di stile.",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Complete = "Grazie, ne farò buon uso.",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis13_Title = "Il prezzo dell'istruzione",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 3, Lavorazione metalli 2, Lavorazione metalli 3, Carpenteria 4, Trappole 2. Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Complete = "Wow, grazie non credevo li avessi!",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_A = "Pesca 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_B = "Lavorazione metalli 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_C = "Lavorazione metalli 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_D = "Carpenteria 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_E = "Trappole 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_A_Text = "Parla con Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Il prezzo della Società",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5 Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Complete = "Wow, grazie non credevo li avessi!",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_A = "Pesca 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_B = "Lavorazione metalli 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_C = "Lavorazione metalli 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_D = "Carpenteria 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_E = "Trappole 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_A_Text = "Parla con Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Il prezzo della Società",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Ispezione 3, Meccanica 1, Carpenteria 2, Coltivazione 5 Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Complete = "Bene, grazie non credevo li avessi!",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_A = "Ispezione 4",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_B = "Ispezione 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_C = "Meccanica 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_D = "Carpenteria 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_E = "Coltivazione 5",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_A_Text = "Parla con Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis16_Title = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Lore = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Complete = "",
+	IGUI_SFQuest_Questyno_JeffreyLewis16_A = "Cerca a ",
+	IGUI_SFQuest_Questyno_JeffreyLewis16_A_Text = "Porta  a Jeffrey",
+	
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis17_Title = "Il prezzo della comunità",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe andassi a Rosewwod a recuperare un paio di Riviste di pesca. Dice che posso trovarle a (8090,11511,0)",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text = "Dobbiamo tramandare le nostre conoscienze per rimanere in vita, cercami queste riviste speciali, le troverai nella libreria a Rosewood.",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Complete = "Ottimo, speriamo che presto altre persone sapranno come procurarsi del cibo con una semplice lancia.",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_A = "Cerca a Rosewood (8090,11511,0)",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_A_Text = "Prendi le riviste per Jeffrey",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_B = "Base.FishingMag 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_C = "Base.FishingMag 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_B_Text	= "Torna da Jeffrey",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis18_Title = "Il prezzo della sviluppo",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe delle riviste che si trovano nella scuola a Muldraugh (10627,9973,0)",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text = "Ho bisogno che mi trovi alcune riviste che servono a i nostri ingegneri. Puoi trovarle alla scuola di Muldraugh.",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Complete = "Wow Grazie, non voglio approfittare della tua gentilezza, ecco a te.",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_A = "Cerca a Muldraugh (10627,9973,0)",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_A_Text = "Prendi i libri per Jeffrey",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_B = "Base.ElectronicsMag 1",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_C = "Base.ElectronicsMag 2",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_D = "Base.ElectronicsMag 3",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_B_Text = "Torna da Jeffrey",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis19_Title = "Il prezzo della civiltà",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Lore = "Jeffrey mi ha chiesto di portargli 4 Foglio e 2 Pastelli a cera.",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text = "Abbiamo bisogno di più fogli per i nostri pargoli, non possono continuare a scrivere sui muri!",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Complete = "Grazie mille, i bambini saranno felicissimi!",
+	IGUI_SFQuest_Questyno_JeffreyLewis19_A = "4 Foglio",
+	IGUI_SFQuest_Questyno_JeffreyLewis19_B = "2 Pastelli a cera",
+	IGUI_SFQuest_Questyno_JeffreyLewis19_A_Text = "Parla con Jeffrey",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis20_Title = "Jeffrey il nostalgico",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey mi ha chiesto di portargli 5 Riviste per farsi le pippe sulle Vips.",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text = "Mi piace sfogliare i i vecchi Magazine, mi immergono in un mondo che ormai è andato, se ne trovi qualcuno me lo porti?",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Complete = "Grazie, ne farò buon uso.",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis21_Title = "Jeffrey l'annoiato",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Lore = "Jeffrey mi ha di trovargli qualcosa per staccare. Vorrebbe la Rivista di cruciverba gialla, Rivista di cruciverba verde, Rivista di cruciverba blu. Inoltre vorrebbe la Rivista di ricerca delle parole arancione, Rivista di ricerca delle parole viola, Rivista di ricerca delle parole azzurra.",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text = "Cerca queste riviste per me, è molto importante per non uscire fuori di testa.",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Complete = "Grazie, ne farò buon uso.",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_A = "Rivista di cruciverba Gialla",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_B = "Rivista di cruciverba Verde",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_C = "Rivista di cruciverba Blu",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_D = "Rivista di ricerca delle parole Arancione",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_E = "Rivista di ricerca delle parole Viola",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_F = "Rivista di ricerca delle parole Azzurra",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_A_Text = "Porta  a Jeffrey",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis22_Title = "Un libro per la biblioteca",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Lore = "Jeffrey mi ha chiesto di cercare un lbiro di Carpenteria 5.",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text = "Cerca questo libro per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis22_Complete = "Grazie, ne faremo buon uso.",
+	
+	IGUI_SFQuest_Questyno_JeffreyLewis23_Title = "Un libro per la biblioteca",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Text = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Lore = "Jeffrey mi ha chiesto di cercare un lbiro di Trappole 3.",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text = "Cerca questo libro per me, è molto importante per rifornire la nostra biblioteca.",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Declined = "Peccato...",
+    IGUI_SFQuest_Questyno_JeffreyLewis23_Complete = "Grazie, ne faremo buon uso.",
+
+--[[
+            *** Christopher Davis ***
+            Elenco:
+                intro. Parla con Christopher Davis per sbloccare le daily.
+				1. Recuperare Base.PotOfSoupRecipe;2 (50rep + 10$ + Base.Pot;2)
+				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
+				3. Recuperare farming.Cabbage;3 (200rep + 30$)
+				4. Recuperare BaseSalad;2 (150rep + Base.Bowl;2)
+				5. Recuperare Base.Butter;2 parlando con (MANCANO COORDINATE)5 (60rep + 70$)
+				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (MANCANO COORDINATE)6 (100rep + Base.SushiEgg)
+				7. Recuperare Base.Rabbitmeat (ANCHE 25%) (65rep + Base.Burger)
+				8. Recuperare Base.Apron_Black (150rep + 50$)
+				9. Recuperare Base.GridlePan;2 (100rep)
+				10. Recuperare Base.Saucepan;2 (100rep)
+				11. Recuperare Base.KitchenKnife;4 (200rep)
+				12. Recuperare Base.Cereal;2 parlando con (MANCANO COORDINATE)12 (50rep)
+				13. Recuperare Base.BeerCan (150rep)
+				14. Recuperare Base.WaterBottleFull (40rep)
+				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (MANCANO COORDINATE)15 (60rep + Base.Lobster)
+				16. Recuperare Base.Lard parlando con (MANCANO COORDINATE)16 (25rep + Base.Milk)
+				17. Recuperare 35$ (50rep + Base.Butter)
+				18. Recuperare Base.Egg;4 parlando con (MANCANO COORDINATE)18 (40rep + FETTA DI Base.PineApple)
+				19. Recuperare Base.Spoon;6 (100rep + 20$)
+				20. Recuperare Base.PanRecipe (100rep + Base.Pan)
+				21. Recuperare Base.PotSoupRecipe;2 (50rep + Base.Pot;2)
+				22. Recuperare Base.CleaningLiquid2;2 (200rep + 30$)
+				23. Recuperare Base.RoastingPan (70rep + item PICCOLO PEZZO DI CARNE)
+				24. Recuperare Base.Fork;6 (200rep + 30$)
+]]
+    IGUI_SFQuest_Questyno_ChristopherDavis_Name = "Christopher Davis",
+
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Parla con Christopher Davis per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Christopher Davis",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis1_Text = "Stufato per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Lore = "Christopher mi ha chiesto di portargli 2 Pentola di Zuppa. Spero gli basterà",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di stufato?",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale però. Questi te li sei meritati.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis2_Text = "Quattro salti in padella per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella. Spero gli basterà",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text = "Scommetto che anche tu hai un leggero languorino. Riesci a portarmi qualcosa di saltato in padella?",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabbè, è mangiabile, tieni.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis3_Text = "Un cavolo per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Lore = "Christopher mi ha chiesto di portargli 3 Cavolo. Che gli è preso?",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text = "Pensi di riuscire a portarmi un cavolo? Ah, tranquillo, non è per me, è per il mio coniglio.",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Complete = "Grazie, non vedo l'ora che sia bello grasso e succulento. A presto ed ecco a te!",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis4_Text = "L'insalatina di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Lore = "Christopher mi ha chiesto di portargli 2 Insalata (di verdure). Che gli è preso?",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text = "Hei... Ciao. Credo di aver esagerato, ieri sono svenuto con un forte dolore al petto. Credo sia arrivato il tempo di fare un poco di digiuno. Tu hai qualche bacca da parte per prepararmi una bella insalata per caso?",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Complete = "Pensi sia il caso di aggiungere un po' di olio? Mmmm... Magari la prossima volta.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis5_Text = "Christopher colesterolo",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Lore = "Christopher mi ha chiesto di andare a recuperare del burro fresco al centro commerciale di St.Bernard's Hill (MANCANO COORDINATE)5",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text = "Non c'è niente di meglio di un bel panetto di burro fritto! Le vacche sono tutte morte, ma in qualche negozio dovresti ancora trovare del burro più o meno "fresco". Prova al centro commerciale di St.Bernard's Hill li c'è sicuramente qualcosa.",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Complete = "'Sniff, Sniff'. Okey ha un retrogusto di legno marcio ma dovrebbe bastare per friggere questa fettina di pollo. Ti ringrazio!",
+	IGUI_SFQuest_Questyno_ChristopherDavis5_A = "Cerca a St.Bernard's Hill (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_ChristopherDavis5_A_Text = "Porta il burro a Christopher",
+	
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_Text = "La ricerca del sapore perduto di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Lore = "Christopher mi ha chiesto di recuperargli delle spezie dal minimarket a Rosewood Nord (MANCANO COORDINATE)6",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text = "Non so se è stato il burro o l'eccesso di sale ma ultimamente non riesco proprio più a sentire i sapori. Riusciresti a trovarmi qualche spezia bella forte? C'è un minimarket a Rosewood Nord, prova a vedere li!",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Complete = "Okay, dovrebbero andare bene, dimmi che te ne pare.",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_A = "Cerca a Rosewood (MANCANO COORDINATE)6",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_A_Text = "Prendi gli ingredienti per Christopher",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_B = "Base.Hotsauce",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_C = "Base.Pepper",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_D = "Base.FishRoe",
+	IGUI_SFQuest_Questyno_ChristopherDavis6_B_Text = "Torna da Christopher",
+	
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis7_Text = "La specialità di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Lore = "Christopher mi ha chiesto di portargli un pezzo di coniglio per prepararmi una sua specialità.",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text = "Oggi sono davvero di buon umore, se mi porti un pezzetto di coniglio ti preparerò un piatto che ti farà ricordare i motivi della prima causa di morte negli Stati uniti!",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Complete = "Eheheh, dimmi che te ne pare e non fare complimenti!",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis8_Text = "Un grembiule per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Lore = "Christopher mi ha chiesto di recupearere un Grembiule Nero. Perchè proprio nero? Maledetto, dove lo trovo?",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text = "Hei avrei bisogno di qualche grembiule nuovo, continuo a sporcarmi i vestiti, pensi di riuscire a trovarne uno per me? Va bene uno Nero, magari.",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Complete = "Grazie caro, questi sono per te.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis9_Text = "Delle bistecchiere per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Lore = "Christopher mi ha chiesto di portargli 2 Bistecchiere. Forse posso trovarle al mercato alla Tana...",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text = "L'energia non è gratis e mi ritrovo spesso a cucinare molte pietanze contemporaneamente per poi congelarle, l'unico problema è che mi mancano gli strumenti! Se riuscissi a trovarmi delle vettovaglie te ne sarei infinitamente grato.",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Complete = "Grazie mille! Spero bastino.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis10_Text = "Delle casseruole per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Lore = "Christopher mi ha chiesto di portargli 2 Casseruole. Devo controllare in qualche cucina.",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text = "L'energia è lusso oggi come oggi e mi ritrovo spesso a cucinare molte pietanze contemporaneamente per poi congelarle, l'unico problema è che mi macano gli strumenti! Se riuscissi a trovarmi delle Casseruole te ne sarei infinitamente grato.",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Complete = "Grazie mille! Spero bastino.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis11_Text = "Dei coltelli per Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Lore = "Christopher mi ha chiesto di portargli 4 Coltelli da cucina. Spero gli basterà.",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text = "Continuo a tagliare, tritare e sfilettare, sempre con la mia solita Mannaia. Non è che tante volte riesci a trovarmi un coltello affilato?",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Complete = "Bene, sembrano molto affilati, sono Miracle Blade?",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis12_Text = "La colazione di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Lore = "Christopher mi ha chiesto di prendergli un paio di Pacchi di cereali nel minimarket a Utopia (MANCANO COORDINATE)12.",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text = "Ogni pasto è importante, specialmente la terza colazione! Potrei chiederti di fare un salto al minimarket ad Utopia per recuperare dei cereali?",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Complete = "Uh, grazie. Ma sono senza sopresa! Peccato...",
+	IGUI_SFQuest_Questyno_ChristopherDavis12_A = "Cerca a Utopia (MANCANO COORDINATE)12",
+	IGUI_SFQuest_Questyno_ChristopherDavis12_A_Text = "Porta i cereali a Christopher",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis13_Text = "Christopher l'assetato",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Lore = "Christopher mi ha chiesto di portargli portargli una Lattina di birra. Maledetto ubriacone.",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text = "Ho sempre caldo, ho sempre sete. L'acqua non mi basta più. Non è che ti avanza una Birra?",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Complete = "Wow grazie, sarebbe bello anche del ghiaccio, ma penso che dovrò fare senza...",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis14_Text = "Christopher l'assetato",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Lore = "Christopher mi ha chiesto di portargli una Bottiglia d'acqua. Gli pesa molto il culo a quanto pare.",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_Text = "Christopher l'ingordo",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Lore = "Christopher mi ha chiesto di recuperare del cibo per lui nel magazzino di Orchiwood (MANCANO COORDINATE)15.",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text = "Salve amico mio! Che fai oggi? Che ne dici di recuperare tutto il cibo in scatola rimasto nel magazzino a Orchiwood?",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Complete = "Cavoli è più roba di quanto pensassi. Tieni pure una parte per il disturbo.",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_A = "Cerca a Orchiwood (MANCANO COORDINATE)15",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_A_Text = "Prendi il cibo per Christopher",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_B = "3 Base.CannedCornedBeef",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_C = "2 Base.Cereal",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_D = "2 Base.CannedChili",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_E = "3 Base.Lobster",
+	IGUI_SFQuest_Questyno_ChristopherDavis15_B_Text = "Torna da Christopher",
+	
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis16_Text = "L'affare di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Lore = "Christopher mi ha chiesto di recuperare del Lardo in cambio di un pò di Latte.  Dovrei trovare il lardo nella sua casa a Cherokee Lake (MANCANO COORDINATE)16.",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text = "Hei! Vieni qui! Ti propongo un affare. Io ti darò proteine e tu mi darai grasso saturo. Ci stai? Vai a recuperare il lardo che ho lasciato nella mia cucina a Cherokee Lake.",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Complete = "Mmmm, si è conservato molto bene vedo! Grazie ed ecco a te!",
+	IGUI_SFQuest_Questyno_ChristopherDavis16_A = "Cerca a Cherokee Lake (MANCANO COORDINATE)16",
+	IGUI_SFQuest_Questyno_ChristopherDavis16_A_Text = "Porta il lardo a Christopher",
+	
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis17_Text = "Burro in sconto di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Lore = "Christopher sembra a corto di grana ed è disposto a lasciarmi del burro per 35$.",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text = "Ultimamente fa molto caldo e le mie riserve di burro si stanno sciogliendo anche in frigo. Ne vuoi un po' per qualche spicciolo?",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Complete = "Bene, direi che hai appena fatto un affare!",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis18_Text = "Christopher Massari",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Lore = "Christopher mi ha chiesto di portargli andare a recupearere 4 uova per lui nel bosco ad Est da qui (MANCANO COORDINATE)18.",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text = "Ho in mente di preparare una bella torta, non è che potresti andare nel bosco a trovare delle uova per me? C'è un posto dove le troverai sicuramente, ma dovresti arrampicarti, altrimenti sarei andato io. Prova nel bosco ad Est, prosegui fino a quando non trovi una piccola radura.",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Complete = "Wow grazie, aspetta qua e non te ne pentirai.",
+	IGUI_SFQuest_Questyno_ChristopherDavis18_A = "Cerca nel bosco a Est (MANCANO COORDINATE)18",
+	IGUI_SFQuest_Questyno_ChristopherDavis18_A_Text = "Porta le uova a Christopher",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis19_Text = "Christopher galateo",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Lore = "Christopher mi ha chiesto di portargli 6 Cucchai. C'è una festa a cui non sono stato invitato?",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text = "Dicono che non è igenico usare le mani per mangiare. Tu che ne pensi? Tutti a lamentarsi ma nessuno che viene da me con una soluzione! Puoi fare qualcosa?",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Complete = "Beh, strano non ci abbia pensato nessuno prima di oggi. Grazie da parte di tutti, ecco a te.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis20_Text = "Il provino di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Lore = "Christopher mi ha chiesto di portargli un Saltato in padella. Spero gli piacerà.",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text = "Sempre più persone arrivano, sempre più affamate. Magari un giorno avrò bisogno di aiuto cuoco! Fammi vedere di cosa sei capace, ti andrebbe?",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Complete = "Mmmm difficile stupirmi con così pochi ingredienti. Credo tu debba ancora lavorare sulle quantità.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis21_Text = "Il provino di Christopher",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Lore = "Christopher mi ha chiesto di portargli 2 Pentole di zuppa. Spero gli piaceranno",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text = "Tutti si danno molto da fame e bruciano molte calorie, il cibo non basta mai. Magari un giorno avrò bisogno del tuo aiuto in cucina! Fammi vedere di cosa sei capace, ti andrebbe?",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Complete = "Mmmm difficile stupirmi con solo dell'acqua aromatizzata allo schifo. Ma cel'hai la lingua? *Versa a terra* Tieni riprendi pure la tua pentola.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis22_Text = "Christopher il lavapiatti",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Lore = "Christopher mi ha chiesto di portargli 2 Liquidi detergenti. Spero lo usi anche per quelle mani merdose che si ritrova.",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text = "Heila! Ho bisogno del tuo aiuto, non riesco a pulire le pentole con sola acqua sporca. Riusciresti a rimediarmi del sapone per i piatti?",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Complete = "Grazie di cuore, ultimamente ogni piatto aveva lo stesso sapore. Ecco a te!",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis23_Text = "Christopher grandi porzioni",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Lore = "Christopher mi ha chiesto di portargli una Bistecchiera per preparare un grande pranzo.",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text = "Un conto è cucinare per se stessi, un altro conto è cucinare per 40 persone. Se riuscissi a portarmi delle teglie per forno potrei velocizzare le preparazioni. Puoi aiutarmi?",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Complete = "Ottimo grazie, non so come farei senza di te! Questo per il disturbo.",
+
+	
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Title = "Christopher da West Point 10161,6627,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis24_Text = "Christopher galateo",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Lore = "Christopher mi ha chiesto di portargli 6 Forchette. Devo controllare in qualche cucina.",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text = "Il cibo assaporato con le mani ha tutto un altro sapore. Tu che ne pensi? Tutti a lamentarsi ma poi tutti che si leccano le dita, maledetti! Puoi fare qualcosa per questa gente?",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text_Declined = "Resto qui ad aspettarti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Complete = "Beh, sono proprio quelle che servivano. Grazie da parte di tutti, ecco a te.",
+
+--[[
+            *** Pamela Perez ***
+            Elenco:
+                intro. Parla con Pamela Perez per sbloccare le daily.
+				1. Recuperare farming.CarrotSeed;24 (100rep)
+				2. Recuperare farming.BroccoliSeed;24 (100rep + Base.Strewberrie)
+				3. Recuperare LogStacks3;2 (40rep + Base.DriedBlackBeans)
+				4. Recuperare Base.LogStacks4;2 (50rep + Base.MincedMeat)
+				5. Recuperare Base.SheetRope;40 (40rep)
+				6. Recuperare Base.SheetRope;60 (60rep)
+				7. Recuperare Base.ThreeBrench;20 (60rep)
+				8. Recuperare Base.Grasshopper;10 (70rep)
+				9. Recuperare Base.LemonGrass;10 (75rep + Base.ComfreyCataplasm)
+				10. Recuperare Base.BlackSage;10 (80rep)
+				11. Recuperare Base.NailsBox;2 (95rep + Base.Smallanimalmeat;2)
+				12. Recuperare Base.LogStacks2;5 (45rep)
+				13. Recuperare Base.LogStacks2;4 (40rep + Base.CommonMallow;10)
+				14. Recuperare Base.Twigs;50 (75rep)
+				15. Recuperare MushroomGeneric6,MushroomGeneric7 (50rep + Base.RiceVinegar)
+				16. Recuperare Base.AxeStone;4,Base.SpearCrafted;4,FlintKnife;4 (85rep)
+				17. Recuperare Base.ScrapMetal;4,Base.Plank (50rep + Base.PickAxe)
+				18. Recuperare RippedSheers;100 (70rep)
+				19. Recuperare Base.Doll parlando con (7901,8180,0) (50rep + Base.BerryBlack;2)
+				20. Recuperare Base.PotOfSoupRecipe (60rep + 20$ + Base.Pot;2)
+				21. Recuperare Base.Mattress;2 parlando con (10934,8492,0) (45rep)
+				22. Recuperare Base.AxeStone;8 (70rep)
+				23. Recuperare Base.HammerStone;8 (50rep + 15$)
+				24. Recuperare Base.Stone;20 (60rep)
+]]
+    IGUI_SFQuest_Questyno_PamelaPerez_Name = "Pamela Perez",
+
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title = "Pamela Perez",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text = "Parla con Pamela Perez per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
+
+	
+	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Text = "Semi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Carota. Dovrei trovarli nei campi agricoli.",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text = "Ho bisogno di qualche seme si rapanello, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Complete = "Grazie mille, quando saranno cresciuti ti chiamo!",
+
+	
+	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Text = "Semi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Broccoli. Dovrei trovarli nei campi agricoli.",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text = "Ho bisogno di qualche seme di fragola, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Complete = "Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte!",
+
+	
+	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Text = "Più ceppi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Lore = "Pamela mi ha chiesto di portarle 2 cataste da Tre ceppi. Dovrei trovarli nei campi agricoli.",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez3_Complete = "Grazie poggiali pure li. Questo è per il tuo aiuto.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Text = "Più ceppi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Lore = "Pamela mi ha chiesto di portarle 2 cataste da Quattro ceppi. Dovrei abbattere qualche albero con un'ascia.",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez4_Complete = "Grazie poggiali pure li. Questo è per il tuo aiuto.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez5_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Text = "Più corde di stracci per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Lore = "Pamela mi ha chiesto di portarle 40 Corde di stracci. Dovrei riuscire con qualche vestito che trovo su gli Zombie",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text = "Avremmo bisogno di un po' di corde, riusciresti a rimediarle da qualche vestito?",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez5_Complete = "Ottimo, grazie mille!",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Text = "Più corde di stracci per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Lore = "Pamela mi ha chiesto di portarle 60 Corde di stracci. Chissà cosa deve farci.",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text = "Avremmo bisogno di un po' di corde, riusciresti a rimediarle da qualche vestito?",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez6_Complete = "Ottimo, grazie mille!",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Text = "Più rami per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Lore = "Pamela mi ha chiesto di portarle 20 Rami. Dovrei buttare giù qualche cespuglio.",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text = "Riusciresti a procurarmi qualcosa per poter creare delle armi efficaci?",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez7_Complete = "Grazie mille, li affileremo a dovere.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Text = "Cavallette per farina",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Lore = "Pamela mi ha chiesto di portarle 10 cavallette. Dovrei trovarle nell'erba alta.",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text = "So che può sembrare strano ma in mancaza di farina, gli insetti sono un'ottima alternativa. Sono una grande fonte di proteine, per altro! Puoi procurarmi degli insetti per farne un po'?",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez8_Complete = "Ottimo, grazie mille!",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Text = "Citronella per medicinali",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Lore = "Pamela mi ha chiesto di portarle 10 Citronella. Devo fare un po' di foraggiamento.",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text = "Come te la cavi con le erbe? Sai che posso ricavare diversi medicinali da queste? Credi di poterne recuperare qualcuna per me?",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez9_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Text = "I medicinali di Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Lore = "Pamela mi ha chiesto di cercare 10 Salvia Mellifera. Vediamo se ne trovo qualcuna.",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text = "Come te la cavi con le erbe? Sai che posso ricavare diversi medicinali da queste? Credi di poterne recuperare qualcuna per me?",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez10_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Text = "Un pacco di chiodi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Lore = "Pamela mi ha chiesto di portarle 2 Scatola di chiodi. Le servirà per riparare il tetto della stalla.",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text = "Stiamo cercando di sistemarci. Purtroppo con gli stracci le strutture non sono molto resistenti. Riusciresti a rimediarci dei chiodi?",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez11_Complete = "Grazie mille. Questo per il disturbo.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Text = "Ceppi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Lore = "Pamela mi ha chiesto di portarle 5 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci.",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez12_Complete = "Grazie, ci mettiamo subito al lavoro.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Text = "Ceppi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Lore = "Pamela mi ha chiesto di portarle 4 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci.",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez13_Complete = "Grazie, ci mettiamo subito al lavoro. Queste sono per te.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Text = "Fuoco senza accendino",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Lore = "Pamela mi ha chiesto di portarle un Asse forata e un Ramo per insegnarmi ad accendere un fuoco da campo.",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text = "Hei ciao! Se mi recuperi un bel po' di rametti ti faccio vedere come possono essere utili per accendere un fuoco.",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Complete = "Grazie, guarda, basta sfregare in questo punto.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Text = "I funghi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela mi ha chiesto di recuperare due Fungo in particolare. Vediamo se li trovo nel bosco.",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text = "Riesci a recuperare questi tipi di funghi? Ti ricompenserò con un'ottima spezia!",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Complete = "Grazie, ci preparo subito un bello stufato.",
+	IGUI_SFQuest_Questyno_PamelaPerez15_A = "Fungo (MushroomGeneric6)",
+	IGUI_SFQuest_Questyno_PamelaPerez15_B = "Fungo (MushroomGeneric7)",
+	IGUI_SFQuest_Questyno_PamelaPerez15_A_Text = "Parla con Pamela",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Text = "Armi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Lore = "Pamela mi ha chiesto di costruire per lei 4 Asce di pietra, 4 Lance e 4 Coltelli di pietra.",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Begin_Text = "Hei, sembri una persona molto pratica, potresti darmi una mano e creare alcune armi per il mio gruppo?",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez16_Complete = "Wow, sembrano belle affilate! Grazie!",
+	IGUI_SFQuest_Questyno_PamelaPerez16_A = "4 Asce di pietra",
+	IGUI_SFQuest_Questyno_PamelaPerez16_B = "4 Lance",
+	IGUI_SFQuest_Questyno_PamelaPerez16_C = "4 Coltelli di pietra",
+	IGUI_SFQuest_Questyno_PamelaPerez16_A_Text = "Parla con Pamela",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Text = "Pamela la piccola fabbra",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Lore = "Pamela mi ha chiesto di portarle 4 Scarti metallici e 1 Asse. Dice che mi costruirà un'arma speciale.",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Begin_Text = "Se mi porti un po' di metallo e del legno ti costruirò un'arma molto efficace contro gli zombie. Credi di farcela?",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez17_Complete = "Ottimo, aspetta qui un secondo.",
+	IGUI_SFQuest_Questyno_PamelaPerez17_A = "4 Scarti metallici",
+	IGUI_SFQuest_Questyno_PamelaPerez17_B = "Asse",
+	IGUI_SFQuest_Questyno_PamelaPerez17_A_Text = "Parla con Pamela",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Text = "Più stracci per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Lore = "Pamela mi ha chiesto di portarle 100 stracci per pulire le sue pentole. Non farebbe prima con una spugna?",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text = "Salve! Ho bisogno del tuo aiuto, riusciresti a recuperarmi degli stracci?",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez18_Complete = "Bene, mi servivano per pulire tutte le mie vettovaglie.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Text = "La bambola di Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Lore = "Pamela mi ha chiesto di recuperare la Bambola che sua figlia ha perso quando sono andati a cercare funghi nel bosco a ovest (7901,8180,0).",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Begin_Text = "Potresti cercare qualcosa per me nel bosco a ovest? La mia bimba ha perso la sua bambola l'ultima volta che siamo andati a far funghi. La riconoscerai ha un vestitino azzurro e i capelli rossi.",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez19_Complete = "Grazie, sarà felicissima, questo per il disturbo.",
+	IGUI_SFQuest_Questyno_PamelaPerez19_A = "Cerca nel bosco (7901,8180,0)",
+	IGUI_SFQuest_Questyno_PamelaPerez19_A_Text = "Porta la Bambola a Pamela",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela l'affamata",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela mi ha chiesto di cucinarle 2 Pentola di Zuppa e di portargliele. Dice che mi ricompenserà.",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text = "Abbiamo fame, non c'è rimasto molto, ti avanza qualcosa per caso?",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Complete = "Grazie, te ne siamo infinitamente grati, ecco a te le pentole. Questi non si possono mangiare ma potrebbero farti comodo.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Text = "I materassi di Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Lore = "Pamela mi ha chiesto di recuperare dei Materassi che ha lasciato nel vecchio rifugio nel bosco (10934,8492,0).",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Begin_Text = "Comincia a fare freddo, dobbiamo isolarci, potresti andare nel nostro vecchio rifugio nel bosco e recuperare i nostri materassi?",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez21_Complete = "Grazie, magari mi passa questo mal di schiena.",
+	IGUI_SFQuest_Questyno_PamelaPerez21_A = "Cerca nel rifugio (10934,8492,0)",
+	IGUI_SFQuest_Questyno_PamelaPerez21_A_Text = "Porta i Materassi a Pamela",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Text = "Armi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Lore = "Pamela mi ha chiesto di recuperare 8 Asce di pietra. Sono a corto di armi, spero di poterle dare una mano.",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text = "Spero che potrai aiutarci nel procurarci qualche arma! Basta qualcosa di rudimentale.",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez22_Complete = "Grazie mille, comincio a buttare giù qualche albero!",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Text = "Armi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Lore = "Pamela mi ha chiesto di recuperare 8 Martelli di pietra. Sono a corto di armi, spero di poterle dare una mano.",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text = "Spero che potrai aiutarci nel procurarci qualche arma! Basta qualcosa di rudimentale",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez23_Complete = "Grazie mille, ora possiamo difenderci! Questi sono per te.",
+	
+	
+	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela da Westpoint 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Text = "Pietre su pietre",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Lore = "Pamela mi ha chiesto di recuperare 20 Pietre. Meglio fare un giro sull'asfalto.",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
+	
 
 --[[
                         *** Ezekiel Flynn ***
@@ -4371,7 +5256,4 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 <Base.CornedBeef>",
 	IGUI_SFQuest_Questyno_JohnBaker5_E = "<Dried Chick Peas>";
 	IGUI_SFQuest_Questyno_JohnBaker5_B_Text = "Parla con John",
-}
-
-
 }
