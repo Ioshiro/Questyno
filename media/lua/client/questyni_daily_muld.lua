@@ -1145,7 +1145,7 @@ local leeQuest11 = {
         guid = "Questyno_SusanLee11_A",
         text = "IGUI_SFQuest_Questyno_SusanLee11_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee11;additem;Moveable.location_community_medical_01_24;1"
+        oncompleted = "removeclickevent;EventoSusanLee11;additem;LabItems.ChSulfuricAcidCan;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee11_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1164,7 +1164,7 @@ local leeQuest11A = {
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee11_Lore" },
-    needsitem = "Moveable.location_community_medical_01_24;1", -- REQUIRE
+    needsitem = "LabItems.ChSulfuricAcidCan;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee11_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee11_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1330,7 +1330,7 @@ local leeQuest16 = {
         guid = "Questyno_SusanLee16_A",
         text = "IGUI_SFQuest_Questyno_SusanLee16_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee16;additem;PillsAntieDep;10"
+        oncompleted = "removeclickevent;EventoSusanLee16;additem;PillsAntiDep;10"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee16_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1344,12 +1344,12 @@ local leeQuest16A = {
     guid = "Questyno_SusanLee16_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardsitem = "PillsAntieDep;1", -- ITEM REWARD
+    awardsitem = "PillsAntiDep;1", -- ITEM REWARD
     awardstask = "Questyno_SusanLee17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee16_Lore" },
-    needsitem = "PillsAntieDep;10", -- REQUIRE
+    needsitem = "PillsAntiDep;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee16_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee16_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1828,7 +1828,7 @@ local scottQuest4 = {
     texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott4_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;10780x9885x0:EventoGeorgeScott4;anim:loot:time:50;updateobjective:Questyno_GeorgeScott4:1:Completed"
+    unlocks = "clickevent;7383x8285x0:EventoGeorgeScott4;anim:loot:time:50;updateobjective:Questyno_GeorgeScott4:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest4);
 
@@ -2069,7 +2069,7 @@ local scottQuest10B = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott10_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott10_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_B_Text",
-    texture = "ey",
+    texture = "media/textures/Item_GerogeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest10B);
@@ -2134,7 +2134,6 @@ local scottQuest12A = {
     guid = "Questyno_GeorgeScott12_A",
 
     awardstask = "Questyno_GeorgeScott12_B", -- TASK REWARD
-    awardstask = "Questyno_GeorgeScott12_C", -- TASK REWARD
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott12_Lore" },
     objectives = { {
@@ -2522,10 +2521,10 @@ table.insert(SFQuest_Database.QuestPool, scottQuest23);
 				3. Recuperare TrapCrate:30 (100rep + Spago)
 				4. Recuperare Base.TrapBox;15 (200rep + 30$)
 				5. Recuperare Base.DeadSquirrel;2 (80rep)
-				6. Recuperare Base.Bird;4 (200rep)
+				6. Recuperare Base.DeadBird;4 (200rep)
 				7. Recuperare Base.DeadRabbit;2 (80rep + DehydratedMeatStick;8)
 				8. Recuperare Moveables.camping_01_17 parlando con (11217,8963,0) (40rep + 50$)
-				9. Recuperare Base.Bird;2 (90rep + Base.BeefJerky)
+				9. Recuperare Base.DeadBird;2 (90rep + Base.BeefJerky)
 				10. Recuperare Base.DeadSquirrel;2 (50rep + 30$ + Base.BeefJerky;3)
 				11. Recuperare Base.TrapBox;6 (50rep + 30$)
 				12. Recuperare Base.TrapCrate;8 (60rep + 20$)
@@ -2595,7 +2594,7 @@ table.insert(SFQuest_Database.QuestPool,{
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.Twine;1", -- ITEM REWARD
     awardstask = "Questyno_SamuelYoung4", -- TODO: REMOVE WHEN TESTING IS DONE
-    needsitem = "TrapCrate;30", -- REQUIRE
+    needsitem = "TrapCrate;10", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung3_Lore" },
@@ -2644,7 +2643,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardstask = "Questyno_SamuelYoung7", -- TODO: REMOVE WHEN TESTING IS DONE
-    needsitem = "Bird;4", -- REQUIRE
+    needsitem = "DeadBird;4", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung6_Lore" },
@@ -2713,7 +2712,7 @@ table.insert(SFQuest_Database.QuestPool,{
     awardsrep = "LaResistenza;90", -- REP REWARD
     awardsitem = "Base.BeefJerky;2", -- ITEM REWARD
     awardstask = "Questyno_SamuelYoung10", -- TODO: REMOVE WHEN TESTING IS DONE
-    needsitem = "Bird;2", -- REQUIRE
+    needsitem = "DeadBird;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung9_Lore" },
@@ -3307,7 +3306,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardstask = "Questyno_XuMishura15", -- TODO: REMOVE WHEN TESTING IS DONE
-    needsitem = "Shellsuit_Black;1", -- REQUIRE
+    needsitem = "Jacket_Shellsuit_Black;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura14_Lore" },

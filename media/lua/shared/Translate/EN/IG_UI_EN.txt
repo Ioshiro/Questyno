@@ -1416,7 +1416,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EliaRima22_Complete = "Grazie, ne faremo buon uso.",
 	
 	IGUI_SFQuest_Questyno_EliaRima23_Title = "Elia della Tana 9330,8631,0",
-    IGUI_SFQuest_Questyno_EliaRima23_Text = "Un libro per la biblioteca 2",
+    IGUI_SFQuest_Questyno_EliaRima23_Text = "Un libro per la biblioteca",
     IGUI_SFQuest_Questyno_EliaRima23_Lore = "Elia mi ha chiesto di recuperare Trappole 1",
     IGUI_SFQuest_Questyno_EliaRima23_Begin_Text = "Cerca questo libro per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_EliaRima23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -1548,7 +1548,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_BobRepair9_A_Text = "Torna da Bob",
 	
 	IGUI_SFQuest_Questyno_BobRepair10_Title = "Bob della Tana 9340,8578,0",
-    IGUI_SFQuest_Questyno_BobRepair10_Text = ""Bob aggiusta motori,
+    IGUI_SFQuest_Questyno_BobRepair10_Text = ""Bob aggiusta motori",
     IGUI_SFQuest_Questyno_BobRepair10_Lore = "Bob mi ha chiesto di recuperare 2 Parti di ricambio per motore. Mi bastano degli Scarti Metallici e delle Parti elettroniche. Ovviamente anche un martello",
     IGUI_SFQuest_Questyno_BobRepair10_Begin_Text = "Si è fuso il motore della mia auto, ne ho assolutamente bisogno per spostarmi. Ti avanza qualche parte di ricambio per motore?",
     IGUI_SFQuest_Questyno_BobRepair10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -2113,7 +2113,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RosaChina17_Title = "Rosa della Tana 9270,8491,0",
     IGUI_SFQuest_Questyno_RosaChina17_Text = "Rosa la falegname",
-    IGUI_SFQuest_Questyno_RosaChina17_Lore = "Rosa mi ha chiesto di portargli 2 rami e mi farà vedere di cosa è capace. Speriamo non si ferisca o mi toccherà trovarle anche delle core, dio boia.",
+    IGUI_SFQuest_Questyno_RosaChina17_Lore = "Rosa mi ha chiesto di portargli 2 rami e mi farà vedere di cosa è capace. Speriamo non si ferisca o mi toccherà trovarle anche delle cure, dio boia.",
     IGUI_SFQuest_Questyno_RosaChina17_Begin_Text = "Heila! Volevo ringraziarti per tutti i favori che ci stai facendo. Recupera un paio di rami e torna da me!",
     IGUI_SFQuest_Questyno_RosaChina17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_RosaChina17_Begin_Text_Declined = "Spero troverai tempo.",
@@ -2147,9 +2147,9 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RosaChina20_Complete = "Grazie, te ne siamo infinitamente grati, ecco a te la pentola. Questi non si possono mangiare ma potrebbero farti comodo.",
 	
 	IGUI_SFQuest_Questyno_RosaChina21_Title = "Rosa della Tana 9270,8491,0",
-    IGUI_SFQuest_Questyno_RosaChina21_Text = "Il fieno per Rosa",
-    IGUI_SFQuest_Questyno_RosaChina21_Lore = "Rosa mi ha chiesto di recuperare del fieno nel loro vecchio rifugio nel bosco (8314,8902,0). Sarà pesante, meglio andare con la Carriola.",
-    IGUI_SFQuest_Questyno_RosaChina21_Begin_Text = "Comincia a fare freddo, dobbiamo isolarci, potresti andare nel nostro vecchio tugurio nel bosco e recuperare il fieno che trovi?",
+    IGUI_SFQuest_Questyno_RosaChina21_Text = "La Zappa di Rosa",
+    IGUI_SFQuest_Questyno_RosaChina21_Lore = "Rosa mi ha chiesto di recuperare la sua zappa nel loro vecchio rifugio nel bosco (8314,8902,0)..",
+    IGUI_SFQuest_Questyno_RosaChina21_Begin_Text = "Ho bisogno di un attrezzo migliore per fare dei solchi in terra, vai al vecchio tugurio nel bosco e recuperare la mia vecchia zappa? ",
     IGUI_SFQuest_Questyno_RosaChina21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_RosaChina21_Begin_Text_Declined = "Spero troverai tempo.",
     IGUI_SFQuest_Questyno_RosaChina21_Complete = "Grazie, grazie di cuore.",
@@ -2795,14 +2795,14 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_SusanLee10_A_Text = "Porta il sangue a Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee11_Title = "Dr. Susan da Muldarugh 10831,9073,0",
-    IGUI_SFQuest_Questyno_SusanLee11_Text = "Più sangue per Susan",
-    IGUI_SFQuest_Questyno_SusanLee11_Lore = "La dr. Susan mi ha chiesto di recuperare una sacca di sangue nella clinca di Willbore (5033,10038,0). Spero di trovarla.",
-    IGUI_SFQuest_Questyno_SusanLee11_Begin_Text = "Tutte queste persone non si cureranno da sole! Ti prego di cercare all'ospedale di Willbore una sacca di sangue.",
+    IGUI_SFQuest_Questyno_SusanLee11_Text = "L'acido rosso",
+    IGUI_SFQuest_Questyno_SusanLee11_Lore = "La dr. Susan mi ha chiesto di recuperare una Tanica di Acido Rossa nella clinca di Willbore (5033,10038,0). Spero di trovarla.",
+    IGUI_SFQuest_Questyno_SusanLee11_Begin_Text = "Tutte queste persone non si cureranno da sole! Ti prego di cercare all'ospedale di Willbore una Tanica di Acido Rossa.",
     IGUI_SFQuest_Questyno_SusanLee11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SusanLee11_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee11_Complete = "Grazie, ci tornerà molto utile!",
 	IGUI_SFQuest_Questyno_SusanLee11_A = "Cerca a Willbore (5033,10038,0)",
-	IGUI_SFQuest_Questyno_SusanLee11_A_Text = "Porta il sangue a Susan",
+	IGUI_SFQuest_Questyno_SusanLee11_A_Text = "Porta l'acido a Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee12_Title = "Dr. Susan da Muldarugh 10831,9073,0",
     IGUI_SFQuest_Questyno_SusanLee12_Text = "Gli strumenti del mestiere",
@@ -2992,7 +2992,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GeorgeScott3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_GeorgeScott3_Begin_Text_Declined = "Non sai cosa ti perdi!",
     IGUI_SFQuest_Questyno_GeorgeScott3_Complete = "Grazie! come mi sta?",
-	IGUI_SFQuest_Questyno_GeorgeScott3_A = "Cerca a Muldraugh (10780,9885,9)",
+	IGUI_SFQuest_Questyno_GeorgeScott3_A = "Cerca a Muldraugh (10780,9885,0)",
 	IGUI_SFQuest_Questyno_GeorgeScott3_A_Text = "Porta la maschera a George",
 	
 	IGUI_SFQuest_Questyno_GeorgeScott4_Title = "George da Muldarugh 10830,9078,0",
@@ -3557,7 +3557,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_XuMishura12_Title = "Xu da Muldraugh 10844,9074,0",
     IGUI_SFQuest_Questyno_XuMishura12_Text = "Una giacca per Xu",
-    IGUI_SFQuest_Questyno_XuMishura12_Lore = "Xu mi ha chiesto di portargli una Giacca di pelle. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura12_Lore = "Xu mi ha chiesto di portargli una Giacca di pelle corta. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura12_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
     IGUI_SFQuest_Questyno_XuMishura12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_XuMishura12_Begin_Text_Declined = "Spero ci ripenserai",

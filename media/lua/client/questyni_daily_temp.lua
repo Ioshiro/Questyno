@@ -783,8 +783,8 @@ table.insert(SFQuest_Database.QuestPool, pozzoQuest24);
 				14. Recuperare Base.Twigs;20 (30rep)
 				15. Recuperare Base.HammerStone;4,Base.AxeStone;2 (60rep)
 				16. Recuperare Base.AxeStone;2,SpearCrafted;2,FlintKnife;2 (50rep)
-				17. Recuperare Base.ThreeBrench;2 (30rep + Base.WoodenLance)
-				18. Recuperare Base.ThreeBrench,Base.SharpedStone (25rep + Base.WoodenLance)
+				17. Recuperare Base.TreeBranch;2 (30rep + Base.WoodenLance)
+				18. Recuperare Base.TreeBranch,Base.SharpedStone (25rep + Base.WoodenLance)
 				19. Recuperare MushroomGeneric3 (250rep)
 				20. Recuperare Pentola di Base.PotOfSoupRecipe (35rep + 20$ + Pentola)
 				21. Recuperare Moveables.vegetation_farm_01_16 parlando con (8314,8902,0) (35rep)
@@ -940,22 +940,22 @@ local chinaQuest8 = {
         text = "IGUI_SFQuest_Questyno_RosaChina8_A",
         icon = "media/textures/Item_Grasshopper",
         hidden = false,
-        needsitem = "Base.Grasshopper;5",
-        oncompleted = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Base.Grasshopper;5"
+        needsitem = "Grasshopper;5",
+        onobtained = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Grasshopper;5"
     }, { 
         guid = "Questyno_RosaChina8_B",
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
         icon = "media/textures/Item_Pillbug",
         hidden = false,
-        needsitem = "Base.Pillbug;5",
-        oncompleted = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Base.Pillbug;5"
+        needsitem = "Pillbug;5",
+        onobtained = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Pillbug;5"
     }, {
         guid = "Questyno_RosaChina8_C",
         text = "IGUI_SFQuest_Questyno_RosaChina8_C",
         icon = "media/textures/Item_Cockroach",
         hidden = false,
-        needsitem = "Base.Cockroach;5",
-        oncompleted = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Base.Cockroach;5"
+        needsitem = "Cockroach;5",
+        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;5"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina8_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -986,19 +986,19 @@ local chinaQuest9 = {
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina9_Lore" },
     objectives = { {
-        guid = "Questyno_RosaChina8_A",
-        text = "IGUI_SFQuest_Questyno_RosaChina8_A",
+        guid = "Questyno_RosaChina9_A",
+        text = "IGUI_SFQuest_Questyno_RosaChina9_A",
         icon = "media/textures/Item_Grasshopper",
         hidden = false,
         needsitem = "Base.LemonGrass;3",
-        oncompleted = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Base.LemonGrass;3"
+        onobtained = "updateobjective;Questyno_RosaChina9;1;Completed;removeitem;Base.LemonGrass;3"
     }, { 
-        guid = "Questyno_RosaChina8_B",
-        text = "IGUI_SFQuest_Questyno_RosaChina8_B",
+        guid = "Questyno_RosaChina9_B",
+        text = "IGUI_SFQuest_Questyno_RosaChina9_B",
         icon = "media/textures/Item_Pillbug",
         hidden = false,
         needsitem = "Base.BlackSage;2",
-        oncompleted = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Base.BlackSage;2"
+        onobtained = "updateobjective;Questyno_RosaChina9;2;Completed;removeitem;Base.BlackSage;2"
     }}, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina9_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1121,15 +1121,15 @@ local chinaQuest15 = {
         text = "IGUI_SFQuest_Questyno_RosaChina15_A",
         icon = "media/textures/Item_HammerStone",
         hidden = false,
-        needsitem = "Base.HammerStone;4",
-        oncompleted = "updateobjective;Questyno_RosaChina15;1;Completed;removeitem;Base.HammerStone;4"
+        needsitem = "HammerStone;4",
+        onobtained = "updateobjective;Questyno_RosaChina15;1;Completed;removeitem;HammerStone;4"
     }, { 
         guid = "Questyno_RosaChina15_B",
         text = "IGUI_SFQuest_Questyno_RosaChina15_B",
         icon = "media/textures/Item_AxeStone",
         hidden = false,
-        needsitem = "Base.AxeStone;2",
-        oncompleted = "updateobjective;Questyno_RosaChina15;2;Completed;removeitem;Base.AxeStone;2"
+        needsitem = "AxeStone;2",
+        onobtained = "updateobjective;Questyno_RosaChina15;2;Completed;removeitem;AxeStone;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina15_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1164,22 +1164,22 @@ local chinaQuest16 = {
         text = "IGUI_SFQuest_Questyno_RosaChina16_A",
         icon = "media/textures/Item_AxeStone",
         hidden = false,
-        needsitem = "Base.AxeStone;2",
-        oncompleted = "updateobjective;Questyno_RosaChina16;1;Completed;removeitem;Base.AxeStone;2"
+        needsitem = "AxeStone;2",
+        onobtained = "updateobjective;Questyno_RosaChina16;1;Completed;removeitem;AxeStone;2"
     }, { 
         guid = "Questyno_RosaChina16_B",
         text = "IGUI_SFQuest_Questyno_RosaChina16_B",
         icon = "media/textures/Item_SpearCrafted",
         hidden = false,
-        needsitem = "Base.SpearCrafted;2",
-        oncompleted = "updateobjective;Questyno_RosaChina16;2;Completed;removeitem;Base.SpearCrafted;2"
+        needsitem = "SpearCrafted;2",
+        onobtained = "updateobjective;Questyno_RosaChina16;2;Completed;removeitem;SpearCrafted;2"
     }, {
         guid = "Questyno_RosaChina16_C",
         text = "IGUI_SFQuest_Questyno_RosaChina16_C",
         icon = "media/textures/Item_FlintKnife",
         hidden = false,
-        needsitem = "Base.FlintKnife;2",
-        oncompleted = "updateobjective;Questyno_RosaChina16;3;Completed;removeitem;Base.FlintKnife;2"
+        needsitem = "FlintKnife;2",
+        onobtained = "updateobjective;Questyno_RosaChina16;3;Completed;removeitem;FlintKnife;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina16_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1212,7 +1212,7 @@ local chinaQuest17 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina17_Lore" },
-    needsitem = "Base.ThreeBrench;2", -- REQUIRE
+    needsitem = "Base.TreeBranch;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina17_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina17_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1230,17 +1230,17 @@ local chinaQuest18 = {
     objectives = { {
         guid = "Questyno_RosaChina18_A",
         text = "IGUI_SFQuest_Questyno_RosaChina18_A",
-        icon = "media/textures/Item_ThreeBrench",
+        icon = "media/textures/Item_TreeBranch",
         hidden = false,
-        needsitem = "Base.ThreeBrench;1",
-        oncompleted = "updateobjective;Questyno_RosaChina18;1;Completed;removeitem;Base.ThreeBrench;1"
+        needsitem = "Base.TreeBranch;1",
+        onobtained = "updateobjective;Questyno_RosaChina18;1;Completed;removeitem;Base.TreeBranch;1"
     }, { 
         guid = "Questyno_RosaChina18_B",
         text = "IGUI_SFQuest_Questyno_RosaChina18_B",
         icon = "media/textures/Item_SharpStone",
         hidden = false,
         needsitem = "Base.SharpedStone;1",
-        oncompleted = "updateobjective;Questyno_RosaChina18;2;Completed;removeitem;Base.SharpedStone;1"
+        onobtained = "updateobjective;Questyno_RosaChina18;2;Completed;removeitem;Base.SharpedStone;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina18_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1268,12 +1268,12 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest18A);
 local chinaQuest19 = {
     guid = "Questyno_RosaChina19",
 
-    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardstask = "Questyno_RosaChina20", -- TODO: REMOVE WHEN TEST IS DONE
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina19_Lore" },
-    needsitem = "MushroomGeneric3;1", -- REQUIRE
+    needsitem = "tag#Mushroom;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina19_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1362,7 +1362,7 @@ local chinaQuest23 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina23_Lore" },
-    needsitem = "Base.ComfreyCataplas;1", -- REQUIRE
+    needsitem = "Base.ComfreyCataplasm;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina23_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina23_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1398,14 +1398,14 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest24);
 				4. Recuperare Base.LogStacks4;2 (40rep + piccolo pezzo di carne)
 				5. Recuperare Base.SheetRope;20 (25rep)
 				6. Recuperare Base.SheetRope;40 (40rep)
-				7. Recuperare Base.ThreeBrench;10 (35rep)
+				7. Recuperare Base.TreeBranch;10 (35rep)
 				8. Recuperare Base.Grasshopper;5 (40rep)
 				9. Recuperare Base.LemonGrass;5 (50rep + Base.PlantainCataplasm)
 				10. Recuperare Base.BlackSage;5 (50rep)
 				11. Recuperare Base.NailsBox (60rep + Base.Smallanimalmeat;2)
 				12. Recuperare Base.LogStacks2;4 (30rep)
 				13. Recuperare Base.LogStacks2;3 (20rep + Base.CommonMallow;5)
-				14. Recuperare Base.PercedWood,Base.ThreeBrench (25rep)
+				14. Recuperare Base.PercedWood,Base.TreeBranch (25rep)
 				15. Recuperare MushroomGeneric6,MushroomGeneric7 (250rep + Base.OilOlive)
 				16. Recuperare Base.AxeStone;2,Base.SpearCrafted;2,FlintKnife;2 (50rep)
 				17. Recuperare Base.ScrapMetal;2,Base.Plank (30rep + Base.GardenFork)
@@ -1454,12 +1454,12 @@ local emilyTerryQuest2 = {
     guid = "Questyno_EmilyTerry2",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Base.Strawberry",  -- ITEM REWARD
+    awardsitem = "farming.Strewberrie",  -- ITEM REWARD
     awardstask = "Questyno_EmilyTerry3", -- TODO: REMOVE WHEN TEST IS DONE
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry2_Lore" },
-    needsitem = "farming.StrawberrySeed;12", -- REQUIRE
+    needsitem = "farming.StrewberrieSeed;12", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry2_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry2_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1546,7 +1546,7 @@ local emilyTerryQuest7 = {
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry7_Lore" },
-    needsitem = "Base.ThreeBrench;10", -- REQUIRE
+    needsitem = "Base.TreeBranch;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry7_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry7_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1672,14 +1672,14 @@ local emilyTerryQuest14 = {
         icon = "media/textures/Item_PercedWood",
         hidden = false,
         needsitem = "Base.PercedWood;1",
-        oncompleted = "updateobjective;Questyno_EmilyTerry14;1;Completed;removeitem;Base.PercedWood;1"
+        onobtained = "updateobjective;Questyno_EmilyTerry14;1;Completed;removeitem;Base.PercedWood;1"
     }, { 
         guid = "Questyno_EmilyTerry14_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry14_B",
-        icon = "media/textures/Item_ThreeBrench",
+        icon = "media/textures/Item_TreeBranch",
         hidden = false,
-        needsitem = "Base.ThreeBrench;1",
-        oncompleted = "updateobjective;Questyno_EmilyTerry14;2;Completed;removeitem;Base.ThreeBrench;1"
+        needsitem = "Base.TreeBranch;1",
+        onobtained = "updateobjective;Questyno_EmilyTerry14;2;Completed;removeitem;Base.TreeBranch;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry14_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1703,49 +1703,22 @@ local emilyTerryQuest14A = {
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest14A);
 
-local emilyTerryQuest15 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EmilyTerry15",
 
-    awardstask = "Questyno_EmilyTerry15_A", -- TASK REWARD
+    awardstask = "Questyno_EmilyTerry16", -- TASK REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsitem = "Base.OilOlive",  -- ITEM REWARD
     dailycode = "Questyno_EmilyTerry",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry15_Lore" },
-    objectives = { {
-        guid = "Questyno_EmilyTerry15_A",
-        text = "IGUI_SFQuest_Questyno_EmilyTerry15_A",
-        icon = "media/textures/Item_MushroomGeneric6",
-        hidden = false,
-        needsitem = "MushroomGeneric6;1",
-        oncompleted = "updateobjective;Questyno_EmilyTerry15;1;Completed;removeitem;MushroomGeneric6;1"
-    }, { 
-        guid = "Questyno_EmilyTerry15_B",
-        text = "IGUI_SFQuest_Questyno_EmilyTerry15_B",
-        icon = "media/textures/Item_MushroomGeneric7",
-        hidden = false,
-        needsitem = "MushroomGeneric7;1",
-        oncompleted = "updateobjective;Questyno_EmilyTerry15;2;Completed;removeitem;MushroomGeneric7;1"
-    } }, -- REQUIRE
+    needsitem = "Tag#Mushroom;2",
+    onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry15_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry15_Text",
     texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry15_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, emilyTerryQuest15);
-
-local emilyTerryQuest15A = {
-    guid = "Questyno_EmilyTerry15_A",
-
-    awardsrep = "LaResistenza;250", -- REP REWARD
-    awardsitem = "Base.OilOlive",  -- ITEM REWARD
-    awardstask = "Questyno_EmilyTerry16", -- TODO: REMOVE WHEN TEST IS DONE
-    completesound = "levelup",
-    dailycode = "Questyno_EmilyTerry",
-    lore = { "IGUI_SFQuest_Questyno_EmilyTerry15_Lore" },
-    unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry15_Complete",
-    text = "IGUI_SFQuest_Questyno_EmilyTerry15_A_Text",
-    texture = "media/textures/Item_EmilyTerry.png",
-    title = "IGUI_SFQuest_Questyno_EmilyTerry15_Title",
-}
-table.insert(SFQuest_Database.QuestPool, emilyTerryQuest15A);
+})
 
 local emilyTerryQuest16 = {
     guid = "Questyno_EmilyTerry16",
