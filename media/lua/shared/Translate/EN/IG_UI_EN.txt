@@ -4219,8 +4219,8 @@ IGUI_EN = {
 				4. Recuperare Base.BookFirstAid2,Base.BookMechanic3,Base.BookFirstAid1,Base.BookFishing1 (150rep)
 				5. Recuperare BaseBookFarming2,Base.BookFirstAid3,Base.BookFishing2,Base.BookFirstAid5 (130rep)
 				6. Recuperare Base.BookFarming4,Base.BookTrapping4,Base.BookForaging4,Base.BookForaging5 (180rep)
-				7. Recuperare  
-				8. Recuperare  
+				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (MANCANO COORDINATE) (100rep + 25$)
+				8. Recupero  Base.BookMechanic1,Base.BookCarpentry5,Base.BookFarming5,Base.BookFirstAid5,Base.BookMechanic5,Base.BookMetalWelding5 a (MANCANO COORDINATE) (70rep + 30$) 
 				9. Recuperare Base.TVMagazine;5 (60rep)
 				10. Recuperare Base.BookFarming1,Base.BookFarming2,Base.BookFarming3,Base.BookFarming4,Base.BookFarming5 (250rep)
 				11. Recuperare Base.BookElectrician1,Base.BookElectrician2,Base.BookElectrician3,Base.BookElectrician4,Base.BookElectrician5 (220rep)
@@ -4228,7 +4228,7 @@ IGUI_EN = {
 				13. Recuperare Base.BookFishing3,Base.BookMetalWelding2,Base.BookMetalWelding3,Base.BookCarpentry4,Base.BookTrapping2 (140rep)
 				14. Recuperare Base.BookFishing4,Base.BookMetalWelding1,Base.BookMetalWelding2,Base.BookCarpentry2,Base.BookTrapping5 (150rep)
 				15. Recuperare Base.BookForaging4,Base.BookForaging3,Base.BookMechanic1,Base.BookCarpentry2,BaseBookFarming5 (130rep)
-				16. Recuperare 
+				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (MANCANO COORDINATE) (80rep) 
 				17. Recuperare Base.FishingMag1,Base.FishingMag2 parlando con (8090,11511,0) (75rep)
 				18. Recuperare Base.ElectronicsMag1,Base.ElectronicsMag2,Base.ElectronicsMag3 parlando con (10627,9973,0) (70rep + 30$)
 				19. Recuperare Base.SheetPaper2;4,Base.Crayons;2 (100rep + 20$)
@@ -4330,23 +4330,23 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis7_Title = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Text = "Jeffrey da Westpoint 10150,6620,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare in qualche libreria o al mercato.",
-    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare alla libreria di Muldraugh (MANCANO COORDINATE)",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla libreria di Muldraugh, vai li e portameli!",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Declined = "Peccato...",
-    IGUI_SFQuest_Questyno_JeffreyLewis7_Complete = "",
-	IGUI_SFQuest_Questyno_JeffreyLewis7_A = "Cerca a ",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Complete = "Grazie era proprio quello che mi serviva!",
+	IGUI_SFQuest_Questyno_JeffreyLewis7_A = "Cerca a Mulrdaugh",
 	IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text = "Porta  a Jeffrey",
 
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis8_Title = "",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Text = "Jeffrey da Westpoint 10150,6620,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis8_Lore = "",
-    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text = "",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 1, Carpenteria 5, Coltivazione 5, Pronto soccorso 5, Meccanica 5, Lavorazioni metalli 5. Dovrei andare a controllare alla libreria di Muldraugh (MANCANO COORDINATE)",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla libreria di Muldraugh, vai li e portameli!",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Declined = "Peccato...",
-    IGUI_SFQuest_Questyno_JeffreyLewis8_Complete = "",
-	IGUI_SFQuest_Questyno_JeffreyLewis8_A = "Cerca a ",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Complete = "Grazie erano proprio quelli che stavo cercando. ",
+	IGUI_SFQuest_Questyno_JeffreyLewis8_A = "Cerca a Muldraugh",
 	IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text = "Porta  a Jeffrey",
 	
 	
@@ -4415,7 +4415,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Jeffrey da Westpoint 10150,6620,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5 Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Declined = "Peccato...",
@@ -4430,7 +4430,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Jeffrey da Westpoint 10150,6620,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis15_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Ispezione 3, Meccanica 1, Carpenteria 2, Coltivazione 5 Dovrei andare a controllare in qualche libreria o al mercato.",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Ispezione 3, Meccanica 1, Carpenteria 2, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Declined = "Peccato...",
@@ -4443,14 +4443,14 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis15_A_Text = "Parla con Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis16_Title = "",
-    IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Jeffrey da Westpoint 10150,6620,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis16_Lore = "",
-    IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text = "",
+	IGUI_SFQuest_Questyno_JeffreyLewis16_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Il prezzo della civiltà",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di cacciatori 1, Rivista di cacciatori 2. Dovrei andare a controllare alla libreria a Pitstop (MANCANO COORDINATE)",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text = "Dobbiamo tramandare le nostre conoscienze per rimanere in vita, cercami questa rivista speciale, la troverai nella libreria a Pitstop.",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Declined = "Peccato...",
-    IGUI_SFQuest_Questyno_JeffreyLewis16_Complete = "",
-	IGUI_SFQuest_Questyno_JeffreyLewis16_A = "Cerca a ",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Complete = "Ottimo, speriamo che presto altre persone sapranno come procurarsi del cibo.",
+	IGUI_SFQuest_Questyno_JeffreyLewis16_A = "Cerca a Pitstop",
 	IGUI_SFQuest_Questyno_JeffreyLewis16_A_Text = "Porta  a Jeffrey",
 	
 	

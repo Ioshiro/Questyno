@@ -1644,3 +1644,104 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_R
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso23", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso23", text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Complete"})
+
+--[[
+            *** Jeffrey Lewis ***
+            Elenco:
+                intro. Parla con Jeffrey Lewis per sbloccare le daily.
+				1. Recuperare Base.BookCarpentry1,Base.BookCarpentry2,Base.BookCooking1,Base.BookElectrician2 (200rep)
+				2. Recuperare Base.BookCarpentry2,Base.BookCooking3,Base.BookForaging1,Base.BookForaging3 (160rep)
+				3. Recuperare Base.BookMechanic2,Base.BookMetalWelding1,Base.BookMechanic4 (150rep)
+				4. Recuperare Base.BookFirstAid2,Base.BookMechanic3,Base.BookFirstAid1,Base.BookFishing1 (150rep)
+				5. Recuperare BaseBookFarming2,Base.BookFirstAid3,Base.BookFishing2,Base.BookFirstAid5 (130rep)
+				6. Recuperare Base.BookFarming4,Base.BookTrapping4,Base.BookForaging4,Base.BookForaging5 (180rep)
+				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (MANCANO COORDINATE) (100rep + 25$)
+				8. Recupero  Base.BookMechanic1,Base.BookCarpentry5,Base.BookFarming5,Base.BookFirstAid5,Base.BookMechanic5,Base.BookMetalWelding5 a (MANCANO COORDINATE) (70rep + 30$) 
+				9. Recuperare Base.TVMagazine;5 (60rep)
+				10. Recuperare Base.BookFarming1,Base.BookFarming2,Base.BookFarming3,Base.BookFarming4,Base.BookFarming5 (250rep)
+				11. Recuperare Base.BookElectrician1,Base.BookElectrician2,Base.BookElectrician3,Base.BookElectrician4,Base.BookElectrician5 (220rep)
+				12. Recuperare Base.TVMagazine;10 (200rep)
+				13. Recuperare Base.BookFishing3,Base.BookMetalWelding2,Base.BookMetalWelding3,Base.BookCarpentry4,Base.BookTrapping2 (140rep)
+				14. Recuperare Base.BookFishing4,Base.BookMetalWelding1,Base.BookMetalWelding2,Base.BookCarpentry2,Base.BookTrapping5 (150rep)
+				15. Recuperare Base.BookForaging4,Base.BookForaging3,Base.BookMechanic1,Base.BookCarpentry2,BaseBookFarming5 (130rep)
+				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (MANCANO COORDINATE) (80rep) 
+				17. Recuperare Base.FishingMag1,Base.FishingMag2 parlando con (8090,11511,0) (75rep)
+				18. Recuperare Base.ElectronicsMag1,Base.ElectronicsMag2,Base.ElectronicsMag3 parlando con (10627,9973,0) (70rep + 30$)
+				19. Recuperare Base.SheetPaper2;4,Base.Crayons;2 (100rep + 20$)
+				20. Recuperare Base.Magazine;5 (120rep)
+				21. Recuperare Base.MagazineWordsearch1,Base.MagazineWordsearch2,Base.MagazineWordsearch3,MagazineCrossword1,MagazineCrossword2,MagazineCrossword3 (200rep)
+				22. Recuperare Base.BookCarpentry5 (40rep)
+				23. Recuperare Base.BookTrapping3 (50rep)
+]]
+
+-- intro. parla con Jeffrey Lewis per sbloccare le daily
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis_Intro", text = "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis1", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis1_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis2", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis2_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis3", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis3_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis4", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis4_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis5", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis5_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis6", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis6_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis7", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis7_B", text = "IGUI_SFQuest_Questyno_JeffreyLewis7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis8", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis8_B", text = "IGUI_SFQuest_Questyno_JeffreyLewis8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis9", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis9", text = "IGUI_SFQuest_Questyno_JeffreyLewis9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis10", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis10_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis11", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis11_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis12", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis12", text = "IGUI_SFQuest_Questyno_JeffreyLewis12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis13", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis13_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis14", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis14_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis15", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis15_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis16", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis16_B", text = "IGUI_SFQuest_Questyno_JeffreyLewis16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis17", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis17_B", text = "IGUI_SFQuest_Questyno_JeffreyLewis17_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis18", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis18_B", text = "IGUI_SFQuest_Questyno_JeffreyLewis18_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis19", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis19_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis20", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis20", text = "IGUI_SFQuest_Questyno_JeffreyLewis20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis21", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis21_A", text = "IGUI_SFQuest_Questyno_JeffreyLewis21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis22", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis22", text = "IGUI_SFQuest_Questyno_JeffreyLewis22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis23", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis23", text = "IGUI_SFQuest_Questyno_JeffreyLewis23_Complete"})

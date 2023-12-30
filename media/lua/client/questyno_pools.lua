@@ -443,6 +443,31 @@ Questyno = {
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso21_Begin;Questyno_RafaelPrezioso21",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso22_Begin;Questyno_RafaelPrezioso22",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso23_Begin;Questyno_RafaelPrezioso23",
+	},
+	JeffreyLewis = {
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis1_Begin;Questyno_JeffreyLewis1",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis2_Begin;Questyno_JeffreyLewis2",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis3_Begin;Questyno_JeffreyLewis3",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis4_Begin;Questyno_JeffreyLewis4",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis5_Begin;Questyno_JeffreyLewis5",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis6_Begin;Questyno_JeffreyLewis6",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis7_Begin;Questyno_JeffreyLewis7",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis8_Begin;Questyno_JeffreyLewis8",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis9_Begin;Questyno_JeffreyLewis9",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis10_Begin;Questyno_JeffreyLewis10",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis11_Begin;Questyno_JeffreyLewis11",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis12_Begin;Questyno_JeffreyLewis12",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis13_Begin;Questyno_JeffreyLewis13",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis14_Begin;Questyno_JeffreyLewis14",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis15_Begin;Questyno_JeffreyLewis15",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis16_Begin;Questyno_JeffreyLewis16",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis17_Begin;Questyno_JeffreyLewis17",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis18_Begin;Questyno_JeffreyLewis18",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis19_Begin;Questyno_JeffreyLewis19",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis20_Begin;Questyno_JeffreyLewis20",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis21_Begin;Questyno_JeffreyLewis21",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis22_Begin;Questyno_JeffreyLewis22",
+		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis23_Begin;Questyno_JeffreyLewis23",
 	}
 }
 
@@ -567,6 +592,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_JeffreyLewis",
+	condition = "notmaxedwithcode;Questyno_JeffreyLewis;1",
+	commands = "randomcodedworldfrompool;Questyno_JeffreyLewis;Questyno;JeffreyLewis",
+	days = 0,
+	frequency = 1
+});
 
 
 -- quest introduttive daily
@@ -587,6 +619,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_SamuelYoung_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_XuMishura_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RafaelPrezioso_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JeffreyLewis_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -610,6 +643,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamuelYoung" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_XuMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DavidTurner" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RafaelPrezioso" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })
