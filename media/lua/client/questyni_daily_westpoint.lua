@@ -2505,6 +2505,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title",
+    unique = true,
     unlockedsound = "QuestUnlocked",
     unlocks = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis_Intro_Complete",
 });
@@ -2926,6 +2927,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text",
     texture = "media/textures/Item_PamelaPerez.png",
     title = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title",
+    unique = true,
     unlockedsound = "QuestUnlocked",
     unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez_Intro_Complete",
 });

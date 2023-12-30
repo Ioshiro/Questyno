@@ -4256,7 +4256,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis1_B = "Carpenteria 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis1_C = "Cucina 1",
 	IGUI_SFQuest_Questyno_JeffreyLewis1_D = "Elettricista 2",
-	IGUI_SFQuest_Questyno_JeffreyLewis1_B_Text = "Parla con Jeffrey",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_A_Text = "Parla con Jeffrey",
 
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis2_Title = "Il prezzo della cultura",
@@ -4270,7 +4270,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis2_B = "Cucina 3",
 	IGUI_SFQuest_Questyno_JeffreyLewis2_C = "Ispezione 1",
 	IGUI_SFQuest_Questyno_JeffreyLewis2_D = "Ispezione 3",
-	IGUI_SFQuest_Questyno_JeffreyLewis2_B_Text = "Parla con Jeffrey",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_A_Text = "Parla con Jeffrey",
 
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis3_Title = "Il prezzo della cultura",
@@ -4513,7 +4513,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis21_D = "Rivista di ricerca delle parole Arancione",
 	IGUI_SFQuest_Questyno_JeffreyLewis21_E = "Rivista di ricerca delle parole Viola",
 	IGUI_SFQuest_Questyno_JeffreyLewis21_F = "Rivista di ricerca delle parole Azzurra",
-	IGUI_SFQuest_Questyno_JeffreyLewis21_A_Text = "Porta  a Jeffrey",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_A_Text = "Porta le riviste a Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis22_Title = "Un libro per la biblioteca",
     IGUI_SFQuest_Questyno_JeffreyLewis22_Text = "Jeffrey da Westpoint 10150,6620,0",

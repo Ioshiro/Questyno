@@ -305,7 +305,7 @@ SFQuest_Database.MannequinPool["10839x9071x0"] = {
                         2. Rafael Prezioso (10152,6622,1)
                         3. Jeffrey Lewis (10150,6620,0)
                         4. Cristopher Davis (10161,6627,0)
-                        5. Pamela Perez 10115,662,0
+                        5. Pamela Perez 10115,6622,0
                         6. Sam Fisher (10153,6571,0)
 ]]
 
@@ -344,13 +344,13 @@ SFQuest_Database.MannequinPool["10156x6611x0"] = {
 -- Jeffrey Lewis 10150,6620,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_JeffreyLewis",
-    square = "10150x6620x0",
+    square = "10156x6612x0",
     name = "IGUI_SFQuest_Questyno_JeffreyLewis_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_JeffreyLewis.png",
 })
 
-SFQuest_Database.MannequinPool["10150x6620x0"] = {
+SFQuest_Database.MannequinPool["10156x6612x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
@@ -373,16 +373,16 @@ SFQuest_Database.MannequinPool["10161x6627x0"] = {
     outfit = "TraderBandit"
 }
 
--- Pamela Perez 10115,662,0
+-- Pamela Perez 10115,6622,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_PamelaPerez",
-    square = "10115x662x0",
+    square = "10115x6622x0",
     name = "IGUI_SFQuest_Questyno_PamelaPerez_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_PamelaPerez.png",
 })
 
-SFQuest_Database.MannequinPool["10115x662x0"] = {
+SFQuest_Database.MannequinPool["10115x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
