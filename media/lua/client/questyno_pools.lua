@@ -495,6 +495,32 @@ Questyno = {
 		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis23_Begin;Questyno_CristopherDavis23",
 		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis24_Begin;Questyno_CristopherDavis24",
 	},
+	PamelaPerez = {
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez1_Begin;Questyno_PamelaPerez1",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez2_Begin;Questyno_PamelaPerez2",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez3_Begin;Questyno_PamelaPerez3",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez4_Begin;Questyno_PamelaPerez4",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez5_Begin;Questyno_PamelaPerez5",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez6_Begin;Questyno_PamelaPerez6",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez7_Begin;Questyno_PamelaPerez7",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez8_Begin;Questyno_PamelaPerez8",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez9_Begin;Questyno_PamelaPerez9",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez10_Begin;Questyno_PamelaPerez10",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez11_Begin;Questyno_PamelaPerez11",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez12_Begin;Questyno_PamelaPerez12",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez13_Begin;Questyno_PamelaPerez13",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez14_Begin;Questyno_PamelaPerez14",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez15_Begin;Questyno_PamelaPerez15",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez16_Begin;Questyno_PamelaPerez16",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez17_Begin;Questyno_PamelaPerez17",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez18_Begin;Questyno_PamelaPerez18",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez19_Begin;Questyno_PamelaPerez19",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez20_Begin;Questyno_PamelaPerez20",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez21_Begin;Questyno_PamelaPerez21",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez22_Begin;Questyno_PamelaPerez22",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez23_Begin;Questyno_PamelaPerez23",
+		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez24_Begin;Questyno_PamelaPerez24",
+	}
 }
 
 SFQuest_Database.RandomEventPool.Questyno = Questyno;
@@ -632,6 +658,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_PamelaPerez",
+	condition = "notmaxedwithcode;Questyno_PamelaPerez;1",
+	commands = "randomcodedworldfrompool;Questyno_PamelaPerez;Questyno;PamelaPerez",
+	days = 0,
+	frequency = 1
+});
 
 
 -- quest introduttive daily
@@ -654,6 +687,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RafaelPrezioso_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JeffreyLewis_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_CristopherDavis_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_PamelaPerez_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -679,6 +713,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DavidTurner" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RafaelPrezioso" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CristopherDavis" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_PamelaPerez" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

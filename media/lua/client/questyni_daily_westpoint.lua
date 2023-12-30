@@ -1381,6 +1381,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_RafaelPrezioso21",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
+    lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso20_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso20_A_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso20_Title",
@@ -1408,6 +1409,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_RafaelPrezioso23",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
+    lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso22_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Title",
@@ -1421,6 +1423,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_RafaelPrezioso1",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
+    lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso23_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Title",
@@ -1511,6 +1514,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis2",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis1_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis1_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis1_Title",
@@ -1559,6 +1563,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis3",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis2_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis2_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis2_Title",
@@ -1601,6 +1606,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis4",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis3_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis3_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis3_Title",
@@ -1649,6 +1655,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis5",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis4_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis4_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis4_Title",
@@ -1697,6 +1704,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis6",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis5_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis5_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis5_Title",
@@ -1745,6 +1753,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis9",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis6_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis6_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis6_Title",
@@ -1794,6 +1803,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis8",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis7_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
@@ -1855,6 +1865,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis9",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis8_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis8_Title",
@@ -1923,6 +1934,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis11",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis10_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis10_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis10_Title",
@@ -1977,6 +1989,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis12",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis11_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis11_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis11_Title",
@@ -2045,6 +2058,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis14",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis13_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis13_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis13_Title",
@@ -2099,6 +2113,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis15",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis14_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis14_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis14_Title",
@@ -2153,6 +2168,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis17",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis15_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis15_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis15_Title",
@@ -2189,6 +2205,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis17",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis16_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis16_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
@@ -2241,6 +2258,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis18",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis17_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis17_B_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis17_Title",
@@ -2300,6 +2318,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis19",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis18_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis18_B_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis18_Title",
@@ -2337,6 +2356,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis20",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis19_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis19_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis19_Title",
@@ -2410,6 +2430,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_JeffreyLewis22",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis21_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis21_A_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis21_Title",
@@ -2866,7 +2887,500 @@ table.insert(SFQuest_Database.QuestPool, {
     unlockedsound = "QuestUnlocked"
 });
 
+--[[
+            *** Pamela Perez ***
+            Elenco:
+                intro. Parla con Pamela Perez per sbloccare le daily.
+				1. Recuperare farming.CarrotSeed;24 (100rep)
+				2. Recuperare farming.BroccoliSeed;24 (100rep + Base.Strewberrie)
+				3. Recuperare LogStacks3;2 (40rep + Base.DriedBlackBeans)
+				4. Recuperare Base.LogStacks4;2 (50rep + Base.MincedMeat)
+				5. Recuperare Base.SheetRope;40 (40rep)
+				6. Recuperare Base.SheetRope;60 (60rep)
+				7. Recuperare Base.TreeBranch;20 (60rep)
+				8. Recuperare Base.Grasshopper;10 (70rep)
+				9. Recuperare Base.LemonGrass;10 (75rep + Base.ComfreyCataplasm)
+				10. Recuperare Base.BlackSage;10 (80rep)
+				11. Recuperare Base.NailsBox;2 (95rep + Base.Smallanimalmeat;2)
+				12. Recuperare Base.LogStacks2;5 (45rep)
+				13. Recuperare Base.LogStacks2;4 (40rep + Base.CommonMallow;10)
+				14. Recuperare Base.Twigs;50 (75rep)
+				15. Recuperare MushroomGeneric6,MushroomGeneric7 (50rep + Base.RiceVinegar)
+				16. Recuperare Base.AxeStone;4,Base.SpearCrafted;4,FlintKnife;4 (85rep)
+				17. Recuperare Base.ScrapMetal;4,Base.Plank (50rep + Base.PickAxe)
+				18. Recuperare RippedSheers;100 (70rep)
+				19. Recuperare Base.Doll parlando con (7901,8180,0) (50rep + Base.BerryBlack;2)
+				20. Recuperare Base.PotOfSoupRecipe (60rep + 20$ + Base.Pot;2)
+				21. Recuperare Base.Mattress;2 parlando con (10934,8492,0) (45rep)
+				22. Recuperare Base.AxeStone;8 (70rep)
+				23. Recuperare Base.HammerStone;8 (50rep + 15$)
+				24. Recuperare Base.Stone;20 (60rep)
+]]
 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez_Intro",
 
+    awardstask = "Questyno_PamelaPerez1",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez_Intro_Complete",
+});
 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez1",
+    awardsrep = "LaResistenza;100",
+    awardstask = "Questyno_PamelaPerez2",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez1_Lore" },
+    needsitem = "farming.CarrotSeed;24",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez1_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez1_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez1_Title",
+    unlockedsound = "QuestUnlocked"
+});
 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez2",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Base.Strewberrie;1",
+    awardstask = "Questyno_PamelaPerez3",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez2_Lore" },
+    needsitem = "farming.BroccoliSeed;24",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez2_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez2_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez2_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez3",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.DriedBlackBeans;1",
+    awardstask = "Questyno_PamelaPerez4",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez3_Lore" },
+    needsitem = "LogStacks3;2",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez3_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez3_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez3_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez4",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.MincedMeat;1",
+    awardstask = "Questyno_PamelaPerez5",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez4_Lore" },
+    needsitem = "Base.LogStacks4;2",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez4_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez4_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez4_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez5",
+    awardsrep = "LaResistenza;40",
+    awardstask = "Questyno_PamelaPerez6",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez5_Lore" },
+    needsitem = "Base.SheetRope;40",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez5_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez5_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez5_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez6",
+    awardsrep = "LaResistenza;60",
+    awardstask = "Questyno_PamelaPerez7",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez6_Lore" },
+    needsitem = "Base.SheetRope;60",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez6_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez6_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez6_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez7",
+    awardsrep = "LaResistenza;60",
+    awardstask = "Questyno_PamelaPerez8",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez7_Lore" },
+    needsitem = "Base.TreeBranch;20",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez7_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez7_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez7_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez8",
+    awardsrep = "LaResistenza;70",
+    awardstask = "Questyno_PamelaPerez9",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez8_Lore" },
+    needsitem = "Base.Grasshopper;10",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez8_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez8_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez8_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez9",
+    awardsrep = "LaResistenza;75",
+    awardsitem = "Base.ComfreyCataplasm;1",
+    awardstask = "Questyno_PamelaPerez10",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez9_Lore" },
+    needsitem = "Base.LemonGrass;10",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez9_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez9_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez9_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez10",
+    awardsrep = "LaResistenza;80",
+    awardstask = "Questyno_PamelaPerez11",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez10_Lore" },
+    needsitem = "Base.BlackSage;10",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez10_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez10_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez10_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez11",
+    awardsrep = "LaResistenza;95",
+    awardsitem = "Base.Smallanimalmeat;2",
+    awardstask = "Questyno_PamelaPerez12",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez11_Lore" },
+    needsitem = "Base.NailsBox;2",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez11_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez11_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez11_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez12",
+    awardsrep = "LaResistenza;45",
+    awardstask = "Questyno_PamelaPerez13",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez12_Lore" },
+    needsitem = "Base.LogStacks2;5",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez12_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez12_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez12_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez13",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.CommonMallow;10",
+    awardstask = "Questyno_PamelaPerez14",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez13_Lore" },
+    needsitem = "Base.LogStacks2;4",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez13_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez13_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez13_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez14",
+    awardsrep = "LaResistenza;75",
+    awardstask = "Questyno_PamelaPerez15",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez14_Lore" },
+    needsitem = "Base.Twigs;50",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez14_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez14_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez14_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez15",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.RiceVinegar;1",
+    awardstask = "Questyno_PamelaPerez16",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez15_Lore" },
+    needsitem = "Tag#Mushroom;2",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez15_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez15_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez15_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez16",
+    awardstask = "Questyno_PamelaPerez16_A",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez16_Lore" },
+    objectives = { {
+        guid = "Questyno_PamelaPerez16_A",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez16_A",
+        hidden = false,
+        needsitem = "Base.AxeStone;4",
+        onobtained = "updateobjective;Questyno_PamelaPerez16:1:Completed;removeitem;Base.AxeStone;4",
+    }, {
+        guid = "Questyno_PamelaPerez16_B",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez16_B",
+        hidden = false,
+        needsitem = "Base.SpearCrafted;4",
+        onobtained = "updateobjective;Questyno_PamelaPerez16:2:Completed;removeitem;Base.SpearCrafted;4",
+    }, {
+        guid = "Questyno_PamelaPerez16_C",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez16_C",
+        hidden = false,
+        needsitem = "FlintKnife;4",
+        onobtained = "updateobjective;Questyno_PamelaPerez16:3:Completed;removeitem;FlintKnife;4",
+    } },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez16_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez16_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez16_A",
+    awardsrep = "LaResistenza;85",
+    awardstask = "Questyno_PamelaPerez17",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez16_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez16_A_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez16_Title",
+    unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez16_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez17",
+    awardstask = "Questyno_PamelaPerez17_A",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez17_Lore" },
+    objectives = { {
+        guid = "Questyno_PamelaPerez17_A",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez17_A",
+        hidden = false,
+        needsitem = "Base.ScrapMetal;4",
+        onobtained = "updateobjective;Questyno_PamelaPerez17:1:Completed;removeitem;Base.ScrapMetal;4",
+    }, {
+        guid = "Questyno_PamelaPerez17_B",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez17_B",
+        hidden = false,
+        needsitem = "Base.Plank;1",
+        onobtained = "updateobjective;Questyno_PamelaPerez17:2:Completed;removeitem;Base.Plank;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez17_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez17_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez17_A",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.PickAxe;1",
+    awardstask = "Questyno_PamelaPerez18",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez17_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez17_A_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez17_Title",
+    unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez17_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez18",
+    awardsrep = "LaResistenza;70",
+    awardstask = "Questyno_PamelaPerez19",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez18_Lore" },
+    needsitem = "RippedSheers;100",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez18_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez18_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez18_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez19",
+    awardstask = "Questyno_PamelaPerez19_A",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez19_Lore" },
+    objectives = { {
+        guid = "Questyno_PamelaPerez19_A",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez19_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoPamelaPerez19;additem;Base.Doll;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez19_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez19_Title",
+    unlocks = "clickevent;7901x8180x0:EventoPamelaPerez19;time:50:anim:loot;updateobjective:Questyno_PamelaPerez19:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez19_A",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.BerryBlack;2",
+    awardstask = "Questyno_PamelaPerez20",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez19_A_Lore" },
+    needsitem = "Base.Doll;1",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez19_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez19_A_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez19_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez20",
+    awardstask = "Questyno_PamelaPerez21",
+    awardsrep = "LaResistenza;60",
+    awardsitem = "Money;20;Pot;2",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez20_Lore" },
+    needsitem = "Base.PotOfSoupRecipe;1",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez20_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez20_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez20_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez21",
+    awardstask = "Questyno_PamelaPerez21_A",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez21_Lore" },
+    objectives = { {
+        guid = "Questyno_PamelaPerez21_A",
+        text = "IGUI_SFQuest_Questyno_PamelaPerez21_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoPamelaPerez21;additem;Base.Mattress;2"
+    } },
+    text = "IGUI_SFQuest_Questyno_PamelaPerez21_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez21_Title",
+    unlocks = "clickevent;10934x8492x0:EventoPamelaPerez21;time:50:anim:loot;updateobjective:Questyno_PamelaPerez21:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez21_A",
+    awardsrep = "LaResistenza;45",
+    awardstask = "Questyno_PamelaPerez22",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez21_A_Lore" },
+    needsitem = "Base.Mattress;2",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez21_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez21_A_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez21_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez22",
+    awardstask = "Questyno_PamelaPerez23",
+    awardsrep = "LaResistenza;70",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez22_Lore" },
+    needsitem = "Base.AxeStone;8",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez22_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez22_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez22_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez23",
+    awardstask = "Questyno_PamelaPerez24",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Money;15",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez23_Lore" },
+    needsitem = "Base.HammerStone;8",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez23_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez23_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez23_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez24",
+    awardstask = "Questyno_PamelaPerez1",
+    awardsrep = "LaResistenza;60",
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez24_Lore" },
+    needsitem = "Base.Stone;20",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez24_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez24_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez24_Title",
+    unlockedsound = "QuestUnlocked"
+});
