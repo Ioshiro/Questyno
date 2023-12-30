@@ -184,7 +184,6 @@ local pozzoQuest6A = {
     guid = "Questyno_MikePozzo6A",
 
     awardstask = "Questyno_MikePozzo6_B", -- TASK REWARD
-    completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo6_Lore" },
     objectives = { {
@@ -193,26 +192,25 @@ local pozzoQuest6A = {
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Hotsauce;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo6;1;Completed;removeitem;Base.Hotsauce;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6;1;Completed;removeitem;Base.Hotsauce;1"
     }, {
         guid = "Questyno_MikePozzo6_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_C",
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Pepper;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo6;2;Completed;removeitem;Base.Pepper;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6;2;Completed;removeitem;Base.Pepper;1"
     }, {
         guid = "Questyno_MikePozzo6_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_D",
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.FishRoe;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo6;3;Completed;removeitem;Base.FishRoe;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6;3;Completed;removeitem;Base.FishRoe;1"
     } }, -- REQUIRE
-    text = "IGUI_SFQuest_Questyno_MikePozzo6_Text",
+    text = "IGUI_SFQuest_Questyno_MikePozzo6_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
-    unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, pozzoQuest6A);
 
@@ -368,21 +366,21 @@ local pozzoQuest11 = {
         icon = "media/textures/Item_KitchenKnife",
         hidden = false,
         needsitem = "Base.KitchenKnife;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo11;1;Completed;removeitem;Base.KitchenKnife;1"
+        onobtained = "updateobjective;Questyno_MikePozzo11;1;Completed;removeitem;Base.KitchenKnife;1"
     }, {
         guid = "Questyno_MikePozzo11_B",
         text = "IGUI_SFQuest_Questyno_MikePozzo11_B",
         icon = "media/textures/Item_BreadKnife",
         hidden = false,
         needsitem = "Base.BreadKnife;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo11;2;Completed;removeitem;Base.BreadKnife;1"
+        onobtained = "updateobjective;Questyno_MikePozzo11;2;Completed;removeitem;Base.BreadKnife;1"
     }, {
         guid = "Questyno_MikePozzo11_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo11_C",
         icon = "media/textures/Item_ButcherKnife",
         hidden = false,
         needsitem = "Base.ButterKnife;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo11;3;Completed;removeitem;Base.ButterKnife;1"
+        onobtained = "updateobjective;Questyno_MikePozzo11;3;Completed;removeitem;Base.ButterKnife;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo11_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -417,7 +415,6 @@ local pozzoQuest12 = {
         text = "IGUI_SFQuest_Questyno_MikePozzo12_A",
         icon = "media/textures/Item_Sugar",
         hidden = false,
-        needsitem = "Base.Cereal;2",
         oncompleted = "removeclickevent;EventoMikePozzo12;additem;Cereal;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo12_Text",
@@ -513,28 +510,28 @@ local pozzoQuest15A = {
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedCornedBeef;2",
-        oncompleted = "updateobjective;Questyno_MikePozzo15;1;Completed;removeitem;Base.CannedCornedBeef;2"
+        onobtained = "updateobjective;Questyno_MikePozzo15;1;Completed;removeitem;Base.CannedCornedBeef;2"
     }, {
         guid = "Questyno_MikePozzo15_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_C",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.TVDinner;3",
-        oncompleted = "updateobjective;Questyno_MikePozzo15;2;Completed;removeitem;Base.TVDinner;3"
+        onobtained = "updateobjective;Questyno_MikePozzo15;2;Completed;removeitem;Base.TVDinner;3"
     }, {
         guid = "Questyno_MikePozzo15_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_D",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedChili;3",
-        oncompleted = "updateobjective;Questyno_MikePozzo15;3;Completed;removeitem;Base.CannedChili;3"
+        onobtained = "updateobjective;Questyno_MikePozzo15;3;Completed;removeitem;Base.CannedChili;3"
     }, {
         guid = "Questyno_MikePozzo15_E",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_E",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CandyPackage;1",
-        oncompleted = "updateobjective;Questyno_MikePozzo15;4;Completed;removeitem;Base.CandyPackage;1"
+        onobtained = "updateobjective;Questyno_MikePozzo15;4;Completed;removeitem;Base.CandyPackage;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo15_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -1669,17 +1666,15 @@ local emilyTerryQuest14 = {
     objectives = { {
         guid = "Questyno_EmilyTerry14_A",
         text = "IGUI_SFQuest_Questyno_EmilyTerry14_A",
-        icon = "media/textures/Item_PercedWood",
         hidden = false,
-        needsitem = "Base.PercedWood;1",
-        onobtained = "updateobjective;Questyno_EmilyTerry14;1;Completed;removeitem;Base.PercedWood;1"
+        needsitem = "PercedWood;1",
+        onobtained = "updateobjective;Questyno_EmilyTerry14;1;Completed;removeitem;PercedWood;1"
     }, { 
         guid = "Questyno_EmilyTerry14_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry14_B",
-        icon = "media/textures/Item_TreeBranch",
         hidden = false,
-        needsitem = "Base.TreeBranch;1",
-        onobtained = "updateobjective;Questyno_EmilyTerry14;2;Completed;removeitem;Base.TreeBranch;1"
+        needsitem = "TreeBranch;1",
+        onobtained = "updateobjective;Questyno_EmilyTerry14;2;Completed;removeitem;TreeBranch;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry14_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1731,22 +1726,22 @@ local emilyTerryQuest16 = {
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_A",
         icon = "media/textures/Item_AxeStone",
         hidden = false,
-        needsitem = "Base.AxeStone;2",
-        oncompleted = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;Base.AxeStone;2"
+        needsitem = "AxeStone;2",
+        onobtained = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;AxeStone;2"
     }, { 
         guid = "Questyno_EmilyTerry16_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_B",
         icon = "media/textures/Item_SpearCrafted",
         hidden = false,
-        needsitem = "Base.SpearCrafted;2",
-        oncompleted = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;Base.SpearCrafted;2"
+        needsitem = "SpearCrafted;2",
+        onobtained = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;SpearCrafted;2"
     }, { 
         guid = "Questyno_EmilyTerry16_C",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_C",
         icon = "media/textures/Item_FlintKnife",
         hidden = false,
         needsitem = "FlintKnife;2",
-        oncompleted = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;2"
+        onobtained = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry16_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1782,14 +1777,14 @@ local emilyTerryQuest17 = {
         icon = "media/textures/Item_ScrapMetal",
         hidden = false,
         needsitem = "Base.ScrapMetal;2",
-        oncompleted = "updateobjective;Questyno_EmilyTerry17;1;Completed;removeitem;Base.ScrapMetal;2"
+        onobtained = "updateobjective;Questyno_EmilyTerry17;1;Completed;removeitem;Base.ScrapMetal;2"
     }, { 
         guid = "Questyno_EmilyTerry17_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry17_B",
         icon = "media/textures/Item_Plank",
         hidden = false,
         needsitem = "Base.Plank;1",
-        oncompleted = "updateobjective;Questyno_EmilyTerry17;2;Completed;removeitem;Base.Plank;1"
+        onobtained = "updateobjective;Questyno_EmilyTerry17;2;Completed;removeitem;Base.Plank;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry17_Text",
     texture = "media/textures/Item_EmilyTerry.png",

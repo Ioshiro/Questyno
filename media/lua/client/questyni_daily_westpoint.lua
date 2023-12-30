@@ -1394,7 +1394,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso21_Lore" },
-    needsitem = "Base.Neackle_DogTag;2",
+    needsitem = "Base.Necklace_DogTag;2",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso21_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",

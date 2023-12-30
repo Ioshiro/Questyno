@@ -1123,7 +1123,7 @@ local stellaQuest11 = {
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella11_Title",
     unlocks =
-    "clickevent;9289x10065x0:EventoAngelicaStella11;time:50:anim:loot;updateobjective:Questyno_AngelicaStella11:1:Completed",
+    "clickevent;9288x10064x0:EventoAngelicaStella11;time:50:anim:loot;updateobjective:Questyno_AngelicaStella11:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest11);
@@ -1679,7 +1679,7 @@ local thomasQuest7 = {
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest7);
 
---				8. Recuperare Moveables.camping_01_17 parlando con (11064,10640,0) (40rep + 50$)
+--				8. Recuperare base.Wire parlando con (11064,10640,0) (40rep + 50$)
 
 local thomasQuest8 = {
     guid = "Questyno_HeatherThomas8",
@@ -1691,7 +1691,7 @@ local thomasQuest8 = {
         guid = "Questyno_HeatherThomas8_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas8_A",
         hidden = false,
-        oncompleted = "additem;Moveables.camping_01_17;1;removeclickevent;EventoHeatherThomas8"
+        oncompleted = "additem;Wire;1;removeclickevent;EventoHeatherThomas8"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas8_Text",
     texture = "media/textures/Item_HeatherThomas.png",

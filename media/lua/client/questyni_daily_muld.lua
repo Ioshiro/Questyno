@@ -1734,7 +1734,7 @@ local scottIntro = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_GeorgeScott;Questyno;GeorgeScott",
     text = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     unique = true,
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title",
@@ -1753,7 +1753,7 @@ local scottQuest1 = {
     needsitem = "Wine2;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott1_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott1_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott1_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1770,7 +1770,7 @@ local scottQuest2 = {
     needsitem = "Jacket_Chef;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott2_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott2_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1789,7 +1789,7 @@ local scottQuest3 = {
         oncompleted = "removeclickevent;EventoGeorgeScott3;additem;Hat_HockeyMask;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott3_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott3_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10780x9885x0:EventoGeorgeScott3;anim:loot:time:50;updateobjective:Questyno_GeorgeScott3:1:Completed"
@@ -1807,7 +1807,7 @@ local scottQuest3A = {
     needsitem = "Hat_HockeyMask;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott3_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott3_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott3_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest3A);
@@ -1825,7 +1825,7 @@ local scottQuest4 = {
         oncompleted = "removeclickevent;EventoGeorgeScott4;additem;Earbuds;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott4_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott4_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7383x8285x0:EventoGeorgeScott4;anim:loot:time:50;updateobjective:Questyno_GeorgeScott4:1:Completed"
@@ -1843,7 +1843,7 @@ local scottQuest4A = {
     needsitem = "Earbuds;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott4_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott4_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott4_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest4A);
@@ -1861,7 +1861,7 @@ local scottQuest5 = {
         oncompleted = "removeclickevent;EventoGeorgeScott5;additem;Dart;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott5_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott5_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10211x8251x0:EventoGeorgeScott5;anim:loot:time:50;updateobjective:Questyno_GeorgeScott5:1:Completed"
@@ -1879,7 +1879,7 @@ local scottQuest5A = {
     needsitem = "Dart;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott5_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott5_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott5_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest5A);
@@ -1896,7 +1896,7 @@ local scottQuest6 = {
     needsitem = "ToiletPaper;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott6_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott6_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott6_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1915,7 +1915,7 @@ local scottQuest7 = {
         oncompleted = "removeclickevent;EventoGeorgeScott7;additem;Cube;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott7_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott7_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;11128x6856x0:EventoGeorgeScott7;anim:loot:time:50;updateobjective:Questyno_GeorgeScott7:1:Completed"
@@ -1934,7 +1934,7 @@ local scottQuest7A = {
     needsitem = "Cube;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott7_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott7_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott7_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest7A);
@@ -1950,7 +1950,7 @@ local scottQuest8 = {
     needsitem = "CardDeck;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott8_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott8_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott8_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -1974,7 +1974,7 @@ local scottQuest9 = {
         oncompleted = "removeclickevent;EventoGeorgeScott9A;additem;VideoGame;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott9_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott9_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;10339x8175x0:EventoGeorgeScott9;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:1:Completed"
@@ -1992,7 +1992,7 @@ local scottQuest9A = {
     needsitem = "VideoGame;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott9_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott9_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott9_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest9A);
@@ -2020,7 +2020,7 @@ local scottQuest10 = {
         oncompleted = "removeclickevent;EventoGeorgeScott10B;additem;GuitarAcoustic;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8506x7685x0:EventoGeorgeScott10;anim:loot:time:50;updateobjective:Questyno_GeorgeScott10:1:Completed"
@@ -2053,7 +2053,7 @@ local scottQuest10A = {
         onobtained = "updateobjective;Questyno_GeorgeScott10_A;3:Completed;removeitem;GuitarAcoustic;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest10A);
@@ -2069,7 +2069,7 @@ local scottQuest10B = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott10_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott10_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_B_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest10B);
@@ -2087,7 +2087,7 @@ local scottQuest11 = {
         oncompleted = "removeclickevent;EventoGeorgeScott11;additem;Basketball;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott11_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott11_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;12566x9951x0:EventoGeorgeScott11;anim:loot:time:50;updateobjective:Questyno_GeorgeScott11:1:Completed"
@@ -2105,7 +2105,7 @@ local scottQuest11A = {
     needsitem = "Basketball;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott11_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott11_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott11_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest11A);
@@ -2123,7 +2123,7 @@ local scottQuest12 = {
         oncompleted = "removeclickevent;EventoGeorgeScott12;additem;ChessWhite;1;additem;ChessBlack;1;additem;CheckerBoard;1",
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;12338x9647x1:EventoGeorgeScott12;anim:loot:time:50;updateobjective:Questyno_GeorgeScott12:1:Completed"
@@ -2156,7 +2156,7 @@ local scottQuest12A = {
         onobtained = "updateobjective;Questyno_GeorgeScott12_A;3:Completed;removeitem;CheckerBoard;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest12A);
@@ -2172,7 +2172,7 @@ local scottQuest12B = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott12_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott12_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_B_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott12_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest12B);
@@ -2189,7 +2189,7 @@ local scottQuest13 = {
     needsitem = "Toothpaste;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott13_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott13_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott13_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2208,7 +2208,7 @@ local scottQuest14 = {
         oncompleted = "removeclickevent;EventoGeorgeScott14;additem;Hat_Cowboy;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott14_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott14_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8159x9611x0:EventoGeorgeScott14;anim:loot:time:50;updateobjective:Questyno_GeorgeScott14:1:Completed"
@@ -2227,7 +2227,7 @@ local scottQuest14A = {
     needsitem = "Hat_Cowboy;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott14_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott14_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest14A);
@@ -2258,7 +2258,7 @@ local scottQuest15 = {
         onobtained = "updateobjective;Questyno_GeorgeScott15_A;3:Completed;removeitem;Skirt_Long;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott15_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2275,7 +2275,7 @@ local scottQuest15A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott15_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott15_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott15_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest15A);
@@ -2293,7 +2293,7 @@ local scottQuest16 = {
         oncompleted = "removeclickevent;EventoGeorgeScott16;additem;Moveables.DylansElectronics01_46;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott16_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;9747x10589x0:EventoGeorgeScott16;anim:loot:time:50;updateobjective:Questyno_GeorgeScott16:1:Completed"
@@ -2312,7 +2312,7 @@ local scottQuest16A = {
     needsitem = "Moveables.DylansElectronics01_46;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott16_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott16_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest16A);
@@ -2329,7 +2329,7 @@ local scottQuest17 = {
     needsitem = "Base.Disc_Retail;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott17_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott17_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott17_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2356,7 +2356,7 @@ local scottQuest18 = {
         onobtained = "updateobjective;Questyno_GeorgeScott18_A;2:Completed;removeitem;Base.Battery;2"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott18_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott18_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2373,7 +2373,7 @@ local scottQuest18A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott18_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott18_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott18_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest18A);
@@ -2392,7 +2392,7 @@ local scottQuest19 = {
         oncompleted = "removeclickevent;EventoGeorgeScott19;additem;Base.Hat_Bandana;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott19_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott19_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;7431x9700x0:EventoGeorgeScott19;anim:loot:time:50;updateobjective:Questyno_GeorgeScott19:1:Completed"
@@ -2410,7 +2410,7 @@ local scottQuest19A = {
     needsitem = "Base.Hat_Bandana;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott19_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott19_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott19_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest19A);
@@ -2436,7 +2436,7 @@ local scottQuest20 = {
         onobtained = "updateobjective;Questyno_GeorgeScott20_A;2:Completed;removeitem;Base.JacketLong_Random;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott20_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2453,7 +2453,7 @@ local scottQuest20A = {
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott20_Lore" },
     unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott20_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_A_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest20A);
@@ -2470,7 +2470,7 @@ local scottQuest21 = {
     needsitem = "Base.AmmoStrap_Shells;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott21_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott21_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott21_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2488,7 +2488,7 @@ local scottQuest22 = {
     needsitem = "Base.WristWatch_Right_ClassicGold;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott22_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott22_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -2506,7 +2506,7 @@ local scottQuest23 = {
     needsitem = "Base.HolsterDouble;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott23_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott23_Text",
-    texture = "media/textures/Item_GerogeScott.png",
+    texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott23_Title",
     unlockedsound = "QuestUnlocked",
 }
@@ -3341,7 +3341,7 @@ table.insert(SFQuest_Database.QuestPool,{
     needsitem = "Jacket_WhiteTINT;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura16_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_XuMishura16_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura16_Text",
     texture = "media/textures/Item_XuMishura.png",
     onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura16_Complete",
