@@ -468,7 +468,33 @@ Questyno = {
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis21_Begin;Questyno_JeffreyLewis21",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis22_Begin;Questyno_JeffreyLewis22",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis23_Begin;Questyno_JeffreyLewis23",
-	}
+	},
+	CristopherDavis = {
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis1_Begin;Questyno_CristopherDavis1",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis2_Begin;Questyno_CristopherDavis2",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis3_Begin;Questyno_CristopherDavis3",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis4_Begin;Questyno_CristopherDavis4",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis5_Begin;Questyno_CristopherDavis5",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis6_Begin;Questyno_CristopherDavis6",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis7_Begin;Questyno_CristopherDavis7",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis8_Begin;Questyno_CristopherDavis8",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis9_Begin;Questyno_CristopherDavis9",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis10_Begin;Questyno_CristopherDavis10",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis11_Begin;Questyno_CristopherDavis11",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis12_Begin;Questyno_CristopherDavis12",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis13_Begin;Questyno_CristopherDavis13",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis14_Begin;Questyno_CristopherDavis14",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis15_Begin;Questyno_CristopherDavis15",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis16_Begin;Questyno_CristopherDavis16",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis17_Begin;Questyno_CristopherDavis17",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis18_Begin;Questyno_CristopherDavis18",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis19_Begin;Questyno_CristopherDavis19",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis20_Begin;Questyno_CristopherDavis20",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis21_Begin;Questyno_CristopherDavis21",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis22_Begin;Questyno_CristopherDavis22",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis23_Begin;Questyno_CristopherDavis23",
+		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis24_Begin;Questyno_CristopherDavis24",
+	},
 }
 
 SFQuest_Database.RandomEventPool.Questyno = Questyno;
@@ -599,6 +625,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_CristopherDavis",
+	condition = "notmaxedwithcode;Questyno_CristopherDavis;1",
+	commands = "randomcodedworldfrompool;Questyno_CristopherDavis;Questyno;CristopherDavis",
+	days = 0,
+	frequency = 1
+});
 
 
 -- quest introduttive daily
@@ -620,6 +653,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_XuMishura_Intro"
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RafaelPrezioso_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JeffreyLewis_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_CristopherDavis_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -644,6 +678,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_XuMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DavidTurner" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RafaelPrezioso" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CristopherDavis" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

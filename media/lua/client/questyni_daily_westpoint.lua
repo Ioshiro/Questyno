@@ -2433,7 +2433,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis23",
-    awardstask = "Questyno_JeffreyLewis24",
+    awardstask = "Questyno_JeffreyLewis1",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis23_Lore" },
     needsitem = "Base.BookTrapping3;1",
@@ -2443,4 +2443,430 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_JeffreyLewis23_Title",
     unlockedsound = "QuestUnlocked"
 });
+
+
+--[[
+            *** Christopher Davis ***
+            Elenco:
+                intro. Parla con Christopher Davis per sbloccare le daily.
+				1. Recuperare Base.PotOfSoupRecipe;2 (50rep + 10$ + Base.Pot;2)
+				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
+				3. Recuperare farming.Cabbage;3 (200rep + 30$)
+				4. Recuperare BaseSalad;2 (150rep + Base.Bowl;2)
+				5. Recuperare Base.Butter;2 parlando con (MANCANO COORDINATE)5 (60rep + 70$)
+				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (MANCANO COORDINATE)6 (100rep + Base.SushiEgg)
+				7. Recuperare Base.Rabbitmeat (ANCHE 25%) (65rep + Base.Burger)
+				8. Recuperare Base.Apron_Black (150rep + 50$)
+				9. Recuperare Base.GridlePan;2 (100rep)
+				10. Recuperare Base.Saucepan;2 (100rep)
+				11. Recuperare Base.KitchenKnife;4 (200rep)
+				12. Recuperare Base.Cereal;2 parlando con (MANCANO COORDINATE)12 (50rep)
+				13. Recuperare Base.BeerCan (150rep)
+				14. Recuperare Base.WaterBottleFull (40rep)
+				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (MANCANO COORDINATE)15 (60rep + Base.Lobster)
+				16. Recuperare Base.Lard parlando con (MANCANO COORDINATE)16 (25rep + Base.Milk)
+				17. Recuperare 35$ (50rep + Base.Butter)
+				18. Recuperare Base.Egg;4 parlando con (MANCANO COORDINATE)18 (40rep + FETTA DI Base.PineApple)
+				19. Recuperare Base.Spoon;6 (100rep + 20$)
+				20. Recuperare Base.PanRecipe (100rep + Base.Pan)
+				21. Recuperare Base.PotSoupRecipe;2 (50rep + Base.Pot;2)
+				22. Recuperare Base.CleaningLiquid2;2 (200rep + 30$)
+				23. Recuperare Base.RoastingPan (70rep + Smallanimalmeat)
+				24. Recuperare Base.Fork;6 (200rep + 30$)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis_Intro",
+
+    awardstask = "Questyno_ChristopherDavis1",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis_Intro_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Money;10;Pot;2",
+    awardstask = "Questyno_ChristopherDavis2",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis1_Lore" },
+    needsitem = "Base.PotOfSoupRecipe;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis1_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis1_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis1_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis2",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Money;15;Pan;2",
+    awardstask = "Questyno_ChristopherDavis3",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis2_Lore" },
+    needsitem = "Base.PanRecipe;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis2_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis2_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis2_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis3",
+    awardsrep = "LaResistenza;200",
+    awardsitem = "Money;30",
+    awardstask = "Questyno_ChristopherDavis4",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis3_Lore" },
+    needsitem = "farming.Cabbage;3",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis3_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis3_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis3_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis4",
+    awardsrep = "LaResistenza;150",
+    awardsitem = "Money;20;Base.Bowl;2",
+    awardstask = "Questyno_ChristopherDavis5",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis4_Lore" },
+    needsitem = "Salad;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis4_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis4_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis4_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis5",
+    awardsrep = "LaResistenza;60",
+    awardsitem = "Money;70",
+    awardstask = "Questyno_ChristopherDavis6",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis5_Lore" },
+    needsitem = "Base.Butter;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis5_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis5_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis6",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Base.SushiEgg;1",
+    awardstask = "Questyno_ChristopherDavis7",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_Lore" },
+    needsitem = "Base.Hotsauce,Base.Pepper,Base.FishRoe",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis6_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis6_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis7",
+    awardsrep = "LaResistenza;65",
+    awardsitem = "Base.Burger;1",
+    awardstask = "Questyno_ChristopherDavis8",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis7_Lore" },
+    needsitem = "Base.Rabbitmeat",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis7_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis7_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis7_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis8",
+    awardsrep = "LaResistenza;150",
+    awardsitem = "Money;50",
+    awardstask = "Questyno_ChristopherDavis9",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis8_Lore" },
+    needsitem = "Base.Apron_Black;1",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis8_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis8_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis8_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis9",
+    awardsrep = "LaResistenza;100",
+    awardstask = "Questyno_ChristopherDavis10",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis9_Lore" },
+    needsitem = "Base.GridlePan;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis9_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis9_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis9_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis10",
+    awardsrep = "LaResistenza;100",
+    awardstask = "Questyno_ChristopherDavis11",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis10_Lore" },
+    needsitem = "Base.Saucepan;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis10_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis10_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis10_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis11",
+    awardsrep = "LaResistenza;200",
+    awardstask = "Questyno_ChristopherDavis12",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis11_Lore" },
+    needsitem = "Base.KitchenKnife;4",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis11_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis11_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis11_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis12",
+    awardsrep = "LaResistenza;50",
+    awardstask = "Questyno_ChristopherDavis13",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis12_Lore" },
+    needsitem = "Base.Cereal;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis12_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis12_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis13",
+    awardsrep = "LaResistenza;150",
+    awardstask = "Questyno_ChristopherDavis14",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis13_Lore" },
+    needsitem = "Base.BeerCan",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis13_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis13_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis13_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis14",
+    awardsrep = "LaResistenza;40",
+    awardstask = "Questyno_ChristopherDavis15",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis14_Lore" },
+    needsitem = "Base.WaterBottleFull",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis14_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis14_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis14_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis15",
+    awardsrep = "LaResistenza;60",
+    awardsitem = "Base.Lobster;1",
+    awardstask = "Questyno_ChristopherDavis16",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_Lore" },
+    needsitem = "Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis15_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis15_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis16",
+    awardsrep = "LaResistenza;25",
+    awardsitem = "Base.Milk;1",
+    awardstask = "Questyno_ChristopherDavis17",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis16_Lore" },
+    needsitem = "Base.Lard",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis16_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis16_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis17",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.Butter;1",
+    awardstask = "Questyno_ChristopherDavis18",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis17_Lore" },
+    needsitem = "Money;35",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis17_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis17_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis17_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis18",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.PineApple;1",
+    awardstask = "Questyno_ChristopherDavis19",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis18_Lore" },
+    needsitem = "Base.Egg;4",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis18_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis18_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis19",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;20",
+    awardstask = "Questyno_ChristopherDavis20",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis19_Lore" },
+    needsitem = "Base.Spoon;6",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis19_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis19_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis19_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis20",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Base.Pan;1",
+    awardstask = "Questyno_ChristopherDavis21",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis20_Lore" },
+    needsitem = "Base.PanRecipe;1",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis20_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis20_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis20_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis21",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.Pot;2",
+    awardstask = "Questyno_ChristopherDavis22",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis21_Lore" },
+    needsitem = "Base.PotSoupRecipe;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis21_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis21_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis21_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis22",
+    awardsrep = "LaResistenza;200",
+    awardsitem = "Money;30",
+    awardstask = "Questyno_ChristopherDavis23",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis22_Lore" },
+    needsitem = "Base.CleaningLiquid2;2",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis22_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis22_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis22_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis23",
+    awardsrep = "LaResistenza;70",
+    awardsitem = "Base.Smallanimalmeat;1",
+    awardstask = "Questyno_ChristopherDavis24",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis23_Lore" },
+    needsitem = "Base.RoastingPan;1",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis23_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis23_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis23_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis24",
+    awardsrep = "LaResistenza;200",
+    awardsitem = "Money;30",
+    awardstask = "Questyno_ChristopherDavis1",
+    completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis24_Lore" },
+    needsitem = "Base.Fork;6",
+    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis24_Complete",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis24_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis24_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+
+
+
 

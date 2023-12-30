@@ -1745,3 +1745,108 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_J
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JeffreyLewis23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JeffreyLewis23", optional = true, text = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JeffreyLewis23_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JeffreyLewis23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JeffreyLewis23", text = "IGUI_SFQuest_Questyno_JeffreyLewis23_Complete"})
+
+--[[
+            *** Christopher Davis ***
+            Elenco:
+                intro. Parla con Christopher Davis per sbloccare le daily.
+				1. Recuperare Base.PotOfSoupRecipe;2 (50rep + 10$ + Base.Pot;2)
+				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
+				3. Recuperare farming.Cabbage;3 (200rep + 30$)
+				4. Recuperare BaseSalad;2 (150rep + Base.Bowl;2)
+				5. Recuperare Base.Butter;2 parlando con (MANCANO COORDINATE)5 (60rep + 70$)
+				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (MANCANO COORDINATE)6 (100rep + Base.SushiEgg)
+				7. Recuperare Base.Rabbitmeat (ANCHE 25%) (65rep + Base.Burger)
+				8. Recuperare Base.Apron_Black (150rep + 50$)
+				9. Recuperare Base.GridlePan;2 (100rep)
+				10. Recuperare Base.Saucepan;2 (100rep)
+				11. Recuperare Base.KitchenKnife;4 (200rep)
+				12. Recuperare Base.Cereal;2 parlando con (MANCANO COORDINATE)12 (50rep)
+				13. Recuperare Base.BeerCan (150rep)
+				14. Recuperare Base.WaterBottleFull (40rep)
+				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (MANCANO COORDINATE)15 (60rep + Base.Lobster)
+				16. Recuperare Base.Lard parlando con (MANCANO COORDINATE)16 (25rep + Base.Milk)
+				17. Recuperare 35$ (50rep + Base.Butter)
+				18. Recuperare Base.Egg;4 parlando con (MANCANO COORDINATE)18 (40rep + FETTA DI Base.PineApple)
+				19. Recuperare Base.Spoon;6 (100rep + 20$)
+				20. Recuperare Base.PanRecipe (100rep + Base.Pan)
+				21. Recuperare Base.PotSoupRecipe;2 (50rep + Base.Pot;2)
+				22. Recuperare Base.CleaningLiquid2;2 (200rep + 30$)
+				23. Recuperare Base.RoastingPan (70rep + Smallanimalmeat)
+				24. Recuperare Base.Fork;6 (200rep + 30$)
+]]
+
+-- intro. parla con Christopher Davis per sbloccare le daily
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis_Intro", text = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis1", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis1", text = "IGUI_SFQuest_Questyno_ChristopherDavis1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis2", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis2", text = "IGUI_SFQuest_Questyno_ChristopherDavis2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis3", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis3", text = "IGUI_SFQuest_Questyno_ChristopherDavis3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis4", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis4", text = "IGUI_SFQuest_Questyno_ChristopherDavis4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis5", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis5", text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis6", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis6", text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis7", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis7", text = "IGUI_SFQuest_Questyno_ChristopherDavis7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis8", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis8", text = "IGUI_SFQuest_Questyno_ChristopherDavis8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis9", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis9", text = "IGUI_SFQuest_Questyno_ChristopherDavis9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis10", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis10", text = "IGUI_SFQuest_Questyno_ChristopherDavis10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis11", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis11", text = "IGUI_SFQuest_Questyno_ChristopherDavis11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis12", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis12", text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis13", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis13", text = "IGUI_SFQuest_Questyno_ChristopherDavis13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis14", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis14", text = "IGUI_SFQuest_Questyno_ChristopherDavis14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis15", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis15", text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis16", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis16", text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis17", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis17", text = "IGUI_SFQuest_Questyno_ChristopherDavis17_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis18", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis18", text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis19", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis19", text = "IGUI_SFQuest_Questyno_ChristopherDavis19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis20", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis20", text = "IGUI_SFQuest_Questyno_ChristopherDavis20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis21", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis21", text = "IGUI_SFQuest_Questyno_ChristopherDavis21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis22", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis22", text = "IGUI_SFQuest_Questyno_ChristopherDavis22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis23", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis23", text = "IGUI_SFQuest_Questyno_ChristopherDavis23_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_ChristopherDavis24_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_ChristopherDavis24", optional = true, text = "IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ChristopherDavis24_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ChristopherDavis24", text = "IGUI_SFQuest_Questyno_ChristopherDavis24_Complete"})
