@@ -3466,7 +3466,7 @@ local bobQuest3 = {
         guid = "Questyno_BobRepair3_A",
         text = "IGUI_SFQuest_Questyno_BobRepair3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoBobRepair3;additem;Sweapons.GearMace;1"
+        oncompleted = "removeclickevent;EventoBobRepair3;additem;SWeapons.GearMace;1"
     } },
     text = "IGUI_SFQuest_Questyno_BobRepair3_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3486,7 +3486,7 @@ local bobQuest3A = {
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair3_Lore" },
-    needsitem = "Sweapons.GearMace;1", -- REQUIRE
+    needsitem = "SWeapons.GearMace;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair3_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair3_A_Text",
     texture = "media/textures/Item_BobRepair.png",

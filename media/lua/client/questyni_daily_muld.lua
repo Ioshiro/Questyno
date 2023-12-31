@@ -96,7 +96,7 @@ local secretQuest2 = {
     texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret2_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;12242x11879x0:EventoVictoriaSecret2;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret2:1:Completed"
+    unlocks = "clickevent;12241x11879x0:EventoVictoriaSecret2;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret2:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest2);
 
@@ -200,7 +200,7 @@ local secretQuest5 = {
         guid = "Questyno_VictoriaSecret5_A",
         text = "IGUI_SFQuest_Questyno_VictoriaSecret5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoVictoriaSecret5;additem;Skirt_short;1"
+        oncompleted = "removeclickevent;EventoVictoriaSecret5;additem;Skirt_Short;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret5_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -219,7 +219,7 @@ local secretQuest5A = {
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret5_Lore" },
-    needsitem = "Skirt_short;1", -- REQUIRE
+    needsitem = "Skirt_Short;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret5_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret5_A_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -243,7 +243,7 @@ local secretQuest6 = {
     texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret6_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;8535x6438x0:EventoVictoriaSecret6;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret6:1:Completed"
+    unlocks = "clickevent;8534x6437x0:EventoVictoriaSecret6;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret6:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest6);
 
@@ -251,6 +251,7 @@ local secretQuest6A = {
     guid = "Questyno_VictoriaSecret6_A",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsitem = "Money;200",
     awardstask = "Questyno_VictoriaSecret7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
@@ -347,7 +348,7 @@ local secretQuest9 = {
         guid = "Questyno_VictoriaSecret9_A",
         text = "IGUI_SFQuest_Questyno_VictoriaSecret9_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoVictoriaSecret9;additem;Dress_SmallBlackStrap;1"
+        oncompleted = "removeclickevent;EventoVictoriaSecret9;additem;Dress_SmallBlackStraps;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret9_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -365,7 +366,7 @@ local secretQuest9A = {
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret9_Lore" },
-    needsitem = "Dress_SmallBlackStrap;1", -- REQUIRE
+    needsitem = "Dress_SmallBlackStraps;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret9_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret9_A_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -397,7 +398,7 @@ local secretQuest10A = {
     guid = "Questyno_VictoriaSecret10_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "Money;50", -- ITEM REWARD
+    awardsitem = "Money;200", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret10_Lore" },
@@ -616,7 +617,6 @@ local secretQuest16A = {
     guid = "Questyno_VictoriaSecret16_A",
 
     awardsrep = "LaResistenza;15", -- REP REWARD
-    awardsitem = "Money;50", -- ITEM REWARD
     awardstask = "Questyno_VictoriaSecret17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
@@ -694,7 +694,6 @@ local secretQuest18A = {
     guid = "Questyno_VictoriaSecret18_A",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardsitem = "Money;50", -- ITEM REWARD
     awardstask = "Questyno_VictoriaSecret19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
@@ -771,7 +770,7 @@ table.insert(SFQuest_Database.QuestPool, secretQuest20);
 local secretQuest20A = {
     guid = "Questyno_VictoriaSecret20_A",
 
-    awardsrep = "LaResistenza;15", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;20", -- ITEM REWARD
     awardstask = "Questyno_VictoriaSecret21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
