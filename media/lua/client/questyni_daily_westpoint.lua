@@ -108,13 +108,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_Lupo4_A",
         hidden = false,
         needsitem = "AssualtRifle;1",
-        onobtained = "updateobjective;Questyno_Lupo4:1:Completed;removeitem;AssualtRifle;1"
+        onobtained = "updateobjective;Questyno_Lupo4;1;Completed;removeitem;AssualtRifle;1"
     }, {
         guid = "Questyno_Lupo4_B",
         text = "IGUI_SFQuest_Questyno_Lupo4_B",
         hidden = false,
         needsitem = "556Clip;1",
-        onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;556Clip;1"
+        onobtained = "updateobjective;Questyno_Lupo4;2;Completed;removeitem;556Clip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo4_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -148,13 +148,13 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_Lupo4_A",
         hidden = false,
         needsitem = "AssualtRifle2;2",
-        onobtained = "updateobjective;Questyno_Lupo4:1:Completed;removeitem;AssualtRifle2;2"
+        onobtained = "updateobjective;Questyno_Lupo4;1;Completed;removeitem;AssualtRifle2;2"
     }, {
         guid = "Questyno_Lupo4_B",
         text = "IGUI_SFQuest_Questyno_Lupo4_B",
         hidden = false,
         needsitem = "M14Clip;1",
-        onobtained = "updateobjective;Questyno_Lupo4:2:Completed;removeitem;M14Clip;1"
+        onobtained = "updateobjective;Questyno_Lupo4;2;Completed;removeitem;M14Clip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo4_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -275,13 +275,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_Lupo9_A",
         hidden = false,
         needsitem = "Pistol;1",
-        onobtained = "updateobjective;Questyno_Lupo9:1:Completed;removeitem;Pistol;1"
+        onobtained = "updateobjective;Questyno_Lupo9;1;Completed;removeitem;Pistol;1"
     }, {
         guid = "Questyno_Lupo9_B",
         text = "IGUI_SFQuest_Questyno_Lupo9_B",
         hidden = false,
         needsitem = "9mmClip;1",
-        onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;9mmClip;1"
+        onobtained = "updateobjective;Questyno_Lupo9;2;Completed;removeitem;9mmClip;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo9_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -315,13 +315,13 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_Lupo10_A",
         hidden = false,
         needsitem = "Bullets45Box;2",
-        onobtained = "updateobjective;Questyno_Lupo10:1:Completed;removeitem;Bullets45Box;2"
+        onobtained = "updateobjective;Questyno_Lupo10;1;Completed;removeitem;Bullets45Box;2"
     }, {
         guid = "Questyno_Lupo10_B",
         text = "IGUI_SFQuest_Questyno_Lupo10_B",
         hidden = false,
         needsitem = "45Clip;2",
-        onobtained = "updateobjective;Questyno_Lupo10:2:Completed;removeitem;45Clip;2"
+        onobtained = "updateobjective;Questyno_Lupo10;2;Completed;removeitem;45Clip;2"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo10_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -466,13 +466,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_Lupo15_A",
         hidden = false,
         needsitem = "Revolver_Long;1",
-        onobtained = "updateobjective;Questyno_Lupo15:1:Completed;removeitem;Revolver_Long;1"
+        onobtained = "updateobjective;Questyno_Lupo15;1;Completed;removeitem;Revolver_Long;1"
     }, {
         guid = "Questyno_Lupo15_B",
         text = "IGUI_SFQuest_Questyno_Lupo15_B",
         hidden = false,
         needsitem = "Bullets44Box;3",
-        onobtained = "updateobjective;Questyno_Lupo15:2:Completed;removeitem;Bullets44Box;3"
+        onobtained = "updateobjective;Questyno_Lupo15;2;Completed;removeitem;Bullets44Box;3"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo15_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -505,25 +505,25 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_Lupo16_A",
         hidden = false,
         needsitem = "Bullets44Box;1",
-        onobtained = "updateobjective;Questyno_Lupo16:1:Completed;removeitem;Bullets44Box;1"
+        onobtained = "updateobjective;Questyno_Lupo16;1;Completed;removeitem;Bullets44Box;1"
     }, {
         guid = "Questyno_Lupo16_B",
         text = "IGUI_SFQuest_Questyno_Lupo16_B",
         hidden = false,
         needsitem = "Bullets9mmBox;1",
-        onobtained = "updateobjective;Questyno_Lupo16:2:Completed;removeitem;Bullets9mmBox;1"
+        onobtained = "updateobjective;Questyno_Lupo16;2;Completed;removeitem;Bullets9mmBox;1"
     }, {
         guid = "Questyno_Lupo16_C",
         text = "IGUI_SFQuest_Questyno_Lupo16_C",
         hidden = false,
         needsitem = "Bullets38Box;1",
-        onobtained = "updateobjective;Questyno_Lupo16:3:Completed;removeitem;Bullets38Box;1"
+        onobtained = "updateobjective;Questyno_Lupo16;3;Completed;removeitem;Bullets38Box;1"
     }, {
         guid = "Questyno_Lupo16_D",
         text = "IGUI_SFQuest_Questyno_Lupo16_D",
         hidden = false,
         needsitem = "Bullets45Box;1",
-        onobtained = "updateobjective;Questyno_Lupo16:4:Completed;removeitem;Bullets45Box;1"
+        onobtained = "updateobjective;Questyno_Lupo16;4;Completed;removeitem;Bullets45Box;1"
     } },
     text = "IGUI_SFQuest_Questyno_Lupo16_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -705,7 +705,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso1",
 
-    awardsrep = "LaResistenza;120",
+    awardsrep = "LaResistenza;180",
     awardsitem = "Money;25",
     awardstask = "Questyno_RafaelPrezioso2",
     completesound = "levelup",
@@ -722,7 +722,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso2",
 
-    awardsrep = "LaResistenza;80",
+    awardsrep = "LaResistenza;150",
     awardsitem = "Money;15",
     awardstask = "Questyno_RafaelPrezioso3",
     completesound = "levelup",
@@ -1193,13 +1193,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_A",
         hidden = false,
         needsitem = "Base.Jumper_RoundNeck;1",
-        onobtained = "updateobjective;Questyno_RafaelPrezioso15:1:Completed;removeitem;Base.Jumper_RoundNeck;1",
+        onobtained = "updateobjective;Questyno_RafaelPrezioso15;1;Completed;removeitem;Base.Jumper_RoundNeck;1",
     },{
         guid = "Questyno_RafaelPrezioso15_B",
         text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_B",
         hidden = false,
         needsitem = "Base.Trousers_Denim;1",
-        onobtained = "updateobjective;Questyno_RafaelPrezioso15:2:Completed;removeitem;Base.Trousers_Denim;1",
+        onobtained = "updateobjective;Questyno_RafaelPrezioso15;2;Completed;removeitem;Base.Trousers_Denim;1",
     }},
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
@@ -1320,34 +1320,17 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso19",
-    awardstask = "Questyno_RafaelPrezioso19_A",
-    dailycode = "Questyno_RafaelPrezioso",
-    lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore" },
-    objectives = { {
-        guid = "Questyno_RafaelPrezioso19_A",
-        text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_A",
-        hidden = false,
-        oncompleted = "removeclickevent;EventoRafaelPrezioso19;additem;Base.Glasses_Eyepatch_Right;1",
-    } },
-    text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Text",
-    texture = "media/textures/Item_RafaelPrezioso.png",
-    title = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Title",
-    unlocks = "clickevent;7338x9663x0:EventoRafaelPrezioso19;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso19:1:Completed",
-    unlockedsound = "QuestUnlocked"
-});
-
-table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_RafaelPrezioso19_A",
     awardsrep = "LaResistenza;50",
     awardstask = "Questyno_RafaelPrezioso20",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore" },
-    needsitem = "Base.Glasses_Eyepatch_Right;1",
+    needsitem = "Tags#Bandana;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso19_Complete",
-    text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_A_Text",
+    text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Title",
+    unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {

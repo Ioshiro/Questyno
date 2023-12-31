@@ -982,7 +982,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_HeatherThomas8_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas8_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_HeatherThomas8_Complete = "Grazie mille, con questo potrò fare delle trappole più resistenti",
-	IGUI_SFQuest_Questyno_HeatherThomas8_A_Text = "Porta il vecchio cavo a Heather",
+	IGUI_SFQuest_Questyno_HeatherThomas8_A = "Cerca a Muldraugh (11064,10640,0)",
+    IGUI_SFQuest_Questyno_HeatherThomas8_A_Text = "Porta il vecchio cavo a Heather",
 	
 	IGUI_SFQuest_Questyno_HeatherThomas9_Title = "Heather della Tana 9315,8624,0",
     IGUI_SFQuest_Questyno_HeatherThomas9_Text = "Heather l'essicatore",
@@ -1052,7 +1053,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_HeatherThomas17_Title = "Heather della Tana 9315,8624,0",
     IGUI_SFQuest_Questyno_HeatherThomas17_Text = "Fattorino per un giorno",
-    IGUI_SFQuest_Questyno_HeatherThomas17_Lore = "Heather mi ha chiesto di andare a recuperare 10 Scoiattoli nelle trappole che ha piazzato nel bosco a Nord-Est (10936,8488,0). Meglio mettersi gli scarponi e una sciarpa o uno di questi giorni finirò per tagliarmi la gola, dio boia.",
+    IGUI_SFQuest_Questyno_HeatherThomas17_Lore = "Heather mi ha chiesto di andare a recuperare 10 Conigli nelle trappole che ha piazzato nel bosco a Nord-Est (10936,8488,0). Meglio mettersi gli scarponi e una sciarpa o uno di questi giorni finirò per tagliarmi la gola, dio boia.",
     IGUI_SFQuest_Questyno_HeatherThomas17_Begin_Text = "Oggi sono molto impegnato ma ho necessità di recuperare le prede che devo aver catturato nel bosco a Nord-Est per lo stufato di stasera puoi andare a prenderle per me?",
     IGUI_SFQuest_Questyno_HeatherThomas17_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas17_Begin_Text_Declined = "Pff, pivello",
@@ -4162,13 +4163,11 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Title = "Rafael 'Prezioso' (10152,6622,1)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Text = "Rafael il Pirata",
-	IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore = "Rafael vorrebbe che gli trovassi una Benda per occhio nel centro commerciale a Utopia (7338,9663,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text = "Mi dicono tutti che mi manca un benda sull'occhio, secondo te mi starebbe bene? Perché non me ne porti una così verifico subito! Ne trovi una nel Centro commerciale a Utopia.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore = "Rafael vorrebbe che gli trovassi una Bandana",
+	IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text = "Mi dicono tutti che mi manca una bandana, secondo te mi starebbe bene? Perché non me ne porti una così verifico subito!",
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Complete = "Tel'avevo detto che l'avresti trovata, come mi sta?",
-	IGUI_SFQuest_Questyno_RafaelPrezioso19_A = "Cerca a Utopia (7338,9663,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso19_A_Text = "Porta la benda a Rafael",
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso20_Title = "Rafael 'Prezioso' (10152,6622,1)",

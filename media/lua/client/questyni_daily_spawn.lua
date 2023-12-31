@@ -1712,7 +1712,7 @@ local thomasQuest8A = {
     dailycode = "Questyno_HeatherThomas",
     hidden = true,
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
-    needsitem = "Moveables.camping_01_17;1", -- REQUIRE
+    needsitem = "Wire;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas8_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas8_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1804,19 +1804,19 @@ local thomasQuest13 = {
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
         hidden = false,
         needsitem = "Worm;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:1:Completed;removeitem;Worm;5"
+        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;Worm;5"
     }, {
         guid = "Questyno_HeatherThomas13_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
         hidden = false,
         needsitem = "Carrots;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:2:Completed;removeitem;Carrots;1"
+        onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;Carrots;1"
     }, {
         guid = "Questyno_HeatherThomas13_C",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
         hidden = false,
         needsitem = "Potato;2",
-        onobtained = "updateobjective;Questyno_HeatherThomas13:3:Completed;removeitem;Potato;2"
+        onobtained = "updateobjective;Questyno_HeatherThomas13;3;Completed;removeitem;Potato;2"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1851,13 +1851,13 @@ local thomasQuest14 = {
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_A",
         hidden = false,
         needsitem = "Grasshopper;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas14:1:Completed;removeitem;Grasshopper;5"
+        onobtained = "updateobjective;Questyno_HeatherThomas14;1;Completed;removeitem;Grasshopper;5"
     }, {
         guid = "Questyno_HeatherThomas14_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_B",
         hidden = false,
         needsitem = "Worm;10",
-        onobtained = "updateobjective;Questyno_HeatherThomas14:2:Completed;removeitem;Worm;10"
+        onobtained = "updateobjective;Questyno_HeatherThomas14;2;Completed;removeitem;Worm;10"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas14_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1987,13 +1987,13 @@ local thomasQuest18 = {
         text = "IGUI_SFQuest_Questyno_HeatherThomas18_A",
         hidden = false,
         needsitem = "DeadRabbit;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas18:1:Completed;removeitem;DeadRabbit;1"
+        onobtained = "updateobjective;Questyno_HeatherThomas18;1;Completed;removeitem;DeadRabbit;1"
     }, {
         guid = "Questyno_HeatherThomas18_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas18_B",
         hidden = false,
         needsitem = "Money;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas18:2:Completed;removeitem;Money;5"
+        onobtained = "updateobjective;Questyno_HeatherThomas18;2;Completed;removeitem;Money;5"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas18_Text",
     texture = "media/textures/Item_HeatherThomas.png",

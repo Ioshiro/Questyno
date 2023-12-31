@@ -1633,8 +1633,6 @@ local leeQuest22 = {
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest22);
 
---				23. Recuperare Moveable.location_community_medical_01_16;Moveable.location_community_medical_01_17 parlando con (6318,5267,0) (200rep)
-
 local leeQuest23 = {
     guid = "Questyno_SusanLee23",
 
@@ -2013,19 +2011,19 @@ local scottQuest10A = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott10_D",
         hidden = false,
         needsitem = "Trumpet;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott10_A;1:Completed;removeitem;Trumpet;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott10_A;1;Completed;removeitem;Trumpet;1"
     },{
         guid = "Questyno_GeorgeScott10_E",
         text = "IGUI_SFQuest_Questyno_GeorgeScott10_E",
         hidden = false,
         needsitem = "Chopsticks;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott10_A;2:Completed;removeitem;Chopsticks;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott10_A;2;Completed;removeitem;Chopsticks;1"
     }, {
         guid = "Questyno_GeorgeScott10_F",
         text = "IGUI_SFQuest_Questyno_GeorgeScott10_F",
         hidden = false,
         needsitem = "GuitarAcoustic;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott10_A;3:Completed;removeitem;GuitarAcoustic;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott10_A;3;Completed;removeitem;GuitarAcoustic;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_A_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2116,19 +2114,19 @@ local scottQuest12A = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott12_B",
         hidden = false,
         needsitem = "ChessWhite;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott12_A;1:Completed;removeitem;ChessWhite;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott12_A;1;Completed;removeitem;ChessWhite;1"
     },{
         guid = "Questyno_GeorgeScott12_C",
         text = "IGUI_SFQuest_Questyno_GeorgeScott12_C",
         hidden = false,
         needsitem = "ChessBlack;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott12_A;2:Completed;removeitem;ChessBlack;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott12_A;2;Completed;removeitem;ChessBlack;1"
     }, {
         guid = "Questyno_GeorgeScott12_D",
         text = "IGUI_SFQuest_Questyno_GeorgeScott12_D",
         hidden = false,
         needsitem = "CheckerBoard;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott12_A;3:Completed;removeitem;CheckerBoard;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott12_A;3;Completed;removeitem;CheckerBoard;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott12_A_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2218,19 +2216,19 @@ local scottQuest15 = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_A",
         hidden = false,
         needsitem = "Shoes_RedTrainers;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;1:Completed;removeitem;Shoes_RedTrainers;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15_A;1;Completed;removeitem;Shoes_RedTrainers;1"
     },{
         guid = "Questyno_GeorgeScott15_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_B",
         hidden = false,
         needsitem = "Trousers_JeanBaggy;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;2:Completed;removeitem;Trousers_JeanBaggy;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15_A;2;Completed;removeitem;Trousers_JeanBaggy;1"
     }, {
         guid = "Questyno_GeorgeScott15_C",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_C",
         hidden = false,
         needsitem = "Skirt_Long;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;3:Completed;removeitem;Skirt_Long;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15_A;3;Completed;removeitem;Skirt_Long;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2322,13 +2320,13 @@ local scottQuest18 = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott18_A",
         hidden = false,
         needsitem = "Radio.CDplayer;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott18_A;1:Completed;removeitem;Radio.CDplayer;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott18_A;1;Completed;removeitem;Radio.CDplayer;1"
     },{
         guid = "Questyno_GeorgeScott18_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott18_B",
         hidden = false,
         needsitem = "Base.Battery;2",
-        onobtained = "updateobjective;Questyno_GeorgeScott18_A;2:Completed;removeitem;Base.Battery;2"
+        onobtained = "updateobjective;Questyno_GeorgeScott18_A;2;Completed;removeitem;Base.Battery;2"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott18_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2402,13 +2400,13 @@ local scottQuest20 = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott20_A",
         hidden = false,
         needsitem = "Base.TrousersMesh_DenimLight;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott20_A;1:Completed;removeitem;Base.TrousersMesh_DenimLight;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott20_A;1;Completed;removeitem;Base.TrousersMesh_DenimLight;1"
     },{
         guid = "Questyno_GeorgeScott20_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott20_B",
         hidden = false,
         needsitem = "Base.JacketLong_Random;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott20_A;2:Completed;removeitem;Base.JacketLong_Random;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott20_A;2;Completed;removeitem;Base.JacketLong_Random;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2460,7 +2458,7 @@ local scottQuest22 = {
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott22_Lore" },
-    needsitem = "Base.WristWatch_Right_ClassicGold;1", -- REQUIRE
+    needsitem = "Tag#WatchLuxury;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott22_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2760,19 +2758,19 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_SamuelYoung13_A",
         hidden = false,
         needsitem = "Cabbage;10",
-        onobtained = "updateobjective;Questyno_SamuelYoung13:1:Completed;removeitem;Cabbage;10"
+        onobtained = "updateobjective;Questyno_SamuelYoung13;1;Completed;removeitem;Cabbage;10"
     }, {
         guid = "Questyno_SamuelYoung13_B",
         text = "IGUI_SFQuest_Questyno_SamuelYoung13_B",
         hidden = false,
         needsitem = "Carrots;2",
-        onobtained = "updateobjective;Questyno_SamuelYoung13:2:Completed;removeitem;Carrots;2"
+        onobtained = "updateobjective;Questyno_SamuelYoung13;2;Completed;removeitem;Carrots;2"
     }, {
         guid = "Questyno_SamuelYoung13_C",
         text = "IGUI_SFQuest_Questyno_SamuelYoung13_C",
         hidden = false,
         needsitem = "Potato;4",
-        onobtained = "updateobjective;Questyno_SamuelYoung13:3:Completed;removeitem;Potato;4"
+        onobtained = "updateobjective;Questyno_SamuelYoung13;3;Completed;removeitem;Potato;4"
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung13_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2805,13 +2803,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_SamuelYoung14_A",
         hidden = false,
         needsitem = "Grasshopper;10",
-        onobtained = "updateobjective;Questyno_SamuelYoung14:1:Completed;removeitem;Grasshopper;10"
+        onobtained = "updateobjective;Questyno_SamuelYoung14;1;Completed;removeitem;Grasshopper;10"
     }, {
         guid = "Questyno_SamuelYoung14_B",
         text = "IGUI_SFQuest_Questyno_SamuelYoung14_B",
         hidden = false,
         needsitem = "Worm;20",
-        onobtained = "updateobjective;Questyno_SamuelYoung14:2:Completed;removeitem;Worm;20"
+        onobtained = "updateobjective;Questyno_SamuelYoung14;2;Completed;removeitem;Worm;20"
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung14_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -3591,19 +3589,19 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_DavidTurner4_A",
         hidden = false,
         needsitem = "ElectronicsScrap;30",
-        onobtained = "updateobjective;Questyno_DavidTurner4:1:Completed;removeitem;ElectronicsScrap;30"
+        onobtained = "updateobjective;Questyno_DavidTurner4;1;Completed;removeitem;ElectronicsScrap;30"
     }, {
         guid = "Questyno_DavidTurner4_B",
         text = "IGUI_SFQuest_Questyno_DavidTurner4_B",
         hidden = false,
         needsitem = "ElectricWire;4",
-        onobtained = "updateobjective;Questyno_DavidTurner4:2:Completed;removeitem;ElectricWire;4"
+        onobtained = "updateobjective;Questyno_DavidTurner4;2;Completed;removeitem;ElectricWire;4"
     }, {
         guid = "Questyno_DavidTurner4_C",
         text = "IGUI_SFQuest_Questyno_DavidTurner4_C",
         hidden = false,
         needsitem = "SheetMetal;2",
-        onobtained = "updateobjective;Questyno_DavidTurner4:3:Completed;removeitem;SheetMetal;2"
+        onobtained = "updateobjective;Questyno_DavidTurner4;3;Completed;removeitem;SheetMetal;2"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner4_Text",
     texture = "media/textures/Item_DavidTurner.png",
@@ -3651,19 +3649,19 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_DavidTurner6_A",
         hidden = false,
         needsitem = "ElectronicsScrap;20",
-        onobtained = "updateobjective;Questyno_DavidTurner6:1:Completed;removeitem;ElectronicsScrap;20"
+        onobtained = "updateobjective;Questyno_DavidTurner6;1;Completed;removeitem;ElectronicsScrap;20"
     }, {
         guid = "Questyno_DavidTurner6_B",
         text = "IGUI_SFQuest_Questyno_DavidTurner6_B",
         hidden = false,
         needsitem = "Battery;4",
-        onobtained = "updateobjective;Questyno_DavidTurner6:2:Completed;removeitem;Battery;4"
+        onobtained = "updateobjective;Questyno_DavidTurner6;2;Completed;removeitem;Battery;4"
     }, {
         guid = "Questyno_DavidTurner6_C",
         text = "IGUI_SFQuest_Questyno_DavidTurner6_C",
         hidden = false,
         needsitem = "radio.RadioTransmitter;4",
-        onobtained = "updateobjective;Questyno_DavidTurner6:3:Completed;removeitem;radio.RadioTransmitter;4"
+        onobtained = "updateobjective;Questyno_DavidTurner6;3;Completed;removeitem;radio.RadioTransmitter;4"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner6_Text",
     texture = "media/textures/Item_DavidTurner.png",
@@ -3748,13 +3746,13 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_DavidTurner9_A",
         hidden = false,
         needsitem = "ScrapMetal;8",
-        onobtained = "updateobjective;Questyno_DavidTurner9:1:Completed;removeitem;ScrapMetal;8"
+        onobtained = "updateobjective;Questyno_DavidTurner9;1;Completed;removeitem;ScrapMetal;8"
     }, {
         guid = "Questyno_DavidTurner9_B",
         text = "IGUI_SFQuest_Questyno_DavidTurner9_B",
         hidden = false,
         needsitem = "ElectronicsScrap;32",
-        onobtained = "updateobjective;Questyno_DavidTurner9:2:Completed;removeitem;ElectronicsScrap;32"
+        onobtained = "updateobjective;Questyno_DavidTurner9;2;Completed;removeitem;ElectronicsScrap;32"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner9_Text",
     texture = "media/textures/Item_DavidTurner.png",
@@ -3901,25 +3899,25 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_DavidTurner15_B",
         hidden = false,
         needsitem = "SheetMetal;20",
-        onobtained = "updateobjective;Questyno_DavidTurner15_A:1:Completed;removeitem;SheetMetal;20"
+        onobtained = "updateobjective;Questyno_DavidTurner15_A;1;Completed;removeitem;SheetMetal;20"
     }, {
         guid = "Questyno_DavidTurner15_C",
         text = "IGUI_SFQuest_Questyno_DavidTurner15_C",
         hidden = false,
         needsitem = "EngineParts;20",
-        onobtained = "updateobjective;Questyno_DavidTurner15_A:2:Completed;removeitem;EngineParts;20"
+        onobtained = "updateobjective;Questyno_DavidTurner15_A;2;Completed;removeitem;EngineParts;20"
     }, {
         guid = "Questyno_DavidTurner15_D",
         text = "IGUI_SFQuest_Questyno_DavidTurner15_D",
         hidden = false,
         needsitem = "ElectronicsScrap;20",
-        onobtained = "updateobjective;Questyno_DavidTurner15_A:3:Completed;removeitem;ElectronicsScrap;20"
+        onobtained = "updateobjective;Questyno_DavidTurner15_A;3;Completed;removeitem;ElectronicsScrap;20"
     }, {
         guid = "Questyno_DavidTurner15_E",
         text = "IGUI_SFQuest_Questyno_DavidTurner15_E",
         hidden = false,
         needsitem = "UnusableMetal;2",
-        onobtained = "updateobjective;Questyno_DavidTurner15_A:4:Completed;removeitem;UnusableMetal;2"
+        onobtained = "updateobjective;Questyno_DavidTurner15_A;4;Completed;removeitem;UnusableMetal;2"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner15_Text",
     texture = "media/textures/Item_DavidTurner.png",

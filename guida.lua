@@ -142,20 +142,20 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A",                                                                   -- Testo dell'obiettivo, seguire il pattern       
         hidden = false,                                                                                                         -- Obiettivo nascosto, in questo caso sempre false                  
         needsitem = "[NomeRichiesto1];[NumeroRichiesto1]",                                                                      -- Item che viene richiesto per completare l'obiettivo
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:1:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"  -- Codice che viene eseguito all'ottenimento degli item richiesti
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero];1;Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"  -- Codice che viene eseguito all'ottenimento degli item richiesti
                                                                                                                                 -- in questo caso aggiorna l'obiettivo e rimuove gli item richiesti
     }, {
         guid = "Questyno_[NomeCognomeNumero]_B",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
         hidden = false,
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero];2;Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     }, {
         guid = "Questyno_[NomeCognomeNumero]_C",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_C",
         hidden = false,
         needsitem = "[NomeRichiesto3];[NumeroRichiesto3]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]:3:Completed;removeitem;[NomeRichiesto3];[NumeroRichiesto3]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero];3;Completed;removeitem;[NomeRichiesto3];[NumeroRichiesto3]"
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
@@ -377,13 +377,13 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_B",
         hidden = false,
         needsitem = "[NomeRichiesto1];[NumeroRichiesto1]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:1:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A;1;Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"
     }, {
         guid = "Questyno_[NomeCognomeNumero]_C",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_C",
         hidden = false,
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A;2;Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                            -- Testo della quest, seguire il pattern
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
@@ -474,14 +474,14 @@ table.insert(SFQuest_Database.QuestPool,{
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_C",                                                                   -- Testo dell'obiettivo, seguire il pattern       
         hidden = false,                                                                                                         -- Obiettivo nascosto, in questo caso sempre false                  
         needsitem = "[NomeRichiesto1];[NumeroRichiesto1]",                                                                      -- Item che viene richiesto per completare l'obiettivo
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:1:Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"    -- Codice che viene eseguito all'ottenimento degli item richiesti
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A;1;Completed;removeitem;[NomeRichiesto1];[NumeroRichiesto1]"    -- Codice che viene eseguito all'ottenimento degli item richiesti
                                                                                                                                     -- in questo caso aggiorna l'obiettivo e rimuove gli item richiesti
     }, {
         guid = "Questyno_[NomeCognomeNumero]_D",
         text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_D",
         hidden = false,
         needsitem = "[NomeRichiesto2];[NumeroRichiesto2]",
-        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A:2:Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
+        onobtained = "updateobjective;Questyno_[NomeCognomeNumero]_A;2;Completed;removeitem;[NomeRichiesto2];[NumeroRichiesto2]"
     } },
     text = "IGUI_SFQuest_Questyno_[NomeCognomeNumero]_A_Text",                                                          -- Testo della quest, seguire il pattern (ATTENZIONE AL "_B")
     texture = "Item_[NomeIcona]",                                                                                       -- Icona che compare nel menu vicino alla quest
