@@ -181,7 +181,7 @@ local pozzoQuest6 = {
 table.insert(SFQuest_Database.QuestPool, pozzoQuest6);
 
 local pozzoQuest6A = {
-    guid = "Questyno_MikePozzo6A",
+    guid = "Questyno_MikePozzo6_A",
 
     awardstask = "Questyno_MikePozzo6_B", -- TASK REWARD
     dailycode = "Questyno_MikePozzo",
@@ -192,21 +192,21 @@ local pozzoQuest6A = {
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Hotsauce;1",
-        onobtained = "updateobjective;Questyno_MikePozzo6;1;Completed;removeitem;Base.Hotsauce;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6_A;1;Completed;removeitem;Base.Hotsauce;1"
     }, {
         guid = "Questyno_MikePozzo6_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_C",
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.Pepper;1",
-        onobtained = "updateobjective;Questyno_MikePozzo6;2;Completed;removeitem;Base.Pepper;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6_A;2;Completed;removeitem;Base.Pepper;1"
     }, {
         guid = "Questyno_MikePozzo6_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo6_D",
         icon = "media/textures/Item_SushiEgg",
         hidden = false,
         needsitem = "Base.FishRoe;1",
-        onobtained = "updateobjective;Questyno_MikePozzo6;3;Completed;removeitem;Base.FishRoe;1"
+        onobtained = "updateobjective;Questyno_MikePozzo6_A;3;Completed;removeitem;Base.FishRoe;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo6_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -281,21 +281,21 @@ local pozzoQuest8A = {
         text = "IGUI_SFQuest_Questyno_MikePozzo8_B",
         needsitem = "Salt;1",
         icon = "media/textures/Item_Salt",
-        onobtained = "updateobjective;Questyno_MikePozzo8;1;Completed;removeitem;Salt;1",
+        onobtained = "updateobjective;Questyno_MikePozzo8_A;1;Completed;removeitem;Salt;1",
         hidden = false,
     }, {
         guid = "Questyno_MikePozzo8_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo8_C",
         needsitem = "Flour;1",
         icon = "media/textures/Item_Flour",
-        onobtained = "updateobjective;Questyno_MikePozzo8;2;Completed;removeitem;Flour;1",
+        onobtained = "updateobjective;Questyno_MikePozzo8_A;2;Completed;removeitem;Flour;1",
         hidden = false,
     }, {
         guid = "Questyno_MikePozzo8_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo8_D",
         needsitem = "Yeast;1",
         icon = "media/textures/Item_Yeast",
-        onobtained = "updateobjective;Questyno_MikePozzo8;3;Completed;removeitem;Yeast;1",
+        onobtained = "updateobjective;Questyno_MikePozzo8_A;3;Completed;removeitem;Yeast;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo8_A_Text",
@@ -510,28 +510,28 @@ local pozzoQuest15A = {
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedCornedBeef;2",
-        onobtained = "updateobjective;Questyno_MikePozzo15;1;Completed;removeitem;Base.CannedCornedBeef;2"
+        onobtained = "updateobjective;Questyno_MikePozzo15_A;1;Completed;removeitem;Base.CannedCornedBeef;2"
     }, {
         guid = "Questyno_MikePozzo15_C",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_C",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.TVDinner;3",
-        onobtained = "updateobjective;Questyno_MikePozzo15;2;Completed;removeitem;Base.TVDinner;3"
+        onobtained = "updateobjective;Questyno_MikePozzo15_A;2;Completed;removeitem;Base.TVDinner;3"
     }, {
         guid = "Questyno_MikePozzo15_D",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_D",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CannedChili;3",
-        onobtained = "updateobjective;Questyno_MikePozzo15;3;Completed;removeitem;Base.CannedChili;3"
+        onobtained = "updateobjective;Questyno_MikePozzo15_A;3;Completed;removeitem;Base.CannedChili;3"
     }, {
         guid = "Questyno_MikePozzo15_E",
         text = "IGUI_SFQuest_Questyno_MikePozzo15_E",
         icon = "media/textures/Item_TVDinner",
         hidden = false,
         needsitem = "Base.CandyPackage;1",
-        onobtained = "updateobjective;Questyno_MikePozzo15;4;Completed;removeitem;Base.CandyPackage;1"
+        onobtained = "updateobjective;Questyno_MikePozzo15_A;4;Completed;removeitem;Base.CandyPackage;1"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_MikePozzo15_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -1270,8 +1270,8 @@ local chinaQuest19 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina19_Lore" },
-    needsitem = "tag#Mushroom;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Complete",
+    needsitem = "Tag#Mushroom;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina19_Text",
     texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina19_Title",

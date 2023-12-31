@@ -42,28 +42,28 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lu
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo3", text = "IGUI_SFQuest_Questyno_Lupo3_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo4", optional = true, text = "IGUI_SFQuest_Questyno_Lupo4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo4_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo4", text = "IGUI_SFQuest_Questyno_Lupo4_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo4_A", text = "IGUI_SFQuest_Questyno_Lupo4_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo5", optional = true, text = "IGUI_SFQuest_Questyno_Lupo5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo5", text = "IGUI_SFQuest_Questyno_Lupo5_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo5_A", text = "IGUI_SFQuest_Questyno_Lupo5_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo6", optional = true, text = "IGUI_SFQuest_Questyno_Lupo6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo6", text = "IGUI_SFQuest_Questyno_Lupo6_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo6_A", text = "IGUI_SFQuest_Questyno_Lupo6_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo7", optional = true, text = "IGUI_SFQuest_Questyno_Lupo7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo7", text = "IGUI_SFQuest_Questyno_Lupo7_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo7_A", text = "IGUI_SFQuest_Questyno_Lupo7_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo8", optional = true, text = "IGUI_SFQuest_Questyno_Lupo8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo8", text = "IGUI_SFQuest_Questyno_Lupo8_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo9", optional = true, text = "IGUI_SFQuest_Questyno_Lupo9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo9", text = "IGUI_SFQuest_Questyno_Lupo9_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo9_A", text = "IGUI_SFQuest_Questyno_Lupo9_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo10", optional = true, text = "IGUI_SFQuest_Questyno_Lupo10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo10", text = "IGUI_SFQuest_Questyno_Lupo10_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo10_A", text = "IGUI_SFQuest_Questyno_Lupo10_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo11", optional = true, text = "IGUI_SFQuest_Questyno_Lupo11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo11", text = "IGUI_SFQuest_Questyno_Lupo11_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo11_A", text = "IGUI_SFQuest_Questyno_Lupo11_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo12", optional = true, text = "IGUI_SFQuest_Questyno_Lupo12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo12", text = "IGUI_SFQuest_Questyno_Lupo12_Complete"})
@@ -72,13 +72,13 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lu
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo13", text = "IGUI_SFQuest_Questyno_Lupo13_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo14", optional = true, text = "IGUI_SFQuest_Questyno_Lupo14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo14", text = "IGUI_SFQuest_Questyno_Lupo14_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo14_A", text = "IGUI_SFQuest_Questyno_Lupo14_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo15", optional = true, text = "IGUI_SFQuest_Questyno_Lupo15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo15", text = "IGUI_SFQuest_Questyno_Lupo15_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo15_A", text = "IGUI_SFQuest_Questyno_Lupo15_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo16", optional = true, text = "IGUI_SFQuest_Questyno_Lupo16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo16", text = "IGUI_SFQuest_Questyno_Lupo16_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo16_A", text = "IGUI_SFQuest_Questyno_Lupo16_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo17", optional = true, text = "IGUI_SFQuest_Questyno_Lupo17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo17", text = "IGUI_SFQuest_Questyno_Lupo17_Complete"})
@@ -902,7 +902,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Em
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EmilyTerry14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EmilyTerry14_A", text = "IGUI_SFQuest_Questyno_EmilyTerry14_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EmilyTerry15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EmilyTerry15", optional = true, text = "IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EmilyTerry15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EmilyTerry15_A", text = "IGUI_SFQuest_Questyno_EmilyTerry15_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EmilyTerry15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EmilyTerry15", text = "IGUI_SFQuest_Questyno_EmilyTerry15_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EmilyTerry16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EmilyTerry16", optional = true, text = "IGUI_SFQuest_Questyno_EmilyTerry16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EmilyTerry16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EmilyTerry16_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EmilyTerry16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EmilyTerry16_A", text = "IGUI_SFQuest_Questyno_EmilyTerry16_Complete"})
@@ -1128,7 +1128,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Su
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SusanLee22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SusanLee22", text = "IGUI_SFQuest_Questyno_SusanLee22_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SusanLee23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SusanLee23", optional = true, text = "IGUI_SFQuest_Questyno_SusanLee23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SusanLee23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SusanLee23_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SusanLee23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SusanLee23_B", text = "IGUI_SFQuest_Questyno_SusanLee23_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SusanLee23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SusanLee23_A", text = "IGUI_SFQuest_Questyno_SusanLee23_Complete"})
 
 --[[
             *** George Scott ***
@@ -1229,7 +1229,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Ge
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GeorgeScott22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GeorgeScott22", text = "IGUI_SFQuest_Questyno_GeorgeScott22_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GeorgeScott23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GeorgeScott23", optional = true, text = "IGUI_SFQuest_Questyno_GeorgeScott23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GeorgeScott23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GeorgeScott23_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GeorgeScott23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GeorgeScott23_A", text = "IGUI_SFQuest_Questyno_GeorgeScott23_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GeorgeScott23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GeorgeScott23", text = "IGUI_SFQuest_Questyno_GeorgeScott23_Complete"})
 
 
 
@@ -1601,7 +1601,7 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Ra
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso8", text = "IGUI_SFQuest_Questyno_RafaelPrezioso8_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso9", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso9_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso9_A", text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RafaelPrezioso10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RafaelPrezioso10", optional = true, text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RafaelPrezioso10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RafaelPrezioso10_B", text = "IGUI_SFQuest_Questyno_RafaelPrezioso10_Complete"})

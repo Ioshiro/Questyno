@@ -307,25 +307,25 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo10",
     
-    awardstask = "Questyno_Lupo9_A",
+    awardstask = "Questyno_Lupo10_A",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
     objectives = { {
-        guid = "Questyno_Lupo9_A",
-        text = "IGUI_SFQuest_Questyno_Lupo9_A",
+        guid = "Questyno_Lupo10_A",
+        text = "IGUI_SFQuest_Questyno_Lupo10_A",
         hidden = false,
         needsitem = "Bullets45Box;2",
-        onobtained = "updateobjective;Questyno_Lupo9:1:Completed;removeitem;Bullets45Box;2"
+        onobtained = "updateobjective;Questyno_Lupo10:1:Completed;removeitem;Bullets45Box;2"
     }, {
-        guid = "Questyno_Lupo9_B",
-        text = "IGUI_SFQuest_Questyno_Lupo9_B",
+        guid = "Questyno_Lupo10_B",
+        text = "IGUI_SFQuest_Questyno_Lupo10_B",
         hidden = false,
         needsitem = "45Clip;2",
-        onobtained = "updateobjective;Questyno_Lupo9:2:Completed;removeitem;45Clip;2"
+        onobtained = "updateobjective;Questyno_Lupo10:2:Completed;removeitem;45Clip;2"
     } },
-    text = "IGUI_SFQuest_Questyno_Lupo9_Text",
+    text = "IGUI_SFQuest_Questyno_Lupo10_Text",
     texture = "media/textures/Item_TonyLupo.png",
-    title = "IGUI_SFQuest_Questyno_Lupo9_Title",
+    title = "IGUI_SFQuest_Questyno_Lupo10_Title",
     unlockedsound = "QuestUnlocked"
 })
 
@@ -915,7 +915,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso9_Title",
-    unlocks = "clickevent;9693x11536x0:EventoRafaelPrezioso9;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso9:1:Completed;clickevent;10013x11552x0:EventoRafaelPrezioso9;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso9:1:Completed",
+    unlocks = "clickevent;9693x11536x0:EventoRafaelPrezioso9;time:50:anim:loot;updateobjective:Questyno_RafaelPrezioso9:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -1339,7 +1339,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso19_A",
     awardsrep = "LaResistenza;50",
-    awardsitem = "Money;50",
     awardstask = "Questyno_RafaelPrezioso20",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",

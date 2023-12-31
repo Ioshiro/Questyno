@@ -1646,7 +1646,7 @@ local leeQuest23 = {
         guid = "Questyno_SusanLee23_A",
         text = "IGUI_SFQuest_Questyno_SusanLee23_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee23;additem;Moveable.location_community_medical_01_16;1;additem;Moveable.location_community_medical_01_17;1"
+        oncompleted = "removeclickevent;EventoSusanLee23;additem;Mattress;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee23_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1656,40 +1656,16 @@ local leeQuest23 = {
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23);
 
-local leeQuest23A = {
-    guid = "Questyno_SusanLee23_A",
-
-    awardstask = "Questyno_SusanLee23_B", -- TASK REWARD
-    dailycode = "Questyno_SusanLee",
-    lore = { "IGUI_SFQuest_Questyno_SusanLee23_Lore" },
-    objectives = { {
-        guid = "Questyno_SusanLee23_B",
-        text = "IGUI_SFQuest_Questyno_SusanLee23_B",
-        hidden = false,
-        needsitem = "Moveable.location_community_medical_01_16;1",
-        onobtained = "updateobjective;Questyno_SusanLee23_A;1:Completed;removeitem;Moveable.location_community_medical_01_16;1"
-    },{
-        guid = "Questyno_SusanLee23_C",
-        text = "IGUI_SFQuest_Questyno_SusanLee23_C",
-        hidden = false,
-        needsitem = "Moveable.location_community_medical_01_17;1",
-        onobtained = "updateobjective;Questyno_SusanLee23_A;1:Completed;removeitem;Moveable.location_community_medical_01_17;1"
-    } },
-    text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
-    texture = "media/textures/Item_SusanLee.png",
-    title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
-}
-table.insert(SFQuest_Database.QuestPool, leeQuest23A);
-
 local leeQuest23B = {
-    guid = "Questyno_SusanLee23_B",
+    guid = "Questyno_SusanLee23_A",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardstask = "Questyno_SusanLee1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee23_Lore" },
-    unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Complete",
+    needsitem = "Mattress;2", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee23_A_Text",
     texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
@@ -3350,145 +3326,145 @@ table.insert(SFQuest_Database.QuestPool,{
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura17",
+    guid = "Questyno_XuMishura17",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
     awardstask = "Questyno_XuMishura18", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "HoodieDown_WhiteTINT;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura17_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura17_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura17_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura17_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura17_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura17_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura18",
+    guid = "Questyno_XuMishura18",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardstask = "Questyno_XuMishura19", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Jumper_PoloNeck;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura18_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura18_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura18_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura18_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura18_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura18_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura19",
+    guid = "Questyno_XuMishura19",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
     awardstask = "Questyno_XuMishura20", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Jumper_Military;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura19_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura19_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura19_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura19_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura19_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura19_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura20",
+    guid = "Questyno_XuMishura20",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardstask = "Questyno_XuMishura21", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Vest_DefaultTEXTURE;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura20_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura20_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura20_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura20_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura20_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura20_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura21",
+    guid = "Questyno_XuMishura21",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardstask = "Questyno_XuMishura22", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Shirt_HawaiianRed;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura21_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura21_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura21_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura21_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura21_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura21_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura22",
+    guid = "Questyno_XuMishura22",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardstask = "Questyno_XuMishura23", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Shirt_Denim;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura22_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura22_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura22_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura22_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura22_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura22_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura23",
+    guid = "Questyno_XuMishura23",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardstask = "Questyno_XuMishura24", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Shirt_PrisonGuard;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura23_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura23_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura23_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura23_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura23_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura23_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura24",
+    guid = "Questyno_XuMishura24",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardstask = "Questyno_XuMishura25", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "Shirt_PoliceBlue;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura24_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura24_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura24_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura24_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura24_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura24_Title",
     unlockedsound = "QuestUnlocked"
 })
 
 table.insert(SFQuest_Database.QuestPool,{
-    guid = "QuestyNo_XuMishura25",
+    guid = "Questyno_XuMishura25",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardstask = "Questyno_XuMishura26", -- TODO: REMOVE WHEN TESTING IS DONE
     needsitem = "LongCoat_Bathrobe;1", -- REQUIRE
     completesound = "levelup",
-    dailycode = "QuestyNo_XuMishura",
-    lore = { "IGUI_SFQuest_QuestyNo_XuMishura25_Lore" },
+    dailycode = "Questyno_XuMishura",
+    lore = { "IGUI_SFQuest_Questyno_XuMishura25_Lore" },
     text = "IGUI_SFQuest_Questyno_XuMishura25_Text",
     texture = "media/textures/Item_XuMishura.png",
-    onobtained = "unlockworldevent;QuestyNo_XuMishura;SFQuest_Questyno_XuMishura25_Complete",
+    onobtained = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura25_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura25_Title",
     unlockedsound = "QuestUnlocked"
 })
@@ -3687,8 +3663,8 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_DavidTurner6_C",
         text = "IGUI_SFQuest_Questyno_DavidTurner6_C",
         hidden = false,
-        needsitem = "RadioTransmitter;4",
-        onobtained = "updateobjective;Questyno_DavidTurner6:3:Completed;removeitem;RadioTransmitter;4"
+        needsitem = "radio.RadioTransmitter;4",
+        onobtained = "updateobjective;Questyno_DavidTurner6:3:Completed;removeitem;radio.RadioTransmitter;4"
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner6_Text",
     texture = "media/textures/Item_DavidTurner.png",
