@@ -1337,7 +1337,7 @@ local chinaQuest22 = {
     guid = "Questyno_RosaChina22",
 
     awardsrep = "LaResistenza;20", -- REP REWARD
-    awardsitem = "Base.Pestle",  -- ITEM REWARD
+    awardsitem = "Base.MortarPestle",  -- ITEM REWARD
     awardstask = "Questyno_RosaChina23", -- TODO: REMOVE WHEN TEST IS DONE
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",

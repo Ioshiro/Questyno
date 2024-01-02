@@ -1657,7 +1657,7 @@ local leeQuest23 = {
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest23);
 
-local leeQuest23B = {
+local leeQuest23A = {
     guid = "Questyno_SusanLee23_A",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
@@ -1671,7 +1671,7 @@ local leeQuest23B = {
     texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee23_Title",
 }
-table.insert(SFQuest_Database.QuestPool, leeQuest23B);
+table.insert(SFQuest_Database.QuestPool, leeQuest23A);
 
 --[[
             *** George Scott ***
@@ -2638,7 +2638,7 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_SamuelYoung8_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung8_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSamuelYoung8;additem;Moveables.camping_01_17;1",
+        oncompleted = "removeclickevent;EventoSamuelYoung8;additem;PynoTweaks.RollingsPapers;1",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung8_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2656,7 +2656,7 @@ table.insert(SFQuest_Database.QuestPool,{
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung8_Lore" },
-    needsitem = "Moveables.camping_01_17;1",
+    needsitem = "PynoTweaks.RollingsPapers;1",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung8_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung8_A_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -3555,7 +3555,7 @@ table.insert(SFQuest_Database.QuestPool,{
     completesound = "levelup",
     dailycode = "Questyno_DavidTurner",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner3_Lore" },
-    needsitem = "Sweapons.ScrapSpear;1",
+    needsitem = "SWeapons.ScrapSpear;1",
     onobtained = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner3_Complete",
     text = "IGUI_SFQuest_Questyno_DavidTurner3_A_Text",
     texture = "media/textures/Item_DavidTurner.png",
@@ -3874,7 +3874,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_DavidTurner15_A",
-    
+
     awardstask = "Questyno_DavidTurner15_B",
     dailycode = "Questyno_DavidTurner",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner15_Lore" },
