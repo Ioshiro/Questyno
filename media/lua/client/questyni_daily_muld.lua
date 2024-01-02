@@ -872,7 +872,7 @@ local leeQuest1A = {
     guid = "Questyno_SusanLee1_A",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
-    awardsitem = "Base_Disinfectant;1", -- ITEM REWARD
+    awardsitem = "Base.Disinfectant;1", -- ITEM REWARD
     awardstask = "Questyno_SusanLee2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
@@ -895,7 +895,7 @@ local leeQuest2 = {
         guid = "Questyno_SusanLee2_A",
         text = "IGUI_SFQuest_Questyno_SusanLee2_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee2;additem;LabSyringePack;4"
+        oncompleted = "removeclickevent;EventoSusanLee2;additem;LabItems.LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee2_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -909,12 +909,12 @@ local leeQuest2A = {
     guid = "Questyno_SusanLee2_A",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Base_SutureNeedle;1", -- ITEM REWARD
+    awardsitem = "Base.SutureNeedle;1", -- ITEM REWARD
     awardstask = "Questyno_SusanLee3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee2_Lore" },
-    needsitem = "LabSyringePack;4", -- REQUIRE
+    needsitem = "LabItems.LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee2_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee2_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -932,7 +932,7 @@ local leeQuest3 = {
         guid = "Questyno_SusanLee3_A",
         text = "IGUI_SFQuest_Questyno_SusanLee3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee3;additem;LabSyringePack;4"
+        oncompleted = "removeclickevent;EventoSusanLee3;additem;LabItems.LabSyringePack;4"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee3_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -951,7 +951,7 @@ local leeQuest3A = {
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee3_Lore" },
-    needsitem = "LabSyringePack;4", -- REQUIRE
+    needsitem = "LabItems.LabSyringePack;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee3_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee3_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1012,7 +1012,7 @@ local leeQuest5 = {
     texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee5_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;11939x6795x1:EventoSusanLee5;anim:loot:time:50;updateobjective:Questyno_SusanLee5:1:Completed"
+    unlocks = "clickevent;11939x6795x0:EventoSusanLee5;anim:loot:time:50;updateobjective:Questyno_SusanLee5:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest5);
 
@@ -1020,7 +1020,7 @@ local leeQuest5A = {
     guid = "Questyno_SusanLee5_A",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
-    awardsitem = "Money;20;Base_Bandage;1", -- ITEM REWARD
+    awardsitem = "Money;20;Base.Bandage;2", -- ITEM REWARD
     awardstask = "Questyno_SusanLee6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
@@ -1038,6 +1038,7 @@ local leeQuest6 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardstask = "Questyno_SusanLee7", -- TODO: REMOVE WHEN TESTING IS DONE
+    completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee6_Lore" },
     needsitem = "Splint;1", -- REQUIRE
@@ -1054,6 +1055,7 @@ local leeQuest7 = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardstask = "Questyno_SusanLee8", -- TODO: REMOVE WHEN TESTING IS DONE
+    completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee7_Lore" },
     needsitem = "Antibiotics;1", -- REQUIRE
@@ -1070,6 +1072,7 @@ local leeQuest8 = {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardstask = "Questyno_SusanLee9", -- TODO: REMOVE WHEN TESTING IS DONE
+    completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee8_Lore" },
     needsitem = "AlcoholRippedSheets;50", -- REQUIRE
@@ -1086,6 +1089,7 @@ local leeQuest9 = {
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardstask = "Questyno_SusanLee10", -- TODO: REMOVE WHEN TESTING IS DONE
+    completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee9_Lore" },
     needsitem = "LabSyringe;1", -- REQUIRE
@@ -2253,28 +2257,8 @@ local scottQuest15A = {
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest15A);
 
-local scottQuest16 = {
-    guid = "Questyno_GeorgeScott16",
-
-    awardstask = "Questyno_GeorgeScott16_A", -- TASK REWARD
-    dailycode = "Questyno_GeorgeScott",
-    lore = { "IGUI_SFQuest_Questyno_GeorgeScott16_Lore" },
-    objectives = { {
-        guid = "Questyno_GeorgeScott16_A",
-        text = "IGUI_SFQuest_Questyno_GeorgeScott16_A",
-        hidden = false,
-        oncompleted = "removeclickevent;EventoGeorgeScott16;additem;Moveables.DylansElectronics01_46;1"
-    } },
-    text = "IGUI_SFQuest_Questyno_GeorgeScott16_Text",
-    texture = "media/textures/Item_GeorgeScott.png",
-    title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
-    unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;9747x10589x0:EventoGeorgeScott16;anim:loot:time:50;updateobjective:Questyno_GeorgeScott16:1:Completed"
-}
-table.insert(SFQuest_Database.QuestPool, scottQuest16);
-
 local scottQuest16A = {
-    guid = "Questyno_GeorgeScott16_A",
+    guid = "Questyno_GeorgeScott16",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "SWeapons.SalvagedMachete;1", -- ITEM REWARD
@@ -2282,9 +2266,9 @@ local scottQuest16A = {
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott16_Lore" },
-    needsitem = "Moveables.DylansElectronics01_46;1", -- REQUIRE
+    needsitem = "Tag#GuitarElectricBass;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott16_Complete",
-    text = "IGUI_SFQuest_Questyno_GeorgeScott16_A_Text",
+    text = "IGUI_SFQuest_Questyno_GeorgeScott16_Text",
     texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott16_Title",
 }
@@ -2400,13 +2384,13 @@ local scottQuest20 = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott20_A",
         hidden = false,
         needsitem = "Base.TrousersMesh_DenimLight;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott20_A;1;Completed;removeitem;Base.TrousersMesh_DenimLight;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott20;1;Completed;removeitem;Base.TrousersMesh_DenimLight;1"
     },{
         guid = "Questyno_GeorgeScott20_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott20_B",
         hidden = false,
         needsitem = "Base.JacketLong_Random;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott20_A;2;Completed;removeitem;Base.JacketLong_Random;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott20;2;Completed;removeitem;Base.JacketLong_Random;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott20_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -3553,7 +3537,7 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_DavidTurner3_A",
         text = "IGUI_SFQuest_Questyno_DavidTurner3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoDavidTurner3;additem;Sweapons.ScrapSpear;1",
+        oncompleted = "removeclickevent;EventoDavidTurner3;additem;SWeapons.ScrapSpear;1",
     } },
     text = "IGUI_SFQuest_Questyno_DavidTurner3_Text",
     texture = "media/textures/Item_DavidTurner.png",
