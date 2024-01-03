@@ -1421,8 +1421,8 @@ table.insert(SFQuest_Database.QuestPool, {
 				4. Recuperare Base.BookFirstAid2,Base.BookMechanic3,Base.BookFirstAid1,Base.BookFishing1 (150rep)
 				5. Recuperare BaseBookFarming2,Base.BookFirstAid3,Base.BookFishing2,Base.BookFirstAid5 (130rep)
 				6. Recuperare Base.BookFarming4,Base.BookTrapping4,Base.BookForaging4,Base.BookForaging5 (180rep)
-				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (MANCANO COORDINATE) (100rep + 25$)
-				8. Recupero  Base.BookMechanic1,Base.BookCarpentry5,Base.BookFarming5,Base.BookFirstAid5,Base.BookMechanic5,Base.BookMetalWelding5 a (MANCANO COORDINATE) (70rep + 30$) 
+				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (8346x11716x0) (100rep + 25$)
+				8. Recupero  Base.BookMechanic1,Base.BookCarpentry5,Base.BookFarming5,Base.BookFirstAid5,Base.BookMechanic5,Base.BookMetalWelding5 a (10611,10363,0) (70rep + 30$) 
 				9. Recuperare Base.TVMagazine;5 (60rep)
 				10. Recuperare Base.BookFarming1,Base.BookFarming2,Base.BookFarming3,Base.BookFarming4,Base.BookFarming5 (250rep)
 				11. Recuperare Base.BookElectrician1,Base.BookElectrician2,Base.BookElectrician3,Base.BookElectrician4,Base.BookElectrician5 (220rep)
@@ -1430,7 +1430,7 @@ table.insert(SFQuest_Database.QuestPool, {
 				13. Recuperare Base.BookFishing3,Base.BookMetalWelding2,Base.BookMetalWelding3,Base.BookCarpentry4,Base.BookTrapping2 (140rep)
 				14. Recuperare Base.BookFishing4,Base.BookMetalWelding1,Base.BookMetalWelding2,Base.BookCarpentry2,Base.BookTrapping5 (150rep)
 				15. Recuperare Base.BookForaging4,Base.BookForaging3,Base.BookMechanic1,Base.BookCarpentry2,BaseBookFarming5 (130rep)
-				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (MANCANO COORDINATE) (80rep) 
+				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (9681,11178,0) (80rep) 
 				17. Recuperare Base.FishingMag1,Base.FishingMag2 parlando con (8090,11511,0) (75rep)
 				18. Recuperare Base.ElectronicsMag1,Base.ElectronicsMag2,Base.ElectronicsMag3 parlando con (10627,9973,0) (70rep + 30$)
 				19. Recuperare Base.SheetPaper2;4,Base.Crayons;2 (100rep + 20$)
@@ -1731,7 +1731,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis6_A",
     awardsrep = "LaResistenza;180",
-    awardstask = "Questyno_JeffreyLewis9",
+    awardstask = "Questyno_JeffreyLewis7",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis6_Lore" },
@@ -1740,7 +1740,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_JeffreyLewis6_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis6_Complete",
 });
---[[ 
+
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis7",
     awardstask = "Questyno_JeffreyLewis7_A",
@@ -1750,42 +1750,60 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JeffreyLewis7_A",
         text = "IGUI_SFQuest_Questyno_JeffreyLewis7_A",
         hidden = false,
-        needsitem = "Base.ElectronicsMag3;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis7:1:Completed;removeitem;Base.ElectronicsMag3;1",
-    },{
-        guid = "Questyno_JeffreyLewis7_B",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis7_B",
-        hidden = false,
-        needsitem = "Base.FarmingMag1;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis7:2:Completed;removeitem;Base.FarmingMag1;1",
-    },{
-        guid = "Questyno_JeffreyLewis7_C",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis7_C",
-        hidden = false,
-        needsitem = "Base.FishingMag2;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis7:3:Completed;removeitem;Base.FishingMag2;1",
-    },{
-        guid = "Questyno_JeffreyLewis7_D",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis7_D",
-        hidden = false,
-        needsitem = "Base.ElectronicsMag2;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis7:4:Completed;removeitem;Base.ElectronicsMag2;1",
-    }},
+        oncompleted = "removeclickevent;EventoJeffreyLewis7;additem;ElectronicsMag3;1;additem;FarmingMag1;1;additem;FishingMag2;1;additem;ElectronicsMag2;1",
+    } },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis7_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
+    unlocks = "clickevent;8346x11716x0:EventoJeffreyLewis7;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis7:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis7_A",
+    
+    awardstask = "Questyno_JeffreyLewis7_B",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis7_Lore" },
+    objectives = {
+        {
+            guid = "Questyno_JeffreyLewis7_B",
+            text = "IGUI_SFQuest_Questyno_JeffreyLewis7_B",
+            hidden = false,
+            needsitem = "Base.ElectronicsMag3;1",
+            onobtained = "updateobjective;Questyno_JeffreyLewis7_A;1;Completed;removeitem;Base.ElectronicsMag3;1",
+        },{
+            guid = "Questyno_JeffreyLewis7_C",
+            text = "IGUI_SFQuest_Questyno_JeffreyLewis7_C",
+            hidden = false,
+            needsitem = "Base.FarmingMag1;1",
+            onobtained = "updateobjective;Questyno_JeffreyLewis7_A;2;Completed;removeitem;Base.FarmingMag1;1",
+        },{
+            guid = "Questyno_JeffreyLewis7_D",
+            text = "IGUI_SFQuest_Questyno_JeffreyLewis7_D",
+            hidden = false,
+            needsitem = "Base.FishingMag2;1",
+            onobtained = "updateobjective;Questyno_JeffreyLewis7_A;3;Completed;removeitem;Base.FishingMag2;1",
+        },{
+            guid = "Questyno_JeffreyLewis7_E",
+            text = "IGUI_SFQuest_Questyno_JeffreyLewis7_E",
+            hidden = false,
+            needsitem = "Base.ElectronicsMag2;1",
+            onobtained = "updateobjective;Questyno_JeffreyLewis7_A;4;Completed;removeitem;Base.ElectronicsMag2;1",
+        } },
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text",
+        texture = "media/textures/Item_JeffreyLewis.png",
+        title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JeffreyLewis7_B",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;25",
     awardstask = "Questyno_JeffreyLewis8",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis7_Lore" },
-    text = "IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text",
+    text = "IGUI_SFQuest_Questyno_JeffreyLewis7_B_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis7_Complete",
@@ -1800,59 +1818,76 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JeffreyLewis8_A",
         text = "IGUI_SFQuest_Questyno_JeffreyLewis8_A",
         hidden = false,
-        needsitem = "Base.BookMechanic1;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:1:Completed;removeitem;Base.BookMechanic1;1",
-    },{
-        guid = "Questyno_JeffreyLewis8_B",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_B",
-        hidden = false,
-        needsitem = "Base.BookCarpentry5;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:2:Completed;removeitem;Base.BookCarpentry5;1",
-    },{
-        guid = "Questyno_JeffreyLewis8_C",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_C",
-        hidden = false,
-        needsitem = "Base.BookFarming5;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:3:Completed;removeitem;Base.BookFarming5;1",
-    },{
-        guid = "Questyno_JeffreyLewis8_D",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_D",
-        hidden = false,
-        needsitem = "Base.BookFirstAid5;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:4:Completed;removeitem;Base.BookFirstAid5;1",
-    },{
-        guid = "Questyno_JeffreyLewis8_E",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_E",
-        hidden = false,
-        needsitem = "Base.BookMechanic5;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:5:Completed;removeitem;Base.BookMechanic5;1",
-    },{
-        guid = "Questyno_JeffreyLewis8_F",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_F",
-        hidden = false,
-        needsitem = "Base.BookMetalWelding5;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis8:6:Completed;removeitem;Base.BookMetalWelding5;1",
-    }},
+        oncompleted = "removeclickevent;EventoJeffreyLewis8;additem;BookMechanic1;1;additem;BookCarpentry5;1;additem;BookFarming5;1;additem;BookFirstAid5;1;additem;BookMechanic5;1;additem;BookMetalWelding5;1",
+    } },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis8_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis8_Title",
+    unlocks = "clickevent;10611x10366x0:EventoJeffreyLewis8;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis8:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis8_A",
+    awardstask = "Questyno_JeffreyLewis8_B",
+    dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis8_Lore" },
+    objectives = { {
+        guid = "Questyno_JeffreyLewis8_B",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_B",
+        hidden = false,
+        needsitem = "Base.BookMechanic1;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;1;Completed;removeitem;Base.BookMechanic1;1",
+    },{
+        guid = "Questyno_JeffreyLewis8_C",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_C",
+        hidden = false,
+        needsitem = "Base.BookCarpentry5;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;2;Completed;removeitem;Base.BookCarpentry5;1",
+    },{
+        guid = "Questyno_JeffreyLewis8_D",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_D",
+        hidden = false,
+        needsitem = "Base.BookFarming5;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;3;Completed;removeitem;Base.BookFarming5;1",
+    },{
+        guid = "Questyno_JeffreyLewis8_E",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_E",
+        hidden = false,
+        needsitem = "Base.BookFirstAid5;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;4;Completed;removeitem;Base.BookFirstAid5;1",
+    },{
+        guid = "Questyno_JeffreyLewis8_F",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_F",
+        hidden = false,
+        needsitem = "Base.BookMechanic5;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;5;Completed;removeitem;Base.BookMechanic5;1",
+    },{
+        guid = "Questyno_JeffreyLewis8_G",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis8_G",
+        hidden = false,
+        needsitem = "Base.BookMetalWelding5;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis8_A;6;Completed;removeitem;Base.BookMetalWelding5;1",
+    }},
+    text = "IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text",
+    texture = "media/textures/Item_JeffreyLewis.png",
+    title = "IGUI_SFQuest_Questyno_JeffreyLewis8_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JeffreyLewis8_B",
     awardsrep = "LaResistenza;70",
     awardsitem = "Money;30",
     awardstask = "Questyno_JeffreyLewis9",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis8_Lore" },
-    text = "IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text",
+    text = "IGUI_SFQuest_Questyno_JeffreyLewis8_B_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis8_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis8_Complete",
 });
- ]]
+
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis9",
     awardsrep = "LaResistenza;60",
@@ -2148,7 +2183,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis15_A",
     awardsrep = "LaResistenza;130",
-    awardstask = "Questyno_JeffreyLewis17",
+    awardstask = "Questyno_JeffreyLewis16",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis15_Lore" },
@@ -2157,7 +2192,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_JeffreyLewis15_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis15_Complete",
 });
---[[ 
+
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis16",
     awardstask = "Questyno_JeffreyLewis16_A",
@@ -2167,33 +2202,50 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JeffreyLewis16_A",
         text = "IGUI_SFQuest_Questyno_JeffreyLewis16_A",
         hidden = false,
-        needsitem = "Base.HuntingMag1;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis16:1:Completed;removeitem;Base.HuntingMag1;1",
-    },{
-        guid = "Questyno_JeffreyLewis16_B",
-        text = "IGUI_SFQuest_Questyno_JeffreyLewis16_B",
-        hidden = false,
-        needsitem = "Base.HuntingMag2;1",
-        onobtained = "updateobjective;Questyno_JeffreyLewis16:2:Completed;removeitem;Base.HuntingMag2;1",
-    }},
+        oncompleted = "removeclickevent;EventoJeffreyLewis16;additem;HuntingMag1;1;additem;HuntingMag2;1",
+    } },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis16_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
+    unlocks = "clickevent;9681x11178x0:EventoJeffreyLewis16;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis16:1:Completed",
     unlockedsound = "QuestUnlocked"
-}); 
+});
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis16_A",
+    awardstask = "Questyno_JeffreyLewis16_B",
+    dailycode = "Questyno_JeffreyLewis",
+    lore = { "IGUI_SFQuest_Questyno_JeffreyLewis16_Lore" },
+    objectives = { {
+        guid = "Questyno_JeffreyLewis16_B",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis16_B",
+        hidden = false,
+        needsitem = "Base.HuntingMag1;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis16_A;1;Completed;removeitem;Base.HuntingMag1;1",
+    },{
+        guid = "Questyno_JeffreyLewis16_C",
+        text = "IGUI_SFQuest_Questyno_JeffreyLewis16_C",
+        hidden = false,
+        needsitem = "Base.HuntingMag2;1",
+        onobtained = "updateobjective;Questyno_JeffreyLewis16_A;2;Completed;removeitem;Base.HuntingMag2;1",
+    }},
+    text = "IGUI_SFQuest_Questyno_JeffreyLewis16_A_Text",
+    texture = "media/textures/Item_JeffreyLewis.png",
+    title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
+}); 
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JeffreyLewis16_B",
     awardsrep = "LaResistenza;80",
     awardstask = "Questyno_JeffreyLewis17",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis16_Lore" },
-    text = "IGUI_SFQuest_Questyno_JeffreyLewis16_A_Text",
+    text = "IGUI_SFQuest_Questyno_JeffreyLewis16_B_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis16_Complete",
-});]]
+});
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis17",
@@ -2209,7 +2261,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis17_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis17_Title",
-    unlocks= "clickevent;8090x11511x0:EventoJeffreyLewis17;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis17:1:Completed",
+    unlocks= "clickevent;8090x11511x0:EventoJeffreyLewis17;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis17:1;Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2457,20 +2509,20 @@ table.insert(SFQuest_Database.QuestPool, {
 				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
 				3. Recuperare farming.Cabbage;3 (200rep + 30$)
 				4. Recuperare BaseSalad;2 (150rep + Base.Bowl;2)
-				5. Recuperare Base.Butter;2 parlando con (MANCANO COORDINATE)5 (60rep + 70$)
-				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (MANCANO COORDINATE)6 (100rep + Base.SushiEgg)
+				5. Recuperare Base.Butter;2 parlando con  (12315,11739,0) (60rep + 70$)
+				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (8199,11177,0) (100rep + Base.SushiEgg)
 				7. Recuperare Base.Rabbitmeat (ANCHE 25%) (65rep + Base.Burger)
 				8. Recuperare Base.Apron_Black (150rep + 50$)
 				9. Recuperare Base.GridlePan;2 (100rep)
 				10. Recuperare Base.Saucepan;2 (100rep)
 				11. Recuperare Base.KitchenKnife;4 (200rep)
-				12. Recuperare Base.Cereal;2 parlando con (MANCANO COORDINATE)12 (50rep)
+				12. Recuperare Base.Cereal;2 parlando con (7373,9732,0) (50rep)
 				13. Recuperare Base.BeerCan (150rep)
 				14. Recuperare Base.WaterBottleFull (40rep)
-				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (MANCANO COORDINATE)15 (60rep + Base.Lobster)
-				16. Recuperare Base.Lard parlando con (MANCANO COORDINATE)16 (25rep + Base.Milk)
+				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con  (8108,9699,0) (60rep + Base.Lobster)
+				16. Recuperare Base.Lard parlando con (11287,8287,0) (25rep + Base.Milk)
 				17. Recuperare 35$ (50rep + Base.Butter)
-				18. Recuperare Base.Egg;4 parlando con (MANCANO COORDINATE)18 (40rep + FETTA DI Base.PineApple)
+				18. Recuperare Base.Egg;4 parlando con (13603,6883,0) (40rep + FETTA DI Base.PineApple)
 				19. Recuperare Base.Spoon;6 (100rep + 20$)
 				20. Recuperare Base.PanRecipe (100rep + Base.Pan)
 				21. Recuperare Base.PotSoupRecipe;2 (50rep + Base.Pot;2)
@@ -2559,15 +2611,32 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis5",
+    awardstask = "Questyno_ChristopherDavis5_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis5_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis5_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis5;additem;Base.Butter;2",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis5_Title",
+    unlocks = "clickevent;12315x11739x0:EventoChristopherDavis5;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis5:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis5_A",
     awardsrep = "LaResistenza;60",
     awardsitem = "Money;70",
     awardstask = "Questyno_ChristopherDavis6",
     completesound = "levelup",
-    dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis5_Lore" },
     needsitem = "Base.Butter;2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis5_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis5_A_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis5_Title",
     unlockedsound = "QuestUnlocked"
@@ -2575,18 +2644,62 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis6",
+    awardstask = "Questyno_ChristopherDavis6_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis6_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis6;additem;Base.Hotsauce;1;additem;Base.Pepper;1;additem;Base.FishRoe;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis6_Title",
+    unlocks = "clickevent;8199x11177x0:EventoChristopherDavis6;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis6:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis6_A",
+    awardstask = "Questyno_ChristopherDavis6_B",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_A_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis6_B",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis6_B",
+        hidden = false,
+        needsitem = "Base.Hotsauce;1",
+        onobtained = "updateobjective;Questyno_ChristopherDavis6_A;1;Completed;removeitem;Base.Hotsauce;1",
+    },{
+        guid = "Questyno_ChristopherDavis6_C",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis6_C",
+        hidden = false,
+        needsitem = "Base.Pepper;1",
+        onobtained = "updateobjective;Questyno_ChristopherDavis6_A;2;Completed;removeitem;Base.Pepper;1",
+    },{
+        guid = "Questyno_ChristopherDavis6_D",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis6_D",
+        hidden = false,
+        needsitem = "Base.FishRoe;1",
+        onobtained = "updateobjective;Questyno_ChristopherDavis6_A;3;Completed;removeitem;Base.FishRoe;1",
+    }},
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis6_A_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis6_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis6_B",
     awardsrep = "LaResistenza;100",
     awardsitem = "Base.SushiEgg;1",
     awardstask = "Questyno_ChristopherDavis7",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_Lore" },
-    needsitem = "Base.Hotsauce,Base.Pepper,Base.FishRoe",
-    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis6_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis6_B_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis6_Title",
-    unlockedsound = "QuestUnlocked"
+    unlocks = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis6_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2668,6 +2781,25 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis12",
+    awardstask = "Questyno_ChristopherDavis12_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis12_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis12_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis12_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis12;additem;Base.Cereal;2",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis12_Title",
+    unlocks = "clickevent;7373x9732x0:EventoChristopherDavis12;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis12:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis12_A",
     awardsrep = "LaResistenza;50",
     awardstask = "Questyno_ChristopherDavis13",
     completesound = "levelup",
@@ -2675,10 +2807,9 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis12_Lore" },
     needsitem = "Base.Cereal;2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis12_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis12_A_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis12_Title",
-    unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2713,22 +2844,90 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis15",
+    awardstask = "Questyno_ChristopherDavis15_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis15_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis15_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis15;additem;Base.CannedCornedBeef;3;additem;Base.Cereal;2;additem;Base.CannedChili;2;additem;Base.Lobster;3",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis15_Title",
+    unlocks = "clickevent;8108x9699x0:EventoChristopherDavis15;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis15:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis15_A",
+    awardstask = "Questyno_ChristopherDavis15_B",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_A_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis15_B",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis15_B",
+        hidden = false,
+        needsitem = "Base.CannedCornedBeef;3",
+        onobtained = "updateobjective;Questyno_ChristopherDavis15_A;1;Completed;removeitem;Base.CannedCornedBeef;3",
+    },{
+        guid = "Questyno_ChristopherDavis15_C",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis15_C",
+        hidden = false,
+        needsitem = "Base.Cereal;2",
+        onobtained = "updateobjective;Questyno_ChristopherDavis15_A;2;Completed;removeitem;Base.Cereal;2",
+    },{
+        guid = "Questyno_ChristopherDavis15_D",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis15_D",
+        hidden = false,
+        needsitem = "Base.CannedChili;2",
+        onobtained = "updateobjective;Questyno_ChristopherDavis15_A;3;Completed;removeitem;Base.CannedChili;2",
+    },{
+        guid = "Questyno_ChristopherDavis15_E",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis15_E",
+        hidden = false,
+        needsitem = "Base.Lobster;3",
+        onobtained = "updateobjective;Questyno_ChristopherDavis15_A;4;Completed;removeitem;Base.Lobster;3",
+    }},
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis15_A_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis15_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis15_B",
     awardsrep = "LaResistenza;60",
     awardsitem = "Base.Lobster;1",
     awardstask = "Questyno_ChristopherDavis16",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_Lore" },
-    needsitem = "Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3",
-    onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis15_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis15_B_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis15_Title",
-    unlockedsound = "QuestUnlocked"
+    unlocks = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis15_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis16",
+    awardstask = "Questyno_ChristopherDavis16_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis16_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis16_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis16_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis16;additem;Base.Lard;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis16_Title",
+    unlocks = "clickevent;11287x8287x0:EventoChristopherDavis16;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis16:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis16_A",
     awardsrep = "LaResistenza;25",
     awardsitem = "Base.Milk;1",
     awardstask = "Questyno_ChristopherDavis17",
@@ -2737,7 +2936,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis16_Lore" },
     needsitem = "Base.Lard",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis16_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis16_A_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis16_Title",
     unlockedsound = "QuestUnlocked"
@@ -2761,6 +2960,24 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis18",
+    awardstask = "Questyno_ChristopherDavis18_A",
+    dailycode = "Questyno_ChristopherDavis",
+    lore = { "IGUI_SFQuest_Questyno_ChristopherDavis18_Lore" },
+    objectives = { {
+        guid = "Questyno_ChristopherDavis18_A",
+        text = "IGUI_SFQuest_Questyno_ChristopherDavis18_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoChristopherDavis18;additem;Base.Egg;4",
+    } },
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Text",
+    texture = "media/textures/Item_ChristopherDavis.png",
+    title = "IGUI_SFQuest_Questyno_ChristopherDavis18_Title",
+    unlocks = "clickevent;13603x6883x0:EventoChristopherDavis18;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis18:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_ChristopherDavis18_A",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.PineApple;1",
     awardstask = "Questyno_ChristopherDavis19",
@@ -2769,7 +2986,7 @@ table.insert(SFQuest_Database.QuestPool, {
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis18_Lore" },
     needsitem = "Base.Egg;4",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis18_Complete",
-    text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Text",
+    text = "IGUI_SFQuest_Questyno_ChristopherDavis18_A_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis18_Title",
     unlockedsound = "QuestUnlocked"

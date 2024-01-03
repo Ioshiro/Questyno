@@ -24,6 +24,21 @@ function Questyno_Tweaks()
     manager:getItem("Base.Hat_BandanaTied"):DoParam("Tags".." = ".. "Bandana");
     manager:getItem("Base.Hat_BandanaMaskTINT"):DoParam("Tags".." = ".. "Bandana");
     manager:getItem("Base.Hat_BandanaMask"):DoParam("Tags".." = ".. "Bandana");
+    -- LongDress (Base.Dress_Long,Base.Dress_LongStraps)
+    manager:getItem("Base.Dress_Long"):DoParam("Tags".." = ".. "LongDress");
+    manager:getItem("Base.Dress_long_Straps"):DoParam("Tags".." = ".. "LongDress");
+    -- HoodieWhite(Base.HoodieDOWN_WhiteTINT,Base.HoodieUP_WhiteTINT)
+    manager:getItem("Base.HoodieDOWN_WhiteTINT"):DoParam("Tags".." = ".. "HoodieWhite");
+    manager:getItem("Base.HoodieUP_WhiteTINT"):DoParam("Tags".." = ".. "HoodieWhite");
+    -- HawaiianShirt(Base.Shirt_HawaiianRed,Base.Shirt_HawaiianTINT)
+    manager:getItem("Base.Shirt_HawaiianRed"):DoParam("Tags".." = ".. "HawaiianShirt");
+    manager:getItem("Base.Shirt_HawaiianTINT"):DoParam("Tags".." = ".. "HawaiianShirt");
+    -- FullWaterBottle(Base.BeerWaterFull,Base.WaterBottleFull,Base.WaterPopBottle,Base.WhiskeyWaterFull,Base.WineWaterFull)
+    manager:getItem("Base.BeerWaterFull"):DoParam("Tags".." = ".. "FullWaterBottle");
+    manager:getItem("Base.WaterBottleFull"):DoParam("Tags".." = ".. "FullWaterBottle");
+    manager:getItem("Base.WaterPopBottle"):DoParam("Tags".." = ".. "FullWaterBottle");
+    manager:getItem("Base.WhiskeyWaterFull"):DoParam("Tags".." = ".. "FullWaterBottle");
+    manager:getItem("Base.WineWaterFull"):DoParam("Tags".." = ".. "FullWaterBottle");
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)

@@ -70,7 +70,7 @@ table.insert(SFQuest_Database.FactionPool, {
 });
 
 -- factions for every npc
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "SergenteGrif", name = "IGUI_SFQuest_Questyno_SergenteGrif_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "SergenteGrif", name = "IGUI_SFQuest_Questyno_Grif_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "AngelicaStella", name = "IGUI_SFQuest_Questyno_AngelicaStella_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "HeatherThomas", name = "IGUI_SFQuest_Questyno_HeatherThomas_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "EliaRima", name = "IGUI_SFQuest_Questyno_EliaRima_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
@@ -87,6 +87,6 @@ table.insert(SFQuest_Database.FactionPool,{ factioncode = "DavidTurner", name = 
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "TonyLupo", name = "IGUI_SFQuest_Questyno_TonyLupo_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate});
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "RafaelPrezioso", name = "IGUI_SFQuest_Questyno_RafaelPrezioso_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "JeffreyLewis", name = "IGUI_SFQuest_Questyno_JeffreyLewis_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "CristopherDavis", name = "IGUI_SFQuest_Questyno_CristopherDavis_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "ChristopherDavis", name = "IGUI_SFQuest_Questyno_ChristopherDavis_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "PamelaPerez", name = "IGUI_SFQuest_Questyno_PamelaPerez_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "SamFisher", name = "IGUI_SFQuest_Questyno_SamFisher_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
