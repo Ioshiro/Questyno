@@ -469,31 +469,31 @@ Questyno = {
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis22_Begin;Questyno_JeffreyLewis22",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis23_Begin;Questyno_JeffreyLewis23",
 	},
-	CristopherDavis = {
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis1_Begin;Questyno_CristopherDavis1",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis2_Begin;Questyno_CristopherDavis2",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis3_Begin;Questyno_CristopherDavis3",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis4_Begin;Questyno_CristopherDavis4",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis5_Begin;Questyno_CristopherDavis5",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis6_Begin;Questyno_CristopherDavis6",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis7_Begin;Questyno_CristopherDavis7",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis8_Begin;Questyno_CristopherDavis8",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis9_Begin;Questyno_CristopherDavis9",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis10_Begin;Questyno_CristopherDavis10",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis11_Begin;Questyno_CristopherDavis11",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis12_Begin;Questyno_CristopherDavis12",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis13_Begin;Questyno_CristopherDavis13",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis14_Begin;Questyno_CristopherDavis14",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis15_Begin;Questyno_CristopherDavis15",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis16_Begin;Questyno_CristopherDavis16",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis17_Begin;Questyno_CristopherDavis17",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis18_Begin;Questyno_CristopherDavis18",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis19_Begin;Questyno_CristopherDavis19",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis20_Begin;Questyno_CristopherDavis20",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis21_Begin;Questyno_CristopherDavis21",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis22_Begin;Questyno_CristopherDavis22",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis23_Begin;Questyno_CristopherDavis23",
-		"Questyno_CristopherDavis;SFQuest_Questyno_CristopherDavis24_Begin;Questyno_CristopherDavis24",
+	ChristopherDavis = {
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis1_Begin;Questyno_ChristopherDavis1",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis2_Begin;Questyno_ChristopherDavis2",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis3_Begin;Questyno_ChristopherDavis3",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis4_Begin;Questyno_ChristopherDavis4",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis5_Begin;Questyno_ChristopherDavis5",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis6_Begin;Questyno_ChristopherDavis6",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis7_Begin;Questyno_ChristopherDavis7",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis8_Begin;Questyno_ChristopherDavis8",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis9_Begin;Questyno_ChristopherDavis9",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis10_Begin;Questyno_ChristopherDavis10",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis11_Begin;Questyno_ChristopherDavis11",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis12_Begin;Questyno_ChristopherDavis12",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis13_Begin;Questyno_ChristopherDavis13",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis14_Begin;Questyno_ChristopherDavis14",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis15_Begin;Questyno_ChristopherDavis15",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis16_Begin;Questyno_ChristopherDavis16",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis17_Begin;Questyno_ChristopherDavis17",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis18_Begin;Questyno_ChristopherDavis18",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis19_Begin;Questyno_ChristopherDavis19",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis20_Begin;Questyno_ChristopherDavis20",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis21_Begin;Questyno_ChristopherDavis21",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis22_Begin;Questyno_ChristopherDavis22",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis23_Begin;Questyno_ChristopherDavis23",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis24_Begin;Questyno_ChristopherDavis24",
 	},
 	PamelaPerez = {
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez1_Begin;Questyno_PamelaPerez1",
@@ -652,9 +652,9 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
-	dailycode = "Questyno_CristopherDavis",
-	condition = "notmaxedwithcode;Questyno_CristopherDavis;1",
-	commands = "randomcodedworldfrompool;Questyno_CristopherDavis;Questyno;CristopherDavis",
+	dailycode = "Questyno_ChristopherDavis",
+	condition = "notmaxedwithcode;Questyno_ChristopherDavis;1",
+	commands = "randomcodedworldfrompool;Questyno_ChristopherDavis;Questyno;ChristopherDavis",
 	days = 0,
 	frequency = 1
 });
@@ -686,7 +686,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_XuMishura_Intro"
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DavidTurner_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RafaelPrezioso_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JeffreyLewis_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_CristopherDavis_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ChristopherDavis_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_PamelaPerez_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
@@ -712,7 +712,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_XuMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DavidTurner" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RafaelPrezioso" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CristopherDavis" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_ChristopherDavis" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_PamelaPerez" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)

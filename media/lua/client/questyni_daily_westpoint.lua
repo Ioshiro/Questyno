@@ -107,8 +107,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_Lupo4_A",
         text = "IGUI_SFQuest_Questyno_Lupo4_A",
         hidden = false,
-        needsitem = "AssualtRifle;1",
-        onobtained = "updateobjective;Questyno_Lupo4;1;Completed;removeitem;AssualtRifle;1"
+        needsitem = "AssaultRifle;1",
+        onobtained = "updateobjective;Questyno_Lupo4;1;Completed;removeitem;AssaultRifle;1"
     }, {
         guid = "Questyno_Lupo4_B",
         text = "IGUI_SFQuest_Questyno_Lupo4_B",
@@ -140,25 +140,25 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo5",
     
-    awardstask = "Questyno_Lupo4_A",
+    awardstask = "Questyno_Lupo5_A",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_Lupo5_Lore" },
     objectives = { {
-        guid = "Questyno_Lupo4_A",
-        text = "IGUI_SFQuest_Questyno_Lupo4_A",
+        guid = "Questyno_Lupo5_A",
+        text = "IGUI_SFQuest_Questyno_Lupo5_A",
         hidden = false,
-        needsitem = "AssualtRifle2;2",
-        onobtained = "updateobjective;Questyno_Lupo4;1;Completed;removeitem;AssualtRifle2;2"
+        needsitem = "AssaultRifle2;2",
+        onobtained = "updateobjective;Questyno_Lupo5;1;Completed;removeitem;AssaultRifle2;2"
     }, {
-        guid = "Questyno_Lupo4_B",
-        text = "IGUI_SFQuest_Questyno_Lupo4_B",
+        guid = "Questyno_Lupo5_B",
+        text = "IGUI_SFQuest_Questyno_Lupo5_B",
         hidden = false,
         needsitem = "M14Clip;1",
-        onobtained = "updateobjective;Questyno_Lupo4;2;Completed;removeitem;M14Clip;1"
+        onobtained = "updateobjective;Questyno_Lupo5;2;Completed;removeitem;M14Clip;1"
     } },
-    text = "IGUI_SFQuest_Questyno_Lupo4_Text",
+    text = "IGUI_SFQuest_Questyno_Lupo5_Text",
     texture = "media/textures/Item_TonyLupo.png",
-    title = "IGUI_SFQuest_Questyno_Lupo4_Title",
+    title = "IGUI_SFQuest_Questyno_Lupo5_Title",
     unlockedsound = "QuestUnlocked"
 })
 
@@ -198,8 +198,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo6_A",
     
-    awardsrep = "LaResistenza;[NumeroReputazione]",
-    awardsitem = "[NomeRicompensa];[NumeroRicompensa]",
+    awardsrep = "LaResistenza;150",
     awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo7_Begin;Questyno_Lupo7",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -233,8 +232,8 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo7_A",
     
-    awardsrep = "LaResistenza;[NumeroReputazione]",
-    awardsitem = "[NomeRicompensa];[NumeroRicompensa]",
+    awardsrep = "LaResistenza;150",
+    awardsitem = "Money;25",
     awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo8_Begin;Questyno_Lupo8",
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
@@ -294,7 +293,7 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;40",
     awardsitem = "Money;20",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo10_Begin;Questyno_Lupo10",
+    awardstask = "Questyno_Lupo10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
@@ -1325,7 +1324,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore" },
-    needsitem = "Tags#Bandana;1",
+    needsitem = "Tag#Bandana;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso19_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso19_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
@@ -1859,6 +1858,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;60",
     awardstask = "Questyno_JeffreyLewis10",
     dailycode = "Questyno_JeffreyLewis",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis9_Lore" },
     needsitem = "Base.TVMagazine;5",
     onobtained = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis9_Complete",
@@ -1982,6 +1982,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis12",
     awardsrep = "LaResistenza;200",
     awardstask = "Questyno_JeffreyLewis13",
+    completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis12_Lore" },
     needsitem = "Base.TVMagazine;10",
@@ -2179,7 +2180,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
     unlockedsound = "QuestUnlocked"
-}); ]]
+}); 
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis16_A",
@@ -2192,7 +2193,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
     unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis16_Complete",
-});
+});]]
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis17",
@@ -2208,7 +2209,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis17_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis17_Title",
-    unlocks= "clickevent;8090x11511x0;EventoJeffreyLewis17;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis17:1:Completed",
+    unlocks= "clickevent;8090x11511x0:EventoJeffreyLewis17;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis17:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2261,7 +2262,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis18_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis18_Title",
-    unlocks= "clickevent;10627x9973x0;EventoJeffreyLewis18;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis18:1:Completed",
+    unlocks= "clickevent;10627x9973x0:EventoJeffreyLewis18;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis18:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
