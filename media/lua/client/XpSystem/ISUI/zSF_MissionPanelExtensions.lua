@@ -16,6 +16,10 @@ function SF_MissionPanel.Commands.addserverpoints(points)
     --sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
 end
 
+function SF_MissionPanel.Commands.addreputation(reputation, faction)
+	SF_MissionPanel.instance:awardReputation(faction,reputation)
+end
+
 -- override SF_MissionPanel:readCommandTable(commandtable) to add removeitem
 local base_SF_MissionPanel_readCommandTable = SF_MissionPanel.readCommandTable;
 function SF_MissionPanel:readCommandTable(commandTable)
@@ -40,6 +44,9 @@ function SF_MissionPanel:readCommandTable(commandTable)
             count = count + 2;
         elseif commandTable[count] == "removeitem" then
             SF_MissionPanel.instance:runCommand("removeitem", commandTable[count + 1], tonumber(commandTable[count + 2]));
+            count = count + 3;
+        elseif commandTable[count] == "addreputation" then
+            SF_MissionPanel.instance:runCommand("addreputation", tonumber(commandTable[count + 1]), commandTable[count + 2]);
             count = count + 3;
         elseif commandTable[count] == "call" then
             local callguid = commandTable[count + 1];

@@ -243,7 +243,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo8_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo8_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo8_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni .762",
+    IGUI_SFQuest_Questyno_Lupo8_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni 7.62",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca.",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare sul tuo Lupacchiotto!",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -262,13 +262,13 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo10_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo10_Text = "Più armi per Tony",
-    IGUI_SFQuest_Questyno_Lupo10_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da .45 e 2 Caricatori per proiettili 1911",
-    IGUI_SFQuest_Questyno_Lupo10_Begin_Text = "Ho bisogno di minuzioni. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
+    IGUI_SFQuest_Questyno_Lupo10_Lore = "Tony mi ha chiesto di recupearere 2 Scatole di munizioni da .45 e 2 Caricatori per proiettili 1911",
+    IGUI_SFQuest_Questyno_Lupo10_Begin_Text = "Ho bisogno di munizioni. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo10_Complete = "Finalmente, eccoti qua! Ci sentiamo presto.",
-    IGUI_SFQuest_Questyno_Lupo10_A = "Scatola di munizioni da .45",
-    IGUI_SFQuest_Questyno_Lupo10_B = "Caricatore per proiettili 1911",
+    IGUI_SFQuest_Questyno_Lupo10_A = "2 Scatole di munizioni da .45",
+    IGUI_SFQuest_Questyno_Lupo10_B = "2 Caricatori per proiettili 1911",
     IGUI_SFQuest_Questyno_Lupo10_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo11_Title = "Tony Lupo da West Point 10157,6611,0",
@@ -4800,7 +4800,7 @@ IGUI_EN = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis23_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis23_Text = "Christopher grandi porzioni",
-    IGUI_SFQuest_Questyno_ChristopherDavis23_Lore = "Christopher mi ha chiesto di portargli una Bistecchiera per preparare un grande pranzo.",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Lore = "Christopher mi ha chiesto di portargli una Teglia da forno per preparare un grande pranzo.",
     IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text = "Un conto è cucinare per se stessi, un altro conto è cucinare per 40 persone. Se riuscissi a portarmi delle teglie per forno potrei velocizzare le preparazioni. Puoi aiutarmi?",
     IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -4971,7 +4971,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela da Westpoint 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez14_Text = "Fuoco senza accendino",
-    IGUI_SFQuest_Questyno_PamelaPerez14_Lore = "Pamela mi ha chiesto di portarle un Asse forata e un Ramo per insegnarmi ad accendere un fuoco da campo.",
+    IGUI_SFQuest_Questyno_PamelaPerez14_Lore = "Pamela mi ha chiesto di portarle 50 rametti per insegnarmi ad accendere un fuoco da campo.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text = "Hei ciao! Se mi recuperi un bel po' di rametti ti faccio vedere come possono essere utili per accendere un fuoco.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Declined = "Capisco, alla prossima.",

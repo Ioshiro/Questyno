@@ -95,6 +95,12 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_L
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo21", optional = true, text = "IGUI_SFQuest_Questyno_Lupo21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo21_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo21", text = "IGUI_SFQuest_Questyno_Lupo21_Complete"})
 
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo22", optional = true, text = "IGUI_SFQuest_Questyno_Lupo22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo22", text = "IGUI_SFQuest_Questyno_Lupo22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Lupo23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Lupo23", optional = true, text = "IGUI_SFQuest_Questyno_Lupo23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_Lupo23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Lupo23", text = "IGUI_SFQuest_Questyno_Lupo23_Complete"})
+
 
 --[[                    *** NPC 1: Sergente Grif
                 Elenco:

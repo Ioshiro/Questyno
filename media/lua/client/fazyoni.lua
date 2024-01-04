@@ -14,8 +14,9 @@ LaResistenzaTiersTemplate = {
         barcolor = "red",
     }, {
         tiername = "IGUI_Factions_Template_Tier2",
-        minrep = 75,
+        minrep = 2,
         barcolor = "purple",
+        unlocks = "addreputation;SamFisher;2"
     }, {
         tiername = "IGUI_Factions_Template_Tier3",
         minrep = 175,
@@ -50,12 +51,17 @@ DailyTiersTemplate = {
         barcolor = "red",
     }, {
         tiername = "IGUI_Factions_Daily_Tier2",
-        minrep = 2,
+        minrep = 100,
         barcolor = "blue",
+        --unlocks = "unlockworldevent;Questyno_SamFisher;Questyno_SamFisher_Intro_Begin;Questyno_SamFisher_Intro"
     },{
         tiername = "IGUI_Factions_Daily_Tier3",
-        minrep = 3,
+        minrep = 200,
         barcolor = "green",
+    },{
+        tiername = "IGUI_Factions_Daily_Tier4",
+        minrep = 300,
+        barcolor = "white",
     }
 }
 
@@ -89,4 +95,4 @@ table.insert(SFQuest_Database.FactionPool,{ factioncode = "RafaelPrezioso", name
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "JeffreyLewis", name = "IGUI_SFQuest_Questyno_JeffreyLewis_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "ChristopherDavis", name = "IGUI_SFQuest_Questyno_ChristopherDavis_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "PamelaPerez", name = "IGUI_SFQuest_Questyno_PamelaPerez_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "SamFisher", name = "IGUI_SFQuest_Questyno_SamFisher_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = DailyTiersTemplate });
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "SamFisher", name = "IGUI_SFQuest_Questyno_SamFisher_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = DailyTiersTemplate });

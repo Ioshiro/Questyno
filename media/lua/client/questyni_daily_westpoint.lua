@@ -147,8 +147,8 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_Lupo5_A",
         text = "IGUI_SFQuest_Questyno_Lupo5_A",
         hidden = false,
-        needsitem = "AssaultRifle2;2",
-        onobtained = "updateobjective;Questyno_Lupo5;1;Completed;removeitem;AssaultRifle2;2"
+        needsitem = "AssaultRifle2;1",
+        onobtained = "updateobjective;Questyno_Lupo5;1;Completed;removeitem;AssaultRifle2;1"
     }, {
         guid = "Questyno_Lupo5_B",
         text = "IGUI_SFQuest_Questyno_Lupo5_B",
@@ -345,26 +345,26 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo11",
     
-    awardstask = "Questyno_Lupo10_A",
+    awardstask = "Questyno_Lupo11_A",
     dailycode = "Questyno_Lupo",
-    lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_Lupo11_Lore" },
     objectives = { {
-        guid = "Questyno_Lupo10_A",
-        text = "IGUI_SFQuest_Questyno_Lupo10_A",
+        guid = "Questyno_Lupo11_A",
+        text = "IGUI_SFQuest_Questyno_Lupo11_A",
         hidden = false,
         needsitem = "ShotgunShellsBox;2",
-        onobtained = "updateobjective;Questyno_Lupo10;1;Completed;removeitem;ShotgunShellsBox;2"
+        onobtained = "updateobjective;Questyno_Lupo11;1;Completed;removeitem;ShotgunShellsBox;2"
     },
     {
-        guid = "Questyno_Lupo10_B",
-        text = "IGUI_SFQuest_Questyno_Lupo10_B",
+        guid = "Questyno_Lupo11_B",
+        text = "IGUI_SFQuest_Questyno_Lupo11_B",
         hidden = false,
         needsitem = "Shotgun;2",
-        onobtained = "updateobjective;Questyno_Lupo10;2;Completed;removeitem;Shotgun;2"
+        onobtained = "updateobjective;Questyno_Lupo11;2;Completed;removeitem;Shotgun;2"
     } },
-    text = "IGUI_SFQuest_Questyno_Lupo10_Text",
+    text = "IGUI_SFQuest_Questyno_Lupo11_Text",
     texture = "media/textures/Item_TonyLupo.png",
-    title = "IGUI_SFQuest_Questyno_Lupo10_Title",
+    title = "IGUI_SFQuest_Questyno_Lupo11_Title",
     unlockedsound = "QuestUnlocked"
 })
 
@@ -1391,10 +1391,11 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso22_Lore" },
+    needsitem = "Base.NoseStud_Gold;1",
+    onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso22_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso22_Title",
-    unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso22_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1405,10 +1406,11 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso23_Lore" },
+    needsitem = "Base.Tie_BowTieWorn;1",
+    onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso23_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso23_Title",
-    unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso23_Complete",
 });
 
 --[[
@@ -2207,7 +2209,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis16_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis16_Title",
-    unlocks = "clickevent;9681x11178x0:EventoJeffreyLewis16;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis16:1:Completed",
+    unlocks = "clickevent;9681x11178x0:EventoJeffreyLewis16;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis16:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2261,7 +2263,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis17_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis17_Title",
-    unlocks= "clickevent;8090x11511x0:EventoJeffreyLewis17;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis17:1;Completed",
+    unlocks= "clickevent;8090x11511x0:EventoJeffreyLewis17;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis17:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2314,7 +2316,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis18_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis18_Title",
-    unlocks= "clickevent;10627x9973x0:EventoJeffreyLewis18;time:50:anim:loot;updateobjective;Questyno_JeffreyLewis18:1:Completed",
+    unlocks= "clickevent;10627x9973x0:EventoJeffreyLewis18;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis18:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2569,7 +2571,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis2_Lore" },
-    needsitem = "Base.PanRecipe;2",
+    needsitem = "Base.PanFriedVegetables;2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis2_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis2_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
@@ -2623,7 +2625,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis5_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis5_Title",
-    unlocks = "clickevent;12315x11739x0:EventoChristopherDavis5;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis5:1:Completed",
+    unlocks = "clickevent;12315x11739x0:EventoChristopherDavis5;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2656,7 +2658,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis6_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis6_Title",
-    unlocks = "clickevent;8199x11177x0:EventoChristopherDavis6;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis6:1:Completed",
+    unlocks = "clickevent;8199x11177x0:EventoChristopherDavis6;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis6:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2793,7 +2795,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis12_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis12_Title",
-    unlocks = "clickevent;7373x9732x0:EventoChristopherDavis12;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis12:1:Completed",
+    unlocks = "clickevent;7373x9732x0:EventoChristopherDavis12;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis12:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2856,7 +2858,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis15_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis15_Title",
-    unlocks = "clickevent;8108x9699x0:EventoChristopherDavis15;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis15:1:Completed",
+    unlocks = "clickevent;8108x9699x0:EventoChristopherDavis15;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis15:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2922,7 +2924,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis16_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis16_Title",
-    unlocks = "clickevent;11287x8287x0:EventoChristopherDavis16;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis16:1:Completed",
+    unlocks = "clickevent;11287x8287x0:EventoChristopherDavis16;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis16:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2972,14 +2974,14 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ChristopherDavis18_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
     title = "IGUI_SFQuest_Questyno_ChristopherDavis18_Title",
-    unlocks = "clickevent;13603x6883x0:EventoChristopherDavis18;time:50:anim:loot;updateobjective;Questyno_ChristopherDavis18:1:Completed",
+    unlocks = "clickevent;13603x6883x0:EventoChristopherDavis18;time:50:anim:loot;updateobjective:Questyno_ChristopherDavis18:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis18_A",
     awardsrep = "LaResistenza;40",
-    awardsitem = "Base.PineApple;1",
+    awardsitem = "Base.Pineapple;1",
     awardstask = "Questyno_ChristopherDavis19",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
@@ -3016,7 +3018,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis20_Lore" },
-    needsitem = "Base.PanRecipe;1",
+    needsitem = "Base.PanFriedVegetables;1",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis20_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis20_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
@@ -3032,7 +3034,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis21_Lore" },
-    needsitem = "Base.PotSoupRecipe;2",
+    needsitem = "Base.PotOfSoupRecipe;2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis21_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis21_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
@@ -3150,7 +3152,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez2",
     awardsrep = "LaResistenza;100",
-    awardsitem = "Base.Strewberrie;1",
+    awardsitem = "farming.Strewberrie;1",
     awardstask = "Questyno_PamelaPerez3",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
@@ -3452,7 +3454,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez18_Lore" },
-    needsitem = "RippedSheers;100",
+    needsitem = "RippedSheets;100",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez18_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez18_Text",
     texture = "media/textures/Item_PamelaPerez.png",
@@ -3620,7 +3622,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher_Intro",
 
-    awardstask = "Questyno_SamFisher1",
+    --awardstask = "Questyno_SamFisher1",
+    awardsrep = "SamFisher;199",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_SamFisher_Intro_Text",
@@ -3987,7 +3990,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher15_A",
     awardsrep = "LaResistenza;80",
-    awardsitem = "Base.PanRecipe;1;Base.BeerBottle;1",
+    awardsitem = "Base.PanFriedVegetables;1;Base.BeerBottle;1",
     awardstask = "Questyno_SamFisher16",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
@@ -4184,7 +4187,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher24",
-    awardstask = "Questyno_SamFisher25",
+    awardstask = "Questyno_SamFisher1",
     awardsrep = "LaResistenza;80",
     awardsitem = "Money;30",
     completesound = "levelup",
