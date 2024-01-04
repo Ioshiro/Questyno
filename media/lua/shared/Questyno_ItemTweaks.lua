@@ -39,6 +39,12 @@ function Questyno_Tweaks()
     manager:getItem("Base.WaterPopBottle"):DoParam("Tags".." = ".. "FullWaterBottle");
     manager:getItem("Base.WhiskeyWaterFull"):DoParam("Tags".." = ".. "FullWaterBottle");
     manager:getItem("Base.WineWaterFull"):DoParam("Tags".." = ".. "FullWaterBottle");
+    -- Catfish(Base.Catfish)
+    manager:getItem("Base.Catfish"):DoParam("Tags".." = ".. "Catfish");
+    -- Perch(Base.Perch)
+    manager:getItem("Base.Perch"):DoParam("Tags".." = ".. "Perch");
+    -- Trout(Base.Trout)
+    manager:getItem("Base.Trout"):DoParam("Tags".." = ".. "Trout");
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)

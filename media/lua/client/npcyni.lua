@@ -357,13 +357,13 @@ SFQuest_Database.MannequinPool["10156x6612x0"] = {
     outfit = "TraderBandit"
 }
 
--- Cristopher Davis 10161,6627,0
+-- Christopher Davis 10161,6627,0
 table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_CristopherDavis",
+    identity = "Questyno_ChristopherDavis",
     square = "10161x6627x0",
-    name = "IGUI_SFQuest_Questyno_CristopherDavis_Name",
+    name = "IGUI_SFQuest_Questyno_ChristopherDavis_Name",
     faction = "LaResistenza",
-    picture = "media/textures/Picture_CristopherDavis.png",
+    picture = "media/textures/Picture_ChristopherDavis.png",
 })
 
 SFQuest_Database.MannequinPool["10161x6627x0"] = {

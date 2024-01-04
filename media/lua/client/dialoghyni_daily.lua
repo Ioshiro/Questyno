@@ -1956,3 +1956,111 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_P
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez24_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez24", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez24_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez24", text = "IGUI_SFQuest_Questyno_PamelaPerez24_Complete"})
+
+
+--[[
+            *** Sam Fisher ***
+            Elenco:
+                intro. Parla con Sam Fisher per sbloccare le daily.
+				1. Recuperare Base.Worm;10 (100rep + Base.Panfish)
+				2. Recuperare Base.FishingLine (1/5) (50rep + 30$)
+				3. Recuperare Base.WoodenStick,Base.Paperclip (50rep + Base.FishingMag1)
+				4. Recuperare Base.Panfish (20-25 cm) (40rep + Base.FishingTackle)
+				5. Recuperare Base.Catfish (35-55cm) (50rep + Base.BeerBottle)
+				6. Recuperare Base.BaitFish;3 (40rep + Base.Bass)
+				7. Recuperare Base.FishingNet (70rep + Base.Wire)
+				8. Recuperare Base.Snail;2,Base.Grasshopper;2,Base.Worm;3 parlando con (8633,7477,0) (60rep + Base.Wine)
+				9. Recuperare Base.Perch (40-60cm) (150rep + 50$)
+				10. Recuperare Base.FishingRod parlando con (11218,8961,0) (100rep + 50$)
+				11. Recuperare Base.Catfish,Base.Panfish (80rep + Base.Twine)
+				12. Recuperare Base.Crappie (150rep)
+				13. Recuperare Base.BeerCan;2 (100rep + Base.FishFillet,Base.BeerCanEmpty)
+				14. Recuperare Base.Worm;20 (150rep)
+				15. Recuperare Base.Parsley,Base.LemonGrass (80rep + Base.PanRecipe,Base.BeerBottle)
+				16. Recuperare Base.Paperclip;15 (70rep)
+				17. Recuperare Base.Catfish (35-55cm) (100rep + 100$)
+				18. Recuperare Base.Trout (50-70cm) (100rep + 100$)
+				19. Uccidere 30 Zombie (100rep + Base.HuntingKnife)
+				20. Recuperare Base.Seaweed;50 parlando con (11286,6582,0) (50rep + Base.Seaweed;15,Base.PlateBlue,Base.FishFried)
+				21. Recuperare Base.LogStacks4;2 (60rep + 20$)
+				22. Recuperare Base.Worm;12 (40rep)
+				23. Uccidere 25 Zombie (40rep + Base.BaseballBat)
+				24. Recuperare Base.BaitFish;5 (80rep + 30$)
+]]
+
+-- intro. parla con Sam Fisher per sbloccare le daily
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher_Intro", text = "IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher1", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher1", text = "IGUI_SFQuest_Questyno_SamFisher1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher2", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher2", text = "IGUI_SFQuest_Questyno_SamFisher2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher3", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher3_A", text = "IGUI_SFQuest_Questyno_SamFisher3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher4", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher4", text = "IGUI_SFQuest_Questyno_SamFisher4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher5", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher5", text = "IGUI_SFQuest_Questyno_SamFisher5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher6", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher6", text = "IGUI_SFQuest_Questyno_SamFisher6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher7", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher7", text = "IGUI_SFQuest_Questyno_SamFisher7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher8", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher8_B", text = "IGUI_SFQuest_Questyno_SamFisher8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher9", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher9", text = "IGUI_SFQuest_Questyno_SamFisher9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher10", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher10_A", text = "IGUI_SFQuest_Questyno_SamFisher10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher11", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher11_A", text = "IGUI_SFQuest_Questyno_SamFisher11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher12", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher12", text = "IGUI_SFQuest_Questyno_SamFisher12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher13", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher13", text = "IGUI_SFQuest_Questyno_SamFisher13_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher14_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher14", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher14_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher14_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher14", text = "IGUI_SFQuest_Questyno_SamFisher14_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher15_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher15", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher15_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher15_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher15_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher15_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher15_A", text = "IGUI_SFQuest_Questyno_SamFisher15_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher16_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher16", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher16_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher16_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher16", text = "IGUI_SFQuest_Questyno_SamFisher16_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher17_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher17", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher17_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher17_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher17", text = "IGUI_SFQuest_Questyno_SamFisher17_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher17_A_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher17_A", text = "IGUI_SFQuest_Questyno_SamFisher17_A_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher18_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher18", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher18_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher18_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher18", text = "IGUI_SFQuest_Questyno_SamFisher18_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher18_A_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher18_A", text = "IGUI_SFQuest_Questyno_SamFisher18_A_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher19_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher19", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher19_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher19_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher19_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher19_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher19", text = "IGUI_SFQuest_Questyno_SamFisher19_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher20_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher20", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher20_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher20_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher20_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher20_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher20_A", text = "IGUI_SFQuest_Questyno_SamFisher20_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher21_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher21", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher21_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher21_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher21", text = "IGUI_SFQuest_Questyno_SamFisher21_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher22_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher22", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher22_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher22_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher22_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher22_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher22", text = "IGUI_SFQuest_Questyno_SamFisher22_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher23_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher23", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher23_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher23_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher23", text = "IGUI_SFQuest_Questyno_SamFisher23_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher24_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher24", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher24_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher24", text = "IGUI_SFQuest_Questyno_SamFisher24_Complete"})

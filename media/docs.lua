@@ -54,8 +54,8 @@
 	needsitem = (OPTIONAL) Adding this means your quest needs one or more item to progress, it can be an item ID, or an item tag, 
 							followed by the quantity and separated by a semicolon. Examples: "Base.Nails;5", or one of the tag options:
 							There are a few options when checking for tags:
-							Tag# accepts any item that has the tag. Example: "tag#Egg;12".
-							TagPredicateBigFish# accepts fresh fish above a certain length.
+							Tag# accepts any item that has the tag. Example: "Tag#Egg;12".
+							TagPredicateBigFish# accepts fresh fish above a certain length (>=50cm).
 							TagPredicateCondition# accepts weapons above a certain condition.
 							TagPredicateFreshFood# accepts food items that are currently fresh.
 							TagPredicateFullDrainable# it will only accept full drainable items.

@@ -3163,13 +3163,13 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_GeorgeScott20_Title = "George da Muldarugh 10830,9078,0",
     IGUI_SFQuest_Questyno_GeorgeScott20_Text = "Un George da vestire",
-    IGUI_SFQuest_Questyno_GeorgeScott20_Lore = "George mi ha chiesto di trovare un paio di Jeans denim e una Giacca di Pelle.",
+    IGUI_SFQuest_Questyno_GeorgeScott20_Lore = "George mi ha chiesto di trovare un paio di Jeans denim e una Giacca di Pelle Lunga.",
     IGUI_SFQuest_Questyno_GeorgeScott20_Begin_Text = "Questo vestito ormai è pieno di buchi, ne riusciresti a trovare uno simile o magari uguale?",
     IGUI_SFQuest_Questyno_GeorgeScott20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_GeorgeScott20_Begin_Text_Declined = "Non sai cosa ti perdi!",
     IGUI_SFQuest_Questyno_GeorgeScott20_Complete = "Grazie, sono proprio quelli che cercavo. Prendi questi.",
 	IGUI_SFQuest_Questyno_GeorgeScott20_A = "Jeans denim",
-	IGUI_SFQuest_Questyno_GeorgeScott20_B = "Giacca di pelle",
+	IGUI_SFQuest_Questyno_GeorgeScott20_B = "Giacca di pelle (Lunga)",
 	IGUI_SFQuest_Questyno_GeorgeScott20_A_Text = "Torna da George",
 	
 	IGUI_SFQuest_Questyno_GeorgeScott21_Title = "George da Muldarugh 10830,9078,0",
@@ -4574,8 +4574,8 @@ IGUI_EN = {
 ]]
     IGUI_SFQuest_Questyno_ChristopherDavis_Name = "Christopher Davis",
 
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Parla con Christopher Davis per sbloccare le sue quest giornaliere.",
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Christopher Davis",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Christopher Davis da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Parla con Christopher Davis per sbloccare le sue quest giornaliere.",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
 	
@@ -5081,6 +5081,285 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
 	
+--[[
+            *** Sam Fisher ***
+            Elenco:
+                intro. Parla con Sam Fisher per sbloccare le daily.
+				1. Recuperare Base.Worm;10 (100rep + Base.Panfish)
+				2. Recuperare Base.FishingLine (1/5) (50rep + 30$)
+				3. Recuperare Base.WoodenStick,Base.Paperclip (50rep + Base.FishingMag1)
+				4. Recuperare Base.Panfish (20-25 cm) (40rep + Base.FishingTackle)
+				5. Recuperare Base.Catfish (35-55cm) (50rep + Base.BeerBottle)
+				6. Recuperare Base.BaitFish;3 (40rep + Base.Bass)
+				7. Recuperare Base.FishingNet (70rep + Base.Wire)
+				8. Recuperare Base.Snail;2,Base.Grasshopper;2,Base.Worm;3 parlando con (8633,7477,0) (60rep + Base.Wine)
+				9. Recuperare Base.Perch (40-60cm) (150rep + 50$)
+				10. Recuperare Base.FishingRod parlando con (11218,8961,0) (100rep + 50$)
+				11. Recuperare Base.Catfish,Base.Panfish (80rep + Base.Twine)
+				12. Recuperare Base.Crappie (150rep)
+				13. Recuperare Base.BeerCan;2 (100rep + Base.FishFillet,Base.BeerCanEmpty)
+				14. Recuperare Base.Worm;20 (150rep)
+				15. Recuperare Base.Parsley,Base.LemonGrass (80rep + Base.PanRecipe,Base.BeerBottle)
+				16. Recuperare Base.Paperclip;15 (70rep)
+				17. Recuperare Base.Catfish (35-55cm) (100rep + 100$)
+				18. Recuperare Base.Trout (50-70cm) (100rep + 100$)
+				19. Uccidere 30 Zombie (100rep + Base.HuntingKnife)
+				20. Recuperare Base.Seaweed;50 parlando con (11286,6582,0) (50rep + Base.Seaweed;15,Base.PlateBlue,Base.FishFried)
+				21. Recuperare Base.LogStacks4;2 (60rep + 20$)
+				22. Recuperare Base.Worm;12 (40rep)
+				23. Uccidere 25 Zombie (40rep + Base.BaseballBat)
+				24. Recuperare Base.BaitFish;5 (80rep + 30$)
+]]
+    IGUI_SFQuest_Questyno_SamFisher_Name = "Sam Fisher",
+
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Title = "Sam Fisher 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Text = "Parla con Sam Fisher per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
+
+	
+	IGUI_SFQuest_Questyno_SamFisher1_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher1_Text = "Esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher1_Lore = "Sam mi ha chiesto di portagli 10 Vermi. Dovrei riuscire a trovare dei vermi scavando a terra.",
+    IGUI_SFQuest_Questyno_SamFisher1_Begin_Text = "Riesci a portarmi qualche esca per prendere qualche bel pesce? Sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_SamFisher1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher1_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher1_Complete = "Perfetto, questi sono i loro preferiti.",
+
+	
+	IGUI_SFQuest_Questyno_SamFisher2_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher2_Text = "Un po' di lenza per Sam",
+    IGUI_SFQuest_Questyno_SamFisher2_Lore = "Sam mi ha chiesto di portagli un po' di Lenza entro mezzogiorno. Sarà possibile?",
+    IGUI_SFQuest_Questyno_SamFisher2_Begin_Text = "Riesci a fare un salto in negozio e a portarmi un po' di lenza, prima di mezzogiorno?",
+    IGUI_SFQuest_Questyno_SamFisher2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher2_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher2_Complete = "Grazie mille, questi dalli a chi te l'ha venduta, grazie.",
+
+	
+	IGUI_SFQuest_Questyno_SamFisher3_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher3_Text = "Lezioni di pesca",
+    IGUI_SFQuest_Questyno_SamFisher3_Lore = "Sam mi ha chiesto di portagli un Bastone Robusto e una Graffetta. Chissà cos'ha in mente.",
+    IGUI_SFQuest_Questyno_SamFisher3_Begin_Text = "Sai come si costruisce una canna da pesca? Portami gli strumenti e te lo insegno!",
+    IGUI_SFQuest_Questyno_SamFisher3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher3_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher3_Complete = "Ottimo, ovviamente serve anche della lenza o dello spago, per questa volta li metto io. Ecco fatto! E' scritto tutto qui.",
+	IGUI_SFQuest_Questyno_SamFisher3_A = "Bastone Robusto",
+	IGUI_SFQuest_Questyno_SamFisher3_B = "Graffetta",
+	IGUI_SFQuest_Questyno_SamFisher3_A_Text = "Parla con Sam",
+
+	
+	IGUI_SFQuest_Questyno_SamFisher4_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher4_Text = "Sfida di pesca",
+    IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Luna Medio (20-25cm). Dovrei riuscire a pescarlo nel fiume o in un lago.",
+    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo!",
+    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Vediamo cosa riesci a fare con questo.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher5_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher5_Text = "Sfida di pesca",
+    IGUI_SFQuest_Questyno_SamFisher5_Lore = "Sam mi ha chiesto di portargli un Pesce Gatto Grande (35-55cm). Dovrei riuscire a pescarlo con una canna da pesca.",
+    IGUI_SFQuest_Questyno_SamFisher5_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo!",
+    IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher5_Complete = "Complimenti! Non pensavo ce l'avresti fatta! Alla tua!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher6_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher6_Text = "Esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher6_Lore = "Sam mi ha chiesto di portargli 3 Pesci Esca. Spero che almeno poi riesca a prendere qualche buon pesce.",
+    IGUI_SFQuest_Questyno_SamFisher6_Begin_Text = "Sono a corto di esche, vorrei prendere qualcosa di bello grosso, che ne dici di portarmi qualche esca viva come si deve? Ti faccio vedere di cosa sono capace, eheheheh.",
+    IGUI_SFQuest_Questyno_SamFisher6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher6_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher6_Complete = "Ottimo, guarda cosa sono riuscito a prendere con uno di questi!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher7_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher7_Text = "Lezioni di pesca",
+    IGUI_SFQuest_Questyno_SamFisher7_Lore = "Sam mi ha chiesto di portargli una Rete da Pesca e in cambio mi insegnerà ad usarla.",
+    IGUI_SFQuest_Questyno_SamFisher7_Begin_Text = "Heilà, se mi procuri una rete da pesca ti faccio vedere come si piazza in acqua! Sono molto utili per catturare dei piccoli pesci esca. Pensi di potermi dare una mano?",
+    IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher7_Complete = "Wow ottimo! Tieniti pure questo cavo, esercitati nella riparazione di queste reti e alla prossima!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher8_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher8_Text = "Esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher8_Lore = "Sam mi ha chiesto di recuperargli 2 Lumache, 2 Cavallette e 3 Vermi dal suo rifugio a Greenport (8633,7477,0).",
+    IGUI_SFQuest_Questyno_SamFisher8_Begin_Text = "Puoi passare dal mio rifugio qui a Greenport e recuperare le esche vive che sono rimaste? Ci metterai 5 minuti, coraggio!",
+    IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher8_Complete = "Bene, ti ringrazio. Fatti un goccetto con me!",
+	IGUI_SFQuest_Questyno_SamFisher8_A = "Cerca a Greenport (8633,7477,0)",
+	IGUI_SFQuest_Questyno_SamFisher8_A_Text = "Prendi le esche per Sam",
+	IGUI_SFQuest_Questyno_SamFisher8_B = "2 Lumache",
+	IGUI_SFQuest_Questyno_SamFisher8_C = "2 Cavallette",
+	IGUI_SFQuest_Questyno_SamFisher8_D = "3 Vermi",
+	IGUI_SFQuest_Questyno_SamFisher8_B_Text = "Torna da Sam",
+
+	
+	IGUI_SFQuest_Questyno_SamFisher9_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher9_Text = "Sfida di pesca",
+    IGUI_SFQuest_Questyno_SamFisher9_Lore = "Sam mi ha chiesto di portargli un Pesce Persico Grande (40-60cm). Dovrei riuscire a pescarlo a con una canna da pesca.",
+    IGUI_SFQuest_Questyno_SamFisher9_Begin_Text = "Sei capace a pescare un Pesce Persico? Scommetto di no! Tirano come dei maiali quei maledetti. Vediamo di cosa sei capace.",
+    IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher9_Complete = "Okay mi arrendo, non sono una persona così speciale... Ecco a te.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher10_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher10_Text = "La vecchia canna da pesca di Sam",
+    IGUI_SFQuest_Questyno_SamFisher10_Lore = "Sam mi ha chiesto recuperare la sua vecchia Canna da pesca nella baita a China Town (11218,8961,0).",
+    IGUI_SFQuest_Questyno_SamFisher10_Begin_Text = "Ti sarei infinitamente grato se riuscissi ad andare a recuperare una delle mie vecchie canne da pesca. Dovresti trovarla nella mia vecchia baita a China Town.",
+    IGUI_SFQuest_Questyno_SamFisher10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher10_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher10_Complete = "Wow questa si che è una canna da pesca! Ti ringrazio molto, questi sono tuoi!",
+	IGUI_SFQuest_Questyno_SamFisher10_A = "Cerca a China Town (11218,8961,0)",
+	IGUI_SFQuest_Questyno_SamFisher10_A_Text = "Porta la canna da pesca a Sam",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher11_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher11_Text = "Spago per pescare",
+    IGUI_SFQuest_Questyno_SamFisher11_Lore = "Sam mi ha chiesto portargli un Pesce Gatto e un Pesce Luna, in cambio di un po' di spago... bah!",
+    IGUI_SFQuest_Questyno_SamFisher11_Begin_Text = "Ho dello spago che mi avanza, sarei felice di lasciartene un po' ma prima vorrei vedere le tue doti da pescatore, stupiscimi!",
+    IGUI_SFQuest_Questyno_SamFisher11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher11_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher11_Complete = "Wow, complimenti, non pensavo ce l'avresti fatta. Come da accordi, ecco a lei marinaio!",
+	IGUI_SFQuest_Questyno_SamFisher11_A = "Pesce Gatto",
+	IGUI_SFQuest_Questyno_SamFisher11_B = "Pesce Luna",
+	IGUI_SFQuest_Questyno_SamFisher11_A_Text = "Parla con Sam",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher12_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher12_Text = "Sfida di pesca",
+    IGUI_SFQuest_Questyno_SamFisher12_Lore = "Sam mi ha chiesto portargli un Crappie. Dovrei riuscire a pescarlo a in qualche lago.",
+    IGUI_SFQuest_Questyno_SamFisher12_Begin_Text = "Fammi vedere di cosa sei capace, avanti! Prendi uno di questi!",
+    IGUI_SFQuest_Questyno_SamFisher12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher12_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher12_Complete = "Cavoli amico sei una forza!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher13_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher13_Text = "Due gocci con Sam",
+    IGUI_SFQuest_Questyno_SamFisher13_Lore = "Sam mi ha chiesto portargli due Birra in lattina per 'fare due gocci' con lui. Il solito ubriacone!",
+    IGUI_SFQuest_Questyno_SamFisher13_Begin_Text = "Heilà, oggi splende il sole, fermati con me a fare due gocci! Offri tu?",
+    IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher13_Complete = "Ahhh bella calda dio boia! Non fare complimenti, serviti pure",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher14_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher14_Text = "Esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher14_Lore = "Sam mi ha chiesto portargli 20 Vermi, magari posso trovare dei vermi scavando in terra.",
+    IGUI_SFQuest_Questyno_SamFisher14_Begin_Text = "Hei ciao, riesci a portarmi delle esche la prossima volta che passi di qua?",
+    IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher14_Complete = "Grazie, adesso li trasformo in cibo vero, come Gesù!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher15_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher15_Text = "Più spezie per Sam",
+    IGUI_SFQuest_Questyno_SamFisher15_Lore = "Sam mi ha chiesto di portargli 1 Prezzemolo e 1 Citronella, meglio fare un giro nel bosco per trovare queste spezie.",
+    IGUI_SFQuest_Questyno_SamFisher15_Begin_Text = "Che ne dici di recuperare un po' di spezie? Ti aspetto per cena, ti preparo un piatto che è l'inizio del mondo!",
+    IGUI_SFQuest_Questyno_SamFisher15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher15_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher15_Complete = "Wow queste sono perfette!",
+	IGUI_SFQuest_Questyno_SamFisher15_A = "Prezzemolo",
+	IGUI_SFQuest_Questyno_SamFisher15_B = "Citronella",
+	IGUI_SFQuest_Questyno_SamFisher15_A_Text = "Parla con Sam",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher16_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher16_Text = "Un'alternativa all'amo",
+    IGUI_SFQuest_Questyno_SamFisher16_Lore = "Sam mi ha chiesto di procurargli 15 Graffette perché si trova a corto di ami. Ma perché non se le prende da solo?",
+    IGUI_SFQuest_Questyno_SamFisher16_Begin_Text = "Ben ritrovato, come va oggi? Mi ritrovo a corto di ami, recuperami delle graffette, ti mostro come possono essere sfruttate.",
+    IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher16_Complete = "Grazie, guarda, in mancanza di un amo vero, queste fanno un discreto lavoro!",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher17_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher17_Text = "Scommetti con Sam",
+    IGUI_SFQuest_Questyno_SamFisher17_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Gatto Grande (35-55cm). Ma dovrei riuscire a trovarne uno durante il tramonto.",
+    IGUI_SFQuest_Questyno_SamFisher17_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di questo?",
+    IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher17_Complete = "Bene, non farmi aspettare troppo.",
+    IGUI_SFQuest_Questyno_SamFisher17_A_Complete = "Cavoli, mi arrendo.",
+	IGUI_SFQuest_Questyno_SamFisher17_A = "50$",
+	IGUI_SFQuest_Questyno_SamFisher17_A_Text = "La scommessa di Sam",
+	IGUI_SFQuest_Questyno_SamFisher17_B = "Pesce Gatto Grande",
+	IGUI_SFQuest_Questyno_SamFisher17_B_Text = "Parla con Sam",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher18_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher18_Text = "Scommetti con Sam",
+    IGUI_SFQuest_Questyno_SamFisher18_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Trota (50-70cm). Ma dovrei riuscire a trovarne uno durante l'alba.",
+    IGUI_SFQuest_Questyno_SamFisher18_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di questo?",
+    IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher18_Complete = "Bene, non farmi aspettare troppo.",
+    IGUI_SFQuest_Questyno_SamFisher18_A_Complete = "Cavoli, mi arrendo.",
+	IGUI_SFQuest_Questyno_SamFisher18_A = "50$",
+	IGUI_SFQuest_Questyno_SamFisher18_A_Text = "La scommessa di Sam",
+	IGUI_SFQuest_Questyno_SamFisher18_B = "Pesce Trota Grande",
+	IGUI_SFQuest_Questyno_SamFisher18_B_Text = "Parla con Sam",
+	
+	IGUI_SFQuest_Questyno_SamFisher19_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher19_Text = "Sam il fifone",
+    IGUI_SFQuest_Questyno_SamFisher19_Lore = "Sam mi ha chiesto di uccidere 30 Zombie per lui nei suoi dintorni. Dice che gli fanno scappare i pesci... bah!",
+    IGUI_SFQuest_Questyno_SamFisher19_Begin_Text = "Ultimamente girano davvero tanti di quegli straccioni da queste parti. Mi fanno scappare tutti i pesci. Potresti eliminarne alcuni qua fuori?",
+    IGUI_SFQuest_Questyno_SamFisher19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher19_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher19_Complete = "Grazie, tieni forse questo è meglio se lo tieni tu.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher20_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher20_Text = "Un piatto speciale",
+    IGUI_SFQuest_Questyno_SamFisher20_Lore = "Sam mi ha chiesto di prendere delle Alghe per lui dal suo capanno a West Point (11286,6582,0). Dice che in cambio mi farà assaggiare un piatto speciale, speriamo bene!",
+    IGUI_SFQuest_Questyno_SamFisher20_Begin_Text = "Ciao marinaio! Voglio farti provare un piatto speciale stasera, vai a recuperare delle Alghe nel mio capanno qui a West Point. Muoviti che il pesce è quasi pronto!",
+    IGUI_SFQuest_Questyno_SamFisher20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher20_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher20_Complete = "Bene, da qui, le userò per condire. Che ne pensi? Non sono la fine del mondo? Prendine qualcuna!",
+	IGUI_SFQuest_Questyno_SamFisher20_A = "Cerca a West Point (11286,6582,0)",
+	IGUI_SFQuest_Questyno_SamFisher20_A_Text = "Porta le alghe a Sam",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher21_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher21_Text = "Più ceppi per Sam",
+    IGUI_SFQuest_Questyno_SamFisher21_Lore = "Sam mi ha chiesto di portargli 2 Cataste da Quattro Ceppi.",
+    IGUI_SFQuest_Questyno_SamFisher21_Begin_Text = "Ciao, tutto bene? Mi chiedevo se avessi voglia di buttare giù qualche ceppo per me? Avevo intenzione di costruire una canoa!",
+    IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher21_Complete = "Grazie, sarai il primo a farci un giro.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher22_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher22_Text = "Più esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher22_Lore = "Sam mi ha chiesto di portagli 12 Vermi. Dovrei riuscire a trovare dei vermi scavando in terra.",
+    IGUI_SFQuest_Questyno_SamFisher22_Begin_Text = "Hei non è che ti avanza qualche esca per caso?",
+    IGUI_SFQuest_Questyno_SamFisher22_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher22_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher22_Complete = "Grazie, vediamo cosa ci prendo.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher23_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher23_Text = "Sam il paranoico",
+    IGUI_SFQuest_Questyno_SamFisher23_Lore = "Sam mi ha chiesto di eliminare 25 Zombie nei dintorni perchè ultimamente è paranoico. Vediamo se ne trovo qualcuno!",
+    IGUI_SFQuest_Questyno_SamFisher23_Begin_Text = "Ultimamente girano davvero tanti dei quegli straccioni da queste parti. Mi fanno scappare tutti i pesci. Potresti aliminarne alcuni qua fuori?",
+    IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher23_Complete = "Grazie, tieni forse questo è meglio se lo tieni tu.",
+	
+	
+	IGUI_SFQuest_Questyno_SamFisher24_Title = "Sam da Westpoint 10153,6571,0",
+    IGUI_SFQuest_Questyno_SamFisher24_Text = "Esche per Sam",
+    IGUI_SFQuest_Questyno_SamFisher24_Lore = "Sam mi ha chiesto di portargli 5 Piccoli pesci esca.",
+    IGUI_SFQuest_Questyno_SamFisher24_Begin_Text = "Sono a corto di esche, vorrei prendere qualcosa di bello grosso, che ne dici di portarmi qualche esca viva come si deve? Ti faccio vedere di cosa sono capace, eheheheh.",
+    IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
+    IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Declined = "Sarà per la prossima.",
+    IGUI_SFQuest_Questyno_SamFisher24_Complete = "Grazie capo, uno scellino a lei!",
 
 --[[
                         *** Ezekiel Flynn ***

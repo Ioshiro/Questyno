@@ -1496,7 +1496,6 @@ local leeQuest19A = {
     guid = "Questyno_SusanLee19_A",
 
     awardstask = "Questyno_SusanLee19_B", -- TASK REWARD
-    completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee19_Lore" },
     objectives = { {
@@ -1504,13 +1503,13 @@ local leeQuest19A = {
         text = "IGUI_SFQuest_Questyno_SusanLee19_B",
         hidden = false,
         needsitem = "PillsBeta;2",
-        onobtained = "updateobjective;Questyno_SusanLee19_A;1:Completed;removeitem;PillsBeta;2"
+        onobtained = "updateobjective;Questyno_SusanLee19_A;1;Completed;removeitem;PillsBeta;2"
     },{
         guid = "Questyno_SusanLee19_C",
         text = "IGUI_SFQuest_Questyno_SusanLee19_C",
         hidden = false,
         needsitem = "AlcoholWipes;2",
-        onobtained = "updateobjective;Questyno_SusanLee19_A;2:Completed;removeitem;AlcoholWipes;2"
+        onobtained = "updateobjective;Questyno_SusanLee19_A;2;Completed;removeitem;AlcoholWipes;2"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1522,7 +1521,7 @@ local leeQuest19B = {
     guid = "Questyno_SusanLee19_B",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
-    awardsitem = "AlcoholRippedSheets;5Base.AlcoholWipe;1", -- ITEM REWARD
+    awardsitem = "AlcoholRippedSheets;5;Base.AlcoholWipe;1", -- ITEM REWARD
     awardstask = "Questyno_SusanLee20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
@@ -1568,13 +1567,13 @@ local leeQuest20A = {
         text = "IGUI_SFQuest_Questyno_SusanLee20_B",
         hidden = false,
         needsitem = "PillsBeta;2",
-        onobtained = "updateobjective;Questyno_SusanLee20_A;1:Completed;removeitem;PillsBeta;2"
+        onobtained = "updateobjective;Questyno_SusanLee20_A;1;Completed;removeitem;PillsBeta;2"
     },{
         guid = "Questyno_SusanLee20_C",
         text = "IGUI_SFQuest_Questyno_SusanLee20_C",
         hidden = false,
         needsitem = "Disinfectant;1",
-        onobtained = "updateobjective;Questyno_SusanLee20_A;2:Completed;removeitem;Disinfectant;1"
+        onobtained = "updateobjective;Questyno_SusanLee20_A;2;Completed;removeitem;Disinfectant;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee20_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1586,7 +1585,7 @@ local leeQuest20B = {
     guid = "Questyno_SusanLee20_B",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "PillsBeta;2Base.Disinfectant;1", -- ITEM REWARD
+    awardsitem = "PillsBeta;2;Base.Disinfectant;1", -- ITEM REWARD
     awardstask = "Questyno_SusanLee21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
@@ -1597,8 +1596,6 @@ local leeQuest20B = {
     title = "IGUI_SFQuest_Questyno_SusanLee20_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest20B);
-
---21. Recuperare Base.PlantainCataplasm (50rep + 25$)
 
 local leeQuest21 = {
     guid = "Questyno_SusanLee21",
@@ -1617,8 +1614,6 @@ local leeQuest21 = {
     unlockedsound = "QuestUnlocked",
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest21);
-
--- 				22. Recuperare Base.LemonGrass;3 (40rep + 15$)
 
 local leeQuest22 = {
     guid = "Questyno_SusanLee22",

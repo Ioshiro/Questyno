@@ -127,7 +127,7 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;20",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo5_Begin;Questyno_Lupo5",
+    awardstask = "Questyno_Lupo5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
@@ -166,7 +166,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo5_A",
     
     awardsrep = "LaResistenza;140",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo6_Begin;Questyno_Lupo6",
+    awardstask = "Questyno_Lupo6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo5_Lore" },
@@ -199,7 +199,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo6_A",
     
     awardsrep = "LaResistenza;150",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo7_Begin;Questyno_Lupo7",
+    awardstask = "Questyno_Lupo7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo6_Lore" },
@@ -234,7 +234,7 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;25",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo8_Begin;Questyno_Lupo8",
+    awardstask = "Questyno_Lupo8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo7_Lore" },
@@ -332,7 +332,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo10_A",
     
     awardsrep = "LaResistenza;200",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo11_Begin;Questyno_Lupo11",
+    awardstask = "Questyno_Lupo11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
@@ -372,7 +372,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo11_A",
 
     awardsrep = "LaResistenza;150",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo12_Begin;Questyno_Lupo12",
+    awardstask = "Questyno_Lupo12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo11_Lore" },
@@ -444,7 +444,7 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;120",
     awardsitem = "Money;30",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo15_Begin;Questyno_Lupo15",
+    awardstask = "Questyno_Lupo15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },
@@ -483,7 +483,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo15_A",
     
     awardsrep = "LaResistenza;140",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo16_Begin;Questyno_Lupo16",
+    awardstask = "Questyno_Lupo16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },
@@ -534,7 +534,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo16_A",
     
     awardsrep = "LaResistenza;150",
-    awardsworld = "Questyno_Lupo;SFQuest_Questyno_Lupo17_Begin;Questyno_Lupo17",
+    awardstask = "Questyno_Lupo17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },
@@ -1755,7 +1755,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis7_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
-    unlocks = "clickevent;8346x11716x0:EventoJeffreyLewis7;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis7:1:Completed",
+    unlocks = "clickevent;10611x10363x0:EventoJeffreyLewis7;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis7:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -3584,5 +3584,616 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_PamelaPerez24_Text",
     texture = "media/textures/Item_PamelaPerez.png",
     title = "IGUI_SFQuest_Questyno_PamelaPerez24_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--[[
+            *** Sam Fisher ***
+            Elenco:
+                intro. Parla con Sam Fisher per sbloccare le daily.
+				1. Recuperare Base.Worm;10 (100rep + Base.Panfish)
+				2. Recuperare Base.FishingLine (1/5) (50rep + 30$)
+				3. Recuperare Base.WoodenStick,Base.Paperclip (50rep + Base.FishingMag1)
+				4. Recuperare Base.Panfish  (40rep + Base.FishingTackle)
+				5. Recuperare Base.Catfish (35-55cm) (50rep + Base.BeerBottle)
+				6. Recuperare Base.BaitFish;3 (40rep + Base.Bass)
+				7. Recuperare Base.FishingNet (70rep + Base.Wire)
+				8. Recuperare Base.Snail;2,Base.Grasshopper;2,Base.Worm;3 parlando con (8633,7477,0) (60rep + Base.Wine)
+				9. Recuperare Base.Perch (40-60cm) (150rep + 50$)
+				10. Recuperare Base.FishingRod parlando con (11218,8961,0) (100rep + 50$)
+				11. Recuperare Base.Catfish,Base.Panfish (80rep + Base.Twine)
+				12. Recuperare Base.Crappie (150rep)
+				13. Recuperare Base.BeerCan;2 (100rep + Base.FishFillet,Base.BeerCanEmpty)
+				14. Recuperare Base.Worm;20 (150rep)
+				15. Recuperare Base.Parsley,Base.LemonGrass (80rep + Base.PanRecipe,Base.BeerBottle)
+				16. Recuperare Base.Paperclip;15 (70rep)
+				17. Recuperare Base.Catfish (35-55cm) (100rep + 100$)
+				18. Recuperare Base.Trout (50-70cm) (100rep + 100$)
+				19. Uccidere 30 Zombie (100rep + Base.HuntingKnife)
+				20. Recuperare Base.Seaweed;50 parlando con (11286,6582,0) (50rep + Base.Seaweed;15,Base.PlateBlue,Base.FishFried)
+				21. Recuperare Base.LogStacks4;2 (60rep + 20$)
+				22. Recuperare Base.Worm;12 (40rep)
+				23. Uccidere 25 Zombie (40rep + Base.BaseballBat)
+				24. Recuperare Base.BaitFish;5 (80rep + 30$)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher_Intro",
+
+    awardstask = "Questyno_SamFisher1",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher_Intro_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher_Intro_Title",
+    unique = true,
+    unlockedsound = "QuestUnlocked",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher_Intro_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher1",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Base.Panfish;1",
+    awardstask = "Questyno_SamFisher2",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher1_Lore" },
+    needsitem = "Base.Worm;10",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher1_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher1_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher1_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher2",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Money;30",
+    awardstask = "Questyno_SamFisher3",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher2_Lore" },
+    needsitem = "Base.FishingLine;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher2_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher2_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher2_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher3",
+    awardstask = "Questyno_SamFisher3_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher3_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher3_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher3_A",
+        hidden = false,
+        needsitem = "Base.WoodenStick;1",
+        onobtained = "updateobjective;Questyno_SamFisher3;1;Completed;removeitem;Base.WoodenStick;1",
+    }, {
+        guid = "Questyno_SamFisher3_B",
+        text = "IGUI_SFQuest_Questyno_SamFisher3_B",
+        hidden = false,
+        needsitem = "Base.Paperclip;1",
+        onobtained = "updateobjective;Questyno_SamFisher3;2;Completed;removeitem;Base.Paperclip;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher3_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher3_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher3_A",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.FishingMag1;1",
+    awardstask = "Questyno_SamFisher4",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher3_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher3_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher3_Title",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher3_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher4",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.FishingTackle;1",
+    awardstask = "Questyno_SamFisher5",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher4_Lore" },
+    needsitem = "Base.Panfish;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher4_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher4_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher4_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher5",
+    awardstask = "Questyno_SamFisher6",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.BeerBottle;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher5_Lore" },
+    needsitem = "TagPredicateBigFish#Catfish;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher5_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher5_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher5_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher6",
+    awardstask = "Questyno_SamFisher7",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.Bass;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher6_Lore" },
+    needsitem = "Base.BaitFish;3",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher6_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher6_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher6_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher7",
+    awardstask = "Questyno_SamFisher8",
+    awardsrep = "LaResistenza;70",
+    awardsitem = "Base.Wire;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher7_Lore" },
+    needsitem = "Base.FishingNet;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher7_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher7_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher7_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher8",
+    awardstask = "Questyno_SamFisher8_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher8_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher8_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher8_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamFisher8;additem;Snail;2;additem;Grasshopper;2;additem;Worm;3"
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher8_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher8_Title",
+    unlocks = "clickevent;8633x7477x0:EventoSamFisher8;time:50:anim:loot;updateobjective:Questyno_SamFisher8:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher8_A",
+    awardstask = "Questyno_SamFisher8_B",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher8_A_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher8_B",
+        text = "IGUI_SFQuest_Questyno_SamFisher8_B",
+        hidden = false,
+        needsitem = "Base.Snail;2",
+        onobtained = "updateobjective;Questyno_SamFisher8_A;1;Completed;removeitem;Base.Snail;2",
+    }, {
+        guid = "Questyno_SamFisher8_C",
+        text = "IGUI_SFQuest_Questyno_SamFisher8_C",
+        hidden = false,
+        needsitem = "Base.Grasshopper;2",
+        onobtained = "updateobjective;Questyno_SamFisher8_A;2;Completed;removeitem;Base.Grasshopper;2",
+    }, {
+        guid = "Questyno_SamFisher8_D",
+        text = "IGUI_SFQuest_Questyno_SamFisher8_D",
+        hidden = false,
+        needsitem = "Base.Worm;3",
+        onobtained = "updateobjective;Questyno_SamFisher8_A;3;Completed;removeitem;Base.Worm;3",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher8_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher8_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher8_B",
+    awardsrep = "LaResistenza;60",
+    awardsitem = "Base.Wine;1",
+    awardstask = "Questyno_SamFisher9",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher8_B_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher8_B_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher8_Title",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher8_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher9",
+    awardstask = "Questyno_SamFisher10",
+    awardsrep = "LaResistenza;150",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher9_Lore" },
+    needsitem = "TagPredicateBigFish#Perch;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher9_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher9_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher9_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher10",
+    awardstask = "Questyno_SamFisher10_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher10_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher10_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher10_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamFisher10;additem;Base.FishingRod;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher10_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher10_Title",
+    unlocks = "clickevent;11218x8961x0:EventoSamFisher10;time:50:anim:loot;updateobjective:Questyno_SamFisher10:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher10_A",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;50",
+    awardstask = "Questyno_SamFisher11",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher10_A_Lore" },
+    needsitem = "FishingRod;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher10_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher10_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher10_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher11",
+    awardstask = "Questyno_SamFisher11_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher11_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher11_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher11_A",
+        hidden = false,
+        needsitem = "Catfish;1",
+        onobtained = "updateobjective;Questyno_SamFisher11;1;Completed;removeitem;Catfish;1",
+    }, {
+        guid = "Questyno_SamFisher11_B",
+        text = "IGUI_SFQuest_Questyno_SamFisher11_B",
+        hidden = false,
+        needsitem = "Panfish;1",
+        onobtained = "updateobjective;Questyno_SamFisher11;2;Completed;removeitem;Panfish;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher11_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher11_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher11_A",
+    awardsrep = "LaResistenza;80",
+    awardsitem = "Base.Twine;1",
+    awardstask = "Questyno_SamFisher12",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher11_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher11_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher11_Title",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher11_Complete",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher12",
+    awardstask = "Questyno_SamFisher13",
+    awardsrep = "LaResistenza;150",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher12_Lore" },
+    needsitem = "Crappie;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher12_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher12_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher12_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher13",
+    awardstask = "Questyno_SamFisher14",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Base.FishFillet;1;Base.BeerCanEmpty;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher13_Lore" },
+    needsitem = "Base.BeerCan;2",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher13_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher13_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher13_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher14",
+    awardstask = "Questyno_SamFisher15",
+    awardsrep = "LaResistenza;150",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher14_Lore" },
+    needsitem = "Base.Worm;20",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher14_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher14_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher14_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				15. Recuperare Base.Parsley,Base.LemonGrass (80rep + Base.PanRecipe,Base.BeerBottle)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher15",
+    awardstask = "Questyno_SamFisher15_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher15_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher15_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher15_A",
+        hidden = false,
+        needsitem = "Base.Parsley;1",
+        onobtained = "updateobjective;Questyno_SamFisher15;1;Completed;removeitem;Base.Parsley;1",
+    }, {
+        guid = "Questyno_SamFisher15_B",
+        text = "IGUI_SFQuest_Questyno_SamFisher15_B",
+        hidden = false,
+        needsitem = "Base.LemonGrass;1",
+        onobtained = "updateobjective;Questyno_SamFisher15;2;Completed;removeitem;Base.LemonGrass;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher15_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher15_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher15_A",
+    awardsrep = "LaResistenza;80",
+    awardsitem = "Base.PanRecipe;1;Base.BeerBottle;1",
+    awardstask = "Questyno_SamFisher16",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher15_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher15_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher15_Title",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher15_Complete",
+});
+
+--				16. Recuperare Base.Paperclip;15 (70rep)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher16",
+    awardstask = "Questyno_SamFisher17",
+    awardsrep = "LaResistenza;70",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher16_Lore" },
+    needsitem = "Base.Paperclip;15",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher16_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher16_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher16_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				17. Pagare scommessa 50$, Recuperare Base.Catfish (35-55cm) (100rep + 100$)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher17",
+    awardstask = "Questyno_SamFisher17_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher17_Lore" },
+    needsitem = "Money;50",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher17_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher17_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher17_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher17_A",
+    awardstask = "Questyno_SamFisher18",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher17_Lore" },
+    needsitem = "TagPredicateBigFish#Catfish;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher17_A_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher17_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher17_Title",
+});
+
+--				18. Pagare scommessa 50$, Recuperare Base.Trout (50-70cm) (100rep + 100$)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher18",
+    awardstask = "Questyno_SamFisher18_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher18_Lore" },
+    needsitem = "Money;50",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher18_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher18_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher18_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher18_A",
+    awardstask = "Questyno_SamFisher19",
+    awardsrep = "LaResistenza;100",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher18_Lore" },
+    needsitem = "TagPredicateBigFish#Trout;1",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher18_A_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher18_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher18_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				19. Uccidere 30 Zombie (100rep + Base.HuntingKnife)
+
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher19",
+    awardstask = "Questyno_SamFisher20",
+    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsitem = "Base.HuntingKnife;1", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher19_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher19_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher19_Title",
+    unlocks = "actionevent;killzombies:30;unlockworldevent:Questyno_SamFisher:SFQuest_Questyno_SamFisher19_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+--				20. Recuperare Base.Seaweed;50 parlando con (11286,6582,0) (50rep + Base.Seaweed;15,Base.PlateBlue,Base.FishFried)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher20",
+    awardstask = "Questyno_SamFisher20_A",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher20_Lore" },
+    objectives = { {
+        guid = "Questyno_SamFisher20_A",
+        text = "IGUI_SFQuest_Questyno_SamFisher20_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoSamFisher20;additem;Base.Seaweed;50"
+    } },
+    text = "IGUI_SFQuest_Questyno_SamFisher20_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher20_Title",
+    unlocks = "clickevent;11286x6582x0:EventoSamFisher20;time:50:anim:loot;updateobjective:Questyno_SamFisher20:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher20_A",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Base.Seaweed;15;Base.PlateBlue;1;Base.FishFried;1",
+    awardstask = "Questyno_SamFisher21",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher20_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher20_A_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher20_Title",
+    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher20_Complete",
+});
+
+--				21. Recuperare Base.LogStacks4;2 (60rep + 20$)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher21",
+    awardstask = "Questyno_SamFisher22",
+    awardsrep = "LaResistenza;60",
+    awardsitem = "Money;20",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher21_Lore" },
+    needsitem = "Base.LogStacks4;2",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher21_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher21_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher21_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				22. Recuperare Base.Worm;12 (40rep)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher22",
+    awardstask = "Questyno_SamFisher23",
+    awardsrep = "LaResistenza;40",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher22_Lore" },
+    needsitem = "Base.Worm;12",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher22_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher22_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher22_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				23. Uccidere 25 Zombie (40rep + Base.BaseballBat)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher23",
+    awardstask = "Questyno_SamFisher24",
+    awardsrep = "LaResistenza;40",
+    awardsitem = "Base.BaseballBat;1",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher23_Lore" },
+    text = "IGUI_SFQuest_Questyno_SamFisher23_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher23_Title",
+    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_SamFisher:SFQuest_Questyno_SamFisher23_Complete",
+    unlockedsound = "QuestUnlocked"
+});
+
+--				24. Recuperare Base.BaitFish;5 (80rep + 30$)
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SamFisher24",
+    awardstask = "Questyno_SamFisher25",
+    awardsrep = "LaResistenza;80",
+    awardsitem = "Money;30",
+    completesound = "levelup",
+    dailycode = "Questyno_SamFisher",
+    lore = { "IGUI_SFQuest_Questyno_SamFisher24_Lore" },
+    needsitem = "Base.BaitFish;5",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher24_Complete",
+    text = "IGUI_SFQuest_Questyno_SamFisher24_Text",
+    texture = "media/textures/Item_SamFisher.png",
+    title = "IGUI_SFQuest_Questyno_SamFisher24_Title",
     unlockedsound = "QuestUnlocked"
 });
