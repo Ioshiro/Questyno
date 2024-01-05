@@ -435,7 +435,7 @@ Questyno = {
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso13_Begin;Questyno_RafaelPrezioso13",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso14_Begin;Questyno_RafaelPrezioso14",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso15_Begin;Questyno_RafaelPrezioso15",
-		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso16_Begin;Questyno_RafaelPrezioso16",
+		--"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso16_Begin;Questyno_RafaelPrezioso16",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso17_Begin;Questyno_RafaelPrezioso17",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso18_Begin;Questyno_RafaelPrezioso18",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso19_Begin;Questyno_RafaelPrezioso19",

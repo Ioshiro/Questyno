@@ -1210,7 +1210,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso15_A",
     awardsrep = "LaResistenza;40",
     awardsitem = "Money;50",
-    awardstask = "Questyno_RafaelPrezioso16",
+    awardstask = "Questyno_RafaelPrezioso17",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso15_Lore" },
@@ -1219,7 +1219,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso15_Title",
     unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso15_Complete",
 });
-
+--[[ 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso16",
     awardstask = "Questyno_RafaelPrezioso16_A",
@@ -1251,7 +1251,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso16_A_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso16_Title",
-});
+}); ]]
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso17",
@@ -1262,7 +1262,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_RafaelPrezioso17_A",
         text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoRafaelPrezioso17;additem;Moveables.DylansGardenStuff01_32;1",
+        oncompleted = "removeclickevent;EventoRafaelPrezioso17;additem;Fertilizer;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
@@ -1278,7 +1278,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso17_Lore" },
-    needsitem = "Moveables.DylansGardenStuff01_32;1",
+    needsitem = "Fertilizer;1",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso17_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso17_A_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
@@ -1294,7 +1294,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_RafaelPrezioso18_A",
         text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoRafaelPrezioso18;additem;Moveables.DylansWallDeco01_10;1",
+        oncompleted = "removeclickevent;EventoRafaelPrezioso18;additem;PaintBlue;1;additem;PaintRed;1;additem;PaintYellow;1",
     } },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
@@ -1305,16 +1305,48 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso18_A",
+    awardstask = "Questyno_RafaelPrezioso18_B",
+    dailycode = "Questyno_RafaelPrezioso",
+    lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso18_Lore" },
+    objectives = {
+        {
+            guid = "Questyno_RafaelPrezioso18_B",
+            text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_B",
+            hidden = false,
+            needsitem = "PaintBlue;1",
+            onobtained = "updateobjective;Questyno_RafaelPrezioso18_A;1;Completed;removeitem;PaintBlue;1"
+        },
+        {
+            guid = "Questyno_RafaelPrezioso18_C",
+            text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_C",
+            hidden = false,
+            needsitem = "PaintRed;1",
+            onobtained = "updateobjective;Questyno_RafaelPrezioso18_A;2;Completed;removeitem;PaintRed;1"
+        },
+        {
+            guid = "Questyno_RafaelPrezioso18_D",
+            text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_D",
+            hidden = false,
+            needsitem = "PaintYellow;1",
+            onobtained = "updateobjective;Questyno_RafaelPrezioso18_A;3;Completed;removeitem;PaintYellow;1"
+        }
+    },
+    text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_A_Text",
+    texture = "media/textures/Item_RafaelPrezioso.png",
+    title = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RafaelPrezioso18_B",
     awardsrep = "LaResistenza;35",
     awardstask = "Questyno_RafaelPrezioso19",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso18_Lore" },
-    needsitem = "Moveables.DylansWallDeco01_10;1",
-    onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso18_Complete",
-    text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_A_Text",
+    text = "IGUI_SFQuest_Questyno_RafaelPrezioso18_B_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso18_Title",
+    unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso18_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2403,6 +2435,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis20",
     awardstask = "Questyno_JeffreyLewis21",
+    completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis20_Lore" },
     needsitem = "Base.Magazine;5",
@@ -2477,7 +2510,9 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis22",
+    awardsrep = "LaResistenza;40",
     awardstask = "Questyno_JeffreyLewis23",
+    completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis22_Lore" },
     needsitem = "Base.BookCarpentry5;1",
@@ -2491,7 +2526,9 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis23",
+    awardsrep = "LaResistenza;50",
     awardstask = "Questyno_JeffreyLewis1",
+    completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis23_Lore" },
     needsitem = "Base.BookTrapping3;1",
@@ -2836,7 +2873,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis14_Lore" },
-    needsitem = "Base.WaterBottleFull",
+    needsitem = "Tag#FullWaterBottle;1",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis14_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis14_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
@@ -4125,10 +4162,11 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher20_A_Lore" },
+    needsitem = "Base.Seaweed;50",
+    onobtained = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher20_Complete",
     text = "IGUI_SFQuest_Questyno_SamFisher20_A_Text",
     texture = "media/textures/Item_SamFisher.png",
     title = "IGUI_SFQuest_Questyno_SamFisher20_Title",
-    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher20_Complete",
 });
 
 --				21. Recuperare Base.LogStacks4;2 (60rep + 20$)

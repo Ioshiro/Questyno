@@ -2223,7 +2223,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_EmilyTerry1_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry1_Text = "Semi per Terry",
     IGUI_SFQuest_Questyno_EmilyTerry1_Lore = "Terry mi ha chiesto di portargli 12 Semi di Rapanello. Dovrei trovarli nei campi agricoli.",
-    IGUI_SFQuest_Questyno_EmilyTerry1_Begin_Text = "Ho bisogno di qualche seme si rapanello, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_EmilyTerry1_Begin_Text = "Ho bisogno di qualche seme di rapanello, riesci a rimediarlo?",
     IGUI_SFQuest_Questyno_EmilyTerry1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry1_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_EmilyTerry1_Complete = "Grazie mille, quando saranno cresciuti ti chiamo!",
@@ -2231,14 +2231,14 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_EmilyTerry2_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry2_Text = "Semi per Terry",
     IGUI_SFQuest_Questyno_EmilyTerry2_Lore = "Terry mi ha chiesto di portargli 12 Semi di Fragola. Dovrei trovarli nei campi agricoli.",
-    IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text = "Ho bisogno di qualche seme si fragola, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text = "Ho bisogno di qualche seme di fragola, riesci a rimediarlo?",
     IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_EmilyTerry2_Complete = "Grazie mille, quando saranno cresciute ti chiamo! Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte! ",
 	
 	IGUI_SFQuest_Questyno_EmilyTerry3_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry3_Text = "Più ceppi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry3_Lore = "Terry mi ha chiesto di portargli 2x3 Ceppi. Dovrei recuperare delle corde di stracci.",
+    IGUI_SFQuest_Questyno_EmilyTerry3_Lore = "Terry mi ha chiesto di portargli 2 Cataste da Tre Ceppi. Dovrei recuperare delle corde di stracci.",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -2246,7 +2246,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry4_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry4_Text = "Più ceppi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry4_Lore = "Terry mi ha chiesto di portargli 2x4 Ceppi. Dovrei recuperare delle corde di stracci",
+    IGUI_SFQuest_Questyno_EmilyTerry4_Lore = "Terry mi ha chiesto di portargli 2 Cataste da Quattro Ceppi. Dovrei recuperare delle corde di stracci",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -2310,7 +2310,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry12_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry12_Text = "Ceppi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry12_Lore = "Terry mi ha chiesto di portargli 4x2 Ceppi. Dovrei recuperare delle corde di stracci",
+    IGUI_SFQuest_Questyno_EmilyTerry12_Lore = "Terry mi ha chiesto di portargli 4 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci",
     IGUI_SFQuest_Questyno_EmilyTerry12_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
     IGUI_SFQuest_Questyno_EmilyTerry12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry12_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -2318,7 +2318,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry13_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry13_Text = "Ceppi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry13_Lore = "Terry mi ha chiesto di portargli 3x2 Ceppi. Dovrei recuperare delle corde di stracci",
+    IGUI_SFQuest_Questyno_EmilyTerry13_Lore = "Terry mi ha chiesto di portargli 3 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci",
     IGUI_SFQuest_Questyno_EmilyTerry13_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
     IGUI_SFQuest_Questyno_EmilyTerry13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry13_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -4138,25 +4138,29 @@ IGUI_EN = {
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso17_Title = "Rafael 'Prezioso' (10152,6622,1)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso17_Text = "Un tagliaerba per Rafael",
-	IGUI_SFQuest_Questyno_RafaelPrezioso17_Lore = "Rafael vorrebbe che gli trovassi un Taglia Erba nel negozio di elettronica a New Ekron (7383,8285,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text = "Mi mancano i pratini all'inglese, voglio che vai a cercare un altro pezzo di elettronica che ci ha distinto come civiltà industrializzata. Lo troverai sicuramente al negozio di elettronica a New Ekron.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso17_Text = "Il fertilizzante per Samuel",
+	IGUI_SFQuest_Questyno_RafaelPrezioso17_Lore = "Rafael vorrebbe che gli del fertilizzante nel negozio  a New Ekron (7383,8285,0)",
+	IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text = "Mi mancano i pratini all'inglese, voglio che vai a cercare del fertilizzante a New Ekron.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
 	IGUI_SFQuest_Questyno_RafaelPrezioso17_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
-	IGUI_SFQuest_Questyno_RafaelPrezioso17_Complete = "Finalmente queste vespe spariranno una volta per tutte! Grazie!",
+	IGUI_SFQuest_Questyno_RafaelPrezioso17_Complete = "Ottimo! Speriamo che cresca bella verde!",
 	IGUI_SFQuest_Questyno_RafaelPrezioso17_A = "Cerca a New Ekron (7383,8285,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso17_A_Text = "Porta il tagliaerba a Rafael",
+	IGUI_SFQuest_Questyno_RafaelPrezioso17_A_Text = "Porta il fertilizzante a Rafael",
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso18_Title = "Rafael 'Prezioso' (10152,6622,1)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso18_Text = "Olio su tela",
-	IGUI_SFQuest_Questyno_RafaelPrezioso18_Lore = "Rafael vorrebbe che gli trovassi un dipinto specifico in una casa a Rosewood (8346,11716,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text = "Ti intendi di dipinti? Non è un problema, questo lo riconoscerai perforza, si trova in una casa a Rosewood, capirai qual è quando lo vedrai, fidati.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso18_Lore = "Rafael vorrebbe che gli trovassi gli recuperassi della venirce a casa sua a Rosewood (8346,11716,0)",
+	IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text = "Ti intendi di dipinti? Non è un problema, basta che arraffi più vernici che puoi nel mio garage a Rosewood. ",
 	IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
 	IGUI_SFQuest_Questyno_RafaelPrezioso18_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
-	IGUI_SFQuest_Questyno_RafaelPrezioso18_Complete = "Wow incredibile, la metterò in camera.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso18_Complete = "Bene, è proprio quella che mi serviva! Grazie!",
 	IGUI_SFQuest_Questyno_RafaelPrezioso18_A = "Cerca a Rosewood (8346,11716,0)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso18_A_Text = "Porta il dipinto a Rafael",
+	IGUI_SFQuest_Questyno_RafaelPrezioso18_A_Text = "Trova la vernice per Rafael",
+    IGUI_SFQuest_Questyno_RafaelPrezioso18_B = "Vernice Blu",
+    IGUI_SFQuest_Questyno_RafaelPrezioso18_C = "Vernice Rossa",
+    IGUI_SFQuest_Questyno_RafaelPrezioso18_D = "Vernice Gialla",
+    IGUI_SFQuest_Questyno_RafaelPrezioso18_B_Text = "Torna da Rafael",
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso19_Title = "Rafael 'Prezioso' (10152,6622,1)",
@@ -4242,8 +4246,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis1_Title = "Il prezzo della cultura",
-    IGUI_SFQuest_Questyno_JeffreyLewis1_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis1_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis1_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis1_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Carpenteria 1, Carpenteria 2, Cucina 1, Elettricista 2. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4256,8 +4260,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis1_A_Text = "Parla con Jeffrey",
 
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis2_Title = "Il prezzo della cultura",
-    IGUI_SFQuest_Questyno_JeffreyLewis2_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis2_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis2_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis2_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Carpenteria 2, Cucina 3, Ispezione 1, Ispezione 3 . Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4270,8 +4274,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis2_A_Text = "Parla con Jeffrey",
 
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis3_Title = "Il prezzo della cultura",
-    IGUI_SFQuest_Questyno_JeffreyLewis3_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis3_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis3_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis3_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 2, Lavorazione Metalli 1, Meccanica 4. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis3_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4283,8 +4287,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis3_A_Text = "Parla con Jeffrey",
 
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis4_Title = "Il prezzo della civiltà",
-    IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis4_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pronto Soccorso 2, Meccanica 3, Pronto Soccorso 1, Pesca 1. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca. ",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4297,8 +4301,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis4_A_Text = "Parla con Jeffrey",
 
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis5_Title = "Il prezzo della civiltà",
-    IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis5_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 2, Pronto soccorso 3, Pesca 2, Pronto soccorso 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4311,8 +4315,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis5_A_Text = "Parla con Jeffrey",
 
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis6_Title = "Il prezzo della civiltà",
-    IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis6_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 4, Trappole 4, Ispezione 4, Ispezione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4359,8 +4363,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis8_B_Text = "Porta i libri a Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis9_Title = "Jeffrey il segaiolo",
-    IGUI_SFQuest_Questyno_JeffreyLewis9_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis9_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis9_Text = "Jeffrey il segaiolo",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifiche per lui. Vorrebbe 5 Riviste TV. Dovrei andare a controllare in qualche casa.",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text = "Cerca queste riviste per me, è molto importante per farmi delle pippe di stile.",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4368,8 +4372,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis9_Complete = "Grazie, ne farò buon uso.",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis10_Title = "Pollice verde con Jeffrey",
-    IGUI_SFQuest_Questyno_JeffreyLewis10_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis10_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis10_Text = "Pollice verde con Jeffrey",
     IGUI_SFQuest_Questyno_JeffreyLewis10_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 1, Coltivazione 2, Coltivazione 3, Coltivazione 4, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text = "Heila, come va? Ho bisogno che mi trovi tutta la collezione di Coltivazione, pensi di farcela?",
     IGUI_SFQuest_Questyno_JeffreyLewis10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4383,8 +4387,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis10_A_Text = "Parla con Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis11_Title = "Nozioni di elettrica con Jeffrey",
-    IGUI_SFQuest_Questyno_JeffreyLewis11_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis11_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis11_Text = "Nozioni di elettrica con Jeffrey",
     IGUI_SFQuest_Questyno_JeffreyLewis11_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Elettrica 1, Elettrica 2, Elettrica 3, Elettrica 4, Elettrica 5 Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text = "Heila, come va? Ho bisogno che mi trovi tutta la collezione di Elettrica, pensi di farcela?",
     IGUI_SFQuest_Questyno_JeffreyLewis11_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4398,8 +4402,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis11_A_Text = "Parla con Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis12_Title = "Jeffrey il segaiolo",
-    IGUI_SFQuest_Questyno_JeffreyLewis12_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis12_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis12_Text = "Jeffrey il segaiolo",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifici per lui. Vorrebbe 10 Riviste TV. Dovrei andare a controllare in qualche casa.",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text = "Cerca queste riviste per me, è molto importante per farmi delle pippe di stile.",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4407,8 +4411,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis12_Complete = "Grazie, ne farò buon uso.",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis13_Title = "Il prezzo dell'istruzione",
-    IGUI_SFQuest_Questyno_JeffreyLewis13_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis13_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis13_Text = "Il prezzo dell'istruzione",
     IGUI_SFQuest_Questyno_JeffreyLewis13_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 3, Lavorazione metalli 2, Lavorazione metalli 3, Carpenteria 4, Trappole 2. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis13_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4422,8 +4426,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis13_A_Text = "Parla con Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Il prezzo della Società",
-    IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4437,8 +4441,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis14_A_Text = "Parla con Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Il prezzo della Società",
-    IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Ispezione 3, Meccanica 1, Carpenteria 2, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4466,8 +4470,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis16_B_Text = "Porta a Jeffrey",
 	
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis17_Title = "Il prezzo della comunità",
-    IGUI_SFQuest_Questyno_JeffreyLewis17_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis17_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis17_Text = "Il prezzo della comunità",
     IGUI_SFQuest_Questyno_JeffreyLewis17_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe andassi a Rosewwod a recuperare un paio di Riviste di pesca. Dice che posso trovarle a Rosewood (8090,11511,0)",
     IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text = "Dobbiamo tramandare le nostre conoscienze per rimanere in vita, cercami queste riviste speciali, le troverai nella libreria a Rosewood.",
     IGUI_SFQuest_Questyno_JeffreyLewis17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4479,8 +4483,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis17_C = "Base.FishingMag 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis17_B_Text	= "Torna da Jeffrey",
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis18_Title = "Il prezzo della sviluppo",
-    IGUI_SFQuest_Questyno_JeffreyLewis18_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis18_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Text = "Il prezzo della sviluppo",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe delle riviste che si trovano nella scuola a Muldraugh (10627,9973,0)",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text = "Ho bisogno che mi trovi alcune riviste che servono a i nostri ingegneri. Puoi trovarle alla scuola di Muldraugh.",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4493,8 +4497,8 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis18_D = "Base.ElectronicsMag 3",
 	IGUI_SFQuest_Questyno_JeffreyLewis18_B_Text = "Torna da Jeffrey",
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis19_Title = "Il prezzo della civiltà",
-    IGUI_SFQuest_Questyno_JeffreyLewis19_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis19_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Lore = "Jeffrey mi ha chiesto di portargli 4 Foglio e 2 Pastelli a cera.",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text = "Abbiamo bisogno di più fogli per i nostri pargoli, non possono continuare a scrivere sui muri!",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4504,16 +4508,16 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JeffreyLewis19_B = "2 Pastelli a cera",
 	IGUI_SFQuest_Questyno_JeffreyLewis19_A_Text = "Parla con Jeffrey",
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis20_Title = "Jeffrey il nostalgico",
-    IGUI_SFQuest_Questyno_JeffreyLewis20_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis20_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Text = "Jeffrey il nostalgico",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey mi ha chiesto di portargli 5 Riviste per farsi le pippe sulle Vips.",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text = "Mi piace sfogliare i i vecchi Magazine, mi immergono in un mondo che ormai è andato, se ne trovi qualcuno me lo porti?",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Declined = "Peccato...",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Complete = "Grazie, ne farò buon uso.",
 	
-	IGUI_SFQuest_Questyno_JeffreyLewis21_Title = "Jeffrey l'annoiato",
-    IGUI_SFQuest_Questyno_JeffreyLewis21_Text = "Jeffrey da Westpoint 10150,6620,0",
+	IGUI_SFQuest_Questyno_JeffreyLewis21_Title = "Jeffrey da Westpoint 10150,6620,0",
+    IGUI_SFQuest_Questyno_JeffreyLewis21_Text = "Jeffrey l'annoiato",
     IGUI_SFQuest_Questyno_JeffreyLewis21_Lore = "Jeffrey mi ha di trovargli qualcosa per staccare. Vorrebbe la Rivista di cruciverba gialla, Rivista di cruciverba verde, Rivista di cruciverba blu. Inoltre vorrebbe la Rivista di ricerca delle parole arancione, Rivista di ricerca delle parole viola, Rivista di ricerca delle parole azzurra.",
     IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text = "Cerca queste riviste per me, è molto importante per non uscire fuori di testa.",
     IGUI_SFQuest_Questyno_JeffreyLewis21_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -4764,7 +4768,7 @@ IGUI_EN = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis19_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis19_Text = "Christopher galateo",
-    IGUI_SFQuest_Questyno_ChristopherDavis19_Lore = "Christopher mi ha chiesto di portargli 6 Cucchai. C'è una festa a cui non sono stato invitato?",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Lore = "Christopher mi ha chiesto di portargli 6 Cucchiai. C'è una festa a cui non sono stato invitato?",
     IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text = "Dicono che non è igenico usare le mani per mangiare. Tu che ne pensi? Tutti a lamentarsi ma nessuno che viene da me con una soluzione! Puoi fare qualcosa?",
     IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -4855,7 +4859,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela da Westpoint 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez1_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez1_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Carota. Dovrei trovarli nei campi agricoli.",
-    IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text = "Ho bisogno di qualche seme si rapanello, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text = "Ho bisogno di qualche Seme di Carota, riesci a rimediarlo?",
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Complete = "Grazie mille, quando saranno cresciuti ti chiamo!",
@@ -4864,7 +4868,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela da Westpoint 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez2_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez2_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Broccoli. Dovrei trovarli nei campi agricoli.",
-    IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text = "Ho bisogno di qualche seme di fragola, riusci a rimediarlo?",
+    IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text = "Ho bisogno di qualche Seme di Broccoli, riesci a rimediarlo?",
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Complete = "Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte!",
@@ -4980,7 +4984,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela da Westpoint 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez15_Text = "I funghi per Pamela",
-    IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela mi ha chiesto di recuperare due Fungo in particolare. Vediamo se li trovo nel bosco.",
+    IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela mi ha chiesto di recuperare due Funghi. Vediamo se li trovo nel bosco.",
     IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text = "Riesci a recuperare questi tipi di funghi? Ti ricompenserò con un'ottima spezia!",
     IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -5150,11 +5154,11 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_SamFisher4_Title = "Sam da Westpoint 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher4_Text = "Sfida di pesca",
-    IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Luna Medio (20-25cm). Dovrei riuscire a pescarlo nel fiume o in un lago.",
-    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo!",
+    IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Gatto Grande almeno 50cm. Dovrei riuscire a pescarlo con una canna da pesca.",
+    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo, credo sia almeno 50cm!",
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Declined = "Sarà per la prossima.",
-    IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Vediamo cosa riesci a fare con questo.",
+    IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Non pensavo ce l'avresti fatta! Alla tua!",
 	
 	
 	IGUI_SFQuest_Questyno_SamFisher5_Title = "Sam da Westpoint 10153,6571,0",
@@ -5281,8 +5285,8 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_SamFisher17_Title = "Sam da Westpoint 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher17_Text = "Scommetti con Sam",
-    IGUI_SFQuest_Questyno_SamFisher17_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Gatto Grande (35-55cm). Ma dovrei riuscire a trovarne uno durante il tramonto.",
-    IGUI_SFQuest_Questyno_SamFisher17_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di questo?",
+    IGUI_SFQuest_Questyno_SamFisher17_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Gatto Grande almeno 50cm. Ma dovrei riuscire a trovarne uno durante il tramonto.",
+    IGUI_SFQuest_Questyno_SamFisher17_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di 50cm? ",
     IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SamFisher17_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher17_Complete = "Bene, non farmi aspettare troppo.",
@@ -5295,8 +5299,8 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_SamFisher18_Title = "Sam da Westpoint 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher18_Text = "Scommetti con Sam",
-    IGUI_SFQuest_Questyno_SamFisher18_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Trota (50-70cm). Ma dovrei riuscire a trovarne uno durante l'alba.",
-    IGUI_SFQuest_Questyno_SamFisher18_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di questo?",
+    IGUI_SFQuest_Questyno_SamFisher18_Lore = "Sam ha scommesso 50 dollari che non riuscirò a prende un Pesce Trota Grande almeno 50cm. Ma dovrei riuscire a trovarne uno durante l'alba.",
+    IGUI_SFQuest_Questyno_SamFisher18_Begin_Text = "Oggi voglio fare una sfida con te. Scommettiamo 50 dollari che non riesci a prenderne uno più grande di 50cm?",
     IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SamFisher18_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher18_Complete = "Bene, non farmi aspettare troppo.",
