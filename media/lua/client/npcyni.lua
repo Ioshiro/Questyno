@@ -461,3 +461,20 @@ SFQuest_Database.MannequinPool["6867x7360x0"] = {
     outfit = "PonchoGiallo"
 }
 
+--  Ethan Steele 10102x11171x0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_EthanSteele",
+    square = "10102x11171x0",
+    name = "IGUI_SFQuest_Questyno_EthanSteele_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_EthanSteele.png",
+})
+
+SFQuest_Database.MannequinPool["10102x11171x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoGiallo"
+}
+

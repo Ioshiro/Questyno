@@ -73,9 +73,9 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn2_Lore" },
-    text = "IGUI_SFQuest_Questyno_EzekielFlynn2A_Text",
+    text = "IGUI_SFQuest_Questyno_EzekielFlynn2_A_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
-    title = "IGUI_SFQuest_Questyno_EzekielFlynn2A_Title",
+    title = "IGUI_SFQuest_Questyno_EzekielFlynn2_Title",
     unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Complete", -- ZOMBIE REQUEST
 });
 
@@ -202,9 +202,9 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett2_Lore" },
-    text = "IGUI_SFQuest_Questyno_ElowenBeckett2A_Text",
+    text = "IGUI_SFQuest_Questyno_ElowenBeckett2_A_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
-    title = "IGUI_SFQuest_Questyno_ElowenBeckett2A_Title",
+    title = "IGUI_SFQuest_Questyno_ElowenBeckett2_Title",
     unlocks = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett2_Complete", -- ZOMBIE REQUEST
 });
 
@@ -244,7 +244,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
-    awardsitem = "Wheelbarrow;1", -- ITEM REWARD
+    awardsitem = "Carryola;1", -- ITEM REWARD
     needsitem = "ScrapMetal;4", -- ITEM REQUEST
     completesound = "levelup",
     dailycode = "Questyno_ElowenBeckett",
@@ -425,3 +425,117 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker5_Complete",
 })
 
+
+    --[[
+            *** Ethan Steele ***
+            Elenco:
+                intro. Parla con Ethan Steele per sbloccare le daily.
+				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
+				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
+				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele_Intro",
+
+    awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele1_Begin;Questyno_EthanSteele1", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore" },
+    ondone = "randomcodedworldfrompool;Questyno_EthanSteele;Questyno;EthanSteele",
+    text = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele1",
+
+    awardstask = "Questyno_EthanSteele1_A", -- TASK REWARD
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele1_Lore" },
+    objectives = {{
+        guid = "Questyno_EthanSteele1_A",
+        text = "IGUI_SFQuest_Questyno_EthanSteele1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoEthanSteele1;additem;Base.Army_Duffle_Bag;1",
+    },{
+        guid = "Questyno_EthanSteele1_B",
+        text = "IGUI_SFQuest_Questyno_EthanSteele1_B",
+        unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele1:2:Completed", -- ZOMBIE REQUEST
+        hidden = false,
+    }},
+    text = "IGUI_SFQuest_Questyno_EthanSteele1_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    title = "IGUI_SFQuest_Questyno_EthanSteele1_Title",
+    unlocks = "clickevent;10102x11172x0:EventoEthanSteele1;time:50:anim:loot;updateobjective:Questyno_EthanSteele1:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele1_A",
+
+    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsitem = "Base.Money;25", -- ITEM REWARD
+    awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele2_Begin;Questyno_EthanSteele2", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele1_Lore" },
+    needsitem = "Base.Army_Duffle_Bag;1",
+    onobtained = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele1_Complete",
+    text = "IGUI_SFQuest_Questyno_EthanSteele1_A_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    title = "IGUI_SFQuest_Questyno_EthanSteele1_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele2",
+
+    awardstask = "Questyno_EthanSteele2_A", -- TASK REWARD
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele2_Lore" },
+    objectives = {{
+        guid = "Questyno_EthanSteele2_A",
+        text = "IGUI_SFQuest_Questyno_EthanSteele2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoEthanSteele2;additem;AuthenticZLite.Jacket_ChuckGreene;1",
+    },{
+        guid = "Questyno_EthanSteele2_B",
+        text = "IGUI_SFQuest_Questyno_EthanSteele2_B",
+        unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele2:2:Completed", -- ZOMBIE REQUEST
+        hidden = false,
+    }},
+    text = "IGUI_SFQuest_Questyno_EthanSteele2_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
+    unlocks = "clickevent;10102x11172x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele2_A",
+
+    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsitem = "Base.Money;25", -- ITEM REWARD
+    awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele3_Begin;Questyno_EthanSteele3", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele2_Lore" },
+    needsitem = "AuthenticZLite.Jacket_ChuckGreene;1",
+    onobtained = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele2_Complete",
+    text = "IGUI_SFQuest_Questyno_EthanSteele2_A_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EthanSteele3",
+
+    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsitem = "Base.EmptyCAN6;1", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_EthanSteele3_Lore" },
+    needsitem = "Base.Money;250",
+    onobtained = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele3_Complete",
+    text = "IGUI_SFQuest_Questyno_EthanSteele3_Text",
+    texture = "media/textures/Item_EthanSteele.png",
+    title = "IGUI_SFQuest_Questyno_EthanSteele3_Title",
+    unlockedsound = "QuestUnlocked"
+});

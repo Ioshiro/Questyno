@@ -89,3 +89,24 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_J
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JohnBaker5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JohnBaker5", optional = true, text = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JohnBaker5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JohnBaker5_B", text = "IGUI_SFQuest_Questyno_JohnBaker5_Complete"})
+
+
+    --[[
+            *** Ethan Steele ***
+            Elenco:
+                intro. Parla con Ethan Steele per sbloccare le daily.
+				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
+				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
+				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EthanSteele_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EthanSteele_Intro", text = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EthanSteele1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EthanSteele1", optional = true, text = "IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EthanSteele1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EthanSteele1_A", text = "IGUI_SFQuest_Questyno_EthanSteele1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EthanSteele2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EthanSteele2", optional = true, text = "IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EthanSteele2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EthanSteele2_A", text = "IGUI_SFQuest_Questyno_EthanSteele2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EthanSteele3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EthanSteele3", optional = true, text = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EthanSteele3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EthanSteele3", text = "IGUI_SFQuest_Questyno_EthanSteele3_Complete"})

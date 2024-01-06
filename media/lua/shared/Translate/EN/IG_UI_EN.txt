@@ -5551,4 +5551,53 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 <Base.CornedBeef>",
 	IGUI_SFQuest_Questyno_JohnBaker5_E = "<Dried Chick Peas>";
 	IGUI_SFQuest_Questyno_JohnBaker5_B_Text = "Parla con John",
+
+    --[[
+            *** Ethan Steele ***
+            Elenco:
+                intro. Parla con Ethan Steele per sbloccare la catena.
+				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
+				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
+				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
+]]
+    IGUI_SFQuest_Questyno_EthanSteele_Name = "Ethan Steele",
+
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Title = "Ethan Steele",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Text = "Parla con Ethan Steele.",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "MANCA PRESENTAZIONE",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "MANCA PRESENTAZIONE",
+
+	
+	IGUI_SFQuest_Questyno_EthanSteele1_Title = "Ethan da Springwood 10310,8040,0",
+    IGUI_SFQuest_Questyno_EthanSteele1_Text = "Uno zaino fantastico ",
+    IGUI_SFQuest_Questyno_EthanSteele1_Lore = "Ethan vorrebbe che recuperassi uno zaino particolare nel negozio a Pitstop (10102,11172,0)",
+    IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text = "Voglio che recuperi uno zaino molto particolare per me a Pitstop, non se ne trovano come quelli in giro, devo assolutamente averlo!",
+    IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
+    IGUI_SFQuest_Questyno_EthanSteele1_Begin_Text_Declined = "Okay, pazienza.",
+    IGUI_SFQuest_Questyno_EthanSteele1_Complete = "Wow, fantastico! Questi sono per te!",
+	IGUI_SFQuest_Questyno_EthanSteele1_A = "Cerca a Pitstop (10102,11172,0)",
+	IGUI_SFQuest_Questyno_EthanSteele1_B = "Uccidi 50 Zombie",
+	IGUI_SFQuest_Questyno_EthanSteele1_A_Text = "Porta lo zaino a Ethan",
+
+	
+	IGUI_SFQuest_Questyno_EthanSteele2_Title = "Ethan da Springwood 10310,8040,0",
+    IGUI_SFQuest_Questyno_EthanSteele2_Text = "Una vestito speciale",
+    IGUI_SFQuest_Questyno_EthanSteele2_Lore = "Ethan vorrebbe che recuperassi una giacca particolare nella mia vecchia abitazione a Cherokee Lake (10102,11172,0)",
+    IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text = "Voglio che recuperi un vestito molto particolare per me a Pitstop, non se ne trovano come quelli in giro, devo assolutamente averlo!",
+    IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
+    IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Declined = "Okay, pazienza.",
+    IGUI_SFQuest_Questyno_EthanSteele2_Complete = "Bellissima! Ti ringrazio! Un ultimo favore e sarai ricompensato!",
+	IGUI_SFQuest_Questyno_EthanSteele2_A = "Cerca a Cherokee Lake (10102,11172,0)",
+	IGUI_SFQuest_Questyno_EthanSteele2_B = "Uccidi 50 Zombie",
+	IGUI_SFQuest_Questyno_EthanSteele2_A_Text = "Porta la giacca a Ethan",
+
+	
+	IGUI_SFQuest_Questyno_EthanSteele3_Title = "Ethan da Springwood 10310,8040,0",
+    IGUI_SFQuest_Questyno_EthanSteele3_Text = "Ethan il truffaldino",
+    IGUI_SFQuest_Questyno_EthanSteele3_Lore = "Dopo tutti i favori che gli ho fatto alla fine Ethan mi lascerà la sua Tanica di benzina Media soltanto se sarò disposto a pagarlo 250$",
+    IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text = "Okay, grazie per i favori, adesso posso farti un prezzo stracciato per la tanica!",
+    IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Accepted = "Sono qui sa cambi idea.",
+    IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Declined = "Okay, pazienza.",
+    IGUI_SFQuest_Questyno_EthanSteele3_Complete = "Affare fatto. Tieni questa tanica e fanne buon uso!",
+	
 }
