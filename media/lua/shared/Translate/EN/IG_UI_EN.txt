@@ -33,6 +33,7 @@ IGUI_EN = {
     IGUI_Factions_Daily_Tier3 = "Attivo",
     IGUI_SFQuest_Questyno_Pynocchio_Name = "Pynocchio",
     IGUI_SFQuest_Questyno_Brioshi_Name = "Brioshi",
+    IGUI_Reputation = "Reputazione",
 
 --[[                        *** SEZIONE 1: QUEST PER SOLDI ***
             Elenco:

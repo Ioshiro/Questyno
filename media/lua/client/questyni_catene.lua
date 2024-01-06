@@ -244,7 +244,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
-    awardsitem = "Carryola;1", -- ITEM REWARD
+    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1", -- ITEM REWARD
     needsitem = "ScrapMetal;4", -- ITEM REQUEST
     completesound = "levelup",
     dailycode = "Questyno_ElowenBeckett",
