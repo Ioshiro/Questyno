@@ -441,7 +441,6 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele1_Begin;Questyno_EthanSteele1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_EthanSteele;Questyno;EthanSteele",
     text = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Text",
     texture = "media/textures/Item_EthanSteele.png",
     unique = true,
@@ -506,7 +505,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele2_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
-    unlocks = "clickevent;10102x11172x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
+    unlocks = "clickevent;11264x8219x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 

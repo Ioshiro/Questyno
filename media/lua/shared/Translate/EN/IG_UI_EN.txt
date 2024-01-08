@@ -5563,7 +5563,7 @@ IGUI_EN = {
 ]]
     IGUI_SFQuest_Questyno_EthanSteele_Name = "Ethan Steele",
 
-    IGUI_SFQuest_Questyno_EthanSteele_Intro_Title = "Ethan Steele",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Title = "Ethan Steele 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Text = "Parla con Ethan Steele.",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "MANCA PRESENTAZIONE",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "MANCA PRESENTAZIONE",
@@ -5583,12 +5583,12 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_EthanSteele2_Title = "Ethan da Springwood 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele2_Text = "Una vestito speciale",
-    IGUI_SFQuest_Questyno_EthanSteele2_Lore = "Ethan vorrebbe che recuperassi una giacca particolare nella mia vecchia abitazione a Cherokee Lake (10102,11172,0)",
+    IGUI_SFQuest_Questyno_EthanSteele2_Lore = "Ethan vorrebbe che recuperassi una giacca particolare nella mia vecchia abitazione a Cherokee Lake (11264,8219,0)",
     IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text = "Voglio che recuperi un vestito molto particolare per me a Pitstop, non se ne trovano come quelli in giro, devo assolutamente averlo!",
     IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
     IGUI_SFQuest_Questyno_EthanSteele2_Begin_Text_Declined = "Okay, pazienza.",
     IGUI_SFQuest_Questyno_EthanSteele2_Complete = "Bellissima! Ti ringrazio! Un ultimo favore e sarai ricompensato!",
-	IGUI_SFQuest_Questyno_EthanSteele2_A = "Cerca a Cherokee Lake (10102,11172,0)",
+	IGUI_SFQuest_Questyno_EthanSteele2_A = "Cerca a Cherokee Lake (11264,8219,0)",
 	IGUI_SFQuest_Questyno_EthanSteele2_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_EthanSteele2_A_Text = "Porta la giacca a Ethan",
 
@@ -5601,4 +5601,418 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Declined = "Okay, pazienza.",
     IGUI_SFQuest_Questyno_EthanSteele3_Complete = "Affare fatto. Tieni questa tanica e fanne buon uso!",
 	
+    --[[
+            *** Taylor Blaze ***
+            Elenco:
+                intro. Parla con Taylor Blaze per sbloccare le sue quest mensili.
+				1. Recuperare Base.Bullets9mmBox;10 (620rep + SWeapons.SalvagedPipeWrench)
+				2. Recuperare Base.Bullets45Box;10 (550rep + SWeapons.SalvagedPipeWrench)
+				3. Recuperare Base.223Box;15 (900rep)
+				4. Recuperare Base.308Box;12 (780rep)
+				5. Recuperare Base.Bullets44Box;12 (1000rep)
+				6. Recuperare Base.ShotgunShellsBox;10 (1200rep)
+				7. Recuperare Base.22Box;5 (1200rep + Base.PipeBomb)
+				8. Uccidere 250 Zombie, Recuperare Base.x8Scope,Base.CleaningKit,Base.762Clip,Base.556Clip,Base.Laser,Base.FiberglassStock (2200rep + 150$ + Base.PipeBomb)
+]]
+    IGUI_SFQuest_Questyno_TaylorBlaze_Name = "Taylor Blaze",
+
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title = "Taylor Blaze 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text = "Parla con Taylor Blaze per sbloccare le quest mensili",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor è una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta a commerciare armi e munizioni, però non coviene darle fregature. Posso trovarla a Trelai (7752,7759,0)",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "MANCA DIALOGO/PRESENTAZIONE",
+
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze1_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Lore = "Taylor ha bisogno di munizioni di piccolo calibro, precisamente vorrebbe 10 Scatole di munizioni 9mm.",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text = "La vita qua non è tutta rosa e fiori come nella vostra lurida tana! Qua si fanno saltare duecento teste al giorno! Cercami altre munizioni di piccolo calibro, coraggio!",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Declined = "C'era da aspettarselo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze1_Complete = "Cavolo cen'hai messo di tempo!",
+
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze2_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Lore = "Taylor ha bisogno di munizioni di piccolo calibro, precisamente vorrebbe 10 Scatole di munizioni .45 Automatica.",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text = "Voglio molte scatole di munizioni .45 Automatica, portamele e verrai ben ricompensato, alla svelta!",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text_Declined = "Peccato.",
+    IGUI_SFQuest_Questyno_TaylorBlaze2_Complete = "Wow, usa questa la prossima volta e dimmi come ti sembra!",
+
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze3_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Lore = "Taylor ha bisogno di munizioni per fucili semiautomatici, precisamente vorrebbe 15 Scatole di munizioni .223",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text = "Voglio molte scatole di munizioni per fucili automatici, pensi di potercela fare?!",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Declined = "C'era da aspettarselo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze3_Complete = "Okay, hai la stoffa che serve.",
+	
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze4_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Lore = "Taylor ha bisogno di munizioni per fucili semiautomatici, precisamente vorrebbe 12 Scatole di munizioni .308",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text = "Voglio molte scatole di munizioni per fucili automatici, pensi di potercela fare?!",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text_Declined = "Sei un codardo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze4_Complete = "Complimenti, queste sono difficili da trovare, penso che parlerò a Nigel di te!",
+	
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze5_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Lore = "Taylor ha bisogno di munizioni per fucili semiautomatici, precisamente vorrebbe 12 Scatole di munizioni .44 Magnum",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text = "Voglio molte munizioni per la mia Magnum, pensi di potercela fare?!",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Declined = "C'era da aspettarselo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Complete = Complimenti, queste sono difficili da trovare, penso che parlerò a Nigel di te!"",
+	
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze6_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Lore = "Taylor ha bisogno di cartucce per fucili, precisamente 10 Scatole.",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text = "Ho bisogno di cartucce per fucile, spero non mi deluderai.",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text_Declined = "Sei un codardo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze6_Complete = "Complimenti ragazzo, davvero vieni anche tu dalla tana?!",
+	
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze7_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Text = "Munizioni per Taylor",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Lore = "Taylor ha bisogno di cartucce per cecchini, precisamente 5 Scatole di munizioni .22",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text = "Ho bisogno di munizioni particolari stavolta, spero riuscirai a trovarle!",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted = "Okey, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Declined = "Sei un codardo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Complete = "Ottimo! Ti sei meritata una di queste, fanne buon uso!",
+	
+	
+	IGUI_SFQuest_Questyno_TaylorBlaze8_Title = "Taylor da Trelai 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Text = "Taylor e la Base militare",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Lore = "Taylor ha bisogno di me per recuperare degli accessori per armi alla base militare di Fort Benning (6144,7069,0)",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text = "Ho bisogno di munizioni particolari stavolta, spero riuscirai a trovarle!",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Declined = "Sei un codardo!",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Complete = "Bene, sembra tutto integro, prendi questi.",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_A = "Uccidi 250 Zombie",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_B = "Cerca a Fort Benning (6144,7069,0)",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_A_Text = "Prendi gli accessori per Taylor",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_C = "Base.x8Scope",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_D = "Base.CleaningKit",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_E = "Base.762Clip",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_F = "Base.556Clip",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_G = "Base.Laser",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_H = "Base.FiberglassStock",
+	IGUI_SFQuest_Questyno_TaylorBlaze8_B_Text = "Torna da Taylor",
+	
+    --[[
+            *** Marcus Kane ***
+            Elenco:
+                intro. Parla con Marcus Kane per sbloccare le quest mensili.
+				1. Recuperare Base.CreditCard;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Base.CreditCard;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Base.CreditCard;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Base.CreditCard;20, Uccidere 200 Zombie (420rep + 80$)
+]]
+    IGUI_SFQuest_Questyno_MarcusKane_Name = "Marcus Kane",
+
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Title = "Marcus Kane 8574,11026,0",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Parla con Marcus Kane per sbloccare le sue quest mensili",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ciao straniero, io sono Marcus DA COMPLETARE?",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus DA COMPLETARE?",
+
+	
+	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",
+    IGUI_SFQuest_Questyno_MarcusKane1_Text = "Sete di sangue",
+    IGUI_SFQuest_Questyno_MarcusKane1_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese.",
+    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Declined = "Sei serio amico?",
+    IGUI_SFQuest_Questyno_MarcusKane1_Complete = "Okay, non male, ritorna da me il prossimo mese.",
+	IGUI_SFQuest_Questyno_MarcusKane1_A = "5 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane1_B = "Uccidi 50 Zombie",
+	IGUI_SFQuest_Questyno_MarcusKane1_A_Text = "Parla con Marcus",
+
+	
+	IGUI_SFQuest_Questyno_MarcusKane2_Title = "Marcus da Rosewood Nord 8574,11026,0",
+    IGUI_SFQuest_Questyno_MarcusKane2_Text = "Sete di sangue",
+    IGUI_SFQuest_Questyno_MarcusKane2_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
+    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Declined = "Sei serio amico?",
+    IGUI_SFQuest_Questyno_MarcusKane2_Complete = "Okay, non male, ritorna da me il prossimo mese.",
+	IGUI_SFQuest_Questyno_MarcusKane2_A = "10 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane2_B = "Uccidi 100 Zombie",
+	IGUI_SFQuest_Questyno_MarcusKane2_A_Text = "Parla con Marcus",
+
+	
+	IGUI_SFQuest_Questyno_MarcusKane3_Title = "Marcus da Rosewood Nord 8574,11026,0",
+    IGUI_SFQuest_Questyno_MarcusKane3_Text = "Sete di sangue",
+    IGUI_SFQuest_Questyno_MarcusKane3_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
+    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Declined = "Sei serio amico?",
+    IGUI_SFQuest_Questyno_MarcusKane3_Complete = "Okay, non male, ritorna da me il prossimo mese.",
+	IGUI_SFQuest_Questyno_MarcusKane3_A = "12 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane3_B = "Uccidi 120 Zombie",
+	IGUI_SFQuest_Questyno_MarcusKane3_A_Text = "Parla con Marcus",
+	
+	
+	IGUI_SFQuest_Questyno_MarcusKane4_Title = "Marcus da Rosewood Nord 8574,11026,0",
+    IGUI_SFQuest_Questyno_MarcusKane4_Text = "Sete di sangue",
+    IGUI_SFQuest_Questyno_MarcusKane4_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
+    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Declined = "Sei serio amico?",
+    IGUI_SFQuest_Questyno_MarcusKane4_Complete = "Okay, non male, ritorna da me il prossimo mese.",
+	IGUI_SFQuest_Questyno_MarcusKane4_A = "20 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane4_B = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MarcusKane4_A_Text = "Parla con Marcus",
+
+--[[
+    DA EDITARE:
+---- ricerca CTRL+F ---- | ----- COMMENTI -----
+> (COORDINATE_Brian) 	-> coordinate Muldraugh posizione Brian
+> TITOLO1 ... TITOLO6 	-> titoli delle quest che mancano
+> (MANCANO COORDINATE)4 -> coordinate Coryerdon missione 4
+> (MANCANO COORDINATE)5 -> coordinate Muldraugh missione 5
+> (MANCANO COORDINATE)6 -> coordinate Rosewood missione 6
+
+            *** Brian White ***
+            Elenco:
+                intro. Parla con Brian White per sbloccare la catena.
+				1. Uccidere 50 Zombie (20rep + 10$)
+				2. Uccidere 100 Zombie (30rep + 10$)
+				3. Uccidere 200 Zombie (40rep + 10$)
+				4. Recuperare Base.CarBattery2 parlando con (MANCANO COORDINATE)4 (50rep + 10$)
+				5. Recuperare Base.NormalTire2 parlando con (MANCANO COORDINATE)5 (60rep + 10$)
+				6. Recuperare Base.NormalCarMuffler2 parlando con (MANCANO COORDINATE)6 (100rep + 50$ + Base.CarTicket)
+]]
+    IGUI_SFQuest_Questyno_BrianWhite_Name = "Brian White",
+
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Parla con Brian White per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
+
+	
+	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite1_Text = "TITOLO1",
+    IGUI_SFQuest_Questyno_BrianWhite1_Lore = "Devo dimostrare a Brian e al gruppo di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto. ",
+    IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text = "La prima cosa che puoi fare è la più semplice e immediata. Elimina 50 Zombie nell'area circostante, e torna da me.",
+    IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Declined = "Pff. Che femminuccia",
+    IGUI_SFQuest_Questyno_BrianWhite1_Complete = "Okay, sei in gamba.",
+
+	
+	IGUI_SFQuest_Questyno_BrianWhite2_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite2_Text = "TITOLO2",
+    IGUI_SFQuest_Questyno_BrianWhite2_Lore = "Devo dimostrare a Brian e al gruppo di meritarmi il suo aiuto. Devo uccidere 100 Zombie per suo conto.",
+    IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text = "Quelli di prima andavano bene come riscaldamento. Uccidine altri 100 e forse ti darò una mano.",
+    IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Accepted = "A presto allora.",
+    IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Declined = "Lo immaginavo.",
+    IGUI_SFQuest_Questyno_BrianWhite2_Complete = "Wow, non pensavo ce l'avresti fatta.",
+
+	
+	IGUI_SFQuest_Questyno_BrianWhite3_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite3_Text = "TITOLO3",
+    IGUI_SFQuest_Questyno_BrianWhite3_Lore = "Questa volta Brian vuole che ne ammazzi 200, forse si sta approfittando di me?",
+    IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text = "Okay, forse è stata solo fortuna, ma se ne fai fuori altri 200 allora sarai degno di muoverti per questa regione con una delle nostre macchine!",
+    IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Declined = "C'era da aspettarselo.",
+    IGUI_SFQuest_Questyno_BrianWhite3_Complete = "Okay, hai la stoffa che serve.",
+	
+	
+	IGUI_SFQuest_Questyno_BrianWhite4_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite4_Text = "TITOLO4",
+    IGUI_SFQuest_Questyno_BrianWhite4_Lore = "Brian vuole che gli porti una Batteria di Genere robusto. Spero solo di ritrovarla all'interno della MIA macchina. La troverò a Coryerdon (MANCANO COORDINATE)4",
+    IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text = "Okay, ho parlato con il capogruppo e se riesci a recuperare alcune parti forse riusciremo a darti un mezzo funzionante. Recupera una Batteria di Genere robusto a Coryerdon e portala qui!",
+    IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
+    IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_BrianWhite4_Complete = "Ottimo, buon lavoro. ",
+	IGUI_SFQuest_Questyno_BrianWhite4_A = "Cerca a Coryerdon (MANCANO COORDINATE)4",
+	IGUI_SFQuest_Questyno_BrianWhite4_A_Text = "Porta la batteria a Brian",
+	
+	
+	IGUI_SFQuest_Questyno_BrianWhite5_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite5_Text = "TITOLO5",
+    IGUI_SFQuest_Questyno_BrianWhite5_Lore = "Brian vuole che gli porti uno Pneumatico di Genere robusto. Dovrei trovarne uno nell'officina di Muldraugh (MANCANO COORDINATE)5",
+    IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text = "Eccoti qua, abbiamo bisogno ancora di qualcosina per la tua auto. Vai a Muldaugh e recupera uno Pneumatico di Genere Robusto e torna da me.",
+    IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
+    IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Declined = "Okay, c'eravamo quasi.",
+    IGUI_SFQuest_Questyno_BrianWhite5_Complete = "Bene, adesso sai tutto, mi raccomando, non far scendere la sua condizione sotto il 50% o potrebbe esplodere!",
+	IGUI_SFQuest_Questyno_BrianWhite5_A = "Cerca a Muldraugh (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_BrianWhite5_A_Text = "Porta lo Pneumatico a Brian",
+	
+	
+	IGUI_SFQuest_Questyno_BrianWhite6_Title = "Brian da Muldraugh (COORDINATE_Brian)",
+    IGUI_SFQuest_Questyno_BrianWhite6_Text = "TITOLO6",
+    IGUI_SFQuest_Questyno_BrianWhite6_Lore = "Brian vorrebbe che recuperi un Silenziatore di genere Robusto, altrimenti, a detta sua, mi sentiranno tutti da km. Dice che lo troverò a Rosewood (MANCANO COORDINATE)6. Spero non si sbagli.",
+    IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text = "Eccoti qua, abbiamo bisogno di un ultimo pezzo per la tua auto. Vai a Rosewood e recupera un Silenziatore Genere Robusto e torna da me.",
+    IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
+    IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined = "Okay, c'eravamo quasi.",
+    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato...",
+	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (MANCANO COORDINATE)6",
+	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
+
+--[[
+    DA EDITARE:
+---- ricerca CTRL+F ---- | ----- COMMENTI -----
+> (COORDINATE_Richard) 	-> coordinate Greenport posizione Richard
+> TITOLO1 ... TITOLO6 	-> titoli delle quest che mancano
+> (MANCANO COORDINATE)6 -> coordinate Orchiwood missione 6
+
+            *** Richard Brown ***
+            Elenco:
+                intro. Parla con Richard Brown per sbloccare la catena.
+				1. Uccidere 50 Zombie (10rep + MoneyToXP.100XPTraining)
+				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
+				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
+				4. Uccidere 400 Zombie (35rep + MoneyToXP.1000XPTraining)
+				5. Parlare con (COORDINATE_Richard) (60rep + 50$ + PynoTweaks.SafehouseTicket)
+				6. Recuperare Base.AVCSClaimOrb parlando con (MANCANO COORDINATE)6 (50rep + 50$ + Base.AVCSClaimOrb)
+]]
+    IGUI_SFQuest_Questyno_RichardBrown_Name = "Richard Brown",
+
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Title = "Richard Brown",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Parla con Richard Brown per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
+
+	
+	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown1_Text = "TITOLO1",
+    IGUI_SFQuest_Questyno_RichardBrown1_Lore = "Devo uccidere 50 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text = "Intanto puoi cominciare uccidendo 50 zombie. Una volta finito ti darò un Foglietto di Allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 100 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Accepted = "Ottimo! Ti aspetto qua.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Declined = "Pazienza. Peggio per te.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Complete = "Okay, ecco a te.",
+
+	
+	IGUI_SFQuest_Questyno_RichardBrown2_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown2_Text = "TITOLO2",
+    IGUI_SFQuest_Questyno_RichardBrown2_Lore = "Devo uccidere 100 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text = "Ammazza altri 100 Zombie. Una volta finito ti darò un Quaderno di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 250 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Accepted = "Ti aspetto qui.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Declined = "Peccato.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Complete = "Okay, ecco a te.",
+
+	
+	IGUI_SFQuest_Questyno_RichardBrown3_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown3_Text = "TITOLO3",
+    IGUI_SFQuest_Questyno_RichardBrown3_Lore = "Devo uccidere 300 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text = "Ammazza altri 300 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 800 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Accepted = "Ottimo. Ti aspetto qui.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Declined = "Cercherò qualcun'altro.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Complete = "Okay, ecco a te.",
+	
+	
+	IGUI_SFQuest_Questyno_RichardBrown4_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown4_Text = "TITOLO4",
+    IGUI_SFQuest_Questyno_RichardBrown4_Lore = "Devo uccidere 400 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
+	IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text = "Ammazza altri 400 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 2500 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
+    IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RichardBrown4_Complete = "Okay, ecco a te.",
+	
+	
+	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown5_Text = "TITOLO5",
+    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi in questo speciale negozio ogni volta che ti ritroverai in questo luogo, per le prime 6 ore di sopravvivenza. Ti va di averne uno?",
+    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
+	
+	
+	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Greenport (COORDINATE_Richard)",
+    IGUI_SFQuest_Questyno_RichardBrown6_Text = "TITOLO6",
+    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (MANCANO COORDINATE)6.",
+    IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood.",
+    IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
+    IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
+    IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Okay, tieni, non sprecarlo.",
+	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood (MANCANO COORDINATE)6",
+	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Torna da Richard",
+
+--[[
+    DA EDITARE:
+---- ricerca CTRL+F ---- | ----- COMMENTI -----
+> (COORDINATE_Robert) 	-> coordinate Spawn Point posizione Robert
+> TITOLO1 ... TITOLO5 	-> titoli delle quest che mancano
+> ITEM2 				-> nome (e anche definizione) dell'item mancante
+> UN_ITEM2 				-> come sopra ma con un articolo indeterminativo
+> L_ITEM2 				-> come sopra ma con l'articolo determinativo
+> (MANCANO COORDINATE)2 -> coordinate Coryerdon missione 4
+> (MANCANO COORDINATE)4 -> coordinate Muldraugh missione 5
+> (MANCANO COORDINATE)5 -> coordinate Rosewood missione 5 (se ci vanno effettivamente le coordinate)
+> LUOGO5 				-> della missione 5 oltre che coordinate manca anche il luogo (sicuro che l'oggetto sia recuperabile in quel posto?
+
+            *** Robert Wilson ***
+            Elenco:
+                intro. Parla con Robert Wilson per sbloccare la catena.
+				1. Uccidere 25 Zombie (10rep + 10$)
+				2. Recuperare ITEM2 parlando con (MANCANO COORDINATE)2, Uccidere 50 Zombie (20rep + 10$)
+				3. Recuperare Base.ElectronicsScrap;50 (25rep + 10$)
+				4. Recuperare Base.ElectronicsMag4 parlando con (MANCANO COORDINATE)4 (30rep + Base.ElectronicsMag4)
+				5. Recuperare Base.PetrolCan parlando con (MANCANO COORDINATE)5 (40rep + 50$ + Base.EmptyPetrolCan,Base.Generator)
+
+]]
+    IGUI_SFQuest_Questyno_RobertWilson_Name = "Robert Wilson",
+
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Title = "Robert Wilson",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Text = "Parla con Robert Wilson per sbloccare la sua catena di quest",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
+
+	
+	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da Spawn Point (COORDINATE_Robert)",
+    IGUI_SFQuest_Questyno_RobertWilson1_Text = "TITOLO1",
+    IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 25 Zombie per suo conto. ",
+    IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text = "È il momento di mettere insieme una squadra e cominciare a ripulire il territorio. Ecco un piano: prepariamoci delle lance fatte con rami robusti e pietre affilate. Sono armi efficaci e possono tenere gli zombi a distanza.",
+    IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RobertWilson1_Complete = "Ottimo, andiamo avanti allora.",
+
+	
+	IGUI_SFQuest_Questyno_RobertWilson2_Title = "Robert da Spawn Point (COORDINATE_Robert)",
+    IGUI_SFQuest_Questyno_RobertWilson2_Text = "TITOLO2",
+    IGUI_SFQuest_Questyno_RobertWilson2_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto e recuperare UN_ITEM2 nell'area di Greenleaf (MANCANO COORDINATE)2",
+    IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text = "Quelli di prima andavano bene come riscaldamento. Adesso voglio che vai nell'area di Greenleaf e recuperi un oggetto per me. Sarà utile per assemblare il tuo Generatore.",
+    IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RobertWilson2_Complete = "Ottimo, buon lavoro.",
+	IGUI_SFQuest_Questyno_RobertWilson2_A = "Cerca a Greenleaf (MANCANO COORDINATE)2",
+	IGUI_SFQuest_Questyno_RobertWilson2_A_Text = "Prendi L_ITEM2 per Robert",
+	IGUI_SFQuest_Questyno_RobertWilson2_B = "ITEM2",
+	IGUI_SFQuest_Questyno_RobertWilson2_C = "Uccidi 50 Zombie",
+	IGUI_SFQuest_Questyno_RobertWilson2_B_Text = "Torna da Robert",
+
+	
+	IGUI_SFQuest_Questyno_RobertWilson3_Title = "Robert da Spawn Point (COORDINATE_Robert)",
+    IGUI_SFQuest_Questyno_RobertWilson3_Text = "TITOLO3",
+    IGUI_SFQuest_Questyno_RobertWilson3_Lore = "Devo portare 50 Parti elettroniche a Robert. Saranno utili per ultimare il mio generatore.",
+    IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text = "Bene, sei un tipo tosto, ti meriti il mio aiuto e quello dei miei compagni. Adesso recuperami 50 parti elettroniche. Le trovi facilmente smontando anche gli orologi digitali. Pensi di farcela?",
+    IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RobertWilson3_Complete = "Ottimo, buon lavoro.",
+	
+	
+	IGUI_SFQuest_Questyno_RobertWilson4_Title = "Robert da Spawn Point (COORDINATE_Robert)",
+    IGUI_SFQuest_Questyno_RobertWilson4_Text = "TITOLO4",
+    IGUI_SFQuest_Questyno_RobertWilson4_Lore = "Devo andare a Lake Ivy (MANCANO COORDINATE)4 a prendere la rivista Come usare i generatori, utile per capire come funzionano.",
+    IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text = "Per poter collegare e fare manutenzione al generatore avrai bisogno di una rivista specifica. Vai a Lake Ivy, ne troverai sicuramente una in camera mia.",
+    IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RobertWilson4_Complete = "Ottimo, buon lavoro. Questa leggila per bene",
+	IGUI_SFQuest_Questyno_RobertWilson4_A = "Cerca a Lake Ivy (MANCANO COORDINATE)4",
+	IGUI_SFQuest_Questyno_RobertWilson4_A_Text = "Porta la rivista a Robert",
+	
+	
+	IGUI_SFQuest_Questyno_RobertWilson5_Title = "Robert da Spawn Point (COORDINATE_Robert)",
+    IGUI_SFQuest_Questyno_RobertWilson5_Text = "TITOLO5",
+    IGUI_SFQuest_Questyno_RobertWilson5_Lore = "Robert mi ha chiesto di recuperare una Tanica di Benzina piena a LUOGO6 (MANCANO COORDINATE)5 e poi mi farà vedere come funziona un generatore!",
+    IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text = "Bene, il tuo generatore è assemblato, recupera una Tanica di Benzina piena e torna da me, ti faccio vedere come funziona!",
+    IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Accepted = "Bene! Fai attenzione!",
+    IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Declined = "Capisco.",
+    IGUI_SFQuest_Questyno_RobertWilson5_Complete = "Bene, adesso sai tutto, mi raccomando, non far scendere la sua condizione sotto il 50% o potrebbe esplodere!",
+	IGUI_SFQuest_Questyno_RobertWilson5_A = "Cerca a LUOGO6 (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_RobertWilson5_A_Text = "Porta la tanica a Robert",
 }

@@ -546,6 +546,22 @@ Questyno = {
 		"Questyno_SamFisher;SFQuest_Questyno_SamFisher22_Begin;Questyno_SamFisher22",
 		"Questyno_SamFisher;SFQuest_Questyno_SamFisher23_Begin;Questyno_SamFisher23",
 		"Questyno_SamFisher;SFQuest_Questyno_SamFisher24_Begin;Questyno_SamFisher24",
+	},
+	TaylorBlaze = {
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze1_Begin;Questyno_TaylorBlaze1",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze2_Begin;Questyno_TaylorBlaze2",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze3_Begin;Questyno_TaylorBlaze3",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze4_Begin;Questyno_TaylorBlaze4",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze5_Begin;Questyno_TaylorBlaze5",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze6_Begin;Questyno_TaylorBlaze6",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze7_Begin;Questyno_TaylorBlaze7",
+		"Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze8_Begin;Questyno_TaylorBlaze8",
+	},
+	MarcusKane = {
+		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane1_Begin;Questyno_MarcusKane1",
+		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane2_Begin;Questyno_MarcusKane2",
+		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane3_Begin;Questyno_MarcusKane3",
+		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane4_Begin;Questyno_MarcusKane4",
 	}
 }
 
@@ -698,6 +714,21 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_TaylorBlaze",
+	condition = "notmaxedwithcode;Questyno_TaylorBlaze;1;hasfactiontier;TaylorBlaze;2",
+	commands = "randomcodedworldfrompool;Questyno_TaylorBlaze;Questyno;TaylorBlaze",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MarcusKane",
+	condition = "notmaxedwithcode;Questyno_MarcusKane;1;hasfactiontier;MarcusKane;2",
+	commands = "randomcodedworldfrompool;Questyno_MarcusKane;Questyno;MarcusKane",
+	days = 0,
+	frequency = 1
+});
+
 
 
 -- quest introduttive daily
@@ -722,6 +753,8 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JeffreyLewis_Int
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ChristopherDavis_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_PamelaPerez_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_SamFisher_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_TaylorBlaze_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MarcusKane_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -750,6 +783,8 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_ChristopherDavis" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_PamelaPerez" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamFisher" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_TaylorBlaze" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarcusKane" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

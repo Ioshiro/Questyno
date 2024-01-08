@@ -2070,3 +2070,69 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_S
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SamFisher24_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_SamFisher24", optional = true, text = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SamFisher24_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_SamFisher24_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_SamFisher24", text = "IGUI_SFQuest_Questyno_SamFisher24_Complete"})
+
+--[[
+            *** TaylorBlaze ***
+            Elenco:
+                intro. Parla con Taylor Blaze per sbloccare le sue quest mensili.
+				1. Recuperare Base.Bullets9mmBox;10 (620rep + SWeapons.SalvagedPipeWrench)
+				2. Recuperare Base.Bullets45Box;10 (550rep + SWeapons.SalvagedPipeWrench)
+				3. Recuperare Base.223Box;15 (900rep)
+				4. Recuperare Base.308Box;12 (780rep)
+				5. Recuperare Base.Bullets44Box;12 (1000rep)
+				6. Recuperare Base.ShotgunShellsBox;10 (1200rep)
+				7. Recuperare Base.22Box;5 (1200rep + Base.PipeBomb)
+				8. Uccidere 250 Zombie, Recuperare Base.x8Scope,Base.CleaningKit,Base.762Clip,Base.556Clip,Base.Laser,Base.FiberglassStock a  (6144,7069,0) (2200rep + 150$ + Base.PipeBomb)
+]]
+
+-- intro. parla con Taylor Blaze per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze_Intro", text = "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze1", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze1", text = "IGUI_SFQuest_Questyno_TaylorBlaze1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze2", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze2", text = "IGUI_SFQuest_Questyno_TaylorBlaze2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze3", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze3", text = "IGUI_SFQuest_Questyno_TaylorBlaze3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze4", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze4", text = "IGUI_SFQuest_Questyno_TaylorBlaze4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze5", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze5", text = "IGUI_SFQuest_Questyno_TaylorBlaze5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze6", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze6", text = "IGUI_SFQuest_Questyno_TaylorBlaze6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze7", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze7", text = "IGUI_SFQuest_Questyno_TaylorBlaze7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_TaylorBlaze8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_TaylorBlaze8", optional = true, text = "IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_TaylorBlaze8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_TaylorBlaze8_B", text = "IGUI_SFQuest_Questyno_TaylorBlaze8_Complete"})
+
+--[[
+            *** Marcus Kane ***
+            Elenco:
+                intro. Parla con Marcus Kane per sbloccare le quest mensili.
+				1. Recuperare Base.CreditCard;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Base.CreditCard;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Base.CreditCard;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Base.CreditCard;20, Uccidere 200 Zombie (420rep + 80$)
+]]
+
+-- intro. parla con Marcus Kane per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarcusKane_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MarcusKane_Intro", text = "IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarcusKane1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MarcusKane1", optional = true, text = "IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MarcusKane1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MarcusKane1_A", text = "IGUI_SFQuest_Questyno_MarcusKane1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarcusKane2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MarcusKane2", optional = true, text = "IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MarcusKane2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MarcusKane2_A", text = "IGUI_SFQuest_Questyno_MarcusKane2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarcusKane3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MarcusKane3", optional = true, text = "IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MarcusKane3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MarcusKane3_A", text = "IGUI_SFQuest_Questyno_MarcusKane3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarcusKane4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MarcusKane4", optional = true, text = "IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MarcusKane4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MarcusKane4_A", text = "IGUI_SFQuest_Questyno_MarcusKane4_Complete"})
