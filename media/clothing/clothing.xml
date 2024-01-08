@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_MaleOutfits>
+        <m_Name>PonchoGiallo</m_Name>
+        <m_Guid>questyno-9999-male-9999-000000000001</m_Guid>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>
