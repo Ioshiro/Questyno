@@ -5768,23 +5768,15 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_MarcusKane4_A_Text = "Parla con Marcus",
 
 --[[
-    DA EDITARE:
----- ricerca CTRL+F ---- | ----- COMMENTI -----
-> (COORDINATE_Brian) 	-> coordinate Muldraugh posizione Brian
-> TITOLO1 ... TITOLO6 	-> titoli delle quest che mancano
-> (MANCANO COORDINATE)4 -> coordinate Coryerdon missione 4
-> (MANCANO COORDINATE)5 -> coordinate Muldraugh missione 5
-> (MANCANO COORDINATE)6 -> coordinate Rosewood missione 6
-
             *** Brian White ***
             Elenco:
                 intro. Incontra Brian White per sbloccare la catena.
 				1. Uccidere 50 Zombie (20rep + 10$)
 				2. Uccidere 100 Zombie (30rep + 10$)
 				3. Uccidere 200 Zombie (40rep + 10$)
-				4. Recuperare Base.CarBattery2 parlando con (MANCANO COORDINATE)4 (50rep + 10$)
-				5. Recuperare Base.NormalTire2 parlando con (MANCANO COORDINATE)5 (60rep + 10$)
-				6. Recuperare Base.NormalCarMuffler2 parlando con (MANCANO COORDINATE)6 (100rep + 50$ + Base.CarTicket)
+				4. Recuperare Base.CarBattery2 parlando con (9159,6127,0) (50rep + 10$)
+				5. Recuperare Base.NormalTire2 parlando con (10606,9409,0) (60rep + 10$)
+				6. Recuperare Base.NormalCarMuffler2 parlando con (8219,11552,0) (100rep + 50$ + Base.CarTicket)
 ]]
     IGUI_SFQuest_Questyno_BrianWhite_Name = "Brian White",
 
@@ -5794,8 +5786,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
 
 	
-	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite1_Text = "TITOLO1",
+	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite1_Text = "Fiducia per Brian",
     IGUI_SFQuest_Questyno_BrianWhite1_Lore = "Devo dimostrare a Brian e al gruppo di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto. ",
     IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text = "La prima cosa che puoi fare è la più semplice e immediata. Elimina 50 Zombie nell'area circostante, e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
@@ -5803,8 +5795,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite1_Complete = "Okay, sei in gamba.",
 
 	
-	IGUI_SFQuest_Questyno_BrianWhite2_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite2_Text = "TITOLO2",
+	IGUI_SFQuest_Questyno_BrianWhite2_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite2_Text = "Fiducia per Brian",
     IGUI_SFQuest_Questyno_BrianWhite2_Lore = "Devo dimostrare a Brian e al gruppo di meritarmi il suo aiuto. Devo uccidere 100 Zombie per suo conto.",
     IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text = "Quelli di prima andavano bene come riscaldamento. Uccidine altri 100 e forse ti darò una mano.",
     IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Accepted = "A presto allora.",
@@ -5812,8 +5804,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite2_Complete = "Wow, non pensavo ce l'avresti fatta.",
 
 	
-	IGUI_SFQuest_Questyno_BrianWhite3_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite3_Text = "TITOLO3",
+	IGUI_SFQuest_Questyno_BrianWhite3_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite3_Text = "Fiducia per Brian",
     IGUI_SFQuest_Questyno_BrianWhite3_Lore = "Questa volta Brian vuole che ne ammazzi 200, forse si sta approfittando di me?",
     IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text = "Okay, forse è stata solo fortuna, ma se ne fai fuori altri 200 allora sarai degno di muoverti per questa regione con una delle nostre macchine!",
     IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Accepted = "Bene! Fai attenzione!",
@@ -5821,36 +5813,36 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite3_Complete = "Okay, hai la stoffa che serve.",
 	
 	
-	IGUI_SFQuest_Questyno_BrianWhite4_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite4_Text = "TITOLO4",
-    IGUI_SFQuest_Questyno_BrianWhite4_Lore = "Brian vuole che gli porti una Batteria di Genere robusto. Spero solo di ritrovarla all'interno della MIA macchina. La troverò a Coryerdon (MANCANO COORDINATE)4",
+	IGUI_SFQuest_Questyno_BrianWhite4_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite4_Text = "La Batteria per il veicolo",
+    IGUI_SFQuest_Questyno_BrianWhite4_Lore = "Brian vuole che gli porti una Batteria di Genere robusto. Spero solo di ritrovarla all'interno della MIA macchina. La troverò a Coryerdon (9159,6127,0)",
     IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text = "Okay, ho parlato con il capogruppo e se riesci a recuperare alcune parti forse riusciremo a darti un mezzo funzionante. Recupera una Batteria di Genere robusto a Coryerdon e portala qui!",
     IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
     IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_BrianWhite4_Complete = "Ottimo, buon lavoro. ",
-	IGUI_SFQuest_Questyno_BrianWhite4_A = "Cerca a Coryerdon (MANCANO COORDINATE)4",
+	IGUI_SFQuest_Questyno_BrianWhite4_A = "Cerca a Coryerdon (9159,6127,0)",
 	IGUI_SFQuest_Questyno_BrianWhite4_A_Text = "Porta la batteria a Brian",
 	
 	
-	IGUI_SFQuest_Questyno_BrianWhite5_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite5_Text = "TITOLO5",
-    IGUI_SFQuest_Questyno_BrianWhite5_Lore = "Brian vuole che gli porti uno Pneumatico di Genere robusto. Dovrei trovarne uno nell'officina di Muldraugh (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_BrianWhite5_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite5_Text = "Uno pneumatico per il veicolo",
+    IGUI_SFQuest_Questyno_BrianWhite5_Lore = "Brian vuole che gli porti uno Pneumatico di Genere robusto. Dovrei trovarne uno nell'officina di Muldraugh (10606,9409,0)",
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text = "Eccoti qua, abbiamo bisogno ancora di qualcosina per la tua auto. Vai a Muldaugh e recupera uno Pneumatico di Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Declined = "Okay, c'eravamo quasi.",
     IGUI_SFQuest_Questyno_BrianWhite5_Complete = "Bene, adesso sai tutto, mi raccomando, non far scendere la sua condizione sotto il 50% o potrebbe esplodere!",
-	IGUI_SFQuest_Questyno_BrianWhite5_A = "Cerca a Muldraugh (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_BrianWhite5_A = "Cerca a Muldraugh (10606,9409,0)",
 	IGUI_SFQuest_Questyno_BrianWhite5_A_Text = "Porta lo Pneumatico a Brian",
 	
 	
-	IGUI_SFQuest_Questyno_BrianWhite6_Title = "Brian da Muldraugh (COORDINATE_Brian)",
-    IGUI_SFQuest_Questyno_BrianWhite6_Text = "TITOLO6",
-    IGUI_SFQuest_Questyno_BrianWhite6_Lore = "Brian vorrebbe che recuperi un Silenziatore di genere Robusto, altrimenti, a detta sua, mi sentiranno tutti da km. Dice che lo troverò a Rosewood (MANCANO COORDINATE)6. Spero non si sbagli.",
+	IGUI_SFQuest_Questyno_BrianWhite6_Title = "Brian da Muldraugh 10812,9077,0",
+    IGUI_SFQuest_Questyno_BrianWhite6_Text = "Un silenziatore per il veicolo",
+    IGUI_SFQuest_Questyno_BrianWhite6_Lore = "Brian vorrebbe che recuperi un Silenziatore di genere Robusto, altrimenti, a detta sua, mi sentiranno tutti da km. Dice che lo troverò a Rosewood (8219,11552,0). Spero non si sbagli.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text = "Eccoti qua, abbiamo bisogno di un ultimo pezzo per la tua auto. Vai a Rosewood e recupera un Silenziatore Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined = "Okay, c'eravamo quasi.",
     IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato...",
-	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (MANCANO COORDINATE)6",
+	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (8219,11552,0)",
 	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
 
 --[[
