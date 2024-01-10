@@ -5846,12 +5846,6 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
 
 --[[
-    DA EDITARE:
----- ricerca CTRL+F ---- | ----- COMMENTI -----
-> (COORDINATE_Richard) 	-> coordinate Greenport posizione Richard
-> TITOLO1 ... TITOLO6 	-> titoli delle quest che mancano
-> (MANCANO COORDINATE)6 -> coordinate Orchiwood missione 6
-
             *** Richard Brown ***
             Elenco:
                 intro. Incontra Richard Brown per sbloccare la catena.
@@ -5859,8 +5853,8 @@ IGUI_EN = {
 				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
 				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
 				4. Uccidere 400 Zombie (35rep + MoneyToXP.1000XPTraining)
-				5. Parlare con (COORDINATE_Richard) (60rep + 50$ + PynoTweaks.SafehouseTicket)
-				6. Recuperare Base.AVCSClaimOrb parlando con (MANCANO COORDINATE)6 (50rep + 50$ + Base.AVCSClaimOrb)
+				5. Uccidere 50 Zombie (60rep + 50$ + PynoTweaks.SafehouseTicket)
+				6. Recuperare Base.AVCSClaimOrb parlando con 8614,9881,0 e Base.HottieZ parlando con 8617,9876,0 (50rep + 50$ + Base.AVCSClaimOrb)
 ]]
     IGUI_SFQuest_Questyno_RichardBrown_Name = "Richard Brown",
 
@@ -5870,8 +5864,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
 
 	
-	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown1_Text = "TITOLO1",
+	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown1_Text = "Piccolo Boost",
     IGUI_SFQuest_Questyno_RichardBrown1_Lore = "Devo uccidere 50 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text = "Intanto puoi cominciare uccidendo 50 zombie. Una volta finito ti darò un Foglietto di Allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 100 Punti Esperienza.",
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Accepted = "Ottimo! Ti aspetto qua.",
@@ -5879,8 +5873,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown1_Complete = "Okay, ecco a te.",
 
 	
-	IGUI_SFQuest_Questyno_RichardBrown2_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown2_Text = "TITOLO2",
+	IGUI_SFQuest_Questyno_RichardBrown2_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown2_Text = "Buon Boost",
     IGUI_SFQuest_Questyno_RichardBrown2_Lore = "Devo uccidere 100 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text = "Ammazza altri 100 Zombie. Una volta finito ti darò un Quaderno di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 250 Punti Esperienza.",
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Accepted = "Ti aspetto qui.",
@@ -5888,8 +5882,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown2_Complete = "Okay, ecco a te.",
 
 	
-	IGUI_SFQuest_Questyno_RichardBrown3_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown3_Text = "TITOLO3",
+	IGUI_SFQuest_Questyno_RichardBrown3_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown3_Text = "Ottimo Boost",
     IGUI_SFQuest_Questyno_RichardBrown3_Lore = "Devo uccidere 300 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
     IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text = "Ammazza altri 300 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 800 Punti Esperienza.",
     IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Accepted = "Ottimo. Ti aspetto qui.",
@@ -5897,8 +5891,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown3_Complete = "Okay, ecco a te.",
 	
 	
-	IGUI_SFQuest_Questyno_RichardBrown4_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown4_Text = "TITOLO4",
+	IGUI_SFQuest_Questyno_RichardBrown4_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown4_Text = "Super Boost",
     IGUI_SFQuest_Questyno_RichardBrown4_Lore = "Devo uccidere 400 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
 	IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text = "Ammazza altri 400 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 2500 Punti Esperienza.",
     IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
@@ -5906,23 +5900,28 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown4_Complete = "Okay, ecco a te.",
 	
 	
-	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown5_Text = "TITOLO5",
+	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
     IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città.",
-    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi in questo speciale negozio ogni volta che ti ritroverai in questo luogo, per le prime 6 ore di sopravvivenza. Ti va di averne uno?",
+    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi in questo speciale negozio ogni volta che ti ritroverai in questo luogo, per le prime 6 ore di sopravvivenza. Ti va di averne uno? Uccidi altri 50 Zombie!",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Complete = "Okay, forse non ti servirà a molto ormai ma potrai sempre comprarne uno al Mercato della Tana [Funzionerà soltanto nelle prime 6 ore di sopravvivenza]",
 	
 	
-	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Greenport (COORDINATE_Richard)",
-    IGUI_SFQuest_Questyno_RichardBrown6_Text = "TITOLO6",
-    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (MANCANO COORDINATE)6.",
-    IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood.",
+	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Utopia 7164,9744,0",
+    IGUI_SFQuest_Questyno_RichardBrown6_Text = "Claim Veicolo",
+    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (8617,9876,0)",
+    IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood, e già che vai li magari puoi recuperare le riviste sotto il mio letto?",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
-    IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Okay, tieni, non sprecarlo.",
-	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood (MANCANO COORDINATE)6",
-	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Torna da Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai comprarne sempre un altro al Mercato della Resistenza alla Tana [ Con orb in inventario - Click destro sul veicolo - Claim Veichle ]",
+	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood 8614,9881,0",
+	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi oggetti per Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_B = "Base.AVCSClaimOrb",
+    IGUI_SFQuest_Questyno_RichardBrown6_C = "Base.HottieZ",
+    IGUI_SFQuest_Questyno_RichardBrown6_D_Text = "Torna da Richard",
+	
 
 --[[
     DA EDITARE:
