@@ -535,3 +535,163 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_EthanSteele3_Title",
     unlockedsound = "QuestUnlocked"
 });
+
+--[[
+
+            *** Richard Brown ***
+            Elenco:
+                intro. Incontra Richard Brown per sbloccare la catena.
+				1. Uccidere 50 Zombie (10rep + MoneyToXP.100XPTraining)
+				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
+				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
+				4. Uccidere 400 Zombie (35rep + MoneyToXP.1000XPTraining)
+				5. Uccidere 50 Zombie (60rep + 50$ + PynoTweaks.SafehouseTicket)
+				6. Recuperare Base.AVCSClaimOrb parlando con (8614,9881,0), Base.HottieZ parlando con (8617,9876,0) (50rep + 50$ + Base.AVCSClaimOrb)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown_Intro",
+
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown1_Begin;Questyno_RichardBrown1", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown_Intro_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_RichardBrown_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown1",
+
+    awardsrep = "LaResistenza;10", -- REP REWARD
+    awardsitem = "MoneyToXP.100XPTraining;1", -- ITEM REWARD
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown2_Begin;Questyno_RichardBrown2", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown1_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown1_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown1_Title",
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown1_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown2",
+
+    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsitem = "MoneyToXP.200XPTraining;1", -- ITEM REWARD
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown3_Begin;Questyno_RichardBrown3", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown2_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown2_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown2_Title",
+    unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown2_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown3",
+
+    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsitem = "MoneyToXP.500XPTraining;1", -- ITEM REWARD
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown4_Begin;Questyno_RichardBrown4", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown3_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown3_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown3_Title",
+    unlocks = "actionevent;killzombies:300;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown3_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown4",
+
+    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsitem = "MoneyToXP.1000XPTraining;1", -- ITEM REWARD
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown5_Begin;Questyno_RichardBrown5", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown4_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown4_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown4_Title",
+    unlocks = "actionevent;killzombies:400;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown4_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RichardBrown5",
+
+    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsitem = "Base.Money;50;PynoTweaks.SafehouseTicket;1", -- ITEM REWARD
+    awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Begin;Questyno_RichardBrown6", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown5_Lore" },
+    text = "IGUI_SFQuest_Questyno_RichardBrown5_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown5_Title",
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown5_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_RichardBrown6",
+    awardstask = "Questyno_RichardBrown6_A",
+    dailycode = "Questyno_RichardBrown",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
+    objectives = { {
+        guid = "Questyno_RichardBrown6_A",
+        text = "IGUI_SFQuest_Questyno_RichardBrown6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRichardBrown6;additem;Base.AVCSClaimOrb;1;revealobjective;Questyno_RichardBrown6;2;clickevent;8617x9876x0:EventoRichardBrown6A;anim:loot:time:50;updateobjective:Questyno_RichardBrown6:2:Completed",
+    }, {
+        guid = "Questyno_RichardBrown6_B",
+        text = "IGUI_SFQuest_Questyno_RichardBrown6_B",
+        hidden = true,
+        oncompleted = "removeclickevent;EventoRichardBrown6A;additem;HottieZ;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RichardBrown6_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+    unlocks = "clickevent;8614x9881x0:EventoRichardBrown6;time:50:anim:loot;updateobjective:Questyno_RichardBrown6:1:Completed",
+    unlockedsound = "QuestUnlocked"
+} )
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_RichardBrown6_A",
+    awardstask = "Questyno_RichardBrown6_B",
+    dailycode = "Questyno_RichardBrown",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
+    objectives = { {
+        guid = "Questyno_RichardBrown6_C",
+        text = "IGUI_SFQuest_Questyno_RichardBrown6_C",
+        hidden = false,
+        needsitem = "Base.AVCSClaimOrb;1",
+        onobtained = "updateobjective;Questyno_RichardBrown6_A;1;Completed;removeitem;Base.AVCSClaimOrb;1"
+    }, {
+        guid = "Questyno_RichardBrown6_D",
+        text = "IGUI_SFQuest_Questyno_RichardBrown6_D",
+        hidden = false,
+        needsitem = "HottieZ;1",
+        onobtained = "updateobjective;Questyno_RichardBrown6_A;2;Completed;removeitem;HottieZ;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_RichardBrown6_A_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_RichardBrown6_B",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "Money;50;Base.AVCSClaimOrb;1",
+    completesound = "levelup",
+    dailycode = "Questyno_RichardBrown",
+    lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
+    unlocks = "unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Complete",
+    text = "IGUI_SFQuest_Questyno_RichardBrown6_B_Text",
+    texture = "media/textures/Item_RichardBrown.png",
+    title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+});

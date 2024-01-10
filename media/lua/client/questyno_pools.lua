@@ -760,6 +760,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Int
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JohnBaker_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EthanSteele_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Intro" })
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })

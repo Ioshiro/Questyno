@@ -110,3 +110,36 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_E
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EthanSteele3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EthanSteele3", optional = true, text = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EthanSteele3_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EthanSteele3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EthanSteele3", text = "IGUI_SFQuest_Questyno_EthanSteele3_Complete"})
+
+--[[
+
+            *** Richard Brown ***
+            Elenco:
+                intro. Incontra Richard Brown per sbloccare la catena.
+				1. Uccidere 50 Zombie (10rep + MoneyToXP.100XPTraining)
+				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
+				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
+				4. Uccidere 400 Zombie (35rep + MoneyToXP.1000XPTraining)
+				5. Uccidere 50 Zombie (60rep + 50$ + PynoTweaks.SafehouseTicket)
+				6. Recuperare Base.AVCSClaimOrb parlando con (8614,9881,0), Base.HottieZ parlando con (8617,9876,0) (50rep + 50$ + Base.AVCSClaimOrb)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown_Intro", text = "IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown1", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown1", text = "IGUI_SFQuest_Questyno_RichardBrown1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown2", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown2", text = "IGUI_SFQuest_Questyno_RichardBrown2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown3", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown3", text = "IGUI_SFQuest_Questyno_RichardBrown3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown4", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown4", text = "IGUI_SFQuest_Questyno_RichardBrown4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown5", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown5", text = "IGUI_SFQuest_Questyno_RichardBrown5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown6", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown6_B", text = "IGUI_SFQuest_Questyno_RichardBrown6_Complete"})
