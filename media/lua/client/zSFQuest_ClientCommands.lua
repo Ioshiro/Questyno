@@ -28,6 +28,7 @@ function Commands.setProgress(args)
 		print("zSOUL QUEST SYSTEM - Data transformation likely to be corrupted, aborting backup.");
 		return
 	end
+	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " ..lastnum.." lines of backup.");
 	player:getModData().missionProgress = temp;
 	SF_MissionPanel.instance:triggerUpdate();
 end

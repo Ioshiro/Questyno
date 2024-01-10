@@ -31,7 +31,7 @@ require 'SFQuest_Database'
 				24. Recuperare Base.Fork;3 (100rep + 20$)
 ]]
 
-local pozzoIntro = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
@@ -44,10 +44,9 @@ local pozzoIntro = {
     unique = true,
     unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoIntro);
+});
 
-local pozzoQuest1 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo1",
 
     awardsrep = "LaResistenza;25",      -- REP REWARD
@@ -62,10 +61,9 @@ local pozzoQuest1 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo1_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest1);
+});
 
-local pozzoQuest2 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo2",
 
     awardsrep = "LaResistenza;30",      -- REP REWARD
@@ -80,10 +78,9 @@ local pozzoQuest2 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo2_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest2);
+});
 
-local pozzoQuest3 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo3",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
@@ -98,10 +95,9 @@ local pozzoQuest3 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo3_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest3);
+});
 
-local pozzoQuest4 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo4",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
@@ -116,10 +112,9 @@ local pozzoQuest4 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo4_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest4);
+});
 
-local pozzoQuest5 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo5",
 
     awardstask = "Questyno_MikePozzo5_A", -- TASK REWARD
@@ -138,10 +133,9 @@ local pozzoQuest5 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;8145x11482x0:EventoMikePozzo5;time:50:anim:loot;updateobjective:Questyno_MikePozzo5:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest5);
+});
 
-local pozzoQuest5A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo5_A",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
@@ -155,10 +149,9 @@ local pozzoQuest5A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo5_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo5_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest5A);
+});
 
-local pozzoQuest6 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo6",
 
     awardstask = "Questyno_MikePozzo6_A", -- TASK REWARD
@@ -177,10 +170,9 @@ local pozzoQuest6 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;9685x10570x0:EventoMikePozzo6;time:50:anim:loot;updateobjective:Questyno_MikePozzo6:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest6);
+});
 
-local pozzoQuest6A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo6_A",
 
     awardstask = "Questyno_MikePozzo6_B", -- TASK REWARD
@@ -211,10 +203,9 @@ local pozzoQuest6A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo6_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest6A);
+});
 
-local pozzoQuest6B = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo6_B",
 
     awardsrep = "LaResistenza;50",  -- REP REWARD
@@ -227,10 +218,9 @@ local pozzoQuest6B = {
     text = "IGUI_SFQuest_Questyno_MikePozzo6_B_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo6_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest6B);
+});
 
-local pozzoQuest7 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo7",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
@@ -245,10 +235,9 @@ local pozzoQuest7 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo7_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest7);
+});
 
-local pozzoQuest8 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo8",
 
     awardstask = "Questyno_MikePozzo8_A", -- TASK REWARD
@@ -266,10 +255,9 @@ local pozzoQuest8 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;8403x7621x0:EventoMikePozzo8;time:50:anim:loot;updateobjective:Questyno_MikePozzo8:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest8);
+});
 
-local pozzoQuest8A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo8_A",
 
     awardstask = "Questyno_MikePozzo8_B", -- TASK REWARD
@@ -301,10 +289,9 @@ local pozzoQuest8A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo8_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo8_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest8A);
+});
 
-local pozzoQuest8B = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo8_B",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
@@ -317,10 +304,9 @@ local pozzoQuest8B = {
     text = "IGUI_SFQuest_Questyno_MikePozzo8_B_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo8_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest8B);
+});
 
-local pozzoQuest9 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo9",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
@@ -334,10 +320,9 @@ local pozzoQuest9 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo9_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest9);
+});
 
-local pozzoQuest10 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo10",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
@@ -351,10 +336,9 @@ local pozzoQuest10 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo10_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest10);
+});
 
-local pozzoQuest11 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo11",
 
     awardstask = "Questyno_MikePozzo11_A", -- TASK REWARD
@@ -386,10 +370,9 @@ local pozzoQuest11 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo11_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest11);
+});
 
-local pozzoQuest11A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo11_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
@@ -401,10 +384,9 @@ local pozzoQuest11A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo11_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo11_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest11A);
+});
 
-local pozzoQuest12 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo12",
 
     awardstask = "Questyno_MikePozzo12_A", -- TASK REWARD
@@ -423,10 +405,9 @@ local pozzoQuest12 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;7373x9734x0:EventoMikePozzo12;time:50:anim:loot;updateobjective:Questyno_MikePozzo12:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest12);
+});
 
-local pozzoQuest12A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo12_A",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
@@ -440,10 +421,9 @@ local pozzoQuest12A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo12_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo12_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest12A);
+});
 
-local pozzoQuest13 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo13",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
@@ -457,10 +437,9 @@ local pozzoQuest13 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo13_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest13);
+});
 
-local pozzoQuest14 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo14",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
@@ -474,10 +453,9 @@ local pozzoQuest14 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo14_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest14);
+});
 
-local pozzoQuest15 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo15",
 
     awardstask = "Questyno_MikePozzo15_A", -- TASK REWARD
@@ -495,10 +473,9 @@ local pozzoQuest15 = {
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8192x7516x0:EventoMikePozzo15;time:50:anim:loot;updateobjective:Questyno_MikePozzo15:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest15);
+});
 
-local pozzoQuest15A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo15_A",
 
     awardstask = "Questyno_MikePozzo15_B", -- TASK REWARD
@@ -536,10 +513,9 @@ local pozzoQuest15A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo15_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest15A);
+});
 
-local pozzoQuest15B = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo15_B",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
@@ -552,10 +528,9 @@ local pozzoQuest15B = {
     text = "IGUI_SFQuest_Questyno_MikePozzo15_B_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo15_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest15B);
+});
 
-local pozzoQuest16 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo16",
 
     awardstask = "Questyno_MikePozzo16_A", -- TASK REWARD
@@ -574,10 +549,9 @@ local pozzoQuest16 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;7244x8179x0:EventoMikePozzo16;time:50:anim:loot;updateobjective:Questyno_MikePozzo16:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest16);
+});
 
-local pozzoQuest16A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo16_A",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
@@ -591,10 +565,9 @@ local pozzoQuest16A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo16_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo16_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest16A);
+});
 
-local pozzoQuest17 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo17",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
@@ -609,10 +582,9 @@ local pozzoQuest17 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo17_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest17);
+});
 
-local pozzoQuest18 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo18",
 
     awardstask = "Questyno_MikePozzo18_A", -- TASK REWARD
@@ -631,10 +603,9 @@ local pozzoQuest18 = {
     unlockedsound = "QuestUnlocked",
     unlocks =
     "clickevent;6130x8757x0:EventoMikePozzo18;time:50:anim:loot;updateobjective:Questyno_MikePozzo18:1:Completed",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest18);
+});
 
-local pozzoQuest18A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo18_A",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
@@ -648,10 +619,9 @@ local pozzoQuest18A = {
     text = "IGUI_SFQuest_Questyno_MikePozzo18_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo18_Title",
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest18A);
+});
 
-local pozzoQuest19 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo19",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
@@ -666,10 +636,9 @@ local pozzoQuest19 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo19_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest19);
+});
 
-local pozzoQuest20 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo20",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
@@ -684,10 +653,9 @@ local pozzoQuest20 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo20_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest20);
+});
 
-local pozzoQuest21 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo21",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
@@ -702,10 +670,9 @@ local pozzoQuest21 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo21_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest21);
+});
 
-local pozzoQuest22 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo22",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
@@ -720,10 +687,9 @@ local pozzoQuest22 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo22_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest22);
+});
 
-local pozzoQuest23 = {
+table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_MikePozzo23",
 
     awardsrep = "LaResistenza;70", -- REP REWARD
@@ -738,10 +704,9 @@ local pozzoQuest23 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo23_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest23);
+} );
 
-local pozzoQuest24 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo24",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
@@ -756,8 +721,7 @@ local pozzoQuest24 = {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo24_Title",
     unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, pozzoQuest24);
+});
 
 
 --[[
