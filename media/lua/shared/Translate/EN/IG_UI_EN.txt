@@ -5565,8 +5565,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Title = "Ethan Steele 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Text = "Incontra Ethan Steele [Catena]",
-    IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "MANCA PRESENTAZIONE",
-    IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "MANCA PRESENTAZIONE",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "Ho incontrato Ethan a un vecchio motel all'entrata di Springwood 10310,8040,0. Sembra rimasto da solo e cerca di cavarsela come può, è disposto a fare degli scambi con me, molto convenienti se sono disposto a dargli una mano con alcune faccende.",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "Ciao, io sono Ethan. Mi sono unito alle Bande di Nigel perchè mi trovo più a mio agio, io faccio dei lavori per loro e loro mi ricompensano con del buon cibo, vuoi giudicarmi per questo? Non esiste cività senza l'elettricità, e loro mi forniscono anche quella gratuitamente. Se mi darai una mano ti lascerò una bella tanica che potrà servirti ad accumularne una quantità maggiore.",
 
 	
 	IGUI_SFQuest_Questyno_EthanSteele1_Title = "Ethan da Springwood 10310,8040,0",
