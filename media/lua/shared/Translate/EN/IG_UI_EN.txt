@@ -171,7 +171,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_TonyLupo_Name = "Tony 'Lupo'",
 
     IGUI_SFQuest_Questyno_Lupo_Intro_Title = "Tony il 'Lupo', 10157,6611,0 ",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Parla con Tony per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony Lupo [Giornaliere]",
     IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony Lupo è un sopravvissuto di vecchia data che attualmente si trova a West Point, è un cacciatore esperto e un ottimo tiratore. Puoi trovarlo vicino alla sua casa, a 10157,6611,0 ",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Sono Tony, ma tutti mi chiamano "Lupo". Sono un cacciatore esperto, cresciuto nel cuore dei boschi. La mia vista è infallibile e la mira è precisa. Ma ora, i nostri nemici non sono cervi, sono gli zombie. Ho un'ossessione per la perfezione, e quando scelgo un bersaglio, lo abbatto con precisione mortale. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text_Accepted = "Piacere. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
@@ -394,7 +394,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Grif_Name = "Sergente Grif",
 
     IGUI_SFQuest_Questyno_Grif_Intro_Title = "Sergente Grif (9331x8640x0)",
-    IGUI_SFQuest_Questyno_Grif_Intro_Text = "Parla con il Sergente Grif per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_Grif_Intro_Text = "Incontra Sergente Grif [Giornaliere]",
     IGUI_SFQuest_Questyno_Grif_Intro_Lore = "Sono il Sergente Grif, comandante in capo dell'ultima roccaforte. Non ho tempo per le chiacchiere. So come sopravvivere in quest'apocalisse, ma abbiamo bisogno di risultati. Ho bisogno che tu recuperi delle attrezzature mediche vitali nelle varie cliniche sparse nelle varie città. Abbiamo feriti e non possiamo permetterci di perderli. So che sei un duro, quindi ora dimostra il tuo valore. ",
     IGUI_SFQuest_Questyno_Grif_Intro_Complete_Text = "Sono il Sergente Grif, comandante in capo dell'ultima roccaforte. Non ho tempo per le chiacchiere. So come sopravvivere in quest'apocalisse, ma abbiamo bisogno di risultati. Ho bisogno che tu recuperi delle attrezzature mediche vitali nelle varie cliniche sparse nelle varie città. Abbiamo feriti e non possiamo permetterci di perderli. So che sei un duro, quindi ora dimostra il tuo valore. ",
 
@@ -644,7 +644,7 @@ IGUI_EN = {
 --[[
             *** Angelica Stella ***
             Elenco:
-                intro. Parla con Angelica per sbloccare le daily.
+                intro. Incontra Angelica per sbloccare le daily.
                 1. Recupare Base.Shoes_Fancy parlando con tile in 10609,10331,0 (25rep + Base.Shovel2)
                 2. Recuperare Base.Dress_SmallBlackStrapless parlando con 10629,9903,0 (15rep + Base.DuctTape)
                 3. Recuperare Base.Glasses_Sun a 10634,9904,0 (20rep + 40$)
@@ -670,7 +670,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AngelicaStella_Name = "Angelica Stella",
 
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title = "Angelica Stella 9344,8618,0",
-    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text = "Parla con Angelica Stella per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text = "Incontra Angelica Stella [Giornaliere]",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Ero una famosa attrice, ma ora sono una sopravvissuta. Adoro essere al centro dell'attenzione e amo i vestiti eleganti. Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Ero una famosa attrice, ma ora sono una sopravvissuta. Adoro essere al centro dell'attenzione e amo i vestiti eleganti. Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
@@ -886,7 +886,7 @@ IGUI_EN = {
 --[[
             *** Heather Thomas ***
             Elenco:
-                intro. Parla con Heather per sbloccare le daily.
+                intro. Incontra Heather per sbloccare le daily.
 				1. Recuperare Base.DeadRabbit;2 (200rep)
                 2. Recuperare Base.DeadRabbit (100rep)
                 3. Recuperare TrapCrate;20 (100rep + Spago)
@@ -915,7 +915,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_HeatherThomas_Name = "Heather Thomas",
 
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title = "Heather Thomas 9315,8624,0",
-    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text = "Parla con Heather Thomas per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text = "Incontra Heather Thomas [Giornaliere]",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore = "Sono Heather, ma tutti mi chiamano "Lupo Selvaggio" perché amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo. La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text = "Sono Heather, ma tutti mi chiamano "Lupo Selvaggio" perché amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo. La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text_Accepted = " La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
@@ -1113,7 +1113,7 @@ IGUI_EN = {
 --[[
             *** Elia Rima ***
             Elenco:
-                intro. Parla con Elia per sbloccare le daily.
+                intro. Incontra Elia per sbloccare le daily.
 				1. Recuperare Base.BookCarpentry1,Base.BookCooking1,Base.BookElectrician2 (150rep + 10$)
 				2. Recuperare Base.BookCarpentry2,Base.BookCooking3,Base.BookForaging1 (120rep + 10$)
 				3. Recuperare Base.BookMechanic2,Base.BookMetalWelding1 (100rep + 10$)
@@ -1141,7 +1141,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EliaRima_Name = "Elia Rima",
 
     IGUI_SFQuest_Questyno_EliaRima_Intro_Title = "Elia Rima 9330,8631,0",
-    IGUI_SFQuest_Questyno_EliaRima_Intro_Text = "Parla con Elia Rima per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_EliaRima_Intro_Text = "Incontra Elia Rima [Giornaliere]",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Lore = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarà molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarà molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni strumenti musicali da una casa di un musicista. ",
@@ -1432,7 +1432,7 @@ IGUI_EN = {
 --[[
             *** Bob Repair ***
             Elenco:
-                intro. Parla con Bob per sbloccare le daily.
+                intro. Incontra Bob per sbloccare le daily.
 				1. Recuperare Base.SmallSheetMetal;2 (40rep)
 				2. Recuperare Base.SheetMetal;2 (120rep + Base.ScrapVest)
 				3. Recuperare Sweapons.GearMace parlando con (11599,9788,0) (100rep + 20$)
@@ -1460,7 +1460,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BobRepair_Name = "Bob Repair",
 
     IGUI_SFQuest_Questyno_BobRepair_Intro_Title = "Bob Repair 9340,8578,0",
-    IGUI_SFQuest_Questyno_BobRepair_Intro_Text = "Parla con Bob Repair per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_BobRepair_Intro_Text = "Incontra Bob Repair [Giornaliere]",
     IGUI_SFQuest_Questyno_BobRepair_Intro_Lore = "Heilà straniero che si dice? Io sono Bob ma puoi chiamarmi Bobby, se preferisci. Ho sempre avuto la passione per la meccanica i motori e tutto ciò che sfrutta gli ingranaggi e l'elettricità per funzionare. A quanto pare le mie competenze sono più che necessarie in questo mondo dimenticato da Dio. Ho bisogno spesso di qualcuno che possa recuperare qualche pezzo speciale per le mie attrezzature, posso contare su di te straniero? ",
     IGUI_SFQuest_Questyno_BobRepair_Intro_Complete_Text = "Heilà straniero che si dice? Io sono Bob ma puoi chiamarmi Bobby, se preferisci. Ho sempre avuto la passione per la meccanica i motori e tutto ciò che sfrutta gli ingranaggi e l'elettricità per funzionare. A quanto pare le mie competenze sono più che necessarie in questo mondo dimenticato da Dio. Ho bisogno spesso di qualcuno che possa recuperare qualche pezzo speciale per le mie attrezzature, posso contare su di te straniero? ",
     IGUI_SFQuest_Questyno_BobRepair_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
@@ -1681,7 +1681,7 @@ IGUI_EN = {
 --[[
             *** Mike Pozzo ***
             Elenco:
-                intro. Parla con Mike Pozzo per sbloccare le daily.
+                intro. Incontra Mike Pozzo per sbloccare le daily.
 				1. Recuperare Base.PotOfSoupRecipe (25rep + 10$ + Base.Pot)
 				2. Recuperare Base.PanFriedVegetables (30rep + 15$ + Base.Pan)
 				3. Recuperare farming.Cabbage (100rep + 20$)
@@ -1710,7 +1710,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MikePozzo_Name = "Mike Pozzo",
 
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Title = "Mike Pozzo 9315,8638,0",
-    IGUI_SFQuest_Questyno_MikePozzo_Intro_Text = "Parla con Mike Pozzo per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_MikePozzo_Intro_Text = "Incontra Mike Pozzo [Giornaliere]",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore = "Hey, sono Mike, ma tutti mi chiamano "Pozzo." Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano "Pozzo." Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
@@ -1940,7 +1940,7 @@ IGUI_EN = {
 --[[
             *** Rosa China ***
             Elenco:
-                intro. Parla con Rosa China per sbloccare le daily.
+                intro. Incontra Rosa China per sbloccare le daily.
 				1. Recuperare Base.Stone;5 (30rep)
 				2. Recuperare Base.Stone;10 (50rep)
 				3. Recuperare Base.SharpedStone;5 (60rep)
@@ -1969,7 +1969,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RosaChina_Name = "Rosa China",
 
     IGUI_SFQuest_Questyno_RosaChina_Intro_Title = "Rosa China 9270,8491,0",
-    IGUI_SFQuest_Questyno_RosaChina_Intro_Text = "Parla con Rosa China per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_RosaChina_Intro_Text = "Incontra Rosa China [Giornaliere]",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Lore = "Ciao, sono Rosa, ma tutti qui mi conoscono come "China." Ho sempre fatto lavori manuali, quelli che tengono le comunità insieme. In questo mondo stravolto dagli zombie, ho scoperto che il mio mestiere è diventato più importante che mai. La mia missione è raccogliere risorse naturali, come pietre e erbe. Possono sembrare cose semplici, ma sono fondamentali per la nostra sopravvivenza. Le pietre sono necessarie per costruire rifugi sicuri, e le erbe che raccolgo possono curare le ferite e aiutarci a combattere malattie.",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, ma tutti qui mi conoscono come "China." Ho sempre fatto lavori manuali, quelli che tengono le comunità insieme. In questo mondo stravolto dagli zombie, ho scoperto che il mio mestiere è diventato più importante che mai. La mia missione è raccogliere risorse naturali, come pietre e erbe. Possono sembrare cose semplici, ma sono fondamentali per la nostra sopravvivenza. Le pietre sono necessarie per costruire rifugi sicuri, e le erbe che raccolgo possono curare le ferite e aiutarci a combattere malattie.",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
@@ -2040,7 +2040,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_RosaChina8_A = "5 Cavallette",
 	IGUI_SFQuest_Questyno_RosaChina8_B = "5 Cimici",
 	IGUI_SFQuest_Questyno_RosaChina8_C = "Scarafaggio",
-	IGUI_SFQuest_Questyno_RosaChina8_A_Text = "Parla con Rosa",
+	IGUI_SFQuest_Questyno_RosaChina8_A_Text = "Incontra Rosa",
 	
 	IGUI_SFQuest_Questyno_RosaChina9_Title = "Rosa della Tana 9270,8491,0",
     IGUI_SFQuest_Questyno_RosaChina9_Text = "L'allergia di Rosa",
@@ -2216,7 +2216,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EmilyTerry_Name = "Emily Terry",
 
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title = "Emily Terry 9277,8491,0",
-    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text = "Parla con Emily Terry per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text = "Incontra Emily Terry [Giornaliere]",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore = "Sono Emily Terry, ma tutti mi chiamano "Terry". Sono una scienziata e adoro la scienza. Adesso non ho più tempo per la scienza, ma mi piacerebbe poterla fare. ",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text = "Sono Emily Terry, ma tutti mi chiamano "Terry". Sono una scienziata e adoro la scienza. Adesso non ho più tempo per la scienza, ma mi piacerebbe poterla fare. Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
@@ -2459,7 +2459,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_VictoriaSecret_Name = "Victoria Secret", 
 
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title = "Victoria Secret 10827,9074,0",
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text = "Parla con Victoria Secret per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text = "Incontra Victoria Secret [Settimanali]",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore = "Salve, io sono Victoria. Prima dell'apocalisse, ero un'icona della moda e della bellezza. Anche in questo mondo caotico, non ho perso il mio amore per la moda e il glamour. Ora, ho bisogno di te per recuperare alcuni pezzi di alta moda da una boutique di lusso nel centro commerciale. È fondamentale che mantenga il mio stile e la mia eleganza, anche in mezzo agli orrori degli zombi. Non intendo apparire trasandata! Ho bisogno di te per andare lì, prendere quei vestiti e assicurarti che siano in perfette condizioni. Ogni tessuto, ogni dettaglio deve essere impeccabile.",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Salve, io sono Victoria. Prima dell'apocalisse, ero un'icona della moda e della bellezza. Anche in questo mondo caotico, non ho perso il mio amore per la moda e il glamour. Ora, ho bisogno di te per recuperare alcuni pezzi di alta moda da una boutique di lusso nel centro commerciale. È fondamentale che mantenga il mio stile e la mia eleganza, anche in mezzo agli orrori degli zombi. Non intendo apparire trasandata! Ho bisogno di te per andare lì, prendere quei vestiti e assicurarti che siano in perfette condizioni. Ogni tessuto, ogni dettaglio deve essere impeccabile.",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti da una boutique. ",
@@ -2703,7 +2703,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SusanLee_Name = "Susan Lee",
 
     IGUI_SFQuest_Questyno_SusanLee_Intro_Title = "Susan Lee 10831,9073,0",
-    IGUI_SFQuest_Questyno_SusanLee_Intro_Text = "Parla con Susan Lee per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_SusanLee_Intro_Text = "Incontra Susan Lee [Settimanali]",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Lore = "Sono la Dott.ssa Susan. La mia specialità è la cura delle persone, ma in questo mondo, ho dovuto imparare a curare ferite da arma da fuoco e morsi di zombie. Ho bisogno che tu recuperi alcuni medicinali dall'ospedale locale. Non possiamo perdere più vite. Vai lì, prendi i medicinali e riportali qui. La vita di molte persone dipende da te.",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Sono la Dott.ssa Susan. La mia specialità è la cura delle persone, ma in questo mondo, ho dovuto imparare a curare ferite da arma da fuoco e morsi di zombie. Ho bisogno che tu recuperi alcuni medicinali dall'ospedale locale. Non possiamo perdere più vite. Vai lì, prendi i medicinali e riportali qui. La vita di molte persone dipende da te.",
 	
@@ -2939,7 +2939,7 @@ IGUI_EN = {
 --[[
             *** George Scott ***
             Elenco:
-                intro. Parla con George Scott per sbloccare le daily.
+                intro. Incontra George Scott per sbloccare le daily.
 				1. Recuperare Base.Wine2 (140rep + 25$)
 				2. Recuperare Base.Jacket_Chef (80rep)
 				3. Recuperare Base.Hat_HockeyMask parlando con  (10780,9885,9) (35rep)
@@ -2967,7 +2967,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GeorgeScott_Name = "George Scott",
 
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title = "George Scott 10830,9078,0",
-    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text = "Parla con George Scott per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text = "Incontra George Scott [Settimanali]",
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore = "Sono noto come George, ma nel mio mondo tutti mi riconoscono come il Cowboy. Prima di andare avanti, voglio evitare di incappare in troppe domande. Il mio talento risiede nella mia conoscienza del mondo, dei luoghi e delle persone. Inoltre, sono costantemente in cerca di oggetti straordinari e unici, e la mia passione per la collezione ha radici nel recupero di tesori provenienti da epoche passate, tracciando così un percorso che ci ha portato fino a questo punto.",
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Complete_Text = "Sono noto come George, ma nel mio mondo tutti mi riconoscono come il Cowboy. Prima di andare avanti, voglio evitare di incappare in troppe domande. Il mio talento risiede nella mia conoscienza del mondo, dei luoghi e delle persone. Inoltre, sono costantemente in cerca di oggetti straordinari e unici, e la mia passione per la collezione ha radici nel recupero di tesori provenienti da epoche passate, tracciando così un percorso che ci ha portato fino a questo punto.",
 	
@@ -3200,7 +3200,7 @@ IGUI_EN = {
 --[[
             *** Samuel Young ***
             Elenco:
-                intro. Parla con Samuel Young per sbloccare le daily.
+                intro. Incontra Samuel Young per sbloccare le daily.
 				1. Recuperare Base.DeadRabbit;4 (275rep)
 				2. Recuperare Base.DeadRabbit;2 (150rep)
 				3. Recuperare TrapCrate:30 (100rep + Spago)
@@ -3228,7 +3228,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SamuelYoung_Name = "Samuel Young",
 
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title = "Samuel Young 10824,9065,0",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text = "Parla con Samuel Young per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text = "Incontra Samuel Young [Settimanali]",
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
 	
@@ -3433,7 +3433,7 @@ IGUI_EN = {
 --[[
             *** Xu Mishura ***
             Elenco:
-                intro. Parla con Tony per sbloccare le daily.
+                intro. Incontra Tony per sbloccare le daily.
 				1. Recuperare Base.Dress_Long (100rep)
 				2. Recuperare Base.Shoes_ArmyBootsDesert (80rep)
 				3. Recuperare Base.Briefs_SmallTrunks_Red (50rep)
@@ -3463,7 +3463,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura_Name = "Xu Mishura",
 
     IGUI_SFQuest_Questyno_XuMishura_Intro_Title = "Xu Mishura 10844,9074,0",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Text = "Parla con Xu Mishura per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Text = "Incontra Xu Mishura [Settimanali]",
     IGUI_SFQuest_Questyno_XuMishura_Intro_Lore = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
     IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
 	
@@ -3671,7 +3671,7 @@ IGUI_EN = {
 --[[
             *** David Turner ***
             Elenco:
-                intro. Parla con David Turner per sbloccare le daily.
+                intro. Incontra David Turner per sbloccare le daily.
 				1. Recuperare Base.SmallSheetMetal;4 (70rep)
 				2. Recuperare Base.SheetMetal;4 (200rep + Base.ScrapVestStudded)
 				3. Recuperare Sweapons.ScrapSpear parlando con (4750,10181,0) (100rep + 20$ + Base.PropaneTank)
@@ -3699,7 +3699,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DavidTurner_Name = "David Turner",
 
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Title = "David Turner 10839,9071,0",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Text = "Parla con David Turner per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_DavidTurner_Intro_Text = "Incontra David Turner [Settimanali]",
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
 	
@@ -3921,7 +3921,7 @@ IGUI_EN = {
 --[[
             *** Rafael 'Prezioso' ***
             Elenco:
-                intro. Parla con Rafael per sbloccare le daily.
+                intro. Incontra Rafael per sbloccare le daily.
 				1. Recuperare Base.WhiskeyFull (120rep + 25$)
 				2. Recuperare Base.Wine (80rep + 15$)
 				3. Recuperare Base.Trumpet parlando con (10837,10184,0) (35rep)
@@ -3950,7 +3950,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Name = "Rafael Prezioso",
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title = "Rafael Prezioso (10152,6622,1)",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Parla con Rafael per sbloccare le sue quest giornaliere.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Incontra Rafael [Settimanali]",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
 	
@@ -4214,7 +4214,7 @@ IGUI_EN = {
 --[[
             *** Jeffrey Lewis ***
             Elenco:
-                intro. Parla con Jeffrey Lewis per sbloccare le daily.
+                intro. Incontra Jeffrey Lewis per sbloccare le daily.
 				1. Recuperare Base.BookCarpentry1,Base.BookCarpentry2,Base.BookCooking1,Base.BookElectrician2 (200rep)
 				2. Recuperare Base.BookCarpentry2,Base.BookCooking3,Base.BookForaging1,Base.BookForaging3 (160rep)
 				3. Recuperare Base.BookMechanic2,Base.BookMetalWelding1,Base.BookMechanic4 (150rep)
@@ -4242,7 +4242,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JeffreyLewis_Name = "Jeffrey Lewis",
 
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Title = "Jeffrey Lewis",
-    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text = "Parla con Jeffrey Lewis per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text = "Incontra Jeffrey Lewis [Settimanali]",
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
 	
@@ -4551,7 +4551,7 @@ IGUI_EN = {
 --[[
             *** Christopher Davis ***
             Elenco:
-                intro. Parla con Christopher Davis per sbloccare le daily.
+                intro. Incontra Christopher Davis per sbloccare le daily.
 				1. Recuperare Base.PotOfSoupRecipe;2 (50rep + 10$ + Base.Pot;2)
 				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
 				3. Recuperare farming.Cabbage;3 (200rep + 30$)
@@ -4580,7 +4580,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ChristopherDavis_Name = "Christopher Davis",
 
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Christopher Davis da West Point 10161,6627,0",
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Parla con Christopher Davis per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Incontra Christopher Davis [Settimanali]",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
 	
@@ -4823,7 +4823,7 @@ IGUI_EN = {
 --[[
             *** Pamela Perez ***
             Elenco:
-                intro. Parla con Pamela Perez per sbloccare le daily.
+                intro. Incontra Pamela Perez per sbloccare le daily.
 				1. Recuperare farming.CarrotSeed;24 (100rep)
 				2. Recuperare farming.BroccoliSeed;24 (100rep + Base.Strewberrie)
 				3. Recuperare LogStacks3;2 (40rep + Base.DriedBlackBeans)
@@ -4852,7 +4852,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_PamelaPerez_Name = "Pamela Perez",
 
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title = "Pamela Perez",
-    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text = "Parla con Pamela Perez per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text = "Incontra Pamela Perez [Settimanali]",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
 
@@ -5089,7 +5089,7 @@ IGUI_EN = {
 --[[
             *** Sam Fisher ***
             Elenco:
-                intro. Parla con Sam Fisher per sbloccare le daily.
+                intro. Incontra Sam Fisher per sbloccare le daily.
 				1. Recuperare Base.Worm;10 (100rep + Base.Panfish)
 				2. Recuperare Base.FishingLine (1/5) (50rep + 30$)
 				3. Recuperare Base.WoodenStick,Base.Paperclip (50rep + Base.FishingMag1)
@@ -5118,7 +5118,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SamFisher_Name = "Sam Fisher",
 
     IGUI_SFQuest_Questyno_SamFisher_Intro_Title = "Sam Fisher 10153,6571,0",
-    IGUI_SFQuest_Questyno_SamFisher_Intro_Text = "Parla con Sam Fisher per sbloccare le sue quest giornaliere.",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Text = "Incontra Sam Fisher [Settimanali]",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
 
@@ -5379,7 +5379,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EzekielFlynn_Name = "Ezekiel Flynn",
 
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Title = "Ezekiel Flynn",
-    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text = "Vai da Ezekiel Flynn per sbloccare le sue quest.",
+    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text = "Incontra Ezekiel Flynn [Catena]",
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilità di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialità è il combattimento corpo a copro. Ti mostrerò come scegliere il tuo bersaglio, colpire con precisione e come usare l'ambiente a tuo vantaggio. Ricorda, in questo mondo, la sopravvivenza dipende dalla tua abilità nel gestire le risorse e nel rimanere un passo avanti agli zombi. Se mi dimostri il tuo valore ti lascerò un arma speciale. XXXX",
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Complete_Text = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilità di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialità è il combattimento corpo a copro. Ti mostrerò come scegliere il tuo bersaglio, colpire con precisione e come usare l'ambiente a tuo vantaggio. Ricorda, in questo mondo, la sopravvivenza dipende dalla tua abilità nel gestire le risorse e nel rimanere un passo avanti agli zombi. Se mi dimostri il tuo valore ti lascerò un arma speciale. XXXX",
 
@@ -5439,7 +5439,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ElowenBeckett_Name = "Elowen Beckett",
 
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Title = "Elowen Beckett",
-    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text = "Vai da Elowen Beckett per sbloccare le sue quest.",
+    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text = "Incontra Elowen Beckett [Catena]",
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore = ""Sono Elowen, l'ingegnere creativo del nostro gruppo di sopravvissuti. In un mondo dove la tecnologia è diventata rara, è fondamentale saper costruire e riparare. Ho creato gadget e armi innovative che ci danno un vantaggio contro gli zombi. La mia specialità è l'ingegneria improvvisata. Ti aiuterò a costruire un oggetto per trasportare oggetti pesanti se ti andrà di fare alcune cose per me!",
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Complete_Text = ""Sono Elowen, l'ingegnere creativo del nostro gruppo di sopravvissuti. In un mondo dove la tecnologia è diventata rara, è fondamentale saper costruire e riparare. Ho creato gadget e armi innovative che ci danno un vantaggio contro gli zombi. La mia specialità è l'ingegneria improvvisata. Ti aiuterò a costruire un oggetto per trasportare oggetti pesanti se ti andrà di fare alcune cose per me!",
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
@@ -5500,7 +5500,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JohnBaker_Name = "John Baker",
 
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker, 6867,7360,0",
-    IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Parla con John Baker per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Incontra John Baker [Catena]",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
 	
@@ -5556,7 +5556,7 @@ IGUI_EN = {
     --[[
             *** Ethan Steele ***
             Elenco:
-                intro. Parla con Ethan Steele per sbloccare la catena.
+                intro. Incontra Ethan Steele per sbloccare la catena.
 				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
 				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
 				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
@@ -5564,7 +5564,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EthanSteele_Name = "Ethan Steele",
 
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Title = "Ethan Steele 10310,8040,0",
-    IGUI_SFQuest_Questyno_EthanSteele_Intro_Text = "Parla con Ethan Steele.",
+    IGUI_SFQuest_Questyno_EthanSteele_Intro_Text = "Incontra Ethan Steele [Catena]",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "MANCA PRESENTAZIONE",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "MANCA PRESENTAZIONE",
 
@@ -5604,7 +5604,7 @@ IGUI_EN = {
     --[[
             *** Taylor Blaze ***
             Elenco:
-                intro. Parla con Taylor Blaze per sbloccare le sue quest mensili.
+                intro. Incontra Taylor Blaze per sbloccare le sue quest mensili.
 				1. Recuperare Base.Bullets9mmBox;10 (620rep + SWeapons.SalvagedPipeWrench)
 				2. Recuperare Base.Bullets45Box;10 (550rep + SWeapons.SalvagedPipeWrench)
 				3. Recuperare Base.223Box;15 (900rep)
@@ -5617,7 +5617,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_TaylorBlaze_Name = "Taylor Blaze",
 
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title = "Taylor Blaze 7752,7759,0",
-    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text = "Parla con Taylor Blaze per sbloccare le quest mensili",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text = "Incontra Taylor Blaze [Mensili]",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor è una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta a commerciare armi e munizioni, però non coviene darle fregature. Posso trovarla a Trelai (7752,7759,0)",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "MANCA DIALOGO/PRESENTAZIONE",
 
@@ -5706,7 +5706,7 @@ IGUI_EN = {
     --[[
             *** Marcus Kane ***
             Elenco:
-                intro. Parla con Marcus Kane per sbloccare le quest mensili.
+                intro. Incontra Marcus Kane per sbloccare le quest mensili.
 				1. Recuperare Base.CreditCard;5, Uccidere 50 Zombie (130rep + 25$)
 				2. Recuperare Base.CreditCard;10, Uccidere 100 Zombie (200rep + 50$)
 				3. Recuperare Base.CreditCard;12, Uccidere 120 Zombie (220rep + 60$)
@@ -5715,7 +5715,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MarcusKane_Name = "Marcus Kane",
 
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Title = "Marcus Kane 8574,11026,0",
-    IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Parla con Marcus Kane per sbloccare le sue quest mensili",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Incontra Marcus Kane [Mensili]",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ciao straniero, io sono Marcus DA COMPLETARE?",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus DA COMPLETARE?",
 
@@ -5778,7 +5778,7 @@ IGUI_EN = {
 
             *** Brian White ***
             Elenco:
-                intro. Parla con Brian White per sbloccare la catena.
+                intro. Incontra Brian White per sbloccare la catena.
 				1. Uccidere 50 Zombie (20rep + 10$)
 				2. Uccidere 100 Zombie (30rep + 10$)
 				3. Uccidere 200 Zombie (40rep + 10$)
@@ -5789,7 +5789,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite_Name = "Brian White",
 
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Parla con Brian White per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White per sbloccare la sua catena di quest.",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
 
@@ -5862,7 +5862,7 @@ IGUI_EN = {
 
             *** Richard Brown ***
             Elenco:
-                intro. Parla con Richard Brown per sbloccare la catena.
+                intro. Incontra Richard Brown per sbloccare la catena.
 				1. Uccidere 50 Zombie (10rep + MoneyToXP.100XPTraining)
 				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
 				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
@@ -5873,7 +5873,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown_Name = "Richard Brown",
 
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Title = "Richard Brown",
-    IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Parla con Richard Brown per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Incontra Richard Brown per sbloccare la sua catena di quest.",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
 
@@ -5947,7 +5947,7 @@ IGUI_EN = {
 
             *** Robert Wilson ***
             Elenco:
-                intro. Parla con Robert Wilson per sbloccare la catena.
+                intro. Incontra Robert Wilson per sbloccare la catena.
 				1. Uccidere 25 Zombie (10rep + 10$)
 				2. Recuperare ITEM2 parlando con (MANCANO COORDINATE)2, Uccidere 50 Zombie (20rep + 10$)
 				3. Recuperare Base.ElectronicsScrap;50 (25rep + 10$)
@@ -5958,7 +5958,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RobertWilson_Name = "Robert Wilson",
 
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Title = "Robert Wilson",
-    IGUI_SFQuest_Questyno_RobertWilson_Intro_Text = "Parla con Robert Wilson per sbloccare la sua catena di quest",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Text = "Incontra Robert Wilson per sbloccare la sua catena di quest",
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
 

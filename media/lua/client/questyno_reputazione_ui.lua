@@ -1,23 +1,8 @@
---
--- Created by IntelliJ IDEA.
--- User: ProjectSky
--- Date: 2017/5/14
--- Time: 3:01
--- show player coordinate
---
-
-local Coordinate = {}
-
 local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
 local FONT_HGT_MEDIUM = getTextManager():getFontHeight(UIFont.Medium)
-local match = string.match
 local max = math.max
 local format = string.format
-local tostring = tostring
-local tonumber = tonumber
-
-
-local render = ISCharacterScreen.render
+local tostring = tostring 
 
 function ISCharacterScreen:render()
 

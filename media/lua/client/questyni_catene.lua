@@ -461,13 +461,12 @@ table.insert(SFQuest_Database.QuestPool, {
     },{
         guid = "Questyno_EthanSteele1_B",
         text = "IGUI_SFQuest_Questyno_EthanSteele1_B",
-        unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele1:2:Completed", -- ZOMBIE REQUEST
         hidden = false,
     }},
     text = "IGUI_SFQuest_Questyno_EthanSteele1_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele1_Title",
-    unlocks = "clickevent;10102x11172x0:EventoEthanSteele1;time:50:anim:loot;updateobjective:Questyno_EthanSteele1:1:Completed",
+    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele1:2:Completed;clickevent;10102x11172x0:EventoEthanSteele1;time:50:anim:loot;updateobjective:Questyno_EthanSteele1:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -499,13 +498,12 @@ table.insert(SFQuest_Database.QuestPool, {
     },{
         guid = "Questyno_EthanSteele2_B",
         text = "IGUI_SFQuest_Questyno_EthanSteele2_B",
-        unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele2:2:Completed", -- ZOMBIE REQUEST
         hidden = false,
     }},
     text = "IGUI_SFQuest_Questyno_EthanSteele2_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
-    unlocks = "clickevent;11264x8219x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
+    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele2:2:Completed;clickevent;11264x8219x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
