@@ -42,6 +42,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze1_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze1_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -58,6 +59,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze2_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze2_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -74,6 +76,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze3_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze3_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -90,6 +93,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze4_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze4_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -106,6 +110,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze5_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze5_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -122,6 +127,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze6_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze6_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -138,6 +144,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze7_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze7_Title",
+    unlockedsound = "QuestUnlocked",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -223,6 +230,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze8_Title",
     unlocks = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze8_Complete",
+    unlockedsound = "QuestUnlocked",
 });
 
 --[[
@@ -279,6 +287,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;130",
     awardsitem = "Base.Money;25",
     awardstask = "Questyno_MarcusKane2",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane1_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane1_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
@@ -316,6 +325,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;200",
     awardsitem = "Base.Money;50",
     awardstask = "Questyno_MarcusKane3",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane2_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane2_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
@@ -353,6 +363,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;220",
     awardsitem = "Base.Money;60",
     awardstask = "Questyno_MarcusKane4",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane3_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane3_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
@@ -390,6 +401,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;420",
     awardsitem = "Base.Money;80",
     awardstask = "Questyno_MarcusKane1",
+    completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane4_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane4_A_Text",
     texture = "media/textures/Item_MarcusKane.png",

@@ -51,7 +51,7 @@ function Commands.saveData(player, args)
 	end
 	local filewriter = getFileWriter(filepath, true, false);
 	SFQuest_Server.parseTable(args, filewriter, "temp");
-	print("zSOUL QUEST SYSTEM - Saved quest data for ID: " .. id);
+	print("zSOUL QUEST SYSTEM - Saved quest data for ID: " .. id .. ". (OLD LINES: " .. tempsize .. " NEW LINES: " .. datasize .. ")");
 end
 
 function Commands.sendData(player, args)

@@ -62,7 +62,7 @@ local testyno = {
     unlockedsound = "QuestUnlocked" -- Suono da riprodurre quando la quest viene accettata
     --updates = "Guid_Quest" -- Sblocca un aggiornamento per una quest
 }
-table.insert(SFQuest_Database.QuestPool, testyno);
+--table.insert(SFQuest_Database.QuestPool, testyno);
 
 --[[                            *** LISTA COMANDI ***
                 
@@ -177,7 +177,7 @@ local moneyIntro = {
     unique = true,
     title = "IGUI_SFQuest_Questyno_Money_Intro_Title",
 }
-table.insert(SFQuest_Database.QuestPool, moneyIntro);
+--table.insert(SFQuest_Database.QuestPool, moneyIntro);
 
 local moneyQuest1 ={
     guid = "Questyno_Money1",
@@ -194,7 +194,7 @@ local moneyQuest1 ={
     title = "IGUI_SFQuest_Questyno_Money1_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest1);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest1);
 
 local moneyQuest2 ={
     guid = "Questyno_Money2",
@@ -211,7 +211,7 @@ local moneyQuest2 ={
     title = "IGUI_SFQuest_Questyno_Money2_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest2);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest2);
 
 local moneyQuest3 ={
     guid = "Questyno_Money3",
@@ -228,7 +228,7 @@ local moneyQuest3 ={
     title = "IGUI_SFQuest_Questyno_Money3_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest3);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest3);
 
 local moneyQuest4 ={
     guid = "Questyno_Money4",
@@ -245,7 +245,7 @@ local moneyQuest4 ={
     title = "IGUI_SFQuest_Questyno_Money4_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest4);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest4);
 
 local moneyQuest5 ={
     guid = "Questyno_Money5",
@@ -262,7 +262,7 @@ local moneyQuest5 ={
     title = "IGUI_SFQuest_Questyno_Money5_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest5);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest5);
 
 local moneyQuest6 ={
     guid = "Questyno_Money6",
@@ -279,7 +279,7 @@ local moneyQuest6 ={
     title = "IGUI_SFQuest_Questyno_Money6_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest6);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest6);
 
 local moneyQuest7 ={
     guid = "Questyno_Money7",
@@ -296,7 +296,7 @@ local moneyQuest7 ={
     title = "IGUI_SFQuest_Questyno_Money7_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest7);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest7);
 
 local moneyQuest8 ={
     guid = "Questyno_Money8",
@@ -313,7 +313,7 @@ local moneyQuest8 ={
     title = "IGUI_SFQuest_Questyno_Money8_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest8);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest8);
 
 local moneyQuest9 ={
     guid = "Questyno_Money9",
@@ -330,7 +330,7 @@ local moneyQuest9 ={
     title = "IGUI_SFQuest_Questyno_Money9_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest9);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest9);
 
 local moneyQuest10_random1 ={
     guid = "Questyno_Money10_random1",
@@ -347,7 +347,7 @@ local moneyQuest10_random1 ={
     title = "IGUI_SFQuest_Questyno_Money10_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest10_random1);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest10_random1);
 
 local moneyQuest10_random2 ={
     guid = "Questyno_Money10_random2",
@@ -364,7 +364,7 @@ local moneyQuest10_random2 ={
     title = "IGUI_SFQuest_Questyno_Money10_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest10_random2);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest10_random2);
 
 local moneyQuest10_random3 ={
     guid = "Questyno_Money10_random3",
@@ -381,4 +381,4 @@ local moneyQuest10_random3 ={
     title = "IGUI_SFQuest_Questyno_Money10_Title",
     unlockedsound = "QuestUnlocked"
 }
-table.insert(SFQuest_Database.QuestPool, moneyQuest10_random3);
+--table.insert(SFQuest_Database.QuestPool, moneyQuest10_random3);

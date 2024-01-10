@@ -395,8 +395,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Grif_Intro_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif_Intro_Text = "Incontra Sergente Grif [Giornaliere]",
-    IGUI_SFQuest_Questyno_Grif_Intro_Lore = "Sono il Sergente Grif, comandante in capo dell'ultima roccaforte. Non ho tempo per le chiacchiere. So come sopravvivere in quest'apocalisse, ma abbiamo bisogno di risultati. Ho bisogno che tu recuperi delle attrezzature mediche vitali nelle varie cliniche sparse nelle varie città. Abbiamo feriti e non possiamo permetterci di perderli. So che sei un duro, quindi ora dimostra il tuo valore. ",
-    IGUI_SFQuest_Questyno_Grif_Intro_Complete_Text = "Sono il Sergente Grif, comandante in capo dell'ultima roccaforte. Non ho tempo per le chiacchiere. So come sopravvivere in quest'apocalisse, ma abbiamo bisogno di risultati. Ho bisogno che tu recuperi delle attrezzature mediche vitali nelle varie cliniche sparse nelle varie città. Abbiamo feriti e non possiamo permetterci di perderli. So che sei un duro, quindi ora dimostra il tuo valore. ",
+    IGUI_SFQuest_Questyno_Grif_Intro_Lore = "Ho conosciuto il Sergente Grif appena arrivato, sembra essere una sorta di Leader, ma non ne sono sicuro, ad ogni modo credo di dover conquistare la sua fiducia se voglio una mano da questa gente.",
+    IGUI_SFQuest_Questyno_Grif_Intro_Complete_Text = "Ciao straniero. Io sono il Sergente Grif.  Mi vedi con un camice perchè sono l'unica persona fra tutte queste povere anime, che sa come cucire una ferita. Ho perso mia moglie e mia figlia appena scoppiata l'epidemia, non ero neppure a casa con loro quando è successo. Sono stato uno dei primi ad arrivare qua insieme a quel balordo di Mike che ho conosciuto a March Ridge, la sera in cui tutto è cominciato. Non mi sembrava particolarmente furbo ma gli sono rimasto accanto soltanto perchè è sempre riuscito a sfamarci con il poco che trovavamo in giro. Insomma, è stata un importante risorsa. Spero che anche tu, riuscirai a trovare il tuo posto in questa comunità e non che creerai troppi problemi. Mettiamo a disposizione beni di prima necessità e un rifugio sicuro, spero riuscirai a sdebitarti con noi. Ti aspetto qua, quando vorrai dimostrarci di meritarti un posto in questa Tana.",
 
     IGUI_SFQuest_Questyno_Grif1_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif1_Text = "Un medik-kit per la speranza.",
@@ -671,8 +671,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title = "Angelica Stella 9344,8618,0",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text = "Incontra Angelica Stella [Giornaliere]",
-    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Ero una famosa attrice, ma ora sono una sopravvissuta. Adoro essere al centro dell'attenzione e amo i vestiti eleganti. Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
-    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Ero una famosa attrice, ma ora sono una sopravvissuta. Adoro essere al centro dell'attenzione e amo i vestiti eleganti. Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
+    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore = "Ho inctrato Angelica alla Tana. Sembra essere un pò fuori dal mondo, ma chi non ha avuto i suoi traumi dopo tutto questo? Credo che le darò una mano se può servire ad avere qualcosa per commerciare.",
+    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Non mi riconosci? Ero una famosa attrice di hollywood. Non reputarmi una pazza ma... continuare a vestirmi in maniera elegante mi fa sentire come allora. Quando indosso un vestito e mi guardo allo specchio è come se non fossi più in questo posto. Ho bisogno di te per recuperare alcuni abitiche mi interessano, spero tu possa darmi una mano, ho ancora molti soldi da parte!",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
 
     IGUI_SFQuest_Questyno_AngelicaStella1_Title = "Angelica della Tana 9344,8618,0",
@@ -916,8 +916,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title = "Heather Thomas 9315,8624,0",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text = "Incontra Heather Thomas [Giornaliere]",
-    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore = "Sono Heather, ma tutti mi chiamano "Lupo Selvaggio" perché amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo. La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
-    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text = "Sono Heather, ma tutti mi chiamano "Lupo Selvaggio" perché amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo. La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
+    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore = "Heater sembra un tipo burbero ma leale. Posso contare su di lui se volessi imaparare l'arte della caccia. E' disposto anche a pagarmi se riesco a rimediare della selvaggina.",
+    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text = "Ciao straniero. Sono Heater, ma tutti mi chiamano "Lupo Selvaggio" perché da sempre amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo, credo di aver conosciuto più persone durante questa apocalisse che prima di tutto questo! La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto. Mi raccomando, semmai dovesse bloccarti Mike per dirti che puoi lasciare a lui i MIEI conigli, non dargli ascolto è solo un ingordo!",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text_Accepted = " La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
 
 	IGUI_SFQuest_Questyno_HeatherThomas1_Title = "Heather della Tana 9315,8624,0",
@@ -1142,8 +1142,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_EliaRima_Intro_Title = "Elia Rima 9330,8631,0",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Text = "Incontra Elia Rima [Giornaliere]",
-    IGUI_SFQuest_Questyno_EliaRima_Intro_Lore = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarà molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
-    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarà molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
+    IGUI_SFQuest_Questyno_EliaRima_Intro_Lore = "Elia è una delle prime persone arrivate nella Tana. Anche se non è scontato svolge un ruolo fondamentale.",
+    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. Sono cresciuto fra queste campagne. Il giorno in cui tutto è cominciato mi trovato a March Ridge, la ho incontrato Angelica che si trovava li per un provino in un piccolo appartamento. Le ho subito parlato di questo posto dove abitavano i miei nonni e mi sono incamminato con lei. Arrivato qui c'erano già il Sergente Grif e Mike e mi hanno subito ben accolto insieme ad Angelica. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarà molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni strumenti musicali da una casa di un musicista. ",
 	
 	IGUI_SFQuest_Questyno_EliaRima1_Title = "Elia della Tana 9330,8631,0",
@@ -1461,8 +1461,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_BobRepair_Intro_Title = "Bob Repair 9340,8578,0",
     IGUI_SFQuest_Questyno_BobRepair_Intro_Text = "Incontra Bob Repair [Giornaliere]",
-    IGUI_SFQuest_Questyno_BobRepair_Intro_Lore = "Heilà straniero che si dice? Io sono Bob ma puoi chiamarmi Bobby, se preferisci. Ho sempre avuto la passione per la meccanica i motori e tutto ciò che sfrutta gli ingranaggi e l'elettricità per funzionare. A quanto pare le mie competenze sono più che necessarie in questo mondo dimenticato da Dio. Ho bisogno spesso di qualcuno che possa recuperare qualche pezzo speciale per le mie attrezzature, posso contare su di te straniero? ",
-    IGUI_SFQuest_Questyno_BobRepair_Intro_Complete_Text = "Heilà straniero che si dice? Io sono Bob ma puoi chiamarmi Bobby, se preferisci. Ho sempre avuto la passione per la meccanica i motori e tutto ciò che sfrutta gli ingranaggi e l'elettricità per funzionare. A quanto pare le mie competenze sono più che necessarie in questo mondo dimenticato da Dio. Ho bisogno spesso di qualcuno che possa recuperare qualche pezzo speciale per le mie attrezzature, posso contare su di te straniero? ",
+    IGUI_SFQuest_Questyno_BobRepair_Intro_Lore = "Ho conosciuto Bob alla Tana, sommerso di metallo e olio motore. E' il meccanico del gruppo, devo dargli una mano con tutta la ferraglia in generale per conquisarmi la sua fiducia. Spero di non deluderlo.",
+    IGUI_SFQuest_Questyno_BobRepair_Intro_Complete_Text = "Heilà straniero che si dice? Io sono Bob ma puoi chiamarmi Bobby, se preferisci. Ho sempre avuto la passione per la meccanica, i motori e tutto ciò che sfrutta gli ingranaggi e l'elettricità per funzionare. Non ho avuto molti problemi a inserirmi nel gruppo essendo l'unico che ci capisse qualcosa. Sono arrivato qua da March Ridge dove avevo una delle mie officine insieme a mio fratellastro David, lui ora è con un gruppo che si è staccato dalla Tana e sono a Muldraugh se vorrai fargli visita un giorno. Ho bisogno di molto metallo per le mie riparazioni, spero potrai darmi una mano a trovarne un pò in giro. Passa da me tutti i giorni e ti darò qualcosa da fare!",
     IGUI_SFQuest_Questyno_BobRepair_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_BobRepair1_Title = "Bob della Tana 9340,8578,0",
@@ -1553,7 +1553,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_BobRepair9_A_Text = "Torna da Bob",
 	
 	IGUI_SFQuest_Questyno_BobRepair10_Title = "Bob della Tana 9340,8578,0",
-    IGUI_SFQuest_Questyno_BobRepair10_Text = ""Bob aggiusta motori",
+    IGUI_SFQuest_Questyno_BobRepair10_Text = "Bob aggiusta motori",
     IGUI_SFQuest_Questyno_BobRepair10_Lore = "Bob mi ha chiesto di recuperare 2 Parti di ricambio per motore. Mi bastano degli Scarti Metallici e delle Parti elettroniche. Ovviamente anche un martello",
     IGUI_SFQuest_Questyno_BobRepair10_Begin_Text = "Si è fuso il motore della mia auto, ne ho assolutamente bisogno per spostarmi. Ti avanza qualche parte di ricambio per motore?",
     IGUI_SFQuest_Questyno_BobRepair10_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
@@ -1711,8 +1711,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Title = "Mike Pozzo 9315,8638,0",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Text = "Incontra Mike Pozzo [Giornaliere]",
-    IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore = "Hey, sono Mike, ma tutti mi chiamano "Pozzo." Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
-    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano "Pozzo." Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
+    IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore = "Per ingraziarmi Mike mi basterà ingozzarlo di cibo. Semplice. Lo troverò sicuramente in cucina.",
+    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano "Pozzo." Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti. Il mio ristorante in centro era molto vicino al centro quindi sono stato uno dei primi colpiti senza preavviso. Per fortuna a cena ospite da me quella sera c'era il Sergente Grif, che è riuscito a tirarmi fuori da quel bordello mentre io ero ancora alle prese con i fornelli ignaro di quello che stava succedendo in sala e per le strade. Gli devo molto! Non ho bisogno di molto ma se ti andrà di farmi qualche favoretto potrei mettere una buona parola per te al Sergente! ",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_MikePozzo1_Title = "Mike della Tana 9315,8638,0",
@@ -1970,8 +1970,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_RosaChina_Intro_Title = "Rosa China 9270,8491,0",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Text = "Incontra Rosa China [Giornaliere]",
-    IGUI_SFQuest_Questyno_RosaChina_Intro_Lore = "Ciao, sono Rosa, ma tutti qui mi conoscono come "China." Ho sempre fatto lavori manuali, quelli che tengono le comunità insieme. In questo mondo stravolto dagli zombie, ho scoperto che il mio mestiere è diventato più importante che mai. La mia missione è raccogliere risorse naturali, come pietre e erbe. Possono sembrare cose semplici, ma sono fondamentali per la nostra sopravvivenza. Le pietre sono necessarie per costruire rifugi sicuri, e le erbe che raccolgo possono curare le ferite e aiutarci a combattere malattie.",
-    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, ma tutti qui mi conoscono come "China." Ho sempre fatto lavori manuali, quelli che tengono le comunità insieme. In questo mondo stravolto dagli zombie, ho scoperto che il mio mestiere è diventato più importante che mai. La mia missione è raccogliere risorse naturali, come pietre e erbe. Possono sembrare cose semplici, ma sono fondamentali per la nostra sopravvivenza. Le pietre sono necessarie per costruire rifugi sicuri, e le erbe che raccolgo possono curare le ferite e aiutarci a combattere malattie.",
+    IGUI_SFQuest_Questyno_RosaChina_Intro_Lore = "Rosa è arrivata con sua figlia da poco al campo Tana, forse mi darà dei compiti molto semplici, penso che potrei cominciare con lei.",
+    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, sono arrivata qua insieme a Emily e mia figlia. ci siamo conosciute a March Ridge, quando tutto è cominciato. Eravamo all'interno del cinema, eravamo le uniche che stavano guardando quel film insieme alle nostre figlie e una volte uscite abbiamo trovato le strade deserte. Siamo arrivate in questo posto seguendo un gruppo di persone che abbiamo incontrato subito fuori dalla città. Siamo le ultime arrivate e stiamo cercando di trovarne il nostro posto all'interno della Resistenza ma senza dover affrontare quei cosi la fuori. Ti saremo grate se ci darai una mano a reperire alcuni materiali per dare una mano alla nostra famiglia.",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_RosaChina1_Title = "Rosa della Tana 9270,8491,0",
@@ -2217,8 +2217,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title = "Emily Terry 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text = "Incontra Emily Terry [Giornaliere]",
-    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore = "Sono Emily Terry, ma tutti mi chiamano "Terry". Sono una scienziata e adoro la scienza. Adesso non ho più tempo per la scienza, ma mi piacerebbe poterla fare. ",
-    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text = "Sono Emily Terry, ma tutti mi chiamano "Terry". Sono una scienziata e adoro la scienza. Adesso non ho più tempo per la scienza, ma mi piacerebbe poterla fare. Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
+    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore = "Emily è arrivata con sua figlia da poco alla Tana, forse mi darà dei compiti molto semplici, penso che potrei cominciare con lei.",
+    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text = "Ciao, sono Rosa. Insieme a Emily e le nostre figlie stiamo cercando di coltivare qualcosa. Non siamo molto utili ad uccidere zombie ma ci diamo da fare con la terra. Noi e le nostre due figlie abbiamo legato molto e ci troviamo bene anche un poco fuori dalla Tana. Spero potrai fare qualche piccolo lavoretto per noi. Ci trovi qui tutti i giorni!",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_EmilyTerry1_Title = "Terry della Tana 9277,8491,0",
@@ -5380,8 +5380,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Title = "Ezekiel Flynn",
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text = "Incontra Ezekiel Flynn [Catena]",
-    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilità di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialità è il combattimento corpo a copro. Ti mostrerò come scegliere il tuo bersaglio, colpire con precisione e come usare l'ambiente a tuo vantaggio. Ricorda, in questo mondo, la sopravvivenza dipende dalla tua abilità nel gestire le risorse e nel rimanere un passo avanti agli zombi. Se mi dimostri il tuo valore ti lascerò un arma speciale. XXXX",
-    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Complete_Text = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilità di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialità è il combattimento corpo a copro. Ti mostrerò come scegliere il tuo bersaglio, colpire con precisione e come usare l'ambiente a tuo vantaggio. Ricorda, in questo mondo, la sopravvivenza dipende dalla tua abilità nel gestire le risorse e nel rimanere un passo avanti agli zombi. Se mi dimostri il tuo valore ti lascerò un arma speciale. XXXX",
+    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore = "Ezekiel Flynn è un cacciatore esperto, potrebbe insegnarmi qualcosa. Mi aspetta alla Tana",
+    IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Complete_Text = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilità di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialità è il combattimento corpo a copro. Ti mostrerò come scegliere il tuo bersaglio, colpire con precisione e come usare l'ambiente a tuo vantaggio. Ricorda, in questo mondo, la sopravvivenza dipende dalla tua abilità nel gestire le risorse e nel rimanere un passo avanti agli zombi. Se mi dimostri il tuo valore ti lascerò un arma speciale.",
 
     IGUI_SFQuest_Questyno_EzekielFlynn1_Title = "Ezekiel Flynn",
     IGUI_SFQuest_Questyno_EzekielFlynn1_Text = "Uccidi 25 zombie",
@@ -5440,8 +5440,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Title = "Elowen Beckett",
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text = "Incontra Elowen Beckett [Catena]",
-    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore = ""Sono Elowen, l'ingegnere creativo del nostro gruppo di sopravvissuti. In un mondo dove la tecnologia è diventata rara, è fondamentale saper costruire e riparare. Ho creato gadget e armi innovative che ci danno un vantaggio contro gli zombi. La mia specialità è l'ingegneria improvvisata. Ti aiuterò a costruire un oggetto per trasportare oggetti pesanti se ti andrà di fare alcune cose per me!",
-    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Complete_Text = ""Sono Elowen, l'ingegnere creativo del nostro gruppo di sopravvissuti. In un mondo dove la tecnologia è diventata rara, è fondamentale saper costruire e riparare. Ho creato gadget e armi innovative che ci danno un vantaggio contro gli zombi. La mia specialità è l'ingegneria improvvisata. Ti aiuterò a costruire un oggetto per trasportare oggetti pesanti se ti andrà di fare alcune cose per me!",
+    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore = "todo",
+    IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Complete_Text = "Sono Elown, l'ingegnere creativo del nostro gruppo di sopravvissuti. In un mondo dove la tecnologia è diventata rara, è fondamentale saper costruire e riparare. Ho creato gadget e armi innovative che ci danno un vantaggio contro gli zombi. La mia specialità è l'ingegneria improvvisata. Ti aiuterò a costruire un oggetto per trasportare oggetti pesanti se ti andrà di fare alcune cose per me!",
     IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 
     IGUI_SFQuest_Questyno_ElowenBeckett1_Title = "Elowen Beckett",
@@ -5664,7 +5664,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text = "Voglio molte munizioni per la mia Magnum, pensi di potercela fare?!",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Declined = "C'era da aspettarselo!",
-    IGUI_SFQuest_Questyno_TaylorBlaze5_Complete = Complimenti, queste sono difficili da trovare, penso che parlerò a Nigel di te!"",
+    IGUI_SFQuest_Questyno_TaylorBlaze5_Complete = "Complimenti, queste sono difficili da trovare, penso che parlerò a Nigel di te!",
 	
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze6_Title = "Taylor da Trelai 7752,7759,0",
@@ -5716,7 +5716,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Title = "Marcus Kane 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Incontra Marcus Kane [Mensili]",
-    IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = ""Ho incotrato Marcus la prima volta a Rosewood Nord (8574,11026,0). Era in mezzo alla strada,  e l'ho quasi confuso con uno zombie da quanto sangue aveva addosso. E' una persona sadica e sembra molto divertito dalla situazione attuale delle cose. Eì conosciuto anche dalle bande di Nigel e sono certo che conviene averlo dalla propria parte."",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ho incotrato Marcus la prima volta a Rosewood Nord (8574,11026,0). Era in mezzo alla strada,  e l'ho quasi confuso con uno zombie da quanto sangue aveva addosso. E' una persona sadica e sembra molto divertito dalla situazione attuale delle cose. Eì conosciuto anche dalle bande di Nigel e sono certo che conviene averlo dalla propria parte.",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus. Posso insegnarti molte tecniche diverse per colpire gli zombie in maniera efficace, dimostrami solo di essere all'altezza, okey?",
 
 	
