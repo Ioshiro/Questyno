@@ -5499,12 +5499,12 @@ IGUI_EN = {
 ]]
     IGUI_SFQuest_Questyno_JohnBaker_Name = "John Baker",
 
-    IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker, 6867,7360,0",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker, 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Incontra John Baker [Catena]",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
 	
-	IGUI_SFQuest_Questyno_JohnBaker1_Title = "John da Trelai 6867,7360,0",
+	IGUI_SFQuest_Questyno_JohnBaker1_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker1_Text = "Uccidi 50 Zombie",
     IGUI_SFQuest_Questyno_JohnBaker1_Lore = "Devo dimostrare a John di meritarmi una delle sue Katane. Devo uccidere 50 Zombie per suo conto.",
     IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text = "Puoi cominciare con il far saltare 50 teste di quei bastardi. Quando lo hai fatto, torna da me",
@@ -5512,7 +5512,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JohnBaker1_Begin_Text_Declined = "Ti facevo più tosto.",
     IGUI_SFQuest_Questyno_JohnBaker1_Complete = "Okay, non male.",
 	
-	IGUI_SFQuest_Questyno_JohnBaker2_Title = "John da Trelai 6867,7360,0",
+	IGUI_SFQuest_Questyno_JohnBaker2_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker2_Text = "Uccidi 200 Zombie",
     IGUI_SFQuest_Questyno_JohnBaker2_Lore = "Devo dimostrare a John di meritarmi una delle sue Katane. Devo uccidere 200 Zombie per suo conto. ",
     IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text = "Bene, quelli erano per riscaldarsi. Uccidene altri 200 e torna da me.",
@@ -5520,7 +5520,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JohnBaker2_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_JohnBaker2_Complete = "Complimenti, i prossimi uccidili con questo.",
 	
-	IGUI_SFQuest_Questyno_JohnBaker3_Title = "John da Trelai 6867,7360,0",
+	IGUI_SFQuest_Questyno_JohnBaker3_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker3_Text = "Recupero Libro a 10009,13072,1",
     IGUI_SFQuest_Questyno_JohnBaker3_Lore = "Devo andare alla vecchia casa della madre di Jhon per recuperare dei libri che gli interessano. Comincio a pensare che mi stia prendendo in giro. La casa si trova a March Ridge (10009,13072,1)",
     IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text = "Okay okay, forse sei solo fortunato. Prova a recupeare un libro a casa mia a March Ridge e portalo da me. Quella città è un puttanaio se ce la farai forse potrò darti una mano.",
@@ -5530,7 +5530,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JohnBaker3_A = "Cerca a March Ridge (10009,13072,1)",
 	IGUI_SFQuest_Questyno_JohnBaker3_A_Text = "Porta il libro a John",
 	
-	IGUI_SFQuest_Questyno_JohnBaker4_Title = "John da Trelai 6867,7360,0",
+	IGUI_SFQuest_Questyno_JohnBaker4_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker4_Text = "Uccidi 500 Zombie.",
     IGUI_SFQuest_Questyno_JohnBaker4_Lore = "Jhon vuole che ammazzi altri 500 zombie, forse è impazzito?",
     IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text = "Grazie per il libro, ci sono scritte cose importanti per affinare la mia tecnica. Adesso voglio che elimini altri 500 zombie. Se ce la farai ti donerò una delle mie Katane.",
@@ -5538,10 +5538,10 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JohnBaker4_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_JohnBaker4_Complete = "Bene, complimenti, ce l'hai fatta. Questa è tua. Aspetta di avere una buona manutenzione o la romperai subito.",
 	
-	IGUI_SFQuest_Questyno_JohnBaker5_Title = "John da Trelai 6867,7360,0",
+	IGUI_SFQuest_Questyno_JohnBaker5_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker5_Text = "Recupera Cibo a 4418,6236,0",
     IGUI_SFQuest_Questyno_JohnBaker5_Lore = "Jhon vorrebbe che recuperassi alcune scorte di cibo che il suo amico ha lasciato a Southwood (4418,6236,0)",
-    IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text = "Adesso che hai la tua Katana nulla potrà fermarti, che ne dici di recuperare le scorte che ha lasciato il mio collega nel suo appartamento a Southwood?",
+    IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text = "Adesso che hai la tua Katana nulla potrà fermarti, che ne dici di recuperare le scorte che ha lasciato il mio collega nel suo appartamento a Southwood? Ti lascio qualcos'altro di ben affilato, dai!",
     IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Declined = "Lo immaginavo.",
     IGUI_SFQuest_Questyno_JohnBaker5_Complete = "Ottimo, puoi tenerti i ceci se vuoi, a me non sono mai piaciuti. E questi sono per il disturbo",
@@ -5550,7 +5550,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JohnBaker5_B = "3 <Canned Chili>",
 	IGUI_SFQuest_Questyno_JohnBaker5_C = "3 <Canned Pineapple>",
 	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 <Base.CornedBeef>",
-	IGUI_SFQuest_Questyno_JohnBaker5_E = "<Dried Chick Peas>";
+	IGUI_SFQuest_Questyno_JohnBaker5_E = "3 <Dried Chick Peas>";
 	IGUI_SFQuest_Questyno_JohnBaker5_B_Text = "Parla con John",
 
     --[[
@@ -5618,8 +5618,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title = "Taylor Blaze 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text = "Incontra Taylor Blaze [Mensili]",
-    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor è una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta a commerciare armi e munizioni, però non coviene darle fregature. Posso trovarla a Trelai (7752,7759,0)",
-    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "MANCA DIALOGO/PRESENTAZIONE",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor è una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta sempre a commerciare armi e munizioni, non coviene darle fregature. Posso trovarla sempre a Trelai a 7752,7759,0",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "Qui a Trelai non tolleriamo fregature. Se voglio commerciare con te, aspetto onestà. Niente giochi sporchi. Le mie armi sono le migliori in circolazione, e se vuoi sopravvivere in questo mondo, avrai bisogno di ciò che posso offrirti. Ma sii avvisato: se mi tradisci, non ci saranno seconde occasioni.",
 
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze1_Title = "Taylor da Trelai 7752,7759,0",
@@ -5716,8 +5716,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Title = "Marcus Kane 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Incontra Marcus Kane [Mensili]",
-    IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ciao straniero, io sono Marcus DA COMPLETARE?",
-    IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus DA COMPLETARE?",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = ""Ho incotrato Marcus la prima volta a Rosewood Nord (8574,11026,0). Era in mezzo alla strada,  e l'ho quasi confuso con uno zombie da quanto sangue aveva addosso. E' una persona sadica e sembra molto divertito dalla situazione attuale delle cose. Eì conosciuto anche dalle bande di Nigel e sono certo che conviene averlo dalla propria parte."",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus. Posso insegnarti molte tecniche diverse per colpire gli zombie in maniera efficace, dimostrami solo di essere all'altezza, okey?",
 
 	
 	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",

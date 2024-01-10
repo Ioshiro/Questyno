@@ -32,7 +32,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze1",
 
     awardsrep = "LaResistenza;620",
-    awardsitem = "SWeapons.SalvagedPipeWrench;1",
+    awardsitem = "SWeapons.SalvagedPipeWrench;1;Money;150",
     awardstask = "Questyno_TaylorBlaze2",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -48,7 +48,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze2",
 
     awardsrep = "LaResistenza;550",
-    awardsitem = "SWeapons.SalvagedBlade;1",
+    awardsitem = "SWeapons.SalvagedBlade;1;Money;150",
     awardstask = "Questyno_TaylorBlaze3",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -64,6 +64,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze3",
 
     awardsrep = "LaResistenza;900",
+    awardsitem = "Money;200",
     awardstask = "Questyno_TaylorBlaze4",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -79,6 +80,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze4",
 
     awardsrep = "LaResistenza;780",
+    awardsitem = "Money;150",
     awardstask = "Questyno_TaylorBlaze5",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -94,6 +96,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze5",
 
     awardsrep = "LaResistenza;1000",
+    awardsitem = "Money;150",
     awardstask = "Questyno_TaylorBlaze6",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -109,6 +112,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze6",
 
     awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;150",
     awardstask = "Questyno_TaylorBlaze7",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -124,7 +128,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze7",
 
     awardsrep = "LaResistenza;1200",
-    awardsitem = "PipeBomb;1",
+    awardsitem = "PipeBomb;1;Money;150",
     awardstask = "Questyno_TaylorBlaze8",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -210,7 +214,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze8_B",
 
     awardsrep = "LaResistenza;2200",
-    awardsitem = "Base.PipeBomb;1",
+    awardsitem = "Base.PipeBomb;1;Money;150",
     awardstask = "Questyno_TaylorBlaze1",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -279,6 +283,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane1_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane1_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane1_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -315,6 +320,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane2_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane2_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane2_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -351,6 +357,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane3_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane3_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane3_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -387,6 +394,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane4_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane4_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane4_Complete",
 });
 
 

@@ -320,28 +320,27 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JohnBaker3_A",
         text = "IGUI_SFQuest_Questyno_JohnBaker3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoJohnBaker3;additem;Base.Book;1",
+        oncompleted = "removeclickevent;EventoJohnBaker3;additem;Book;1",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker3_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker3_Title",
-    unlocks = "clickevent;10009x13072x1:EventoJohnBaker3;time:50:anim:loot;updateobjective:Questyno_JohnBaker2:1:Completed",
+    unlocks = "clickevent;10009x13072x1:EventoJohnBaker3;time:50:anim:loot;updateobjective:Questyno_JohnBaker3:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker3_A",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
-    awardsitem = "SWeapons.ScrapMachete;1", -- ITEM REWARD
-    awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker3_Begin;Questyno_JohnBaker3", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker4_Begin;Questyno_JohnBaker4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker3_Lore" },
     needsitem = "Base.Book;1",
     onobtained = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker3_Complete",
-    text = "IGUI_SFQuest_Questyno_JohnBaker3A_Text",
+    text = "IGUI_SFQuest_Questyno_JohnBaker3_A_Text",
     texture = "media/textures/Item_JohnBaker.png",
-    title = "IGUI_SFQuest_Questyno_JohnBaker3A_Title",
+    title = "IGUI_SFQuest_Questyno_JohnBaker3_Title",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -368,12 +367,12 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JohnBaker5_A",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoJohnBaker5;additem;Base.DriedChickpeas;1;additem;Base.CannedChili;3;additem;Base.CannedPineapple;3;additem;Base.CornedBeef;3",
+        oncompleted = "removeclickevent;EventoJohnBaker5;additem;Base.DriedChickpeas;3;additem;Base.CannedChili;3;additem;Base.CannedPineapple;3;additem;Base.CornedBeef;3",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
-    unlocks = "clickevent;4418x6236x0:EventoJohnBaker5;time:50:anim:loot;updateobjective:Questyno_JohnBaker5:1:Completed",
+    unlocks = "clickevent;4417x6236x0:EventoJohnBaker5;time:50:anim:loot;updateobjective:Questyno_JohnBaker5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -386,26 +385,26 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JohnBaker5_B",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_B",
         hidden = false,
-        needsitem = "Base.DriedChickpeas;1",
-        onobtained = "updateobjective;Questyno_JohnBaker5;1;Completed;removeitem;Base.DriedChickpeas;1",
+        needsitem = "Base.CannedChili;3",
+        onobtained = "updateobjective;Questyno_JohnBaker5_A;1;Completed;removeitem;Base.CannedChili;3",
     },{
         guid = "Questyno_JohnBaker5_C",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_C",
         hidden = false,
-        needsitem = "Base.CannedChili;3",
-        onobtained = "updateobjective;Questyno_JohnBaker5;2;Completed;removeitem;Base.CannedChili;3",
+        needsitem = "Base.CannedPineapple;3",
+        onobtained = "updateobjective;Questyno_JohnBaker5_A;2;Completed;removeitem;Base.CannedPineapple;3",
     },{
         guid = "Questyno_JohnBaker5_D",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_D",
         hidden = false,
-        needsitem = "Base.CannedPineapple;3",
-        onobtained = "updateobjective;Questyno_JohnBaker5;3;Completed;removeitem;Base.CannedPineapple;3",
+        needsitem = "Base.CannedCornedBeef;3",
+        onobtained = "updateobjective;Questyno_JohnBaker5_A;3;Completed;removeitem;Base.CannedCornedBeef;3",
     },{
         guid = "Questyno_JohnBaker5_E",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_E",
         hidden = false,
-        needsitem = "Base.CornedBeef;3",
-        onobtained = "updateobjective;Questyno_JohnBaker5;4;Completed;removeitem;Base.CornedBeef;3",
+        needsitem = "Base.DriedChickpeas;3",
+        onobtained = "updateobjective;Questyno_JohnBaker5_A;4;Completed;removeitem;Base.DriedChickpeas;3",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_A_Text",
     texture = "media/textures/Item_JohnBaker.png",
@@ -415,8 +414,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker5_B",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Base.DriedChickpeas;1", -- ITEM REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsitem = "DriedChickpeas;1;Machete;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker5_Lore" },
     text = "IGUI_SFQuest_Questyno_JohnBaker5_B_Text",
