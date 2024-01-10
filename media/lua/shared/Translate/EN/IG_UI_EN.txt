@@ -5841,7 +5841,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text = "Eccoti qua, abbiamo bisogno di un ultimo pezzo per la tua auto. Vai a Rosewood e recupera un Silenziatore Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined = "Okay, c'eravamo quasi.",
-    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato...",
+    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato [Premi ESC e clicca su Server Point Shop - Vehicle - Buy (non essere all'interno di strutture o il veicolo non spawnerà)]",
 	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (8219,11552,0)",
 	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
 
