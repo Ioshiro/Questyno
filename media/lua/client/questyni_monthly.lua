@@ -283,6 +283,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane1_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane1_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane1_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -319,6 +320,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane2_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane2_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane2_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -355,6 +357,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane3_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane3_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane3_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -391,6 +394,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane4_A_Text",
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane4_Title",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane4_Complete",
 });
 
 
