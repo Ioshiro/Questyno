@@ -5540,17 +5540,17 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_JohnBaker5_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker5_Text = "Recupera Cibo a 4418,6236,0",
-    IGUI_SFQuest_Questyno_JohnBaker5_Lore = "Jhon vorrebbe che recuperassi alcune scorte di cibo che il suo amico ha lasciato a Southwood (4418,6236,0)",
+    IGUI_SFQuest_Questyno_JohnBaker5_Lore = "Jhon vorrebbe che recuperassi alcune scorte di cibo che il suo amico ha lasciato a Southwood (4418,6236,0). Dice mi darà qualcosa di molto tagliente!",
     IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text = "Adesso che hai la tua Katana nulla potrà fermarti, che ne dici di recuperare le scorte che ha lasciato il mio collega nel suo appartamento a Southwood? Ti lascio qualcos'altro di ben affilato, dai!",
     IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_JohnBaker5_Begin_Text_Declined = "Lo immaginavo.",
     IGUI_SFQuest_Questyno_JohnBaker5_Complete = "Ottimo, puoi tenerti i ceci se vuoi, a me non sono mai piaciuti. E questi sono per il disturbo",
 	IGUI_SFQuest_Questyno_JohnBaker5_A = "Cerca a Southwood (4418,6236,0)",
 	IGUI_SFQuest_Questyno_JohnBaker5_A_Text = "Prendi il cibo per John",
-	IGUI_SFQuest_Questyno_JohnBaker5_B = "3 <Canned Chili>",
-	IGUI_SFQuest_Questyno_JohnBaker5_C = "3 <Canned Pineapple>",
-	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 <Base.CornedBeef>",
-	IGUI_SFQuest_Questyno_JohnBaker5_E = "3 <Dried Chick Peas>";
+	IGUI_SFQuest_Questyno_JohnBaker5_B = "3 Chili in Scatola",
+	IGUI_SFQuest_Questyno_JohnBaker5_C = "3 Ananas in Scatola",
+	IGUI_SFQuest_Questyno_JohnBaker5_D = "3 Carne in Scatola",
+	IGUI_SFQuest_Questyno_JohnBaker5_E = "Ceci Secchi";
 	IGUI_SFQuest_Questyno_JohnBaker5_B_Text = "Parla con John",
 
     --[[

@@ -143,3 +143,32 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_R
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RichardBrown6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RichardBrown6", optional = true, text = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RichardBrown6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RichardBrown6_B", text = "IGUI_SFQuest_Questyno_RichardBrown6_Complete"})
+
+
+--[[
+            *** Robert Wilson ***
+            Elenco:
+                intro. Incontra Robert Wilson per sbloccare la catena.
+				1. Uccidere 25 Zombie (10rep + 10$)
+				2. Recuperare Recupero SOMW.LShapedLugWrench parlando con (6683,10669,0), Uccidere 50 Zombie (20rep + 10$)
+				3. Recuperare Base.ElectronicsScrap;50 (25rep + 10$)
+				4. Recuperare Base.ElectronicsMag4 parlando con (9416,9985,0)4 (30rep + Base.ElectronicsMag4)
+				5. Recuperare Base.PetrolCan parlando con (11593,8301,0)5 (40rep + 50$ + Base.EmptyPetrolCan,Base.Generator)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson_Intro", text = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson1", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson1", text = "IGUI_SFQuest_Questyno_RobertWilson1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson2", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson2_A", text = "IGUI_SFQuest_Questyno_RobertWilson2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson3", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson3", text = "IGUI_SFQuest_Questyno_RobertWilson3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson4", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson4_A", text = "IGUI_SFQuest_Questyno_RobertWilson4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson5", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson5_A", text = "IGUI_SFQuest_Questyno_RobertWilson5_Complete"})

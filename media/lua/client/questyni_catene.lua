@@ -367,7 +367,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JohnBaker5_A",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoJohnBaker5;additem;Base.DriedChickpeas;3;additem;Base.CannedChili;3;additem;Base.CannedPineapple;3;additem;Base.CornedBeef;3",
+        oncompleted = "removeclickevent;EventoJohnBaker5;additem;Base.DriedChickpeas;1;additem;Base.CannedChili;3;additem;Base.CannedPineapple;3;additem;Base.CannedCornedBeef;3",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_Text",
     texture = "media/textures/Item_JohnBaker.png",
@@ -403,8 +403,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_JohnBaker5_E",
         text = "IGUI_SFQuest_Questyno_JohnBaker5_E",
         hidden = false,
-        needsitem = "Base.DriedChickpeas;3",
-        onobtained = "updateobjective;Questyno_JohnBaker5_A;4;Completed;removeitem;Base.DriedChickpeas;3",
+        needsitem = "Base.DriedChickpeas;1",
+        onobtained = "updateobjective;Questyno_JohnBaker5_A;4;Completed;removeitem;Base.DriedChickpeas;1",
     }},
     text = "IGUI_SFQuest_Questyno_JohnBaker5_A_Text",
     texture = "media/textures/Item_JohnBaker.png",
@@ -695,3 +695,161 @@ table.insert(SFQuest_Database.QuestPool,{
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
 });
+
+--[[
+            *** Robert Wilson ***
+            Elenco:
+                intro. Incontra Robert Wilson per sbloccare la catena.
+				1. Uccidere 25 Zombie (10rep + 10$)
+				2. Recuperare Recupero SOMW.LShapedLugWrench parlando con (6683,10669,0), Uccidere 50 Zombie (20rep + 10$)
+				3. Recuperare Base.ElectronicsScrap;50 (25rep + 10$)
+				4. Recuperare Base.ElectronicsMag4 parlando con (9416,9985,0)4 (30rep + Base.ElectronicsMag4)
+				5. Recuperare Base.PetrolCan parlando con (11593,8301,0)5 (40rep + 50$ + Base.EmptyPetrolCan,Base.Generator)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson_Intro",
+
+    awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson1_Begin;Questyno_RobertWilson1", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson1",
+
+    awardsrep = "LaResistenza;10", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson2_Begin;Questyno_RobertWilson2", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson1_Lore" },
+    text = "IGUI_SFQuest_Questyno_RobertWilson1_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson1_Title",
+    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson2",
+
+    awardstask = "Questyno_RobertWilson2_A", -- TASK REWARD
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson2_Lore" },
+    objectives = {{
+        guid = "Questyno_RobertWilson2_A",
+        text = "IGUI_SFQuest_Questyno_RobertWilson2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRobertWilson2;additem;SOMW.LShapedLugWrench;1",
+    },{
+        guid = "Questyno_RobertWilson2_B",
+        text = "IGUI_SFQuest_Questyno_RobertWilson2_B",
+        hidden = false,
+    }},
+    text = "IGUI_SFQuest_Questyno_RobertWilson2_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
+    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6144x7069x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson2_A",
+
+    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson3_Begin;Questyno_RobertWilson3", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson2_Lore" },
+    needsitem = "SOMW.LShapedLugWrench;1",
+    onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson2_Complete",
+    text = "IGUI_SFQuest_Questyno_RobertWilson2_A_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson3",
+
+    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson4_Begin;Questyno_RobertWilson4", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson3_Lore" },
+    needsitem = "Base.ElectronicsScrap;50",
+    onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson3_Complete",
+    text = "IGUI_SFQuest_Questyno_RobertWilson3_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson3_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson4",
+
+    awardstask = "Questyno_RobertWilson4_A", -- TASK REWARD
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson4_Lore" },
+    objectives = {{
+        guid = "Questyno_RobertWilson4_A",
+        text = "IGUI_SFQuest_Questyno_RobertWilson4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRobertWilson4;additem;Base.ElectronicsMag4;1",
+    }},
+    text = "IGUI_SFQuest_Questyno_RobertWilson4_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson4_Title",
+    unlocks = "clickevent;9416x9985x0:EventoRobertWilson4;time:50:anim:loot;updateobjective:Questyno_RobertWilson4:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson4_A",
+
+    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsitem = "Base.ElectronicsMag4;1", -- ITEM REWARD
+    awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson5_Begin;Questyno_RobertWilson5", -- DIALOGUE REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson4_Lore" },
+    needsitem = "Base.ElectronicsMag4;1",
+    onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson4_Complete",
+    text = "IGUI_SFQuest_Questyno_RobertWilson4_A_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson4_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson5",
+
+    awardstask = "Questyno_RobertWilson5_A", -- TASK REWARD
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson5_Lore" },
+    objectives = {{
+        guid = "Questyno_RobertWilson5_A",
+        text = "IGUI_SFQuest_Questyno_RobertWilson5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRobertWilson5;additem;Base.EmptyPetrolCan;1;additem;Base.Generator;1",
+    }},
+    text = "IGUI_SFQuest_Questyno_RobertWilson5_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson5_Title",
+    unlocks = "clickevent;11593x8301x0:EventoRobertWilson5;time:50:anim:loot;updateobjective:Questyno_RobertWilson5:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RobertWilson5_A",
+
+    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsitem = "Base.Money;50;Base.EmptyPetrolCan;1;Base.Generator;1", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RobertWilson5_Lore" },
+    needsitem = "Base.EmptyPetrolCan;1;Base.Generator;1",
+    onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson5_Complete",
+    text = "IGUI_SFQuest_Questyno_RobertWilson5_A_Text",
+    texture = "media/textures/Item_RobertWilson.png",
+    title = "IGUI_SFQuest_Questyno_RobertWilson5_Title",
+});
+        
