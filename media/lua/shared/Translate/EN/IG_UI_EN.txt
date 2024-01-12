@@ -5849,10 +5849,10 @@ IGUI_EN = {
             *** Richard Brown ***
             Elenco:
                 intro. Incontra Richard Brown per sbloccare la catena.
-				1. Uccidere 50 Zombie (10rep + MoneyToXP.100XPTraining)
-				2. Uccidere 100 Zombie (20rep + MoneyToXP.200XPTraining)
-				3. Uccidere 300 Zombie (25rep + MoneyToXP.500XPTraining)
-				4. Uccidere 400 Zombie (35rep + MoneyToXP.1000XPTraining)
+				1. Uccidere 50 Zombie (10rep + MoneyToXP.Droga1)
+				2. Uccidere 100 Zombie (20rep + MoneyToXP.Droga2)
+				3. Uccidere 300 Zombie (25rep + MoneyToXP.Droga3)
+				4. Uccidere 400 Zombie (35rep + MoneyToXP.Droga4)
 				5. Uccidere 50 Zombie (60rep + 50$ + PynoTweaks.SafehouseTicket)
 				6. Recuperare Base.AVCSClaimOrb parlando con 8614,9881,0 e Base.HottieZ parlando con 8617,9876,0 (50rep + 50$ + Base.AVCSClaimOrb)
 ]]
@@ -5867,43 +5867,43 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown1_Text = "Piccolo Boost",
     IGUI_SFQuest_Questyno_RichardBrown1_Lore = "Devo uccidere 50 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
-    IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text = "Intanto puoi cominciare uccidendo 50 zombie. Una volta finito ti darò un Foglietto di Allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 100 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text = "Intanto puoi cominciare uccidendo 50 zombie. Una volta finito ti darò un Foglietto di Allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. [Questi specificatamente ti forniranno 75 Punti Esperienza]",
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Accepted = "Ottimo! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Declined = "Pazienza. Peggio per te.",
-    IGUI_SFQuest_Questyno_RichardBrown1_Complete = "Okay, ecco a te.",
+    IGUI_SFQuest_Questyno_RichardBrown1_Complete = "Okay, prova a leggerlo e allena l'abilità che preferisci! Ma non agitarti troppo!",
 
 	
 	IGUI_SFQuest_Questyno_RichardBrown2_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown2_Text = "Buon Boost",
     IGUI_SFQuest_Questyno_RichardBrown2_Lore = "Devo uccidere 100 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
-    IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text = "Ammazza altri 100 Zombie. Una volta finito ti darò un Quaderno di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 250 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text = "Ammazza altri 100 Zombie. Una volta finito ti darò un Quaderno di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. [Questi specificatamente ti forniranno 225 Punti Esperienza]",
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Accepted = "Ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Declined = "Peccato.",
-    IGUI_SFQuest_Questyno_RichardBrown2_Complete = "Okay, ecco a te.",
+    IGUI_SFQuest_Questyno_RichardBrown2_Complete = "Okay, prova a leggerlo e allena l'abilità che preferisci! Ma non agitarti troppo!",
 
 	
 	IGUI_SFQuest_Questyno_RichardBrown3_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown3_Text = "Ottimo Boost",
     IGUI_SFQuest_Questyno_RichardBrown3_Lore = "Devo uccidere 300 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
-    IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text = "Ammazza altri 300 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 800 Punti Esperienza.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text = "Ammazza altri 300 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. [Questi specificatamente ti forniranno 2.775 Punti Esperienza]",
     IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Accepted = "Ottimo. Ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Declined = "Cercherò qualcun'altro.",
-    IGUI_SFQuest_Questyno_RichardBrown3_Complete = "Okay, ecco a te.",
+    IGUI_SFQuest_Questyno_RichardBrown3_Complete = "Okay, prova a leggerlo e allena l'abilità che preferisci! Ma non agitarti troppo!",
 	
 	
 	IGUI_SFQuest_Questyno_RichardBrown4_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown4_Text = "Super Boost",
     IGUI_SFQuest_Questyno_RichardBrown4_Lore = "Devo uccidere 400 Zombie così Richard mi darà qualcosa per migliorare le mie prestazioni.",
-	IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text = "Ammazza altri 400 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. Questi specificatamente ti forniranno 2500 Punti Esperienza.",
+	IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text = "Ammazza altri 400 Zombie. Una volta finito ti darò un Giornale di allenamento utile a capire alcune cose molto velocemente. Ricorda che puoi sempre crearli anche tu con soldi e cucitrici e un buon livello di esperienza. [Questi specificatamente ti forniranno 23.775 Punti Esperienza]",
     IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Accepted = "Coraggio, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Declined = "Capisco.",
-    IGUI_SFQuest_Questyno_RichardBrown4_Complete = "Okay, ecco a te.",
+    IGUI_SFQuest_Questyno_RichardBrown4_Complete = "Okay, prova a leggerlo e allena l'abilità che preferisci! Ma non agitarti troppo!",
 	
 	
 	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
     IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città.",
-    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi in questo speciale negozio ogni volta che ti ritroverai in questo luogo, per le prime 6 ore di sopravvivenza. Ti va di averne uno? Uccidi altri 50 Zombie!",
+    IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi al Mercato della Tana ogni volta che ti ritroverai in questo luogo per 'gravi infortuni'. Ti va di averne uno? Uccidi altri 50 zombie!",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown5_Complete = "Okay, forse non ti servirà a molto ormai ma potrai sempre comprarne uno al Mercato della Tana [Funzionerà soltanto nelle prime 6 ore di sopravvivenza]",
@@ -5917,10 +5917,12 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai comprarne sempre un altro al Mercato della Resistenza alla Tana [ Con orb in inventario - Click destro sul veicolo - Claim Veichle ]",
 	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood 8614,9881,0",
-	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi oggetti per Richard",
-    IGUI_SFQuest_Questyno_RichardBrown6_B = "Base.AVCSClaimOrb",
-    IGUI_SFQuest_Questyno_RichardBrown6_C = "Base.HottieZ",
-    IGUI_SFQuest_Questyno_RichardBrown6_D_Text = "Torna da Richard",
+	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi l'oggetto per Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_B = "Cerca a Orchiwood 8617,9876,0",
+    IGUI_SFQuest_Questyno_RichardBrown6_B_Text = "Prendi le riviste per Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_C = "Base.AVCSClaimOrb",
+    IGUI_SFQuest_Questyno_RichardBrown6_D = "Base.HottieZ",
+    IGUI_SFQuest_Questyno_RichardBrown6_C_Text = "Torna da Richard",
 	
 
 --[[
