@@ -5781,7 +5781,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite_Name = "Brian White",
 
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White [Catena]",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
 
@@ -5854,12 +5854,12 @@ IGUI_EN = {
 				3. Uccidere 300 Zombie (25rep + MoneyToXP.Droga3)
 				4. Uccidere 400 Zombie (35rep + MoneyToXP.Droga4)
 				5. Uccidere 50 Zombie (60rep + 50$ + PynoTweaks.SafehouseTicket)
-				6. Recuperare Base.AVCSClaimOrb parlando con 8614,9881,0 e Base.HottieZ parlando con 8617,9876,0 (50rep + 50$ + Base.AVCSClaimOrb)
+				6. Recuperare Base.AVCSClaimOrb parlando con (8614,9881,0) e Base.HottieZ parlando con (8617,9876,0) (50rep + 50$ + Base.AVCSClaimOrb)
 ]]
     IGUI_SFQuest_Questyno_RichardBrown_Name = "Richard Brown",
 
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Title = "Richard Brown 7178,9739,0",
-    IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Incontra Richard Brown per sbloccare la sua catena di quest.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Incontra Richard Brown [Catena]",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome è Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
 
@@ -5916,9 +5916,9 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai comprarne sempre un altro al Mercato della Resistenza alla Tana [ Con orb in inventario - Click destro sul veicolo - Claim Veichle ]",
-	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood 8614,9881,0",
+	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood (8614,9881,0)",
 	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi l'oggetto per Richard",
-    IGUI_SFQuest_Questyno_RichardBrown6_B = "Cerca a Orchiwood 8617,9876,0",
+    IGUI_SFQuest_Questyno_RichardBrown6_B = "Cerca a Orchiwood (8617,9876,0)",
     IGUI_SFQuest_Questyno_RichardBrown6_B_Text = "Prendi le riviste per Richard",
     IGUI_SFQuest_Questyno_RichardBrown6_C = "Base.AVCSClaimOrb",
     IGUI_SFQuest_Questyno_RichardBrown6_D = "Base.HottieZ",
@@ -5926,26 +5926,14 @@ IGUI_EN = {
 	
 
 --[[
-    DA EDITARE:
----- ricerca CTRL+F ---- | ----- COMMENTI -----
-> (10182,6764,0) 	-> coordinate Spawn Point posizione Robert
-> TITOLO1 ... TITOLO5 	-> titoli delle quest che mancano
-> ITEM2 				-> nome (e anche definizione) dell'item mancante
-> UN_ITEM2 				-> come sopra ma con un articolo indeterminativo
-> L_ITEM2 				-> come sopra ma con l'articolo determinativo
-> (MANCANO COORDINATE)2 -> coordinate Coryerdon missione 4
-> (MANCANO COORDINATE)4 -> coordinate Muldraugh missione 5
-> (MANCANO COORDINATE)5 -> coordinate Rosewood missione 5 (se ci vanno effettivamente le coordinate)
-> LUOGO5 				-> della missione 5 oltre che coordinate manca anche il luogo (sicuro che l'oggetto sia recuperabile in quel posto?
-
             *** Robert Wilson ***
             Elenco:
                 intro. Incontra Robert Wilson per sbloccare la catena.
 				1. Uccidere 25 Zombie (10rep + 10$)
-				2. Recuperare ITEM2 parlando con (MANCANO COORDINATE)2, Uccidere 50 Zombie (20rep + 10$)
+				2. Recuperare SOMW.LShapedLugWrench parlando con (6683,10669,0), Uccidere 50 Zombie (20rep + 10$)
 				3. Recuperare Base.ElectronicsScrap;50 (25rep + 10$)
-				4. Recuperare Base.ElectronicsMag4 parlando con (MANCANO COORDINATE)4 (30rep + Base.ElectronicsMag4)
-				5. Recuperare Base.PetrolCan parlando con (MANCANO COORDINATE)5 (40rep + 50$ + Base.EmptyPetrolCan,Base.Generator)
+				4. Recuperare Base.ElectronicsMag4 parlando con (9416,9985,0) (30rep + Base.ElectronicsMag4)
+				5. Recuperare Base.PetrolCan parlando con (11593,8301,0) (40rep + 50$ + Base.EmptyPetrolCan,Base.Generator)
 
 ]]
     IGUI_SFQuest_Questyno_RobertWilson_Name = "Robert Wilson",
@@ -5957,7 +5945,7 @@ IGUI_EN = {
 
 	
 	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da Spawn Point (10182,6764,0)",
-    IGUI_SFQuest_Questyno_RobertWilson1_Text = "TITOLO1",
+    IGUI_SFQuest_Questyno_RobertWilson1_Text = "Fiducia da conquistare",
     IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 25 Zombie per suo conto. ",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text = "È il momento di mettere insieme una squadra e cominciare a ripulire il territorio. Ecco un piano: prepariamoci delle lance fatte con rami robusti e pietre affilate. Sono armi efficaci e possono tenere gli zombi a distanza.",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted = "Bene! Fai attenzione!",
@@ -5966,21 +5954,21 @@ IGUI_EN = {
 
 	
 	IGUI_SFQuest_Questyno_RobertWilson2_Title = "Robert da Spawn Point (10182,6764,0)",
-    IGUI_SFQuest_Questyno_RobertWilson2_Text = "TITOLO2",
-    IGUI_SFQuest_Questyno_RobertWilson2_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto e recuperare UN_ITEM2 nell'area di Greenleaf (MANCANO COORDINATE)2",
+    IGUI_SFQuest_Questyno_RobertWilson2_Text = "Più fiducia da conquistare",
+    IGUI_SFQuest_Questyno_RobertWilson2_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto e recuperare una Chiave Esagonale nel magazzino di Greenleaf (6683,10669,0)",
     IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text = "Quelli di prima andavano bene come riscaldamento. Adesso voglio che vai nell'area di Greenleaf e recuperi un oggetto per me. Sarà utile per assemblare il tuo Generatore.",
     IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson2_Complete = "Ottimo, buon lavoro.",
-	IGUI_SFQuest_Questyno_RobertWilson2_A = "Cerca a Greenleaf (MANCANO COORDINATE)2",
-	IGUI_SFQuest_Questyno_RobertWilson2_A_Text = "Prendi L_ITEM2 per Robert",
-	IGUI_SFQuest_Questyno_RobertWilson2_B = "ITEM2",
+	IGUI_SFQuest_Questyno_RobertWilson2_A = "Cerca a Greenleaf (6683,10669,0)",
+	IGUI_SFQuest_Questyno_RobertWilson2_A_Text = "Prendi Chiave Esagonale per Robert",
+	IGUI_SFQuest_Questyno_RobertWilson2_B = "Chiave Esagonale",
 	IGUI_SFQuest_Questyno_RobertWilson2_C = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_RobertWilson2_B_Text = "Torna da Robert",
 
 	
 	IGUI_SFQuest_Questyno_RobertWilson3_Title = "Robert da Spawn Point (10182,6764,0)",
-    IGUI_SFQuest_Questyno_RobertWilson3_Text = "TITOLO3",
+    IGUI_SFQuest_Questyno_RobertWilson3_Text = "Parti elettroniche per Robert",
     IGUI_SFQuest_Questyno_RobertWilson3_Lore = "Devo portare 50 Parti elettroniche a Robert. Saranno utili per ultimare il mio generatore.",
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text = "Bene, sei un tipo tosto, ti meriti il mio aiuto e quello dei miei compagni. Adesso recuperami 50 parti elettroniche. Le trovi facilmente smontando anche gli orologi digitali. Pensi di farcela?",
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Accepted = "Bene! Fai attenzione!",
@@ -5989,24 +5977,24 @@ IGUI_EN = {
 	
 	
 	IGUI_SFQuest_Questyno_RobertWilson4_Title = "Robert da Spawn Point (10182,6764,0)",
-    IGUI_SFQuest_Questyno_RobertWilson4_Text = "TITOLO4",
-    IGUI_SFQuest_Questyno_RobertWilson4_Lore = "Devo andare a Lake Ivy (MANCANO COORDINATE)4 a prendere la rivista Come usare i generatori, utile per capire come funzionano.",
-    IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text = "Per poter collegare e fare manutenzione al generatore avrai bisogno di una rivista specifica. Vai a Lake Ivy, ne troverai sicuramente una in camera mia.",
+    IGUI_SFQuest_Questyno_RobertWilson4_Text = "La rivista per i Generatori",
+    IGUI_SFQuest_Questyno_RobertWilson4_Lore = "Devo andare a Lake Ivy (9416,9985,0) a prendere la rivista Come usare i generatori, utile per capire come funzionano.",
+    IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text = "Per poter collegare e fare manutenzione al generatore avrai bisogno di una rivista specifica. Vai a Lake Ivy, ne troverai sicuramente una  nella mia officina.",
     IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson4_Complete = "Ottimo, buon lavoro. Questa leggila per bene",
-	IGUI_SFQuest_Questyno_RobertWilson4_A = "Cerca a Lake Ivy (MANCANO COORDINATE)4",
+	IGUI_SFQuest_Questyno_RobertWilson4_A = "Cerca a Lake Ivy (9416,9985,0)",
 	IGUI_SFQuest_Questyno_RobertWilson4_A_Text = "Porta la rivista a Robert",
 	
 	
 	IGUI_SFQuest_Questyno_RobertWilson5_Title = "Robert da Spawn Point (10182,6764,0)",
-    IGUI_SFQuest_Questyno_RobertWilson5_Text = "TITOLO5",
-    IGUI_SFQuest_Questyno_RobertWilson5_Lore = "Robert mi ha chiesto di recuperare una Tanica di Benzina piena a LUOGO6 (MANCANO COORDINATE)5 e poi mi farà vedere come funziona un generatore!",
+    IGUI_SFQuest_Questyno_RobertWilson5_Text = "E luce sia!",
+    IGUI_SFQuest_Questyno_RobertWilson5_Lore = "Robert mi ha cheisto di recuperare una Tanica di Benzina piena all benzinaio a Est di Cherokee Lake (11593,8301,0) e poi mi farà vedere come funziona un generatore!",
     IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text = "Bene, il tuo generatore è assemblato, recupera una Tanica di Benzina piena e torna da me, ti faccio vedere come funziona!",
     IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson5_Complete = "Bene, adesso sai tutto, mi raccomando, non far scendere la sua condizione sotto il 50% o potrebbe esplodere!",
-	IGUI_SFQuest_Questyno_RobertWilson5_A = "Cerca a LUOGO6 (MANCANO COORDINATE)5",
+	IGUI_SFQuest_Questyno_RobertWilson5_A = "Cerca a Cherokee Lake (11593,8301,0)",
 	IGUI_SFQuest_Questyno_RobertWilson5_A_Text = "Porta la tanica a Robert",
     
 --[[
