@@ -2157,3 +2157,37 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_A
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AlexMercer3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_AlexMercer3", optional = true, text = "IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_AlexMercer3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AlexMercer3", text = "IGUI_SFQuest_Questyno_AlexMercer3_Complete"})
+
+
+--[[
+            ***Olivia Chambers***
+            Elenco:
+                intro. Parla con Olivia Chambers per sbloccare le sue quest mensili.
+                1. Recuperare LabItems.ChSodiumHydroxideBag;2 e uccidere 200 (1200rep + LabItems.JournalOfResearch,LabBooks.BkLaboratoryEquipment2)
+                2. Recuperare LabItems.ChSulfuricAcidCan;2 @ 7182,7027,0 e Uccidi 120 Zombie (1200rep + LabBooks.BkChemistryCourse)
+                3. Recuperare LabItems.ChSodiumHydroxideBag;2 @ 7003,7246,0 e Uccidi 200 Zombie (800rep + LabBooks.BkLaboratoryEquipment1)
+                4. Recuperare LabItems.ChHydrochloricAcidCan;2 e Uccidi 100 Zombie (700rep + LabBooks.BkLaboratoryEquipment3)
+                5. Recuperare LabItems.ChSulfuricAcidCan;2 @  (13851,10871,0) e Uccidi 100 Zombie (1200rep + LabBooks.BkVirologyCourses1)
+                6. Recuperare LabItems.ChHydrochloricAcidCan;2 @ (3733,11443,0) e Uccidi 100 Zombie (800rep + LabBooks.BkVirologyCourses2)
+]]
+
+-- intro. parla con Olivia Chambers per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers_Intro", text = "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers1", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers1_A", text = "IGUI_SFQuest_Questyno_OliviaChambers1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers2", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers2_A", text = "IGUI_SFQuest_Questyno_OliviaChambers2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers3", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers3_A", text = "IGUI_SFQuest_Questyno_OliviaChambers3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers4", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers4_A", text = "IGUI_SFQuest_Questyno_OliviaChambers4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers5", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers5_A", text = "IGUI_SFQuest_Questyno_OliviaChambers5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers6", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers6_A", text = "IGUI_SFQuest_Questyno_OliviaChambers6_Complete"})

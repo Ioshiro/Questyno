@@ -6018,13 +6018,13 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_AlexMercer_Name = "Alex Mercer",
 
-    IGUI_SFQuest_Questyno_AlexMercer_Intro_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer_Intro_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Text = "Incontra Alex Mercer. [Annuale]",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Lore = "Alex fa parte di un piccolo gruppo ben organizzato a Redfordville. Non ha mezzi termini, vuole che ammazzi più bastardi possibile. La sua reputazione lo precede, sicuramente mi darà una mano a farmi conoscere.",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Complete_Text = "Hei straniero, cosa ti spinge fino a qua? Non mi dire che anche tu arrivi dalla Tana! Siete ancora tutti vivi? Da queste parti abbiamo altre regole, se vorrai il nostro aiuto dovrai dimostrarci di avere la stoffa per ripulire questo mondo dall'infezione una volta per tutte. I cavoli e le patate lasciamole ai contadini, noi questo macello lo risolviamo con il metallo!",
 
     
-    IGUI_SFQuest_Questyno_AlexMercer1_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer1_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer1_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer1_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 1500 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text = "Uccidi 1500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
@@ -6032,7 +6032,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text_Declined = "Ti spavetano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer1_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
-    IGUI_SFQuest_Questyno_AlexMercer2_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer2_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer2_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer2_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 2000 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text = "Uccidi 2000 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
@@ -6040,14 +6040,99 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text_Declined = "Ti spavetano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer2_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
-    IGUI_SFQuest_Questyno_AlexMercer3_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer3_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer3_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer3_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 2500 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text = "Uccidi 2500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Accepted = "Coraggio, non farti prendere.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Declined = "Ti spavetano ancora vero?",
-    IGUI_SFQuest_Questyno_AlexMercer3_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
+    IGUI_SFQuest_Questyno_AlexMercer3_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti. Tieni questa, te la sei meritata!",
 
+
+--[[
+            ***Olivia Chambers***
+            Elenco:
+                intro. Parla con Olivia Chambers per sbloccare le sue quest mensili.
+                1. Recuperare LabItems.ChSodiumHydroxideBag;2 @ 3960,11742,0 e uccidere 200 (1200rep + LabItems.JournalOfResearch,LabBooks.BkLaboratoryEquipment2)
+                2. Recuperare LabItems.ChSulfuricAcidCan;2 @ 7182,7027,0 e Uccidi 120 Zombie (1200rep + LabBooks.BkChemistryCourse)
+                3. Recuperare LabItems.ChSodiumHydroxideBag;2 @ 7003,7246,0 e Uccidi 200 Zombie (800rep + LabBooks.BkLaboratoryEquipment1)
+                4. Recuperare LabItems.ChHydrochloricAcidCan;2 @ (4168,12035,0) e Uccidi 100 Zombie (700rep + LabBooks.BkLaboratoryEquipment3)
+                5. Recuperare LabItems.ChSulfuricAcidCan;2 @  (13851,10871,0) e Uccidi 100 Zombie (1200rep + LabBooks.BkVirologyCourses1)
+                6. Recuperare LabItems.ChHydrochloricAcidCan;2 @ (3733,11443,0) e Uccidi 100 Zombie (800rep + LabBooks.BkVirologyCourses2)
+]]
+
+    IGUI_SFQuest_Questyno_OliviaChambers_Name = "Olivia Chambers",
+
+    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Text = "Incontra Olivia Chambers. [Mensile]",
+    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Lore = "Olivia è una ricercatrice affiliata con le Bande di Nigel, è venuta via dalla Tana due anni fa nonostante si trovasse molto bene. Le sue conoscienze in ambito di Virus l'hanno spinta ad unirsi a questo gruppo. Spero potrà darmi una mano, il loro vaccino è sperimentale e hanno bisogno di me per stabilizzarlo.",
+    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Complete_Text = "Ciao Caro, vieni anche tu dalla Tana? Anche io sono rimasta li per qualche mese ma mi sentivo come se non stessi facendo abbastanza. Spero di poter portare il mio contributo qui fra gli uomini di Nigel. A volte sono un poco burberi ma niente a cui non sia già abituata. Spero mi darai una mano a recuperare alcuni acidi importanti per la creazione di questo Vaccino sperimentale. In cambio posso darti i progressi fatti con le mie ricerche, sperando che riuscirete a tovare qualcuno di competente anche nel vostro gruppo!",
+
+    IGUI_SFQuest_Questyno_OliviaChambers1_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Text = "Idrossido di sodio per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Lore = "Olivia vorrebbe che io vada a alla farmacia in centro a Raven Creek (3960,11742,0) a recuperare dell'idrossido di sodio per lei. Devo stare attento a non strappare la tuta Hazmat.",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text = "Ho bisogno di un pò di acido solforico per i miei test. Dovresti riuscire a trovarne un poco a Raven Creek. Hai una tuta Hazmat per entrare in quella città?",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers1_Complete = "Grazie, prendi questi. Uno ti servirà per ricavare del sangue infetto dalle tue autopsie, l'altro per costruire degli oggetti utili all''arredamento della tua infermeria.",
+    IGUI_SFQuest_Questyno_OliviaChambers1_A = "Cerca a Raven Creek (3960,11742,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers1_B = "Uccidi 200 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers1_A_Text = "Porta il Sodio Idrossido a Olivia",
+
+    IGUI_SFQuest_Questyno_OliviaChambers2_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Text = "Acido solforico per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Lore = "Olivia vorrebbe che io vada nella zona centrale di Trelai (7182,7027,0) a recupeare dell'acido solforico. Devo stare attento a i banditi.",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text = "Ho bisogno di un pò di acido solforico per i miei test. Dovresti riuscire a trovarne un poco a Trelai. Potresti incontrare dei banditi in quella zona, te la senti?",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers2_Complete = "Ben ritrovato. Ecco a te una copia! Ti servirà per capire come mischiare al meglio gli acidi!",
+    IGUI_SFQuest_Questyno_OliviaChambers2_A = "Cerca a Trelai (7182,7027,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers2_B = "Uccidi 120 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers2_A_Text = "Porta l'Acido solforico a Olivia",
+
+    IGUI_SFQuest_Questyno_OliviaChambers3_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Text = "Idrossido di sodio per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Lore = "Olivia vorrebbe che io vada a Trelai 7003,7246,0 a recuperare dell'idrossido di sodio. Devo stare attento a i banditi in quelle zone.",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text = "Ho bisogno di un pò di Idrossido di sodio per i miei test. Dovresti riuscire a trovarne un poco a Trelai. Potresti incontrare dei banditi in quella zona, te la senti?",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers3_Complete = "Grazie mille, prendi questo. Ti aiuterà ad assemblare molti strumenti utili per riuscire a sintetizzare un medicinale!",
+    IGUI_SFQuest_Questyno_OliviaChambers3_A = "Cerca a Trelai (7003,7246,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers3_B = "Uccidi 200 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers3_A_Text = "Porta il Sodio Idrossido a Olivia",
+
+    IGUI_SFQuest_Questyno_OliviaChambers4_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Text = "Acido cloridrico per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Lore = "Olivia vorrebbe che io vada a sud di Raven Creek (4168,12035,0) a prenderle dell'acido solforico in una vecchia clinica. Sarà meglio indossare delle maschere antigas almeno.",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text = "Ho bisogno di un pò di Idrossido di acido solforico per i miei test. Dovresti riuscire a trovarne un poco in un vecchio ambulatirio nella parte Sud di Raven Creek. Potresti incontrare dei banditi in quella zona, te la senti?",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers4_Complete = "Bene, felice che tu sia ancora vivo! Prendi questa rivista, ti darà una mano a capire come sciogliere alcuni oggetti o crearne altri grazie a una Fornace!",
+    IGUI_SFQuest_Questyno_OliviaChambers4_A = "Cerca a sud di Raven Creek (4168,12035,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers4_B = "Uccidi 100 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers4_A_Text = "Porta l'Acido cloridrico a Olivia",
+
+    IGUI_SFQuest_Questyno_OliviaChambers5_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Text = "Acido solforico per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Lore = "Olivia vorrebbe che io vada a Bedford Fall (13851,10871,0) a recuperare dell'acido solforico. Meglio attrezzarmi con una tuta Hazmat e del nastro adesivo.",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text = "Ho bisogno di un pò di Idrossido di acido solforico per i miei test. Dovresti riuscire a trovarne un poco in una farmacia al centro di Bedford Fall. Potresti anche incontrare dei banditi in quella zona, te la senti?",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Accepted = "Bene, fai attenzione, indossa sempre una Tuta Hazmat!",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers5_Complete = "Eccoti! Grazie mille, prendi questa rivista. Ti aiuterà a capire come conservare del sangue infetto a scopo di analisi e a sterilizzare vari strumenti di lavoro! ",
+    IGUI_SFQuest_Questyno_OliviaChambers5_A = "Cerca a Bedford Fall (13851,10871,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers5_B = "Uccidi 100 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers5_A_Text = "Porta l'Acido solforico a Olivia",
+
+    IGUI_SFQuest_Questyno_OliviaChambers6_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Text = "Acido cloridrico per Olivia",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Lore = "Olivia vorrebbe che io vada al centro di Raven Creek (3733,11443,0) per recupearere dell'acido idrocloridrico in una piccola farmacia.",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text = "Se vuoi darci una mano, vai a recupearere del metallo a Southwood",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
+    IGUI_SFQuest_Questyno_OliviaChambers6_Complete = "Okey, come da accordo ecco a te, fanne buon uso! Per capire cosa c'è scritto bisogna essere dei veri esperti, c'è tutto quello che serve sapere per la creazione di un vaccino. ",
+    IGUI_SFQuest_Questyno_OliviaChambers6_A = "Cerca a Raven Creek (3733,11443,0)",
+    IGUI_SFQuest_Questyno_OliviaChambers6_B = "Uccidi 100 Zombie",
+    IGUI_SFQuest_Questyno_OliviaChambers6_A_Text = "Porta l'Acido cloridrico a Olivia",
 
 
 }
