@@ -562,6 +562,11 @@ Questyno = {
 		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane2_Begin;Questyno_MarcusKane2",
 		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane3_Begin;Questyno_MarcusKane3",
 		"Questyno_MarcusKane;SFQuest_Questyno_MarcusKane4_Begin;Questyno_MarcusKane4",
+	},
+	AlexMercer = {
+		"Questyno_AlexMercer;SFQuest_Questyno_AlexMercer1_Begin;Questyno_AlexMercer1",
+		"Questyno_AlexMercer;SFQuest_Questyno_AlexMercer2_Begin;Questyno_AlexMercer2",
+		"Questyno_AlexMercer;SFQuest_Questyno_AlexMercer3_Begin;Questyno_AlexMercer3",
 	}
 }
 
@@ -728,6 +733,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_AlexMercer",
+	condition = "notmaxedwithcode;Questyno_AlexMercer;1;hasfactiontier;AlexMercer;2",
+	commands = "randomcodedworldfrompool;Questyno_AlexMercer;Questyno;AlexMercer",
+	days = 0,
+	frequency = 1
+});
 
 
 
@@ -755,6 +767,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_PamelaPerez_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_SamFisher_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_TaylorBlaze_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MarcusKane_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AlexMercer_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -787,6 +800,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_PamelaPerez" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamFisher" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_TaylorBlaze" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarcusKane" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AlexMercer" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

@@ -237,10 +237,10 @@ table.insert(SFQuest_Database.QuestPool, {
             *** Marcus Kane ***
             Elenco:
                 intro. Parla con Marcus Kane per sbloccare le quest mensili.
-				1. Recuperare Base.CreditCard;5, Uccidere 50 Zombie (130rep + 25$)
-				2. Recuperare Base.CreditCard;10, Uccidere 100 Zombie (200rep + 50$)
-				3. Recuperare Base.CreditCard;12, Uccidere 120 Zombie (220rep + 60$)
-				4. Recuperare Base.CreditCard;20, Uccidere 200 Zombie (420rep + 80$)
+				1. Recuperare Base.CardID;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Base.CardID;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Base.CardID;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Base.CardID;20, Uccidere 200 Zombie (420rep + 80$)
 ]]
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -267,8 +267,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane1_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_A",
         hidden = false,
-        needsitem = "CreditCard;5",
-        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CreditCard;5",
+        needsitem = "CardID;5",
+        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;5",
     },{
         guid = "Questyno_MarcusKane1_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_B",
@@ -305,8 +305,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane2_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_A",
         hidden = false,
-        needsitem = "CreditCard;10",
-        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CreditCard;10",
+        needsitem = "CardID;10",
+        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;10",
     },{
         guid = "Questyno_MarcusKane2_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_B",
@@ -343,8 +343,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane3_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_A",
         hidden = false,
-        needsitem = "CreditCard;12",
-        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CreditCard;12",
+        needsitem = "CardID;12",
+        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;12",
     },{
         guid = "Questyno_MarcusKane3_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_B",
@@ -381,8 +381,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane4_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_A",
         hidden = false,
-        needsitem = "CreditCard;20",
-        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CreditCard;20",
+        needsitem = "CardID;20",
+        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;20",
     },{
         guid = "Questyno_MarcusKane4_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_B",

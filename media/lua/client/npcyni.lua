@@ -532,17 +532,17 @@ SFQuest_Database.MannequinPool["10101x11171x0"] = {
     outfit = "PonchoGiallo"
 }
 
--- Richard Brown 10100x11171x0
+-- Richard Brown 7178x9739x0
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_RichardBrown",
-    square = "10100x11171x0",
+    square = "7178x9739x0",
     name = "IGUI_SFQuest_Questyno_RichardBrown_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_RichardBrown.png",
 })
 
-SFQuest_Database.MannequinPool["10100x11171x0"] = {
+SFQuest_Database.MannequinPool["7178x9739x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
@@ -564,4 +564,21 @@ SFQuest_Database.MannequinPool["10181x6763x0"] = {
     direction = "E",
     beard = "",
     outfit = "PonchoGiallo",
+}
+
+-- Alex Mercer Redfordville (3642,7302,0)
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_AlexMercer",
+    square = "3642x7302x0",
+    name = "IGUI_SFQuest_Questyno_AlexMercer_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_AlexMercer.png",
+})
+
+SFQuest_Database.MannequinPool["3642x7302x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
 }
