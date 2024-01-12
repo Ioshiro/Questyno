@@ -753,7 +753,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson2_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
-    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6144x7069x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6683x10669x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -830,7 +830,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_RobertWilson5_A",
         text = "IGUI_SFQuest_Questyno_RobertWilson5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoRobertWilson5;additem;Base.EmptyPetrolCan;1;additem;Base.Generator;1",
+        oncompleted = "removeclickevent;EventoRobertWilson5;additem;Base.EmptyPetrolCan;1",
     }},
     text = "IGUI_SFQuest_Questyno_RobertWilson5_Text",
     texture = "media/textures/Item_RobertWilson.png",
@@ -846,7 +846,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "Base.Money;50;Base.EmptyPetrolCan;1;Base.Generator;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RobertWilson5_Lore" },
-    needsitem = "Base.EmptyPetrolCan;1;Base.Generator;1",
+    needsitem = "Base.EmptyPetrolCan;1",
     onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson5_Complete",
     text = "IGUI_SFQuest_Questyno_RobertWilson5_A_Text",
     texture = "media/textures/Item_RobertWilson.png",
