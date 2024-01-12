@@ -5707,10 +5707,10 @@ IGUI_EN = {
             *** Marcus Kane ***
             Elenco:
                 intro. Incontra Marcus Kane per sbloccare le quest mensili.
-				1. Recuperare Base.CreditCard;5, Uccidere 50 Zombie (130rep + 25$)
-				2. Recuperare Base.CreditCard;10, Uccidere 100 Zombie (200rep + 50$)
-				3. Recuperare Base.CreditCard;12, Uccidere 120 Zombie (220rep + 60$)
-				4. Recuperare Base.CreditCard;20, Uccidere 200 Zombie (420rep + 80$)
+				1. Recuperare Carta d'Identità;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Carta d'Identità;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Carta d'Identità;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Carta d'Identità;20, Uccidere 200 Zombie (420rep + 80$)
 ]]
     IGUI_SFQuest_Questyno_MarcusKane_Name = "Marcus Kane",
 
@@ -5723,11 +5723,11 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane1_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane1_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese.",
-    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane1_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane1_A = "5 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane1_A = "5 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane1_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane1_A_Text = "Parla con Marcus",
 
@@ -5735,11 +5735,11 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_MarcusKane2_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane2_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane2_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane2_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane2_A = "10 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane2_A = "10 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane2_B = "Uccidi 100 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane2_A_Text = "Parla con Marcus",
 
@@ -5747,11 +5747,11 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_MarcusKane3_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane3_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane3_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane3_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane3_A = "12 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane3_A = "12 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane3_B = "Uccidi 120 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane3_A_Text = "Parla con Marcus",
 	
@@ -5759,11 +5759,11 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_MarcusKane4_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane4_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane4_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro carta di credito! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane4_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane4_A = "20 Base.CreditCard",
+	IGUI_SFQuest_Questyno_MarcusKane4_A = "20 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane4_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane4_A_Text = "Parla con Marcus",
 
