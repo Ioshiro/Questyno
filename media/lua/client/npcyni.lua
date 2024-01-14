@@ -515,17 +515,17 @@ SFQuest_Database.MannequinPool["8574x11026x0"] = {
     outfit = "PonchoGiallo"
 }
 
--- Brian White 10101x11171x0
+-- Brian White 10812x9077x0
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_BrianWhite",
-    square = "10101x11171x0",
+    square = "10812x9077x0",
     name = "IGUI_SFQuest_Questyno_BrianWhite_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_BrianWhite.png",
 })
 
-SFQuest_Database.MannequinPool["10101x11171x0"] = {
+SFQuest_Database.MannequinPool["10812x9077x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",

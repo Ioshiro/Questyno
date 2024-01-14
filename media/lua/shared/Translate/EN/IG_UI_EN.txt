@@ -5902,7 +5902,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
-    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città. Per ottenerlo mi chiede di uccidere 50 zombie.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città. Devo uccidere 50 zombie per avere la sua approvazione.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi al Mercato della Tana ogni volta che ti ritroverai in questo luogo per 'gravi infortuni'. Ti va di averne uno? Uccidi altri 50 zombie!",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
@@ -5917,12 +5917,11 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai comprarne sempre un altro al Mercato della Resistenza alla Tana [ Con orb in inventario - Click destro sul veicolo - Claim Veichle ]",
 	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood (8614,9881,0)",
-	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi l'oggetto per Richard",
+	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi gli oggetti per Richard",
     IGUI_SFQuest_Questyno_RichardBrown6_B = "Cerca a Orchiwood (8617,9876,0)",
-    IGUI_SFQuest_Questyno_RichardBrown6_B_Text = "Prendi le riviste per Richard",
-    IGUI_SFQuest_Questyno_RichardBrown6_C = "Base.AVCSClaimOrb",
-    IGUI_SFQuest_Questyno_RichardBrown6_D = "Base.HottieZ",
-    IGUI_SFQuest_Questyno_RichardBrown6_C_Text = "Torna da Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_B_Text = "Torna da Richard",
+    IGUI_SFQuest_Questyno_RichardBrown6_C = "Claim Orb",
+    IGUI_SFQuest_Questyno_RichardBrown6_D = "HottieZ",
 	
 
 --[[
