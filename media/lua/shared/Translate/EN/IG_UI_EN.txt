@@ -6255,9 +6255,54 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Text = "Riporta la fiala a Grace",
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Lore = "Ho trovato una fiala con uno strano composto trasparente. Credo sia meglio darlo a Grace.",
 	
+--[[
+            *** Andrew Turner ***
+            Elenco:
+                intro. Incontra Andrew Turner.
+				1. Recuperare Base.Propane;2 parlando con (16888,7783,0) (2500rep + 100$)
+				2. Recuperare Base.Propane;2 parlando con (12768,9497,0) (2500rep + 100$)
+				3. Recuperare Base.Propane;2 parlando con (10490,8268,0) (3000rep + Tw.WorkshopMag1)
+]]
+
+    IGUI_SFQuest_Questyno_AndrewTurner_Name = "Andrew Turner",
+
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Text = "Incontra Andrew Turner. [Catena]",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Lore = "Andrew mi aspetta a Louisville, ha bisogno di me per recuperare quanto più propano possibile.",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text = "Ciao straniero! Io sono Andrew, piacere! Sono un ex militare che ha perso tutta la sua squadra quando è scoppiata l'epidemia e adesso sto cercando di scoprire cosa è successo a i miei compagni e perchè hanno perso tutti la ragione. Insieme a Grace e a James da Raven Creek, cerchiamo di creare un siero per il virus ma abbiamo bisogno di molti materiali preziosi per il nostro laboratorio chimico, uno di questo è il Propano. Conosco molti posti dove trovarne, spero potrai darmi una mano. Se mi aiuterai ti darò una Rivista speciale che ti insegnerà come costruire un Tavolo da lavoro.",
+
+    
+    IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Text = "Propano per Andrew",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Lake Cumberland (16888,7783,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text = "Come primo posto puoi provare nel garage a Lake Cumberland. Posso contare su di te?",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text_Declined = "Pensavo fossi all'altezza.",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Complete = "Wow, fantastico! Questi sono per te!",
+	IGUI_SFQuest_Questyno_AndrewTurner1_A = "Cerca a Lake Cumberland (16888,7783,0)",
+	IGUI_SFQuest_Questyno_AndrewTurner1_A_Text = "Porta il propano a Andrew",
+
+
+    IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Text = "Propano per Andrew",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Lore = "Andrew vorrebbe che recuperassi del propano alla stazione dei treni a Ztardew Valley (12768,9497,0). Non dovrebbe essere difficile.",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text = "Questa volta dovria fare un poco più di strada ma non dovrebbe essere difficile. Dovresti trovare ",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Declined = "Pensavo fossi all'altezza.",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Complete = "Bellissima! Ti ringrazio! Un ultimo favore e sarai ricompensato!",
+	IGUI_SFQuest_Questyno_AndrewTurner2_A = "Cerca a Ztardew Valley (12768,9497,0)",
+	IGUI_SFQuest_Questyno_AndrewTurner2_A_Text = "Porta il propano a Andrew",
 	
 	
-	
+    IGUI_SFQuest_Questyno_AndrewTurner3_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Text = "Propano per Andrew",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Springwood (10490,8268,0). E' mezza giornata di viaggio.",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text = "Recupera un ultima bombola e siamo apposto! Dovrai tornare più o meno da dove sei venuto! Conosci Springwood?",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Accepted = "Sono qui se cambi idea.",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Declined = "Pensavo fossi all'altezza.",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Complete = "Ottimo! Questa è la rivista, falla leggere a uno che si intende di metallo, tornerà utile a tutto il gruppo!",
+	IGUI_SFQuest_Questyno_AndrewTurner3_A = "Cerca a Springwood (10490,8268,0)",
+	IGUI_SFQuest_Questyno_AndrewTurner3_A_Text = "Porta il propano a Andrew",	
 	
 	
 }
