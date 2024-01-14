@@ -5911,7 +5911,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown6_Text = "Claim Veicolo",
-    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (8617,9876,0)",
+    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (8614,9881,0)",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood, e già che vai li magari puoi recuperare le riviste sotto il mio letto?",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
@@ -6008,13 +6008,13 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_AlexMercer_Name = "Alex Mercer",
 
-    IGUI_SFQuest_Questyno_AlexMercer_Intro_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer_Intro_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Text = "Incontra Alex Mercer. [Annuale]",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Lore = "Alex fa parte di un piccolo gruppo ben organizzato a Redfordville. Non ha mezzi termini, vuole che ammazzi più bastardi possibile. La sua reputazione lo precede, sicuramente mi darà una mano a farmi conoscere.",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Complete_Text = "Hei straniero, cosa ti spinge fino a qua? Non mi dire che anche tu arrivi dalla Tana! Siete ancora tutti vivi? Da queste parti abbiamo altre regole, se vorrai il nostro aiuto dovrai dimostrarci di avere la stoffa per ripulire questo mondo dall'infezione una volta per tutte. I cavoli e le patate lasciamole ai contadini, noi questo macello lo risolviamo con il metallo!",
 
     
-    IGUI_SFQuest_Questyno_AlexMercer1_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer1_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer1_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer1_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 1500 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text = "Uccidi 1500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
@@ -6022,7 +6022,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text_Declined = "Ti spaventano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer1_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
-    IGUI_SFQuest_Questyno_AlexMercer2_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer2_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer2_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer2_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 2000 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text = "Uccidi 2000 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
@@ -6030,81 +6030,14 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text_Declined = "Ti spaventano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer2_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
-    IGUI_SFQuest_Questyno_AlexMercer3_Title = "Alex Mercer da Redfordville (8667,7360,0)",
+    IGUI_SFQuest_Questyno_AlexMercer3_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer3_Text = "Debellare l'infezione",
     IGUI_SFQuest_Questyno_AlexMercer3_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 2500 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text = "Uccidi 2500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Accepted = "Coraggio, non farti prendere.",
-    IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Declined = "Ti spaventano ancora vero?",
+    IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Declined = "Ti spavetano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer3_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
---[[
-DA EDITARE:
-- coordinate missione 1: (COORDINATE_MAYA)1
-- coordinate missione 2: (COORDINATE_MAYA)2
-- coordinate missione 3: (COORDINATE_MAYA)3
-- coordinate missione 4: (COORDINATE_MAYA)4
-- coordinate missione 5 ... 13: (COORDINATE_MAYA)#
-
-            *** Maya Blackwell ***
-            Elenco:
-                intro. Incontra Maya Blackwell.
-				1. Recuperare Base.ScrapMetal;50 parlando con (COORDINATE_MAYA)1, Uccidere 100 Zombie (125rep + TW.WorkshopMag3)
-				2. Recuperare Base.ScrapMetal;70 parlando con (COORDINATE_MAYA)2, Uccidere 110 Zombie (125rep + TW.WorkshopMag4)
-				3. Recuperare Base.ScrapMetal;70 parlando con (COORDINATE_MAYA)3, Uccidere 200 Zombie (150rep + Tw.WorkshopMag2)
-                4. Recuperare Base.ScrapMetal;70 parlando con (COORDINATE_MAYA)4, Uccidere 200 Zombie (150rep + SWeapons.WeaponMag1)
-                5. Recuperare Base.ScrapMetal;40 parlando con (COORDINATE_MAYA)5, Uccidere 200 Zombie (150rep + SWeapons.WeaponMag2)
-                6. Recuperare Base.ScrapMetal;50 parlando con (COORDINATE_MAYA)6, Uciidere 200 Zombie (150rep + SWeapons.WeaponMag3)
-                7. Recuperare Base.ScrapMetal;65 parlando con (COORDINATE_MAYA)7, Uccidere 200 Zombie (160rep + SArmor.ArmorMag1)
-                8. Recuperare Base.ScrapMetal;65 parlando con (COORDINATE_MAYA)8, Uccidere 200 Zombie (200rep + SArmor.ArmorMag3)
-                9. Recuperare Base.ScrapMetal;60 parlando con (COORDINATE_MAYA)9, Uccidere 200 Zombie (300rep + SWeapons.WeaponMag5)
-                10. Recuperare Base.ScrapMetal;60 parlando con (COORDINATE_MAYA)10, Uccidere 125 Zombie (200rep + SArmor.ArmorMag4)
-                11. Recuperare Base.ScrapMetal;50 parlando con (COORDINATE_MAYA)11, Uccidere 125 Zombie (200rep + SArmor.ArmorMag6)
-                12. Recuperare Base.ScrapMetal;50 parlando con (COORDINATE_MAYA)12, Uccidere 140 Zombie (200rep + SArmor.ArmorMag5)
-                13. Recuperare Base.ScrapMetal;50 parlando con (COORDINATE_MAYA)13, Uccidere 150 Zombie (200rep + SArmor.ArmorMag2)
-]]
-
-    IGUI_SFQuest_Questyno_MayaBlackwell_Name = "Maya Blackwell",
-
-    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Title = "Maya Blackwell da Redfordville 3637,7302,0",
-    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Text = "Incontra Maya Blackwell. [Mensili]",
-    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Lore = "Maya sembra far parte di un gruppo ben organizzato a Redfordville (3637,7302,0). La sua specialità è quella di costruire armature in metallo, se le do una mano mi insegnerà come farle.",
-    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Complete_Text = "Heila, chi abbiamo qui? Arrivi per caso dalla Tana? Sicuramente, visto quella faccia smarrita! Beh, cosa ti porta da queste parti? Hai sentito parlare degli "Immortali di Redford" vero? Sappi che non sono leggende, qui non subiamo perdite da più di un anno. Il nostro trucco è il metallo. Se mi darai una mano con alcuni lavoretti ti insegnerò come costruire delle armature speciali!",
-
-    
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Title = "Maya Blackwell da Redfordville 3637,7302,0",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Text = "Qualcosa per sciogliere il metallo",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Lore = "Maya vorrebbe che io vada a Southwood (COORDINATE_MAYA)1 a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per sciogliere metallo e creare degli stampi per armi semplici!",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Southwood.",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text_Declined = "Ti facevo più tosto.",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_A = "Cerca a Southwood (COORDINATE_MAYA)1",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_A_Text = "Prendi il metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_B = "50 Base.ScrapMetal",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_C = "Uccidi 100 Zombie",
-    IGUI_SFQuest_Questyno_MayaBlackwell1_B_Text = "Torna da Maya",
 
 
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Title = "Maya Blackwell da Redfordville 3637,7302,0",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Lore = "Maya vorrebbe che io vada a Leavenburg (COORDINATE_MAYA)2 a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per sciogliere le componenti delle auto!",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Leavenburg.",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Accepted = "Bene, mi trovi qui.",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Declined = "Ti facevo più tosto.",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_A = "Cerca a Leavenburg (COORDINATE_MAYA)2",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_A_Text = "Recupera il metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_B = "70 Scarti Metallici",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_C = "Uccidi 110 Zombie",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_B_Text = "Torna da Maya",
-
-
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Title = "Maya Blackwell da Redfordville 3637,7302,0",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Lore = "",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text = "",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text_Accepted = "",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text_Declined = "",
-    IGUI_SFQuest_Questyno_MayaBlackwell3_Complete = "",
 }
