@@ -178,7 +178,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo1_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo1_Text = "Più sangue per Tony",
-    IGUI_SFQuest_Questyno_Lupo1_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni .308 e uccidere 100 Zombie . Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo1_Lore = "Tony mi ha chiesto di recuperare una Scatola di munizioni .308 e uccidere 100 Zombie . Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo1_Begin_Text = "Ho bisogno di te per pulire la zona e tenere al sicuro il campo base. Eliminane il più possibile e fai scorta di munizioni dalle loro tasche.",
     IGUI_SFQuest_Questyno_Lupo1_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo1_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -186,7 +186,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo2_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo2_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo2_Lore = "Tony mi ha chiesto di recupearere 2 Scatola di munizioni da 9mm e uccidere 50 Zombie . Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo2_Lore = "Tony mi ha chiesto di recuperare 2 Scatola di munizioni da 9mm e uccidere 50 Zombie . Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo2_Begin_Text = "Ho bisogno di minuzioni. Spaccagli la testa e controlla nelle loro tasche. ",
     IGUI_SFQuest_Questyno_Lupo2_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo2_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -194,7 +194,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo3_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo3_Text = "Più fucili per Tony",
-    IGUI_SFQuest_Questyno_Lupo3_Lore = "Tony mi ha chiesto di recupearere 3 Fucili a pompa M500 . Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo3_Lore = "Tony mi ha chiesto di recuperare 3 Fucili a pompa M500 . Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo3_Begin_Text = "Ho bisogno che mi porti delle armi da fuoco per i nostri Compagni! ",
     IGUI_SFQuest_Questyno_Lupo3_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo3_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -202,7 +202,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo4_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo4_Text = "Più potenza di fuoco.",
-    IGUI_SFQuest_Questyno_Lupo4_Lore = "Tony mi ha chiesto di recupearere un Fucile d'assalto m16 con Caricatore per proiettili m16. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo4_Lore = "Tony mi ha chiesto di recuperare un Fucile d'assalto m16 con Caricatore per proiettili m16. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo4_Begin_Text = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni! ",
     IGUI_SFQuest_Questyno_Lupo4_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo4_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -213,7 +213,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo5_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo5_Text = "Più potenza di fuoco",
-    IGUI_SFQuest_Questyno_Lupo5_Lore = "Tony mi ha chiesto di recupearere un Fucile da battaglia m14 con Caricatore per proiettili m14. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo5_Lore = "Tony mi ha chiesto di recuperare un Fucile da battaglia m14 con Caricatore per proiettili m14. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo5_Begin_Text = "Ho bisogno tu mi porti altre armi da fuoco per i nostri Compagni! ",
     IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo5_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -224,7 +224,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo6_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo6_Text = "Le munizioni speciali",
-    IGUI_SFQuest_Questyno_Lupo6_Lore = "Tony mi ha chiesto di recupearere delle munizioni alla stazione di polizia di Muldraugh (10633,10401,0). Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo6_Lore = "Tony mi ha chiesto di recuperare delle munizioni alla stazione di polizia di Muldraugh (10633,10401,0). Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo6_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto alla stazione di polizia di Muldraugh, ne troverai molte di sicuro in quel posto.",
     IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo6_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -234,7 +234,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo7_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo7_Text = "Le munizioni per la Colt 1911",
-    IGUI_SFQuest_Questyno_Lupo7_Lore = "Tony mi ha chiesto di recupearere delle munizioni alla stazione di polizia di Chernaville (9745,10566,2). Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo7_Lore = "Tony mi ha chiesto di recuperare delle munizioni alla stazione di polizia di Chernaville (9745,10566,2). Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo7_Begin_Text = "Ho bisogno di minuzioni. Molte. Fai un salto all'armeria di Chernaville, ne troverai molte di sicuro in quel posto.",
     IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo7_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -244,7 +244,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo8_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo8_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo8_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni 7.62",
+    IGUI_SFQuest_Questyno_Lupo8_Lore = "Tony mi ha chiesto di recuperare una Scatola di munizioni 7.62",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text = "Ho bisogno di minuzioni. Spacca la testa di quei bastardi e vedi cosa hanno in tasca.",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare sul tuo Lupacchiotto!",
     IGUI_SFQuest_Questyno_Lupo8_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -252,7 +252,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo9_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo9_Text = "Più armi per Tony",
-    IGUI_SFQuest_Questyno_Lupo9_Lore = "Tony mi ha chiesto di recupearere una Pistola e un Caricatore per proiettili M9. Spero di trovarli in qualche armeria.",
+    IGUI_SFQuest_Questyno_Lupo9_Lore = "Tony mi ha chiesto di recuperare una Pistola e un Caricatore per proiettili M9. Spero di trovarli in qualche armeria.",
     IGUI_SFQuest_Questyno_Lupo9_Begin_Text = "Ho bisogno che mi porti altre armi da fuoco per i nostri Compagni!",
     IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Accepted = "Mi raccomando, controlla che siano funzionanti!",
     IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -263,7 +263,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo10_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo10_Text = "Più armi per Tony",
-    IGUI_SFQuest_Questyno_Lupo10_Lore = "Tony mi ha chiesto di recupearere 2 Scatole di munizioni da .45 e 2 Caricatori per proiettili 1911",
+    IGUI_SFQuest_Questyno_Lupo10_Lore = "Tony mi ha chiesto di recuperare 2 Scatole di munizioni da .45 e 2 Caricatori per proiettili 1911",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text = "Ho bisogno di munizioni. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo10_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -274,7 +274,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo11_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo11_Text = "Più fuoco per Tony",
-    IGUI_SFQuest_Questyno_Lupo11_Lore = "Tony mi ha chiesto di recupearere 2 Fucili a Pompa M500 e 2 Scatole di cartucce per fucile. Meglio darsi da fare.",
+    IGUI_SFQuest_Questyno_Lupo11_Lore = "Tony mi ha chiesto di recuperare 2 Fucili a Pompa M500 e 2 Scatole di cartucce per fucile. Meglio darsi da fare.",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare!",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -285,7 +285,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo12_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo12_Text = "Tony e la piromania",
-    IGUI_SFQuest_Questyno_Lupo12_Lore = "Tony mi ha chiesto di recupearere o fabbricare 3 Molotov. Che vorrà farci?",
+    IGUI_SFQuest_Questyno_Lupo12_Lore = "Tony mi ha chiesto di recuperare o fabbricare 3 Molotov. Che vorrà farci?",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo12_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -293,7 +293,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo13_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo13_Text = "Tony e la piromania",
-    IGUI_SFQuest_Questyno_Lupo13_Lore = "Tony mi ha chiesto di recupearere o fabbricare una Molotov. Che vorrà farci?",
+    IGUI_SFQuest_Questyno_Lupo13_Lore = "Tony mi ha chiesto di recuperare o fabbricare una Molotov. Che vorrà farci?",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text = "Dobbiamo bruciare quei bastardi! Hai mai costruito una Molotov? ",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo13_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -301,7 +301,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo14_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo14_Text = "Più armi per Tony",
-    IGUI_SFQuest_Questyno_Lupo14_Lore = "Tony mi ha chiesto di recupearere un Fucile a Doppia Canna e 2 Scatola di cartucce per fucile.",
+    IGUI_SFQuest_Questyno_Lupo14_Lore = "Tony mi ha chiesto di recuperare un Fucile a Doppia Canna e 2 Scatola di cartucce per fucile.",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo14_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -312,7 +312,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo15_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo15_Text = "Più fuoco per Tony",
-    IGUI_SFQuest_Questyno_Lupo15_Lore = "Tony mi ha chiesto di recupearere una pistola Magnum e 3 Scatole di proiettili da 44 Magnum. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo15_Lore = "Tony mi ha chiesto di recuperare una pistola Magnum e 3 Scatole di proiettili da 44 Magnum. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text = "Ho bisogno di più potenza di fuoco. Fai un giro in qualche armeria e vedi cosa riesci a recuperare! ",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -323,7 +323,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo16_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo16_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo16_Lore = "Tony mi ha chiesto di recupearere una Scatole di munizioni da 44 Magnum, una Scatola di munizioni per 9mm, una Scatola di munizioni da 38 Special, una Scatola di proiettili .45 automatica. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo16_Lore = "Tony mi ha chiesto di recuperare una Scatole di munizioni da 44 Magnum, una Scatola di munizioni per 9mm, una Scatola di munizioni da 38 Special, una Scatola di proiettili .45 automatica. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo16_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai.",
     IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Accepted = "Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi!",
     IGUI_SFQuest_Questyno_Lupo16_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -336,7 +336,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo17_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo17_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo17_Lore = "Tony mi ha chiesto di recupearere 2 Scatole di munizioni da 44 Magnum. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo17_Lore = "Tony mi ha chiesto di recuperare 2 Scatole di munizioni da 44 Magnum. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo17_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai.",
     IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Accepted = "Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi!",
     IGUI_SFQuest_Questyno_Lupo17_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -344,7 +344,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo18_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo18_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo18_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da 9mm. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo18_Lore = "Tony mi ha chiesto di recuperare una Scatola di munizioni da 9mm. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text_Accepted = " Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo18_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -352,7 +352,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo19_Title = "Tony Lupo da West Point 10157,6611,0",
     IGUI_SFQuest_Questyno_Lupo19_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo19_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni da .308. Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo19_Lore = "Tony mi ha chiesto di recuperare una Scatola di munizioni da .308. Spero di non metterci troppo.",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text = "Ho bisogno di altre munizioni, non bastano mai. Fruga nelle tasche di queli maledetti e vedi cosa riesci a portarmi! ",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text_Accepted = " Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo19_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
@@ -1753,7 +1753,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MikePozzo5_Begin_Text = "Non c'è niente di meglio di un bel panetto di burro fritto! Le vacche sono tutte morte, ma in qualche negozio dovresti ancora trovare del burro più o meno "fresco". Prova al centro commerciale di Rosewood li c'è sicuramente qualcosa.",
     IGUI_SFQuest_Questyno_MikePozzo5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_MikePozzo5_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_MikePozzo5_Complete = "Sniff, Sniff. Okey ha un retrogusto di legno marcio ma dovrebbe bastare per friggere questa fettina di pollo. Ti ringrazio!",
+    IGUI_SFQuest_Questyno_MikePozzo5_Complete = "Sniff, Sniff. Okay ha un retrogusto di legno marcio ma dovrebbe bastare per friggere questa fettina di pollo. Ti ringrazio!",
 	IGUI_SFQuest_Questyno_MikePozzo5_A = "Cerca a Rosewood (8145,11482,0)",
 	IGUI_SFQuest_Questyno_MikePozzo5_A_Text = "Porta il burro fresco a Mike",
 	
@@ -2339,7 +2339,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_EmilyTerry15_Title = "Terry della Tana 9277,8491,0",
     IGUI_SFQuest_Questyno_EmilyTerry15_Text = "I funghi per Terry",
     IGUI_SFQuest_Questyno_EmilyTerry15_Lore = "Terry mi ha chiesto di recuperare due funghi. Vediamo se li trovo nel bosco.",
-    IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text = "Riesci a recupeare due funghi? Ti ricompenserò con un ottima spezia!",
+    IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text = "Riesci a recuperare due funghi? Ti ricompenserò con un ottima spezia!",
     IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_EmilyTerry15_Complete = "Grazie, ci preparo subito un bello stufato.",
@@ -3105,7 +3105,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_GeorgeScott14_Title = "George da Muldarugh 10830,9078,0",
     IGUI_SFQuest_Questyno_GeorgeScott14_Text = "Il cappello di George",
-    IGUI_SFQuest_Questyno_GeorgeScott14_Lore = "George mi ha chiesto di recupearare il Cappello da Cawboy nella casa di un collezionista ad Orchiwood (8159,9611,0)",
+    IGUI_SFQuest_Questyno_GeorgeScott14_Lore = "George mi ha chiesto di recuperare il Cappello da Cawboy nella casa di un collezionista ad Orchiwood (8159,9611,0)",
     IGUI_SFQuest_Questyno_GeorgeScott14_Begin_Text = "Ho sempre amato i cowboy perché andavano a caccia di tesori! Conoscevo un Collezionista nella città di Orchiwood, vai li e guarda se gli rimane qualche cappello da cowboy!",
     IGUI_SFQuest_Questyno_GeorgeScott14_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_GeorgeScott14_Begin_Text_Declined = "Non sai cosa ti perdi!",
@@ -3127,7 +3127,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_GeorgeScott16_Title = "George da Muldarugh 10830,9078,0",
     IGUI_SFQuest_Questyno_GeorgeScott16_Text = "Un Basso per George",
-    IGUI_SFQuest_Questyno_GeorgeScott16_Lore = "George mi ha chiesto di recupeare un Basso Elettrico",
+    IGUI_SFQuest_Questyno_GeorgeScott16_Lore = "George mi ha chiesto di recuperare un Basso Elettrico",
     IGUI_SFQuest_Questyno_GeorgeScott16_Begin_Text = "Devi recuperare assolutamente un Basso elettrico.",
     IGUI_SFQuest_Questyno_GeorgeScott16_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_GeorgeScott16_Begin_Text_Declined = "Non sai cosa ti perdi!",
@@ -4626,7 +4626,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text = "Non c'è niente di meglio di un bel panetto di burro fritto! Le vacche sono tutte morte, ma in qualche negozio dovresti ancora trovare del burro più o meno "fresco". Prova al centro commerciale di St.Bernard's Hill li c'è sicuramente qualcosa.",
     IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_ChristopherDavis5_Complete = "'Sniff, Sniff'. Okey ha un retrogusto di legno marcio ma dovrebbe bastare per friggere questa fettina di pollo. Ti ringrazio!",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Complete = "'Sniff, Sniff'. Okay ha un retrogusto di legno marcio ma dovrebbe bastare per friggere questa fettina di pollo. Ti ringrazio!",
 	IGUI_SFQuest_Questyno_ChristopherDavis5_A = "Cerca a St.Bernard's Hill (12315,11739,0)",
 	IGUI_SFQuest_Questyno_ChristopherDavis5_A_Text = "Porta il burro a Christopher",
 	
@@ -4657,7 +4657,7 @@ IGUI_EN = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis8_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis8_Text = "Un grembiule per Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis8_Lore = "Christopher mi ha chiesto di recupearere un Grembiule Nero. Perchè proprio nero? Maledetto, dove lo trovo?",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Lore = "Christopher mi ha chiesto di recuperare un Grembiule Nero. Perchè proprio nero? Maledetto, dove lo trovo?",
     IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text = "Hei avrei bisogno di qualche grembiule nuovo, continuo a sporcarmi i vestiti, pensi di riuscire a trovarne uno per me? Va bene uno Nero, magari.",
     IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -4758,7 +4758,7 @@ IGUI_EN = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis18_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis18_Text = "Christopher Massari",
-    IGUI_SFQuest_Questyno_ChristopherDavis18_Lore = "Christopher mi ha chiesto di portargli andare a recupearere 4 uova per lui nel bosco ad Est da qui (13603,6883,0).",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Lore = "Christopher mi ha chiesto di portargli andare a recuperare 4 uova per lui nel bosco ad Est da qui (13603,6883,0).",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text = "Ho in mente di preparare una bella torta, non è che potresti andare nel bosco a trovare delle uova per me? C'è un posto dove le troverai sicuramente, ma dovresti arrampicarti, altrimenti sarei andato io. Prova nel bosco ad Est, prosegui fino a quando non trovi una piccola radura.",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -5523,10 +5523,10 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_JohnBaker3_Title = "John da Trelai 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker3_Text = "Recupero Libro a 10009,13072,1",
     IGUI_SFQuest_Questyno_JohnBaker3_Lore = "Devo andare alla vecchia casa della madre di Jhon per recuperare dei libri che gli interessano. Comincio a pensare che mi stia prendendo in giro. La casa si trova a March Ridge (10009,13072,1)",
-    IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text = "Okay okay, forse sei solo fortunato. Prova a recupeare un libro a casa mia a March Ridge e portalo da me. Quella città è un puttanaio se ce la farai forse potrò darti una mano.",
+    IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text = "Okay okay, forse sei solo fortunato. Prova a recuperare un libro a casa mia a March Ridge e portalo da me. Quella città è un puttanaio se ce la farai forse potrò darti una mano.",
     IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Accepted = "Ottimo. Ti aspetto qui.",
     IGUI_SFQuest_Questyno_JohnBaker3_Begin_Text_Declined = "Cercherò qualcun'altro.",
-    IGUI_SFQuest_Questyno_JohnBaker3_Complete = "Okey, hai la stoffa che serve.",
+    IGUI_SFQuest_Questyno_JohnBaker3_Complete = "Okay, hai la stoffa che serve.",
 	IGUI_SFQuest_Questyno_JohnBaker3_A = "Cerca a March Ridge (10009,13072,1)",
 	IGUI_SFQuest_Questyno_JohnBaker3_A_Text = "Porta il libro a John",
 	
@@ -5680,7 +5680,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_TaylorBlaze7_Text = "Munizioni per Taylor",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Lore = "Taylor ha bisogno di cartucce per cecchini, precisamente 5 Scatole di munizioni .22",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text = "Ho bisogno di munizioni particolari stavolta, spero riuscirai a trovarle!",
-    IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted = "Okey, muoviti, non mi muovo da qua!",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Declined = "Sei un codardo!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Complete = "Ottimo! Ti sei meritata una di queste, fanne buon uso!",
 	
@@ -5717,7 +5717,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Title = "Marcus Kane 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Incontra Marcus Kane [Mensili]",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ho incotrato Marcus la prima volta a Rosewood Nord (8574,11026,0). Era in mezzo alla strada,  e l'ho quasi confuso con uno zombie da quanto sangue aveva addosso. E' una persona sadica e sembra molto divertito dalla situazione attuale delle cose. Eì conosciuto anche dalle bande di Nigel e sono certo che conviene averlo dalla propria parte.",
-    IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus. Posso insegnarti molte tecniche diverse per colpire gli zombie in maniera efficace, dimostrami solo di essere all'altezza, okey?",
+    IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus. Posso insegnarti molte tecniche diverse per colpire gli zombie in maniera efficace, dimostrami solo di essere all'altezza, okay?",
 
 	
 	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",
@@ -5911,7 +5911,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown6_Text = "Claim Veicolo",
-    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (8617,9876,0)",
+    IGUI_SFQuest_Questyno_RichardBrown6_Lore = "Richard ha detto che mi darà un oggetto utile a non farmi vandalizzare la macchina. Indispensabile in una situazione del genere. Devo solo recuperare il suo nella vecchia base a Orchiwood (8614,9881,0)",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood, e già che vai li magari puoi recuperare le riviste sotto il mio letto?",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
@@ -5947,7 +5947,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da Spawn Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson1_Text = "Fiducia da conquistare",
     IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 25 Zombie per suo conto. ",
-    IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text = "È il momento di mettere insieme una squadra e cominciare a ripulire il territorio. Ecco un piano: prepariamoci delle lance fatte con rami robusti e pietre affilate. Sono armi efficaci e possono tenere gli zombi a distanza.",
+    IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text = "È il momento di mettere insieme una squadra e cominciare a ripulire il territorio. Ecco un piano: prepariamoci delle lance fatte con rami robusti e pietre affilate. Sono armi efficaci e possono tenere gli zombie a distanza.",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson1_Complete = "Ottimo, andiamo avanti allora.",
@@ -6019,7 +6019,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer1_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 1500 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text = "Uccidi 1500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
     IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text_Accepted = "Coraggio, non farti prendere.",
-    IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text_Declined = "Ti spavetano ancora vero?",
+    IGUI_SFQuest_Questyno_AlexMercer1_Begin_Text_Declined = "Ti spaventano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer1_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
     IGUI_SFQuest_Questyno_AlexMercer2_Title = "Alex Mercer da Redfordville (3642,7302,0)",
@@ -6027,7 +6027,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer2_Lore = "Devo dimostrare ad Alex di cosa sono capace per avere l'attenzione di Nigel. Devo uccidere 2000 di quei bastardi e ho un anno di tempo.",
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text = "Uccidi 2000 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
     IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text_Accepted = "Coraggio, non farti prendere.",
-    IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text_Declined = "Ti spavetano ancora vero?",
+    IGUI_SFQuest_Questyno_AlexMercer2_Begin_Text_Declined = "Ti spaventano ancora vero?",
     IGUI_SFQuest_Questyno_AlexMercer2_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
     IGUI_SFQuest_Questyno_AlexMercer3_Title = "Alex Mercer da Redfordville (3642,7302,0)",
@@ -6036,93 +6036,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text = "Uccidi 2500 di quei cosi la fuori e torna da me. Vediamo di cosa sei capace.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Accepted = "Coraggio, non farti prendere.",
     IGUI_SFQuest_Questyno_AlexMercer3_Begin_Text_Declined = "Ti spavetano ancora vero?",
-    IGUI_SFQuest_Questyno_AlexMercer3_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti. Tieni questa, te la sei meritata!",
+    IGUI_SFQuest_Questyno_AlexMercer3_Complete = "Bene, questi sono quelli che faccio in una settimana, complimenti.",
 
-
---[[
-            ***Olivia Chambers***
-            Elenco:
-                intro. Parla con Olivia Chambers per sbloccare le sue quest mensili.
-                1. Recuperare LabItems.ChSodiumHydroxideBag;2 @ 3960,11742,0 e uccidere 200 (1200rep + LabItems.JournalOfResearch,LabBooks.BkLaboratoryEquipment2)
-                2. Recuperare LabItems.ChSulfuricAcidCan;2 @ 7182,7027,0 e Uccidi 120 Zombie (1200rep + LabBooks.BkChemistryCourse)
-                3. Recuperare LabItems.ChSodiumHydroxideBag;2 @ 7003,7246,0 e Uccidi 200 Zombie (800rep + LabBooks.BkLaboratoryEquipment1)
-                4. Recuperare LabItems.ChHydrochloricAcidCan;2 @ (4168,12035,0) e Uccidi 100 Zombie (700rep + LabBooks.BkLaboratoryEquipment3)
-                5. Recuperare LabItems.ChSulfuricAcidCan;2 @  (13851,10871,0) e Uccidi 100 Zombie (1200rep + LabBooks.BkVirologyCourses1)
-                6. Recuperare LabItems.ChHydrochloricAcidCan;2 @ (3733,11443,0) e Uccidi 100 Zombie (800rep + LabBooks.BkVirologyCourses2)
-]]
-
-    IGUI_SFQuest_Questyno_OliviaChambers_Name = "Olivia Chambers",
-
-    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Text = "Incontra Olivia Chambers. [Mensile]",
-    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Lore = "Olivia è una ricercatrice affiliata con le Bande di Nigel, è venuta via dalla Tana due anni fa nonostante si trovasse molto bene. Le sue conoscienze in ambito di Virus l'hanno spinta ad unirsi a questo gruppo. Spero potrà darmi una mano, il loro vaccino è sperimentale e hanno bisogno di me per stabilizzarlo.",
-    IGUI_SFQuest_Questyno_OliviaChambers_Intro_Complete_Text = "Ciao Caro, vieni anche tu dalla Tana? Anche io sono rimasta li per qualche mese ma mi sentivo come se non stessi facendo abbastanza. Spero di poter portare il mio contributo qui fra gli uomini di Nigel. A volte sono un poco burberi ma niente a cui non sia già abituata. Spero mi darai una mano a recuperare alcuni acidi importanti per la creazione di questo Vaccino sperimentale. In cambio posso darti i progressi fatti con le mie ricerche, sperando che riuscirete a tovare qualcuno di competente anche nel vostro gruppo!",
-
-    IGUI_SFQuest_Questyno_OliviaChambers1_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Text = "Idrossido di sodio per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Lore = "Olivia vorrebbe che io vada a alla farmacia in centro a Raven Creek (3960,11742,0) a recuperare dell'idrossido di sodio per lei. Devo stare attento a non strappare la tuta Hazmat.",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text = "Ho bisogno di un pò di acido solforico per i miei test. Dovresti riuscire a trovarne un poco a Raven Creek. Hai una tuta Hazmat per entrare in quella città?",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers1_Complete = "Grazie, prendi questi. Uno ti servirà per ricavare del sangue infetto dalle tue autopsie, l'altro per costruire degli oggetti utili all''arredamento della tua infermeria.",
-    IGUI_SFQuest_Questyno_OliviaChambers1_A = "Cerca a Raven Creek (3960,11742,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers1_B = "Uccidi 200 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers1_A_Text = "Porta il Sodio Idrossido a Olivia",
-
-    IGUI_SFQuest_Questyno_OliviaChambers2_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Text = "Acido solforico per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Lore = "Olivia vorrebbe che io vada nella zona centrale di Trelai (7182,7027,0) a recupeare dell'acido solforico. Devo stare attento a i banditi.",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text = "Ho bisogno di un pò di acido solforico per i miei test. Dovresti riuscire a trovarne un poco a Trelai. Potresti incontrare dei banditi in quella zona, te la senti?",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers2_Complete = "Ben ritrovato. Ecco a te una copia! Ti servirà per capire come mischiare al meglio gli acidi!",
-    IGUI_SFQuest_Questyno_OliviaChambers2_A = "Cerca a Trelai (7182,7027,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers2_B = "Uccidi 120 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers2_A_Text = "Porta l'Acido solforico a Olivia",
-
-    IGUI_SFQuest_Questyno_OliviaChambers3_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Text = "Idrossido di sodio per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Lore = "Olivia vorrebbe che io vada a Trelai 7003,7246,0 a recuperare dell'idrossido di sodio. Devo stare attento a i banditi in quelle zone.",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text = "Ho bisogno di un pò di Idrossido di sodio per i miei test. Dovresti riuscire a trovarne un poco a Trelai. Potresti incontrare dei banditi in quella zona, te la senti?",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers3_Complete = "Grazie mille, prendi questo. Ti aiuterà ad assemblare molti strumenti utili per riuscire a sintetizzare un medicinale!",
-    IGUI_SFQuest_Questyno_OliviaChambers3_A = "Cerca a Trelai (7003,7246,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers3_B = "Uccidi 200 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers3_A_Text = "Porta il Sodio Idrossido a Olivia",
-
-    IGUI_SFQuest_Questyno_OliviaChambers4_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Text = "Acido cloridrico per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Lore = "Olivia vorrebbe che io vada a sud di Raven Creek (4168,12035,0) a prenderle dell'acido solforico in una vecchia clinica. Sarà meglio indossare delle maschere antigas almeno.",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text = "Ho bisogno di un pò di Idrossido di acido solforico per i miei test. Dovresti riuscire a trovarne un poco in un vecchio ambulatirio nella parte Sud di Raven Creek. Potresti incontrare dei banditi in quella zona, te la senti?",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Accepted = "Bene, fai attenzione, quella zona è piena di Banditi",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers4_Complete = "Bene, felice che tu sia ancora vivo! Prendi questa rivista, ti darà una mano a capire come sciogliere alcuni oggetti o crearne altri grazie a una Fornace!",
-    IGUI_SFQuest_Questyno_OliviaChambers4_A = "Cerca a sud di Raven Creek (4168,12035,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers4_B = "Uccidi 100 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers4_A_Text = "Porta l'Acido cloridrico a Olivia",
-
-    IGUI_SFQuest_Questyno_OliviaChambers5_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Text = "Acido solforico per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Lore = "Olivia vorrebbe che io vada a Bedford Fall (13851,10871,0) a recuperare dell'acido solforico. Meglio attrezzarmi con una tuta Hazmat e del nastro adesivo.",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text = "Ho bisogno di un pò di Idrossido di acido solforico per i miei test. Dovresti riuscire a trovarne un poco in una farmacia al centro di Bedford Fall. Potresti anche incontrare dei banditi in quella zona, te la senti?",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Accepted = "Bene, fai attenzione, indossa sempre una Tuta Hazmat!",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers5_Complete = "Eccoti! Grazie mille, prendi questa rivista. Ti aiuterà a capire come conservare del sangue infetto a scopo di analisi e a sterilizzare vari strumenti di lavoro! ",
-    IGUI_SFQuest_Questyno_OliviaChambers5_A = "Cerca a Bedford Fall (13851,10871,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers5_B = "Uccidi 100 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers5_A_Text = "Porta l'Acido solforico a Olivia",
-
-    IGUI_SFQuest_Questyno_OliviaChambers6_Title = "Olivia Chambers da Raven Creek (4862,11186,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Text = "Acido cloridrico per Olivia",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Lore = "Olivia vorrebbe che io vada al centro di Raven Creek (3733,11443,0) per recupearere dell'acido idrocloridrico in una piccola farmacia.",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text = "Se vuoi darci una mano, vai a recupearere del metallo a Southwood",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Declined = "Peccato, è molto importante quello che stiamo facendo.",
-    IGUI_SFQuest_Questyno_OliviaChambers6_Complete = "Okey, come da accordo ecco a te, fanne buon uso! Per capire cosa c'è scritto bisogna essere dei veri esperti, c'è tutto quello che serve sapere per la creazione di un vaccino. ",
-    IGUI_SFQuest_Questyno_OliviaChambers6_A = "Cerca a Raven Creek (3733,11443,0)",
-    IGUI_SFQuest_Questyno_OliviaChambers6_B = "Uccidi 100 Zombie",
-    IGUI_SFQuest_Questyno_OliviaChambers6_A_Text = "Porta l'Acido cloridrico a Olivia",
 
 
 }
