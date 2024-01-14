@@ -5961,8 +5961,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RobertWilson2_Complete = "Ottimo, buon lavoro.",
 	IGUI_SFQuest_Questyno_RobertWilson2_A = "Cerca a Greenleaf (6683,10669,0)",
 	IGUI_SFQuest_Questyno_RobertWilson2_A_Text = "Prendi Chiave Esagonale per Robert",
-	IGUI_SFQuest_Questyno_RobertWilson2_B = "Chiave Esagonale",
-	IGUI_SFQuest_Questyno_RobertWilson2_C = "Uccidi 50 Zombie",
+	IGUI_SFQuest_Questyno_RobertWilson2_C = "Chiave Esagonale",
+	IGUI_SFQuest_Questyno_RobertWilson2_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_RobertWilson2_B_Text = "Torna da Robert",
 
 	
