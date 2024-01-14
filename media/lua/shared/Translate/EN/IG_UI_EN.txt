@@ -6180,4 +6180,84 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_HarperWells4_A = "Cerca a Raven Creek (3603,11382,3)",
     IGUI_SFQuest_Questyno_HarperWells4_B = "Uccidi 200 Zombie",
     IGUI_SFQuest_Questyno_HarperWells4_A_Text = "Porta il Foglio Speciale a Harper",
+
+
+    --[[
+            *** Grace Chambers ***
+            Elenco:
+                intro. Incontra Grace Chambers.
+				1. Recuperare LabItems.CmpSyringeWithAdvancedVaccine;4 parlando con (12930,2008,0) (2400rep + LabItems.CmpSyringeWithAdvancedVaccine)
+				2. Recuperare LabItems.CmpSyringeWithAdvancedVaccine;4 parlando con (13839,10064,0), Recuperare FOGLIO SPECIALE CON LR.Lore5 parlando con (13910,9939,0) (2500rep + LabItems.CmpSyringeWithAdvancedVaccine;2)
+				3. Recuperare LabItems.CmpSyringeWithAdvancedVaccine parlando con (12422,1755,0), Uccidere 100 Zombie (3000rep + LabItems.CmpSyringeWithAdvancedVaccine)
+				4. Recuperare FOGLIO SPECIALE CON LR.Lore6 parlando con (13602,1563,0), Recuperare LabItems.CmpFlaskWithLeukocytes parlando con (13402,1893,0) (800rep + 1000$)
+]]
+
+    IGUI_SFQuest_Questyno_GraceChambers_Name = "Grace Chambers",
+
+    IGUI_SFQuest_Questyno_GraceChambers_Intro_Title = "Grace da Louisville (13555,4142,0)",
+    IGUI_SFQuest_Questyno_GraceChambers_Intro_Text = "Incontra Grace Chambers. [Annuale]",
+    IGUI_SFQuest_Questyno_GraceChambers_Intro_Lore = "Grace faceva parte della banda di Nigel prima che gli americani sganciassero dei container pieni di zombie nel loro avamposto e furono costretti a scappare. Adesso non sa dove Nigel si sia rifugiato ma continua a sviluppare un siero insieme al compagno James come quando era sotto la sua guida. Sembra tra le più informate in merito a questo macello, spero di riuscire a ricavare più informazioni possibili da lei.",
+    IGUI_SFQuest_Questyno_GraceChambers_Intro_Complete_Text = "Hei Ciao! Aspettavamo qualcuno che venisse qui per darci una mano. Hai già conosciuto mia sorella Olivia? Stiamo facendo delle ricerche incrociate, pare che Nigel avesse degli avamposti in tutte le città che sono state inondate dalle radiazioni, pare che gli americani ci tenessero a tenere nascosto qualcosa. Purtroppo gli appunti di Nigel sono stati perduti quando gli americani ci hanno fatto evaquare sganciando dei container pieni di Zombie all'interno dell'avamposto. Da quello che mia sorella mi riferisce pare che ci siano diverse dosi di Vaccino sparse in diversi ambulatori medici qui a Louisville. Insieme  al mio copagno James stiamo cercando qualcuno disposto a recuperarli per avere dei riscontri con le nuove dosi che Olivia sta preparando. Saresti disposto a darci una mano?",
+
+    
+    IGUI_SFQuest_Questyno_GraceChambers1_Title = "Grace da Louisville (13555,4142,0)",
+    IGUI_SFQuest_Questyno_GraceChambers1_Text = "Recupero Vaccino A Louisville",
+    IGUI_SFQuest_Questyno_GraceChambers1_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nella zona radioattiva di Lousville. Dice che posso tenerne una parte se riesco a portargliene almeno una. Dovrei trovarle all'ospedale a Nord di Louisville, precisamente a (12930,2008,0)",
+    IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text = "Ho bisogno che vai all'ospedale a Nord di Lousville per recuperare tutte le dosi di vaccino che trovi, te ne lascerò una per il tuo gruppo, prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
+    IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
+    IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Declined = "Ci lasci nella merda insomma!",
+    IGUI_SFQuest_Questyno_GraceChambers1_Complete = "Bene, prendi questo e torna entro un anno per dirmi se ci sono state reazione avverse!",
+	IGUI_SFQuest_Questyno_GraceChambers1_A = "Cerca a Louisville (12930,2008,0)",
+	IGUI_SFQuest_Questyno_GraceChambers1_A_Text = "Porta il vaccino a Grace",
+
+
+    IGUI_SFQuest_Questyno_GraceChambers2_Title = "Grace da Louisville (13555,4142,0)",
+    IGUI_SFQuest_Questyno_GraceChambers2_Text = "Recupero Vaccino a Bedford Fall",
+    IGUI_SFQuest_Questyno_GraceChambers2_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nel campo militare di Bedford Fall (13839,10064,0). Dice che ogni ambulatorio o zona militare di ricerca aveva sviluppato un vaccino e che vedendo le ricerche di altri avamposti riusciremo a crearne uno stabile, più velocemente.",
+    IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text = "Ho bisogno che vai all'ospedale militare al centro di Bedford Fall e recuperi tutte le dosi di vaccino che trovi e ogni appunto lasciato dai ricercatori. Te ne lascerò qualcuna per il tuo gruppo, prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
+    IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text_Accepted = "Okey fai attenzione e indossa una tuta Hazmat e occhio a banditi!",
+    IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text_Declined = "Ci lasci nella merda insomma!",
+    IGUI_SFQuest_Questyno_GraceChambers2_Complete = "Bene, prendi queste e torna entro un anno per dirmi se ci sono state reazione avverse!",
+	IGUI_SFQuest_Questyno_GraceChambers2_A = "Cerca a Bedford Fall (13839,10064,0)",
+	IGUI_SFQuest_Questyno_GraceChambers2_A_Text = "Prendi il vaccino per Grace",
+	IGUI_SFQuest_Questyno_GraceChambers2_B = "Cerca a Bedford Fall (13910,9939,0)",
+	IGUI_SFQuest_Questyno_GraceChambers2_B_Text = "Recupera documento per Grace",
+	IGUI_SFQuest_Questyno_GraceChambers2_C = "4 LabItems.CmpSyringeWithAdvancedVaccine",
+	IGUI_SFQuest_Questyno_GraceChambers2_D = "FOGLIO SPECIALE CON LR.Lore5",
+	IGUI_SFQuest_Questyno_GraceChambers2_C_Text = "Torna da Grace",
+	
+	
+    IGUI_SFQuest_Questyno_GraceChambers3_Title = "Grace da Louisville (13555,4142,0)",
+    IGUI_SFQuest_Questyno_GraceChambers3_Text = "Recupero Vaccino a Louisville",
+    IGUI_SFQuest_Questyno_GraceChambers3_Lore = "Grace vorrebbe che recuperassi una dose di vaccino per testarla su alcuni membri della Resistenza. Dovrei trovarla nella zona radioattiva di Lousville. Dovrei trovarle al centro medico a Nord-Ovest di Louisville, precisamente a (12422,1755,0)",
+    IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text = "Ho bisogno che vai al centro medico a Nord-Ovest di Louisville e recuperi la dose di vaccino che sono riusciti a produrre. Te la lascerò per il tuo gruppo. Prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
+    IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text_Accepted = "Okey fai attenzione e indossa una tuta Hazmat",
+    IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text_Declined = "Sei un maledetto!",
+    IGUI_SFQuest_Questyno_GraceChambers3_Complete = "Okey, prendi questi per il tuo impegno, spero possa far comodo a qualcuno dei vostri, fammi sapere appena puoi, gli effetti collaterali.",
+	IGUI_SFQuest_Questyno_GraceChambers3_A = "Cerca a Lousville (12422,1755,0)",
+	IGUI_SFQuest_Questyno_GraceChambers3_A_Text = "Prendi il vaccino per Grace",
+	IGUI_SFQuest_Questyno_GraceChambers3_B = "LabItems.CmpSyringeWithAdvancedVaccine",
+	IGUI_SFQuest_Questyno_GraceChambers3_C = "Uccidi 100 Zombie",
+	IGUI_SFQuest_Questyno_GraceChambers3_B_Text = "Torna da Grace",
+	
+	
+	IGUI_SFQuest_Questyno_GraceChambers4_Title = "Grace da Louisville (13555,4142,0)",
+    IGUI_SFQuest_Questyno_GraceChambers4_Text = "Recupero Vaccino a Louisville",
+    IGUI_SFQuest_Questyno_GraceChambers4_Lore = "Grace mi ha chiesto di raggiungere un centro medico situato a Nord-Est di Louisville. Dice che è stato sapientemente camuffato come un centro per l'igiene orale ed è convinta che da li siano partite le prime sperimentazioni non autorizzate da parte del governo. Devo riuscire a trovare alcuni documenti che l'amministratore potrebbe aver nascosto all'interno della struttura a (13602,1563,0).",
+    IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text = "Ho bisogno che vai al centro medico a Nord-Ovest di Louisville e recuperi la dose di vaccino che sono riusciti a produrre. Te la lascerò per il tuo gruppo. Prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
+    IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Accepted = "Okey fai attenzione e indossa una tuta Hazmat",
+    IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Declined = "Sei un maledetto!",
+    IGUI_SFQuest_Questyno_GraceChambers4_Complete = "Ma cosa è questo fluido?  Hai fatto davvero un ottimo lavoro, credo che osservando le prime ricerche riuscirò ad andare avanti meglio con le mie! Questi sono per te.",
+	IGUI_SFQuest_Questyno_GraceChambers4_A = "Cerca a Lousville (13602,1563,0.)",
+	IGUI_SFQuest_Questyno_GraceChambers4_A_Text = "Prendi il documento per Grace",
+	IGUI_SFQuest_Questyno_GraceChambers4_A_Lore = "E' incredibile come il governo abbia agito sotto il naso di tutti, senza il consenso di nessuno. Credo sia opportuno fare un salto a l'abitazione di questo bastardo.",
+	IGUI_SFQuest_Questyno_GraceChambers4_B = "Cerca a Lousville (13402,1893,0)",
+	IGUI_SFQuest_Questyno_GraceChambers4_B_Text = "Riporta la fiala a Grace",
+	IGUI_SFQuest_Questyno_GraceChambers4_B_Lore = "Ho trovato una fiala con uno strano composto trasparente. Credo sia meglio darlo a Grace.",
+	
+	
+	
+	
+	
+	
 }
