@@ -204,3 +204,24 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_R
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RobertWilson5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_RobertWilson5", optional = true, text = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_RobertWilson5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_RobertWilson5_A", text = "IGUI_SFQuest_Questyno_RobertWilson5_Complete"})
+
+	
+--[[
+            *** Andrew Turner ***
+            Elenco:
+                intro. Incontra Andrew Turner.
+				1. Recuperare Base.Propane;2 parlando con (16888,7783,0) (2500rep + 100$)
+				2. Recuperare Base.Propane;2 parlando con (12768,9497,0) (2500rep + 100$)
+				3. Recuperare Base.Propane;2 parlando con (10490,8268,0) (3000rep + Tw.WorkshopMag1)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AndrewTurner_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AndrewTurner_Intro", text = "IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AndrewTurner1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_AndrewTurner1", optional = true, text = "IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_AndrewTurner1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AndrewTurner1_A", text = "IGUI_SFQuest_Questyno_AndrewTurner1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AndrewTurner2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_AndrewTurner2", optional = true, text = "IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_AndrewTurner2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AndrewTurner2_A", text = "IGUI_SFQuest_Questyno_AndrewTurner2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AndrewTurner3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_AndrewTurner3", optional = true, text = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_AndrewTurner3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AndrewTurner3_A", text = "IGUI_SFQuest_Questyno_AndrewTurner3_Complete"})

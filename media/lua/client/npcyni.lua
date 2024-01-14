@@ -616,3 +616,37 @@ SFQuest_Database.MannequinPool["4866x11186x0"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
+
+-- Grace Chambers da Louisville (13555,4142,0)
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_GraceChambers",
+    square = "13555x4142x0",
+    name = "IGUI_SFQuest_Questyno_GraceChambers_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_GraceChambers.png",
+})
+
+SFQuest_Database.MannequinPool["13555x4142x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Andrew Turner da Louisville 13557,4146,0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_AndrewTurner",
+    square = "13557x4146x0",
+    name = "IGUI_SFQuest_Questyno_AndrewTurner_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_AndrewTurner.png",
+})
+
+SFQuest_Database.MannequinPool["13557x4146x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}

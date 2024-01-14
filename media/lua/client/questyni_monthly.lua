@@ -466,10 +466,11 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_OliviaChambers2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers1_Lore" },
+    needsitem = "LabItems.ChSodiumHydroxideBag;2",
+    onobtained = "unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers1_Complete",
     text = "IGUI_SFQuest_Questyno_OliviaChambers1_A_Text",
     texture = "media/textures/Item_OliviaChambers.png",
     title = "IGUI_SFQuest_Questyno_OliviaChambers1_Title",
-    unlocks = "unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers1_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
