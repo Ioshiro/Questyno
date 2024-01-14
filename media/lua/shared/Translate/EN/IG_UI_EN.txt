@@ -6202,13 +6202,13 @@ IGUI_EN = {
     
     IGUI_SFQuest_Questyno_GraceChambers1_Title = "Grace da Louisville (13555,4142,0)",
     IGUI_SFQuest_Questyno_GraceChambers1_Text = "Recupero Vaccino A Louisville",
-    IGUI_SFQuest_Questyno_GraceChambers1_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nella zona radioattiva di Lousville. Dice che posso tenerne una parte se riesco a portargliene almeno una. Dovrei trovarle all'ospedale a Nord di Louisville, precisamente a (12930,2008,0)",
+    IGUI_SFQuest_Questyno_GraceChambers1_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nella zona radioattiva di Lousville. Dice che posso tenerne una parte se riesco a portargliene almeno una. Dovrei trovarle all'ospedale a Nord di Louisville, precisamente a (12930,2008,1)",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text = "Ho bisogno che vai all'ospedale a Nord di Lousville per recuperare tutte le dosi di vaccino che trovi, te ne lascerò una per il tuo gruppo, prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Declined = "Ci lasci nella merda insomma!",
     IGUI_SFQuest_Questyno_GraceChambers1_Complete = "Bene, prendi questo e torna entro un anno per dirmi se ci sono state reazione avverse!",
-	IGUI_SFQuest_Questyno_GraceChambers1_A = "Cerca a Louisville (12930,2008,0)",
-	IGUI_SFQuest_Questyno_GraceChambers1_A_Text = "Porta il vaccino a Grace",
+	IGUI_SFQuest_Questyno_GraceChambers1_A = "Cerca a Louisville (12930,2008,1)",
+	IGUI_SFQuest_Questyno_GraceChambers1_A_Text = "Porta i vaccini a Grace",
 
 
     IGUI_SFQuest_Questyno_GraceChambers2_Title = "Grace da Louisville (13555,4142,0)",
@@ -6219,12 +6219,10 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text_Declined = "Ci lasci nella merda insomma!",
     IGUI_SFQuest_Questyno_GraceChambers2_Complete = "Bene, prendi queste e torna entro un anno per dirmi se ci sono state reazione avverse!",
 	IGUI_SFQuest_Questyno_GraceChambers2_A = "Cerca a Bedford Fall (13839,10064,0)",
-	IGUI_SFQuest_Questyno_GraceChambers2_A_Text = "Prendi il vaccino per Grace",
-	IGUI_SFQuest_Questyno_GraceChambers2_B = "Cerca a Bedford Fall (13910,9939,0)",
-	IGUI_SFQuest_Questyno_GraceChambers2_B_Text = "Recupera documento per Grace",
-	IGUI_SFQuest_Questyno_GraceChambers2_C = "4 LabItems.CmpSyringeWithAdvancedVaccine",
-	IGUI_SFQuest_Questyno_GraceChambers2_D = "FOGLIO SPECIALE CON LR.Lore5",
-	IGUI_SFQuest_Questyno_GraceChambers2_C_Text = "Torna da Grace",
+	IGUI_SFQuest_Questyno_GraceChambers2_B = "Cerca a Bedford Fall (13910,9939,1)",
+	IGUI_SFQuest_Questyno_GraceChambers2_C = "4 Siringhe con Cura",
+	IGUI_SFQuest_Questyno_GraceChambers2_D = "Foglio Speciale",
+	IGUI_SFQuest_Questyno_GraceChambers2_A_Text = "Torna da Grace",
 	
 	
     IGUI_SFQuest_Questyno_GraceChambers3_Title = "Grace da Louisville (13555,4142,0)",
@@ -6235,10 +6233,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text_Declined = "Sei un maledetto!",
     IGUI_SFQuest_Questyno_GraceChambers3_Complete = "Okey, prendi questi per il tuo impegno, spero possa far comodo a qualcuno dei vostri, fammi sapere appena puoi, gli effetti collaterali.",
 	IGUI_SFQuest_Questyno_GraceChambers3_A = "Cerca a Lousville (12422,1755,0)",
-	IGUI_SFQuest_Questyno_GraceChambers3_A_Text = "Prendi il vaccino per Grace",
-	IGUI_SFQuest_Questyno_GraceChambers3_B = "LabItems.CmpSyringeWithAdvancedVaccine",
-	IGUI_SFQuest_Questyno_GraceChambers3_C = "Uccidi 100 Zombie",
-	IGUI_SFQuest_Questyno_GraceChambers3_B_Text = "Torna da Grace",
+	IGUI_SFQuest_Questyno_GraceChambers3_B = "Uccidi 100 Zombie",
+	IGUI_SFQuest_Questyno_GraceChambers3_A_Text = "Torna da Grace",
 	
 	
 	IGUI_SFQuest_Questyno_GraceChambers4_Title = "Grace da Louisville (13555,4142,0)",

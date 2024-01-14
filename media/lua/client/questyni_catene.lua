@@ -1031,9 +1031,9 @@ table.insert(SFQuest_Database.QuestPool, {
             *** Andrew Turner ***
             Elenco:
                 intro. Incontra Andrew Turner.
-				1. Recuperare Base.Propane;2 parlando con (16888,7783,0) (2500rep + 100$)
-				2. Recuperare Base.Propane;2 parlando con (12768,9497,0) (2500rep + 100$)
-				3. Recuperare Base.Propane;2 parlando con (10490,8268,0) (3000rep + Tw.WorkshopMag1)
+				1. Recuperare Base.PropaneTank;2 parlando con (16888,7783,0) (2500rep + 100$)
+				2. Recuperare Base.PropaneTank;2 parlando con (12768,9497,0) (2500rep + 100$)
+				3. Recuperare Base.PropaneTank;2 parlando con (10490,8268,0) (3000rep + Tw.WorkshopMag1)
 ]]
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1058,7 +1058,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_AndrewTurner1_A",
         text = "IGUI_SFQuest_Questyno_AndrewTurner1_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoAndrewTurner1;additem;Base.Propane;2",
+        oncompleted = "removeclickevent;EventoAndrewTurner1;additem;Base.PropaneTank;2",
     }},
     text = "IGUI_SFQuest_Questyno_AndrewTurner1_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1075,7 +1075,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner2_Begin;Questyno_AndrewTurner2", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner1_Lore" },
-    needsitem = "Base.Propane;2",
+    needsitem = "Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner1_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner1_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1091,7 +1091,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_AndrewTurner2_A",
         text = "IGUI_SFQuest_Questyno_AndrewTurner2_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoAndrewTurner2;additem;Base.Propane;2",
+        oncompleted = "removeclickevent;EventoAndrewTurner2;additem;Base.PropaneTank;2",
     }},
     text = "IGUI_SFQuest_Questyno_AndrewTurner2_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1108,7 +1108,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner3_Begin;Questyno_AndrewTurner3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner2_Lore" },
-    needsitem = "Base.Propane;2",
+    needsitem = "Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner2_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner2_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1124,7 +1124,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_AndrewTurner3_A",
         text = "IGUI_SFQuest_Questyno_AndrewTurner3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoAndrewTurner3;additem;Base.Propane;2",
+        oncompleted = "removeclickevent;EventoAndrewTurner3;additem;Base.PropaneTank;2",
     }},
     text = "IGUI_SFQuest_Questyno_AndrewTurner3_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1141,7 +1141,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner4_Begin;Questyno_AndrewTurner4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner3_Lore" },
-    needsitem = "Base.Propane;2",
+    needsitem = "Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner3_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner3_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",

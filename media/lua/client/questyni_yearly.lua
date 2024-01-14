@@ -68,10 +68,10 @@ table.insert(SFQuest_Database.QuestPool, {
 --[[ *** Harper Wells Raven Creek (4866,11186,0) ***
             Elenco:
                 intro. Incontra Harper Wells.
-                1. Recupero FOGLIO SPECIALE CON LORE LaResistenza.Lore1 @ (3949,11303,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
-                2. Recupero FOGLIO SPECIALE CON LaResistenza.Lore2 @ (4114,12446,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
-                3. Recupero FOGLIO SPECIALE CON LaResistenza.Lore3 @ 3607,11924,2 e Uccidi 200 Zombie (3000rep + 120$ + LabItems.CmpSyringeWithCure)
-                4. Recupero FOGLIO SPECIALE CON LaResistenza.Lore4 @ (3603,11382,3) e Uccidi 200 Zombie (3500rep + 120$ + LabItems.CmpSyringeWithCure)
+                1. Recupero FOGLIO SPECIALE CON LORE LR.Lore1 @ (3949,11303,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
+                2. Recupero FOGLIO SPECIALE CON LR.Lore2 @ (4114,12446,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
+                3. Recupero FOGLIO SPECIALE CON LR.Lore3 @ 3607,11924,2 e Uccidi 200 Zombie (3000rep + 120$ + LabItems.CmpSyringeWithCure)
+                4. Recupero FOGLIO SPECIALE CON LR.Lore4 @ (3603,11382,3) e Uccidi 200 Zombie (3500rep + 120$ + LabItems.CmpSyringeWithCure)
 ]]
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -95,7 +95,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_HarperWells1_A",
         text = "IGUI_SFQuest_Questyno_HarperWells1_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoHarperWells1;additem;LaResistenza.Lore1;1"
+        oncompleted = "removeclickevent;EventoHarperWells1;additem;LR.Lore1;1"
     },{
         guid = "Questyno_HarperWells1_B",
         text = "IGUI_SFQuest_Questyno_HarperWells1_B",
@@ -115,7 +115,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_HarperWells2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells1_A_Lore" },
-    needsitem = "LaResistenza.Lore1;1",
+    needsitem = "LR.Lore1;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells1_Complete",
     text = "IGUI_SFQuest_Questyno_HarperWells1_A_Text",
     texture = "media/textures/Item_HarperWells.png",
@@ -130,7 +130,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_HarperWells2_A",
         text = "IGUI_SFQuest_Questyno_HarperWells2_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoHarperWells2;additem;LaResistenza.Lore2;1"
+        oncompleted = "removeclickevent;EventoHarperWells2;additem;LR.Lore2;1"
     },{
         guid = "Questyno_HarperWells2_B",
         text = "IGUI_SFQuest_Questyno_HarperWells2_B",
@@ -150,7 +150,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_HarperWells3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells2_A_Lore" },
-    needsitem = "LaResistenza.Lore2;1",
+    needsitem = "LR.Lore2;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells2_Complete",
     text = "IGUI_SFQuest_Questyno_HarperWells2_A_Text",
     texture = "media/textures/Item_HarperWells.png",
@@ -165,7 +165,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_HarperWells3_A",
         text = "IGUI_SFQuest_Questyno_HarperWells3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoHarperWells3;additem;LaResistenza.Lore3;1"
+        oncompleted = "removeclickevent;EventoHarperWells3;additem;LR.Lore3;1"
     },{
         guid = "Questyno_HarperWells3_B",
         text = "IGUI_SFQuest_Questyno_HarperWells3_B",
@@ -185,7 +185,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_HarperWells4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells3_A_Lore" },
-    needsitem = "LaResistenza.Lore3;1",
+    needsitem = "LR.Lore3;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells3_Complete",
     text = "IGUI_SFQuest_Questyno_HarperWells3_A_Text",
     texture = "media/textures/Item_HarperWells.png",
@@ -200,7 +200,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_HarperWells4_A",
         text = "IGUI_SFQuest_Questyno_HarperWells4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoHarperWells4;additem;LaResistenza.Lore4;1"
+        oncompleted = "removeclickevent;EventoHarperWells4;additem;LR.Lore4;1"
     },{
         guid = "Questyno_HarperWells4_B",
         text = "IGUI_SFQuest_Questyno_HarperWells4_B",
@@ -220,7 +220,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_HarperWells1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells4_A_Lore" },
-    needsitem = "LaResistenza.Lore4;1",
+    needsitem = "LR.Lore4;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells4_Complete",
     text = "IGUI_SFQuest_Questyno_HarperWells4_A_Text",
     texture = "media/textures/Item_HarperWells.png",
@@ -232,9 +232,9 @@ table.insert(SFQuest_Database.QuestPool, {
             Elenco:
                 intro. Incontra Grace Chambers.
                 1. Recupero LabItems.CmpSyringeWithAdvancedVaccine;4 @ (12930,2008,0) (2400rep + LabItems.CmpSyringeWithAdvancedVaccine)
-                2. Recupero LabItems.CmpSyringeWithAdvancedVaccine;4 @ (13839,10064,0) e Recupero FOGLIO SPECIALE CON LaResistenza.Lore5 @ 13910,9939,0 (2500rep + LabItems.CmpSyringeWithAdvancedVaccine;2)
+                2. Recupero LabItems.CmpSyringeWithAdvancedVaccine;4 @ (13839,10064,0) e Recupero FOGLIO SPECIALE CON LR.Lore5 @ 13910,9939,0 (2500rep + LabItems.CmpSyringeWithAdvancedVaccine;2)
                 3. LabItems.CmpSyringeWithAdvancedVaccine @  12422,1755,0 e Uccidi 100 Zombie (3000rep + LabItems.CmpSyringeWithAdvancedVaccine)
-                4. Recupero FOGLIO SPECIALE CON LaResistenza.Lore6 @ 13602,1563,0 e LabItems.CmpFlaskWithLeukocytes @ 13402,1893,0 (800rep + 1000$)
+                4. Recupero FOGLIO SPECIALE CON LR.Lore6 @ 13602,1563,0 e LabItems.CmpFlaskWithLeukocytes @ 13402,1893,0 (800rep + 1000$)
 ]]
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -263,7 +263,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GraceChambers1_Text",
     texture = "media/textures/Item_GraceChambers.png",
     title = "IGUI_SFQuest_Questyno_GraceChambers1_Title",
-    unlocks = "clickevent;12930x2008x0:EventoGraceChambers1;time:50:anim:loot;updateobjective:Questyno_GraceChambers1:1:Completed", -- ZOMBIE REQUEST
+    unlocks = "clickevent;12930x2008x1:EventoGraceChambers1;time:50:anim:loot;updateobjective:Questyno_GraceChambers1:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -294,12 +294,12 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers2_B",
         text = "IGUI_SFQuest_Questyno_GraceChambers2_B",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGraceChambers2A;additem;LaResistenza.Lore5;1"
+        oncompleted = "removeclickevent;EventoGraceChambers2A;additem;LR.Lore5;1"
     }},
     text = "IGUI_SFQuest_Questyno_GraceChambers2_Text",
     texture = "media/textures/Item_GraceChambers.png",
     title = "IGUI_SFQuest_Questyno_GraceChambers2_Title",
-    unlocks = "clickevent;13839x10064x0:EventoGraceChambers2;time:50:anim:loot;updateobjective:Questyno_GraceChambers2:1:Completed;clickevent;13910x9939x0:EventoGraceChambers2A;time:50:anim:loot;updateobjective:Questyno_GraceChambers2:2:Completed", -- ZOMBIE REQUEST
+    unlocks = "clickevent;13839x10064x0:EventoGraceChambers2;time:50:anim:loot;updateobjective:Questyno_GraceChambers2:1:Completed;clickevent;13910x9939x1:EventoGraceChambers2A;time:50:anim:loot;updateobjective:Questyno_GraceChambers2:2:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -317,8 +317,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers2_D",
         text = "IGUI_SFQuest_Questyno_GraceChambers2_D",
         hidden = false,
-        needsitem = "LaResistenza.Lore5;1",
-        onobtained = "updateobjective;Questyno_GraceChambers2_A;2;Completed;removeitem;LaResistenza.Lore5;1"
+        needsitem = "LR.Lore5;1",
+        onobtained = "updateobjective;Questyno_GraceChambers2_A;2;Completed;removeitem;LR.Lore5;1"
     }},
     text = "IGUI_SFQuest_Questyno_GraceChambers2_Text",
     texture = "media/textures/Item_GraceChambers.png",
@@ -381,7 +381,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers4_A",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LaResistenza.Lore6;1;clickevent;13602x1563x0:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore"
+        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13602x1563x0:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore"
     },{
         guid = "Questyno_GraceChambers4_B",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_B",
@@ -403,8 +403,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers4_C",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_C",
         hidden = false,
-        needsitem = "LaResistenza.Lore6;1",
-        onobtained = "updateobjective;Questyno_GraceChambers4_A;1:Completed;removeitem;LaResistenza.Lore6;1"
+        needsitem = "LR.Lore6;1",
+        onobtained = "updateobjective;Questyno_GraceChambers4_A;1:Completed;removeitem;LR.Lore6;1"
     },{
         guid = "Questyno_GraceChambers4_D",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_D",
