@@ -6377,5 +6377,126 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller6_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9929,12681,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
+--[[
+            *** Gabriel Walker ***
+            Elenco:
+                intro. Incontra Gabriel Walker.
+				1. Recuperare 10$, Recuperare MoneyToXp.Droga1 parlando con (8553,7690,0) (25rep)
+				2. Recuperare 15$, Recuperare MoneyToXp.Droga1 parlando con (10230,8317,0) (25rep)
+				3. Recuperare 10$, Recuperare MoneyToXp.Droga1 parlando con (7686,11593,0) (25rep)
+				4. Recuperare 10$, Recuperare MoneyToXp.Droga1 parlando con (7019,8211,0) (25rep)
+				5. Recuperare 20$, Recuperare MoneyToXp.Droga1 parlando con (9196,9997,0) (25rep)
+				6. Recuperare 25$, Recuperare MoneyToXp.Droga2 parlando con (7930,10645,2) (25rep)
+				7. Recuperare 20$, Recuperare MoneyToXp.Droga2 parlando con (4720,6776,2) (25rep)
+				8. Recuperare 25$, Recuperare MoneyToXp.Droga2 parlando con (12184,12066,0) (25rep)
+				9. Recuperare 30$, Recuperare MoneyToXp.Droga3 parlando con (7340,7239,0) (25rep)
+]]
 
+    IGUI_SFQuest_Questyno_GabrielWalker_Name = "Gabriel Walker",
+
+    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text = "Incontra Gabriel Walker. [Mensili]",
+    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Lore = "Gabriel è un tipo ambiguo, dice che può fornimi delle droghe che possono aprirmi la mente. Sembra isolato dal gruppo, non so se fidarmi di lui e delle sue droghe. Lo trovo alla Tana disposto a darmi qualche indirizzo dei suoi vecchi "dipendenti" ogni mese.",
+    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Complete_Text = "Ciao io sono Gabriel. Se ti fidi di me, ti darò un modo per migliorare le tue prestazioni sotto qualsiasi aspetto. Tutto quello che mi server sono un pò di contatti, più me ne darai più le tue prestazioni potrebbero salire! Dovrai solo raggiungere le abitazioni dei miei vecchi spacciatori, cosa ne pensi?",
+
+    
+    IGUI_SFQuest_Questyno_GabrielWalker1_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel mi ha chiesto 10$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text = "Sono certo che troverai una pasticchina speciale a Greenleaf. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker1_A = "10$",
+	IGUI_SFQuest_Questyno_GabrielWalker1_B = "Cerca a Greenleaf (8553,7690,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker1_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker1_A_Lore = "Dovrei trovarla in cucina in una casa a Greenleaf (8553,7690,0)"
+
+	IGUI_SFQuest_Questyno_GabrielWalker2_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker2_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker2_Lore = "Gabriel mi ha chiesto 15$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text = "Sono certo che troverai una pasticchina speciale a Springwood. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker2_A = "15$",
+	IGUI_SFQuest_Questyno_GabrielWalker2_B = "Cerca a Springwood (10230,8317,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker2_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker2_A_Lore = "Dovrei trovarla in cucina in una casa a Springwood (10230,8317,0)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker3_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker3_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker3_Lore = "Gabriel mi ha chiesto 10$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text = "Sono certo che troverai una pasticchina speciale a Springwood. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker3_A = "10$",
+	IGUI_SFQuest_Questyno_GabrielWalker3_B = "Cerca a Springwood (7686,11593,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker3_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker3_A_Lore = "Dovrei trovarla in cucina in una casa a Springwood (7686,11593,0)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker4_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker4_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker4_Lore = "Gabriel mi ha chiesto 10$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text = "Sono certo che troverai una pasticchina speciale a New Ekron. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker4_A = "10$",
+	IGUI_SFQuest_Questyno_GabrielWalker4_B = "Cerca a New Ekron (7019,8211,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker4_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker4_A_Lore = "Dovrei trovarla in cucina in una casa a New Ekron (7019,8211,0)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker5_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker5_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker5_Lore = "Gabriel mi ha chiesto 20$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text = "Sono certo che troverai una pasticchina speciale a Lake Ivy. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker5_A = "20$",
+	IGUI_SFQuest_Questyno_GabrielWalker5_B = "Cerca a Lake Ivy (9196,9997,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker5_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker5_A_Lore = "Dovrei trovarla in cucina in una casa a Lake Ivy (9196,9997,0)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker6_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker6_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker6_Lore = "Gabriel mi ha chiesto 25$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text = "Sono certo che troverai una pasticchina speciale a Blackwood. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker6_A = "25$",
+	IGUI_SFQuest_Questyno_GabrielWalker6_B = "Cerca a Blackwood (7930,10645,2)",
+	IGUI_SFQuest_Questyno_GabrielWalker6_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker6_A_Lore = "Dovrei trovarla in cucina in una casa a Blackwood (7930,10645,2)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker7_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker7_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker7_Lore = "Gabriel mi ha chiesto 20$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text = "Sono certo che troverai una pasticchina speciale a Chestown. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker7_A = "20$",
+	IGUI_SFQuest_Questyno_GabrielWalker7_B = "Cerca a Chestown (4720,6776,2)",
+	IGUI_SFQuest_Questyno_GabrielWalker7_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker7_A_Lore = "Dovrei trovarla in cucina in una casa a Chestown (4720,6776,2)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker8_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker8_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker8_Lore = "Gabriel mi ha chiesto 25$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text = "Sono certo che troverai una pasticchina speciale a St. Bernard's Hills. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker8_A = "25$",
+	IGUI_SFQuest_Questyno_GabrielWalker8_B = "Cerca a St.Bernard's Hills (12184,12066,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker8_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker8_A_Lore = "Dovrei trovarla in cucina in una casa a St.Bernard's Hills (12184,12066,0)"
+	
+	IGUI_SFQuest_Questyno_GabrielWalker9_Title = "Gabriel dalla Tana (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Text = "Soldi per Potenziamento",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Lore = "Gabriel mi ha chiesto 30$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "Sono certo che troverai una pasticchina speciale a Trelai. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A = "30$",
+	IGUI_SFQuest_Questyno_GabrielWalker9_B = "Cerca a Trelai (7340,7239,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A_Text = "Prendi la pasticchina in cucina",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "Dovrei trovarla in cucina in una casa a Trelai (7340,7239,0)"
+  
 }
