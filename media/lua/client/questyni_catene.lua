@@ -626,7 +626,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown5",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardsitem = "Base.Money;50;PynoTweaks.SafehouseTicket;1", -- ITEM REWARD
+    awardsitem = "Base.Money;50;MoneyToXP.SafehouseTicket;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Begin;Questyno_RichardBrown6", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown5_Lore" },

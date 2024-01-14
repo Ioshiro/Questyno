@@ -5902,7 +5902,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
-    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che può essere utilizzato solo una volta e appena ritorno in città. Per ottenerlo mi chiede di uccidere 50 zombie.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi al Mercato della Tana ogni volta che ti ritroverai in questo luogo per 'gravi infortuni'. Ti va di averne uno? Uccidi altri 50 zombie!",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
