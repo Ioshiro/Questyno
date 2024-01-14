@@ -1,0 +1,61 @@
+Module LR{
+	imports
+	{
+		Base
+	}
+
+    	
+	item Lore1 {
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayCategory = 	Literature,
+		DisplayName		=	Lore 1,
+		Icon			=	Paper,        
+		WorldStaticModel = EmptyNotebook,
+	}
+
+    item Lore2 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 2,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore3 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 3,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore4 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 4,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore5 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 5,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore6 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 6,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+}

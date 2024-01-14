@@ -2191,3 +2191,27 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_O
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_OliviaChambers6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_OliviaChambers6", optional = true, text = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_OliviaChambers6_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_OliviaChambers6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_OliviaChambers6_A", text = "IGUI_SFQuest_Questyno_OliviaChambers6_Complete"})
+
+--[[ *** Harper Wells Raven Creek (4866,11186,0) ***
+            Elenco:
+                intro. Incontra Harper Wells.
+                1. Recupero FOGLIO SPECIALE CON LORE LR.Lore1 @ (3949,11303,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
+                2. Recupero FOGLIO SPECIALE CON LR.Lore2 @ (4114,12446,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
+                3. Recupero FOGLIO SPECIALE CON LR.Lore3 @ 3607,11924,2 e Uccidi 200 Zombie (3000rep + 120$ + LabItems.CmpSyringeWithCure)
+                4. Recupero FOGLIO SPECIALE CON LR.Lore4 @ (3603,11382,3) e Uccidi 200 Zombie (3500rep + 120$ + LabItems.CmpSyringeWithCure)
+]]
+
+-- intro. parla con Harper Wells per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells_Intro", text = "IGUI_SFQuest_Questyno_HarperWells_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_HarperWells1", optional = true, text = "IGUI_SFQuest_Questyno_HarperWells1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_HarperWells1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_HarperWells1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_HarperWells1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells1_A", text = "IGUI_SFQuest_Questyno_HarperWells1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_HarperWells2", optional = true, text = "IGUI_SFQuest_Questyno_HarperWells2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_HarperWells2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells2_A", text = "IGUI_SFQuest_Questyno_HarperWells2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_HarperWells3", optional = true, text = "IGUI_SFQuest_Questyno_HarperWells3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_HarperWells3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_HarperWells3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_HarperWells3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells3_A", text = "IGUI_SFQuest_Questyno_HarperWells3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_HarperWells4", optional = true, text = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_HarperWells4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells4_A", text = "IGUI_SFQuest_Questyno_HarperWells4_Complete"})

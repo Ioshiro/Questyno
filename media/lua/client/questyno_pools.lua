@@ -575,6 +575,12 @@ Questyno = {
 		"Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers4_Begin;Questyno_OliviaChambers4",
 		"Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers5_Begin;Questyno_OliviaChambers5",
 		"Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers6_Begin;Questyno_OliviaChambers6",
+	},
+	HarperWells = {
+		"Questyno_HarperWells;SFQuest_Questyno_HarperWells1_Begin;Questyno_HarperWells1",
+		"Questyno_HarperWells;SFQuest_Questyno_HarperWells2_Begin;Questyno_HarperWells2",
+		"Questyno_HarperWells;SFQuest_Questyno_HarperWells3_Begin;Questyno_HarperWells3",
+		"Questyno_HarperWells;SFQuest_Questyno_HarperWells4_Begin;Questyno_HarperWells4",
 	}
 }
 
@@ -755,6 +761,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_HarperWells",
+	condition = "notmaxedwithcode;Questyno_HarperWells;1;hasfactiontier;HarperWells;2",
+	commands = "randomcodedworldfrompool;Questyno_HarperWells;Questyno;HarperWells",
+	days = 0,
+	frequency = 1
+});
 
 
 -- quest introduttive daily
@@ -783,6 +796,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_TaylorBlaze_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MarcusKane_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AlexMercer_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_OliviaChambers_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HarperWells_Intro" })
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
@@ -818,6 +832,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_TaylorBlaze" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarcusKane" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AlexMercer" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_OliviaChambers" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HarperWells" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })
