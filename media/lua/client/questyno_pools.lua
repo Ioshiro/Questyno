@@ -786,6 +786,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_OliviaChambers_I
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_BrianWhite_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JohnBaker_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EthanSteele_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Intro" })

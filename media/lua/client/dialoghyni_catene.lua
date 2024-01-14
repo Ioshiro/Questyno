@@ -63,6 +63,38 @@ table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_El
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_ElowenBeckett5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_ElowenBeckett5", text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Complete"})
 
 --[[
+            *** Brian White ***
+            Elenco:
+                intro. Incontra Brian White per sbloccare la catena.
+				1. Uccidere 50 Zombie (20rep + 10$)
+				2. Uccidere 100 Zombie (30rep + 10$)
+				3. Uccidere 200 Zombie (40rep + 10$)
+				4. Recuperare Base.CarBattery2 parlando con (9159,6127,0) (50rep + 10$)
+				5. Recuperare Base.NormalTire2 parlando con (10606,9409,0) (60rep + 10$)
+				6. Recuperare Base.NormalCarMuffler2 parlando con (8219,11552,0) (100rep + 50$ + Base.CarTicket)
+]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite_Intro", text = "IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite1", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite1", text = "IGUI_SFQuest_Questyno_BrianWhite1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite2", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite2", text = "IGUI_SFQuest_Questyno_BrianWhite2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite3", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite3", text = "IGUI_SFQuest_Questyno_BrianWhite3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite4", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite4_A", text = "IGUI_SFQuest_Questyno_BrianWhite4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite5", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite5_A", text = "IGUI_SFQuest_Questyno_BrianWhite5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_BrianWhite6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_BrianWhite6", optional = true, text = "IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_BrianWhite6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_BrianWhite6_A", text = "IGUI_SFQuest_Questyno_BrianWhite6_Complete"})
+
+--[[
         *** John Baker ***
         Elenco:
             intro. Parla con John Baker per sbloccare la catena di quest.
