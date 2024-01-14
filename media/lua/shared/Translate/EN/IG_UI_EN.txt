@@ -6317,7 +6317,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller1_A = "Cerca a March Ridge (10420,12758,0)",
+	IGUI_SFQuest_Questyno_LucasMiller1_A = "2kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller1_B = "Cerca a March Ridge (10420,12758,0)",
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
@@ -6327,7 +6328,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller2_A = "Cerca a March Ridge (10223,12769,0)",
+    IGUI_SFQuest_Questyno_LucasMiller2_A = "2,5kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller2_B = "Cerca a March Ridge (10223,12769,0)",
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
@@ -6337,7 +6339,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller3_A = "Cerca a March Ridge (9976,12745,0)",
+	IGUI_SFQuest_Questyno_LucasMiller3_A = "3kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller3_B = "Cerca a March Ridge (9976,12745,0)",
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 	
@@ -6347,7 +6350,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller4_A = "Cerca a March Ridge (9916,12880,0)",
+    IGUI_SFQuest_Questyno_LucasMiller4_A = "3,2kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller4_B = "Cerca a March Ridge (9916,12880,0)",
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
@@ -6357,7 +6361,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller5_A = "Cerca a March Ridge (9942,13020,0)",
+    IGUI_SFQuest_Questyno_LucasMiller5_A = "4kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller5_B = "Cerca a March Ridge (9942,13020,0)",
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
@@ -6367,7 +6372,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller6_A = "Cerca a March Ridge (9929,12681,0)",
+	IGUI_SFQuest_Questyno_LucasMiller6_A = "1,5kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller6_B = "Cerca a March Ridge (9929,12681,0)",
 	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Prendi i soldi in una casa",
 	IGUI_SFQuest_Questyno_LucasMiller6_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9929,12681,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
