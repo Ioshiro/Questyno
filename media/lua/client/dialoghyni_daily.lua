@@ -2215,3 +2215,29 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_H
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_HarperWells4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_HarperWells4", optional = true, text = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_HarperWells4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_HarperWells4_A", text = "IGUI_SFQuest_Questyno_HarperWells4_Complete"})
+
+
+--[[
+            *** Grace Chambers da Louisville (13555,4142,0)  ***
+            Elenco:
+                intro. Incontra Grace Chambers.
+                1. Recupero LabItems.CmpSyringeWithAdvancedVaccine;4 @ (12930,2008,0) (2400rep + LabItems.CmpSyringeWithAdvancedVaccine)
+                2. Recupero LabItems.CmpSyringeWithAdvancedVaccine;4 @ (13839,10064,0) e Recupero FOGLIO SPECIALE CON LR.Lore5 @ 13910,9939,0 (2500rep + LabItems.CmpSyringeWithAdvancedVaccine;2)
+                3. LabItems.CmpSyringeWithAdvancedVaccine @  12422,1755,0 e Uccidi 100 Zombie (3000rep + LabItems.CmpSyringeWithAdvancedVaccine)
+                4. Recupero FOGLIO SPECIALE CON LR.Lore6 @ 13602,1563,0 e LabItems.CmpFlaskWithLeukocytes @ 13402,1893,0 (800rep + 1000$)
+]]
+
+-- intro. parla con Grace Chambers per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers_Intro", text = "IGUI_SFQuest_Questyno_GraceChambers_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GraceChambers1", optional = true, text = "IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GraceChambers1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers1_A", text = "IGUI_SFQuest_Questyno_GraceChambers1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GraceChambers2", optional = true, text = "IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GraceChambers2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GraceChambers2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers2_B", text = "IGUI_SFQuest_Questyno_GraceChambers2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GraceChambers3", optional = true, text = "IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GraceChambers3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GraceChambers3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers3_A", text = "IGUI_SFQuest_Questyno_GraceChambers3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GraceChambers4", optional = true, text = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GraceChambers4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers4_B", text = "IGUI_SFQuest_Questyno_GraceChambers4_Complete"})
