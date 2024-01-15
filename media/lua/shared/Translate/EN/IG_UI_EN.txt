@@ -6596,6 +6596,26 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_DylanHarris7_B = "Cerca a Bedford Fall (14031,10945,0)",
 	IGUI_SFQuest_Questyno_DylanHarris7_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris7_A_Lore = "Dovrebbe essere nella cucina a 14031,10945,0"
+
+--[[
+            *** Lincoln Reed ***
+            Elenco:
+                intro. Incontra Lincoln Reed.
+				1. Recuperare 50$ (250rep)
+]]
+
+    IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed",
+
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Text = "Incontra Lincoln Reed. [Mensile]",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore = "Lincoln mantiene la diplomazia fra tutti i Clan che continuano a crearsi e tiene il conto della moneta che circola. E' un punto di riferimento per tutta La Resistenza e accetta sempre donazioni in contanti per la causa.",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text = "Ciao giovanotto, io sono Lincoln Reed. Chiunque abbia indossato un Poncho giallo mi conosce e nessuno prova a fregarmi. Quando sono arrivato in questo posto ho trovato il Sergente Grif con il quale mi sono subito trovato d'accordo. Abbiamo convenuto che fosse importante riuscire a mantenere il contante in questa nuova società per agevolare gli scambi. Ogni mese qualcuno dona spontaneamente ciò che può per la Causa. Spero farai lo stesso!",
+
+    
+    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
+    IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andranno bene 50$?",
+
 	
 
 }
