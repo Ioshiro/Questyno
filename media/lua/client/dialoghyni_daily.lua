@@ -2258,19 +2258,81 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_G
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller_Intro", text = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Complete_Text"})	
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller1", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller1_A", text = "IGUI_SFQuest_Questyno_LucasMiller1_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller1", text = "IGUI_SFQuest_Questyno_LucasMiller1_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller2", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller2_A", text = "IGUI_SFQuest_Questyno_LucasMiller2_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller2", text = "IGUI_SFQuest_Questyno_LucasMiller2_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller3", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller3_A", text = "IGUI_SFQuest_Questyno_LucasMiller3_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller3", text = "IGUI_SFQuest_Questyno_LucasMiller3_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller4", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller4_A", text = "IGUI_SFQuest_Questyno_LucasMiller4_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller4", text = "IGUI_SFQuest_Questyno_LucasMiller4_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller5", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller5_A", text = "IGUI_SFQuest_Questyno_LucasMiller5_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller5", text = "IGUI_SFQuest_Questyno_LucasMiller5_Complete"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller6", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Declined"})
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller6_A", text = "IGUI_SFQuest_Questyno_LucasMiller6_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller6", text = "IGUI_SFQuest_Questyno_LucasMiller6_Complete"})
+
+
+--[[
+            *** Maya Blackwell ***
+            Elenco:
+                intro. Incontra Maya Blackwell.
+				1. Recuperare Base.ScrapMetal;50 parlando con (4045,6247,0), Uccidere 100 Zombie (125rep + TW.WorkshopMag3)
+				2. Recuperare Base.ScrapMetal;70 parlando con (5832,4206,1), Uccidere 110 Zombie (125rep + TW.WorkshopMag4)
+				3. Recuperare Base.ScrapMetal;70 parlando con (4758,10173,0), Uccidere 200 Zombie (150rep + Tw.WorkshopMag1,Tw.WorkshopMag2;Tw.WorkshopMag3)
+				4. Recuperare Base.ScrapMetal;70 parlando con (7005,5590,0), Uccidere 200 Zombie (100rep + SWeapons.WeaponMag1)
+				5. Recuperare Base.ScrapMetal;40 parlando con (4633,6674,0), Uccidere 200 Zombie (150rep + SWeapons.WeaponMag2,SWeapons.WeaponsMag4)
+				6. Recuperare Base.ScrapMetal;50 parlando con (6619,10438,0), Uccidere 200 Zombie (150rep + SWeapons.WeaponMag3)
+				7. Recuperare Base.ScrapMetal;65 parlando con (7633,11463,0), Uccidere 200 Zombie (160rep + SArmor.ArmorMag1)
+				8. Recuperare Base.ScrapMetal;65 parlando con (7840,10719,0), Uccidere 200 Zombie (200rep + SArmor.ArmorMag3)
+				9. Recuperare Base.ScrapMetal;60 parlando con (7162,7487,0), Uccidere 200 Zombie (300rep + SWeapons.WeaponsMag5)
+				10. Recuperare Base.ScrapMetal;60 parlando con (3983,9166,0), Uccidere 125 Zombie (200rep + SArmor.ArmorMag4)
+				11. Recuperare Base.ScrapMetal;50 parlando con (7289,7573,0), Uccidere 125 Zombie (200rep + SWeapons.WeaponsMag6)
+				12. Recuperare Base.ScrapMetal;50 parlando con (4625,6732,0), Uccidere 140 Zombie (200rep + SArmor.ArmorMag5)
+				13. Recuperare Base.ScrapMetal;50 parlando con (8228,10989,0), Uccidere 150 Zombie (200rep + SArmor.ArmorMag2)
+]]
+
+-- intro. parla con Maya Blackwell per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell_Intro", text = "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell1", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell1_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell2", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell2_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell3", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell3_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell4", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell4_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell5", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell5_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell6", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell6_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell7", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell7_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell8", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell8_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell9", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell9_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell9_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell10_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell10", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell10_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell10_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell10_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell11_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell11", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell11_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell11_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell11_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell12_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell12", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell12_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell12_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell12_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell13", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell13_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Complete"})

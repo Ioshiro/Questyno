@@ -595,6 +595,21 @@ Questyno = {
 		"Questyno_LucasMiller;SFQuest_Questyno_LucasMiller4_Begin;Questyno_LucasMiller4",
 		"Questyno_LucasMiller;SFQuest_Questyno_LucasMiller5_Begin;Questyno_LucasMiller5",
 		"Questyno_LucasMiller;SFQuest_Questyno_LucasMiller6_Begin;Questyno_LucasMiller6",
+	},
+	MayaBlackwell = {
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell1_Begin;Questyno_MayaBlackwell1",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell2_Begin;Questyno_MayaBlackwell2",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell3_Begin;Questyno_MayaBlackwell3",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell4_Begin;Questyno_MayaBlackwell4",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell5_Begin;Questyno_MayaBlackwell5",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell6_Begin;Questyno_MayaBlackwell6",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell7_Begin;Questyno_MayaBlackwell7",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell8_Begin;Questyno_MayaBlackwell8",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell9_Begin;Questyno_MayaBlackwell9",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell10_Begin;Questyno_MayaBlackwell10",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell11_Begin;Questyno_MayaBlackwell11",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell12_Begin;Questyno_MayaBlackwell12",
+		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell13_Begin;Questyno_MayaBlackwell13",
 	}
 }
 
@@ -796,6 +811,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MayaBlackwell",
+	condition = "notmaxedwithcode;Questyno_MayaBlackwell;1;hasfactiontier;MayaBlackwell;2",
+	commands = "randomcodedworldfrompool;Questyno_MayaBlackwell;Questyno;MayaBlackwell",
+	days = 0,
+	frequency = 1
+});
 
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
@@ -826,6 +848,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_OliviaChambers_I
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HarperWells_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GraceChambers_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LucasMiller_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MayaBlackwell_Intro" })
 
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
@@ -866,6 +889,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_OliviaChambers" 
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HarperWells" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GraceChambers" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LucasMiller" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

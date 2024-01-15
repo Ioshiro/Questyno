@@ -74,13 +74,13 @@ SFQuest_Database.MannequinPool["9331x8640x0"] = {
 -- Angelica Stella  9344x8618,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_AngelicaStella",
-    square = "9344x8618x0",
+    square = "9343x8602x0",
     name = "IGUI_SFQuest_Questyno_AngelicaStella_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_AngelicaStella.png",
 })
 
-SFQuest_Database.MannequinPool["9344x8618x0"] = {
+SFQuest_Database.MannequinPool["9343x8602x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "S",
     beard = "",
@@ -105,16 +105,16 @@ SFQuest_Database.MannequinPool["9315x8624x0"] = {
     outfit = "TraderBandit"
 }
 
--- Elia Rima  9330x8631,0
+-- Elia Rima  9342x8613x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_EliaRima",
-    square = "9330x8631x0",
+    square = "9342x8613x0",
     name = "IGUI_SFQuest_Questyno_EliaRima_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_EliaRima.png",
 })
 
-SFQuest_Database.MannequinPool["9330x8631x0"] = {
+SFQuest_Database.MannequinPool["9342x8613x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "",
@@ -133,7 +133,7 @@ table.insert(SFQuest_Database.WorldPool, {
 
 SFQuest_Database.MannequinPool["9340x8578x0"] = {
     sprite = "location_shop_mall_01_68",
-    direction = "E",
+    direction = "S",
     beard = "",
     hair = "Bald",
     outfit = "TraderBandit"
@@ -184,7 +184,7 @@ table.insert(SFQuest_Database.WorldPool, {
 
 SFQuest_Database.MannequinPool["9277x8491x0"] = {
     sprite = "location_shop_mall_01_65",
-    direction = "E",
+    direction = "S",
     beard = "",
     hair = "Bald",
     outfit = "TraderBandit"
@@ -202,80 +202,80 @@ SFQuest_Database.MannequinPool["9277x8491x0"] = {
                         6. David Turner (10839x9071x0)
 ]]
 
--- Victoria Secret 10827,9074,0
+-- Victoria Secret 10830,9067,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_VictoriaSecret",
-    square = "10827x9074x0",
+    square = "10830x9067x0",
     name = "IGUI_SFQuest_Questyno_VictoriaSecret_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_VictoriaSecret.png",
 })
 
-SFQuest_Database.MannequinPool["10827x9074x0"] = {
+SFQuest_Database.MannequinPool["10830x9067x0"] = {
     sprite = "location_shop_mall_01_65",
-    direction = "E",
+    direction = "W",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- Dr. Susan Lee 10831,9073,0
+-- Dr. Susan Lee 10822x9072x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_SusanLee",
-    square = "10831x9073x0",
+    square = "10822x9072x0",
     name = "IGUI_SFQuest_Questyno_SusanLee_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_SusanLee.png",
 })
 
-SFQuest_Database.MannequinPool["10831x9073x0"] = {
+SFQuest_Database.MannequinPool["10822x9072x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- George Scott 10830,9078,0
+-- George Scott 10830x9068x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_GeorgeScott",
-    square = "10830x9078x0",
+    square = "10830x9068x0",
     name = "IGUI_SFQuest_Questyno_GeorgeScott_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_GeorgeScott.png",
 })
 
-SFQuest_Database.MannequinPool["10830x9078x0"] = {
+SFQuest_Database.MannequinPool["10830x9068x0"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "E",
+    direction = "S",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- Samuel Young 10824,9065,0
+-- Samuel Young 10823x9066x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_SamuelYoung",
-    square = "10824x9065x0",
+    square = "10823x9066x0",
     name = "IGUI_SFQuest_Questyno_SamuelYoung_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_SamuelYoung.png",
 })
 
-SFQuest_Database.MannequinPool["10824x9065x0"] = {
+SFQuest_Database.MannequinPool["10823x9066x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- Xu Mishura 10844,9074,0
+-- Xu Mishura 10827,9070,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_XuMishura",
-    square = "10844x9074x0",
+    square = "10827x9070x0",
     name = "IGUI_SFQuest_Questyno_XuMishura_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_XuMishura.png",
 })
 
-SFQuest_Database.MannequinPool["10844x9074x0"] = {
+SFQuest_Database.MannequinPool["10827x9070x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
@@ -309,48 +309,48 @@ SFQuest_Database.MannequinPool["10839x9071x0"] = {
                         6. Sam Fisher (10153,6571,0)
 ]]
 
--- Tony "Lupo" 
+-- Tony "Lupo"  10161x6621x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_TonyLupo",
-    square = "10157x6611x0",
+    square = "10161x6621x0",
     name = "IGUI_SFQuest_Questyno_TonyLupo_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_TonyLupo.png",
 })
 
-SFQuest_Database.MannequinPool["10157x6611x0"] = {
+SFQuest_Database.MannequinPool["10161x6621x0"] = {
     sprite = "location_shop_mall_01_69",
-    direction = "E",
+    direction = "S",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- Rafael Prezioso 10152,6622,1
+-- Rafael Prezioso 10161x6621x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_RafaelPrezioso",
-    square = "10156x6611x0",
+    square = "10161x6621x0",
     name = "IGUI_SFQuest_Questyno_RafaelPrezioso_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_RafaelPrezioso.png",
 })
 
-SFQuest_Database.MannequinPool["10156x6611x0"] = {
+SFQuest_Database.MannequinPool["10161x6621x0"] = {
     sprite = "location_shop_mall_01_69",
-    direction = "E",
+    direction = "S",
     beard = "",
     outfit = "TraderBandit"
 }
 
--- Jeffrey Lewis 10150,6620,0
+-- Jeffrey Lewis 10149,6622,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_JeffreyLewis",
-    square = "10156x6612x0",
+    square = "10149x6622x0",
     name = "IGUI_SFQuest_Questyno_JeffreyLewis_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_JeffreyLewis.png",
 })
 
-SFQuest_Database.MannequinPool["10156x6612x0"] = {
+SFQuest_Database.MannequinPool["10149x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
@@ -407,22 +407,22 @@ SFQuest_Database.MannequinPool["10153x6571x0"] = {
 --[[
                                                     *** NPC CATENE SPAWN ***
                     Elenco:
-                        1. Ezekiel Flynn (9345x8618x0)
-                        2. Elowen Beckett (9330x8632x0)
+                        1. Ezekiel Flynn (9327x8596x0)
+                        2. Elowen Beckett (9324,8598,0)
 ]]
 
--- Ezekiel Flynn
+-- Ezekiel Flynn 9327x8596x0 Sud
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_EzekielFlynn",
-    square = "9345x8618x0",
+    square = "9327x8596x0",
     name = "IGUI_SFQuest_Questyno_EzekielFlynn_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_EzekielFlynn.png",
 })
 
-SFQuest_Database.MannequinPool["9345x8618x0"] = {
+SFQuest_Database.MannequinPool["9327x8596x0"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "E",
+    direction = "s",
     beard = "PointyChin",
     beardcolor = "0.8,0.8,0.8",
     hair = "Recede",
@@ -430,16 +430,16 @@ SFQuest_Database.MannequinPool["9345x8618x0"] = {
     outfit = "PonchoGiallo"
 }
 
--- Elowen Beckett
+-- Elowen Beckett 9324x8598x0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_ElowenBeckett",
-    square = "9330x8632x0",
+    square = "9324x8598x0",
     name = "IGUI_SFQuest_Questyno_ElowenBeckett_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_ElowenBeckett.png",
 })
 
-SFQuest_Database.MannequinPool["9330x8632x0"] = {
+SFQuest_Database.MannequinPool["9324x8598x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
@@ -628,6 +628,23 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["13555x4142x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- MayaBlackwell Redfordville (3637,7302,0) Est
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_MayaBlackwell",
+    square = "3637x7302x0",
+    name = "IGUI_SFQuest_Questyno_MayaBlackwell_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_MayaBlackwell.png",
+})
+
+SFQuest_Database.MannequinPool["3637x7302x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
