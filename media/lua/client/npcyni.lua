@@ -202,18 +202,18 @@ SFQuest_Database.MannequinPool["9277x8491x0"] = {
                         6. David Turner (10839x9071x0)
 ]]
 
--- Victoria Secret 10830,9067,0
+-- Victoria Secret 10824x9070x1
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_VictoriaSecret",
-    square = "10830x9067x0",
+    square = "10824x9070x1",
     name = "IGUI_SFQuest_Questyno_VictoriaSecret_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_VictoriaSecret.png",
 })
 
-SFQuest_Database.MannequinPool["10830x9067x0"] = {
+SFQuest_Database.MannequinPool["10824x9070x1"] = {
     sprite = "location_shop_mall_01_65",
-    direction = "W",
+    direction = "E",
     beard = "",
     outfit = "TraderBandit"
 }
@@ -266,18 +266,18 @@ SFQuest_Database.MannequinPool["10823x9066x0"] = {
     outfit = "TraderBandit"
 }
 
--- Xu Mishura 10827,9070,0
+-- Xu Mishura 10829,9072,1
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_XuMishura",
-    square = "10827x9070x0",
+    square = "10829x9072x1",
     name = "IGUI_SFQuest_Questyno_XuMishura_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_XuMishura.png",
 })
 
-SFQuest_Database.MannequinPool["10827x9070x0"] = {
+SFQuest_Database.MannequinPool["10829x9072x1"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "E",
+    direction = "N",
     beard = "",
     outfit = "TraderBandit"
 }

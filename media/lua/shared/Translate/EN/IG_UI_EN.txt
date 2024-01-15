@@ -2459,13 +2459,13 @@ IGUI_EN = {
 ]]
     IGUI_SFQuest_Questyno_VictoriaSecret_Name = "Victoria Secret", 
 
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title = "Victoria Secret 10830,9067,0",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title = "Victoria Secret 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text = "Incontra Victoria Secret [Settimanali]",
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore = "Salve, io sono Victoria. Prima dell'apocalisse, ero un'icona della moda e della bellezza. Anche in questo mondo caotico, non ho perso il mio amore per la moda e il glamour. Ora, ho bisogno di te per recuperare alcuni pezzi di alta moda da una boutique di lusso nel centro commerciale. È fondamentale che mantenga il mio stile e la mia eleganza, anche in mezzo agli orrori degli zombi. Non intendo apparire trasandata! Ho bisogno di te per andare lì, prendere quei vestiti e assicurarti che siano in perfette condizioni. Ogni tessuto, ogni dettaglio deve essere impeccabile.",
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Salve, io sono Victoria. Prima dell'apocalisse, ero un'icona della moda e della bellezza. Anche in questo mondo caotico, non ho perso il mio amore per la moda e il glamour. Ora, ho bisogno di te per recuperare alcuni pezzi di alta moda da una boutique di lusso nel centro commerciale. È fondamentale che mantenga il mio stile e la mia eleganza, anche in mezzo agli orrori degli zombi. Non intendo apparire trasandata! Ho bisogno di te per andare lì, prendere quei vestiti e assicurarti che siano in perfette condizioni. Ogni tessuto, ogni dettaglio deve essere impeccabile.",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore = "Victoria fa parte di un piccolo gruppo a Nord di Muldraugh che si è spostato dalla Tana. Ha bisogno di qualcuno che non le faccia vedere che sta invecchiando male. Dovrei girare dei centri commerciali per recuperarle dei fottuti vestiti! Pazzesco.",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Salve, io sono Victoria. Prima dell'apocalisse, ero un'icona della moda e della bellezza, mi avrai sicuramente visto su qualche cartellone pubblicitaro, vero?.Anche in questo mondo caotico, non ho perso il mio amore per la moda e il glamour. Prima facevo parte della Tana, ma alla fine ho deciso di trasferirmi qua perchè non riuscivo più a sopportare quell'oca di Angelica, l'hai conosciuta? È fondamentale che mantenga il mio stile e la mia eleganza, anche in mezzo agli orrori degli zombi. Non intendo apparire trasandata! Il mio è un servizio per la comunità, risollevo l'umore delle truppe! In oltre ultimamente George sta passando un pò troppo tempo alla Tana, forse non gli piace più come mi trucco?! Avrei bisogno di te per recuperare alcuni pezzi di alta moda da una boutique di lusso nel centro commerciale. Pensi di potermi dare una mano? ",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti da una boutique. ",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret1_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret1_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Text = "Scarpette per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Lore = "Victoria vuole che le trovi delle Scarpe eleganti nel negozio di Ztardew Valley (17334,6563,0) ",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Begin_Text = "Non voglio apparire trasandata, recupera le scarpette eleganti che si trovano nell'area commerciale di Ztardew Valley",
@@ -2475,7 +2475,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret1_A = "Cerca a Ztardew Valley (17334,6563,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret1_A_Text = "Porta le scarpette a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret2_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret2_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret2_Text = "Vestiti per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret2_Lore = "Victoria vuole che recuperi un vestito particolare a Bernard's Hill (12241,11879,0). Speriamo di non trovare molta resistenza.",
     IGUI_SFQuest_Questyno_VictoriaSecret2_Begin_Text = "Non voglio apparire trasandata, recupera il vestito lungo che si trovana nell'area commerciale di St. Bernard's Hill",
@@ -2485,7 +2485,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret2_A = "Cerca a Bernard's Hill (12241,11879,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret2_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret3_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret3_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret3_Text = "Occhiali da sole per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret3_Lore = "Victoria vuole che mi diriga a Greenleaf (6525,10599,0) e recuperi un paio di occhiali da sole.",
     IGUI_SFQuest_Questyno_VictoriaSecret3_Begin_Text = "Non voglio apparire trasandata, recupera gli occhiali da sole che si trovanano nell'area commerciale di Greenleaf.",
@@ -2495,7 +2495,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret3_A = "Cerca a Greenleaf (6525,10599,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret3_A_Text = "Porta gli occhiali a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret4_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret4_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret4_Text = "Il rossetto di Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret4_Lore = "Victoria vuole che recuperi un rossetto da casa sua. Si trova precisaemente a Wilbore (4908,10172,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret4_Begin_Text = "Non voglio ricordarmi nel posto in cui mi trovo ogni volta che mi guardo allo specchio. Vai a casa mia a Wilbore e recupera i miei rossetti.",
@@ -2505,7 +2505,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret4_A = "Cerca a Wilbore (4908,10172,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret4_A_Text = "Porta il rossetto a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret5_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret5_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Text = "Un vestitino per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Lore = "Victoria vuole che recupero un vestito a Cathaya Valley (4003,9110,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Begin_Text = "Non pensi che avrei bisogno di qualcosa di più colorato? Vai all'outlet di Cathaya Valley, c'è una gonna che dovevo recuperare proprio quando è cominciato tutto questo!",
@@ -2515,7 +2515,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret5_A = "Cerca a Cathaya Valley (4003,9110,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret5_A_Text = "Porta la gonna a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret6_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret6_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret6_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret6_Lore = "Victoria vuole che recupero un vestito speciale a Coryerdon (8534,6437,1)",
     IGUI_SFQuest_Questyno_VictoriaSecret6_Begin_Text = "Non pensi che avrei bisogno di qualcosa di più colorato? Vai al centro commerciale di Coryerdon, c'è una gonna che devo assolutamente avere!",
@@ -2525,7 +2525,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret6_A = "Cerca a Coryerdon (8534,6437,1)",
 	IGUI_SFQuest_Questyno_VictoriaSecret6_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret7_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret7_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret7_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret7_Lore = "Victoria vuole che recupero un vestito colorato nel negozio di West Point (11874,6908,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret7_Begin_Text = "Non pensi che avrei bisogno di qualcosa di più colorato? Vai al centro commerciale di West Point, c'è una gonna che devo assolutamente avere!",
@@ -2535,7 +2535,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret7_A = "Cerca a West Point (11874,6908,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret7_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret8_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret8_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret8_Text = "Un berretto per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret8_Lore = "Victoria vuole che le recuperi un Berretto al centro commerciale di China Town (11207,8794,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret8_Begin_Text = "Mi sono stancata di questi stracci, ti prego trovami qualche altro vestito a basso costo nell'area commerciale di China Town!",
@@ -2545,7 +2545,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret8_A = "Cerca a China Town (11207,8794,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret8_A_Text = "Porta il berretto a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret9_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret9_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Lore = "Victoria vuole che le recuperi un vestito a Riverside (6399,5266,0). Come ci arrivo fino laggiù?",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Begin_Text = "Mi sono stancata di questi stracci, ti prego trovami qualche altro vestito! Fai un salto nell'area commerciale di Riverside.",
@@ -2555,7 +2555,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret9_A = "Cerca a Riverside (6399,5266,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret9_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret10_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret10_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret10_Text = "Le calze preferite di Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret10_Lore = "Victoria vuole che recuperi un vestito da Lake Cumberlands (16874,7265,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret10_Begin_Text = "Mi sono stancata di questi stracci, ti prego trovami qualche altro vestito! Fai un salto nell'area commerciale di Lake Cumberlands.",
@@ -2565,7 +2565,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret10_A = "Cerca a Lake Cumberlands (16874,7265,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret10_A_Text = "Porta le calze a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret11_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret11_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret11_Text = "Una tinta per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret11_Lore = "Victoria vuole che recuperi una tinta per capelli per lei qui a Muldraugh, nel centro commerciale (10606,10333,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret11_Begin_Text = "Vedi dei capelli bianchi? Ti prego portami della tintura per capelli nera! Fai un salto nell'area commerciale dal mio parrucchiere di fiducia a Muldraugh, dovrebbe esserci proprio la mia.",
@@ -2575,7 +2575,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret11_A = "Cerca a Muldraugh (10606,10333,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret11_A_Text = "Porta la tinta a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret12_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret12_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret12_Text = "Una tinta per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret12_Lore = "Victoria vuole che recuperi una tinta per capelli a WestPoint (11862,6884,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret12_Begin_Text = "Vedi dei capelli bianchi? Ti prego portami della tintura per capelli! Fai un salto a West Point, dovrebbe esserci proprio la mia.",
@@ -2585,7 +2585,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret12_A = "Cerca a WestPoint (11862,6884,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret12_A_Text = "Porta la tinta	a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret13_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret13_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret13_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret13_Lore = "Victoria vuole che recuperi un vestito speciale a Chestwon (4692,6731,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret13_Begin_Text = "Il mio è un servizio per la comunità, è sempre importante vedere della bellezza in un mondo come questo, dovrebbe interessare anche a te! A Chestown c'è un vestito che è la fine del mondo.",
@@ -2595,7 +2595,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret13_A = "Cerca a Chestwon (4692,6731,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret13_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret14_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret14_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret14_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret14_Lore = "Victoria vuole che recuperi un vestito a Chernaville (9722,10332,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret14_Begin_Text = "Il mio è un servizio per la comunità, è sempre importante vedere della bellezza in un mondo come questo, dovrebbe interessare anche a te! A Chernaville c'è un vestito che è la fine del mondo.",
@@ -2605,7 +2605,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret14_A = "Cerca a Chernaville (9722,10332,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret14_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret15_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret15_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret15_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret15_Lore = "Victoria vuole che recuperi un vestito a WestWood (7701,11530,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret15_Begin_Text = "Il mio è un servizio per la comunità, è sempre importante vedere della bellezza in un mondo come questo, dovrebbe interessare anche a te! A WestWood c'è un vestito che è la fine del mondo.",
@@ -2615,7 +2615,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret15_A = "Cerca a WestWood (7701,11530,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret15_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret16_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret16_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret16_Text = "L'odio di Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret16_Lore = "Victoria vuole che recuperi un vestito a casa di una sua vecchia amica di WestPoint (11488,6982,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret16_Begin_Text = "Hai sentito mai sentito parlare di Stella? Quella stronza non ha fatto altro che copiarmi da quando ci siamo conosciute. Vai a West Point, dove abitava e prendi tutto quello che trovi nel suo armadio.",
@@ -2625,7 +2625,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret16_A = "Cerca a WestPoint (11488,6982,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret16_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret17_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret17_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret17_Text = "L'odio di Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret17_Lore = "Victoria vuole che recuperi degli occhiali appartenenti a una sua vecchia amica. Li trovo nella sua casa a Southwood (4463,6385,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret17_Begin_Text = "Hai sentito mai sentito parlare di Sarah? Quella stronza non ha fatto altro che copiarmi da quando ci siamo conosciute. Vai a Southwood, dove abitava e prendi tutto quello che trovi nel suo armadio.",
@@ -2635,7 +2635,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret17_A = "Cerca a Southwood (4463,6385,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret17_A_Text = "Porta gli occhiali a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret18_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret18_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret18_Text = "L'odio di Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret18_Lore = "Victoria vuole che recuperi dei trucchi dalla casa di una sua vecchia amica. Dovrei trovarla a Grapessed (7346,11326,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret18_Begin_Text = "Hai sentito mai sentito parlare di Sara? Quella stronza è solo una doppiogiochista. Si merita di diventare come uno di quei cosi la fuori. Trova la sua casa a Grapeseed e prendile tutti i trucchi nel comodino!",
@@ -2645,7 +2645,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret18_A = "Cerca a Grapeseed (7346,11326,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret18_A_Text = "Porta i trucchi a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret19_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret19_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret19_Text = "Un vestito per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret19_Lore = "Victoria vuole che recupero un vestito da Wilbore. Dovrei cercare in un negozio (4810,10118,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret19_Begin_Text = "Hei i miei occhi sono qua su! Ti piace la mia maglietta? Ne vorrei altre di colori differenti, potresti fare un salto al centro commerciale di Wilbore e recuperarne altre?",
@@ -2655,7 +2655,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret19_A = "Cerca a Wilbore (4810,10118,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret19_A_Text = "Porta il vestito a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret20_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret20_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret20_Text = "Un manichino per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret20_Lore = "Victoria vuole che recuperi un manichino per lei nel fondo dismesso a Muldraugh (10612,10314,0). ",
     IGUI_SFQuest_Questyno_VictoriaSecret20_Begin_Text = "Da quanto tempo indossi quella maglietta? Quando ti va passa da me che ti do qualche lezione di stile. Comunque, potresti recuperarmi un manichino nel fondo dismesso a Muldraugh?",
@@ -2665,7 +2665,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_VictoriaSecret20_A = "Cerca a Muldraugh (10612,10314,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text = "Porta il manichino a Victoria",
 	
-	IGUI_SFQuest_Questyno_VictoriaSecret21_Title = "Victoria da Muldraugh 10830,9067,0",
+	IGUI_SFQuest_Questyno_VictoriaSecret21_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Text = "Un diamante per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Lore = "Victoria vuole che recuperi per lei una Collana Lunga in oro con diamante. Dovrei fare un salto in un quartiere ricco.",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Begin_Text = "Ho bisogno che il mio viso torni a splendere, spero riuscirai a portarmi degl orecchini degni del mio bellissimo viso.",
@@ -2705,8 +2705,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_SusanLee_Intro_Title = "Susan Lee 10822,9072,0",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Text = "Incontra Susan Lee [Settimanali]",
-    IGUI_SFQuest_Questyno_SusanLee_Intro_Lore = "Sono la Dott.ssa Susan. La mia specialità è la cura delle persone, ma in questo mondo, ho dovuto imparare a curare ferite da arma da fuoco e morsi di zombie. Ho bisogno che tu recuperi alcuni medicinali dall'ospedale locale. Non possiamo perdere più vite. Vai lì, prendi i medicinali e riportali qui. La vita di molte persone dipende da te.",
-    IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Sono la Dott.ssa Susan. La mia specialità è la cura delle persone, ma in questo mondo, ho dovuto imparare a curare ferite da arma da fuoco e morsi di zombie. Ho bisogno che tu recuperi alcuni medicinali dall'ospedale locale. Non possiamo perdere più vite. Vai lì, prendi i medicinali e riportali qui. La vita di molte persone dipende da te.",
+    IGUI_SFQuest_Questyno_SusanLee_Intro_Lore = "La Dottoressa Susan ha bisogno di me per recuperare dei medicinali. Non posso deluderla. Sono certo che dandole una mano riusciremo ad avere meno perdite. La trovo sempre alla fattoria a Nord di Muldraugh",
+    IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Sono la Dott.ssa Susan. Mi sono staccata dalla Tana insieme a George cercando di trovare nuovi campi coltivabili e formare una nuova comunità. Non sarei qui grazie a lui. Quando tutto questo è cominciato stavo tornando a casa dal lovoro. Uno di quei cosi mi stava correndo alle spalle e George lo investì e mi fece salire in macchina con lui. Ho bisogno di te per recuperare più medicinali e attrezzature mediche possibili, puoi daremi una mano?",
 	
 	IGUI_SFQuest_Questyno_SusanLee1_Title = "Dr. Susan da Muldarugh 10822,9072,0",
     IGUI_SFQuest_Questyno_SusanLee1_Text = "Gli antibiotici per Susan",
@@ -2969,8 +2969,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title = "George Scott 10830,9068,0",
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text = "Incontra George Scott [Settimanali]",
-    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore = "Sono noto come George, ma nel mio mondo tutti mi riconoscono come il Cowboy. Prima di andare avanti, voglio evitare di incappare in troppe domande. Il mio talento risiede nella mia conoscienza del mondo, dei luoghi e delle persone. Inoltre, sono costantemente in cerca di oggetti straordinari e unici, e la mia passione per la collezione ha radici nel recupero di tesori provenienti da epoche passate, tracciando così un percorso che ci ha portato fino a questo punto.",
-    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Complete_Text = "Sono noto come George, ma nel mio mondo tutti mi riconoscono come il Cowboy. Prima di andare avanti, voglio evitare di incappare in troppe domande. Il mio talento risiede nella mia conoscienza del mondo, dei luoghi e delle persone. Inoltre, sono costantemente in cerca di oggetti straordinari e unici, e la mia passione per la collezione ha radici nel recupero di tesori provenienti da epoche passate, tracciando così un percorso che ci ha portato fino a questo punto.",
+    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore = "George ha bisogno che intraprenda dei viaggi per recupeare degli oggetti che venivano usati prima di questo disastro. Pensa che possano sollevarci il morale nei momenti difficili. Penso che gli darò un mano, mi aspetta sempre alla fattoria di Muldraugh",
+    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Complete_Text = "Ciao, io sono George. Siamo qua a Muldraugh per ricostruire, un mattone alla volta, la nostra civiltà. Ognuno di noi svolge un ruolo fondamentale. Prima di tutto questo mi occupavo di Design. Sedie, poltrone, divani, non avrei mai pensato che ci saremmo ridotti così e che le mie competenze sarebbero diventate quasi del tutto inutili. Sono arrivato qua insieme alla Dottoressa Susan. In casa ci accolse Samuel, sembrava ignaro di quello che stava accadendo. E' stata una fortuna trovarlo ma era proprio quello che sperava Susan. Questa è la prova che se continuiamo ad espanderci potremmo trovare altri sopravvissuti. Dobbiamo restare uniti e sacrificarci l'un l'altro per rimanere in vita. Se c'è qualcosa che può mantenere vivo il fuoco della speranza sono i ricordi del tempo passato. Spero di vederti spesso per aiutarmi a recupeare degli oggetti che possano farci ritornare a casa, anche solo per un attimo.",
 	
 	IGUI_SFQuest_Questyno_GeorgeScott1_Title = "George da Muldarugh 10830,9068,0",
     IGUI_SFQuest_Questyno_GeorgeScott1_Text = "Vino per George",
@@ -3230,8 +3230,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title = "Samuel Young 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text = "Incontra Samuel Young [Settimanali]",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
-    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text = "Mi chiamo Samuel, ma tra i miei compagni d'avventura sono noto come Big S, e se te lo stai chiedendo, non è per la mia stazza. La mia transizione in questo Nuovo Mondo non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di guidare e prendersi cura del nostro gruppo. La mia abilità distintiva si concentra sulle arti delle trappole, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare.",
+    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore = "Samuel mi aspetta sempre dentro la sua abitazione a Muldraugh in attesa di qualche spuntino. Ha solo bisogno di sapere che potrò cavarmela la fuori.",
+    IGUI_SFQuest_Questyno_SamuelYoung_Intro_Complete_Text = "Mi chiamo Samuel, mi sono trasferito in questa fattoria solo da qualche anno, prima abitavo a Rosewood. Ho notato che stava succedendo qualcosa soltanto quando sono dovuto andare in farmacia per colpa di alcune ragadi anali. La mia transizione in questo ""nuovo mondo"" non ha portato a cambiamenti radicali nella mia vita, eccetto per la responsabilità aggiunta di dover piazzare qualche trappola in più! Sono un esperto cacciatore, e sarei lieto di condividere con te tutti i segreti necessari per catturare con successo la selvaggina, se sei interessato ad ascoltare. Quando Susan e George sono arrivati, mi hanno ispirato, è importante espandersi per ricostruire questa società e spero che i miei consigli potranno servirti, per dare a tua volta, una mano a qualcuno. Io farei un salto anche a West Point quando hai tempo, mi ricordo che alcuni dei nostri partirono, ma credo che gli manchi qualcuno che sappia cacciare!",
 	
 	IGUI_SFQuest_Questyno_SamuelYoung1_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung1_Text = "Conigli per Samuel",
@@ -3463,12 +3463,12 @@ IGUI_EN = {
 ]]
     IGUI_SFQuest_Questyno_XuMishura_Name = "Xu Mishura",
 
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Title = "Xu Mishura 10827,9070,0",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Title = "Xu Mishura 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura_Intro_Text = "Incontra Xu Mishura [Settimanali]",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Lore = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
-    IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi!",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Lore = "Xu sembra davvero una brava persona. Mi ha detto che abitava a Prato, una città in Italia. Ha bisogno che recuperi alcuni vestiti per suo conto. Lo aiuterò sicuramente!",
+    IGUI_SFQuest_Questyno_XuMishura_Intro_Complete_Text = "Hei ciao, io sono Xu ma puoi chiamarmi Mishura se ti va. Prima di tutto questo lavoravo in una fabbrica tessile in Italia, insieme alla mia famiglia. Le mie mani si muovono da sole, non posso fare a meno di cucire e rammendare ancora oggi! Sono arrivato in questo posto insieme a mio fratello, ma ho perso le sue tracce, forse è stato rapito, non so. Spero di reincontrarlo un giorno. Qui ho ritrovato una nuova famiglia e sono felice che le mie competenze possano far comodo a qualcuno. Spero mi darai una mano a recupeare alcuni capi per vestire tutta la nostra famiglia!",
 	
-	IGUI_SFQuest_Questyno_XuMishura1_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura1_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura1_Text = "Un vestito per Xu",
     IGUI_SFQuest_Questyno_XuMishura1_Lore = "Xu mi ha chiesto di portargli un Vestito lungo. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura1_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3476,7 +3476,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura1_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura1_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura2_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura2_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura2_Text = "Degli Stivali per Xu",
     IGUI_SFQuest_Questyno_XuMishura2_Lore = "Xu mi ha chiesto di portargli un paio di Stivali desertici militari. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura2_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3484,7 +3484,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura2_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura2_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura3_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura3_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura3_Text = "Per la festa di fine anno",
     IGUI_SFQuest_Questyno_XuMishura3_Lore = "Xu mi ha chiesto di portargli uno Slip a tronchetto rosso. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura3_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3492,7 +3492,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura3_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura3_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura4_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura4_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura4_Text = "Le mutande per Xu",
     IGUI_SFQuest_Questyno_XuMishura4_Lore = "Xu mi ha chiesto di portargli uno Slip fantasia animale. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura4_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3500,7 +3500,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura4_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura4_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura5_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura5_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura5_Text = "Le scarpe rosse per Xu",
     IGUI_SFQuest_Questyno_XuMishura5_Lore = "Xu mi ha chiesto di portargli un paio di Scarpe da ginnastica rosse. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura5_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3508,7 +3508,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura5_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura5_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura6_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura6_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura6_Text = "I pantaloni medici",
     IGUI_SFQuest_Questyno_XuMishura6_Lore = "Xu mi ha chiesto di portargli un paio di Pantaloni medici. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura6_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3516,7 +3516,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura6_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura6_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura7_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura7_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura7_Text = "La minigonna per Xu",
     IGUI_SFQuest_Questyno_XuMishura7_Lore = "Xu mi ha chiesto di portargli una Mini gonna. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura7_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3524,7 +3524,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura7_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura7_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura8_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura8_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura8_Text = "Un maglione per Xu",
     IGUI_SFQuest_Questyno_XuMishura8_Lore = "Xu mi ha chiesto di portargli un Maglione con motivo a rombi. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura8_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3532,7 +3532,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura8_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura8_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura9_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura9_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura9_Text = "Una camicia per Xu",
     IGUI_SFQuest_Questyno_XuMishura9_Lore = "Xu mi ha chiesto di portargli una Camicia da Boscaiolo. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura9_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3540,7 +3540,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura9_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura9_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura10_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura10_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura10_Text = "Un grembiule per Xu",
     IGUI_SFQuest_Questyno_XuMishura10_Lore = "Xu mi ha chiesto di portargli un Grembiule di Spiffo. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura10_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3548,7 +3548,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura10_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura10_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura11_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura11_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura11_Text = "Un gilet per Xu",
     IGUI_SFQuest_Questyno_XuMishura11_Lore = "Xu mi ha chiesto di portargli un Gilet da caccia mimetico. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura11_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3556,7 +3556,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura11_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura11_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura12_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura12_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura12_Text = "Una giacca per Xu",
     IGUI_SFQuest_Questyno_XuMishura12_Lore = "Xu mi ha chiesto di portargli una Giacca di pelle corta. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura12_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3564,7 +3564,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura12_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura12_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura13_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura13_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura13_Text = "Una tuta per Xu",
     IGUI_SFQuest_Questyno_XuMishura13_Lore = "Xu mi ha chiesto di portargli una Giacca della tuta acetata verde acqua. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura13_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3572,7 +3572,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura13_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura13_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura14_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura14_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura14_Text = "Una tuta per Xu",
     IGUI_SFQuest_Questyno_XuMishura14_Lore = "Xu mi ha chiesto di portargli una Giacca della tuta acetata nera. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura14_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3580,7 +3580,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura14_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura14_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura15_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura15_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura15_Text = "Una giacca per Xu",
     IGUI_SFQuest_Questyno_XuMishura15_Lore = "Xu mi ha chiesto di portargli una Giacca college. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura15_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3588,7 +3588,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura15_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura15_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura16_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura16_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura16_Text = "Una giacca per Xu",
     IGUI_SFQuest_Questyno_XuMishura16_Lore = "Xu mi ha chiesto di portargli una Giacca. Vediamo se la trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura16_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3596,7 +3596,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura16_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura16_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura17_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura17_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura17_Text = "Una felpa per Xu",
     IGUI_SFQuest_Questyno_XuMishura17_Lore = "Xu mi ha chiesto di portargli una Felpa con cappuccio. Vediamo se la trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura17_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3604,7 +3604,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura17_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura17_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura18_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura18_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura18_Text = "Un maglione per Xu",
     IGUI_SFQuest_Questyno_XuMishura18_Lore = "Xu mi ha chiesto di portargli un Dolcevita. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura18_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3612,7 +3612,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura18_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura18_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura19_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura19_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura19_Text = "Il maglione militare",
     IGUI_SFQuest_Questyno_XuMishura19_Lore = "Xu mi ha chiesto di portargli un Military Sweater. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura19_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3620,7 +3620,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura19_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura19_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura20_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura20_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura20_Text = "La cannottiera per Xu",
     IGUI_SFQuest_Questyno_XuMishura20_Lore = "Xu mi ha chiesto di portargli un Canotta. Vediamo se la trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura20_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3628,7 +3628,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura20_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura20_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura21_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura21_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura21_Text = "Una camicia Hawaiana per Xu",
     IGUI_SFQuest_Questyno_XuMishura21_Lore = "Xu mi ha chiesto di portargli una Camicia Hawaiana. Vediamo se la trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura21_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3636,7 +3636,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura21_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura21_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura22_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura22_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura22_Text = "Una camicia per Xu",
     IGUI_SFQuest_Questyno_XuMishura22_Lore = "Xu mi ha chiesto di portargli una Camicia di jeans. Vediamo se la trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura22_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3644,7 +3644,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura22_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura22_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura23_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura23_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura23_Text = "Una camicia per Xu",
     IGUI_SFQuest_Questyno_XuMishura23_Lore = "Xu mi ha chiesto di portargli una Camicia da guardia carceraria. Vediamo se la trovo su qualche zombie infame.",
     IGUI_SFQuest_Questyno_XuMishura23_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3652,7 +3652,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura23_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura23_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura24_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura24_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura24_Text = "Xu il cellerino",
     IGUI_SFQuest_Questyno_XuMishura24_Lore = "Xu mi ha chiesto di portargli una Camicia da poliziotto. Vediamo se la trovo su qualche zombie infame.",
     IGUI_SFQuest_Questyno_XuMishura24_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -3660,7 +3660,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_XuMishura24_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura24_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura25_Title = "Xu da Muldraugh 10827,9070,0",
+	IGUI_SFQuest_Questyno_XuMishura25_Title = "Xu da Muldraugh 10829,9072,1",
     IGUI_SFQuest_Questyno_XuMishura25_Text = "Un accappatoio per Xu",
     IGUI_SFQuest_Questyno_XuMishura25_Lore = "Xu mi ha chiesto di portargli un Accappatoio. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura25_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
@@ -5831,7 +5831,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text = "Eccoti qua, abbiamo bisogno ancora di qualcosina per la tua auto. Vai a Muldaugh e recupera uno Pneumatico di Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite5_Begin_Text_Declined = "Okay, c'eravamo quasi.",
-    IGUI_SFQuest_Questyno_BrianWhite5_Complete = "Bene, adesso sai tutto, mi raccomando, non far scendere la sua condizione sotto il 50% o potrebbe esplodere!",
+    IGUI_SFQuest_Questyno_BrianWhite5_Complete = "Ottimo, buon lavoro",
 	IGUI_SFQuest_Questyno_BrianWhite5_A = "Cerca a Muldraugh (10606,9409,0)",
 	IGUI_SFQuest_Questyno_BrianWhite5_A_Text = "Porta lo Pneumatico a Brian",
 	
