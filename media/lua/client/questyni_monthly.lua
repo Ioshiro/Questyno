@@ -663,5 +663,197 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_OliviaChambers6_Title",
 });
 
+--[[
+            *** Lucas Miller ***
+            Elenco:
+                intro. Incontra Lucas Miller.
+				1. Recuperare 20kg di oro, Recuperare MoneyToXP.Rotolo;3 parlando con (10420,12758,0) (100rep)
+				2. Recuperare 25kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (10223,12769,0) (110rep)
+				3. Recuperare 30kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (9976,12745,0) (120rep)
+				4. Recuperare 32kg di oro, Recuperare MoneyToXP.Rotolo;6 parlando con (9916,12880,0) (130rep)
+				5. Recuperare 40kg di oro, Recuperare MoneyToXP.Mazzetta parlando con (9942,13020,0) (150rep)
+				6. Recuperare 15kg di oro, Recuperare MoneyToXP.Rotolo parlando con (9929,12681,0) (50rep)
+]]
 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller_Intro",
+
+    awardstask = "Questyno_LucasMiller1",
+    completesound = "levelup",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller1",
+
+    awardstask = "Questyno_LucasMiller1_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller1_Lore" },
+    needsitem = "Tag#Golden;200",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller1_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller1_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller1_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller1_A",
+
+    awardsrep = "LaResistenza;100",
+    awardsitem = "MoneyToXP.Rotolo;3",
+    awardstask = "Questyno_LucasMiller2",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller1_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller1_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller1_Title",
+    unlocks = "clickevent;10420x12758x0:EventoLucasMiller1;time:50:anim:loot;completequest;Questyno_LucasMiller1_A",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller2",
+
+    awardstask = "Questyno_LucasMiller2_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller2_Lore" },
+    needsitem = "Tag#Golden;250",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller2_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller2_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller2_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller2_A",
+
+    awardsrep = "LaResistenza;110",
+    awardsitem = "MoneyToXP.Rotolo;4",
+    awardstask = "Questyno_LucasMiller3",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller2_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller2_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller2_Title",
+    unlocks = "clickevent;10223x12769x0:EventoLucasMiller2;time:50:anim:loot;completequest;Questyno_LucasMiller2_A",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller3",
+
+    awardstask = "Questyno_LucasMiller3_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller3_Lore" },
+    needsitem = "Tag#Golden;300",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller3_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller3_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller3_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller3_A",
+
+    awardsrep = "LaResistenza;120",
+    awardsitem = "MoneyToXP.Rotolo;5",
+    awardstask = "Questyno_LucasMiller4",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller3_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller3_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller3_Title",
+    unlocks = "clickevent;9976x12745x0:EventoLucasMiller3;time:50:anim:loot;completequest;Questyno_LucasMiller3_A",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller4",
+
+    awardstask = "Questyno_LucasMiller4_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller4_Lore" },
+    needsitem = "Tag#Golden;320",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller4_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller4_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller4_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller4_A",
+
+    awardsrep = "LaResistenza;130",
+    awardsitem = "MoneyToXP.Rotolo;6",
+    awardstask = "Questyno_LucasMiller5",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller4_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller4_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller4_Title",
+    unlocks = "clickevent;9916x12880x0:EventoLucasMiller4;time:50:anim:loot;completequest;Questyno_LucasMiller4_A",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller5",
+
+    awardstask = "Questyno_LucasMiller5_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller5_Lore" },
+    needsitem = "Tag#Golden;400",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller5_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller5_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller5_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller5_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Mazzetta;1",
+    awardstask = "Questyno_LucasMiller6",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller5_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller5_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller5_Title",
+    unlocks = "clickevent;9942x13020x0:EventoLucasMiller5;time:50:anim:loot;completequest;Questyno_LucasMiller5_A",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller6",
+
+    awardstask = "Questyno_LucasMiller6_A",
+    dailycode = "Questyno_LucasMiller",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller6_Lore" },
+    needsitem = "Tag#Golden;150",
+    onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller6_Complete",
+    text = "IGUI_SFQuest_Questyno_LucasMiller6_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller6_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LucasMiller6_A",
+
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Rotolo;1",
+    awardstask = "Questyno_LucasMiller1",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_LucasMiller6_A_Lore" },
+    text = "IGUI_SFQuest_Questyno_LucasMiller6_A_Text",
+    texture = "media/textures/Item_LucasMiller.png",
+    title = "IGUI_SFQuest_Questyno_LucasMiller6_Title",
+    unlocks = "clickevent;9929x12681x0:EventoLucasMiller6;time:50:anim:loot;completequest;Questyno_LucasMiller6_A",
+});
 

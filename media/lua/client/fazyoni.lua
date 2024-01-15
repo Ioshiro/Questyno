@@ -10,11 +10,11 @@ SFQuest_Database.ColorPool.purple = {0.5, 0.0, 1.0}
 LaResistenzaTiersTemplate = {
     {
         tiername = "IGUI_Factions_Template_Tier1",
-        minrep = 1,
+        minrep = 5,
         barcolor = "red",
     }, {
         tiername = "IGUI_Factions_Template_Tier2",
-        minrep = 2,
+        minrep = 75,
         barcolor = "purple",
         unlocks = "addreputation;SamFisher;2"
     }, {
@@ -23,7 +23,7 @@ LaResistenzaTiersTemplate = {
         barcolor = "yellow"
     }, {
         tiername = "IGUI_Factions_Template_Tier4",
-        minrep = 800,
+        minrep = 475,
         barcolor = "green"
     }, {
         tiername = "IGUI_Factions_Template_Tier5",
@@ -40,6 +40,10 @@ LaResistenzaTiersTemplate = {
     }, {
         tiername = "IGUI_Factions_Template_Tier8",
         minrep = 1000000,
+        barcolor = "green"
+    }, {
+        tiername = "IGUI_Factions_Template_Tier9",
+        minrep = 10000000,
         barcolor = "green"
     }
 };

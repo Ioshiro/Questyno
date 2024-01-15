@@ -1137,7 +1137,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AndrewTurner3_A",
 
     awardsrep = "LaResistenza;3000", -- REP REWARD
-    awardsitem = "Tw.WorkshopMag1;1", -- ITEM REWARD
+    awardsitem = "TW.WorkshopMag1;1", -- ITEM REWARD
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner4_Begin;Questyno_AndrewTurner4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner3_Lore" },

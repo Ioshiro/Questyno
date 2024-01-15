@@ -650,3 +650,20 @@ SFQuest_Database.MannequinPool["13557x4146x0"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
+
+-- Lucas Miller March Ridge 10353,12406,1
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_LucasMiller",
+    square = "10353x12406x1",
+    name = "IGUI_SFQuest_Questyno_LucasMiller_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_LucasMiller.png",
+})
+
+SFQuest_Database.MannequinPool["10353x12406x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}

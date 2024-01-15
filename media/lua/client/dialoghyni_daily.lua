@@ -2241,3 +2241,36 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_G
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GraceChambers4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GraceChambers4", optional = true, text = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GraceChambers4_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GraceChambers4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GraceChambers4_B", text = "IGUI_SFQuest_Questyno_GraceChambers4_Complete"})
+
+--[[
+            *** Lucas Miller ***
+            Elenco:
+                intro. Incontra Lucas Miller.
+				1. Recuperare 2kg di oro, Recuperare MoneyToXP.Rotolo;3 parlando con (10420,12758,0) (100rep)
+				2. Recuperare 2.5kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (10223,12769,0) (110rep)
+				3. Recuperare 3kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (9976,12745,0) (120rep)
+				4. Recuperare 3.2kg di oro, Recuperare MoneyToXP.Rotolo;6 parlando con (9916,12880,0) (130rep)
+				5. Recuperare 4kg di oro, Recuperare MoneyToXP.Mazzetta parlando con (9942,13020,0) (150rep)
+				6. Recuperare 1.5kg di oro, Recuperare MoneyToXP.Rotolo parlando con (9929,12681,0) (50rep)
+]]
+
+-- intro. parla con Lucas Miller per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller_Intro", text = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Complete_Text"})	
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller1", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller1_A", text = "IGUI_SFQuest_Questyno_LucasMiller1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller2", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller2_A", text = "IGUI_SFQuest_Questyno_LucasMiller2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller3", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller3_A", text = "IGUI_SFQuest_Questyno_LucasMiller3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller4", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller4_A", text = "IGUI_SFQuest_Questyno_LucasMiller4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller5", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller5_A", text = "IGUI_SFQuest_Questyno_LucasMiller5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LucasMiller6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LucasMiller6", optional = true, text = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LucasMiller6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LucasMiller6_A", text = "IGUI_SFQuest_Questyno_LucasMiller6_Complete"})

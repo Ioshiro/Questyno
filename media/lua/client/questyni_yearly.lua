@@ -381,11 +381,11 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers4_A",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x0:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore"
+        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x2:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore;revealobjective;Questyno_GraceChambers4_A;2"
     },{
         guid = "Questyno_GraceChambers4_B",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_B",
-        hidden = false,
+        hidden = true,
         oncompleted = "removeclickevent;EventoGraceChambers4A;additem;LabItems.CmpFlaskWithLeukocytes;1"
     }},
     text = "IGUI_SFQuest_Questyno_GraceChambers4_Text",
@@ -404,13 +404,13 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_GraceChambers4_C",
         hidden = false,
         needsitem = "LR.Lore6;1",
-        onobtained = "updateobjective;Questyno_GraceChambers4_A;1:Completed;removeitem;LR.Lore6;1"
+        onobtained = "updateobjective;Questyno_GraceChambers4_A;1;Completed;removeitem;LR.Lore6;1"
     },{
         guid = "Questyno_GraceChambers4_D",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_D",
         hidden = false,
         needsitem = "LabItems.CmpFlaskWithLeukocytes;1",
-        onobtained = "updateobjective;Questyno_GraceChambers4_A;2:Completed;removeitem;LabItems.CmpFlaskWithLeukocytes;1"
+        onobtained = "updateobjective;Questyno_GraceChambers4_A;2;Completed;removeitem;LabItems.CmpFlaskWithLeukocytes;1"
     }},
     text = "IGUI_SFQuest_Questyno_GraceChambers4_Text",
     texture = "media/textures/Item_GraceChambers.png",

@@ -20,13 +20,14 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text_Declined = "Fottiti",
 
     IGUI_Factions_LaResistenza = "La Resistenza",
-    IGUI_Factions_Template_Tier1 = "Smarrito",
-    IGUI_Factions_Template_Tier2 = "Armato",
-    IGUI_Factions_Template_Tier3 = "Nomade",
-    IGUI_Factions_Template_Tier4 = "Sopravvissuto",
-    IGUI_Factions_Template_Tier5 = "Membro della resistenza",
-    IGUI_Factions_Template_Tier6 = "Eroe della resistenza",
-    IGUI_Factions_Template_Tier7 = "Veterano",
+    IGUI_Factions_Template_Tier1 = "Scappato di casa",
+    IGUI_Factions_Template_Tier2 = "Smarrito",
+    IGUI_Factions_Template_Tier3 = "Armato",
+    IGUI_Factions_Template_Tier4 = "Nomade",
+    IGUI_Factions_Template_Tier5 = "Sopravvissuto",
+    IGUI_Factions_Template_Tier6 = "Membro della resistenza",
+    IGUI_Factions_Template_Tier7 = "Eroe della resistenza",
+    IGUI_Factions_Template_Tier8 = "Veterano",
     IGUI_Factions_Template_Tier8 = "Leggenda ",
     IGUI_Factions_Daily_Tier1 = "Bloccato",
     IGUI_Factions_Daily_Tier2 = "Sbloccato",
@@ -6200,7 +6201,7 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_GraceChambers1_Title = "Grace da Louisville (13555,4142,0)",
     IGUI_SFQuest_Questyno_GraceChambers1_Text = "Recupero Vaccino A Louisville",
-    IGUI_SFQuest_Questyno_GraceChambers1_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nella zona radioattiva di Lousville. Dice che posso tenerne una parte se riesco a portargliene almeno una. Dovrei trovarle all'ospedale a Nord di Louisville, precisamente a (12930,2008,1)",
+    IGUI_SFQuest_Questyno_GraceChambers1_Lore = "Grace vorrebbe che recuperassi delle dosi di vaccino per lei nella zona radioattiva di Lousville. Dice che posso tenerne una parte se riesco a portargliene almeno una. Dovrei trovarle all'ospedale a Nord di Louisville, precisamente a 12930,2008,1",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text = "Ho bisogno che vai all'ospedale a Nord di Lousville per recuperare tutte le dosi di vaccino che trovi, te ne lascerò una per il tuo gruppo, prometti che troverai qualcuno disposto a provarla e di tornare da me entro un anno con un rapporto su gli effetti! Sei dei nostri?",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_GraceChambers1_Begin_Text_Declined = "Ci lasci nella merda insomma!",
@@ -6242,7 +6243,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_GraceChambers4_A = "Cerca a Lousville (13602,1563,0.)",
 	IGUI_SFQuest_Questyno_GraceChambers4_A_Text = "Prendi il documento per Grace",
 	IGUI_SFQuest_Questyno_GraceChambers4_A_Lore = "E' incredibile come il governo abbia agito sotto il naso di tutti, senza il consenso di nessuno. Credo sia opportuno fare un salto a l'abitazione di questo bastardo.",
-	IGUI_SFQuest_Questyno_GraceChambers4_B = "Cerca a Lousville (13402,1893,0)",
+	IGUI_SFQuest_Questyno_GraceChambers4_B = "Cerca a Lousville (13402,1893,2)",
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Text = "Riporta la fiala a Grace",
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Lore = "Ho trovato una fiala con uno strano composto trasparente. Credo sia meglio darlo a Grace.",
 	
@@ -6296,12 +6297,12 @@ IGUI_EN = {
             *** Lucas Miller ***
             Elenco:
                 intro. Incontra Lucas Miller.
-				1. Recuperare 2kg di oro, Recuperare MoneyToXP.Rotolo;3 parlando con (10420,12758,0) (100rep)
-				2. Recuperare 2.5kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (10223,12769,0) (110rep)
-				3. Recuperare 3kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (9976,12745,0) (120rep)
-				4. Recuperare 3.2kg di oro, Recuperare MoneyToXP.Rotolo;6 parlando con (9916,12880,0) (130rep)
-				5. Recuperare 4kg di oro, Recuperare MoneyToXP.Mazzetta parlando con (9942,13020,0) (150rep)
-				6. Recuperare 1.5kg di oro, Recuperare MoneyToXP.Rotolo parlando con (9929,12681,0) (50rep)
+				1. Recuperare 20kg di oro, Recuperare MoneyToXP.Rotolo;3 parlando con (10420,12758,0) (100rep)
+				2. Recuperare 25kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (10223,12769,0) (110rep)
+				3. Recuperare 30kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (9976,12745,0) (120rep)
+				4. Recuperare 32kg di oro, Recuperare MoneyToXP.Rotolo;6 parlando con (9916,12880,0) (130rep)
+				5. Recuperare 40kg di oro, Recuperare MoneyToXP.Mazzetta parlando con (9942,13020,0) (150rep)
+				6. Recuperare 15kg di oro, Recuperare MoneyToXP.Rotolo parlando con (9929,12681,0) (50rep)
 ]]
 
     IGUI_SFQuest_Questyno_LucasMiller_Name = "Lucas Miller",
@@ -6313,69 +6314,67 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_LucasMiller1_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller1_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller1_Lore = "Lucas mi ha chiesto 2000g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller1_Lore = "Lucas mi ha chiesto 20kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller1_A = "2kg di oro",
-    IGUI_SFQuest_Questyno_LucasMiller1_B = "Cerca a March Ridge (10420,12758,0)",
-	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Prendi i soldi in una casa",
+	IGUI_SFQuest_Questyno_LucasMiller1_A = "20kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller1_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Cerca a March Ridge (10420,12758,0)",
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
     IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller2_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller2_Lore = "Lucas mi ha chiesto 2500g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller2_Lore = "Lucas mi ha chiesto 25kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller2_A = "2,5kg di oro",
-	IGUI_SFQuest_Questyno_LucasMiller2_B = "Cerca a March Ridge (10223,12769,0)",
-	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Prendi i soldi in una casa",
+    IGUI_SFQuest_Questyno_LucasMiller2_A = "25kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller2_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Cerca a March Ridge (10223,12769,0)",
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
     IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller3_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller3_Lore = "Lucas mi ha chiesto 3000g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller3_Lore = "Lucas mi ha chiesto 30kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller3_A = "3kg di oro",
-    IGUI_SFQuest_Questyno_LucasMiller3_B = "Cerca a March Ridge (9976,12745,0)",
-	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Prendi i soldi in una casa",
+	IGUI_SFQuest_Questyno_LucasMiller3_A = "30kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller3_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Cerca a March Ridge (9976,12745,0)",
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 	
 	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller4_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller4_Lore = "Lucas mi ha chiesto 3200g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller4_Lore = "Lucas mi ha chiesto 32kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller4_A = "3,2kg di oro",
-	IGUI_SFQuest_Questyno_LucasMiller4_B = "Cerca a March Ridge (9916,12880,0)",
-	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Prendi i soldi in una casa",
+    IGUI_SFQuest_Questyno_LucasMiller4_A = "32kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller4_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Cerca a March Ridge (9916,12880,0)",
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
 	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller5_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller5_Lore = "Lucas mi ha chiesto 4000g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller5_Lore = "Lucas mi ha chiesto 40kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller5_A = "4kg di oro",
-	IGUI_SFQuest_Questyno_LucasMiller5_B = "Cerca a March Ridge (9942,13020,0)",
-	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Prendi i soldi in una casa",
+    IGUI_SFQuest_Questyno_LucasMiller5_A = "40kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller5_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Cerca a March Ridge (9942,13020,0)",
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
 	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller6_Text = "Oro per Soldi",
-    IGUI_SFQuest_Questyno_LucasMiller6_Lore = "Lucas mi ha chiesto 1500g di oro per avere un indirizzo speciale.",
+    IGUI_SFQuest_Questyno_LucasMiller6_Lore = "Lucas mi ha chiesto 15kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller6_A = "1,5kg di oro",
-    IGUI_SFQuest_Questyno_LucasMiller6_B = "Cerca a March Ridge (9929,12681,0)",
-	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Prendi i soldi in una casa",
+	IGUI_SFQuest_Questyno_LucasMiller6_A = "15kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller6_B = "",
+	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Cerca a March Ridge (9929,12681,0)",
 	IGUI_SFQuest_Questyno_LucasMiller6_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9929,12681,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
-
-
 }

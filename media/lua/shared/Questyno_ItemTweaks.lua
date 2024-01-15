@@ -45,6 +45,42 @@ function Questyno_Tweaks()
     manager:getItem("Base.Perch"):DoParam("Tags".." = ".. "Perch");
     -- Trout(Base.Trout)
     manager:getItem("Base.Trout"):DoParam("Tags".." = ".. "Trout");
+    -- Golden(Base.Necklace_Gold,Base.Necklace_GoldRuby,Base.Necklace_GoldDiamond,Base.NecklaceLong_Gold,Base.NecklaceLong_GoldDiamond,Base.Earring_LoopLrg_Gold,Base.Earring_LoopMed_Gold,Base.Earring_LoopSmall_Gold_Both,Base.Earring_LoopSmall_Gold_Top,Base.Earring_Stud_Gold,Base.Ring_Right_MiddleFinger_Gold,Base.Ring_Left_MiddleFinger_Gold,Base.Ring_Right_RingFinger_Gold,Base.Ring_Left_RingFinger_Gold,Base.Ring_Right_MiddleFinger_GoldRuby,Base.Ring_Left_MiddleFinger_GoldRuby,Base.Ring_Right_RingFinger_GoldRuby,Base.Ring_Left_RingFinger_GoldRuby,Base.Ring_Right_MiddleFinger_GoldDiamond,Base.Ring_Left_MiddleFinger_GoldDiamond,Base.Ring_Right_RingFinger_GoldDiamond,Base.Ring_Left_RingFinger_GoldDiamond,Base.WristWatch_Right_ClassicGold,Base.WristWatch_Left_ClassicGold,Base.Bracelet_BangleRightGold,Base.Bracelet_BangleLeftGold,Base.Bracelet_ChainRightGold,Base.Bracelet_ChainLeftGold,Base.BellyButton_DangleGold,Base.BellyButton_DangleGoldRuby,Base.BellyButton_RingGold,Base.BellyButton_RingGoldDiamond,Base.BellyButton_RingGoldRuby,Base.BellyButton_StudGold,Base.BellyButton_StudGoldDiamond)
+    manager:getItem("Base.Necklace_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Necklace_GoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Necklace_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.NecklaceLong_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.NecklaceLong_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Earring_LoopLrg_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Earring_LoopMed_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Earring_LoopSmall_Gold_Both"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Earring_LoopSmall_Gold_Top"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Earring_Stud_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_MiddleFinger_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_MiddleFinger_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_RingFinger_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_RingFinger_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_MiddleFinger_GoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_MiddleFinger_GoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_RingFinger_GoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_RingFinger_GoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_MiddleFinger_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_MiddleFinger_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Right_RingFinger_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Ring_Left_RingFinger_GoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.WristWatch_Right_ClassicGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.WristWatch_Left_ClassicGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Bracelet_BangleRightGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Bracelet_BangleLeftGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Bracelet_ChainRightGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.Bracelet_ChainLeftGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_DangleGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_DangleGoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_RingGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_RingGoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_RingGoldRuby"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_StudGold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.BellyButton_StudGoldDiamond"):DoParam("Tags".." = ".. "Golden");
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)
