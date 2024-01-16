@@ -627,7 +627,7 @@ table.insert(SFQuest_Database.WorldPool, {
     picture = "media/textures/Picture_GraceChambers.png",
 })
 
-SFQuest_Database.MannequinPool["13555x4142x0"] = {
+SFQuest_Database.MannequinPool["13641x4057x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
@@ -651,7 +651,7 @@ SFQuest_Database.MannequinPool["3637x7302x0"] = {
     outfit = "PonchoRosso",
 }
 
--- Andrew Turner da Louisville 13557,4146,0
+-- Andrew Turner da Louisville 13031,4070,0
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_AndrewTurner",
@@ -661,7 +661,7 @@ table.insert(SFQuest_Database.WorldPool, {
     picture = "media/textures/Picture_AndrewTurner.png",
 })
 
-SFQuest_Database.MannequinPool["13557x4146x0"] = {
+SFQuest_Database.MannequinPool["13031x4070x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",

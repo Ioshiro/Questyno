@@ -3933,8 +3933,8 @@ IGUI_EN = {
 				8. Recuperare Base.CardDeck (25rep)
 				9. Recuperare Base.VideoGame parlando con (9693,11536,0), Base.VideoGame parlando con (10013,11552,0) (80rep)
 				10. Recuperare Base.GuitarAcoustic parlando con (10757,10088,0), Base.Trumpet parlando con (10913,10035,0), Base.Drumstick parlando con (10750,9913,0) (100rep + 50$)
-				11. Recuperare Base.GamePieceRed,Base.PieceBlack,Base.CheckerBoard parlando con (MANCANO COORDINATE) (45rep)
-				12. Recuperare Base.CheckerBoard,ChessWhite,ChessBlack parlando con (MANCANO COORDINATE) (50rep)
+				11. Recuperare Base.GamePieceRed,Base.PieceBlack,Base.CheckerBoard parlando con (8245,11686,0) (45rep)
+				12. Recuperare Base.CheckerBoard,ChessWhite,ChessBlack parlando con (6984,8428,0) (50rep)
 				13. Recuperare Base.Yoyo (50rep + 20$)
 				14. Recuperare Base.PirateHat parlando con (7465,9615,0) (50rep + 100$)
 				15. Recuperare Base.Jumper_RoundNeck,Base.Trousers_Denim (40rep + 50$)
@@ -4222,7 +4222,7 @@ IGUI_EN = {
 				4. Recuperare Base.BookFirstAid2,Base.BookMechanic3,Base.BookFirstAid1,Base.BookFishing1 (150rep)
 				5. Recuperare BaseBookFarming2,Base.BookFirstAid3,Base.BookFishing2,Base.BookFirstAid5 (130rep)
 				6. Recuperare Base.BookFarming4,Base.BookTrapping4,Base.BookForaging4,Base.BookForaging5 (180rep)
-				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (MANCANO COORDINATE) (100rep + 25$)
+				7. Recupero Base.ElectronicsMag3,Base.FarmingMag1,Base.FishingMag2,Base.ElectronicsMag2 a (10611,10363,0) (100rep + 25$)
 				8. Recupero  Base.BookMechanic1,Base.BookCarpentry5,Base.BookFarming5,Base.BookFirstAid5,Base.BookMechanic5,Base.BookMetalWelding5 a (MANCANO COORDINATE) (70rep + 30$) 
 				9. Recuperare Base.TVMagazine;5 (60rep)
 				10. Recuperare Base.BookFarming1,Base.BookFarming2,Base.BookFarming3,Base.BookFarming4,Base.BookFarming5 (250rep)
@@ -4231,7 +4231,7 @@ IGUI_EN = {
 				13. Recuperare Base.BookFishing3,Base.BookMetalWelding2,Base.BookMetalWelding3,Base.BookCarpentry4,Base.BookTrapping2 (140rep)
 				14. Recuperare Base.BookFishing4,Base.BookMetalWelding1,Base.BookMetalWelding2,Base.BookCarpentry2,Base.BookTrapping5 (150rep)
 				15. Recuperare Base.BookForaging4,Base.BookForaging3,Base.BookMechanic1,Base.BookCarpentry2,BaseBookFarming5 (130rep)
-				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (MANCANO COORDINATE) (80rep) 
+				16. Recupero Base.HuntingMag1,Base.HuntingMag2 a (9681,11178,0) (80rep) 
 				17. Recuperare Base.FishingMag1,Base.FishingMag2 parlando con (8090,11511,0) (75rep)
 				18. Recuperare Base.ElectronicsMag1,Base.ElectronicsMag2,Base.ElectronicsMag3 parlando con (10627,9973,0) (70rep + 30$)
 				19. Recuperare Base.SheetPaper2;4,Base.Crayons;2 (100rep + 20$)
@@ -4557,20 +4557,20 @@ IGUI_EN = {
 				2. Recuperare Base.PanRecipe;2 (50rep + 15$ + Base.Pan;2)
 				3. Recuperare farming.Cabbage;3 (200rep + 30$)
 				4. Recuperare BaseSalad;2 (150rep + Base.Bowl;2)
-				5. Recuperare Base.Butter;2 parlando con (MANCANO COORDINATE)5 (60rep + 70$)
-				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (MANCANO COORDINATE)6 (100rep + Base.SushiEgg)
+				5. Recuperare Base.Butter;2 parlando con (12315,11739,0) (60rep + 70$)
+				6. Recuperare Base.Hotsauce,Base.Pepper,Base.FishRoe parlando con (8199,11177,0) (100rep + Base.SushiEgg)
 				7. Recuperare Base.Rabbitmeat (ANCHE 25%) (65rep + Base.Burger)
 				8. Recuperare Base.Apron_Black (150rep + 50$)
 				9. Recuperare Base.GridlePan;2 (100rep)
 				10. Recuperare Base.Saucepan;2 (100rep)
 				11. Recuperare Base.KitchenKnife;4 (200rep)
-				12. Recuperare Base.Cereal;2 parlando con (MANCANO COORDINATE)12 (50rep)
+				12. Recuperare Base.Cereal;2 parlando con (7373,9732,0) (50rep)
 				13. Recuperare Base.BeerCan (150rep)
 				14. Recuperare Base.WaterBottleFull (40rep)
-				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (MANCANO COORDINATE)15 (60rep + Base.Lobster)
-				16. Recuperare Base.Lard parlando con (MANCANO COORDINATE)16 (25rep + Base.Milk)
+				15. Recuperare Base.CannedCornedBeef;3,Base.Cereal;2,Base.CannedChili;2,Base.Lobster;3 parlando con (8108,9699,0) (60rep + Base.Lobster)
+				16. Recuperare Base.Lard parlando con (11287,8287,0) (25rep + Base.Milk)
 				17. Recuperare 35$ (50rep + Base.Butter)
-				18. Recuperare Base.Egg;4 parlando con (MANCANO COORDINATE)18 (40rep + FETTA DI Base.PineApple)
+				18. Recuperare Base.Egg;4 parlando con (13603,6883,0) (40rep + FETTA DI Base.PineApple)
 				19. Recuperare Base.Spoon;6 (100rep + 20$)
 				20. Recuperare Base.PanRecipe (100rep + Base.Pan)
 				21. Recuperare Base.PotSoupRecipe;2 (50rep + Base.Pot;2)
@@ -4699,7 +4699,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis12_Complete = "Uh, grazie. Ma sono senza sopresa! Peccato...",
-	IGUI_SFQuest_Questyno_ChristopherDavis12_A = "Cerca a Utopia 7373,9732,0",
+	IGUI_SFQuest_Questyno_ChristopherDavis12_A = "Cerca a Utopia (7373,9732,0)",
 	IGUI_SFQuest_Questyno_ChristopherDavis12_A_Text = "Porta i cereali a Christopher",
 
 	
@@ -4764,7 +4764,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Complete = "Wow grazie, aspetta qua e non te ne pentirai.",
-	IGUI_SFQuest_Questyno_ChristopherDavis18_A = "Cerca nel bosco a Est  (13603,6883,0)",
+	IGUI_SFQuest_Questyno_ChristopherDavis18_A = "Cerca nel bosco a Est (13603,6883,0)",
 	IGUI_SFQuest_Questyno_ChristopherDavis18_A_Text = "Porta le uova a Christopher",
 
 	
@@ -6258,12 +6258,12 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_AndrewTurner_Name = "Andrew Turner",
 
-    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13031,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Text = "Incontra Andrew Turner. [Catena]",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Lore = "Andrew mi aspetta a Louisville, ha bisogno di me per recuperare quanto più propano possibile.",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text = "Ciao straniero! Io sono Andrew, piacere! Sono un ex militare che ha perso tutta la sua squadra quando è scoppiata l'epidemia e adesso sto cercando di scoprire cosa è successo a i miei compagni e perchè hanno perso tutti la ragione. Insieme a Grace e a James da Raven Creek, cerchiamo di creare un siero per il virus ma abbiamo bisogno di molti materiali preziosi per il nostro laboratorio chimico, uno di questo è il Propano. Conosco molti posti dove trovarne, spero potrai darmi una mano. Se mi aiuterai ti darò una Rivista speciale che ti insegnerà come costruire un Tavolo da lavoro.",
     
-    IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13031,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner1_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner1_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Lake Cumberland (16888,7783,0)",
     IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text = "Come primo posto puoi provare nel garage a Lake Cumberland. Posso contare su di te?",
@@ -6273,7 +6273,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_AndrewTurner1_A = "Cerca a Lake Cumberland (16888,7783,0)",
 	IGUI_SFQuest_Questyno_AndrewTurner1_A_Text = "Porta il propano a Andrew",
 
-    IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13031,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner2_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner2_Lore = "Andrew vorrebbe che recuperassi del propano alla stazione dei treni a Ztardew Valley (12768,9497,0). Non dovrebbe essere difficile.",
     IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text = "Questa volta dovria fare un poco più di strada ma non dovrebbe essere difficile. Dovresti trovare ",
@@ -6283,7 +6283,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_AndrewTurner2_A = "Cerca a Ztardew Valley (12768,9497,0)",
 	IGUI_SFQuest_Questyno_AndrewTurner2_A_Text = "Porta il propano a Andrew",
 	
-    IGUI_SFQuest_Questyno_AndrewTurner3_Title = "Andrew da Louisville (13557,4146,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Title = "Andrew da Louisville (13031,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner3_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner3_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Springwood (10490,8268,0). E' mezza giornata di viaggio.",
     IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text = "Recupera un ultima bombola e siamo apposto! Dovrai tornare più o meno da dove sei venuto! Conosci Springwood?",
