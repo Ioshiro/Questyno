@@ -617,7 +617,7 @@ SFQuest_Database.MannequinPool["4866x11186x0"] = {
     outfit = "PonchoRosso",
 }
 
--- Grace Chambers da Louisville (13555,4142,0)
+-- Grace Chambers da Louisville (13641,4057,0)
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_GraceChambers",
