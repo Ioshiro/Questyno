@@ -6316,67 +6316,73 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LucasMiller1_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller1_Lore = "Lucas mi ha chiesto 20kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Accepted = "Vai e uccidi!",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller1_A = "20kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller1_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
+	IGUI_SFQuest_Questyno_LucasMiller1_A = "Cerca a March Ridge (10420,12758,1)",
     IGUI_SFQuest_Questyno_LucasMiller1_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Cerca a March Ridge (10420,12758,0)",
-	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
     IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller2_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller2_Lore = "Lucas mi ha chiesto 25kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Accepted = "Vai e uccidi!",
+    IGUI_SFQuest_Questyno_LucasMiller2_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller2_A = "25kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller2_A = "Cerca a March Ridge (10223,12769,1)",
 	IGUI_SFQuest_Questyno_LucasMiller2_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Cerca a March Ridge (10223,12769,0)",
-	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
     IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller3_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller3_Lore = "Lucas mi ha chiesto 30kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Accepted = "Vai e uccidi!",
+    IGUI_SFQuest_Questyno_LucasMiller3_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller3_A = "30kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller3_A = "Cerca a March Ridge (9976,12745,1)",
     IGUI_SFQuest_Questyno_LucasMiller3_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Cerca a March Ridge (9976,12745,0)",
-	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 	
 	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller4_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller4_Lore = "Lucas mi ha chiesto 32kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Accepted = "Vai e uccidi!",
+    IGUI_SFQuest_Questyno_LucasMiller4_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller4_A = "32kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller4_A = "Cerca a March Ridge (9916,12880,1)",
 	IGUI_SFQuest_Questyno_LucasMiller4_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Cerca a March Ridge (9916,12880,0)",
-	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
 	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller5_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller5_Lore = "Lucas mi ha chiesto 40kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Accepted = "Vai e uccidi!",
+    IGUI_SFQuest_Questyno_LucasMiller5_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text_Declined = "Peggio per te!",
-    IGUI_SFQuest_Questyno_LucasMiller5_A = "40kg di oro",
+    IGUI_SFQuest_Questyno_LucasMiller5_A = "Cerca a March Ridge (9942,13020,1)",
 	IGUI_SFQuest_Questyno_LucasMiller5_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Cerca a March Ridge (9942,13020,0)",
-	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
 	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LucasMiller6_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller6_Lore = "Lucas mi ha chiesto 15kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
-    IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted = "Bene, guarda come luccica!, questo è l'indirizzo.",
+    IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Accepted = "Vai e uccidi!",
+    IGUI_SFQuest_Questyno_LucasMiller6_Complete = "Bene, guarda come luccica!, questo è l'indirizzo.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text_Declined = "Peggio per te!",
-	IGUI_SFQuest_Questyno_LucasMiller6_A = "15kg di oro",
+	IGUI_SFQuest_Questyno_LucasMiller6_A = "Cerca a March Ridge (9929,12681,1)",
     IGUI_SFQuest_Questyno_LucasMiller6_B = "",
-	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Cerca a March Ridge (9929,12681,0)",
-	IGUI_SFQuest_Questyno_LucasMiller6_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9929,12681,0). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
+	IGUI_SFQuest_Questyno_LucasMiller6_A_Text = "Recupera i soldi",
+	IGUI_SFQuest_Questyno_LucasMiller6_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9929,12681,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
 --[[
             *** Gabriel Walker ***
@@ -6688,8 +6694,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell4_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell4_A = "Cerca a Riverside (7005,5590,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell4_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell4_B = "70 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell4_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell4_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell4_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell5_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6701,8 +6706,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell5_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell5_A = "Cerca a Chestown (4633,6674,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell5_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell5_B = "40 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell5_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell5_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell5_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell6_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6714,8 +6718,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell6_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell6_A = "Cerca a Greenleaf (6619,10438,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell6_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell6_B = "50 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell6_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell6_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell6_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell7_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6727,8 +6730,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell7_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell7_A = "Cerca a Westwood (7633,11463,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell7_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell7_B = "65 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell7_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell7_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell7_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell8_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6740,8 +6742,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell8_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell8_A = "Cerca a Blackwood (7840,10719,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell8_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell8_B = "65 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell8_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell8_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell8_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell9_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6753,8 +6754,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell9_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell9_A = "Cerca a Grapeseed (7162,7487,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell9_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell9_B = "60 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell9_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell9_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell9_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell10_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6766,8 +6766,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell10_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell10_A = "Cerca a Grapeseed (3983,9166,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell10_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell10_B = "60 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell10_C = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell10_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell10_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell11_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6779,8 +6778,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell11_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell11_A = "Cerca a Trelai (7289,7573,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell11_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell11_B = "50 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell11_C = "Uccidi 125 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell11_B = "Uccidi 125 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell11_B_Text = "Torna da Maya",
 		
 	IGUI_SFQuest_Questyno_MayaBlackwell12_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6792,8 +6790,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell12_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell12_A = "Cerca a Chestown (4625,6732,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell12_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell12_B = "50 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell12_C = "Uccidi 140 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell12_B = "Uccidi 140 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell12_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell13_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6805,8 +6802,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell13_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
 	IGUI_SFQuest_Questyno_MayaBlackwell13_A = "Cerca a Rosewood (8228,10989,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell13_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell13_B = "50 Scarti metallici",
-	IGUI_SFQuest_Questyno_MayaBlackwell13_C = "Uccidi 150 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell13_B = "Uccidi 150 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell13_B_Text = "Torna da Maya",
 
 

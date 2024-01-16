@@ -1239,10 +1239,16 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller1_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller1_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller1",
+    }},        
     text = "IGUI_SFQuest_Questyno_LucasMiller1_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller1_Title",
-    unlocks = "clickevent;10420x12758x0:EventoLucasMiller1;time:50:anim:loot;completequest;Questyno_LucasMiller1_A",
+    unlocks = "clickevent;10420x12758x1:EventoLucasMiller1;time:50:anim:loot;updateobjective:Questyno_LucasMiller1_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1267,10 +1273,16 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller2_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller2_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller2",
+    }},
     text = "IGUI_SFQuest_Questyno_LucasMiller2_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller2_Title",
-    unlocks = "clickevent;10223x12769x0:EventoLucasMiller2;time:50:anim:loot;completequest;Questyno_LucasMiller2_A",
+    unlocks = "clickevent;10223x12769x1:EventoLucasMiller2;time:50:anim:loot;updateobjective:Questyno_LucasMiller2_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1295,10 +1307,16 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller3_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller3_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller3",
+    }},
     text = "IGUI_SFQuest_Questyno_LucasMiller3_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller3_Title",
-    unlocks = "clickevent;9976x12745x0:EventoLucasMiller3;time:50:anim:loot;completequest;Questyno_LucasMiller3_A",
+    unlocks = "clickevent;9976x12745x1:EventoLucasMiller3;time:50:anim:loot;updateobjective:Questyno_LucasMiller3_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1323,10 +1341,16 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller4_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller4_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller4",
+    }},
     text = "IGUI_SFQuest_Questyno_LucasMiller4_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller4_Title",
-    unlocks = "clickevent;9916x12880x0:EventoLucasMiller4;time:50:anim:loot;completequest;Questyno_LucasMiller4_A",
+    unlocks = "clickevent;9916x12880x1:EventoLucasMiller4;time:50:anim:loot;updateobjective:Questyno_LucasMiller4_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1351,10 +1375,16 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller5_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller5_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller5",
+    }},
     text = "IGUI_SFQuest_Questyno_LucasMiller5_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller5_Title",
-    unlocks = "clickevent;9942x13020x0:EventoLucasMiller5;time:50:anim:loot;completequest;Questyno_LucasMiller5_A",
+    unlocks = "clickevent;9942x13020x1:EventoLucasMiller5;time:50:anim:loot;updateobjective:Questyno_LucasMiller5_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1379,9 +1409,15 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller6_A_Lore" },
+    objectives = {{
+        guid = "Questyno_LucasMiller6_A",
+        text = "IGUI_SFQuest_Questyno_LucasMiller6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoLucasMiller6",
+    }},
     text = "IGUI_SFQuest_Questyno_LucasMiller6_A_Text",
     texture = "media/textures/Item_LucasMiller.png",
     title = "IGUI_SFQuest_Questyno_LucasMiller6_Title",
-    unlocks = "clickevent;9929x12681x0:EventoLucasMiller6;time:50:anim:loot;completequest;Questyno_LucasMiller6_A",
+    unlocks = "clickevent;9929x12681x1:EventoLucasMiller6;time:50:anim:loot;updateobjective:Questyno_LucasMiller6_A:1:Completed",
 });
 
