@@ -2336,3 +2336,15 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_M
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell13", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell13_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Complete"})
+
+--[[
+            *** Lincoln Reed ***
+            Elenco:
+                intro. Incontra Lincoln Reed.
+				1. Recuperare 50$ (250rep)
+]]
+
+-- intro. parla con Lincoln Reed per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LincolnReed_Intro", text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LincolnReed1", optional = true, text = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined"})

@@ -611,7 +611,9 @@ Questyno = {
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell12_Begin;Questyno_MayaBlackwell12",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell13_Begin;Questyno_MayaBlackwell13",
 	},
-
+	LincolnReed = {
+		"Questyno_LincolnReed;SFQuest_Questyno_LincolnReed1_Begin;Questyno_LincolnReed1",
+	},
 	--[[
             *** BENZINAI ***
             - Juan Baker 3837,7028,1 W
@@ -854,6 +856,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_LincolnReed",
+	condition = "notmaxedwithcode;Questyno_LincolnReed;1;hasfactiontier;LincolnReed;2",
+	commands = "randomcodedworldfrompool;Questyno_LincolnReed;Questyno;LincolnReed",
+	days = 0,
+	frequency = 1
+});
 
 --[[
             *** BENZINAI ***
@@ -953,6 +962,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HarperWells_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GraceChambers_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LucasMiller_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MayaBlackwell_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LincolnReed_Intro" })
 
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
@@ -994,6 +1004,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HarperWells" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GraceChambers" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LucasMiller" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LincolnReed" })
 
 
 --[[

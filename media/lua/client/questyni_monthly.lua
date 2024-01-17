@@ -1421,3 +1421,39 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "clickevent;9929x12681x1:EventoLucasMiller6;time:50:anim:loot;updateobjective:Questyno_LucasMiller6_A:1:Completed",
 });
 
+--[[
+            *** Lincoln Reed ***
+            Elenco:
+                intro. Incontra Lincoln Reed.
+				1. Recuperare 50$ (250rep)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LincolnReed_Intro",
+
+    awardstask = "Questyno_LincolnReed1",
+    completesound = "levelup",
+    dailycode = "Questyno_LincolnReed",
+    lore = { "IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Text",
+    texture = "media/textures/Item_LincolnReed.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_LincolnReed1",
+
+    awardsrep = "LaResistenza;250",
+    completesound = "levelup",
+    dailycode = "Questyno_LincolnReed",
+    lore = { "IGUI_SFQuest_Questyno_LincolnReed1_Lore" },
+    needsitem = "Base.Money;50",
+    onobtained = "completequest;Questyno_LincolnReed1",
+    text = "IGUI_SFQuest_Questyno_LincolnReed1_Text",
+    texture = "media/textures/Item_LincolnReed.png",
+    title = "IGUI_SFQuest_Questyno_LincolnReed1_Title",
+    unlockedsound = "QuestUnlocked",
+});
+

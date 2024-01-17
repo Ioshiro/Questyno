@@ -6622,6 +6622,9 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
     IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andranno bene 50$?",
+    IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andranno bene 50$?",
+    IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted = "Grazie, la Resistenza apprezza il tuo contributo.",
+    IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined = "Non ti preoccupare, ci saranno altre occasioni.",
 
 --[[
             *** Maya Blackwell ***

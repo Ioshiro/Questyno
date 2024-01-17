@@ -3,7 +3,7 @@ require 'SFQuest_Database'
 --[[
             *** BENZINAI ***
             - JuanBaker 3837,7028,1 W
-            - Benjamin Scott 6688,7467,1 E
+            - Furi Mishura 6688,7467,1 E
             - Sandra Harris 6684,6820,1 S
             - Eric Adams 7659,7316,1 E
             - Ronald Perez 8353,8579,1 E

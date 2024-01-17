@@ -822,3 +822,20 @@ SFQuest_Database.MannequinPool["10144x12787x1"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
+
+-- Lincoln Reed March Ridge 10353,12406,0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_LincolnReed",
+    square = "10353x12406x0",
+    name = "IGUI_SFQuest_Questyno_LincolnReed_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_LincolnReed.png",
+})
+
+SFQuest_Database.MannequinPool["10353x12406x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
