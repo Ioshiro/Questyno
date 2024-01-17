@@ -2,7 +2,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
     IGUI_SFQuest_Questino_Test1_Title = "Giorno della Pizza",
     IGUI_SFQuest_Questyno_Test1_Lore = "Ho parlato con pino e mi ha detto di cercare della pizza. Sicuramente se vado piu' in la e ammazzo due zombie trovero' la soluzione.",
-    IGUI_SFQuest_Questyno_Test1_Lore_Award = "Wow e' stata un'esperienza fantastica, probabilmente cambio server.",
+    IGUI_SFQuest_Questyno_Test1_Lore_Award = "Wow e' stata un'esperienza fantastica, probabilmente cambio serve.",
     IGUI_SFQuest_Questyno_Test1_Objective1_Text = "Dovrei andare un po' piu in la",
     IGUI_SFQuest_Questyno_Test1_Objective2_Text = "Dovrei ammazzare un paio di zombie zombie",
     IGUI_SFQuest_Questyno_Test1_Objective3_Text = "Forse brioshi vuole il tonno?",
@@ -167,14 +167,14 @@ IGUI_EN = {
                     20. Recupera 1 revolver m625 (35 rep)
                     21. Recupera 1 Desert Eagle (40 rep)
                     22. Recupera 1 Magnum (40 rep)
-                    23. Recupera 5 scatole cartucce (200 rep)
+                    23. Recupera ShotgunShellsBox;5 (200 rep + 50$ + ShotgunShellsBox;4)
 ]]
     IGUI_SFQuest_Questyno_TonyLupo_Name = "Tony 'Lupo'",
 
     IGUI_SFQuest_Questyno_Lupo_Intro_Title = "Tony il 'Lupo', 10161,6621,0 ",
     IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony Lupo [Giornaliere]",
     IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony Lupo è un sopravvissuto di vecchia data che attualmente si trova a West Point, è un cacciatore esperto e un ottimo tiratore. Puoi trovarlo vicino alla sua casa, a 10161,6621,0 ",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Sono Tony, ma tutti mi chiamano "Lupo". Sono un cacciatore esperto, cresciuto nel cuore dei boschi. La mia vista è infallibile e la mira è precisa. Ma ora, i nostri nemici non sono cervi, sono gli zombie. Ho un'ossessione per la perfezione, e quando scelgo un bersaglio, lo abbatto con precisione mortale. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Ciao straniero, cosa ti spinge da queste parti? I sono Tony e tutti mi chiamano Lupo. Mi occupo di raccogliere più munizioni, possibile e cerco di formare nuovi combattenti in questo nostro avamposto. Ci siamo staccati ormai da più di due anni dalla Tana. Siamo certi che per cambiare la situazione dobbiamo capire cosa lega Nigel a gli Americani. Sono altrettanto convinto che queste famose zone "radioattive" sono più che sicure e li si nascono tutti i segreti di cui abbiamo bisogno per capire cosa è successo a questo paese. Spero sarai dei nostri.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text_Accepted = "Piacere. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
 
     IGUI_SFQuest_Questyno_Lupo1_Title = "Tony Lupo da West Point 10161,6621,0",
@@ -385,8 +385,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo23_Title = "Tony Lupo da West Point 10161,6621,0",
     IGUI_SFQuest_Questyno_Lupo23_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo23_Lore = "Tony mi ha chiesto di recuperare delle cartucce per fucile da NPC X. Spero di trovarlo presto.",
-    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Portami quante più cartucce per fucile riesci a trovare!",
+    IGUI_SFQuest_Questyno_Lupo23_Lore = "Tony mi ha chiesto di recuperare delle cartucce per fucile da NPC X. Spero di trovarlo presto. (CHI è STO NPC X?)",
+    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Portami quante più cartucce per fucile riesci a trovare! Questa volta ti pagherò, sono molto importanti!",
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Accepted = "Questa volta ti pagherò, sono molto importanti!",
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo23_Complete = "Hei hai provato gli intrugli del nostro amico NPC x? Cazzo che sballo, non so cosa ci metta maaa... dio boia! Hai trovato la scatola di cui ti avevo parlato?",    
@@ -3701,8 +3701,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Title = "David Turner 10839,9071,0",
     IGUI_SFQuest_Questyno_DavidTurner_Intro_Text = "Incontra David Turner [Settimanali]",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
-    IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
+    IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore = "David mi ricorda un poco Bob della Tana, è un punto di riferimento per quanto riguarda i motori e il metallo in generale. Spero di poter essere utile in qualche modo. Mi aspetta sempre nella fattoria a Muldraugh",
+    IGUI_SFQuest_Questyno_DavidTurner_Intro_Complete_Text = "Heilà straniero che si dice? Io sono David ma puoi chiamarmi Dav, se preferisci. La mia passione è sempre stata rivolta alla meccanica, ai motori e a tutto ciò che si basa su ingranaggi ed elettricità per funzionare, quindi capisco l'importanza delle competenze come le tue in questo mondo dai misteri profondi. Sarà un piacere cooperare con te e recuperare quei pezzi speciali per le tue attrezzature. Sono ritornato qua a Muldraugh dopo un periodo passato a West Point ma sembra che loro si stiano immischiando un poco con le bande di Nigel e non avevano più bisogno del mio aiuto. Prima di creare tensioni non necessarie ho deciso di venire dove potevo dare una mano concreta. Spero che mi darai una mano con alcune questioni da sbrigare, insieme, possiamo fare grandi cose in questa terra dimenticata da Dio.",
 	
 	IGUI_SFQuest_Questyno_DavidTurner1_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner1_Text = "Più Metallo per David",
@@ -3952,8 +3952,8 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title = "Rafael Prezioso (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Incontra Rafael [Settimanali]",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Title = "Rafael 'Prezioso' (10155,6623,0)",
@@ -5842,7 +5842,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text = "Eccoti qua, abbiamo bisogno di un ultimo pezzo per la tua auto. Vai a Rosewood e recupera un Silenziatore Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined = "Okay, c'eravamo quasi.",
-    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato [Premi ESC e clicca su Server Point Shop - Vehicle - Buy (non essere all'interno di strutture o il veicolo non spawnerà)]",
+    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato [Premi ESC e clicca su serve Point Shop - Vehicle - Buy (non essere all'interno di strutture o il veicolo non spawnerà)]",
 	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (8219,11552,0)",
 	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
 
@@ -6404,7 +6404,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title = "Gabriel dalla Tana (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text = "Incontra Gabriel Walker. [Mensili]",
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Lore = "Gabriel è un tipo ambiguo, dice che può fornimi delle droghe che possono aprirmi la mente. Sembra isolato dal gruppo, non so se fidarmi di lui e delle sue droghe. Lo trovo alla Tana disposto a darmi qualche indirizzo dei suoi vecchi "dipendenti" ogni mese.",
-    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Complete_Text = "Ciao io sono Gabriel. Se ti fidi di me, ti darò un modo per migliorare le tue prestazioni sotto qualsiasi aspetto. Tutto quello che mi server sono un po' di contatti, più me ne darai più le tue prestazioni potrebbero salire! Dovrai solo raggiungere le abitazioni dei miei vecchi spacciatori, cosa ne pensi?",
+    IGUI_SFQuest_Questyno_GabrielWalker_Intro_Complete_Text = "Ciao io sono Gabriel. Se ti fidi di me, ti darò un modo per migliorare le tue prestazioni sotto qualsiasi aspetto. Tutto quello che mi serve sono un po' di contatti, più me ne darai più le tue prestazioni potrebbero salire! Dovrai solo raggiungere le abitazioni dei miei vecchi spacciatori, cosa ne pensi?",
 
     
     IGUI_SFQuest_Questyno_GabrielWalker1_Title = "Gabriel dalla Tana (9295,8580,0)",
@@ -6666,7 +6666,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MayaBlackwell2_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell2_Text = "Metallo per Maya",
     IGUI_SFQuest_Questyno_MayaBlackwell2_Lore = "Maya vorrebbe che io vada a Leavenburg (5832,4206,1) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per sciogliere le componenti delle auto!",
-    IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Leavenburg. Ti ricompenserò con una rivista che server a sciogliere i compenenti delle auto",
+    IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Leavenburg. Ti ricompenserò con una rivista che serve a sciogliere i compenenti delle auto",
     IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Accepted = "Bene, mi trovi qui.",
     IGUI_SFQuest_Questyno_MayaBlackwell2_Begin_Text_Declined = "Ti facevo più tosto.",
     IGUI_SFQuest_Questyno_MayaBlackwell2_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
@@ -6687,7 +6687,7 @@ IGUI_EN = {
 
 	IGUI_SFQuest_Questyno_MayaBlackwell4_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell4_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell4_Lore = "Maya vorrebbe che io vada a Riverside (7005,5590,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle armi base dal metallo.",
+    IGUI_SFQuest_Questyno_MayaBlackwell4_Lore = "Maya vorrebbe che io vada a Riverside (7005,5590,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle armi base dal metallo.",
     IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Riverside, ti darò una rivista per creare delle armi base con degli scarti di metallo!",
     IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text_Accepted = "Bene, mi trovi qui.",
     IGUI_SFQuest_Questyno_MayaBlackwell4_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6711,7 +6711,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell6_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell6_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell6_Lore = "Maya vorrebbe che io vada a Greenleaf (6619,10438,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle armi pesanti!",
+    IGUI_SFQuest_Questyno_MayaBlackwell6_Lore = "Maya vorrebbe che io vada a Greenleaf (6619,10438,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle armi pesanti!",
     IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Greenleaf, ti darò una rivista per creare delle armi contundenti dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text_Accepted = "Bene, mi trovi qui.",
     IGUI_SFQuest_Questyno_MayaBlackwell6_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6723,7 +6723,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell7_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell7_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell7_Lore = "Maya vorrebbe che io vada a Westwood (7633,114,63,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle armature base dagli scarti metallici.",
+    IGUI_SFQuest_Questyno_MayaBlackwell7_Lore = "Maya vorrebbe che io vada a Westwood (7633,11463,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle armature base dagli scarti metallici.",
     IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Westwood, ti darò una rivista per creare delle armature basiche dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text_Accepted = "Bene, mi trovi qui.",
     IGUI_SFQuest_Questyno_MayaBlackwell7_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6735,7 +6735,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell8_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell8_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell8_Lore = "Maya vorrebbe che io vada a Blackwood (7840,10719,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per sciogliere le componenti delle auto!",
+    IGUI_SFQuest_Questyno_MayaBlackwell8_Lore = "Maya vorrebbe che io vada a Blackwood (7840,10719,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per sciogliere le componenti delle auto!",
     IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Westwood, ti darò una rivista per creare delle armature avanzate dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell8_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6747,7 +6747,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell9_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell9_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell9_Lore = "Maya vorrebbe che io vada a Trelai (7162,7487,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle lance dal metallo!",
+    IGUI_SFQuest_Questyno_MayaBlackwell9_Lore = "Maya vorrebbe che io vada a Trelai (7162,7487,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle lance dal metallo!",
     IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Trelai, ti darò una rivista per creare delle lance dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell9_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6759,7 +6759,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell10_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell10_Lore = "Maya vorrebbe che io vada a Cataya Valley (3983,9166,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle armature speciali dagli scarti metallici!",
+    IGUI_SFQuest_Questyno_MayaBlackwell10_Lore = "Maya vorrebbe che io vada a Cataya Valley (3983,9166,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle armature speciali dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Cataya Valley, ti darò una rivista per creare delle armature speciali dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6771,7 +6771,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell11_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell11_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell11_Lore = "Maya vorrebbe che io vada a Trelai (7289,7573,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare delle spade dagli scarti metallici!",
+    IGUI_SFQuest_Questyno_MayaBlackwell11_Lore = "Maya vorrebbe che io vada a Trelai (7289,7573,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare delle spade dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Trelai, ti darò una rivista per creare delle spade dagli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell11_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6783,7 +6783,7 @@ IGUI_EN = {
 		
 	IGUI_SFQuest_Questyno_MayaBlackwell12_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell12_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell12_Lore = "Maya vorrebbe che io vada a Chestown (4625,6732,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare degli oggetti unici da gli scarti metallici!",
+    IGUI_SFQuest_Questyno_MayaBlackwell12_Lore = "Maya vorrebbe che io vada a Chestown (4625,6732,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare degli oggetti unici da gli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Chestown, ti darò una rivista per creare degli oggetti unici da gli scarti metallici!",
     IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell12_Begin_Text_Declined = "Ahahahah, immaginavo.",
@@ -6795,7 +6795,7 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell13_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell13_Text = "Metallo per Maya",
-    IGUI_SFQuest_Questyno_MayaBlackwell13_Lore = "Maya vorrebbe che io vada a Rosewood Nord (8228,10989,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che server per creare degli scudi!",
+    IGUI_SFQuest_Questyno_MayaBlackwell13_Lore = "Maya vorrebbe che io vada a Rosewood Nord (8228,10989,0) a recuperare del metallo per lei, ha detto che mi ricompenserà con una rivista che serve per creare degli scudi!",
     IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text = "Se vuoi darci una mano, vai a recuperare del metallo a Rosewood Nord, ti darò una rivista per creare degli scudi!",
     IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Declined = "Ahahahah, immaginavo.",
