@@ -2394,3 +2394,42 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_G
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LincolnReed_Intro", text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LincolnReed1", optional = true, text = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined"})
+
+  
+--[[
+            *** Dylan Harris ***
+            Elenco:
+                intro. Incontra Dylan Harris.
+				1. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (13953,10622,0) (350rep)
+				2. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (13901,11005,0) (550rep)
+				3. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (13123,10933,0) (550rep)
+				4. Recuperare 50$ -> Recuperare MoneyToXp.Droga4 parlando con (13989,11246,1) (550rep)
+				5. Recuperare 50$ -> Recuperare MoneyToXp.Droga4 parlando con (13851,11298,0) (750rep)
+				6. Recuperare 50$ -> Recuperare MoneyToXp.Droga4 parlando con (13778,11053,0) (750rep)
+				7. Recuperare 100$ -> Recuperare MoneyToXp.Droga5 parlando con (14031,10945,0) (1550rep)
+]]
+
+-- intro. parla con Dylan Harris per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris_Intro", text = "IGUI_SFQuest_Questyno_DylanHarris_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris1", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris1_A", text = "IGUI_SFQuest_Questyno_DylanHarris1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris2", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris2_A", text = "IGUI_SFQuest_Questyno_DylanHarris2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris3", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris3_A", text = "IGUI_SFQuest_Questyno_DylanHarris3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris4", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris4_A", text = "IGUI_SFQuest_Questyno_DylanHarris4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris5", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris5_A", text = "IGUI_SFQuest_Questyno_DylanHarris5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris6", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris6_A", text = "IGUI_SFQuest_Questyno_DylanHarris6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_DylanHarris7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_DylanHarris7", optional = true, text = "IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_DylanHarris7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_DylanHarris7_A", text = "IGUI_SFQuest_Questyno_DylanHarris7_Complete"})
+

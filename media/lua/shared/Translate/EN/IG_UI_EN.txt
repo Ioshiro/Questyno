@@ -6307,12 +6307,12 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_LucasMiller_Name = "Lucas Miller",
 
-    IGUI_SFQuest_Questyno_LucasMiller_Intro_Title = "Lucas da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LucasMiller_Intro_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Text = "Incontra Lucas Miller. [Mensili]",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Lore = "Lucas era un direttore di banca senza scrupoli con sede a March Ridge. Ha trovato il modo di fare soldi anche in mezzo a tutto questo caos. Mi aspetta ogni mese, è disposto a rivelarmi le abitazioni di persone che avavano un bel conto in banca, in cambio di oro.",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Complete_Text = "Ciao, io sono Lucas. Credo che l'oro sia una di quelle riserve che converrebbe accumulare anche in una situazione come questa. So però anche che le Bande di Nigel hanno imposto a voi della Resistenza, l'uso del contante essendo molto più pratico. Sono quindi convinto che te ne serva un po'. Sono disposto a dirti dove trovare dei bei gruzzoletti se in cambio mi darai dell'oro. Provare per credere!",
 
-    IGUI_SFQuest_Questyno_LucasMiller1_Title = "Lucas da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LucasMiller1_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller1_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller1_Lore = "Lucas mi ha chiesto 20kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6324,7 +6324,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-    IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller2_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller2_Lore = "Lucas mi ha chiesto 25kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6336,7 +6336,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-    IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller3_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller3_Lore = "Lucas mi ha chiesto 30kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6348,7 +6348,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 	
-	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (10353,12406,0)",
+	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller4_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller4_Lore = "Lucas mi ha chiesto 32kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6360,7 +6360,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (10353,12406,0)",
+	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller5_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller5_Lore = "Lucas mi ha chiesto 40kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6372,7 +6372,7 @@ IGUI_EN = {
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (10353,12406,0)",
+	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LucasMiller6_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller6_Lore = "Lucas mi ha chiesto 15kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6510,7 +6510,7 @@ IGUI_EN = {
 				7. Recuperare 100$, Recuperare MoneyToXp.Droga5 parlando con (14031,10945,0) (1550rep)
 ]]
 
-    IGUI_SFQuest_Questyno_DylanHarris_Name = "Dylan Harris",
+    IGUI_SFQuest_Questyno_DylanHarris_Name = "Dylan Harris (13847,10355,0)",
 
     IGUI_SFQuest_Questyno_DylanHarris_Intro_Title = "Dylan da Bedford Fall (13847,10355,0)",
     IGUI_SFQuest_Questyno_DylanHarris_Intro_Text = "Incontra Dylan Harris. [Mensili]",
@@ -6524,8 +6524,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris1_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris1_A = "30$",
-	IGUI_SFQuest_Questyno_DylanHarris1_B = "Cerca a Bedford Fall (13953,10622,0)",
+	IGUI_SFQuest_Questyno_DylanHarris1_A = "Cerca a Bedford Fall (13953,10622,0)",
 	IGUI_SFQuest_Questyno_DylanHarris1_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris1_A_Lore = "Dovrebbe essere nella cucina a 13953,10622,0"
 
@@ -6535,8 +6534,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris2_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris2_A = "30$",
-	IGUI_SFQuest_Questyno_DylanHarris2_B = "Cerca a Bedford Fall (13901,11005,0)",
+	IGUI_SFQuest_Questyno_DylanHarris2_A = "Cerca a Bedford Fall (13901,11005,0)",
 	IGUI_SFQuest_Questyno_DylanHarris2_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris2_A_Lore = "Dovrebbe essere nella cucina a 13901,11005,0"
 	
@@ -6546,8 +6544,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris3_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris3_A = "30$",
-	IGUI_SFQuest_Questyno_DylanHarris3_B = "Cerca a Bedford Fall (13123,10933,0)",
+	IGUI_SFQuest_Questyno_DylanHarris3_A = "Cerca a Bedford Fall (13123,10933,0)",
 	IGUI_SFQuest_Questyno_DylanHarris3_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris3_A_Lore = "Dovrebbe essere nella cucina a 13123,10933,0"
 	
@@ -6557,8 +6554,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris4_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris4_A = "50$",
-	IGUI_SFQuest_Questyno_DylanHarris4_B = "Cerca a Bedford Fall (13989,11246,1)",
+	IGUI_SFQuest_Questyno_DylanHarris4_A = "Cerca a Bedford Fall (13989,11246,1)",
 	IGUI_SFQuest_Questyno_DylanHarris4_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris4_A_Lore = "Dovrebbe essere nella cucina a 13989,11246,1"
 	
@@ -6568,8 +6564,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris5_A = "50$",
-	IGUI_SFQuest_Questyno_DylanHarris5_B = "Cerca a Bedford Fall (9196,9997,0)",
+	IGUI_SFQuest_Questyno_DylanHarris5_A = "Cerca a Bedford Fall (9196,9997,0)",
 	IGUI_SFQuest_Questyno_DylanHarris5_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris5_A_Lore = "Dovrebbe essere nella cucina a 13851,11298,0"
 	
@@ -6579,8 +6574,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris6_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris6_A = "50$",
-	IGUI_SFQuest_Questyno_DylanHarris6_B = "Cerca a Bedford Fall (13778,11053,0)",
+	IGUI_SFQuest_Questyno_DylanHarris6_A = "Cerca a Bedford Fall (13778,11053,0)",
 	IGUI_SFQuest_Questyno_DylanHarris6_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris6_A_Lore = "Dovrebbe essere nella cucina a 13778,11053,0"
 	
@@ -6590,8 +6584,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text = "Se te la senti di addentrarti in città posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servirà solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris7_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris7_A = "100$",
-	IGUI_SFQuest_Questyno_DylanHarris7_B = "Cerca a Bedford Fall (14031,10945,0)",
+	IGUI_SFQuest_Questyno_DylanHarris7_A = "Cerca a Bedford Fall (14031,10945,0)",
 	IGUI_SFQuest_Questyno_DylanHarris7_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris7_A_Lore = "Dovrebbe essere nella cucina a 14031,10945,0"
 
@@ -6602,15 +6595,15 @@ IGUI_EN = {
 				1. Recuperare Rotolo di Soldi (250rep)
 ]]
 
-    IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed",
+    IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed (9277,8480,0)",
 
-    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Text = "Incontra Lincoln Reed. [Mensile]",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore = "Lincoln mantiene la diplomazia fra tutti i Clan che continuano a crearsi e tiene il conto della moneta che circola. E' un punto di riferimento per tutta La Resistenza e accetta sempre donazioni in contanti per la causa.",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text = "Ciao giovanotto, io sono Lincoln Reed. Chiunque abbia indossato un Poncho giallo mi conosce e nessuno prova a fregarmi. Quando sono arrivato in questo posto ho trovato il Sergente Grif con il quale mi sono subito trovato d'accordo. Abbiamo convenuto che fosse importante riuscire a mantenere il contante in questa nuova società per agevolare gli scambi. Ogni mese qualcuno dona spontaneamente ciò che può per la Causa. Spero farai lo stesso!",
 
     
-    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10353,12406,0)",
+    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (9277,8480,0)",
     IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
     IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
@@ -6830,7 +6823,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JuanBaker_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Redfordville (6688,7467,1)",
-    IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Benjamin",
+    IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Furi",
     IGUI_SFQuest_Questyno_FuriMishura_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",
     IGUI_SFQuest_Questyno_FuriMishura_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",    
     IGUI_SFQuest_Questyno_FuriMishura_Accepted = "Affare fatto!",

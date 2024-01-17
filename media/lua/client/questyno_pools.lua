@@ -625,6 +625,15 @@ Questyno = {
 		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker8_Begin;Questyno_GabrielWalker8",
 		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker9_Begin;Questyno_GabrielWalker9",
 	},
+	DylanHarris = {
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris1_Begin;Questyno_DylanHarris1",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris2_Begin;Questyno_DylanHarris2",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris3_Begin;Questyno_DylanHarris3",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris4_Begin;Questyno_DylanHarris4",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris5_Begin;Questyno_DylanHarris5",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris6_Begin;Questyno_DylanHarris6",
+		"Questyno_DylanHarris;SFQuest_Questyno_DylanHarris7_Begin;Questyno_DylanHarris7",
+	},
 	--[[
             *** BENZINAI ***
             - Juan Baker 3837,7028,1 W
@@ -881,6 +890,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_DylanHarris",
+	condition = "notmaxedwithcode;Questyno_DylanHarris;1;hasfactiontier;DylanHarris;2",
+	commands = "randomcodedworldfrompool;Questyno_DylanHarris;Questyno;DylanHarris",
+	days = 0,
+	frequency = 1
+});
 
 --[[
             *** BENZINAI ***
@@ -982,6 +998,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LucasMiller_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MayaBlackwell_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LincolnReed_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GabrielWalker_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DylanHarris_Intro" })
 
 
 -- quest introduttive catene
@@ -1026,6 +1043,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LucasMiller" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LincolnReed" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GabrielWalker" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DylanHarris" })
 
 
 --[[

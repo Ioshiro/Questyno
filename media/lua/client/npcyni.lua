@@ -702,6 +702,23 @@ SFQuest_Database.MannequinPool["9295x8580x0"] = {
     outfit = "PonchoRosso",
 }
 
+-- Dylan Harris Bedford Fall (13847,10355,0)
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_DylanHarris",
+    square = "13847x10355x0",
+    name = "IGUI_SFQuest_Questyno_DylanHarris_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_DylanHarris.png",
+})
+
+SFQuest_Database.MannequinPool["13847x10355x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
 -- *** benzinai ***
 
 --- Juan Baker 3837,7028,1 W
@@ -840,17 +857,17 @@ SFQuest_Database.MannequinPool["10144x12787x1"] = {
     outfit = "PonchoRosso",
 }
 
--- Lincoln Reed March Ridge 10353,12406,0
+-- Lincoln Reed March Ridge Spawn 9277,8480,0 Est
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_LincolnReed",
-    square = "10353x12406x0",
+    square = "9277x8480x0",
     name = "IGUI_SFQuest_Questyno_LincolnReed_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_LincolnReed.png",
 })
 
-SFQuest_Database.MannequinPool["10353x12406x0"] = {
+SFQuest_Database.MannequinPool["9277x8480x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
