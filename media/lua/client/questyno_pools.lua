@@ -21,7 +21,7 @@ require 'SFQuest_Database'
         Quando si usa randomcodeworldfrompool gli ultimi due parametri di
         questo ExamplePool saranno ExamplePool più Pool1 o Pool2
 ]]
-   --
+--
 
 Questyno = {
 	--[[ 	Money = {
@@ -38,7 +38,7 @@ Questyno = {
 		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random2_Begin;Questyno_Money10_random2",
 		"Questyno_Pynocchio;SFQuest_Questyno_Money10_random3_Begin;Questyno_Money10_random3",
 	}, ]]
-		Lupo = {
+	Lupo = {
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo1_Begin;Questyno_Lupo1",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo2_Begin;Questyno_Lupo2",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo3_Begin;Questyno_Lupo3",
@@ -61,7 +61,7 @@ Questyno = {
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo20_Begin;Questyno_Lupo20",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo21_Begin;Questyno_Lupo21",
 		"Questyno_TonyLupo;SFQuest_Questyno_Lupo22_Begin;Questyno_Lupo22",
---		"Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Begin;Questyno_Lupo23",
+		--		"Questyno_TonyLupo;SFQuest_Questyno_Lupo23_Begin;Questyno_Lupo23",
 	},
 	Grif = {
 		"Questyno_Grif;SFQuest_Questyno_Grif1_Begin;Questyno_Grif1",
@@ -610,7 +610,43 @@ Questyno = {
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell11_Begin;Questyno_MayaBlackwell11",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell12_Begin;Questyno_MayaBlackwell12",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell13_Begin;Questyno_MayaBlackwell13",
-	}
+	},
+
+	--[[
+            *** BENZINAI ***
+            - Juan Baker 3837,7028,1 W
+            - Benjamin Scott 6688,7467,1 E
+            - Sandra Harris 6684,6820,1 S
+            - Eric Adams 7659,7316,1 E
+            - Ronald Perez 8353,8579,1 E
+            - Garrett King 10399,8316,1 E
+            - Marvin Perry 8186,11296,1 E
+            - Karen Taylor 10144,12787,1 S
+]]
+	JuanBaker = {
+		"Questyno_JuanBaker;SFQuest_Questyno_JuanBaker_Begin;Questyno_JuanBaker",
+	},
+	BenjaminScott = {
+		"Questyno_BenjaminScott;SFQuest_Questyno_BenjaminScott_Begin;Questyno_BenjaminScott",
+	},
+	SandraHarris = {
+		"Questyno_SandraHarris;SFQuest_Questyno_SandraHarris_Begin;Questyno_SandraHarris",
+	},
+	EricAdams = {
+		"Questyno_EricAdams;SFQuest_Questyno_EricAdams_Begin;Questyno_EricAdams",
+	},
+	RonaldPerez = {
+		"Questyno_RonaldPerez;SFQuest_Questyno_RonaldPerez_Begin;Questyno_RonaldPerez",
+	},
+	GarrettKing = {
+		"Questyno_GarrettKing;SFQuest_Questyno_GarrettKing_Begin;Questyno_GarrettKing",
+	},
+	MarvinPerry = {
+		"Questyno_MarvinPerry;SFQuest_Questyno_MarvinPerry_Begin;Questyno_MarvinPerry",
+	},
+	KarenTaylor = {
+		"Questyno_KarenTaylor;SFQuest_Questyno_KarenTaylor_Begin;Questyno_KarenTaylor",
+	},
 }
 
 SFQuest_Database.RandomEventPool.Questyno = Questyno;
@@ -628,7 +664,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
 	days = 0,
 	frequency = 1
-}); 
+});
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_Grif",
 	condition = "notmaxedwithcode;Questyno_Grif;1",
@@ -819,6 +855,74 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	frequency = 1
 });
 
+--[[
+            *** BENZINAI ***
+            - Juan Baker 3837,7028,1 W
+            - Benjamin Scott 6688,7467,1 E
+            - Sandra Harris 6684,6820,1 S
+            - Eric Adams 7659,7316,1 E
+            - Ronald Perez 8353,8579,1 E
+            - Garrett King 10399,8316,1 E
+            - Marvin Perry 8186,11296,1 E
+            - Karen Taylor 10144,12787,1 S
+]]
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_JuanBaker",
+	condition = "notmaxedwithcode;Questyno_JuanBaker;1",
+	commands = "randomcodedworldfrompool;Questyno_JuanBaker;Questyno;JuanBaker",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_BenjaminScott",
+	condition = "notmaxedwithcode;Questyno_BenjaminScott;1",
+	commands = "randomcodedworldfrompool;Questyno_BenjaminScott;Questyno;BenjaminScott",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_SandraHarris",
+	condition = "notmaxedwithcode;Questyno_SandraHarris;1",
+	commands = "randomcodedworldfrompool;Questyno_SandraHarris;Questyno;SandraHarris",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_EricAdams",
+	condition = "notmaxedwithcode;Questyno_EricAdams;1",
+	commands = "randomcodedworldfrompool;Questyno_EricAdams;Questyno;EricAdams",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_RonaldPerez",
+	condition = "notmaxedwithcode;Questyno_RonaldPerez;1",
+	commands = "randomcodedworldfrompool;Questyno_RonaldPerez;Questyno;RonaldPerez",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_GarrettKing",
+	condition = "notmaxedwithcode;Questyno_GarrettKing;1",
+	commands = "randomcodedworldfrompool;Questyno_GarrettKing;Questyno;GarrettKing",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MarvinPerry",
+	condition = "notmaxedwithcode;Questyno_MarvinPerry;1",
+	commands = "randomcodedworldfrompool;Questyno_MarvinPerry;Questyno;MarvinPerry",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_KarenTaylor",
+	condition = "notmaxedwithcode;Questyno_KarenTaylor;1",
+	commands = "randomcodedworldfrompool;Questyno_KarenTaylor;Questyno;KarenTaylor",
+	days = 0,
+	frequency = 1
+});
+
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Lupo_Intro" })
@@ -890,6 +994,28 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HarperWells" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GraceChambers" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LucasMiller" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })
+
+
+--[[
+            *** BENZINAI ***
+            - Juan Baker 3837,7028,1 W
+            - Benjamin Scott 6688,7467,1 E
+            - Sandra Harris 6684,6820,1 S
+            - Eric Adams 7659,7316,1 E
+            - Ronald Perez 8353,8579,1 E
+            - Garrett King 10399,8316,1 E
+            - Marvin Perry 8186,11296,1 E
+            - Karen Taylor 10144,12787,1 S
+]]
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JuanBaker" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BenjaminScott" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SandraHarris" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EricAdams" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GarrettKing" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarvinPerry" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_KarenTaylor" })
+
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
 --table.insert(SFQuest_Database.StartingPool,{ world = "Questyno_Brioshi;SFQuest_Questyno_Money_Intro_Complete;Questyno_Money_Intro" })

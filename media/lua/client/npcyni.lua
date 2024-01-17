@@ -684,3 +684,141 @@ SFQuest_Database.MannequinPool["10353x12406x1"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
+
+-- *** benzinai ***
+
+--- Juan Baker 3837,7028,1 W
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_JuanBaker",
+    square = "3837x7028x1",
+    name = "IGUI_SFQuest_Questyno_JuanBaker_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_JuanBaker.png",
+})
+
+SFQuest_Database.MannequinPool["3837x7028x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "W",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Benjamin Scott 6688,7467,1 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_BenjaminScott",
+    square = "6688x7467x1",
+    name = "IGUI_SFQuest_Questyno_BenjaminScott_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_BenjaminScott.png",
+})
+
+SFQuest_Database.MannequinPool["6688x7467x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Sandra Harris 6684,6820,1 S
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_SandraHarris",
+    square = "6684x6820x1",
+    name = "IGUI_SFQuest_Questyno_SandraHarris_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_SandraHarris.png",
+})
+
+SFQuest_Database.MannequinPool["6684x6820x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "S",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Eric Adams 7659,7316,1 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_EricAdams",
+    square = "7659x7316x1",
+    name = "IGUI_SFQuest_Questyno_EricAdams_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_EricAdams.png",
+})
+
+SFQuest_Database.MannequinPool["7659x7316x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Ronald Perez 8353,8579,1 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_RonaldPerez",
+    square = "8353x8579x1",
+    name = "IGUI_SFQuest_Questyno_RonaldPerez_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_RonaldPerez.png",
+})
+
+SFQuest_Database.MannequinPool["8353x8579x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Garrett King 10399,8316,1 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_GarrettKing",
+    square = "10399x8316x1",
+    name = "IGUI_SFQuest_Questyno_GarrettKing_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_GarrettKing.png",
+})
+
+SFQuest_Database.MannequinPool["10399x8316x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Marvin Perry 8186,11296,1 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_MarvinPerry",
+    square = "8186x11296x1",
+    name = "IGUI_SFQuest_Questyno_MarvinPerry_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_MarvinPerry.png",
+})
+
+SFQuest_Database.MannequinPool["8186x11296x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
+-- Karen Taylor 10144,12787,1 S
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_KarenTaylor",
+    square = "10144x12787x1",
+    name = "IGUI_SFQuest_Questyno_KarenTaylor_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_KarenTaylor.png",
+})
+
+SFQuest_Database.MannequinPool["10144x12787x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "S",
+    beard = "",
+    outfit = "PonchoRosso",
+}
