@@ -6808,7 +6808,7 @@ IGUI_EN = {
 --[[
             *** BENZINAI ***
             - Juan Baker 3837,7028,1 W
-            - Benjamin Scott 6688,7467,1 E
+            - Furi Mishura 6688,7467,1 E
             - Sandra Harris 6684,6820,1 S
             - Eric Adams 7659,7316,1 E
             - Ronald Perez 8353,8579,1 E
@@ -6818,7 +6818,7 @@ IGUI_EN = {
 ]]
 
     IGUI_SFQuest_Questyno_JuanBaker_Name = "Juan Baker",
-    IGUI_SFQuest_Questyno_BenjaminScott_Name = "Benjamin Scott",
+    IGUI_SFQuest_Questyno_FuriMishura_Name = "Furi Mishura",
     IGUI_SFQuest_Questyno_SandraHarris_Name = "Sandra Harris",
     IGUI_SFQuest_Questyno_EricAdams_Name = "Eric Adams",
     IGUI_SFQuest_Questyno_RonaldPerez_Name = "Ronald Perez",
@@ -6835,14 +6835,14 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JuanBaker_A = "Tanica Media",
     IGUI_SFQuest_Questyno_JuanBaker_B = "50$",
 
-    IGUI_SFQuest_Questyno_BenjaminScott_Title = "Benjamin Scott da Redfordville (6688,7467,1)",
-    IGUI_SFQuest_Questyno_BenjaminScott_Text = "Scambia con Benjamin",
-    IGUI_SFQuest_Questyno_BenjaminScott_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",
-    IGUI_SFQuest_Questyno_BenjaminScott_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",    
-    IGUI_SFQuest_Questyno_BenjaminScott_Accepted = "Affare fatto!",
-    IGUI_SFQuest_Questyno_BenjaminScott_Declined = "Ti aspetto qua.",
-    IGUI_SFQuest_Questyno_BenjaminScott_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_BenjaminScott_B = "50$",
+    IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Redfordville (6688,7467,1)",
+    IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Benjamin",
+    IGUI_SFQuest_Questyno_FuriMishura_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",
+    IGUI_SFQuest_Questyno_FuriMishura_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 50$, ci stai?",    
+    IGUI_SFQuest_Questyno_FuriMishura_Accepted = "Affare fatto!",
+    IGUI_SFQuest_Questyno_FuriMishura_Declined = "Ti aspetto qua.",
+    IGUI_SFQuest_Questyno_FuriMishura_A = "Tanica Media",
+    IGUI_SFQuest_Questyno_FuriMishura_B = "50$",
 
     IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Redfordville (6684,6820,1)",
     IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra",

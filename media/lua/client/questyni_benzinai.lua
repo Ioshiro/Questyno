@@ -3,7 +3,7 @@ require 'SFQuest_Database'
 --[[
             *** BENZINAI ***
             - Juan Baker 3837,7028,1 W
-            - Benjamin Scott 6688,7467,1 E
+            - Furi Mishura 6688,7467,1 E
             - Sandra Harris 6684,6820,1 S
             - Eric Adams 7659,7316,1 E
             - Ronald Perez 8353,8579,1 E
@@ -39,28 +39,28 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_BenjaminScott",
+    guid = "Questyno_FuriMishura",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
-    dailycode = "Questyno_BenjaminScott",
-    lore = { "IGUI_SFQuest_Questyno_BenjaminScott_Lore" },
+    dailycode = "Questyno_FuriMishura",
+    lore = { "IGUI_SFQuest_Questyno_FuriMishura_Lore" },
     objectives = { {
-        guid = "Questyno_BenjaminScott_A",
-        text = "IGUI_SFQuest_Questyno_BenjaminScott_A",
+        guid = "Questyno_FuriMishura_A",
+        text = "IGUI_SFQuest_Questyno_FuriMishura_A",
         hidden = false,
         needsitem = "EmptyCAN6;1",
-        onobtained = "updateobjective;Questyno_BenjaminScott;1;Completed;removeitem;EmptyCAN6;1",
+        onobtained = "updateobjective;Questyno_FuriMishura;1;Completed;removeitem;EmptyCAN6;1",
     }, {
-        guid = "Questyno_BenjaminScott_B",
-        text = "IGUI_SFQuest_Questyno_BenjaminScott_B",
+        guid = "Questyno_FuriMishura_B",
+        text = "IGUI_SFQuest_Questyno_FuriMishura_B",
         hidden = false,
         needsitem = "MoneyToXP.Rotolo;1",
-        onobtained = "updateobjective;Questyno_BenjaminScott;2;Completed;removeitem;MoneyToXP.Rotolo;1",
+        onobtained = "updateobjective;Questyno_FuriMishura;2;Completed;removeitem;MoneyToXP.Rotolo;1",
     } },
-    text = "IGUI_SFQuest_Questyno_BenjaminScott_Text",
-    texture = "media/textures/Item_BenjaminScott.png",
-    title = "IGUI_SFQuest_Questyno_BenjaminScott_Title",
+    text = "IGUI_SFQuest_Questyno_FuriMishura_Text",
+    texture = "media/textures/Item_FuriMishura.png",
+    title = "IGUI_SFQuest_Questyno_FuriMishura_Title",
     unlockedsound = "QuestUnlocked",
 });
 

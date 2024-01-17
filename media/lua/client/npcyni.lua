@@ -704,14 +704,14 @@ SFQuest_Database.MannequinPool["3837x7028x1"] = {
     outfit = "PonchoRosso",
 }
 
--- Benjamin Scott 6688,7467,1 E
+-- Furi Mishura 6688,7467,1 E
 
 table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_BenjaminScott",
+    identity = "Questyno_FuriMishura",
     square = "6688x7467x1",
-    name = "IGUI_SFQuest_Questyno_BenjaminScott_Name",
+    name = "IGUI_SFQuest_Questyno_FuriMishura_Name",
     faction = "LaResistenza",
-    picture = "media/textures/Picture_BenjaminScott.png",
+    picture = "media/textures/Picture_FuriMishura.png",
 })
 
 SFQuest_Database.MannequinPool["6688x7467x1"] = {
