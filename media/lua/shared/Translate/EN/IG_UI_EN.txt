@@ -167,14 +167,14 @@ IGUI_EN = {
                     20. Recupera 1 revolver m625 (35 rep)
                     21. Recupera 1 Desert Eagle (40 rep)
                     22. Recupera 1 Magnum (40 rep)
-                    23. Recupera 5 scatole cartucce (200 rep)
+                    23. Recupera ShotgunShellsBox;5 (200 rep + 50$ + ShotgunShellsBox;4)
 ]]
     IGUI_SFQuest_Questyno_TonyLupo_Name = "Tony 'Lupo'",
 
     IGUI_SFQuest_Questyno_Lupo_Intro_Title = "Tony il 'Lupo', 10161,6621,0 ",
     IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony Lupo [Giornaliere]",
     IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony Lupo è un sopravvissuto di vecchia data che attualmente si trova a West Point, è un cacciatore esperto e un ottimo tiratore. Puoi trovarlo vicino alla sua casa, a 10161,6621,0 ",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Sono Tony, ma tutti mi chiamano "Lupo". Sono un cacciatore esperto, cresciuto nel cuore dei boschi. La mia vista è infallibile e la mira è precisa. Ma ora, i nostri nemici non sono cervi, sono gli zombie. Ho un'ossessione per la perfezione, e quando scelgo un bersaglio, lo abbatto con precisione mortale. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Ciao straniero, cosa ti spinge da queste parti? I sono Tony e tutti mi chiamano Lupo. Mi occupo di raccogliere più munizioni, possibile e cerco di formare nuovi combattenti in questo nostro avamposto. Ci siamo staccati ormai da più di due anni dalla Tana. Siamo certi che per cambiare la situazione dobbiamo capire cosa lega Nigel a gli Americani. Sono altrettanto convinto che queste famose zone "radioattive" sono più che sicure e li si nascono tutti i segreti di cui abbiamo bisogno per capire cosa è successo a questo paese. Spero sarai dei nostri.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text_Accepted = "Piacere. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
 
     IGUI_SFQuest_Questyno_Lupo1_Title = "Tony Lupo da West Point 10161,6621,0",
@@ -385,8 +385,8 @@ IGUI_EN = {
 
     IGUI_SFQuest_Questyno_Lupo23_Title = "Tony Lupo da West Point 10161,6621,0",
     IGUI_SFQuest_Questyno_Lupo23_Text = "Più munizioni per Tony",
-    IGUI_SFQuest_Questyno_Lupo23_Lore = "Tony mi ha chiesto di recuperare delle cartucce per fucile da NPC X. Spero di trovarlo presto.",
-    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Portami quante più cartucce per fucile riesci a trovare!",
+    IGUI_SFQuest_Questyno_Lupo23_Lore = "Tony mi ha chiesto di recuperare delle cartucce per fucile da NPC X. Spero di trovarlo presto. (CHI è STO NPC X?)",
+    IGUI_SFQuest_Questyno_Lupo23_Begin_Text = "Ho bisogno di qualcosa di pesante per uccidere sti bastardi! Portami quante più cartucce per fucile riesci a trovare! Questa volta ti pagherò, sono molto importanti!",
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Accepted = "Questa volta ti pagherò, sono molto importanti!",
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo23_Complete = "Hei hai provato gli intrugli del nostro amico NPC x? Cazzo che sballo, non so cosa ci metta maaa... dio boia! Hai trovato la scatola di cui ti avevo parlato?",    
@@ -3952,8 +3952,8 @@ IGUI_EN = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title = "Rafael Prezioso (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Incontra Rafael [Settimanali]",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Sono Rafael, ma tutti mi chiamano "Prezioso". Prima di tutto, non fare troppe domande. Sono bravo a far entrare e uscire le cose senza farsi notare. Sono anche alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
 	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Title = "Rafael 'Prezioso' (10155,6623,0)",
