@@ -2337,6 +2337,52 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_M
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_MayaBlackwell13", optional = true, text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MayaBlackwell13_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_MayaBlackwell13_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_MayaBlackwell13_A", text = "IGUI_SFQuest_Questyno_MayaBlackwell13_Complete"})
 
+
+--[[
+            *** Gabriel Walker ***
+            Elenco:
+                intro. Incontra Gabriel Walker.
+				1. Recuperare 10$ -> Recuperare MoneyToXp.Droga1 parlando con (8553,7690,0) (25rep)
+				2. Recuperare 15$ -> Recuperare MoneyToXp.Droga1 parlando con (10230,8317,0) (25rep)
+				3. Recuperare 10$ -> Recuperare MoneyToXp.Droga1 parlando con (7686,11593,0) (25rep)
+				4. Recuperare 10$ -> Recuperare MoneyToXp.Droga1 parlando con (7019,8211,0) (25rep)
+				5. Recuperare 20$ -> Recuperare MoneyToXp.Droga1 parlando con (9196,9997,0) (25rep)
+				6. Recuperare 25$ -> Recuperare MoneyToXp.Droga2 parlando con (7930,10645,2) (25rep)
+				7. Recuperare 20$ -> Recuperare MoneyToXp.Droga2 parlando con (4720,6776,2) (25rep)
+				8. Recuperare 25$ -> Recuperare MoneyToXp.Droga2 parlando con (12184,12066,0) (25rep)
+				9. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (7340,7239,0) (25rep)
+]]
+
+-- intro. parla con Gabriel Walker per sbloccare le sue quest mensili
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker_Intro", text = "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker1", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker1_A", text = "IGUI_SFQuest_Questyno_GabrielWalker1_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker2", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker2_A", text = "IGUI_SFQuest_Questyno_GabrielWalker2_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker3", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker3_A", text = "IGUI_SFQuest_Questyno_GabrielWalker3_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker4", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker4_A", text = "IGUI_SFQuest_Questyno_GabrielWalker4_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker5", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker5_A", text = "IGUI_SFQuest_Questyno_GabrielWalker5_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker6_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker6", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker6_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker6_A", text = "IGUI_SFQuest_Questyno_GabrielWalker6_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker7_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker7", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker7_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker7_A", text = "IGUI_SFQuest_Questyno_GabrielWalker7_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker8_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker8", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker8_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker8_A", text = "IGUI_SFQuest_Questyno_GabrielWalker8_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GabrielWalker9_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_GabrielWalker9", optional = true, text = "IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_GabrielWalker9_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_GabrielWalker9_A", text = "IGUI_SFQuest_Questyno_GabrielWalker9_Complete"})
+
 --[[
             *** Lincoln Reed ***
             Elenco:

@@ -685,6 +685,23 @@ SFQuest_Database.MannequinPool["10353x12406x1"] = {
     outfit = "PonchoRosso",
 }
 
+-- Gabriel Walker dalla Tana 9295,8580,0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_GabrielWalker",
+    square = "9295x8580x0",
+    name = "IGUI_SFQuest_Questyno_GabrielWalker_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_GabrielWalker.png",
+})
+
+SFQuest_Database.MannequinPool["9295x8580x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
 -- *** benzinai ***
 
 --- Juan Baker 3837,7028,1 W

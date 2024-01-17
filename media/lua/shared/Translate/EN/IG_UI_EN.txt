@@ -6399,7 +6399,7 @@ IGUI_EN = {
 				9. Recuperare 30$, Recuperare MoneyToXp.Droga3 parlando con (7340,7239,0) (25rep)
 ]]
 
-    IGUI_SFQuest_Questyno_GabrielWalker_Name = "Gabriel Walker",
+    IGUI_SFQuest_Questyno_GabrielWalker_Name = "Gabriel Walker (9295,8580,0)",
 
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title = "Gabriel dalla Tana (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text = "Incontra Gabriel Walker. [Mensili]",
@@ -6413,8 +6413,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text = "Sono certo che troverai una pasticchina speciale a Greenleaf. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker1_A = "10$",
-	IGUI_SFQuest_Questyno_GabrielWalker1_B = "Cerca a Greenleaf (8553,7690,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker1_A = "Cerca a Greenleaf (8553,7690,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker1_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker1_A_Lore = "Dovrei trovarla in cucina in una casa a Greenleaf (8553,7690,0)"
 
@@ -6424,8 +6423,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text = "Sono certo che troverai una pasticchina speciale a Springwood. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker2_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker2_A = "15$",
-	IGUI_SFQuest_Questyno_GabrielWalker2_B = "Cerca a Springwood (10230,8317,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker2_A = "Cerca a Springwood (10230,8317,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker2_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker2_A_Lore = "Dovrei trovarla in cucina in una casa a Springwood (10230,8317,0)"
 	
@@ -6435,8 +6433,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text = "Sono certo che troverai una pasticchina speciale a Springwood. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker3_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker3_A = "10$",
-	IGUI_SFQuest_Questyno_GabrielWalker3_B = "Cerca a Springwood (7686,11593,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker3_A = "Cerca a Springwood (7686,11593,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker3_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker3_A_Lore = "Dovrei trovarla in cucina in una casa a Springwood (7686,11593,0)"
 	
@@ -6446,8 +6443,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text = "Sono certo che troverai una pasticchina speciale a New Ekron. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker4_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker4_A = "10$",
-	IGUI_SFQuest_Questyno_GabrielWalker4_B = "Cerca a New Ekron (7019,8211,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker4_A = "Cerca a New Ekron (7019,8211,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker4_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker4_A_Lore = "Dovrei trovarla in cucina in una casa a New Ekron (7019,8211,0)"
 	
@@ -6457,8 +6453,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text = "Sono certo che troverai una pasticchina speciale a Lake Ivy. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker5_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker5_A = "20$",
-	IGUI_SFQuest_Questyno_GabrielWalker5_B = "Cerca a Lake Ivy (9196,9997,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker5_A = "Cerca a Lake Ivy (9196,9997,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker5_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker5_A_Lore = "Dovrei trovarla in cucina in una casa a Lake Ivy (9196,9997,0)"
 	
@@ -6468,8 +6463,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text = "Sono certo che troverai una pasticchina speciale a Blackwood. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker6_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker6_A = "25$",
-	IGUI_SFQuest_Questyno_GabrielWalker6_B = "Cerca a Blackwood (7930,10645,2)",
+	IGUI_SFQuest_Questyno_GabrielWalker6_A = "Cerca a Blackwood (7930,10645,2)",
 	IGUI_SFQuest_Questyno_GabrielWalker6_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker6_A_Lore = "Dovrei trovarla in cucina in una casa a Blackwood (7930,10645,2)"
 	
@@ -6479,8 +6473,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text = "Sono certo che troverai una pasticchina speciale a Chestown. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker7_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker7_A = "20$",
-	IGUI_SFQuest_Questyno_GabrielWalker7_B = "Cerca a Chestown (4720,6776,2)",
+	IGUI_SFQuest_Questyno_GabrielWalker7_A = "Cerca a Chestown (4720,6776,2)",
 	IGUI_SFQuest_Questyno_GabrielWalker7_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker7_A_Lore = "Dovrei trovarla in cucina in una casa a Chestown (4720,6776,2)"
 	
@@ -6490,8 +6483,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text = "Sono certo che troverai una pasticchina speciale a St. Bernard's Hills. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker8_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker8_A = "25$",
-	IGUI_SFQuest_Questyno_GabrielWalker8_B = "Cerca a St.Bernard's Hills (12184,12066,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker8_A = "Cerca a St.Bernard's Hills (12184,12066,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker8_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker8_A_Lore = "Dovrei trovarla in cucina in una casa a St.Bernard's Hills (12184,12066,0)"
 	
@@ -6501,8 +6493,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "Sono certo che troverai una pasticchina speciale a Trelai. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker9_A = "30$",
-	IGUI_SFQuest_Questyno_GabrielWalker9_B = "Cerca a Trelai (7340,7239,0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A = "Cerca a Trelai (7340,7239,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker9_A_Text = "Prendi la pasticchina in cucina",
 	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "Dovrei trovarla in cucina in una casa a Trelai (7340,7239,0)"
   
@@ -6608,7 +6599,7 @@ IGUI_EN = {
             *** Lincoln Reed ***
             Elenco:
                 intro. Incontra Lincoln Reed.
-				1. Recuperare 50$ (250rep)
+				1. Recuperare Rotolo di Soldi (250rep)
 ]]
 
     IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed",
@@ -6621,8 +6612,8 @@ IGUI_EN = {
     
     IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10353,12406,0)",
     IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
-    IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andranno bene 50$?",
-    IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andranno bene 50$?",
+    IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
+    IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted = "Grazie, la Resistenza apprezza il tuo contributo.",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined = "Non ti preoccupare, ci saranno altre occasioni.",
 
@@ -6836,7 +6827,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_JuanBaker_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_JuanBaker_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_JuanBaker_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_JuanBaker_B = "50$",
+    IGUI_SFQuest_Questyno_JuanBaker_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Redfordville (6688,7467,1)",
     IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Benjamin",
@@ -6845,7 +6836,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_FuriMishura_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_FuriMishura_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_FuriMishura_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_FuriMishura_B = "50$",
+    IGUI_SFQuest_Questyno_FuriMishura_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Redfordville (6684,6820,1)",
     IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra",
@@ -6854,7 +6845,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_SandraHarris_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_SandraHarris_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_SandraHarris_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_SandraHarris_B = "50$",
+    IGUI_SFQuest_Questyno_SandraHarris_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_EricAdams_Title = "Eric Adams da Redfordville (7659,7316,1)",
     IGUI_SFQuest_Questyno_EricAdams_Text = "Scambia con Eric",
@@ -6863,7 +6854,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EricAdams_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_EricAdams_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_EricAdams_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_EricAdams_B = "50$",
+    IGUI_SFQuest_Questyno_EricAdams_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_RonaldPerez_Title = "Ronald Perez da Redfordville (8353,8579,1)",
     IGUI_SFQuest_Questyno_RonaldPerez_Text = "Scambia con Ronald",
@@ -6872,7 +6863,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_RonaldPerez_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_RonaldPerez_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_RonaldPerez_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_RonaldPerez_B = "50$",
+    IGUI_SFQuest_Questyno_RonaldPerez_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_GarrettKing_Title = "Garrett King da Redfordville (10399,8316,1)",
     IGUI_SFQuest_Questyno_GarrettKing_Text = "Scambia con Garrett",
@@ -6881,7 +6872,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_GarrettKing_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_GarrettKing_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_GarrettKing_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_GarrettKing_B = "50$",
+    IGUI_SFQuest_Questyno_GarrettKing_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_MarvinPerry_Title = "Marvin Perry da Redfordville (8186,11296,1)",
     IGUI_SFQuest_Questyno_MarvinPerry_Text = "Scambia con Marvin",
@@ -6890,7 +6881,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_MarvinPerry_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_MarvinPerry_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_MarvinPerry_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_MarvinPerry_B = "50$",
+    IGUI_SFQuest_Questyno_MarvinPerry_B = "Rotolo di Soldi",
 
     IGUI_SFQuest_Questyno_KarenTaylor_Title = "Karen Taylor da Redfordville (10144,12787,1)",
     IGUI_SFQuest_Questyno_KarenTaylor_Text = "Scambia con Karen",
@@ -6899,7 +6890,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_KarenTaylor_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_KarenTaylor_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_KarenTaylor_A = "Tanica Media",
-    IGUI_SFQuest_Questyno_KarenTaylor_B = "50$",
+    IGUI_SFQuest_Questyno_KarenTaylor_B = "Rotolo di Soldi",
 
 
 

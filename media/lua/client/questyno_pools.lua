@@ -614,6 +614,17 @@ Questyno = {
 	LincolnReed = {
 		"Questyno_LincolnReed;SFQuest_Questyno_LincolnReed1_Begin;Questyno_LincolnReed1",
 	},
+	GabrielWalker = {
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker1_Begin;Questyno_GabrielWalker1",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker2_Begin;Questyno_GabrielWalker2",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker3_Begin;Questyno_GabrielWalker3",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker4_Begin;Questyno_GabrielWalker4",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker5_Begin;Questyno_GabrielWalker5",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker6_Begin;Questyno_GabrielWalker6",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker7_Begin;Questyno_GabrielWalker7",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker8_Begin;Questyno_GabrielWalker8",
+		"Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker9_Begin;Questyno_GabrielWalker9",
+	},
 	--[[
             *** BENZINAI ***
             - Juan Baker 3837,7028,1 W
@@ -628,8 +639,8 @@ Questyno = {
 	JuanBaker = {
 		"Questyno_JuanBaker;SFQuest_Questyno_JuanBaker_Begin;Questyno_JuanBaker",
 	},
-	BenjaminScott = {
-		"Questyno_BenjaminScott;SFQuest_Questyno_BenjaminScott_Begin;Questyno_BenjaminScott",
+	FuriMishura = {
+		"Questyno_FuriMishura;SFQuest_Questyno_FuriMishura_Begin;Questyno_FuriMishura",
 	},
 	SandraHarris = {
 		"Questyno_SandraHarris;SFQuest_Questyno_SandraHarris_Begin;Questyno_SandraHarris",
@@ -863,6 +874,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 1
 });
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_GabrielWalker",
+	condition = "notmaxedwithcode;Questyno_GabrielWalker;1;hasfactiontier;GabrielWalker;2",
+	commands = "randomcodedworldfrompool;Questyno_GabrielWalker;Questyno;GabrielWalker",
+	days = 0,
+	frequency = 1
+});
 
 --[[
             *** BENZINAI ***
@@ -883,9 +901,9 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
-	dailycode = "Questyno_BenjaminScott",
-	condition = "notmaxedwithcode;Questyno_BenjaminScott;1",
-	commands = "randomcodedworldfrompool;Questyno_BenjaminScott;Questyno;BenjaminScott",
+	dailycode = "Questyno_FuriMishura",
+	condition = "notmaxedwithcode;Questyno_FuriMishura;1",
+	commands = "randomcodedworldfrompool;Questyno_FuriMishura;Questyno;FuriMishura",
 	days = 0,
 	frequency = 1
 });
@@ -963,6 +981,8 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GraceChambers_In
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LucasMiller_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MayaBlackwell_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LincolnReed_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GabrielWalker_Intro" })
+
 
 -- quest introduttive catene
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
@@ -1005,6 +1025,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GraceChambers" }
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LucasMiller" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LincolnReed" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GabrielWalker" })
 
 
 --[[
@@ -1019,7 +1040,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_LincolnReed" })
             - Karen Taylor 10144,12787,1 S
 ]]
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JuanBaker" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BenjaminScott" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_FuriMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SandraHarris" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EricAdams" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
