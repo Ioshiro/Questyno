@@ -4,6 +4,15 @@ module LR{
 		Base
 	}
 
+    item FloppyDisk {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Electronics,
+        DisplayName		=	Floppy Disk,
+        Icon			=	FloppyDisk,        
+        WorldStaticModel = FloppyDisk,
+    }
+
     	
 	item Lore1 {
 		Weight			=	0.1,
@@ -55,6 +64,42 @@ module LR{
         Type			=	Normal,
         DisplayCategory = 	Literature,
         DisplayName		=	Lore 6,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore7 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 7,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore8 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 8,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore9 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 9,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item Lore10 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Lore 10,
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }

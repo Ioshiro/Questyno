@@ -11,6 +11,11 @@ local function bind()
     ExamineEntries.addEntry("Lore4", "media/ui/Poster.png", "sesso gratiss");
     ExamineEntries.addEntry("Lore5", "media/ui/Poster.png", "sesso gratiss");
     ExamineEntries.addEntry("Lore6", "media/ui/Poster.png", "pynokkio fynokkio");
+    ExamineEntries.addEntry("Lore7", "media/ui/Poster.png", "pynokkio fynokkio");
+    ExamineEntries.addEntry("Lore8", "media/ui/Poster.png", "pynokkio fynokkio");
+    ExamineEntries.addEntry("Lore9", "media/ui/Poster.png", "pynokkio fynokkio");
+    ExamineEntries.addEntry("Lore10", "media/ui/Poster.png", "pynokkio fynokkio");
+    
 
     table.insert(SPageTable, "LR.Lore1");
     table.insert(SPageTable, "LR.Lore2");
@@ -18,6 +23,10 @@ local function bind()
     table.insert(SPageTable, "LR.Lore4");
     table.insert(SPageTable, "LR.Lore5");
     table.insert(SPageTable, "LR.Lore6");
+    table.insert(SPageTable, "LR.Lore7");
+    table.insert(SPageTable, "LR.Lore8");
+    table.insert(SPageTable, "LR.Lore9");
+    table.insert(SPageTable, "LR.Lore10");
 
 end
 
