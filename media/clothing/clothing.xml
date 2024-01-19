@@ -201,7 +201,173 @@
                 </m_items>                
         </m_FemaleOutfits>        
         
-          
+	<!--                         NPC DAILY SPAWN POINT                      -->       
+	<m_MaleOutfits> 
+		<m_Name>SergenteGrif</m_Name>
+		<m_Guid>35d0faf6-ee6f-4602-a233-fd48e89d69e1</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_items> <!-- Pants -->
+                        <itemGUID>36eb3ab3-491b-4947-8eba-9bc61158112d</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>
+                <m_items> <!-- Shoes -->
+                        <itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+                </m_items>
+                <m_items> <!-- Formal shirt -->
+                        <itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+                </m_items>
+                <m_items> <!-- Lab Coat -->
+                        <itemGUID>bf11c94c-4693-4488-971f-5aea7256bcd8</itemGUID>
+                </m_items>
+                <m_items> <!-- Watches -->
+                        <probability>0.3</probability>
+                        <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+                        <subItems>
+                                <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+                        </subItems>
+                </m_items>
+</m_MaleOutfits>
+
+<m_FemaleOutfits>
+	<m_Name>AngelicaStella</m_Name>
+    <m_Guid>0386f8ef-0c42-43e0-9164-075ecaf03da7</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Maria Shirts --> <m_items>
+                        <itemGUID>f1ea05e1-51ea-4b18-b566-4b25ae21084b</itemGUID>
+                </m_items>
+<!-- Maria Skirts --> <m_items>
+                        <itemGUID>21f38ce5-6c57-452b-a814-d854f196aa66</itemGUID>
+                </m_items>                        
+<!-- Tank Top --> <m_items>
+                        <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+                </m_items>        
+<!-- Maria Boots --> <m_items>
+                        <itemGUID>99f1acee-68ff-4454-95d2-26cb632c995a</itemGUID>
+                </m_items>        
+<!-- Maria Choker --> <m_items>
+                        <itemGUID>dadae5b8-48b6-470b-a663-823c3a15b8b7</itemGUID>
+                </m_items>                        
+<!-- Stocking Long --> <m_items>
+                        <itemGUID>7d34b537-eb0e-4283-bf00-efe30e474421</itemGUID>
+                </m_items>                        
+        </m_FemaleOutfits>        
+
+	<m_MaleOutfits>
+		<m_Name>HeatherThomas</m_Name>
+		<m_Guid>fc35d80f-c05d-442f-8053-785e216c3294</m_Guid>
+                <m_Top>false</m_Top>
+                <m_items>
+                        <itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+                        <subItems>
+                                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items>
+                        <itemGUID>d325b65d-497d-4c77-8919-74a65172cb94</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>c2d9211a-a0c5-475d-8fa6-681a8b809f26</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+                </m_items>
+                <m_items>
+                        <probability>0.3</probability>
+                        <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+                        <subItems>
+                                <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+                        </subItems>
+                </m_items>
+        </m_MaleOutfits>
+
+	<m_MaleOutfits> 
+		<m_Name>EliaRima</m_Name>
+        <m_Guid>e429f450-4301-4f93-8909-90d7ebc514e1</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>                
+                <m_items> <!-- Khaki Pants -->
+                        <itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>        
+                <m_items> <!-- Shoes -->
+                        <itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+                </m_items>
+                <m_items> <!-- Formal Shirt -->
+                        <itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+                </m_items>
+                <m_items> <!-- Holster -->
+                        <itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+                </m_items>
+</m_MaleOutfits>
+
+	<m_MaleOutfits> 
+	        <m_Name>BobRepair</m_Name>
+                <m_Guid>6eff5ae0-43ec-da31-a2f6-93bf216dea2d</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>                
+                <m_items> <!-- Jeans -->
+                        <itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>        
+                <m_items> <!-- Shoes -->
+                        <itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+                </m_items>
+                <m_items> <!-- Black Jacket -->
+                        <itemGUID>c4f4b937-29da-4981-ac5a-ccb1653e88a7</itemGUID>
+                </m_items>
+                <m_items> <!-- Holster -->
+                        <itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+                </m_items>                 
+</m_MaleOutfits>
+
+<m_MaleOutfits> 
+<m_Name>MikePozzo</m_Name>
+<m_Guid>fe821f7c-de5b-4231-ae5f-ba42af2f5f71</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>                
+                <m_items> <!-- Black Apron -->
+                        <itemGUID>16960734-6e29-4235-92f9-40bd68cc4520</itemGUID>
+                </m_items>
+                <m_items> <!-- Tank Top -->
+                        <itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
+                </m_items>
+                <m_items> <!-- Short Blue Formal Shirt -->
+                        <itemGUID>0ca9ecef-216a-439a-8005-b224c85243a0</itemGUID>
+                </m_items>                
+                <m_items> <!-- Khaki Pants -->
+                        <itemGUID>d6ea6cbe-bbba-480e-9f02-271faf87a803</itemGUID>
+                </m_items>
+                <m_items> <!-- Black Shoes -->
+                        <itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+                </m_items>                                     
+        </m_MaleOutfits>
 
 </outfitManager>
 
