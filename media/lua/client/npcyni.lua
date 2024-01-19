@@ -476,7 +476,8 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9324x8598x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
+    beard = "Goatee",
+    beardcolor = "0.2,0.05,0.0",
     hair = "Bald",
     outfit = "PonchoGiallo"
 }
