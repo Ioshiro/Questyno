@@ -223,7 +223,7 @@ SFQuest_Database.MannequinPool["10824x9070x1"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
     hair = "PulledBack",
-    haricolor = "0.1,0.05,0.05",
+    haircolor = "0.1,0.05,0.05",
     beard = "",
     outfit = "VictoriaSecret"
 }
@@ -341,8 +341,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10161x6621x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "S",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "Goatee",
+    hair = "ShortBuzzCut",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "TonyLupo"
 }
 
 -- Rafael Prezioso 10161x6621x0
@@ -358,7 +360,8 @@ SFQuest_Database.MannequinPool["10155x6623x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "S",
     beard = "",
-    outfit = "TraderBandit"
+    hair = "Bald",
+    outfit = "RafaelPrezioso"
 }
 
 -- Jeffrey Lewis 10149,6622,0
@@ -373,8 +376,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10149x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.2,0.2,0.2",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "JeffreyLewis"
 }
 
 -- Christopher Davis 10161,6627,0
@@ -389,8 +395,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10161x6627x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.2,0.2,0.2",
+    hair = "Cornrows",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "ChristopherDavis"
 }
 
 -- Pamela Perez 10115,6622,0
@@ -406,6 +415,8 @@ SFQuest_Database.MannequinPool["10115x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
+    hair = "Buffont", 
+    haircolor = "0.1,0.1,0.0",
     outfit = "TraderBandit"
 }
 
@@ -421,8 +432,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10153x6571x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "1,1,1",
+    hair = "Messy",
+    haircolor = "1,1,1",
+    outfit = "SamFisher"
 }
 --[[
                                                     *** NPC CATENE SPAWN ***
