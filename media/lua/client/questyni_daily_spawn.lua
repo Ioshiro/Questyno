@@ -40,15 +40,15 @@ require 'SFQuest_Database'
 local grifIntro = {
     guid = "Questyno_Grif_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
-    awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
+    awardsrep = "SergenteGrif;100", -- REP REWARD
+    --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
     texture = "media/textures/Item_Grif.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
+    unlocks = "addreputation;SergenteGrif;100;unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_Grif_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifIntro);

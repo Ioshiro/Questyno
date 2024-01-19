@@ -81,6 +81,9 @@ function Questyno_Tweaks()
     manager:getItem("Base.BellyButton_RingGoldRuby"):DoParam("Tags".." = ".. "Golden");
     manager:getItem("Base.BellyButton_StudGold"):DoParam("Tags".." = ".. "Golden");
     manager:getItem("Base.BellyButton_StudGoldDiamond"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.NoseStud_Gold"):DoParam("Tags".." = ".. "Golden");
+    manager:getItem("Base.NoseRing_Gold"):DoParam("Tags".." = ".. "Golden");
+
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)

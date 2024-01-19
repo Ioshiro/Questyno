@@ -165,8 +165,8 @@ function ISCharacterScreen:render()
 	z = z + smallFontHgt;
 	
 	self:drawTextRight(getText('IGUI_Reputation'), x, z, 0.7, 0.5, 0.1, 1, UIFont.Small)
-    local tiername = getText('IGUI_Factions_Template_Tier'.. self.char:getModData().missionProgress.Factions[1].tierlevel)
-	self:drawText(format('%d (%s)', self.char:getModData().missionProgress.Factions[1].reputation, tiername), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
+    local tiername = getText('IGUI_Factions_Resistenza_Tier'.. self.char:getModData().missionProgress.Factions[1].tierlevel )
+	self:drawText(format('%d%% (%s)', (self.char:getModData().missionProgress.Factions[1].reputation/ self.char:getModData().missionProgress.Factions[1].repmax) * 100, tiername), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
 	
 	z = z + smallFontHgt;
 	local clock = UIManager.getClock()
