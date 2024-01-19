@@ -69,6 +69,7 @@ SFQuest_Database.MannequinPool["9331x8640x0"] = {
     direction = "W",
     beard = "",
     hair = "Bald",
+    haircolor = "",
     outfit = "TraderBandit"
 }
 -- Angelica Stella  9344x8618,0
@@ -213,8 +214,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10824x9070x1"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
+    hair = "PulledBack",
+    haricolor = "0.1,0.05,0.05",
     beard = "",
-    outfit = "TraderBandit"
+    outfit = "VictoriaSecret"
 }
 
 -- Dr. Susan Lee 10822x9072x0
@@ -229,8 +232,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10822x9072x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
+    hair = "PulledBack",
+    haircolor = "0.1,0.05,0.05",
     beard = "",
-    outfit = "TraderBandit"
+    outfit = "SusanLee"
 }
 
 -- George Scott 10830x9068x0
@@ -245,8 +250,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10830x9068x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "S",
-    beard = "",
-    outfit = "TraderBandit"
+    hair = "Donny",
+    haircolor = "0.3,0.1,0.0",
+    beard = "FullBeard",
+    outfit = "GeorgeScott"
 }
 
 -- Samuel Young 10823x9066x0
@@ -261,8 +268,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10823x9066x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    hair = "LeftParting",
+    haircolor = "0.1,0.1,0.0",
+    beard = "FullBeard",
+    outfit = "SamuelYoung"
 }
 
 -- Xu Mishura 10829,9072,1
@@ -277,8 +286,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10829x9072x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "N",
+    hair = "Larry",
+    haircolor = "0.05,0.05,0.05",
     beard = "",
-    outfit = "TraderBandit"
+    outfit = "XuMishura"
 }
 
 -- David Turner 10839,9071,0
@@ -293,8 +304,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10839x9071x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
+    hair = "Short",
+    haircolor = "0.4,0.4,0.07",
     beard = "",
-    outfit = "TraderBandit"
+    outfit = "DavidTurner"
 }
 
 --[[
