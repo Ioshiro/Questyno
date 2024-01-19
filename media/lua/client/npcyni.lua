@@ -421,10 +421,10 @@ table.insert(SFQuest_Database.WorldPool, {
 
 SFQuest_Database.MannequinPool["9328x8596x0"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "s",
+    direction = "S",
     beard = "PointyChin",
     beardcolor = "0.8,0.8,0.8",
-    hair = "Recede",
+    --hair = "",
     haircolor = "0.8,0.8,0.8",
     outfit = "PonchoGiallo"
 }
@@ -856,6 +856,23 @@ SFQuest_Database.MannequinPool["10144x12787x1"] = {
     outfit = "PonchoRosso",
 }
 
+-- Charles Davis 9285,8482 E
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_CharlesDavis",
+    square = "9285x8482x1",
+    name = "IGUI_SFQuest_Questyno_CharlesDavis_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_CharlesDavis.png",
+})
+
+SFQuest_Database.MannequinPool["9285x8482x1"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
 -- Lincoln Reed March Ridge Spawn 9277,8480,0 Est
 
 table.insert(SFQuest_Database.WorldPool, {
@@ -872,3 +889,21 @@ SFQuest_Database.MannequinPool["9277x8480x0"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
+
+-- Pyno 9332,8605,0 EST
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_Pyno",
+    square = "9332x8605x0",
+    name = "IGUI_SFQuest_Questyno_Pyno_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_Pyno.png",
+})
+
+SFQuest_Database.MannequinPool["9332x8605x0"] = {
+    sprite = "location_shop_mall_01_70",
+    direction = "E",
+    beard = "",
+    outfit = "PonchoRosso",
+}
+
