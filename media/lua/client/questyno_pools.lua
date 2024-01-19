@@ -644,6 +644,7 @@ Questyno = {
             - Garrett King 10399,8316,1 E
             - Marvin Perry 8186,11296,1 E
             - Karen Taylor 10144,12787,1 S
+            - Charles Davis 9285,8482 E
 ]]
 	JuanBaker = {
 		"Questyno_JuanBaker;SFQuest_Questyno_JuanBaker_Begin;Questyno_JuanBaker",
@@ -668,6 +669,9 @@ Questyno = {
 	},
 	KarenTaylor = {
 		"Questyno_KarenTaylor;SFQuest_Questyno_KarenTaylor_Begin;Questyno_KarenTaylor",
+	},
+	CharlesDavis = {
+		"Questyno_CharlesDavis;SFQuest_Questyno_CharlesDavis_Begin;Questyno_CharlesDavis",
 	},
 }
 
@@ -908,60 +912,68 @@ table.insert(SFQuest_Database.DailyEventPool, {
             - Garrett King 10399,8316,1 E
             - Marvin Perry 8186,11296,1 E
             - Karen Taylor 10144,12787,1 S
+			- Charles Davis 9285,8482 E
 ]]
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_JuanBaker",
-	condition = "notmaxedwithcode;Questyno_JuanBaker;1;hasfactiontier;JuanBaker;3",
+	condition = "notmaxedwithcode;Questyno_JuanBaker;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_JuanBaker;Questyno;JuanBaker",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_FuriMishura",
-	condition = "notmaxedwithcode;Questyno_FuriMishura;1;hasfactiontier;FuriMishura;3",
+	condition = "notmaxedwithcode;Questyno_FuriMishura;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_FuriMishura;Questyno;FuriMishura",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_SandraHarris",
-	condition = "notmaxedwithcode;Questyno_SandraHarris;1;hasfactiontier;SandraHarris;3",
+	condition = "notmaxedwithcode;Questyno_SandraHarris;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_SandraHarris;Questyno;SandraHarris",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_EricAdams",
-	condition = "notmaxedwithcode;Questyno_EricAdams;1;hasfactiontier;EricAdams;3",
+	condition = "notmaxedwithcode;Questyno_EricAdams;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_EricAdams;Questyno;EricAdams",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_RonaldPerez",
-	condition = "notmaxedwithcode;Questyno_RonaldPerez;1;hasfactiontier;RonaldPerez;3",
+	condition = "notmaxedwithcode;Questyno_RonaldPerez;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_RonaldPerez;Questyno;RonaldPerez",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GarrettKing",
-	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;GarrettKing;3",
+	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_GarrettKing;Questyno;GarrettKing",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_MarvinPerry",
-	condition = "notmaxedwithcode;Questyno_MarvinPerry;1;hasfactiontier;MarvinPerry;3",
+	condition = "notmaxedwithcode;Questyno_MarvinPerry;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_MarvinPerry;Questyno;MarvinPerry",
 	days = 0,
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_KarenTaylor",
-	condition = "notmaxedwithcode;Questyno_KarenTaylor;1;hasfactiontier;KarenTaylor;3",
+	condition = "notmaxedwithcode;Questyno_KarenTaylor;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_KarenTaylor;Questyno;KarenTaylor",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_CharlesDavis",
+	condition = "notmaxedwithcode;Questyno_CharlesDavis;1;hasfactiontier;LaResistenza;4",
+	commands = "randomcodedworldfrompool;Questyno_CharlesDavis;Questyno;CharlesDavis",
 	days = 0,
 	frequency = 1
 });
@@ -1010,6 +1022,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EthanSteele_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RobertWilson_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AndrewTurner_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Pyno1" })
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })

@@ -1147,3 +1147,83 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner3_Title",
 });
+
+  --[[
+            Pyno 
+            elenco:
+                1. parla con pino. (1rep + 10$)
+                2. parla con pino. (1rep + 10$)
+                3. parla con pino. (1rep + 10$)
+                4. parla con pino. (1rep + Wallet + CreditCard)
+                5. parla con pino. (1rep + Pen)
+    ]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Pyno1",
+
+    awardsworld = "Questyno_Pyno;SFQuest_Questyno_Pyno2_Begin;Questyno_Pyno2", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_Pyno1_Lore" },
+    text = "IGUI_SFQuest_Questyno_Pyno1_Text",
+    texture = "media/textures/Item_Pyno.png",
+    title = "IGUI_SFQuest_Questyno_Pyno1_Title",
+    unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno1_Complete",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Pyno2",
+
+    awardsworld = "Questyno_Pyno;SFQuest_Questyno_Pyno3_Begin;Questyno_Pyno3", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_Pyno2_Lore" },
+    text = "IGUI_SFQuest_Questyno_Pyno2_Text",
+    texture = "media/textures/Item_Pyno.png",
+    title = "IGUI_SFQuest_Questyno_Pyno2_Title",
+    unlocks = "completequest;Questyno_Pyno2",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Pyno3",
+
+    awardsworld = "Questyno_Pyno;SFQuest_Questyno_Pyno4_Begin;Questyno_Pyno4", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsitem = "Base.Money;10", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_Pyno3_Lore" },
+    text = "IGUI_SFQuest_Questyno_Pyno3_Text",
+    texture = "media/textures/Item_Pyno.png",
+    title = "IGUI_SFQuest_Questyno_Pyno3_Title",
+    unlocks = "completequest;Questyno_Pyno3",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Pyno4",
+
+    awardsworld = "Questyno_Pyno;SFQuest_Questyno_Pyno5_Begin;Questyno_Pyno5", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsitem = "Base.Wallet;1;Base.CreditCard;1", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_Pyno4_Lore" },
+    text = "IGUI_SFQuest_Questyno_Pyno4_Text",
+    texture = "media/textures/Item_Pyno.png",
+    title = "IGUI_SFQuest_Questyno_Pyno4_Title",
+    unlocks = "completequest;Questyno_Pyno4",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_Pyno5",
+
+    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsitem = "Base.Pen;1", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_Pyno5_Lore" },
+    text = "IGUI_SFQuest_Questyno_Pyno5_Text",
+    texture = "media/textures/Item_Pyno.png",
+    title = "IGUI_SFQuest_Questyno_Pyno5_Title",
+    unlocks = "completequest;Questyno_Pyno5",
+});

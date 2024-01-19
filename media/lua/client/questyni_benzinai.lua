@@ -10,6 +10,7 @@ require 'SFQuest_Database'
             - Garrett King 10399,8316,1 E
             - Marvin Perry 8186,11296,1 E
             - Karen Taylor 10144,12787,1 S
+            - Charles Davis 9285,8482 E
 ]]
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -217,5 +218,31 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_KarenTaylor_Text",
     texture = "media/textures/Item_KarenTaylor.png",
     title = "IGUI_SFQuest_Questyno_KarenTaylor_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_CharlesDavis",
+    awardsitem = "GasCAN6;1",
+    awardsrep = "LaResistenza;10",
+    completesound = "levelup",
+    dailycode = "Questyno_CharlesDavis",
+    lore = { "IGUI_SFQuest_Questyno_CharlesDavis_Lore" },
+    objectives = { {
+        guid = "Questyno_CharlesDavis_A",
+        text = "IGUI_SFQuest_Questyno_CharlesDavis_A",
+        hidden = false,
+        needsitem = "EmptyCAN6;1",
+        onobtained = "updateobjective;Questyno_CharlesDavis;1;Completed;removeitem;EmptyCAN6;1",
+    }, {
+        guid = "Questyno_CharlesDavis_B",
+        text = "IGUI_SFQuest_Questyno_CharlesDavis_B",
+        hidden = false,
+        needsitem = "Money;15",
+        onobtained = "updateobjective;Questyno_CharlesDavis;2;Completed;removeitem;Money;15",
+    } },
+    text = "IGUI_SFQuest_Questyno_CharlesDavis_Text",
+    texture = "media/textures/Item_CharlesDavis.png",
+    title = "IGUI_SFQuest_Questyno_CharlesDavis_Title",
     unlockedsound = "QuestUnlocked",
 });
