@@ -178,7 +178,7 @@ SFQuest_Database.MannequinPool["9270x8491x0"] = {
     beard = "",
     hair = "Bob",
     haircolor = "0.2,0.1,0.0",
-    outfit = "TraderBandit"
+    outfit = "RosaChina"
 }
 
 -- Emily Terry 9277,8491,0
@@ -196,7 +196,7 @@ SFQuest_Database.MannequinPool["9277x8491x0"] = {
     beard = "",
     hair = "Buffont",
     haircolor = "0.1,0.1,0.0",
-    outfit = "TraderBandit"
+    outfit = "EmilyTerry"
 }
 
 --[[
