@@ -176,25 +176,32 @@
                 </m_items>
         </m_MaleOutfits>
         
-		<m_FemaleOutfits> <m_Name>SusanLee</m_Name>
-                <m_Guid>aaf44060-7bb1-4b2f-a514-d517ec729031</m_Guid>
+<m_FemaleOutfits>
+                <m_Name>SusanLee</m_Name>
+                <m_Guid>c71dd37d-a25d-4f80-a88a-2642a283887f</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
-                <m_AllowTopTint>false</m_AllowTopTint>                
-                <m_items> <!-- Purple Ripped Dress -->
-                        <itemGUID>4bc6034a-95cc-487c-a081-3b1671cc716c</itemGUID>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>                
+<!-- Kidman Shirts --> <m_items> 
+                        <itemGUID>9162cc25-2b9c-42ec-9c23-4dd345f5365f</itemGUID>
                 </m_items>
-                <m_items> <!-- Short Socks -->
-                        <itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
-                </m_items>                        
-                <m_items> <!-- Black Boots -->
-                        <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+<!-- Kidman Jeans -->        <m_items> 
+                        <itemGUID>ebb77bc9-b6a3-4283-acc1-ea7c30d4996a</itemGUID>
                 </m_items>
-                <m_items> <!-- Hawaiian Lei -->
-                        <probability>0.2</probability>
-                        <itemGUID>aea23d06-0499-4eb1-91fb-583906602ef2</itemGUID>
-                </m_items>                                                
+<!-- Duty Belt --> <m_items>
+                        <itemGUID>92f72c0a-75d8-4374-8e50-bf69bfc48acd</itemGUID>
+                </m_items>                
+<!-- Tactical Boots --> <m_items>
+                        <itemGUID>cfdf4460-22ec-499c-8184-7c14837d9ab2</itemGUID>
+                </m_items>                
+<!-- Tank Top --> <m_items>
+                        <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+                </m_items>                
         </m_FemaleOutfits>        
+        
+          
 
 </outfitManager>
 
