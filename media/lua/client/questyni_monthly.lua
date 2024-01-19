@@ -134,7 +134,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze7",
 
     awardsrep = "LaResistenza;1200",
-    awardsitem = "PipeBomb;1;Money;150",
+    awardsitem = "CleaningKit;1;Money;150",
     awardstask = "Questyno_TaylorBlaze8",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -221,7 +221,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze8_B",
 
     awardsrep = "LaResistenza;2200",
-    awardsitem = "Base.PipeBomb;1;Money;150",
+    awardsitem = "NoiseTrapTriggered;1;Money;150",
     awardstask = "Questyno_TaylorBlaze1",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",

@@ -981,7 +981,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Lupo_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HeatherThomas_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EliaRima_Intro" })

@@ -174,14 +174,14 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_Lupo_Intro_Title = "Tony il 'Lupo', 10161,6621,0 ",
     IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony Lupo [Giornaliere]",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony Lupo è un sopravvissuto di vecchia data che attualmente si trova a West Point, è un cacciatore esperto e un ottimo tiratore. Puoi trovarlo vicino alla sua casa, a 10161,6621,0 ",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Ciao straniero, cosa ti spinge da queste parti? I sono Tony e tutti mi chiamano Lupo. Mi occupo di raccogliere più munizioni, possibile e cerco di formare nuovi combattenti in questo nostro avamposto. Ci siamo staccati ormai da più di due anni dalla Tana. Siamo certi che per cambiare la situazione dobbiamo capire cosa lega Nigel a gli Americani. Sono altrettanto convinto che queste famose zone "radioattive" sono più che sicure e li si nascono tutti i segreti di cui abbiamo bisogno per capire cosa è successo a questo paese. Spero sarai dei nostri.",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony lupo tiene unito il gruppo di Muldraugh e lo difende con l'artiglieria pensante. Mi aspetta sempre alla villa vicino al lago a Muldraugh.",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Ciao straniero, cosa ti spinge da queste parti? I sono Tony e tutti mi chiamano Lupo. Mi occupo di raccogliere più munizioni, possibile e cerco di formare nuovi combattenti in questo nostro avamposto. Ci siamo staccati ormai da più di due anni dalla Tana. Siamo certi che per cambiare la situazione dobbiamo capire cosa lega Nigel agli Americani. Sono altrettanto convinto che queste famose zone ''radioattive'' sono più che sicure e li si nascono tutti i segreti di cui abbiamo bisogno per capire cosa è successo a questo paese. Spero sarai dei nostri.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text_Accepted = "Piacere. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
 
     IGUI_SFQuest_Questyno_Lupo1_Title = "Tony Lupo da West Point 10161,6621,0",
     IGUI_SFQuest_Questyno_Lupo1_Text = "Più sangue per Tony",
-    IGUI_SFQuest_Questyno_Lupo1_Lore = "Tony mi ha chiesto di recuperare una Scatola di munizioni .308 e uccidere 100 Zombie . Spero di non metterci troppo.",
-    IGUI_SFQuest_Questyno_Lupo1_Begin_Text = "Ho bisogno di te per pulire la zona e tenere al sicuro il campo base. Eliminane il più possibile e fai scorta di munizioni dalle loro tasche.",
+    IGUI_SFQuest_Questyno_Lupo1_Lore = "Tony mi ha chiesto di recupearere una Scatola di munizioni .308 e uccidere 100 Zombie . Spero di non metterci troppo.",
+    IGUI_SFQuest_Questyno_Lupo1_Begin_Text = "Ho bisogno di te per pulire la zona e tenere al sicuro il campo base. Eliminare il più possibile e fai scorta di munizioni dalle loro tasche. Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo1_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo1_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo1_Complete = "Grazie ti siamo grati. Ecco a te.",
@@ -189,7 +189,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Lupo2_Title = "Tony Lupo da West Point 10161,6621,0",
     IGUI_SFQuest_Questyno_Lupo2_Text = "Più munizioni per Tony",
     IGUI_SFQuest_Questyno_Lupo2_Lore = "Tony mi ha chiesto di recuperare 2 Scatola di munizioni da 9mm e uccidere 50 Zombie . Spero di non metterci troppo.",
-    IGUI_SFQuest_Questyno_Lupo2_Begin_Text = "Ho bisogno di minuzioni. Spaccagli la testa e controlla nelle loro tasche. ",
+    IGUI_SFQuest_Questyno_Lupo2_Begin_Text = "Ho bisogno di munizioni. Spaccagli la testa e controlla nelle loro tasche. Verrai ben ricompensato, sai che non ti frego!",
     IGUI_SFQuest_Questyno_Lupo2_Begin_Text_Accepted = "Verrai ben ricompensato, parola di Lupo!",
     IGUI_SFQuest_Questyno_Lupo2_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo2_Complete = "Grazie ti siamo grati. Ecco a te.",
@@ -3953,7 +3953,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title = "Rafael Prezioso (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Incontra Rafael [Settimanali]",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Rafael è un tipo strambo che cerca oggetti particolari sparsi per le varie città. Mi aspetta sempre a Muldraugh",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
 	
 	
@@ -4245,8 +4245,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Title = "Jeffrey Lewis 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text = "Incontra Jeffrey Lewis [Settimanali]",
-    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
-    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Sono Jeffrey, ma in giro tutti mi conoscono come 'Eco' per la mia connessione con il mondo che ci circonda. In questo universo ormai dominato dagli zombie, trovo significato nelle voci silenziose della natura e nell'eco delle storie sopravvissute. Le parole, per me, sono come foglie portate dal vento, un riflesso della nostra umanità che ancora cerca di sopravvivere.",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore = "Jeffrey mi aspetta a Westpoint, sta cercando di rifornire le mensole con più libiri possibile.",
+    IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Ciao, io sono Jeffrey. Ero un compagno di Università di Elia Rima a March Ridge quando tutto questo è scoppiato.  Sono arrivato trovando Sam fisher e la moglie Pamela in casa, sembravano gli unici rimasti nel quartiere e la cosa mi è sembrata molto strana. Anche il modo in cui Sam tratta sua moglie Pamela mi infastidisce. Ad ogni modo con me è stato gentile dandomi l'unica regola di non disturbarlo mentre fa le sue cose al fiume. Sono qui per ricordare a tutti l'importanza dello studio. Ti sarò molto grando se riuscirai a recuperare quanti più libri in giro. Mi trovi sempre qua!",
 	
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis1_Title = "Jeffrey da West Point 10149,6622,0",
@@ -4583,8 +4583,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Christopher Davis da West Point 10161,6627,0",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Incontra Christopher Davis [Settimanali]",
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti.",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Christopher mi aspetta sempre in cucina pronto a ricevere qualche pasto generoso da me. Mi ricorda qualcuno...",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sé. Sono il vicino di casa di Sam e mi sono trasferito da lui quando ho notato che mio fratello non faceva più ritorno. Era andato a fare la spesa in città e non è più ritornato... Affogo la disperazione nel cibo e spero di poter contare su di te per poter continuare a piangere il mio fratello scomparso.. Sigh.",
 	
     IGUI_SFQuest_Questyno_ChristopherDavis1_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis1_Text = "Stufato per Christopher",
@@ -4855,8 +4855,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text = "Incontra Pamela Perez [Settimanali]",
-    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
-    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali. Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. In questo contesto, la mia missione è diventata chiara, pur essendo di importanza vitale. Mi rivolgo a te in cerca di aiuto per coltivare il terreno e raccogliere preziose risorse agricole, come semi, grano e legname. Questo lavoro nei campi è una tradizione che ho ereditato dai miei antenati, e la mia determinazione è preservarla in questo nuovo mondo.",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Pamela è la moglie sottomessa di Sam Fisher, mi aspetta sempre alla loro abirazione in cerca di risorse base.",
+    IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza è stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali (42). Ma poi, gli zombie hanno invaso il nostro mondo, e tutto è stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. Per fortuna mio marito Sam ha saputo provvedere a me e nostra figlia anche quando sono finite le forniture di acqua e corrente. Gli devo la mia vita e anche queste persone che ci hanno raggiunto. Spero mi darai una mano con alcuni semplici lavoretti..",
 
 	
 	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela da West Point 10115,6622,0",
@@ -5121,8 +5121,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_SamFisher_Intro_Title = "Sam Fisher 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Text = "Incontra Sam Fisher [Settimanali]",
-    IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
-    IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Oggi, la mia missione è semplice ma fondamentale. Ho bisogno del tuo aiuto per raccogliere risorse marine come pesce e alghe, e per trovare strumenti per la pesca. Queste risorse possono garantirci una fonte di cibo sostenibile in un mondo sconvolto. Il mare ci offre cibo abbondante se sappiamo come trovarlo.",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Sam è il capo di casa a Muldragh è un tipo pieno di se ma a volte è quello che serve in una situazione come questa per sopravvivere. Credo abbia bisogno più di compagnia che di qualcosa in particolare. Mi aspetta sempre al molo.",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita è stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Mia moglie mi ha sempre aspettato qua con nostra figlia, è stata una fortuna che non fossi in viaggio quanto tutto questo è cominciato. Ho accolto tutte queste altre persone per malinconia dei miei vecchi compagni e per la noia ma si sono rivelati tutti degli ottimi marinai! Il mare ci offre cibo abbondante se sappiamo come trovarlo.  Se non ti immischierai mai con quei farabutti della famiglia di Nigel potrai farmi un pò di compagnia quando ti va, magari impererai qualcosa! Quei bastardi continuano a razionalizzare le scorte di benzina e noi non riusciamo a prepararci in caso di emergenza!",
 
 	
 	IGUI_SFQuest_Questyno_SamFisher1_Title = "Sam da West Point 10153,6571,0",
@@ -5684,7 +5684,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text = "Ho bisogno di munizioni particolari stavolta, spero riuscirai a trovarle!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Declined = "Sei un codardo!",
-    IGUI_SFQuest_Questyno_TaylorBlaze7_Complete = "Ottimo! Ti sei meritata una di queste, fanne buon uso!",
+    IGUI_SFQuest_Questyno_TaylorBlaze7_Complete = "Ottimo! Ti sei meritata una di questi kit per pulire le armi, fanne buon uso!",
 	
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze8_Title = "Taylor da Trelai 7752,7759,0",
@@ -5693,7 +5693,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text = "Ho bisogno di munizioni particolari stavolta, spero riuscirai a trovarle!",
     IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze8_Begin_Text_Declined = "Sei un codardo!",
-    IGUI_SFQuest_Questyno_TaylorBlaze8_Complete = "Bene, sembra tutto integro, prendi questi.",
+    IGUI_SFQuest_Questyno_TaylorBlaze8_Complete = "Bene, sembra tutto integro, prendi questo. Farà un pò di casino, sfruttalo come si deve!",
 	IGUI_SFQuest_Questyno_TaylorBlaze8_A = "Uccidi 250 Zombie",
 	IGUI_SFQuest_Questyno_TaylorBlaze8_B = "Cerca a Fort Benning (6144,7069,0)",
 	IGUI_SFQuest_Questyno_TaylorBlaze8_A_Text = "Prendi gli accessori per Taylor",
@@ -5784,8 +5784,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White [Catena]",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Sono il meccanico di questa comunità sopravvissuta. Nel mezzo dell'apocalisse zombie, ho scoperto che non c'è nulla di più prezioso di una macchina ben funzionante. Le auto sono il nostro collegamento con il mondo esterno, la nostra via di fuga e la nostra chiave per l'approvvigionamento. Svolgi alcune faccende per me e metterò una buona parola su di te per farti avere la tua prima auto!",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian cel'ha a morte con le bande di Nigel, è disposto a donarmi un veicolo se sono pronto a contrastarli.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Ti manda il Grif vero? Ultimamente stanno arrivando molti come te. Ci stiamo espandendo, mi fa molto piacere. Ti auguro solo di non avere mai nulla a che fare con quelle carogne delle Bande di Nigel. Dovremmo cominciare a fare degli assalti piuttosto che continuare a pagare il pizzo a quelle merde! Se mi dimostrerai di che pasta sei fatto ti darò un veicolo funzionante al 100%. Promettimi che lo userai per pedinare quei bastardi e capire cosa tramano e dove nascondono le loro scorte!",
 
 	
 	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh 10812,9077,0",
@@ -5941,8 +5941,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Title = "Robert Wilson 10182,6764,0",
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Text = "Incontra Robert Wilson. [Catena]",
-    IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
-    IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Sono qui per offrirti una mano, guidarti attraverso le terre oscure e insidiose e aiutarti a completare missioni cruciali. Non solo sopravvivere, ma prosperare è la mia filosofia. Ogni missione ci porterà un passo più vicino alla tua ricompensa finale: un generatore, l'elemento chiave per riportare un po' di luce in questo mondo oscuro e conservare il cibo che ti procurerai al fresco. Te la senti di completare qualche sfida per me?",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Robert può darmi una mano ad ottenere un generatore. Devo soltanto trovare le parti che richiede.",
+    IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Mi trovo da queste parti per conto del Sergente Grif che rispetto moltissimo. E' grazie a lui se sono ancora vivo. Mi trovo qui per mantenere un minimo di diplomazia con la Tana. Posso darti una mano ad assemblare un generatore se mi troverai le parti, così da poterti stabilire e prosperare.",
 
 	
 	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da Spawn Point (10182,6764,0)",
@@ -6308,12 +6308,12 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_LucasMiller_Name = "Lucas Miller",
 
-    IGUI_SFQuest_Questyno_LucasMiller_Intro_Title = "Lucas da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LucasMiller_Intro_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Text = "Incontra Lucas Miller. [Mensili]",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Lore = "Lucas era un direttore di banca senza scrupoli con sede a March Ridge. Ha trovato il modo di fare soldi anche in mezzo a tutto questo caos. Mi aspetta ogni mese, è disposto a rivelarmi le abitazioni di persone che avavano un bel conto in banca, in cambio di oro.",
     IGUI_SFQuest_Questyno_LucasMiller_Intro_Complete_Text = "Ciao, io sono Lucas. Credo che l'oro sia una di quelle riserve che converrebbe accumulare anche in una situazione come questa. So però anche che le Bande di Nigel hanno imposto a voi della Resistenza, l'uso del contante essendo molto più pratico. Sono quindi convinto che te ne serva un po'. Sono disposto a dirti dove trovare dei bei gruzzoletti se in cambio mi darai dell'oro. Provare per credere!",
 
-    IGUI_SFQuest_Questyno_LucasMiller1_Title = "Lucas da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LucasMiller1_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller1_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller1_Lore = "Lucas mi ha chiesto 20kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller1_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6325,7 +6325,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller1_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10420,12758,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-    IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LucasMiller2_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller2_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller2_Lore = "Lucas mi ha chiesto 25kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller2_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6337,7 +6337,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller2_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (10223,12769,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-    IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LucasMiller3_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller3_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller3_Lore = "Lucas mi ha chiesto 30kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller3_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6349,7 +6349,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller3_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9976,12745,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 	
-	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (9277,8480,0)",
+	IGUI_SFQuest_Questyno_LucasMiller4_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller4_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller4_Lore = "Lucas mi ha chiesto 32kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller4_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6361,7 +6361,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller4_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9916,12880,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (9277,8480,0)",
+	IGUI_SFQuest_Questyno_LucasMiller5_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller5_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller5_Lore = "Lucas mi ha chiesto 40kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller5_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6373,7 +6373,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Text = "Recupera i soldi",
 	IGUI_SFQuest_Questyno_LucasMiller5_A_Lore = "Devo raggiungere una casa a March Ridge, precisamente a (9942,13020,1). E' sicuro che troverò un bel gruzzoletto sotto il letto di qualche infame come lui!"
 
-	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (9277,8480,0)",
+	IGUI_SFQuest_Questyno_LucasMiller6_Title = "Lucas da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LucasMiller6_Text = "Oro per Soldi",
     IGUI_SFQuest_Questyno_LucasMiller6_Lore = "Lucas mi ha chiesto 15kg di oro per avere un indirizzo speciale.",
     IGUI_SFQuest_Questyno_LucasMiller6_Begin_Text = "Vai a questo indirizzo, conosco chi ci abitava. Troverai sicuramente qualcosa se frughi nella sua stanza! Prima però voglio dell'oro in cambio! Ci stai?",
@@ -6612,15 +6612,15 @@ IGUI_IT = {
 				1. Recuperare Rotolo di Soldi (250rep)
 ]]
 
-    IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed (10345,12404,0)",
 
-    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Text = "Incontra Lincoln Reed. [Mensile]",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore = "Lincoln mantiene la diplomazia fra tutti i Clan che continuano a crearsi e tiene il conto della moneta che circola. E' un punto di riferimento per tutta La Resistenza e accetta sempre donazioni in contanti per la causa.",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text = "Ciao giovanotto, io sono Lincoln Reed. Chiunque abbia indossato un Poncho giallo mi conosce e nessuno prova a fregarmi. Quando sono arrivato in questo posto ho trovato il Sergente Grif con il quale mi sono subito trovato d'accordo. Abbiamo convenuto che fosse importante riuscire a mantenere il contante in questa nuova società per agevolare gli scambi. Ogni mese qualcuno dona spontaneamente ciò che può per la Causa. Spero farai lo stesso!",
 
     
-    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (9277,8480,0)",
+    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10345,12404,0)",
     IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
     IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
@@ -6650,7 +6650,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
     IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Text = "Incontra Maya Blackwell. [Mensili]",
-    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Lore = "La sua specialità è quella di costruire armature in metallo, se le do una mano mi insegnerà come farle.",
+    IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Lore = "Maya sembra far parte di un gruppo ben organizzato a Redfordville (3637,7302,0).",
     IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Complete_Text = "Heila, chi abbiamo qui? Arrivi per caso dalla Tana? Sicuramente, visto quella faccia smarrita!  Beh, cosa ti porta da queste parti? Hai sentito parlare degli "Immortali di Redford" vero? Sappi che non sono leggende, qui non subiamo perdite da più di un anno. Il nostro trucco è il metallo. Se mi darai una mano con alcuni lavoretti ti insegnerò come costruire delle armature speciali!",
 
     
