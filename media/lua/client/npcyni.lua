@@ -417,7 +417,7 @@ SFQuest_Database.MannequinPool["10115x6622x0"] = {
     beard = "",
     hair = "Buffont", 
     haircolor = "0.1,0.1,0.0",
-    outfit = "TraderBandit"
+    outfit = "PamelaPerez"
 }
 
 -- Sam Fisher 10153,6571,0
