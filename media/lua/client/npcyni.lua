@@ -495,7 +495,9 @@ SFQuest_Database.MannequinPool["7744x7760x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoGiallo"
+    hair = "Short",
+    haircolor = "0.1,0.1,0.1",
+    outfit = "JohnBaker"
 }
 
 --  Ethan Steele  10310x8040x0
@@ -514,7 +516,7 @@ SFQuest_Database.MannequinPool["10310x8040x0"] = {
     beard = "",
     hair = "Short",
     haircolor = "0.5,0.4,0.3",
-    outfit = "PonchoGiallo"
+    outfit = "EthanSteele"
 }
 
 -- Taylor Blaze 7752x7759x0
@@ -587,7 +589,7 @@ SFQuest_Database.MannequinPool["7178x9739x0"] = {
     beardcolor = "0.1,0.1,0.1",
     hair = "Spikes",
     haircolor = "1.0,0.5,0.0",
-    outfit = "PonchoGiallo"
+    outfit = "RichardBrown"
 }
 
 -- Robert Wilson 10182x6764x0
@@ -604,7 +606,7 @@ SFQuest_Database.MannequinPool["10182x6764x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoGiallo",
+    outfit = "RobertWilson",
 }
 
 -- Alex Mercer Redfordville (3642,7302,0)
@@ -948,50 +950,3 @@ SFQuest_Database.MannequinPool["9332x8605x0"] = {
     beard = "",
     outfit = "PonchoRosso",
 }
-
--- James Morris Louisville 13635,4064,0 Sud
-
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_JamesMorris",
-    square = "13635x4064x0",
-    name = "IGUI_SFQuest_Questyno_JamesMorris_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_JamesMorris.png",
-})
-
-SFQuest_Database.MannequinPool["13635x4064x0"] = {
-    sprite = "location_shop_mall_01_70",
-    direction = "S",
-    beard = "",
-    outfit = "PonchoRosso",
-}
-
--- Tavolo 6762,6135,0
-
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_Tavolo",
-    square = "6762x6135x0",
-    name = "IGUI_SFQuest_Questyno_Tavolo_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_JamesMorris.png",
-})
-
--- Computer 6764,6135,0
-
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_Computer",
-    square = "6764x6135x0",
-    name = "IGUI_SFQuest_Questyno_Computer_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_JamesMorris.png",
-})
-
--- Stampante 6762,6141,0
-
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_Stampante",
-    square = "6762x6141x0",
-    name = "IGUI_SFQuest_Questyno_Stampante_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_JamesMorris.png",
-})
