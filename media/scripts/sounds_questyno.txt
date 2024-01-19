@@ -1,0 +1,58 @@
+module Base
+{
+	sound Questyno_Body
+    {
+        category = UI,
+        loop = false,
+        clip
+        {
+            file = media/sound/Questyno_Body.wav,
+            volume = 1.0,
+        }
+    }
+    
+    sound Questyno_Grabbing
+    {
+        category = UI,
+        loop = false,
+        clip
+        {
+            file = media/sound/Questyno_Grabbing.wav,
+            volume = 1.0,
+        }
+    }
+
+    sound Questyno_Paper
+    {
+        category = UI,
+        loop = false,
+        clip
+        {
+            file = media/sound/Questyno_Paper.wav,
+            volume = 1.0,
+        }
+    }
+
+    sound Questyno_Print
+    {
+        category = UI,
+        loop = false,
+        clip
+        {
+            file = media/sound/Questyno_Print.wav,
+            volume = 1.0,
+        }
+    }
+
+    sound Questyno_WindowsClick
+    {
+        category = UI,
+        loop = false,
+        clip
+        {
+            file = media/sound/Questyno_WindowsClick.wav,
+            volume = 1.0,
+        }
+    }
+
+}

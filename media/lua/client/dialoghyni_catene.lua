@@ -226,6 +226,22 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_A
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_AndrewTurner3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_AndrewTurner3", optional = true, text = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_AndrewTurner3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_AndrewTurner3_A", text = "IGUI_SFQuest_Questyno_AndrewTurner3_Complete"})
 
+   --[[
+            James Morris
+            elenco:
+                intro. Incontra James. [Catena]
+                1. Recupera LR.FloppyDisk @  6762,6135 -> parla @ 6764,6135,0 needs 1x LR.FloppyDisk -> clickevent stampante @ 6762,6141,0 (reward: LR.Lore7)
+                2. Click event @ (12019,2489,1) -> CLick Event @ 12630,1942,1 (reward: LR.Lore8)
+                3. Click event @ (12434,1968,1) -> CLick Event sul pc 13394,2371,0 (reward: DrHyde.CureNotes)
+    ]]
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JamesMorris_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_JamesMorris_Intro", text = "IGUI_SFQuest_Questyno_JamesMorris_Intro_Complete_Text"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JamesMorris1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_JamesMorris1", optional = true, text = "IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JamesMorris1_Complete", context = "ContextMenu_PrendiFloppy", command = "completequest;Questyno_JamesMorris1", text = "IGUI_SFQuest_Questyno_JamesMorris1_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JamesMorris1_A_Complete", context = "ContextMenu_InserisciFloppy", command = "completequest;Questyno_JamesMorris1_A", text = "IGUI_SFQuest_Questyno_JamesMorris1_A_Complete"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_JamesMorris1_B_Complete", context = "ContextMenu_StampaDocumenti", command = "completequest;Questyno_JamesMorris1_B", text = "IGUI_SFQuest_Questyno_JamesMorris1_B_Complete"})
+
   --[[
             Pyno 
             elenco:

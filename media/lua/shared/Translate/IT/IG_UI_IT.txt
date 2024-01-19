@@ -6958,4 +6958,40 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Pyno5_Text = "Okey, tutto quello che devi fare per attivare il tuo conto è cliccare con il tasto destro sulla Carta di credito e premere su "Link".  Adesso la carta mostrerà sempre il tuo saldo attuale. Se vuoi depositare dei soldi ti basterà premere con il tasto destro su quelli che hai nell'inventario e premere su "Trasferisci sul conto". Cliccando con il destro sulla Carta di credito potrai anche inviare soldi ad un altro giocatore. Se smarrirai la carta potrai sempre collegarne una nuova e il tuo saldo non verra perduto. Adesso prova ad aprire il portafogli che ti ho dato, puoi trovare da 2 a 6 dollari all'interno dei portafogli. Ne troverai diversi sugli zombie ma potrai anche ottenerli come ricompense per le kill o i giorni di sopravvivenza. Ricorda sempre di controllare nei cadaveri se cen'è qualcuno! Puoi usare i Soldi che accumuli al Mercato della Resistenza e potrai anche ritirarli sempre in quel posto. Ti consiglio di usare i soldi che ti ho dato per comprare una Pentola grazie alla quale potrai sterilizzare gli stracci dentro al fuoco da campo o accumulare un poco di acqua dal pozzo per allontanarti più facilmente da questa zona! Potresti pensare anche a una torcia o un accendino, vedi un pò te! Divertiti e se hai qualsiasi problema, apri un ticket. Buona fortuna, usa questa penna per segnarti la posizione della Tana sulla mappa! [M]",
     IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Accepted = "Daje, divertiti e FORZA LA RESISTENZA!",
     IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Declined = "Okey domani quitti. Sicuro.",
-}
+
+
+    --[[
+            James Morris
+            elenco:
+                intro. Incontra James. [Catena]
+                1. Recupera LR.FloppyDisk @  6762,6135 -> parla @ 6764,6135,0 needs 1x LR.FloppyDisk -> clickevent stampante @ 6762,6141,0 (reward: LR.Lore7)
+                2. Click event @ (12019,2489,1) -> CLick Event @ 12630,1942,1 (reward: LR.Lore8)
+                3. Click event @ (12434,1968,1) -> CLick Event sul pc 13394,2371,0 (reward: DrHyde.CureNotes)
+    ]]
+
+    IGUI_SFQuest_Questyno_JamesMorris_Name = "James Morris",
+
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Title = "James Morris 13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Text = "Incontra James",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Lore = "James ha bisogno di me per trovare più informazioni su Nigel. Mi aspetta sempre a sud di Louisville  13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Begin_Text = "Ciao io sono James. Ero uno dei compagni di camerata di Nigel, prima che ci assegnarono a due basi operative diverse nel lontano 1984. Non ho mai creduto che fosse coinvolto in tutto questo ma ogni indizio che troviamo riconduce ci riconduce a lui. Ricordo la base in cui era assegnato e sono certo che se riuscirai a raggiungerla troveremo qualche informazione sul siero che stava sviluppando per conto degli americani. Te la senti di darmi una mano?",
+
+    IGUI_SFQuest_Questyno_JamesMorris1_Title = "James Morris 13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorris1_Text = "La ricerca della verità",
+    IGUI_SFQuest_Questyno_JamesMorris1_Lore = "James vorrebbe che raggiungessi la base militare di Fort Rock RIdge per ottenere più informazioni possibili riguardo Nigel.",
+    IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text = "Nigel ha collaborato molti anni con il governo degli americani. La sua base operativa era a Fort Rock Ridge, vai li e cerca di capire in quale struttura aveva il suo laboratorio e recupera quante più informazioni possibili.",
+    IGUI_SFQuest_Questyno_JamesMorris1_Accepted_Text = "Bene, bene. Devi cercare in ogni posto!",
+    IGUI_SFQuest_Questyno_JamesMorris1_Declined_Text = "E' per quelli come te che le cose non cambiano.",
+    IGUI_SFQuest_Questyno_JamesMorris1_A = "Trova l'indizio nel laboratorio di Nigel",
+    IGUI_SFQuest_Questyno_JamesMorris1_B = "Prendi l'Oggetto Misterioso",
+    IGUI_SFQuest_Questyno_JamesMorris1_Complete = "**immagine di un floppy su una scrivania**",
+    IGUI_SFQuest_Questyno_JamesMorris1_A_Lore = "Ho trovato un Floppy Disk. Devo vedere cosa contiene, devo metterlo dentro al pc.",
+    IGUI_SFQuest_Questyno_JamesMorris1_C = "Inserisci il floppy nel pc",
+    IGUI_SFQuest_Questyno_JamesMorris1_D = "Accendi il pc",
+    IGUI_SFQuest_Questyno_JamesMorris1_A_Complete = "**immagine di pc con sangue e lista dei nomi**",
+    IGUI_SFQuest_Questyno_JamesMorris1_B_Lore = "Devo assolutamente stampare questa roba. ",
+    IGUI_SFQuest_Questyno_JamesMorris1_E = "Stampa la lista",
+    IGUI_SFQuest_Questyno_JamesMorris1_F = "Prendi la lista",
+    IGUI_SFQuest_Questyno_JamesMorris1_B_Complete = "**immagine di lista dei nomi**",
+
+}   
