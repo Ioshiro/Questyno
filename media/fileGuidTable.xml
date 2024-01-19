@@ -10040,4 +10040,14 @@
 	<path>media/clothing/clothingItems/Special_MaleSkin05.xml</path>
 	<guid>traders0-9999-male-9999-000000000005</guid>
 </files>
+
+<!-- i due item successivi sono di test per l'outfit di brian white, catene muldraugh -->
+<files>    
+	<path>media/clothing/clothingItems/Hat_PSGT_Visor_UP.xml</path>
+    <guid>da88c083-79e6-42bc-879b-0b9286bd6bd5</guid>
+</files>
+<files>
+    <path>media/clothing/clothingItems/Hat_PSGT_Helmet.xml</path>
+    <guid>f1852f25-f422-4c83-9324-75835d9d9847</guid>
+</files>
 </fileGuidTable>

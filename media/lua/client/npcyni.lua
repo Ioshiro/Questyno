@@ -67,10 +67,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9331x8640x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "W",
-    beard = "",
-    hair = "Bald",
-    haircolor = "",
-    outfit = "TraderBandit"
+    beard = "PointyChin",
+    hair = "Recede",
+    haircolor = "0.8,0.8,0.8",
+    outfit = "SergenteGrif"
 }
 -- Angelica Stella  9344x8618,0
 table.insert(SFQuest_Database.WorldPool, {
@@ -85,8 +85,8 @@ SFQuest_Database.MannequinPool["9344x8603x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "S",
     beard = "",
-    hair = "Bald",
-    outfit = "TraderBandit"
+    hair = "Bun",
+    outfit = "AngelicaStella"
 }
 
 -- Heather Thomas  9315x8624,0
@@ -101,9 +101,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9315x8624x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "E",
-    beard = "",
-    hair = "Bald",
-    outfit = "TraderBandit"
+    beard = "Scruffy",
+    hair = "PonyTail",
+    haircolor = "0.3.0.3,0.3",
+    outfit = "HeatherThomas"
 }
 
 -- Elia Rima  9342x8613x0
@@ -119,8 +120,9 @@ SFQuest_Database.MannequinPool["9344x8613x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "S",
     beard = "",
-    hair = "Bald",
-    outfit = "TraderBandit"
+    hair = "Cornrows",
+    haircolor = "0.4,0.2,0.0",
+    outfit = "EliaRima"
 }
 
 -- Bob Repair 9340,8578,0
@@ -135,9 +137,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9340x8578x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "S",
-    beard = "",
-    hair = "Bald",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.7,0.3,0.0",
+    hair = "BuzzCut",
+    haircolor = "0.9,0.5,0.0",
+    outfit = "BobRepair"
 }
 
 -- Mike Pozzo 9315x8638x0
@@ -152,9 +156,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9315x8638x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "E",
-    beard = "",
-    hair = "Bald",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.4,0.1,0.0",
+    hair = "Balding",
+    haircolor = "0.7,0.3,0.1",
+    outfit = "MikePozzo"
 }
 
 -- Rosa China 9270,8491,0
@@ -170,7 +176,8 @@ SFQuest_Database.MannequinPool["9270x8491x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
     beard = "",
-    hair = "Bald",
+    hair = "Bob",
+    haircolor = "0.2,0.1,0.0",
     outfit = "TraderBandit"
 }
 
@@ -187,7 +194,8 @@ SFQuest_Database.MannequinPool["9277x8491x0"] = {
     sprite = "location_shop_mall_01_65",
     direction = "S",
     beard = "",
-    hair = "Bald",
+    hair = "Buffont",
+    haircolor = "0.1,0.1,0.0",
     outfit = "TraderBandit"
 }
 
@@ -215,7 +223,7 @@ SFQuest_Database.MannequinPool["10824x9070x1"] = {
     sprite = "location_shop_mall_01_65",
     direction = "E",
     hair = "PulledBack",
-    haricolor = "0.1,0.05,0.05",
+    haircolor = "0.1,0.05,0.05",
     beard = "",
     outfit = "VictoriaSecret"
 }
@@ -333,8 +341,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10161x6621x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "S",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "Goatee",
+    hair = "ShortBuzzCut",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "TonyLupo"
 }
 
 -- Rafael Prezioso 10161x6621x0
@@ -350,7 +360,8 @@ SFQuest_Database.MannequinPool["10155x6623x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "S",
     beard = "",
-    outfit = "TraderBandit"
+    hair = "Bald",
+    outfit = "RafaelPrezioso"
 }
 
 -- Jeffrey Lewis 10149,6622,0
@@ -365,8 +376,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10149x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.2,0.2,0.2",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "JeffreyLewis"
 }
 
 -- Christopher Davis 10161,6627,0
@@ -381,8 +395,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10161x6627x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "0.2,0.2,0.2",
+    hair = "Cornrows",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "ChristopherDavis"
 }
 
 -- Pamela Perez 10115,6622,0
@@ -398,6 +415,8 @@ SFQuest_Database.MannequinPool["10115x6622x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "",
+    hair = "Buffont", 
+    haircolor = "0.1,0.1,0.0",
     outfit = "TraderBandit"
 }
 
@@ -413,8 +432,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10153x6571x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
-    beard = "",
-    outfit = "TraderBandit"
+    beard = "FullBeard",
+    beardcolor = "1,1,1",
+    hair = "Messy",
+    haircolor = "1,1,1",
+    outfit = "SamFisher"
 }
 --[[
                                                     *** NPC CATENE SPAWN ***
@@ -454,7 +476,8 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9324x8598x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
+    beard = "Goatee",
+    beardcolor = "0.2,0.05,0.0",
     hair = "Bald",
     outfit = "PonchoGiallo"
 }
@@ -489,6 +512,8 @@ SFQuest_Database.MannequinPool["10310x8040x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Short",
+    haircolor = "0.5,0.4,0.3",
     outfit = "PonchoGiallo"
 }
 
@@ -540,8 +565,9 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10812x9077x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "PonchoGiallo"
+    beard = "Goatee",
+    beardcolor = "0.0,0.0,0.0",
+    outfit = "BrianWhite"
 }
 
 -- Richard Brown 7178x9739x0
@@ -557,7 +583,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["7178x9739x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
+    beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.1",
+    hair = "Spikes",
+    haircolor = "1.0,0.5,0.0",
     outfit = "PonchoGiallo"
 }
 
@@ -886,19 +915,19 @@ SFQuest_Database.MannequinPool["9285x8482x1"] = {
     outfit = "PonchoRosso",
 }
 
--- Lincoln Reed March Ridge Spawn 10345,12404,0 S
+-- Lincoln Reed March Ridge Spawn 9277,8480,0 Est
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_LincolnReed",
-    square = "10345x12404x0",
+    square = "9277x8480x0",
     name = "IGUI_SFQuest_Questyno_LincolnReed_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_LincolnReed.png",
 })
 
-SFQuest_Database.MannequinPool["10345x12404x0"] = {
+SFQuest_Database.MannequinPool["9277x8480x0"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "S",
+    direction = "E",
     beard = "",
     outfit = "PonchoRosso",
 }
