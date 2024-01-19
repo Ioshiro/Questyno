@@ -12,6 +12,9 @@
 		<m_items>
 			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
 		</m_items>
+                <m_items>
+                        <itemGUID>67089f74-7ba1-467e-b325-d5245e35cf08</itemGUID>
+                </m_items>
 	</m_MaleOutfits>
 
 	<m_FemaleOutfits> 
@@ -562,8 +565,28 @@
                                 <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
                         </subItems>
                 </m_items>               
-        </m_MaleOutfits>        
+        </m_MaleOutfits>
 
+<m_MaleOutfits>
+        <m_Name>BrianWhite</m_Name>
+        <m_Guid>9b25cd55-020f-458e-9d7a-395026cf2370</m_Guid>
+                <m_Pants>false</m_Pants>
+                <m_items>
+                        <itemGUID>25b7d5d3-c92f-4aaa-8fe7-a8563871621c</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>da88c083-79e6-42bc-879b-0b9286bd6bd5</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>f1852f25-f422-4c83-9324-75835d9d9847</itemGUID>
+                </m_items>
+</m_MaleOutfits>
 
 </outfitManager>
 

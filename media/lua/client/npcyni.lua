@@ -512,6 +512,8 @@ SFQuest_Database.MannequinPool["10310x8040x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Short",
+    haircolor = "0.5,0.4,0.3",
     outfit = "PonchoGiallo"
 }
 
@@ -563,8 +565,9 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["10812x9077x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "PonchoGiallo"
+    beard = "Goatee",
+    beardcolor = "0.0,0.0,0.0",
+    outfit = "BrianWhite"
 }
 
 -- Richard Brown 7178x9739x0
@@ -580,7 +583,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["7178x9739x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
+    beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.1",
+    hair = "Spikes",
+    haircolor = "1.0,0.5,0.0",
     outfit = "PonchoGiallo"
 }
 
