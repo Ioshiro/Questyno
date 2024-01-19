@@ -385,6 +385,7 @@
                 </m_items>                                     
         </m_MaleOutfits>
 
+        <!-- Rosa China -->
         <m_FemaleOutfits> 
                 <m_Name>RosaChina</m_Name>
                 <m_Guid>14a43691-629d-4795-bbee-f028eb9033b1</m_Guid>
@@ -424,6 +425,7 @@
                 </m_items>
         </m_FemaleOutfits>
 
+        <!-- Emily Terry -->
         <m_FemaleOutfits> 
                 <m_Name>EmilyTerry</m_Name>
                 <m_Guid>17aa3e9b-679d-4795-bbee-50cf449033b1</m_Guid>
@@ -461,11 +463,13 @@
                         <probability>0.3</probability>                
                         <itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
                 </m_items>
+        </m_FemaleOutfits>
 
 <!-- ........................................ West Point Weekly Random ..........................................-->
-<m_MaleOutfits> 
-<m_Name>TonyLupo</m_Name>
-<m_Guid>f0751e0f-526c-4250-889f-36ab83be6964</m_Guid>
+        <!-- Tony Lupo -->
+        <m_MaleOutfits> 
+                <m_Name>TonyLupo</m_Name>
+                <m_Guid>f0751e0f-526c-4250-889f-36ab83be6964</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>
@@ -496,11 +500,12 @@
                                 <itemGUID>ae803925-2541-4743-aa87-accac778e2f0</itemGUID>
                         </subItems>
                 </m_items>                      
-</m_MaleOutfits>
+        </m_MaleOutfits>
 
-<m_MaleOutfits>
-        <m_Name>RafaelPrezioso</m_Name>
-        <m_Guid>09bc1259-402c-e3a1-afd9-475682da8331</m_Guid>
+        <!-- Rafael Prezioso -->
+        <m_MaleOutfits>
+                <m_Name>RafaelPrezioso</m_Name>
+                <m_Guid>09bc1259-402c-e3a1-afd9-475682da8331</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -532,9 +537,10 @@
                 </m_items>
         </m_MaleOutfits>
 
-<m_MaleOutfits> 
-        <m_Name>JeffreyLewis</m_Name>
-        <m_Guid>3cdef9d1-0701-49e3-8fa4-0a2cb3ca010c</m_Guid>
+        <!-- Jeffrey Lewis -->
+        <m_MaleOutfits> 
+                <m_Name>JeffreyLewis</m_Name>
+                <m_Guid>3cdef9d1-0701-49e3-8fa4-0a2cb3ca010c</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                     
@@ -553,11 +559,12 @@
                 <m_items> <!-- Tie -->
                         <itemGUID>5a880674-b4e2-441a-8207-6b69b233d1c4</itemGUID>
                 </m_items>                       
-</m_MaleOutfits>
+        </m_MaleOutfits>
 
-<m_MaleOutfits> 
-        <m_Name>ChristopherDavis</m_Name>
-        <m_Guid>2c1f0ab1-dc8a-4261-b420-0b6c8fcfabb6</m_Guid>
+        <!-- Christopher Davis -->
+        <m_MaleOutfits> 
+                <m_Name>ChristopherDavis</m_Name>
+                <m_Guid>2c1f0ab1-dc8a-4261-b420-0b6c8fcfabb6</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                       
@@ -591,6 +598,7 @@
                 </m_items>                           
         </m_MaleOutfits>
 
+        <!-- Pamela Perez -->
         <m_FemaleOutfits> 
                 <m_Name>PamelaPerez</m_Name>
                 <m_Guid>1117369a-679d-4795-bbee-5058ebf033b1</m_Guid>
@@ -628,10 +636,12 @@
                         <probability>0.3</probability>                
                         <itemGUID>a700a956-32c2-49a6-bd5f-5a2895073f19</itemGUID>
                 </m_items>
+        </m_FemaleOutfits> 
 
-<m_MaleOutfits> 
-        <m_Name>SamFisher</m_Name>
-        <m_Guid>ec66fc17-4bef-4e64-ad90-7abde37d01ed</m_Guid>
+        <!-- Sam Fisher -->
+        <m_MaleOutfits> 
+                <m_Name>SamFisher</m_Name>
+                <m_Guid>ec66fc17-4bef-4e64-ad90-7abde37d01ed</m_Guid>
                 <m_Pants>false</m_Pants>
                 <m_items> <!-- Baseball Cap -->
                         <itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
