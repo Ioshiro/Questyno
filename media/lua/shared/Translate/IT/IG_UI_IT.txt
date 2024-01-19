@@ -1,6 +1,6 @@
 IGUI_IT = {
     IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
-    IGUI_SFQuest_Questino_Test1_Title = "Giorno della Pizza",
+    IGUI_SFQuest_Questyno_Test1_Title = "Giorno della Pizza",
     IGUI_SFQuest_Questyno_Test1_Lore = "Ho parlato con pino e mi ha detto di cercare della pizza. Sicuramente se vado piu' in la e ammazzo due zombie trovero' la soluzione.",
     IGUI_SFQuest_Questyno_Test1_Lore_Award = "Wow e' stata un'esperienza fantastica, probabilmente cambio serve.",
     IGUI_SFQuest_Questyno_Test1_Objective1_Text = "Dovrei andare un po' piu in la",
@@ -5402,7 +5402,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EzekielFlynn2_Complete = "Ottimo, andiamo avanti allora.",
     IGUI_SFQuest_Questyno_EzekielFlynn2_A = "Uccidi 50 zombie",
     IGUI_SFQuest_Questyno_EzekielFlynn2_B = "Stivali Militari",
-    IGUI_SFQuest_Questino_EzekielFlynn2_A_Text = "Parla con Ezekiel",
+    IGUI_SFQuest_Questyno_EzekielFlynn2_A_Text = "Parla con Ezekiel",
 
     IGUI_SFQuest_Questyno_EzekielFlynn3_Title = "Ezekiel dalla Tana 9327,8596,0",
     IGUI_SFQuest_Questyno_EzekielFlynn3_Text = "Recupera 20 Orologi Digitali",

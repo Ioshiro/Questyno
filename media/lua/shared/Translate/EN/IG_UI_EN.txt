@@ -19,6 +19,8 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text_Accepted = "Si padrone",
     IGUI_SFQuest_Questyno_Test1_Dialogo3_Text_Declined = "Fottiti",
 
+    IGUI_SFQuest_Questyno_Pyno_Name = "Pyno",
+
     IGUI_Factions_LaResistenza = "La Resistenza",
     IGUI_Factions_Resistenza_Tier1 = "Scappato di casa",
     IGUI_Factions_Resistenza_Tier2 = "Smarrito",
@@ -6902,5 +6904,38 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_KarenTaylor_B = "Rotolo di Soldi",
 
 
+    --[[
+            James Morris
+            elenco:
+                intro. Incontra James. [Catena]
+                1. Recupera LR.FloppyDisk @  6762,6135 -> parla @ 6764,6135,0 needs 1x LR.FloppyDisk -> clickevent stampante @ 6762,6141,0 (reward: LR.Lore7)
+                2. Click event @ (12019,2489,1) -> CLick Event @ 12630,1942,1 (reward: LR.Lore8)
+                3. Click event @ (12434,1968,1) -> CLick Event sul pc 13394,2371,0 (reward: DrHyde.CureNotes)
+    ]]
+
+    IGUI_SFQuest_Questyno_JamesMorris_Name = "James Morris",
+
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Title = "James Morris 13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Text = "Incontra James",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Lore = "James ha bisogno di me per trovare più informazioni su Nigel. Mi aspetta sempre a sud di Louisville  13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorrisIntro_Begin_Text = "Ciao io sono James. Ero uno dei compagni di camerata di Nigel, prima che ci assegnarono a due basi operative diverse nel lontano 1984. Non ho mai creduto che fosse coinvolto in tutto questo ma ogni indizio che troviamo riconduce ci riconduce a lui. Ricordo la base in cui era assegnato e sono certo che se riuscirai a raggiungerla troveremo qualche informazione sul siero che stava sviluppando per conto degli americani. Te la senti di darmi una mano?",
+
+    IGUI_SFQuest_Questyno_JamesMorris1_Title = "James Morris 13635,4064,0",
+    IGUI_SFQuest_Questyno_JamesMorris1_Text = "La ricerca della verità",
+    IGUI_SFQuest_Questyno_JamesMorris1_Lore = "James vorrebbe che raggiungessi la base militare di Fort Rock RIdge per ottenere più informazioni possibili riguardo Nigel.",
+    IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text = "Nigel ha collaborato molti anni con il governo degli americani. La sua base operativa era a Fort Rock Ridge, vai li e cerca di capire in quale struttura aveva il suo laboratorio e recupera quante più informazioni possibili.",
+    IGUI_SFQuest_Questyno_JamesMorris1_Accepted_Text = "Bene, bene. Devi cercare in ogni posto!",
+    IGUI_SFQuest_Questyno_JamesMorris1_Declined_Text = "E' per quelli come te che le cose non cambiano.",
+    IGUI_SFQuest_Questyno_JamesMorris1_A = "Trova l'indizio nel laboratorio di Nigel",
+    IGUI_SFQuest_Questyno_JamesMorris1_B = "Prendi l'Oggetto Misterioso",
+    IGUI_SFQuest_Questyno_JamesMorris1_Complete = "**immagine di un floppy su una scrivania**",
+    IGUI_SFQuest_Questyno_JamesMorris1_A_Lore = "Ho trovato un Floppy Disk. Devo vedere cosa contiene, devo metterlo dentro al pc.",
+    IGUI_SFQuest_Questyno_JamesMorris1_C = "Inserisci il floppy nel pc",
+    IGUI_SFQuest_Questyno_JamesMorris1_D = "Accendi il pc",
+    IGUI_SFQuest_Questyno_JamesMorris1_A_Complete = "**immagine di pc con sangue e lista dei nomi**",
+    IGUI_SFQuest_Questyno_JamesMorris1_B_Lore = "Devo assolutamente stampare questa roba. ",
+    IGUI_SFQuest_Questyno_JamesMorris1_E = "Stampa la lista",
+    IGUI_SFQuest_Questyno_JamesMorris1_F = "Prendi la lista",
+    IGUI_SFQuest_Questyno_JamesMorris1_B_Complete = "**immagine di lista dei nomi**",
 
 }
