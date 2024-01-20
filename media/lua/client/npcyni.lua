@@ -484,7 +484,8 @@ SFQuest_Database.MannequinPool["9324x8598x0"] = {
     direction = "E",
     beard = "Goatee",
     beardcolor = "0.2,0.05,0.0",
-    hair = "Bald",
+    hair = "Short",
+    haircolor = "0.2,0.05,0.0",
     outfit = "PonchoGiallo",
 }
 
@@ -540,7 +541,8 @@ SFQuest_Database.MannequinPool["7752x7759x0"] = {
     direction = "E",
     beard = "",
     hair = "Mullet",
-    outfit = "PonchoGiallo"
+    haircolor = "0.4,0.2,0.0",
+    outfit = "TaylorBlaze",
 }
 
 -- Marcus Kane 8574x11026x0
@@ -635,7 +637,9 @@ SFQuest_Database.MannequinPool["3642x7302x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "AlexMercer",
 }
 
 -- Olivia Chambers Raven Creek (4862,11186,0)
@@ -653,6 +657,7 @@ SFQuest_Database.MannequinPool["4862x11186x0"] = {
     direction = "E",
     beard = "",
     hair = "PonyTail",
+    haircolor = "0.7,0.4,0.1",
     outfit = "OliviaChambers",
 }
 
@@ -688,7 +693,8 @@ SFQuest_Database.MannequinPool["13641x4057x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    hair = "Bald",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0",
     outfit = "GraceChambers",
 }
 
@@ -707,7 +713,8 @@ SFQuest_Database.MannequinPool["3637x7302x0"] = {
     direction = "E",
     beard = "",
     hair = "PonyTail",
-    outfit = "PonchoRosso",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "MayaBlackwell",
 }
 
 -- Andrew Turner da Louisville 13570,4021,0
@@ -952,6 +959,8 @@ SFQuest_Database.MannequinPool["9285x8482x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "W",
     beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
     outfit = "CharlesDavis",
 }
 
@@ -968,8 +977,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9277x8480x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "PonchoRosso",
+    beard = "Scruffy",
+    beardcolor = "0.7,0.7,0.7",
+    hair = "Balding",
+    haircolor = "0.7,0.7,0.7",
+    outfit = "LincolnReed",
 }
 
 -- Pyno 9332,8605,0 EST

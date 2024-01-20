@@ -1093,8 +1093,89 @@
                 </m_items>           
         </m_MaleOutfits>
 
-<!-- ........................................ ANNUALI ..........................................-->
-                       
+        <!-- mensile redfordville -->
+        <m_FemaleOutfits>
+        <m_Name>MayaBlackwell</m_Name>
+        <m_Guid>3bfdc697-719c-4cdb-b7e2-43c76ee78d40</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Viper Helmet --> 
+                        <itemGUID>457e9fc3-1de4-434c-819e-ea68218db171</itemGUID>
+                </m_items>
+                <m_items> <!-- Viper Helmet Shield --> 
+                        <probability>0.1</probability>
+                        <itemGUID>6397bd75-c5a5-4172-a372-83a859d287e5</itemGUID>
+                </m_items>        
+                <m_items> <!-- Radio Rig --> 
+                        <probability>0.05</probability>
+                        <itemGUID>eb8211d9-1135-4c07-aafa-5ba0b1f94320</itemGUID>
+                </m_items>                
+                <m_items> <!-- Tank Top --> 
+                        <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+                </m_items>                        
+                <m_items> <!-- ANA Hood --> 
+                        <itemGUID>691bfc2b-9af8-4d8a-a29e-bc814eff17d5</itemGUID>
+                </m_items>                
+                <m_items> <!-- Kidman Jeans --> 
+                        <itemGUID>ebb77bc9-b6a3-4283-acc1-ea7c30d4996a</itemGUID>
+                </m_items>
+                <m_items> <!-- EXO Suit --> 
+                        <probability>0.01</probability>
+                        <itemGUID>eca2106c-93ce-4576-a103-97b3b5f0fca9</itemGUID>
+                </m_items>                
+                <m_items> <!-- Susie Boots --> 
+                        <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
+                </m_items>                        
+        </m_FemaleOutfits>        
+
+        <!-- mensile trelai -->
+        <m_FemaleOutfits>
+        <m_Name>TaylorBlaze</m_Name>
+        <m_Guid>1bddcbb0-ef05-4f58-826f-c1fc482fbaa8</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Wolf Helmet --> 
+                        <probability>0.1</probability>
+                        <itemGUID>2f6e7c02-4b1f-4eaf-bdfb-f882462422eb</itemGUID>
+                </m_items>
+                <m_items> <!-- Wolf Knee Pad --> 
+                        <probability>0.3</probability>
+                        <itemGUID>bf56c29a-a889-4470-9766-34d9cad63bb6</itemGUID>
+                </m_items>                
+                <m_items> <!-- S10 Gas Mask --> 
+                        <probability>0.05</probability>
+                        <itemGUID>8eb2100e-02be-401a-8a92-500d6d336b1d</itemGUID>
+                </m_items>                        
+                <m_items> <!-- NV_GPNVG_18 --> 
+                        <probability>0.01</probability>
+                        <itemGUID>634dd484-2fee-4c90-a849-3c9918f040c1</itemGUID>
+                </m_items>        
+                <m_items> <!-- Wolf Plate Carrier 2 --> 
+                        <probability>0.05</probability>
+                        <itemGUID>6b8ef86e-c070-41ea-99cb-e97f15e8abf2</itemGUID>
+                </m_items>
+                <m_items> <!-- Tactical Boots --> 
+                        <itemGUID>cfdf4460-22ec-499c-8184-7c14837d9ab2</itemGUID>
+                </m_items>                
+                <m_items> <!-- Wolf Jacket --> 
+                        <itemGUID>e6804e1e-fa38-4df6-94bd-b1a29c39ab89</itemGUID>
+                </m_items>                
+                <m_items> <!-- Kidman Jeans --> 
+                        <itemGUID>ebb77bc9-b6a3-4283-acc1-ea7c30d4996a</itemGUID>
+                </m_items>        
+                <m_items> <!-- Glove_Mechanix --> 
+                        <probability>0.1</probability>
+                        <itemGUID>3de99e18-55d5-4867-84ef-1e1b0c60355d</itemGUID>
+                </m_items>                        
+        </m_FemaleOutfits>                
+
+<!-- ........................................ ANNUALI ..........................................-->         
         <!-- cura Raven Creek-->
         <m_MaleOutfits>
         <m_Name>HarperWells</m_Name>
@@ -1171,6 +1252,29 @@
                         <itemGUID>701b1335-cf6f-42f2-a261-3d8aa0b09958</itemGUID>
                 </m_items>                
         </m_FemaleOutfits>
+
+        <!-- annuale redforville -->
+        <m_MaleOutfits>
+        <m_Name>AlexMercer</m_Name>
+        <m_Guid>8f6230cc-884e-46cb-947e-ac08df9086af</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- hat dusk mask --> 
+                        <itemGUID>1d070816-cfec-4d5d-820d-105c514251eb</itemGUID>
+                </m_items> 
+                <m_items> <!-- hoodie up white --> 
+                        <itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+                </m_items>  
+                <m_items> <!-- combat pants --> 
+                        <itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+                </m_items>   
+                <m_items> <!-- boots heather --> 
+                        <itemGUID>34232344-2f86-4923-844c-6b5e718429b9</itemGUID>
+                </m_items>                                
+        </m_MaleOutfits>
 
 <!-- ........................................ NPC spawn benzina ..........................................-->  
         <m_MaleOutfits> 
@@ -1451,4 +1555,51 @@
                 </m_items>  
         </m_MaleOutfits>     
 
+<!-- ........................................ banca spawn per soldi ..........................................-->  
+        <!-- Lincoln Reed -->
+        <m_MaleOutfits> 
+        <m_Name>LincolnReed</m_Name>
+        <m_Guid>f43c94c7-8b15-460e-b478-8759f5224b5f</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_items> <!-- Navy Blue Suit Pants -->
+                        <itemGUID>bd1f51ec-22ef-4bb7-a7da-b09bc3c0e331</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>
+                <m_items> <!-- Shoes -->
+                        <itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+                </m_items>
+                <m_items> <!-- Tie -->
+                        <itemGUID>dd850db6-d8db-4881-a4ae-e0e10c09744d</itemGUID>
+                </m_items>
+                <m_items> <!-- Formal shirts -->
+                        <itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+                        <subItems>
+                                <itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items> <!-- Suit Jacket -->
+                        <itemGUID>f56d9112-e74a-4d9c-b371-8235f9badbf5</itemGUID>
+                </m_items>
+                <m_items> <!-- Watches -->
+                        <probability>0.3</probability>
+                        <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+                        <subItems>
+                                <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+                        </subItems>
+                </m_items>                       
+        </m_MaleOutfits>
+
+<!-- ........................................ main quest louisville ..........................................-->  
+        <!-- James Morris -->
+        
 </outfitManager>
