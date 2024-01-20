@@ -33,7 +33,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo_Intro",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
-    awardstask = "Questyno_Lupo1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Lupo_Intro_Lore" },
     ondone = "addserverpoints;1000",
@@ -49,7 +48,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;15",       -- MONEY REWARD
-    awardstask = "Questyno_Lupo2", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo1_Lore" },
@@ -67,7 +65,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;25",       -- MONEY REWARD
-    awardstask = "Questyno_Lupo3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo2_Lore" },
@@ -85,7 +82,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsitem = "Money;50",       -- MONEY REWARD
     awardsrep = "LaResistenza;65", -- REP REWARD
-    awardstask = "Questyno_Lupo4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo3_Lore" },
@@ -127,7 +123,6 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;20",
-    awardstask = "Questyno_Lupo5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo4_Lore" },
@@ -166,7 +161,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo5_A",
     
     awardsrep = "LaResistenza;140",
-    awardstask = "Questyno_Lupo6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo5_Lore" },
@@ -199,7 +193,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo6_A",
     
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_Lupo7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo6_Lore" },
@@ -234,7 +227,6 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;25",
-    awardstask = "Questyno_Lupo8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo7_Lore" },
@@ -251,7 +243,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
-    awardstask = "Questyno_Lupo9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo8_Lore" },
@@ -293,7 +284,6 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;40",
     awardsitem = "Money;20",
-    awardstask = "Questyno_Lupo10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo9_Lore" },
@@ -332,7 +322,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo10_A",
     
     awardsrep = "LaResistenza;200",
-    awardstask = "Questyno_Lupo11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo10_Lore" },
@@ -372,7 +361,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo11_A",
 
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_Lupo12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo11_Lore" },
@@ -386,7 +374,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo12",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
-    awardstask = "Questyno_Lupo13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo12_Lore" },
@@ -402,7 +389,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo13",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
-    awardstask = "Questyno_Lupo14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo13_Lore" },
@@ -444,7 +430,6 @@ table.insert(SFQuest_Database.QuestPool,{
     
     awardsrep = "LaResistenza;120",
     awardsitem = "Money;30",
-    awardstask = "Questyno_Lupo15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo14_Lore" },
@@ -483,7 +468,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo15_A",
     
     awardsrep = "LaResistenza;140",
-    awardstask = "Questyno_Lupo16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo15_Lore" },
@@ -534,7 +518,6 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_Lupo16_A",
     
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_Lupo17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo16_Lore" },
@@ -548,7 +531,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo17",
 
     awardsrep = "LaResistenza;45", -- REP REWARD
-    awardstask = "Questyno_Lupo18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo17_Lore" },
@@ -564,7 +546,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo18",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardstask = "Questyno_Lupo19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo18_Lore" },
@@ -580,7 +561,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo19",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
-    awardstask = "Questyno_Lupo20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo19_Lore" },
@@ -597,7 +577,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
-    awardstask = "Questyno_Lupo21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo20_Lore" },
@@ -613,7 +592,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo21",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardstask = "Questyno_Lupo22", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo21_Lore" },
@@ -629,7 +607,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo22",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardstask = "Questyno_Lupo1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo22_Lore" },
@@ -645,7 +622,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo23",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
-    awardstask = "Questyno_Lupo1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo23_Lore" },
@@ -691,7 +667,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso_Intro",
 
     awardsrep = "LaResistenza;1",
-    awardstask = "Questyno_RafaelPrezioso1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text",
@@ -706,7 +681,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;180",
     awardsitem = "Money;25",
-    awardstask = "Questyno_RafaelPrezioso2",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso1_Lore" },
@@ -723,7 +697,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;15",
-    awardstask = "Questyno_RafaelPrezioso3",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso2_Lore" },
@@ -756,7 +729,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso3_A",
     awardsrep = "LaResistenza;35",
-    awardstask = "Questyno_RafaelPrezioso4",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso3_Lore" },
@@ -788,7 +760,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso4_A",
     awardsrep = "LaResistenza;45",
-    awardstask = "Questyno_RafaelPrezioso5",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso4_Lore" },
@@ -820,7 +791,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso5_A",
     awardsrep = "LaResistenza;35",
-    awardstask = "Questyno_RafaelPrezioso6",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso5_Lore" },
@@ -835,7 +805,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso6",
     awardsrep = "LaResistenza;40",
     awardsitem = "Money;30",
-    awardstask = "Questyno_RafaelPrezioso7",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso6_Lore" },
@@ -869,7 +838,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso7_A",
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;30",
-    awardstask = "Questyno_RafaelPrezioso8",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso7_Lore" },
@@ -883,7 +851,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso8",
     awardsrep = "LaResistenza;25",
-    awardstask = "Questyno_RafaelPrezioso9",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso8_Lore" },
@@ -922,7 +889,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso9_A",
     awardsrep = "LaResistenza;80",
     awardsitem = "Money;30",
-    awardstask = "Questyno_RafaelPrezioso10",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso9_Lore" },
@@ -997,7 +963,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso10_B",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;50",
-    awardstask = "Questyno_RafaelPrezioso11",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso10_Lore" },
@@ -1060,7 +1025,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso11_B",
     awardsrep = "LaResistenza;45",
-    awardstask = "Questyno_RafaelPrezioso12",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso11_Lore" },
@@ -1123,7 +1087,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso12_B",
     awardsrep = "LaResistenza;50",
-    awardstask = "Questyno_RafaelPrezioso13",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso12_Lore" },
@@ -1137,7 +1100,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso13",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;20",
-    awardstask = "Questyno_RafaelPrezioso14",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso13_Lore" },
@@ -1171,7 +1133,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso14_A",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;100",
-    awardstask = "Questyno_RafaelPrezioso15",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso14_Lore" },
@@ -1210,7 +1171,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso15_A",
     awardsrep = "LaResistenza;40",
     awardsitem = "Money;50",
-    awardstask = "Questyno_RafaelPrezioso17",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso15_Lore" },
@@ -1274,7 +1234,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso17_A",
     awardsrep = "LaResistenza;45",
-    awardstask = "Questyno_RafaelPrezioso18",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso17_Lore" },
@@ -1339,7 +1298,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso18_B",
     awardsrep = "LaResistenza;35",
-    awardstask = "Questyno_RafaelPrezioso19",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso18_Lore" },
@@ -1352,7 +1310,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso19",
     awardsrep = "LaResistenza;50",
-    awardstask = "Questyno_RafaelPrezioso20",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso19_Lore" },
@@ -1391,7 +1348,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso20_A",
     awardsrep = "LaResistenza;80",
-    awardstask = "Questyno_RafaelPrezioso21",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso20_Lore" },
@@ -1404,7 +1360,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso21",
     awardsrep = "LaResistenza;50",
-    awardstask = "Questyno_RafaelPrezioso22",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso21_Lore" },
@@ -1419,7 +1374,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso22",
     awardsrep = "LaResistenza;30",
-    awardstask = "Questyno_RafaelPrezioso23",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso22_Lore" },
@@ -1434,7 +1388,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso23",
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;40",
-    awardstask = "Questyno_RafaelPrezioso1",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso23_Lore" },
@@ -1477,7 +1430,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis_Intro",
 
-    awardstask = "Questyno_JeffreyLewis1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text",
@@ -1526,7 +1478,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis1_A",
     awardsrep = "LaResistenza;200",
-    awardstask = "Questyno_JeffreyLewis2",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis1_Lore" },
@@ -1575,7 +1526,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis2_A",
     awardsrep = "LaResistenza;160",
-    awardstask = "Questyno_JeffreyLewis3",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis2_Lore" },
@@ -1618,7 +1568,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis3_A",
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_JeffreyLewis4",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis3_Lore" },
@@ -1667,7 +1616,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis4_A",
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_JeffreyLewis5",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis4_Lore" },
@@ -1716,7 +1664,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis5_A",
     awardsrep = "LaResistenza;130",
-    awardstask = "Questyno_JeffreyLewis6",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis5_Lore" },
@@ -1765,7 +1712,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis6_A",
     awardsrep = "LaResistenza;180",
-    awardstask = "Questyno_JeffreyLewis7",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis6_Lore" },
@@ -1833,7 +1779,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis7_B",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;25",
-    awardstask = "Questyno_JeffreyLewis8",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis7_Lore" },
@@ -1912,7 +1857,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis8_B",
     awardsrep = "LaResistenza;70",
     awardsitem = "Money;30",
-    awardstask = "Questyno_JeffreyLewis9",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis8_Lore" },
@@ -1925,7 +1869,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis9",
     awardsrep = "LaResistenza;60",
-    awardstask = "Questyno_JeffreyLewis10",
     dailycode = "Questyno_JeffreyLewis",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis9_Lore" },
@@ -1982,7 +1925,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis10_A",
     awardsrep = "LaResistenza;250",
-    awardstask = "Questyno_JeffreyLewis11",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis10_Lore" },
@@ -2037,7 +1979,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis11_A",
     awardsrep = "LaResistenza;220",
-    awardstask = "Questyno_JeffreyLewis12",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis11_Lore" },
@@ -2050,7 +1991,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis12",
     awardsrep = "LaResistenza;200",
-    awardstask = "Questyno_JeffreyLewis13",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis12_Lore" },
@@ -2107,7 +2047,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis13_A",
     awardsrep = "LaResistenza;140",
-    awardstask = "Questyno_JeffreyLewis14",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis13_Lore" },
@@ -2162,7 +2101,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis14_A",
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_JeffreyLewis15",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis14_Lore" },
@@ -2217,7 +2155,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis15_A",
     awardsrep = "LaResistenza;130",
-    awardstask = "Questyno_JeffreyLewis16",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis15_Lore" },
@@ -2271,7 +2208,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis16_B",
     awardsrep = "LaResistenza;80",
-    awardstask = "Questyno_JeffreyLewis17",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis16_Lore" },
@@ -2324,7 +2260,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis17_B",
     awardsrep = "LaResistenza;75",
-    awardstask = "Questyno_JeffreyLewis18",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis17_Lore" },
@@ -2384,7 +2319,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis18_B",
     awardsrep = "LaResistenza;70",
     awardsitem = "Money;30",
-    awardstask = "Questyno_JeffreyLewis19",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis18_Lore" },
@@ -2422,7 +2356,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis19_A",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;20",
-    awardstask = "Questyno_JeffreyLewis20",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis19_Lore" },
@@ -2434,7 +2367,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis20",
-    awardstask = "Questyno_JeffreyLewis21",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis20_Lore" },
@@ -2497,7 +2429,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis21_A",
     awardsrep = "LaResistenza;200",
-    awardstask = "Questyno_JeffreyLewis22",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis21_Lore" },
@@ -2511,7 +2442,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis22",
     awardsrep = "LaResistenza;40",
-    awardstask = "Questyno_JeffreyLewis23",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis22_Lore" },
@@ -2527,7 +2457,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis23",
     awardsrep = "LaResistenza;50",
-    awardstask = "Questyno_JeffreyLewis1",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis23_Lore" },
@@ -2573,7 +2502,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis_Intro",
 
-    awardstask = "Questyno_ChristopherDavis1",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text",
@@ -2588,7 +2516,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis1",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;10;Pot;2",
-    awardstask = "Questyno_ChristopherDavis2",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis1_Lore" },
@@ -2604,7 +2531,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis2",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;15;Pan;2",
-    awardstask = "Questyno_ChristopherDavis3",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis2_Lore" },
@@ -2620,7 +2546,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis3",
     awardsrep = "LaResistenza;200",
     awardsitem = "Money;30",
-    awardstask = "Questyno_ChristopherDavis4",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis3_Lore" },
@@ -2636,7 +2561,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis4",
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;20;Base.Bowl;2",
-    awardstask = "Questyno_ChristopherDavis5",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis4_Lore" },
@@ -2670,7 +2594,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis5_A",
     awardsrep = "LaResistenza;60",
     awardsitem = "Money;70",
-    awardstask = "Questyno_ChristopherDavis6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis5_Lore" },
     needsitem = "Base.Butter;2",
@@ -2731,7 +2654,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis6_B",
     awardsrep = "LaResistenza;100",
     awardsitem = "Base.SushiEgg;1",
-    awardstask = "Questyno_ChristopherDavis7",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_Lore" },
@@ -2745,7 +2667,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis7",
     awardsrep = "LaResistenza;65",
     awardsitem = "Base.Burger;1",
-    awardstask = "Questyno_ChristopherDavis8",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis7_Lore" },
@@ -2761,7 +2682,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis8",
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;50",
-    awardstask = "Questyno_ChristopherDavis9",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis8_Lore" },
@@ -2776,7 +2696,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis9",
     awardsrep = "LaResistenza;100",
-    awardstask = "Questyno_ChristopherDavis10",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis9_Lore" },
@@ -2791,7 +2710,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis10",
     awardsrep = "LaResistenza;100",
-    awardstask = "Questyno_ChristopherDavis11",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis10_Lore" },
@@ -2806,7 +2724,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis11",
     awardsrep = "LaResistenza;200",
-    awardstask = "Questyno_ChristopherDavis12",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis11_Lore" },
@@ -2840,7 +2757,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis12_A",
     awardsrep = "LaResistenza;50",
-    awardstask = "Questyno_ChristopherDavis13",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis12_Lore" },
@@ -2854,7 +2770,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis13",
     awardsrep = "LaResistenza;150",
-    awardstask = "Questyno_ChristopherDavis14",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis13_Lore" },
@@ -2869,7 +2784,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis14",
     awardsrep = "LaResistenza;40",
-    awardstask = "Questyno_ChristopherDavis15",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis14_Lore" },
@@ -2937,7 +2851,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis15_B",
     awardsrep = "LaResistenza;60",
     awardsitem = "Base.Lobster;1",
-    awardstask = "Questyno_ChristopherDavis16",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_Lore" },
@@ -2969,7 +2882,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis16_A",
     awardsrep = "LaResistenza;25",
     awardsitem = "Base.Milk;1",
-    awardstask = "Questyno_ChristopherDavis17",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis16_Lore" },
@@ -2985,7 +2897,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis17",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.Butter;1",
-    awardstask = "Questyno_ChristopherDavis18",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis17_Lore" },
@@ -3019,7 +2930,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis18_A",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.Pineapple;1",
-    awardstask = "Questyno_ChristopherDavis19",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis18_Lore" },
@@ -3035,7 +2945,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis19",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;20",
-    awardstask = "Questyno_ChristopherDavis20",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis19_Lore" },
@@ -3051,7 +2960,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis20",
     awardsrep = "LaResistenza;100",
     awardsitem = "Base.Pan;1",
-    awardstask = "Questyno_ChristopherDavis21",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis20_Lore" },
@@ -3067,7 +2975,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis21",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.Pot;2",
-    awardstask = "Questyno_ChristopherDavis22",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis21_Lore" },
@@ -3083,7 +2990,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis22",
     awardsrep = "LaResistenza;200",
     awardsitem = "Money;30",
-    awardstask = "Questyno_ChristopherDavis23",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis22_Lore" },
@@ -3099,7 +3005,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis23",
     awardsrep = "LaResistenza;70",
     awardsitem = "Base.Smallanimalmeat;1",
-    awardstask = "Questyno_ChristopherDavis24",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis23_Lore" },
@@ -3115,7 +3020,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis24",
     awardsrep = "LaResistenza;200",
     awardsitem = "Money;30",
-    awardstask = "Questyno_ChristopherDavis1",
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis24_Lore" },
@@ -3160,7 +3064,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez_Intro",
 
-    awardstask = "Questyno_PamelaPerez1",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text",
@@ -3174,7 +3077,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez1",
     awardsrep = "LaResistenza;100",
-    awardstask = "Questyno_PamelaPerez2",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez1_Lore" },
@@ -3190,7 +3092,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez2",
     awardsrep = "LaResistenza;100",
     awardsitem = "farming.Strewberrie;1",
-    awardstask = "Questyno_PamelaPerez3",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez2_Lore" },
@@ -3206,7 +3107,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez3",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.DriedBlackBeans;1",
-    awardstask = "Questyno_PamelaPerez4",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez3_Lore" },
@@ -3222,7 +3122,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez4",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.MincedMeat;1",
-    awardstask = "Questyno_PamelaPerez5",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez4_Lore" },
@@ -3237,7 +3136,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez5",
     awardsrep = "LaResistenza;40",
-    awardstask = "Questyno_PamelaPerez6",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez5_Lore" },
@@ -3252,7 +3150,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez6",
     awardsrep = "LaResistenza;60",
-    awardstask = "Questyno_PamelaPerez7",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez6_Lore" },
@@ -3267,7 +3164,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez7",
     awardsrep = "LaResistenza;60",
-    awardstask = "Questyno_PamelaPerez8",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez7_Lore" },
@@ -3282,7 +3178,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez8",
     awardsrep = "LaResistenza;70",
-    awardstask = "Questyno_PamelaPerez9",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez8_Lore" },
@@ -3298,7 +3193,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez9",
     awardsrep = "LaResistenza;75",
     awardsitem = "Base.ComfreyCataplasm;1",
-    awardstask = "Questyno_PamelaPerez10",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez9_Lore" },
@@ -3313,7 +3207,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez10",
     awardsrep = "LaResistenza;80",
-    awardstask = "Questyno_PamelaPerez11",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez10_Lore" },
@@ -3329,7 +3222,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez11",
     awardsrep = "LaResistenza;95",
     awardsitem = "Base.Smallanimalmeat;2",
-    awardstask = "Questyno_PamelaPerez12",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez11_Lore" },
@@ -3344,7 +3236,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez12",
     awardsrep = "LaResistenza;45",
-    awardstask = "Questyno_PamelaPerez13",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez12_Lore" },
@@ -3360,7 +3251,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez13",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.CommonMallow;10",
-    awardstask = "Questyno_PamelaPerez14",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez13_Lore" },
@@ -3375,7 +3265,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez14",
     awardsrep = "LaResistenza;75",
-    awardstask = "Questyno_PamelaPerez15",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez14_Lore" },
@@ -3391,7 +3280,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez15",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.RiceVinegar;1",
-    awardstask = "Questyno_PamelaPerez16",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez15_Lore" },
@@ -3436,7 +3324,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez16_A",
     awardsrep = "LaResistenza;85",
-    awardstask = "Questyno_PamelaPerez17",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez16_A_Lore" },
@@ -3474,7 +3361,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez17_A",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.PickAxe;1",
-    awardstask = "Questyno_PamelaPerez18",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez17_A_Lore" },
@@ -3487,7 +3373,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez18",
     awardsrep = "LaResistenza;70",
-    awardstask = "Questyno_PamelaPerez19",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez18_Lore" },
@@ -3521,7 +3406,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez19_A",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.BerryBlack;2",
-    awardstask = "Questyno_PamelaPerez20",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez19_A_Lore" },
@@ -3534,7 +3418,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez20",
-    awardstask = "Questyno_PamelaPerez21",
     awardsrep = "LaResistenza;60",
     awardsitem = "Money;20;Pot;2",
     completesound = "levelup",
@@ -3569,7 +3452,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez21_A",
     awardsrep = "LaResistenza;45",
-    awardstask = "Questyno_PamelaPerez22",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez21_A_Lore" },
@@ -3582,7 +3464,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez22",
-    awardstask = "Questyno_PamelaPerez23",
     awardsrep = "LaResistenza;70",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
@@ -3597,7 +3478,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez23",
-    awardstask = "Questyno_PamelaPerez24",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;15",
     completesound = "levelup",
@@ -3613,7 +3493,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez24",
-    awardstask = "Questyno_PamelaPerez1",
     awardsrep = "LaResistenza;60",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
@@ -3675,7 +3554,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher1",
     awardsrep = "LaResistenza;100",
     awardsitem = "Base.Panfish;1",
-    awardstask = "Questyno_SamFisher2",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher1_Lore" },
@@ -3691,7 +3569,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher2",
     awardsrep = "LaResistenza;50",
     awardsitem = "Money;30",
-    awardstask = "Questyno_SamFisher3",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher2_Lore" },
@@ -3731,7 +3608,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher3_A",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.FishingMag1;1",
-    awardstask = "Questyno_SamFisher4",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher3_A_Lore" },
@@ -3745,7 +3621,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher4",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.FishingTackle;1",
-    awardstask = "Questyno_SamFisher5",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher4_Lore" },
@@ -3759,7 +3634,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher5",
-    awardstask = "Questyno_SamFisher6",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.BeerBottle;1",
     completesound = "levelup",
@@ -3775,7 +3649,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher6",
-    awardstask = "Questyno_SamFisher7",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.Bass;1",
     completesound = "levelup",
@@ -3791,7 +3664,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher7",
-    awardstask = "Questyno_SamFisher8",
     awardsrep = "LaResistenza;70",
     awardsitem = "Base.Wire;1",
     completesound = "levelup",
@@ -3855,7 +3727,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher8_B",
     awardsrep = "LaResistenza;60",
     awardsitem = "Base.Wine;1",
-    awardstask = "Questyno_SamFisher9",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher8_B_Lore" },
@@ -3867,7 +3738,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher9",
-    awardstask = "Questyno_SamFisher10",
     awardsrep = "LaResistenza;150",
     awardsitem = "Money;50",
     completesound = "levelup",
@@ -3903,7 +3773,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher10_A",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;50",
-    awardstask = "Questyno_SamFisher11",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher10_A_Lore" },
@@ -3942,7 +3811,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher11_A",
     awardsrep = "LaResistenza;80",
     awardsitem = "Base.Twine;1",
-    awardstask = "Questyno_SamFisher12",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher11_A_Lore" },
@@ -3954,7 +3822,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher12",
-    awardstask = "Questyno_SamFisher13",
     awardsrep = "LaResistenza;150",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
@@ -3969,7 +3836,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher13",
-    awardstask = "Questyno_SamFisher14",
     awardsrep = "LaResistenza;100",
     awardsitem = "Base.FishFillet;1;Base.BeerCanEmpty;1",
     completesound = "levelup",
@@ -3985,7 +3851,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher14",
-    awardstask = "Questyno_SamFisher15",
     awardsrep = "LaResistenza;150",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
@@ -4028,7 +3893,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher15_A",
     awardsrep = "LaResistenza;80",
     awardsitem = "Base.PanFriedVegetables;1;Base.BeerBottle;1",
-    awardstask = "Questyno_SamFisher16",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher15_A_Lore" },
@@ -4042,7 +3906,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher16",
-    awardstask = "Questyno_SamFisher17",
     awardsrep = "LaResistenza;70",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
@@ -4072,7 +3935,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher17_A",
-    awardstask = "Questyno_SamFisher18",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;100",
     completesound = "levelup",
@@ -4102,7 +3964,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher18_A",
-    awardstask = "Questyno_SamFisher19",
     awardsrep = "LaResistenza;100",
     awardsitem = "Money;100",
     completesound = "levelup",
@@ -4121,7 +3982,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher19",
-    awardstask = "Questyno_SamFisher20",
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.HuntingKnife;1", -- ITEM REWARD
     completesound = "levelup",
@@ -4158,7 +4018,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher20_A",
     awardsrep = "LaResistenza;50",
     awardsitem = "Base.Seaweed;15;Base.PlateBlue;1;Base.FishFried;1",
-    awardstask = "Questyno_SamFisher21",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher20_A_Lore" },
@@ -4173,7 +4032,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher21",
-    awardstask = "Questyno_SamFisher22",
     awardsrep = "LaResistenza;60",
     awardsitem = "Money;20",
     completesound = "levelup",
@@ -4191,7 +4049,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher22",
-    awardstask = "Questyno_SamFisher23",
     awardsrep = "LaResistenza;40",
     completesound = "levelup",
     dailycode = "Questyno_SamFisher",
@@ -4208,7 +4065,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher23",
-    awardstask = "Questyno_SamFisher24",
     awardsrep = "LaResistenza;40",
     awardsitem = "Base.BaseballBat;1",
     completesound = "levelup",
@@ -4225,7 +4081,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher24",
-    awardstask = "Questyno_SamFisher1",
     awardsrep = "LaResistenza;80",
     awardsitem = "Money;30",
     completesound = "levelup",

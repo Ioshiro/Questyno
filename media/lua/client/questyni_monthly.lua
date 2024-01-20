@@ -17,7 +17,6 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze_Intro",
 
-    awardstask = "Questyno_TaylorBlaze1",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore" },
@@ -33,7 +32,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;620",
     awardsitem = "SWeapons.SalvagedPipeWrench;1;Money;150",
-    awardstask = "Questyno_TaylorBlaze2",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze1_Lore" },
@@ -50,7 +48,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;550",
     awardsitem = "SWeapons.SalvagedBlade;1;Money;150",
-    awardstask = "Questyno_TaylorBlaze3",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze2_Lore" },
@@ -67,7 +64,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;900",
     awardsitem = "Money;200",
-    awardstask = "Questyno_TaylorBlaze4",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze3_Lore" },
@@ -84,7 +80,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;780",
     awardsitem = "Money;150",
-    awardstask = "Questyno_TaylorBlaze5",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze4_Lore" },
@@ -101,7 +96,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1000",
     awardsitem = "Money;150",
-    awardstask = "Questyno_TaylorBlaze6",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze5_Lore" },
@@ -118,7 +112,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1200",
     awardsitem = "Money;150",
-    awardstask = "Questyno_TaylorBlaze7",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze6_Lore" },
@@ -135,7 +128,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1200",
     awardsitem = "CleaningKit;1;Money;150",
-    awardstask = "Questyno_TaylorBlaze8",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze7_Lore" },
@@ -222,7 +214,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;2200",
     awardsitem = "NoiseTrapTriggered;1;Money;150",
-    awardstask = "Questyno_TaylorBlaze1",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze8_Lore" },
@@ -246,7 +237,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane_Intro",
 
-    awardstask = "Questyno_MarcusKane1",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore" },
@@ -286,7 +276,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;130",
     awardsitem = "Base.Money;25",
-    awardstask = "Questyno_MarcusKane2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane1_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane1_A_Text",
@@ -324,7 +313,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "Base.Money;50",
-    awardstask = "Questyno_MarcusKane3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane2_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane2_A_Text",
@@ -362,7 +350,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;220",
     awardsitem = "Base.Money;60",
-    awardstask = "Questyno_MarcusKane4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane3_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane3_A_Text",
@@ -400,7 +387,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;420",
     awardsitem = "Base.Money;80",
-    awardstask = "Questyno_MarcusKane1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane4_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane4_A_Text",
@@ -424,7 +410,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_OliviaChambers_Intro",
 
-    awardstask = "Questyno_OliviaChambers1",
     completesound = "levelup",
     dailycode = "Questyno_OliviaChambers",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Lore" },
@@ -463,7 +448,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1200",
     awardsitem = "LabItems.JournalOfResearch;1;LabBooks.BkLaboratoryEquipment2;1",
-    awardstask = "Questyno_OliviaChambers2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers1_Lore" },
     needsitem = "LabItems.ChSodiumHydroxideBag;2",
@@ -501,7 +485,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1200",
     awardsitem = "LabBooks.BkChemistryCourse;1",
-    awardstask = "Questyno_OliviaChambers3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers2_Lore" },
     needsitem = "LabItems.ChSulfuricAcidCan;2",
@@ -539,7 +522,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;800",
     awardsitem = "LabBooks.BkLaboratoryEquipment1;1",
-    awardstask = "Questyno_OliviaChambers4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers3_Lore" },
     needsitem = "LabItems.ChSodiumHydroxideBag;2",
@@ -577,7 +559,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;700",
     awardsitem = "LabBooks.BkLaboratoryEquipment3;1",
-    awardstask = "Questyno_OliviaChambers5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers4_Lore" },
     needsitem = "LabItems.ChHydrochloricAcidCan;2",
@@ -615,7 +596,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1200",
     awardsitem = "LabBooks.BkVirologyCourses1;1",
-    awardstask = "Questyno_OliviaChambers6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers5_Lore" },
     needsitem = "LabItems.ChSulfuricAcidCan;2",
@@ -653,7 +633,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;800",
     awardsitem = "LabBooks.BkVirologyCourses2;1",
-    awardstask = "Questyno_OliviaChambers1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers6_Lore" },
     needsitem = "LabItems.ChHydrochloricAcidCan;2",
@@ -686,7 +665,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell_Intro",
 
-    awardstask = "Questyno_MayaBlackwell1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Lore" },
@@ -725,7 +703,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;125",
     awardsitem = "TW.WorkshopMag3;1",
-    awardstask = "Questyno_MayaBlackwell2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell1_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -763,7 +740,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;125",
     awardsitem = "TW.WorkshopMag4;1",
-    awardstask = "Questyno_MayaBlackwell3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell2_Lore" },
     needsitem = "Base.ScrapMetal;70",
@@ -801,7 +777,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;150",
     awardsitem = "TW.WorkshopMag2;1",
-    awardstask = "Questyno_MayaBlackwell4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell3_Lore" },
     needsitem = "Base.ScrapMetal;70",
@@ -839,7 +814,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;100",
     awardsitem = "SWeapons.WeaponMag1;1",
-    awardstask = "Questyno_MayaBlackwell5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell4_Lore" },
     needsitem = "Base.ScrapMetal;70",
@@ -877,7 +851,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;150",
     awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponsMag4;1",
-    awardstask = "Questyno_MayaBlackwell6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell5_Lore" },
     needsitem = "Base.ScrapMetal;40",
@@ -915,7 +888,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;150",
     awardsitem = "SWeapons.WeaponMag3;1",
-    awardstask = "Questyno_MayaBlackwell7",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell6_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -953,7 +925,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;160",
     awardsitem = "SArmor.ArmorMag1;1",
-    awardstask = "Questyno_MayaBlackwell8",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell7_Lore" },
     needsitem = "Base.ScrapMetal;65",
@@ -991,7 +962,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "SArmor.ArmorMag3;1",
-    awardstask = "Questyno_MayaBlackwell9",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell8_Lore" },
     needsitem = "Base.ScrapMetal;65",
@@ -1029,7 +999,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;300",
     awardsitem = "SWeapons.WeaponsMag5;1",
-    awardstask = "Questyno_MayaBlackwell10",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell9_Lore" },
     needsitem = "Base.ScrapMetal;60",
@@ -1067,7 +1036,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "SArmor.ArmorMag4;1",
-    awardstask = "Questyno_MayaBlackwell11",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell10_Lore" },
     needsitem = "Base.ScrapMetal;60",
@@ -1105,7 +1073,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "SWeapons.WeaponsMag6;1",
-    awardstask = "Questyno_MayaBlackwell12",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell11_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -1143,7 +1110,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "SArmor.ArmorMag5;1",
-    awardstask = "Questyno_MayaBlackwell13",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell12_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -1181,7 +1147,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;200",
     awardsitem = "SWeapons.WeaponsMag7;1",
-    awardstask = "Questyno_MayaBlackwell14",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell13_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -1206,7 +1171,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller_Intro",
 
-    awardstask = "Questyno_LucasMiller1",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller_Intro_Lore" },
@@ -1236,7 +1200,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;100",
     awardsitem = "MoneyToXP.Rotolo;3",
-    awardstask = "Questyno_LucasMiller2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller1_A_Lore" },
     objectives = {{
@@ -1270,7 +1233,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;110",
     awardsitem = "MoneyToXP.Rotolo;4",
-    awardstask = "Questyno_LucasMiller3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller2_A_Lore" },
     objectives = {{
@@ -1304,7 +1266,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;120",
     awardsitem = "MoneyToXP.Rotolo;5",
-    awardstask = "Questyno_LucasMiller4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller3_A_Lore" },
     objectives = {{
@@ -1338,7 +1299,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;130",
     awardsitem = "MoneyToXP.Rotolo;6",
-    awardstask = "Questyno_LucasMiller5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller4_A_Lore" },
     objectives = {{
@@ -1372,7 +1332,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;150",
     awardsitem = "MoneyToXP.Mazzetta;1",
-    awardstask = "Questyno_LucasMiller6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller5_A_Lore" },
     objectives = {{
@@ -1406,7 +1365,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;50",
     awardsitem = "MoneyToXP.Rotolo;1",
-    awardstask = "Questyno_LucasMiller1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller6_A_Lore" },
     objectives = {{
@@ -1431,7 +1389,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LincolnReed_Intro",
 
-    awardstask = "Questyno_LincolnReed1",
     completesound = "levelup",
     dailycode = "Questyno_LincolnReed",
     lore = { "IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore" },
@@ -1475,7 +1432,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker_Intro",
 
-    awardstask = "Questyno_GabrielWalker1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Lore" },
@@ -1505,7 +1461,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga1;1",
-    awardstask = "Questyno_GabrielWalker2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker1_A_Lore" },
     objectives = {{
@@ -1539,7 +1494,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga1;1",
-    awardstask = "Questyno_GabrielWalker3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker2_A_Lore" },
     objectives = {{
@@ -1573,7 +1527,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga1;1",
-    awardstask = "Questyno_GabrielWalker4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker3_A_Lore" },
     objectives = {{
@@ -1607,7 +1560,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga1;1",
-    awardstask = "Questyno_GabrielWalker5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker4_A_Lore" },
     objectives = {{
@@ -1641,7 +1593,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga1;1",
-    awardstask = "Questyno_GabrielWalker6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker5_A_Lore" },
     objectives = {{
@@ -1675,7 +1626,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga2;1",
-    awardstask = "Questyno_GabrielWalker7",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker6_A_Lore" },
     objectives = {{
@@ -1709,7 +1659,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga2;1",
-    awardstask = "Questyno_GabrielWalker8",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker7_A_Lore" },
     objectives = {{
@@ -1743,7 +1692,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga2;1",
-    awardstask = "Questyno_GabrielWalker9",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker8_A_Lore" },
     objectives = {{
@@ -1777,7 +1725,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;25",
     awardsitem = "MoneyToXP.Droga3;1",
-    awardstask = "Questyno_GabrielWalker1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore" },
     objectives = {{
@@ -1809,7 +1756,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_DylanHarris_Intro",
 
-    awardstask = "Questyno_DylanHarris1",
     completesound = "levelup",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris_Intro_Lore" },
@@ -1839,7 +1785,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;350",
     awardsitem = "MoneyToXP.Droga3;1",
-    awardstask = "Questyno_DylanHarris2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris1_A_Lore" },
     objectives = {{
@@ -1873,7 +1818,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;550",
     awardsitem = "MoneyToXP.Droga3;1",
-    awardstask = "Questyno_DylanHarris3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris2_A_Lore" },
     objectives = {{
@@ -1907,7 +1851,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;550",
     awardsitem = "MoneyToXP.Droga3;1",
-    awardstask = "Questyno_DylanHarris4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris3_A_Lore" },
     objectives = {{
@@ -1941,7 +1884,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;550",
     awardsitem = "MoneyToXP.Droga4;1",
-    awardstask = "Questyno_DylanHarris5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris4_A_Lore" },
     objectives = {{
@@ -1975,7 +1917,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;750",
     awardsitem = "MoneyToXP.Droga4;1",
-    awardstask = "Questyno_DylanHarris6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris5_A_Lore" },
     objectives = {{
@@ -2009,7 +1950,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;750",
     awardsitem = "MoneyToXP.Droga4;1",
-    awardstask = "Questyno_DylanHarris7",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris6_A_Lore" },
     objectives = {{
@@ -2043,7 +1983,6 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1550",
     awardsitem = "MoneyToXP.Droga5;1",
-    awardstask = "Questyno_DylanHarris1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris7_A_Lore" },
     objectives = {{

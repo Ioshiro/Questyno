@@ -12,7 +12,6 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer_Intro",
 
-    awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer_Intro_Text",
@@ -26,7 +25,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer1",
 
     awardsrep = "LaResistenza;1800", -- REP REWARD
-    awardstask = "Questyno_AlexMercer2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer1_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer1_Text",
@@ -40,7 +38,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer2",
 
     awardsrep = "LaResistenza;2000", -- REP REWARD
-    awardstask = "Questyno_AlexMercer3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer2_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer2_Text",
@@ -77,7 +74,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells_Intro",
 
-    awardstask = "Questyno_HarperWells1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_HarperWells_Intro_Text",
@@ -112,7 +108,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells1_A",
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
-    awardstask = "Questyno_HarperWells2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells1_A_Lore" },
     needsitem = "LR.Lore1;1",
@@ -147,7 +142,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells2_A",
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
-    awardstask = "Questyno_HarperWells3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells2_A_Lore" },
     needsitem = "LR.Lore2;1",
@@ -182,7 +176,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells3_A",
     awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
-    awardstask = "Questyno_HarperWells4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells3_A_Lore" },
     needsitem = "LR.Lore3;1",
@@ -217,7 +210,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells4_A",
     awardsrep = "LaResistenza;3500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
-    awardstask = "Questyno_HarperWells1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells4_A_Lore" },
     needsitem = "LR.Lore4;1",
@@ -240,7 +232,6 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers_Intro",
 
-    awardstask = "Questyno_GraceChambers1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers_Intro_Text",
@@ -271,7 +262,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers1_A",
     awardsrep = "LaResistenza;2400", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
-    awardstask = "Questyno_GraceChambers2",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers1_Lore" },
     needsitem = "LabItems.CmpSyringeWithAdvancedVaccine;4",
@@ -329,7 +319,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers2_B",
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;2",
-    awardstask = "Questyno_GraceChambers3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers2_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers2_A_Text",
@@ -363,7 +352,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers3_A",
     awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
-    awardstask = "Questyno_GraceChambers4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers3_Lore" },
     needsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
@@ -421,7 +409,6 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers4_B",
     awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "Money;1000",
-    awardstask = "Questyno_GraceChambers1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers4_B_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers4_B_Text",
