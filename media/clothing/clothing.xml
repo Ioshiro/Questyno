@@ -20,8 +20,8 @@
 <!-- ........................................ Muldraugh Weekly Random ..........................................-->
         <!-- Victoria Secret -->
 	<m_FemaleOutfits> 
-		<m_Name>VictoriaSecret</m_Name>
-                <m_Guid>aaf4606d-7fb1-4b6e-a513-d518bc728031</m_Guid>
+	<m_Name>VictoriaSecret</m_Name>
+        <m_Guid>aaf4606d-7fb1-4b6e-a513-d518bc728031</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -42,14 +42,14 @@
 
         <!-- George Scott -->
 	<m_MaleOutfits> 
-		<m_Name>GeorgeScott</m_Name>
-                <m_Guid>42d69ddb-844c-4a42-989e-3d977fefb0a6</m_Guid>
+	<m_Name>GeorgeScott</m_Name>
+        <m_Guid>42d69ddb-844c-4a42-989e-3d977fefb0a6</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>
-                        <m_items> <!-- Cappello Cowboy -->
-                                <itemGUID>b8f47c01-7e0a-415d-9681-146872198455</itemGUID> 
-                        </m_items>               
+                <m_items> <!-- Cappello Cowboy -->
+                        <itemGUID>b8f47c01-7e0a-415d-9681-146872198455</itemGUID> 
+                </m_items>               
                 <m_items> <!-- White T-shirt -->
                         <itemGUID>e4ec9087-006d-41dc-81f4-585b6d2e958c</itemGUID>
                 </m_items>
@@ -67,23 +67,23 @@
                 </m_items>
                 <m_items> <!-- Watches -->
                         <probability>0.3</probability>
-                <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
-                <subItems>
-                        <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
-                </subItems>
-                <subItems>
-                        <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
-                </subItems>
-                <subItems>
-                        <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
-                </subItems>
+                        <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+                        <subItems>
+                                <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+                        </subItems>
                 </m_items>                            
         </m_MaleOutfits>
 
         <!-- SamuelYoung -->
 	<m_MaleOutfits> 
-		<m_Name>SamuelYoung</m_Name>
-                <m_Guid>0ae3cdb0-f03b-472a-a6a4-d7f97bf12e42</m_Guid>
+	<m_Name>SamuelYoung</m_Name>
+        <m_Guid>0ae3cdb0-f03b-472a-a6a4-d7f97bf12e42</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -109,8 +109,8 @@
 
         <!-- Xu Mishura -->
 	<m_MaleOutfits> 
-		<m_Name>XuMishura</m_Name>
-                <m_Guid>e11cd9c4-eb3e-47a1-8e9a-4d0cd388fcb4</m_Guid>
+	<m_Name>XuMishura</m_Name>
+        <m_Guid>e11cd9c4-eb3e-47a1-8e9a-4d0cd388fcb4</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -145,8 +145,8 @@
 
         <!-- David Turner -->
 	<m_MaleOutfits>    
-	        <m_Name>DavidTurner</m_Name>
-                <m_Guid>b73542b1c-0caf-426f-9020-ec5ae09aeba6</m_Guid>
+	<m_Name>DavidTurner</m_Name>
+        <m_Guid>b73542b1c-0caf-426f-9020-ec5ae09aeba6</m_Guid>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
                 <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
@@ -187,8 +187,8 @@
         
         <!-- Susan Lee -->
         <m_FemaleOutfits>
-                <m_Name>SusanLee</m_Name>
-                <m_Guid>c71dd37d-a25d-4f80-a88a-2642a283887f</m_Guid>
+        <m_Name>SusanLee</m_Name>
+        <m_Guid>c71dd37d-a25d-4f80-a88a-2642a283887f</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -214,8 +214,8 @@
 <!-- ........................................ Spawn Daily Random ..........................................-->
         <!-- Sergente Grif -->
 	<m_MaleOutfits> 
-		<m_Name>SergenteGrif</m_Name>
-		<m_Guid>35d0faf6-ee6f-4602-a233-fd48e89d69e1</m_Guid>
+	<m_Name>SergenteGrif</m_Name>
+	<m_Guid>35d0faf6-ee6f-4602-a233-fd48e89d69e1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>
@@ -251,8 +251,8 @@
 
         <!-- Angelica Stella -->
         <m_FemaleOutfits>
-	        <m_Name>AngelicaStella</m_Name>
-                <m_Guid>0386f8ef-0c42-43e0-9164-075ecaf03da7</m_Guid>
+	<m_Name>AngelicaStella</m_Name>
+        <m_Guid>0386f8ef-0c42-43e0-9164-075ecaf03da7</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -280,8 +280,8 @@
 
         <!-- Heather Thomas -->
 	<m_MaleOutfits>
-		<m_Name>HeatherThomas</m_Name>
-		<m_Guid>fc35d80f-c05d-442f-8053-785e216c3294</m_Guid>
+	<m_Name>HeatherThomas</m_Name>
+	<m_Guid>fc35d80f-c05d-442f-8053-785e216c3294</m_Guid>
                 <m_Top>false</m_Top>
                 <m_items>
                         <itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
@@ -315,8 +315,8 @@
         
         <!-- Elia Rima -->
 	<m_MaleOutfits> 
-		<m_Name>EliaRima</m_Name>
-                <m_Guid>e429f450-4301-4f93-8909-90d7ebc514e1</m_Guid>
+	<m_Name>EliaRima</m_Name>
+        <m_Guid>e429f450-4301-4f93-8909-90d7ebc514e1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -339,8 +339,8 @@
 
         <!-- Bob Repair -->
 	<m_MaleOutfits> 
-	        <m_Name>BobRepair</m_Name>
-                <m_Guid>6eff5ae0-43ec-da31-a2f6-93bf216dea2d</m_Guid>
+	<m_Name>BobRepair</m_Name>
+        <m_Guid>6eff5ae0-43ec-da31-a2f6-93bf216dea2d</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -363,8 +363,8 @@
 
         <!-- Mike Pozzo -->
         <m_MaleOutfits> 
-                <m_Name>MikePozzo</m_Name>
-                <m_Guid>fe821f7c-de5b-4231-ae5f-ba42af2f5f71</m_Guid>
+        <m_Name>MikePozzo</m_Name>
+        <m_Guid>fe821f7c-de5b-4231-ae5f-ba42af2f5f71</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -387,8 +387,8 @@
 
         <!-- Rosa China -->
         <m_FemaleOutfits> 
-                <m_Name>RosaChina</m_Name>
-                <m_Guid>14a43691-629d-4795-bbee-f028eb9033b1</m_Guid>
+        <m_Name>RosaChina</m_Name>
+        <m_Guid>14a43691-629d-4795-bbee-f028eb9033b1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -427,8 +427,8 @@
 
         <!-- Emily Terry -->
         <m_FemaleOutfits> 
-                <m_Name>EmilyTerry</m_Name>
-                <m_Guid>17aa3e9b-679d-4795-bbee-50cf449033b1</m_Guid>
+        <m_Name>EmilyTerry</m_Name>
+        <m_Guid>17aa3e9b-679d-4795-bbee-50cf449033b1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -468,13 +468,13 @@
 <!-- ........................................ West Point Weekly Random ..........................................-->
         <!-- Tony Lupo -->
         <m_MaleOutfits> 
-                <m_Name>TonyLupo</m_Name>
-                <m_Guid>f0751e0f-526c-4250-889f-36ab83be6964</m_Guid>
+        <m_Name>TonyLupo</m_Name>
+        <m_Guid>f0751e0f-526c-4250-889f-36ab83be6964</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>
                 <m_items> <!-- Shades -->
-                                <itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+                        <itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
                 </m_items>                
                 <m_items> <!-- Jeans -->
                         <itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
@@ -504,8 +504,8 @@
 
         <!-- Rafael Prezioso -->
         <m_MaleOutfits>
-                <m_Name>RafaelPrezioso</m_Name>
-                <m_Guid>09bc1259-402c-e3a1-afd9-475682da8331</m_Guid>
+        <m_Name>RafaelPrezioso</m_Name>
+        <m_Guid>09bc1259-402c-e3a1-afd9-475682da8331</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -539,8 +539,8 @@
 
         <!-- Jeffrey Lewis -->
         <m_MaleOutfits> 
-                <m_Name>JeffreyLewis</m_Name>
-                <m_Guid>3cdef9d1-0701-49e3-8fa4-0a2cb3ca010c</m_Guid>
+        <m_Name>JeffreyLewis</m_Name>
+        <m_Guid>3cdef9d1-0701-49e3-8fa4-0a2cb3ca010c</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                     
@@ -563,8 +563,8 @@
 
         <!-- Christopher Davis -->
         <m_MaleOutfits> 
-                <m_Name>ChristopherDavis</m_Name>
-                <m_Guid>2c1f0ab1-dc8a-4261-b420-0b6c8fcfabb6</m_Guid>
+        <m_Name>ChristopherDavis</m_Name>
+        <m_Guid>2c1f0ab1-dc8a-4261-b420-0b6c8fcfabb6</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                       
@@ -600,8 +600,8 @@
 
         <!-- Pamela Perez -->
         <m_FemaleOutfits> 
-                <m_Name>PamelaPerez</m_Name>
-                <m_Guid>1117369a-679d-4795-bbee-5058ebf033b1</m_Guid>
+        <m_Name>PamelaPerez</m_Name>
+        <m_Guid>1117369a-679d-4795-bbee-5058ebf033b1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                
@@ -640,8 +640,8 @@
 
         <!-- Sam Fisher -->
         <m_MaleOutfits> 
-                <m_Name>SamFisher</m_Name>
-                <m_Guid>ec66fc17-4bef-4e64-ad90-7abde37d01ed</m_Guid>
+        <m_Name>SamFisher</m_Name>
+        <m_Guid>ec66fc17-4bef-4e64-ad90-7abde37d01ed</m_Guid>
                 <m_Pants>false</m_Pants>
                 <m_items> <!-- Baseball Cap -->
                         <itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
@@ -709,8 +709,8 @@
 <!-- ........................................ CATENE ..........................................-->
         <!-- Brian White -->
         <m_MaleOutfits>
-                <m_Name>BrianWhite</m_Name>
-                <m_Guid>9b25cd55-020f-458e-9d7a-395026cf2370</m_Guid>
+        <m_Name>BrianWhite</m_Name>
+        <m_Guid>9b25cd55-020f-458e-9d7a-395026cf2370</m_Guid>
                 <m_Pants>false</m_Pants>
                 <m_items>
                         <itemGUID>25b7d5d3-c92f-4aaa-8fe7-a8563871621c</itemGUID>
@@ -731,8 +731,8 @@
 
         <!-- Richard Brown -->
         <m_MaleOutfits>
-                <m_Name>RichardBrown</m_Name>
-                <m_Guid>267d0ba0-a20c-489c-b5d8-36351115556f</m_Guid>
+        <m_Name>RichardBrown</m_Name>
+        <m_Guid>267d0ba0-a20c-489c-b5d8-36351115556f</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -766,8 +766,8 @@
 
         <!-- Robert Wilson -->
         <m_MaleOutfits>
-                <m_Name>RobertWilson</m_Name>
-                <m_Guid>266d0af0-a22f-458c-b10e-36351113556b</m_Guid>
+        <m_Name>RobertWilson</m_Name>
+        <m_Guid>266d0af0-a22f-458c-b10e-36351113556b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -801,8 +801,8 @@
 
         <!-- Ethan Steele -->
         <m_MaleOutfits> 
-                <m_Name>EthanSteele</m_Name>
-                <m_Guid>b3e5fb90-211d-4248-8a90-7c7cd20878ed</m_Guid>
+        <m_Name>EthanSteele</m_Name>
+        <m_Guid>b3e5fb90-211d-4248-8a90-7c7cd20878ed</m_Guid>
                 <m_Pants>false</m_Pants>
                 <m_items>  <!-- Jacket Black -->
                         <itemGUID>9e094ca7-29b4-4c7d-ae70-597fa4c8a330</itemGUID>
@@ -845,8 +845,8 @@
 
         <!-- John Baker -->
         <m_MaleOutfits>
-                <m_Name>JohnBaker</m_Name>
-                <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
+        <m_Name>JohnBaker</m_Name>
+        <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -854,8 +854,7 @@
                 <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
                 <m_items> <!-- Thin01_HoodieUP -->
                         <probability>0.3</probability>                        
-                                <itemGUID>8f2d61a2-ea8e-4f7e-9fb6-34676c433f4e</itemGUID>
-                        <itemGUID>8e052579-cea3-466b-a7be-154affb8bf24</itemGUID>
+                        <itemGUID>8f2d61a2-ea8e-4f7e-9fb6-34676c433f4e</itemGUID>
                 </m_items>        
                 <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
@@ -870,12 +869,15 @@
                 <m_items> <!-- Susie Boots --> 
                         <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
                 </m_items>                
-        </m_MaleOutfits>           
+        </m_MaleOutfits>  
+
+        <!-- Andrew Turner-->         
 
 <!-- ........................................ MENSILI ..........................................-->
-<m_MaleOutfits> 
-<m_Name>MarcusKane</m_Name>
-                <m_Guid>ec1e690f-ab6c-4d56-9434-4b21420aa74e</m_Guid>
+        <!-- Rosewood Nord-->
+        <m_MaleOutfits> 
+        <m_Name>MarcusKane</m_Name>
+        <m_Guid>ec1e690f-ab6c-4d56-9434-4b21420aa74e</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>        
                 <m_items> <!-- Jeans -->
@@ -904,44 +906,46 @@
                         <probability>0.9</probability>
                         <itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
                 </m_items>                   
-</m_MaleOutfits>
+        </m_MaleOutfits>
 
-<m_FemaleOutfits>
-                <m_Name>OliviaChambers</m_Name>
-                <m_Guid>2ff03d23-5bc3-48f3-bec4-f1bc898c1e1b</m_Guid>
+        <!-- Raven Creek-->
+        <m_FemaleOutfits>
+        <m_Name>OliviaChambers</m_Name>
+        <m_Guid>2ff03d23-5bc3-48f3-bec4-f1bc898c1e1b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
                 <m_AllowTopTint>false</m_AllowTopTint>
                 <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-<!-- Viper Helmet --> <m_items>
+                <m_items> <!-- Viper Helmet --> 
                         <itemGUID>457e9fc3-1de4-434c-819e-ea68218db171</itemGUID>
                 </m_items>
-<!-- Radio Rig --> <m_items>
+                <m_items> <!-- Radio Rig --> 
                         <probability>0.05</probability>
                         <itemGUID>eb8211d9-1135-4c07-aafa-5ba0b1f94320</itemGUID>
                 </m_items>                
-<!-- Tank Top --> <m_items> 
+                <m_items> <!-- Tank Top -->  
                         <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
                 </m_items>                        
-<!-- ANA Hood --> <m_items>
+                <m_items> <!-- ANA Hood --> 
                         <itemGUID>691bfc2b-9af8-4d8a-a29e-bc814eff17d5</itemGUID>
                 </m_items>                
-<!-- Kidman Boots --> <m_items>
+                <m_items> <!-- Kidman Boots --> 
                         <itemGUID>ebb77bc9-b6a3-4283-acc1-ea7c30d4996a</itemGUID>
                 </m_items>
-<!-- EXO Suit --> <m_items>
+                <m_items> <!-- EXO Suit --> 
                         <probability>0.01</probability>
                         <itemGUID>eca2106c-93ce-4576-a103-97b3b5f0fca9</itemGUID>
                 </m_items>                
-<!-- Susie Boots --> <m_items>
+                <m_items> <!-- Susie Boots --> 
                         <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
                 </m_items>                        
         </m_FemaleOutfits> 
 
+        <!-- DrogaXP-->
         <m_MaleOutfits> 
         <m_Name>GabrielWalker</m_Name>
-                <m_Guid>1904afe1-3e34-4444-85b9-062de5f3bafc</m_Guid>
+        <m_Guid>1904afe1-3e34-4444-85b9-062de5f3bafc</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                       
@@ -981,9 +985,10 @@
                 </m_items>                      
         </m_MaleOutfits>   
 
+        <!-- Droga/fama-->
         <m_MaleOutfits> 
         <m_Name>DylanHarris</m_Name>
-                <m_Guid>1914afec-3e34-4244-8fb9-062de5f3baf1</m_Guid>
+        <m_Guid>1914afec-3e34-4244-8fb9-062de5f3baf1</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>                       
@@ -1001,9 +1006,10 @@
                 </m_items>
         </m_MaleOutfits> 
 
+        <!-- oro per soldi-->
         <m_MaleOutfits> 
         <m_Name>LucasMiller</m_Name>
-                <m_Guid>ed9efcf2-e14c-4fde-93a7-93a42a6cde67</m_Guid>
+        <m_Guid>ed9efcf2-e14c-4fde-93a7-93a42a6cde67</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>
@@ -1037,79 +1043,79 @@
 
 <!-- ........................................ ANNUALI ..........................................-->
                        
-
-<m_MaleOutfits>
-                <m_Name>HarperWells</m_Name>
-                <m_Guid>261d0bfa-a20c-438c-b5d8-36351113456b</m_Guid>
+        <!-- cura Raven Creek-->
+        <m_MaleOutfits>
+        <m_Name>HarperWells</m_Name>
+        <m_Guid>261d0bfa-a20c-438c-b5d8-36351113456b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
                 <m_AllowTopTint>false</m_AllowTopTint>
                 <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-<!-- MASKA Helmet --> <m_items>
+                <m_items> <!-- MASKA Helmet --> 
                         <probability>0.1</probability>
                         <itemGUID>656cfe92-b0d7-4b73-9bc3-1ebdd1a92423</itemGUID>
                 </m_items>
                  <m_items> <!-- Sunset Aviators-->
                         <itemGUID>882e870c-c037-46f7-b6d3-5f350bc692eb</itemGUID>
                         </m_items>
-<!-- ZSH Helmet Visor --> <m_items>
+                <m_items> <!-- ZSH Helmet Visor --> 
                         <probability>0.05</probability>
                         <itemGUID>8e052579-cea3-466b-a7be-154affb8bf24</itemGUID>
                 </m_items>        
-<!-- Belt Pack Pouch --> <m_items>
+                <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
                 </m_items>                
-<!-- 6B13 Armor --> <m_items>
+                <m_items> <!-- 6B13 Armor --> 
                         <probability>0.05</probability>
                         <itemGUID>ecf09feb-05d1-4c80-b62b-8f597a63ff1e</itemGUID>
                 </m_items>        
-<!-- Adidas Shirts --> <m_items>
+                <m_items> <!-- Adidas Shirts --> 
                         <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
                 </m_items>                
-<!-- Adidas Pants --> <m_items>
+                <m_items> <!-- Adidas Pants --> 
                         <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
                 </m_items>
-<!-- Susie Boots --> <m_items>
+                <m_items> <!-- Susie Boots --> 
                         <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
                 </m_items>                
         </m_MaleOutfits>
 
+        <!-- Louisville per vaccino-->
         <m_FemaleOutfits>
-                <m_Name>GraceChambers</m_Name>
-                <m_Guid>7d6367d7-0fed-4d00-9d84-e89fa4360bfb</m_Guid>
+        <m_Name>GraceChambers</m_Name>
+        <m_Guid>7d6367d7-0fed-4d00-9d84-e89fa4360bfb</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
                 <m_AllowTopTint>false</m_AllowTopTint>
                 <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-
-<!-- Ashe Scarf --> <m_items>
+                <m_items> <!-- Ashe Scarf --> 
                         <itemGUID>931c5588-09e8-4751-b2c7-b8afdc4fcaa9</itemGUID>
                 </m_items>                
-<!-- Ashe Necktie --> <m_items>
+                <m_items> <!-- Ashe Necktie --> 
                         <itemGUID>21e78dca-56d9-4dbf-924f-8779ea87c35a</itemGUID>
                 </m_items>                
-<!-- Y-Shirts --> <m_items> 
+                <m_items> <!-- Y-Shirts -->  
                         <itemGUID>782bd42b-67c4-4380-a627-44fee483c115</itemGUID>
                 </m_items>                        
-<!-- Ashe Jacket --> <m_items> 
+                <m_items> <!-- Ashe Jacket -->  
                         <itemGUID>78ee55ff-c9cd-48ca-9731-867fdac0d56b</itemGUID>
                 </m_items>
-<!-- Ashe Jeans -->        <m_items> 
+                <m_items> <!-- Ashe Jeans -->  
                         <itemGUID>0baa9b04-0641-49bb-82ab-376029496010</itemGUID>
                 </m_items>
-<!-- Ashe Boots -->        <m_items> 
+                <m_items> <!-- Ashe Boots -->  
                         <itemGUID>f87de33f-a48a-47c4-bcea-3075026a5fc1</itemGUID>
                 </m_items>                
-<!-- Ashe Gear --> <m_items>
+                <m_items> <!-- Ashe Gear --> 
                         <probability>0.1</probability>
                         <itemGUID>69595f76-d847-4852-895f-684998a8343f</itemGUID>
                 </m_items>        
-<!-- Ashe Leg Armor --> <m_items>
+                <m_items> <!-- Ashe Leg Armor --> 
                         <itemGUID>77139784-623d-4f09-a0fe-b4a53e7f8115</itemGUID>
                 </m_items>                        
-<!-- Ashe Cloak --> <m_items>
+                <m_items> <!-- Ashe Cloak --> 
                         <itemGUID>701b1335-cf6f-42f2-a261-3d8aa0b09958</itemGUID>
                 </m_items>                
         </m_FemaleOutfits>
