@@ -484,7 +484,8 @@ SFQuest_Database.MannequinPool["9324x8598x0"] = {
     direction = "E",
     beard = "Goatee",
     beardcolor = "0.2,0.05,0.0",
-    hair = "Bald",
+    hair = "Short",
+    haircolor = "0.2,0.05,0.0",
     outfit = "PonchoGiallo",
 }
 
@@ -976,8 +977,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9277x8480x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "PonchoRosso",
+    beard = "Scruffy",
+    beardcolor = "0.7,0.7,0.7",
+    hair = "Balding",
+    haircolor = "0.7,0.7,0.7",
+    outfit = "LincolnReed",
 }
 
 -- Pyno 9332,8605,0 EST
