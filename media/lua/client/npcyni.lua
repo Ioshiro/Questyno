@@ -350,7 +350,7 @@ SFQuest_Database.MannequinPool["10161x6621x0"] = {
     beardcolor = "0.0,0.0,0.0",
     hair = "ShortBuzzCut",
     haircolor = "0.0,0.0,0.0",
-    outfit = "TonyLupo"
+    outfit = "TonyLupo",
 }
 
 -- Rafael Prezioso 10161x6621x0
@@ -367,7 +367,7 @@ SFQuest_Database.MannequinPool["10155x6623x0"] = {
     direction = "S",
     beard = "",
     hair = "Bald",
-    outfit = "RafaelPrezioso"
+    outfit = "RafaelPrezioso",
 }
 
 -- Jeffrey Lewis 10149,6622,0
@@ -386,7 +386,7 @@ SFQuest_Database.MannequinPool["10149x6622x0"] = {
     beardcolor = "0.2,0.2,0.2",
     hair = "Short",
     haircolor = "0.0,0.0,0.0",
-    outfit = "JeffreyLewis"
+    outfit = "JeffreyLewis",
 }
 
 -- Christopher Davis 10161,6627,0
@@ -418,7 +418,7 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["10115x6622x0"] = {
-    sprite = "location_shop_mall_01_69",
+    sprite = "location_shop_mall_01_73",
     direction = "E",
     beard = "",
     hair = "Buffont", 
