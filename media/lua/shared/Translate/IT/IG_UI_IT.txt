@@ -6914,11 +6914,11 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_CharlesDavis_Title = "Charles Davis da Redfordville (9285,8482,1)",
     IGUI_SFQuest_Questyno_CharlesDavis_Text = "Scambia con Charles",
-    IGUI_SFQuest_Questyno_CharlesDavis_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 15$, ci stai?",
-    IGUI_SFQuest_Questyno_CharlesDavis_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 15$, ci stai?",
+    IGUI_SFQuest_Questyno_CharlesDavis_Lore = "Heila! Posso riempirti una sola Tanica di benzina al mese, dobbiamo razionare le scorte! Ti riempio la tua per 15$, ci stai?",
+    IGUI_SFQuest_Questyno_CharlesDavis_Begin = "Heila! Posso riempirti una sola Tanica di benzina  al mese, dobbiamo razionare le scorte! Ti riempio la tua per 15$, ci stai?",
     IGUI_SFQuest_Questyno_CharlesDavis_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_CharlesDavis_Declined = "Ti aspetto qua.",
-    IGUI_SFQuest_Questyno_CharlesDavis_A = "Tanica Media",
+    IGUI_SFQuest_Questyno_CharlesDavis_A = "Tanica di benzina",
     IGUI_SFQuest_Questyno_CharlesDavis_B = "15$",
 	IGUI_SFQuest_Questyno_CharlesDavis_Complete = "Ecco tieni!",
 

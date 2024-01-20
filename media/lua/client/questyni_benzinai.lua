@@ -47,7 +47,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JuanBaker_Text",
     texture = "media/textures/Item_JuanBaker.png",
     title = "IGUI_SFQuest_Questyno_JuanBaker_Title",
-    unlocks = "unlockworldevent;Questyno_JuanBaker;IGUI_SFQuest_Questyno_JuanBaker_Complete"
+    unlocks = "unlockworldevent;Questyno_JuanBaker;SFQuest_Questyno_JuanBaker_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -84,7 +84,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_FuriMishura_Text",
     texture = "media/textures/Item_FuriMishura.png",
     title = "IGUI_SFQuest_Questyno_FuriMishura_Title",
-    unlocks = "unlockworldevent;Questyno_FuriMishura;IGUI_SFQuest_Questyno_FuriMishura_Complete"
+    unlocks = "unlockworldevent;Questyno_FuriMishura;SFQuest_Questyno_FuriMishura_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -121,7 +121,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_SandraHarris_Text",
     texture = "media/textures/Item_SandraHarris.png",
     title = "IGUI_SFQuest_Questyno_SandraHarris_Title",
-    unlocks = "unlockworldevent;Questyno_SandraHarris;IGUI_SFQuest_Questyno_SandraHarris_Complete"
+    unlocks = "unlockworldevent;Questyno_SandraHarris;SFQuest_Questyno_SandraHarris_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -158,7 +158,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EricAdams_Text",
     texture = "media/textures/Item_EricAdams.png",
     title = "IGUI_SFQuest_Questyno_EricAdams_Title",
-    unlocks = "unlockworldevent;Questyno_EricAdams;IGUI_SFQuest_Questyno_EricAdams_Complete"
+    unlocks = "unlockworldevent;Questyno_EricAdams;SFQuest_Questyno_EricAdams_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -195,7 +195,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RonaldPerez_Text",
     texture = "media/textures/Item_RonaldPerez.png",
     title = "IGUI_SFQuest_Questyno_RonaldPerez_Title",
-    unlocks = "unlockworldevent;Questyno_RonaldPerez;IGUI_SFQuest_Questyno_RonaldPerez_Complete"
+    unlocks = "unlockworldevent;Questyno_RonaldPerez;SFQuest_Questyno_RonaldPerez_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -232,7 +232,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GarrettKing_Text",
     texture = "media/textures/Item_GarrettKing.png",
     title = "IGUI_SFQuest_Questyno_GarrettKing_Title",
-    unlocks = "unlockworldevent;Questyno_GarrettKing;IGUI_SFQuest_Questyno_GarrettKing_Complete"
+    unlocks = "unlockworldevent;Questyno_GarrettKing;SFQuest_Questyno_GarrettKing_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -269,7 +269,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarvinPerry_Text",
     texture = "media/textures/Item_MarvinPerry.png",
     title = "IGUI_SFQuest_Questyno_MarvinPerry_Title",
-    unlocks = "unlockworldevent;Questyno_MarvinPerry;IGUI_SFQuest_Questyno_MarvinPerry_Complete"
+    unlocks = "unlockworldevent;Questyno_MarvinPerry;SFQuest_Questyno_MarvinPerry_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -306,7 +306,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_KarenTaylor_Text",
     texture = "media/textures/Item_KarenTaylor.png",
     title = "IGUI_SFQuest_Questyno_KarenTaylor_Title",
-    unlocks = "unlockworldevent;Questyno_KarenTaylor;IGUI_SFQuest_Questyno_KarenTaylor_Complete"
+    unlocks = "unlockworldevent;Questyno_KarenTaylor;SFQuest_Questyno_KarenTaylor_Complete"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -318,8 +318,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_CharlesDavis_A",
         text = "IGUI_SFQuest_Questyno_CharlesDavis_A",
         hidden = false,
-        needsitem = "EmptyCAN6;1",
-        onobtained = "updateobjective;Questyno_CharlesDavis;1;Completed;removeitem;EmptyCAN6;1",
+        needsitem = "EmptyPetrolCan;1",
+        onobtained = "updateobjective;Questyno_CharlesDavis;1;Completed;removeitem;EmptyPetrolCan;1",
     }, {
         guid = "Questyno_CharlesDavis_B",
         text = "IGUI_SFQuest_Questyno_CharlesDavis_B",
@@ -335,7 +335,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_CharlesDavis_A",
-    awardsitem = "GasCAN6;1",
+    awardsitem = "PetrolCan;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
     dailycode = "Questyno_CharlesDavis",
@@ -343,5 +343,5 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_CharlesDavis_Text",
     texture = "media/textures/Item_CharlesDavis.png",
     title = "IGUI_SFQuest_Questyno_CharlesDavis_Title",
-    unlocks = "unlockworldevent;Questyno_CharlesDavis;IGUI_SFQuest_Questyno_CharlesDavis_Complete"
+    unlocks = "unlockworldevent;Questyno_CharlesDavis;SFQuest_Questyno_CharlesDavis_Complete"
 });
