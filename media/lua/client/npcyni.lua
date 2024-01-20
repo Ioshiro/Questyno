@@ -958,6 +958,8 @@ SFQuest_Database.MannequinPool["9285x8482x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "W",
     beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
     outfit = "CharlesDavis",
 }
 
