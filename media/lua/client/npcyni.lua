@@ -533,6 +533,7 @@ SFQuest_Database.MannequinPool["7752x7759x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Mullet",
     outfit = "PonchoGiallo"
 }
 
@@ -550,8 +551,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["8574x11026x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    outfit = "PonchoGiallo"
+    beard = "Scruffy",
+    beardcolor = "0.3,0.1,0.0",
+    hair = "Bald",
+    outfit = "MarcusKane"
 }
 
 -- Brian White 10812x9077x0
@@ -640,7 +643,8 @@ SFQuest_Database.MannequinPool["4862x11186x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "PonyTail",
+    outfit = "OliviaChambers",
 }
 
 -- Harper Wells Raven Creek (4866,11186,0)
@@ -691,6 +695,7 @@ SFQuest_Database.MannequinPool["3637x7302x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "PonyTail",
     outfit = "PonchoRosso",
 }
 
@@ -742,7 +747,8 @@ SFQuest_Database.MannequinPool["9295x8580x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "GabrielWalker",
 }
 
 -- Dylan Harris Bedford Fall (13847,10355,0)
@@ -759,7 +765,8 @@ SFQuest_Database.MannequinPool["13847x10355x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "DylanHarris",
 }
 
 -- *** benzinai ***
