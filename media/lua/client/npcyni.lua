@@ -68,6 +68,7 @@ SFQuest_Database.MannequinPool["9331x8640x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "W",
     beard = "PointyChin",
+    beardcolor = "0.8,0.8,0.8",
     hair = "Recede",
     haircolor = "0.8,0.8,0.8",
     outfit = "SergenteGrif"
@@ -102,6 +103,7 @@ SFQuest_Database.MannequinPool["9315x8624x0"] = {
     sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "Scruffy",
+    beardcolor = "0.3,0.3,0.3",
     hair = "PonyTail",
     haircolor = "0.3,0.3,0.3",
     outfit = "HeatherThomas"
@@ -261,6 +263,7 @@ SFQuest_Database.MannequinPool["10830x9068x0"] = {
     hair = "Donny",
     haircolor = "0.3,0.1,0.0",
     beard = "FullBeard",
+    beardcolor = "0.3,0.1,0.0",
     outfit = "GeorgeScott"
 }
 
@@ -279,6 +282,7 @@ SFQuest_Database.MannequinPool["10823x9066x0"] = {
     hair = "LeftParting",
     haircolor = "0.1,0.1,0.0",
     beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.0",
     outfit = "SamuelYoung"
 }
 
@@ -342,6 +346,7 @@ SFQuest_Database.MannequinPool["10161x6621x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "S",
     beard = "Goatee",
+    beardcolor = "0.0,0.0,0.0",
     hair = "ShortBuzzCut",
     haircolor = "0.0,0.0,0.0",
     outfit = "TonyLupo"
@@ -433,9 +438,9 @@ SFQuest_Database.MannequinPool["10153x6571x0"] = {
     sprite = "location_shop_mall_01_69",
     direction = "E",
     beard = "FullBeard",
-    beardcolor = "1,1,1",
+    beardcolor = "1.0,1.0,1.0",
     hair = "Messy",
-    haircolor = "1,1,1",
+    haircolor = "1.0,1.0,1.0",
     outfit = "SamFisher"
 }
 --[[
@@ -459,7 +464,7 @@ SFQuest_Database.MannequinPool["9328x8596x0"] = {
     direction = "S",
     beard = "PointyChin",
     beardcolor = "0.8,0.8,0.8",
-    --hair = "",
+    hair = "Short",
     haircolor = "0.8,0.8,0.8",
     outfit = "PonchoGiallo"
 }
@@ -749,8 +754,10 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["9295x8580x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
-    beard = "",
-    hair = "Bald",
+    beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.1",
+    hair = "Spikes",
+    haircolor = "0.9,0.0,0.0",
     outfit = "GabrielWalker",
 }
 
@@ -787,8 +794,11 @@ table.insert(SFQuest_Database.WorldPool, {
 SFQuest_Database.MannequinPool["3837x7028x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "W",
-    beard = "",
-    outfit = "PonchoRosso",
+    beard = "FullBeard",
+    beardcolor = "0.8,0.8,0.8",
+    hair = "Short",
+    haircolor = "1.0,1.0,1.0",
+    outfit = "JuanBaker",
 }
 
 -- Furi Mishura 6688,7467,1 E
@@ -805,7 +815,9 @@ SFQuest_Database.MannequinPool["6688x7467x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "FuriMishura",
 }
 
 -- Sandra Harris 6684,6820,1 S
@@ -822,7 +834,9 @@ SFQuest_Database.MannequinPool["6684x6820x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "S",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0"
+    outfit = "SandraHarris",
 }
 
 -- Eric Adams 7659,7316,1 E
@@ -839,7 +853,9 @@ SFQuest_Database.MannequinPool["7659x7316x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.2,0.2,0.2",
+    outfit = "EricAdams",
 }
 
 -- Ronald Perez 8353,8579,1 E
@@ -856,7 +872,8 @@ SFQuest_Database.MannequinPool["8353x8579x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "RonaldPerez",
 }
 
 -- Garrett King 10399,8316,1 E
@@ -873,7 +890,8 @@ SFQuest_Database.MannequinPool["10399x8316x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "GarrettKing",
 }
 
 -- Marvin Perry 8186,11296,1 E
@@ -890,7 +908,9 @@ SFQuest_Database.MannequinPool["8186x11296x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "MarvinPerry",
 }
 
 -- Karen Taylor 10144,12787,1 S
@@ -907,7 +927,9 @@ SFQuest_Database.MannequinPool["10144x12787x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "S",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "KarenTaylor",
 }
 
 -- Charles Davis 9285,8482 E

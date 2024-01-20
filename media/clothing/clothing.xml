@@ -1120,9 +1120,9 @@
         </m_FemaleOutfits>
 
 <!-- ........................................ NPC spawn benzina ..........................................-->  
-<m_MaleOutfits> 
-<m_Name>CharlesDavis</m_Name>
-                <m_Guid>d196fa31-7c12-4ae9-86d7-aleufan69007</m_Guid>
+        <m_MaleOutfits> 
+        <m_Name>CharlesDavis</m_Name>
+        <m_Guid>d196fa31-7c12-4ae9-86d7-aleufan69007</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowTopTint>false</m_AllowTopTint>        
@@ -1158,8 +1158,218 @@
                         <probability>0.1</probability>                
                         <itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
                 </m_items>                  
-</m_MaleOutfits> 
+        </m_MaleOutfits> 
 
+<!-- ........................................ NPC che danno benzina ..........................................-->  
+        <!-- Juan Baker -->
+        <m_MaleOutfits>
+        <m_Name>JuanBaker</m_Name>
+        <m_Guid>bf21eaf0-86e4-4226-ad4a-8feae9dc6d1f</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits>  
+
+        <!-- Furi Mishura -->
+        <m_MaleOutfits>
+        <m_Name>FuriMishura</m_Name>
+        <m_Guid>bf21eafe-96e4-4216-adca-8febe9dc6b13</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits>    
+
+        <!-- Eric Adams -->
+        <m_MaleOutfits>
+        <m_Name>EricAdams</m_Name>
+        <m_Guid>86b3ba31-a08c-4c58-a4cd-3b4c03907d74</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits> 
+
+        <!-- Ronald Perez -->
+        <m_MaleOutfits>
+        <m_Name>RonaldPerez</m_Name>
+        <m_Guid>ec0c8d80-66b8-4776-a5e7-d4c63c5a2cc9</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits>     
+
+        <!-- Garrett King -->
+        <m_MaleOutfits>
+        <m_Name>GarrettKing</m_Name>
+        <m_Guid>52fa4402-385c-4d45-8567-3b13500adbf9</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits>   
+
+        <!-- Marvin Perry -->
+        <m_MaleOutfits>
+        <m_Name>MarvinPerry</m_Name>
+        <m_Guid>abc1a19f-6419-4445-b77e-d2a81d9b8a07</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- Bandit_Coat --> 
+                        <itemGUID>4ee57765-1bfa-406c-a74c-858d053e8319</itemGUID>
+                </m_items>                
+                <m_items> <!-- Shirts James --> 
+                        <itemGUID>bdc11c89-1e32-4a20-903d-11a02cd0e8ea</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Adidas Track Pants -->  
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>        
+                <m_items> <!-- Trackstar Boots --> 
+                        <itemGUID>f21354ce-aad1-42e9-9a7e-6c26ecdf6b49</itemGUID>
+                </m_items>        
+                <m_items> <!-- Balaclava Mask --> 
+                        <itemGUID>92881c2d-be39-424d-9e1c-146bb6ac971c</itemGUID>
+                </m_items>                        
+        </m_MaleOutfits> 
+
+        <!-- Sandra Harris -->
+        <m_FemaleOutfits>
+        <m_Name>SandraHarris</m_Name>
+        <m_Guid>affc541a-906e-49f3-ad25-72ec411329b9</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>                
+                <m_items> <!-- Fur Jacket --> 
+                        <itemGUID>cebd195c-f4b0-4d88-a77c-9bec6fec7a5c</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Tank Top --> 
+                        <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+                </m_items>
+                <m_items> <!-- Maria Skirts -->  
+                        <itemGUID>21f38ce5-6c57-452b-a814-d854f196aa66</itemGUID>
+                </m_items>
+                <m_items> <!-- Wool Stocking -->  
+                        <probability>0.1</probability>
+                        <itemGUID>0234c34c-2d69-4bd5-8637-6d688ff22645</itemGUID>
+                </m_items>                                
+                <m_items> <!-- Maria BOOTS --> 
+                        <itemGUID>99f1acee-68ff-4454-95d2-26cb632c995a</itemGUID>
+                </m_items>                        
+        </m_FemaleOutfits>       
+
+        <!-- Karen Taylor -->
+        <m_FemaleOutfits>
+        <m_Name>KarenTaylor</m_Name>
+        <m_Guid>7bab4485-90cf-4313-ab2b-0396f5d87924</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>                
+                <m_items> <!-- Fur Jacket --> 
+                        <itemGUID>cebd195c-f4b0-4d88-a77c-9bec6fec7a5c</itemGUID>
+                </m_items>                        
+                <m_items> <!-- Tank Top --> 
+                        <itemGUID>28198184-f6fe-417d-8ab9-3d68d320d96e</itemGUID>
+                </m_items>
+                <m_items> <!-- Maria Skirts -->  
+                        <itemGUID>21f38ce5-6c57-452b-a814-d854f196aa66</itemGUID>
+                </m_items>
+                <m_items> <!-- Wool Stocking -->  
+                        <probability>0.1</probability>
+                        <itemGUID>0234c34c-2d69-4bd5-8637-6d688ff22645</itemGUID>
+                </m_items>                                
+                <m_items> <!-- Maria BOOTS --> 
+                        <itemGUID>99f1acee-68ff-4454-95d2-26cb632c995a</itemGUID>
+                </m_items>                        
+        </m_FemaleOutfits>                         
 <!-- ........................................ PYNO ..........................................-->  
         <m_MaleOutfits> 
         <m_Name>Pyno</m_Name>
@@ -1176,18 +1386,18 @@
                 <m_items> <!-- poncho down-->
                         <itemGUID>d788ff7a-361a-4830-a911-a838f53c7efe</itemGUID>
                 </m_items>
-                <!-- Belt Pack Pouch --> <m_items>
+                <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
                 </m_items>         
-<!-- Adidas Shirts --> <m_items>
+                <m_items> <!-- Adidas Shirts --> 
                         <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
                 </m_items>                
-<!-- Adidas Pants --> <m_items>
+                <m_items><!-- Adidas Pants -->
                         <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
                 </m_items>
-<!-- Susie Boots --> <m_items>
+                <m_items> <!-- Susie Boots --> 
                         <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
                 </m_items>  
-</m_MaleOutfits>     
+        </m_MaleOutfits>     
 
 </outfitManager>
