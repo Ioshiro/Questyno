@@ -6400,7 +6400,7 @@ IGUI_IT = {
 				9. Recuperare 30$, Recuperare MoneyToXp.Droga3 parlando con (7340,7239,0) (25rep)
 ]]
 
-    IGUI_SFQuest_Questyno_GabrielWalker_Name = "Gabriel Walker (9295,8580,0)",
+    IGUI_SFQuest_Questyno_GabrielWalker_Name = "Gabriel Walker",
 
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title = "Gabriel dalla Tana (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text = "Incontra Gabriel Walker. [Mensili]",
@@ -6520,7 +6520,7 @@ IGUI_IT = {
 				7. Recuperare 100$, Recuperare MoneyToXp.Droga5 parlando con (14031,10945,0) (1550rep)
 ]]
 
-    IGUI_SFQuest_Questyno_DylanHarris_Name = "Dylan Harris (13847,10355,0)",
+    IGUI_SFQuest_Questyno_DylanHarris_Name = "Dylan Harris",
 
     IGUI_SFQuest_Questyno_DylanHarris_Intro_Title = "Dylan da Bedford Fall (13847,10355,0)",
     IGUI_SFQuest_Questyno_DylanHarris_Intro_Text = "Incontra Dylan Harris. [Mensili]",
