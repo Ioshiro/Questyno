@@ -244,6 +244,7 @@ end
 function SF_MissionPanel.DailyEventRerollExpand()
     local player = getPlayer();
     if not player:getModData().missionProgress then return end
+    local prog = player:getModData().missionProgress
     if player:getModData().missionProgress.DailyEvent and #player:getModData().missionProgress.DailyEvent > 0 then
         --print("SOUL QUEST SYSTEM - Player has daily events to check.");
         local t0 = SF_MissionPanel:getStartingHour();

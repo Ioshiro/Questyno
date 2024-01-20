@@ -40,7 +40,7 @@ require 'SFQuest_Database'
 local grifIntro = {
     guid = "Questyno_Grif_Intro",
 
-    --awardsrep = "SergenteGrif;100", -- REP REWARD
+    awardsrep = "SergenteGrif;100", -- REP REWARD
     --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },

@@ -1023,12 +1023,12 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Int
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RobertWilson_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AndrewTurner_Intro" })]]
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Pyno1"})
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Grif" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Lupo" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EliaRima" })
@@ -1036,7 +1036,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BobRepair" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MikePozzo" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RosaChina" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EmilyTerry" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })
+ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SusanLee" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GeorgeScott" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamuelYoung" })
@@ -1070,7 +1070,8 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DylanHarris" })
             - Garrett King 10399,8316,1 E
             - Marvin Perry 8186,11296,1 E
             - Karen Taylor 10144,12787,1 S
-]]
+			- Charles Davis
+]] 
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JuanBaker" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_FuriMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SandraHarris" })
@@ -1079,6 +1080,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GarrettKing" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarvinPerry" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_KarenTaylor" })
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CharlesDavis" }) 
 
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
