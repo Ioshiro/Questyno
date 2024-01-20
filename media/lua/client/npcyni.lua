@@ -103,7 +103,7 @@ SFQuest_Database.MannequinPool["9315x8624x0"] = {
     direction = "E",
     beard = "Scruffy",
     hair = "PonyTail",
-    haircolor = "0.3.0.3,0.3",
+    haircolor = "0.3,0.3,0.3",
     outfit = "HeatherThomas"
 }
 
