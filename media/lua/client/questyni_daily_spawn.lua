@@ -679,14 +679,14 @@ table.insert(SFQuest_Database.QuestPool, grifQuest28);
 local stellaIntro = {
     guid = "Questyno_AngelicaStella_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "AngelicaStella;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",
     text = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete",
+    unlocks = "addreputation;AngelicaStella;100;unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, stellaIntro);
@@ -1494,14 +1494,14 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest21);
 local thomasIntro = {
     guid = "Questyno_HeatherThomas_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "HeatherThomas;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
     text = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text",
     texture = "media/textures/Item_HeatherThomas.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
+    unlocks = "addreputation;HeatherThomas;100;unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasIntro);
@@ -2068,14 +2068,14 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest23);
 local rimaIntro = {
     guid = "Questyno_EliaRima_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "EliaRima;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EliaRima_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EliaRima;Questyno;EliaRima",
     text = "IGUI_SFQuest_Questyno_EliaRima_Intro_Text",
     texture = "media/textures/Item_EliaRima.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete",
+    unlocks = "addreputation;EliaRima;100;unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EliaRima_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaIntro);
@@ -3309,14 +3309,14 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest23);
 local bobIntro = {
     guid = "Questyno_BobRepair_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "BobRepair;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_BobRepair;Questyno;BobRepair",
     text = "IGUI_SFQuest_Questyno_BobRepair_Intro_Text",
     texture = "media/textures/Item_BobRepair.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete",
+    unlocks = "addreputation;BobRepair;100;unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_BobRepair_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobIntro);

@@ -12,12 +12,13 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer_Intro",
 
+    awardsrep = "AlexMercer;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer_Intro_Text",
     texture = "media/textures/Item_AlexMercer.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_AlexMercer;SFQuest_Questyno_AlexMercer_Intro_Complete",
+    unlocks = "addreputation;AlexMercer;100;unlockworldevent;Questyno_AlexMercer;SFQuest_Questyno_AlexMercer_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_AlexMercer_Intro_Title",
 });
 
@@ -74,12 +75,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells_Intro",
 
+    awardsrep = "HarperWells;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_HarperWells_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_HarperWells_Intro_Text",
     texture = "media/textures/Item_HarperWells.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells_Intro_Complete",
+    unlocks = "addreputation;HarperWells;100;unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_HarperWells_Intro_Title",
 });
 
@@ -232,12 +234,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers_Intro",
 
+    awardsrep = "GraceChambers;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers_Intro_Text",
     texture = "media/textures/Item_GraceChambers.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_GraceChambers;SFQuest_Questyno_GraceChambers_Intro_Complete",
+    unlocks = "addreputation;GraceChambers;100;unlockworldevent;Questyno_GraceChambers;SFQuest_Questyno_GraceChambers_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GraceChambers_Intro_Title",
 });
 

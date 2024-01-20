@@ -34,14 +34,14 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "MikePozzo;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_MikePozzo;Questyno;MikePozzo",
     text = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Text",
     texture = "media/textures/Item_MikePozzo.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
+    unlocks = "addreputation;MikePozzo;100;unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Title",
 });
 
@@ -732,14 +732,14 @@ table.insert(SFQuest_Database.QuestPool, {
 local chinaIntro = {
     guid = "Questyno_RosaChina_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "RosaChina;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RosaChina_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_RosaChina;Questyno;RosaChina",
     text = "IGUI_SFQuest_Questyno_RosaChina_Intro_Text",
     texture = "media/textures/Item_RosaChina.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete",
+    unlocks = "addreputation;RosaChina;100;unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RosaChina_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaIntro);
@@ -1332,14 +1332,14 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest24);
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EmilyTerry_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "EmilyTerry;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_EmilyTerry;Questyno;EmilyTerry",
     text = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text",
     texture = "media/textures/Item_EmilyTerry.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete",
+    unlocks = "addreputation;EmilyTerry;100;unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title",
 });
 

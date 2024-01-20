@@ -14,6 +14,7 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn_Intro",
 
+    awardsrep = "EzekielFlynn;100", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn1_Begin;Questyno_EzekielFlynn1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore" },
@@ -21,7 +22,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn_Intro_Complete",
+    unlocks = "addreputation;EzekielFlynn;100;unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Title",
 });
 
@@ -143,6 +144,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett_Intro",
 
+    awardsrep = "ElowenBeckett;100", -- REP REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett1_Begin;Questyno_ElowenBeckett1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore" },
@@ -150,7 +152,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett_Intro_Complete",
+    unlocks = "addreputation;ElowenBeckett;100;unlockworldevent;Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Title",
 });
 
@@ -271,13 +273,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_BrianWhite_Intro",
 
+    awardsrep = "BrianWhite;100", -- REP REWARD
     awardsworld = "Questyno_BrianWhite;SFQuest_Questyno_BrianWhite1_Begin;Questyno_BrianWhite1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_BrianWhite_Intro_Text",
     texture = "media/textures/Item_BrianWhite.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_BrianWhite;SFQuest_Questyno_BrianWhite_Intro_Complete",
+    unlocks = "addreputation;BrianWhite;100;unlockworldevent;Questyno_BrianWhite;SFQuest_Questyno_BrianWhite_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_BrianWhite_Intro_Title",
 });
 
@@ -443,6 +446,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker_Intro",
 
+    awardsrep = "JohnBaker;100", -- REP REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker1_Begin;Questyno_JohnBaker1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore" },
@@ -450,7 +454,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Text",
     texture = "media/textures/Item_JohnBaker.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker_Intro_Complete",
+    unlocks = "addreputation;JohnBaker;100;unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Title",
 });
 
@@ -610,13 +614,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EthanSteele_Intro",
 
+    awardsrep = "EthanSteele;100", -- REP REWARD
     awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele1_Begin;Questyno_EthanSteele1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Text",
     texture = "media/textures/Item_EthanSteele.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele_Intro_Complete",
+    unlocks = "addreputation;EthanSteele;100;unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EthanSteele_Intro_Title",
 });
 
@@ -725,13 +730,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown_Intro",
 
+    awardsrep = "RichardBrown;100", -- REP REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown1_Begin;Questyno_RichardBrown1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_RichardBrown_Intro_Text",
     texture = "media/textures/Item_RichardBrown.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown_Intro_Complete",
+    unlocks = "addreputation;RichardBrown;100;unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RichardBrown_Intro_Title",
 });
 
@@ -883,13 +889,14 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RobertWilson_Intro",
 
+    awardsrep = "RobertWilson;100", -- REP REWARD
     awardsworld = "Questyno_RobertWilson;SFQuest_Questyno_RobertWilson1_Begin;Questyno_RobertWilson1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Text",
     texture = "media/textures/Item_RobertWilson.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson_Intro_Complete",
+    unlocks = "addreputation;RobertWilson;100;unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Title",
 });
 
@@ -1039,13 +1046,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AndrewTurner_Intro",
 
+    awardsrep = "AndrewTurner;100", -- REP REWARD
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner1_Begin;Questyno_AndrewTurner1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_AndrewTurner_Intro_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner_Intro_Complete",
+    unlocks = "addreputation;AndrewTurner;100;unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title",
 });
 
@@ -1241,13 +1249,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JamesMorris_Intro",
 
+    awardsrep = "JamesMorris;100", -- REP REWARD
     awardsworld = "Questyno_JamesMorris;SFQuest_Questyno_JamesMorris1_Begin;Questyno_JamesMorris1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JamesMorris_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_JamesMorris_Intro_Text",
     texture = "media/textures/Item_JamesMorris.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_JamesMorris;SFQuest_Questyno_JamesMorris_Intro_Complete",
+    unlocks = "addreputation;JamesMorris;100;unlockworldevent;Questyno_JamesMorris;SFQuest_Questyno_JamesMorris_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_JamesMorris_Intro_Title",
 });
 

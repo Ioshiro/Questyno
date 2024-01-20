@@ -17,13 +17,14 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze_Intro",
 
+    awardsrep = "TaylorBlaze;100",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze_Intro_Complete",
+    unlocks = "addreputation;TaylorBlaze;100;unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title",
 });
 
@@ -237,13 +238,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane_Intro",
 
+    awardsrep = "MarcusKane;100",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_MarcusKane_Intro_Text",
     texture = "media/textures/Item_MarcusKane.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane_Intro_Complete",
+    unlocks = "addreputation;MarcusKane;100;unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MarcusKane_Intro_Title",
 });
 
@@ -410,13 +412,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_OliviaChambers_Intro",
 
+    awardsrep = "OliviaChambers;100",
     completesound = "levelup",
     dailycode = "Questyno_OliviaChambers",
     lore = { "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Text",
     texture = "media/textures/Item_OliviaChambers.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers_Intro_Complete",
+    unlocks = "addreputation;OliviaChambers;100;unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Title",
 });
 
@@ -665,13 +668,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell_Intro",
 
+    awardsrep = "MayaBlackwell;100",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Text",
     texture = "media/textures/Item_MayaBlackwell.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell_Intro_Complete",
+    unlocks = "addreputation;MayaBlackwell;100;unlockworldevent;Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Title",
 });
 
@@ -1171,13 +1175,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller_Intro",
 
+    awardsrep = "LucasMiller;100",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Text",
     texture = "media/textures/Item_LucasMiller.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller_Intro_Complete",
+    unlocks = "addreputation;LucasMiller;100;unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Title",
 });
 
@@ -1389,13 +1394,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LincolnReed_Intro",
 
+    awardsrep = "LincolnReed;100",
     completesound = "levelup",
     dailycode = "Questyno_LincolnReed",
     lore = { "IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Text",
     texture = "media/textures/Item_LincolnReed.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
+    unlocks = "addreputation;LincolnReed;100;unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Title",
 });
 
@@ -1432,13 +1438,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker_Intro",
 
+    awardsrep = "GabrielWalker;100",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker_Intro_Complete",
+    unlocks = "addreputation;GabrielWalker;100;unlockworldevent;Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title",
 });
 
@@ -1756,13 +1763,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_DylanHarris_Intro",
 
+    awardsrep = "DylanHarris;100",
     completesound = "levelup",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_DylanHarris_Intro_Text",
     texture = "media/textures/Item_DylanHarris.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris_Intro_Complete",
+    unlocks = "addreputation;DylanHarris;100;unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DylanHarris_Intro_Title",
 });
 

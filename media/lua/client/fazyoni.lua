@@ -24,27 +24,32 @@ LaResistenzaTiersTemplate = {
         tiername = "IGUI_Factions_Resistenza_Tier2",
         minrep = 70,
         barcolor = "lightpink",
-        unlocks = "addreputation;SergenteGrif;1"
+        unlocks = "addreputation;EzekielFlynn;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier3",
         minrep = 100,
-        barcolor = "gray"
+        barcolor = "gray",
+        unlocks = "addreputation;ElowenBeckett;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier4",
         minrep = 300,
-        barcolor = "lightgreen"
+        barcolor = "lightgreen",
+        unlocks = "addreputation;BrianWhite;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier5",
         minrep = 9.525,
-        barcolor = "darkgreen"
+        barcolor = "darkgreen",
+        unlocks = "addreputation;SergenteGrif;1;addreputation;AngelicaStella;1;addreputation;HeatherThomas;1;addreputation;EliaRima;1;addreputation;BobRepair;1;addreputation;MikePozzo;1;addreputation;RosaChina;1;addreputation;EmilyTerry;1;addreputation;VictoriaSecret;1;addreputation;SusanLee;1;addreputation;GeorgeScott;1;addreputation;SamuelYoung;1;addreputation;XuMishura;1;addreputation;DavidTurner;1;addreputation;TonyLupo;1;addreputation;RafaelPrezioso;1;addreputation;JeffreyLewis;1;addreputation;ChristopherDavis;1;addreputation;PamelaPerez;1;addreputation;SamFisher;1;addreputation;RichardBrown;1;addreputation;RobertWilson;1;addreputation;LincolnReed;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier6",
         minrep = 90000,
-        barcolor = "lightred"
+        barcolor = "lightred",
+        unlocks = "addreputation;EthanSteele;1;addreputation;JohnBaker;1;addreputation;MarcusKane;1;addreputation;TaylorBlaze;1;addreputation;MayaBlackwell;1;addreputation;AlexMercer;1;addreputation;OliviaChambers;1;addreputation;GraceChambers;1;addreputation;HarperWells;1;addreputation;AndrewTurner;1;addreputation;LucasMiller;1;addreputation;GabrielWalker;1;addreputation;DylanHarris;1;addreputation;GraceChambers;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier7",
         minrep = 400000,
-        barcolor = "orange"
+        barcolor = "orange",
+        unlocks = "addreputation;JamesMorris;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier8",
         minrep = 500000,
@@ -52,7 +57,7 @@ LaResistenzaTiersTemplate = {
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier9",
         minrep = 10000000,
-        barcolor = "resistenza"
+        barcolor = "resistenza",
     }
 };
 
@@ -120,11 +125,12 @@ table.insert(SFQuest_Database.FactionPool,{ factioncode = "DylanHarris", name = 
 table.insert(SFQuest_Database.FactionPool,{ factioncode = "MayaBlackwell", name = "IGUI_SFQuest_Questyno_MayaBlackwell_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;MayaBlackwell_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }}});
 
 -- catene
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "EzekielFlynn", name = "IGUI_SFQuest_Questyno_EzekielFlynn_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;EzekielFlynn_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "ElowenBeckett", name = "IGUI_SFQuest_Questyno_ElowenBeckett_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;ElowenBeckett_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "JohnBaker", name = "IGUI_SFQuest_Questyno_JohnBaker_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;JohnBaker_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "EthanSteele", name = "IGUI_SFQuest_Questyno_EthanSteele_Name", startrep = 0, minrep = 0, maxtier = 3, tiers =  {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;EthanSteele_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "BrianWhite", name = "IGUI_SFQuest_Questyno_BrianWhite_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;BrianWhite_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "RichardBrown", name = "IGUI_SFQuest_Questyno_RichardBrown_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;RichardBrown_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "RobertWilson", name = "IGUI_SFQuest_Questyno_RobertWilson_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;RobertWilson_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
-table.insert(SFQuest_Database.FactionPool,{ factioncode = "AndrewTurner", name = "IGUI_SFQuest_Questyno_AndrewTurner_Name", startrep = 0, minrep = 0, maxtier = 3, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;AndrewTurner_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "EzekielFlynn", name = "IGUI_SFQuest_Questyno_EzekielFlynn_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;EzekielFlynn_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "ElowenBeckett", name = "IGUI_SFQuest_Questyno_ElowenBeckett_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;ElowenBeckett_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "JohnBaker", name = "IGUI_SFQuest_Questyno_JohnBaker_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;JohnBaker_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "EthanSteele", name = "IGUI_SFQuest_Questyno_EthanSteele_Name", startrep = 0, minrep = 0, maxtier = 4, tiers =  {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;EthanSteele_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "BrianWhite", name = "IGUI_SFQuest_Questyno_BrianWhite_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;BrianWhite_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "RichardBrown", name = "IGUI_SFQuest_Questyno_RichardBrown_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;RichardBrown_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "RobertWilson", name = "IGUI_SFQuest_Questyno_RobertWilson_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;RobertWilson_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}} });
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "AndrewTurner", name = "IGUI_SFQuest_Questyno_AndrewTurner_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;AndrewTurner_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});
+table.insert(SFQuest_Database.FactionPool,{ factioncode = "JamesMorris", name = "IGUI_SFQuest_Questyno_JamesMorris_Name", startrep = 0, minrep = 0, maxtier = 4, tiers = {{tiername = "IGUI_Factions_Daily_Tier1", minrep = 0, barcolor = "red",}, {tiername = "IGUI_Factions_Daily_Tier2", minrep = 100, barcolor = "blue", unlocks = "unlockquest;JamesMorris_Intro"},{tiername = "IGUI_Factions_Daily_Tier3", minrep = 100, barcolor = "green", }, {tiername = "IGUI_Factions_Daily_Tier4", minrep = 100, barcolor = "yellow"}}});

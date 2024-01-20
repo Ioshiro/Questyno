@@ -32,14 +32,14 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Lupo_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "TonyLupo;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Lupo_Intro_Lore" },
     ondone = "addserverpoints;1000",
     text = "IGUI_SFQuest_Questyno_Lupo_Intro_Text",
     texture = "media/textures/Item_TonyLupo.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo_Intro_Complete",
+    unlocks = "addreputation;TonyLupo;100;unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_Lupo_Intro_Title",
 });
 
@@ -666,13 +666,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso_Intro",
 
-    awardsrep = "LaResistenza;1",
+    awardsrep = "RafaelPrezioso;100",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso_Intro_Complete",
+    unlocks = "addreputation;RafaelPrezioso;100;unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title",
 });
 
@@ -1430,12 +1430,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis_Intro",
 
+    awardsrep = "JeffreyLewis;100",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis_Intro_Complete",
+    unlocks = "addreputation;JeffreyLewis;100;unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Title"
 });
 
@@ -2502,6 +2503,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis_Intro",
 
+    awardsrep = "ChristopherDavis;100",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text",
@@ -2509,7 +2511,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title",
     unique = true,
     unlockedsound = "QuestUnlocked",
-    unlocks = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis_Intro_Complete",
+    unlocks = "addreputation;ChristopherDavis;100;unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis_Intro_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -3064,6 +3066,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez_Intro",
 
+    awardsrep = "PamelaPerez;100",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Text",
@@ -3071,7 +3074,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_PamelaPerez_Intro_Title",
     unique = true,
     unlockedsound = "QuestUnlocked",
-    unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez_Intro_Complete",
+    unlocks = "addreputation;PamelaPerez;100;unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez_Intro_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -3538,8 +3541,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher_Intro",
 
-    --awardstask = "Questyno_SamFisher1",
-    awardsrep = "SamFisher;199",
+    awardsrep = "SamFisher;100",
     dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_SamFisher_Intro_Text",
@@ -3547,7 +3549,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_SamFisher_Intro_Title",
     unique = true,
     unlockedsound = "QuestUnlocked",
-    unlocks = "unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher_Intro_Complete",
+    unlocks = "addreputation;SamFisher;100;unlockworldevent;Questyno_SamFisher;SFQuest_Questyno_SamFisher_Intro_Complete",
 });
 
 table.insert(SFQuest_Database.QuestPool, {

@@ -30,7 +30,7 @@ require 'SFQuest_Database'
 local secretIntro = {
     guid = "Questyno_VictoriaSecret_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "VictoriaSecret;100", -- REP REWARD
     awardstask = "Questyno_VictoriaSecret1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore" },
@@ -38,7 +38,7 @@ local secretIntro = {
     text = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete",
+    unlocks = "addreputation;VictoriaSecret;100;unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretIntro);
@@ -836,14 +836,14 @@ table.insert(SFQuest_Database.QuestPool, secretQuest21);
 local leeIntro = {
     guid = "Questyno_SusanLee_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "SusanLee;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_SusanLee_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_SusanLee;Questyno;SusanLee",
     text = "IGUI_SFQuest_Questyno_SusanLee_Intro_Text",
     texture = "media/textures/Item_SusanLee.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete",
+    unlocks = "addreputation;SusanLee;100;unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SusanLee_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeIntro);
@@ -1680,14 +1680,14 @@ table.insert(SFQuest_Database.QuestPool, leeQuest23A);
 local scottIntro = {
     guid = "Questyno_GeorgeScott_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "GeorgeScott;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_GeorgeScott;Questyno;GeorgeScott",
     text = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text",
     texture = "media/textures/Item_GeorgeScott.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
+    unlocks = "addreputation;GeorgeScott;100;unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottIntro);
@@ -2450,14 +2450,14 @@ table.insert(SFQuest_Database.QuestPool, scottQuest23);
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "SamuelYoung;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_SamuelYoung;Questyno;SamuelYoung",
     text = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text",
     texture = "media/textures/Item_SamuelYoung.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
+    unlocks = "addreputation;SamuelYoung;100;unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title",
 });
 
@@ -2963,14 +2963,14 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "XuMishura;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_XuMishura_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_XuMishura;Questyno;XuMishura",
     text = "IGUI_SFQuest_Questyno_XuMishura_Intro_Text",
     texture = "media/textures/Item_XuMishura.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete",
+    unlocks = "addreputation;XuMishura;100;unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura_Intro_Title",
 })
 
@@ -3381,14 +3381,14 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_DavidTurner_Intro",
 
-    awardsrep = "LaResistenza;1", -- REP REWARD
+    awardsrep = "DavidTurner;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_DavidTurner;Questyno;DavidTurner",
     text = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Text",
     texture = "media/textures/Item_DavidTurner.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
+    unlocks = "addreputation;DavidTurner;100;unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Title",
 })
 
