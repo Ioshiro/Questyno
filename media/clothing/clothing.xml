@@ -848,8 +848,8 @@
 
         <!-- John Baker -->
         <m_MaleOutfits>
-                <m_Name>JohnBaker</m_Name>
-                <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
+        <m_Name>JohnBaker</m_Name>
+        <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -873,7 +873,57 @@
                 </m_items>                
         </m_MaleOutfits>  
 
-        <!-- Andrew Turner-->         
+        <!-- Andrew Turner-->
+        <m_MaleOutfits>
+        <m_Name>AndrewTurner</m_Name>
+        <m_Guid>d9aa502f-a532-41e0-89dc-fd20c66b4c1d</m_Guid>
+                <m_items>
+                        <itemGUID>20a9892b-f44a-4a78-b3cd-34d1a0cf0381</itemGUID>
+                </m_items>
+                <m_items> <!-- hoodie up white-->
+                        <probability>0.7</probability>
+                        <itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+                        <subItems>
+                                <itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items> <!-- jeans -->
+                        <itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+                        <subItems>
+                                <itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items> <!-- army boots -->
+                        <itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+                        <subItems>
+                                <itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items> <!-- leather gloves -->
+                        <probability>0.3</probability>
+                        <itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID>
+                </m_items>
+                <m_items> <!-- balaclava full-->
+                        <probability>0.1</probability>
+                        <itemGUID>22c8fd40-4c25-4e82-9353-f70aa582611a</itemGUID>
+                </m_items>
+                <m_items> <!-- nosering gold-->
+                        <probability>0.2</probability>
+                        <itemGUID>e3c57593-72de-4310-ac4b-d6045cb70b86</itemGUID>
+                        <subItems>
+                                <itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+                        </subItems>
+                </m_items>
+        </m_MaleOutfits>
 
 <!-- ........................................ MENSILI ..........................................-->
         <!-- Rosewood Nord-->

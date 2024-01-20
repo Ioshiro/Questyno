@@ -485,7 +485,7 @@ SFQuest_Database.MannequinPool["9324x8598x0"] = {
     beard = "Goatee",
     beardcolor = "0.2,0.05,0.0",
     hair = "Bald",
-    outfit = "PonchoGiallo"
+    outfit = "PonchoGiallo",
 }
 
 -- John Baker, Trelai 7744x7760x0
@@ -503,7 +503,7 @@ SFQuest_Database.MannequinPool["7744x7760x0"] = {
     beard = "",
     hair = "Short",
     haircolor = "0.1,0.1,0.1",
-    outfit = "JohnBaker"
+    outfit = "JohnBaker",
 }
 
 --  Ethan Steele  10310x8040x0
@@ -522,7 +522,7 @@ SFQuest_Database.MannequinPool["10310x8040x0"] = {
     beard = "",
     hair = "Short",
     haircolor = "0.5,0.4,0.3",
-    outfit = "EthanSteele"
+    outfit = "EthanSteele",
 }
 
 -- Taylor Blaze 7752x7759x0
@@ -578,7 +578,8 @@ SFQuest_Database.MannequinPool["10812x9077x0"] = {
     direction = "E",
     beard = "Goatee",
     beardcolor = "0.0,0.0,0.0",
-    outfit = "BrianWhite"
+    hair = "Bald",
+    outfit = "BrianWhite",
 }
 
 -- Richard Brown 7178x9739x0
@@ -598,7 +599,7 @@ SFQuest_Database.MannequinPool["7178x9739x0"] = {
     beardcolor = "0.1,0.1,0.1",
     hair = "Spikes",
     haircolor = "1.0,0.5,0.0",
-    outfit = "RichardBrown"
+    outfit = "RichardBrown",
 }
 
 -- Robert Wilson 10182x6764x0
@@ -615,6 +616,8 @@ SFQuest_Database.MannequinPool["10182x6764x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
     outfit = "RobertWilson",
 }
 
@@ -721,7 +724,9 @@ SFQuest_Database.MannequinPool["13570x4021x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.5,0.3,0.0",
+    outfit = "AndrewTurner",
 }
 
 -- Lucas Miller March Ridge  10345,12404,0
