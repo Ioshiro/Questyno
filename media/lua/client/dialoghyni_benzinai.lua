@@ -14,11 +14,28 @@ require 'SFQuest_Database'
 ]]
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JuanBaker_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_JuanBaker", optional = true, text = "IGUI_SFQuest_Questyno_JuanBaker_Begin", textaccepted = "IGUI_SFQuest_Questyno_JuanBaker_Accepted",textdeclined = "IGUI_SFQuest_Questyno_JuanBaker_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_JuanBaker_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_JuanBaker_A", text = "IGUI_SFQuest_Questyno_JuanBaker_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_FuriMishura_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_FuriMishura", optional = true, text = "IGUI_SFQuest_Questyno_FuriMishura_Begin", textaccepted = "IGUI_SFQuest_Questyno_FuriMishura_Accepted",textdeclined = "IGUI_SFQuest_Questyno_FuriMishura_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_FuriMishura_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_FuriMishura_A", text = "IGUI_SFQuest_Questyno_FuriMishura_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SandraHarris_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_SandraHarris", optional = true, text = "IGUI_SFQuest_Questyno_SandraHarris_Begin", textaccepted = "IGUI_SFQuest_Questyno_SandraHarris_Accepted",textdeclined = "IGUI_SFQuest_Questyno_SandraHarris_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_SandraHarris_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_SandraHarris_A", text = "IGUI_SFQuest_Questyno_SandraHarris_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EricAdams_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_EricAdams", optional = true, text = "IGUI_SFQuest_Questyno_EricAdams_Begin", textaccepted = "IGUI_SFQuest_Questyno_EricAdams_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EricAdams_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EricAdams_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_EricAdams_A", text = "IGUI_SFQuest_Questyno_EricAdams_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RonaldPerez_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_RonaldPerez", optional = true, text = "IGUI_SFQuest_Questyno_RonaldPerez_Begin", textaccepted = "IGUI_SFQuest_Questyno_RonaldPerez_Accepted",textdeclined = "IGUI_SFQuest_Questyno_RonaldPerez_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_RonaldPerez_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_RonaldPerez_A", text = "IGUI_SFQuest_Questyno_RonaldPerez_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GarrettKing_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_GarrettKing", optional = true, text = "IGUI_SFQuest_Questyno_GarrettKing_Begin", textaccepted = "IGUI_SFQuest_Questyno_GarrettKing_Accepted",textdeclined = "IGUI_SFQuest_Questyno_GarrettKing_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_GarrettKing_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_GarrettKing_A", text = "IGUI_SFQuest_Questyno_GarrettKing_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarvinPerry_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_MarvinPerry", optional = true, text = "IGUI_SFQuest_Questyno_MarvinPerry_Begin", textaccepted = "IGUI_SFQuest_Questyno_MarvinPerry_Accepted",textdeclined = "IGUI_SFQuest_Questyno_MarvinPerry_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_MarvinPerry_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_MarvinPerry_A", text = "IGUI_SFQuest_Questyno_MarvinPerry_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_KarenTaylor_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_KarenTaylor", optional = true, text = "IGUI_SFQuest_Questyno_KarenTaylor_Begin", textaccepted = "IGUI_SFQuest_Questyno_KarenTaylor_Accepted",textdeclined = "IGUI_SFQuest_Questyno_KarenTaylor_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_KarenTaylor_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_KarenTaylor_A", text = "IGUI_SFQuest_Questyno_KarenTaylor_Complete"})
+
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_CharlesDavis_Begin", context = "ContextMenu_WorldEvent_TalkTo",command = "unlockquest;Questyno_CharlesDavis", optional = true, text = "IGUI_SFQuest_Questyno_CharlesDavis_Begin", textaccepted = "IGUI_SFQuest_Questyno_CharlesDavis_Accepted",textdeclined = "IGUI_SFQuest_Questyno_CharlesDavis_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_CharlesDavis_Complete", context = "ContextMenu_WorldEvent_TalkTo",command = "completequest;Questyno_CharlesDavis_A", text = "IGUI_SFQuest_Questyno_CharlesDavis_Complete"})

@@ -13,7 +13,7 @@ end
 function SF_MissionPanel.Commands.addserverpoints(points)
     local player = getPlayer();
     sendClientCommand("ServerPoints", "add", { player:getUsername(), points })
-    --sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
+    sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
 end
 
 function SF_MissionPanel.Commands.addreputation(faction, reputation)

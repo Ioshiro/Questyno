@@ -15,9 +15,7 @@ require 'SFQuest_Database'
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JuanBaker",
-    awardsitem = "GasCAN6;1",
-    awardsrep = "LaResistenza;10",
-    completesound = "levelup",
+    awardstask = "Questyno_JuanBaker_A",
     dailycode = "Questyno_JuanBaker",
     lore = { "IGUI_SFQuest_Questyno_JuanBaker_Lore" },
     objectives = { {
@@ -40,10 +38,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_FuriMishura",
+    guid = "Questyno_JuanBaker_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_JuanBaker",
+    lore = { "IGUI_SFQuest_Questyno_JuanBaker_Lore" },
+    text = "IGUI_SFQuest_Questyno_JuanBaker_Text",
+    texture = "media/textures/Item_JuanBaker.png",
+    title = "IGUI_SFQuest_Questyno_JuanBaker_Title",
+    unlocks = "unlockworldevent;Questyno_JuanBaker;IGUI_SFQuest_Questyno_JuanBaker_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_FuriMishura",
+    awardstask = "Questyno_FuriMishura_A",
     dailycode = "Questyno_FuriMishura",
     lore = { "IGUI_SFQuest_Questyno_FuriMishura_Lore" },
     objectives = { {
@@ -66,10 +75,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_SandraHarris",
+    guid = "Questyno_FuriMishura_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_FuriMishura",
+    lore = { "IGUI_SFQuest_Questyno_FuriMishura_Lore" },
+    text = "IGUI_SFQuest_Questyno_FuriMishura_Text",
+    texture = "media/textures/Item_FuriMishura.png",
+    title = "IGUI_SFQuest_Questyno_FuriMishura_Title",
+    unlocks = "unlockworldevent;Questyno_FuriMishura;IGUI_SFQuest_Questyno_FuriMishura_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_SandraHarris",
+    awardstask = "Questyno_SandraHarris_A",
     dailycode = "Questyno_SandraHarris",
     lore = { "IGUI_SFQuest_Questyno_SandraHarris_Lore" },
     objectives = { {
@@ -92,10 +112,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_EricAdams",
+    guid = "Questyno_SandraHarris_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_SandraHarris",
+    lore = { "IGUI_SFQuest_Questyno_SandraHarris_Lore" },
+    text = "IGUI_SFQuest_Questyno_SandraHarris_Text",
+    texture = "media/textures/Item_SandraHarris.png",
+    title = "IGUI_SFQuest_Questyno_SandraHarris_Title",
+    unlocks = "unlockworldevent;Questyno_SandraHarris;IGUI_SFQuest_Questyno_SandraHarris_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EricAdams",
+    awardstask = "Questyno_EricAdams_A",
     dailycode = "Questyno_EricAdams",
     lore = { "IGUI_SFQuest_Questyno_EricAdams_Lore" },
     objectives = { {
@@ -118,10 +149,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_RonaldPerez",
+    guid = "Questyno_EricAdams_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_EricAdams",
+    lore = { "IGUI_SFQuest_Questyno_EricAdams_Lore" },
+    text = "IGUI_SFQuest_Questyno_EricAdams_Text",
+    texture = "media/textures/Item_EricAdams.png",
+    title = "IGUI_SFQuest_Questyno_EricAdams_Title",
+    unlocks = "unlockworldevent;Questyno_EricAdams;IGUI_SFQuest_Questyno_EricAdams_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RonaldPerez",
+    awardstask = "Questyno_RonaldPerez_A",
     dailycode = "Questyno_RonaldPerez",
     lore = { "IGUI_SFQuest_Questyno_RonaldPerez_Lore" },
     objectives = { {
@@ -144,10 +186,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_GarrettKing",
+    guid = "Questyno_RonaldPerez_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_RonaldPerez",
+    lore = { "IGUI_SFQuest_Questyno_RonaldPerez_Lore" },
+    text = "IGUI_SFQuest_Questyno_RonaldPerez_Text",
+    texture = "media/textures/Item_RonaldPerez.png",
+    title = "IGUI_SFQuest_Questyno_RonaldPerez_Title",
+    unlocks = "unlockworldevent;Questyno_RonaldPerez;IGUI_SFQuest_Questyno_RonaldPerez_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_GarrettKing",
+    awardstask = "Questyno_GarrettKing_A",
     dailycode = "Questyno_GarrettKing",
     lore = { "IGUI_SFQuest_Questyno_GarrettKing_Lore" },
     objectives = { {
@@ -170,11 +223,22 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_MarvinPerry",
+    guid = "Questyno_GarrettKing_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_GarrettKing",
+    lore = { "IGUI_SFQuest_Questyno_GarrettKing_Lore" },
+    text = "IGUI_SFQuest_Questyno_GarrettKing_Text",
+    texture = "media/textures/Item_GarrettKing.png",
+    title = "IGUI_SFQuest_Questyno_GarrettKing_Title",
+    unlocks = "unlockworldevent;Questyno_GarrettKing;IGUI_SFQuest_Questyno_GarrettKing_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_MarvinPerry",
     dailycode = "Questyno_MarvinPerry",
+    awardstask = "Questyno_MarvinPerry_A",
     lore = { "IGUI_SFQuest_Questyno_MarvinPerry_Lore" },
     objectives = { {
         guid = "Questyno_MarvinPerry_A",
@@ -196,10 +260,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_KarenTaylor",
+    guid = "Questyno_MarvinPerry_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_MarvinPerry",
+    lore = { "IGUI_SFQuest_Questyno_MarvinPerry_Lore" },
+    text = "IGUI_SFQuest_Questyno_MarvinPerry_Text",
+    texture = "media/textures/Item_MarvinPerry.png",
+    title = "IGUI_SFQuest_Questyno_MarvinPerry_Title",
+    unlocks = "unlockworldevent;Questyno_MarvinPerry;IGUI_SFQuest_Questyno_MarvinPerry_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_KarenTaylor",
+    awardstask = "Questyno_KarenTaylor_A",
     dailycode = "Questyno_KarenTaylor",
     lore = { "IGUI_SFQuest_Questyno_KarenTaylor_Lore" },
     objectives = { {
@@ -222,10 +297,21 @@ table.insert(SFQuest_Database.QuestPool, {
 });
 
 table.insert(SFQuest_Database.QuestPool, {
-    guid = "Questyno_CharlesDavis",
+    guid = "Questyno_KarenTaylor_A",
     awardsitem = "GasCAN6;1",
     awardsrep = "LaResistenza;10",
     completesound = "levelup",
+    dailycode = "Questyno_KarenTaylor",
+    lore = { "IGUI_SFQuest_Questyno_KarenTaylor_Lore" },
+    text = "IGUI_SFQuest_Questyno_KarenTaylor_Text",
+    texture = "media/textures/Item_KarenTaylor.png",
+    title = "IGUI_SFQuest_Questyno_KarenTaylor_Title",
+    unlocks = "unlockworldevent;Questyno_KarenTaylor;IGUI_SFQuest_Questyno_KarenTaylor_Complete"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_CharlesDavis",
+    awardstask = "Questyno_CharlesDavis_A",
     dailycode = "Questyno_CharlesDavis",
     lore = { "IGUI_SFQuest_Questyno_CharlesDavis_Lore" },
     objectives = { {
@@ -245,4 +331,17 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_CharlesDavis.png",
     title = "IGUI_SFQuest_Questyno_CharlesDavis_Title",
     unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_CharlesDavis_A",
+    awardsitem = "GasCAN6;1",
+    awardsrep = "LaResistenza;10",
+    completesound = "levelup",
+    dailycode = "Questyno_CharlesDavis",
+    lore = { "IGUI_SFQuest_Questyno_CharlesDavis_Lore" },
+    text = "IGUI_SFQuest_Questyno_CharlesDavis_Text",
+    texture = "media/textures/Item_CharlesDavis.png",
+    title = "IGUI_SFQuest_Questyno_CharlesDavis_Title",
+    unlocks = "unlockworldevent;Questyno_CharlesDavis;IGUI_SFQuest_Questyno_CharlesDavis_Complete"
 });

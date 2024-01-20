@@ -6626,6 +6626,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted = "Grazie, la Resistenza apprezza il tuo contributo.",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined = "Non ti preoccupare, ci saranno altre occasioni.",
+	IGUI_SFQuest_Questyno_LincolnReed1_Complete = "Ecco tieni!",
 
 --[[
             *** Maya Blackwell ***
@@ -6839,6 +6840,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JuanBaker_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_JuanBaker_A = "Tanica Media",
     IGUI_SFQuest_Questyno_JuanBaker_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_JuanBaker_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Redfordville (6688,7467,1)",
     IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Furi",
@@ -6848,6 +6850,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_FuriMishura_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_FuriMishura_A = "Tanica Media",
     IGUI_SFQuest_Questyno_FuriMishura_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_FuriMishura_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Redfordville (6684,6820,1)",
     IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra",
@@ -6857,6 +6860,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SandraHarris_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_SandraHarris_A = "Tanica Media",
     IGUI_SFQuest_Questyno_SandraHarris_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_SandraHarris_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_EricAdams_Title = "Eric Adams da Redfordville (7659,7316,1)",
     IGUI_SFQuest_Questyno_EricAdams_Text = "Scambia con Eric",
@@ -6866,6 +6870,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EricAdams_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_EricAdams_A = "Tanica Media",
     IGUI_SFQuest_Questyno_EricAdams_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_EricAdams_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_RonaldPerez_Title = "Ronald Perez da Redfordville (8353,8579,1)",
     IGUI_SFQuest_Questyno_RonaldPerez_Text = "Scambia con Ronald",
@@ -6875,6 +6880,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RonaldPerez_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_RonaldPerez_A = "Tanica Media",
     IGUI_SFQuest_Questyno_RonaldPerez_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_RonaldPerez_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_GarrettKing_Title = "Garrett King da Redfordville (10399,8316,1)",
     IGUI_SFQuest_Questyno_GarrettKing_Text = "Scambia con Garrett",
@@ -6884,6 +6890,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_GarrettKing_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_GarrettKing_A = "Tanica Media",
     IGUI_SFQuest_Questyno_GarrettKing_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_GarrettKing_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_MarvinPerry_Title = "Marvin Perry da Redfordville (8186,11296,1)",
     IGUI_SFQuest_Questyno_MarvinPerry_Text = "Scambia con Marvin",
@@ -6893,6 +6900,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MarvinPerry_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_MarvinPerry_A = "Tanica Media",
     IGUI_SFQuest_Questyno_MarvinPerry_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_MarvinPerry_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_KarenTaylor_Title = "Karen Taylor da Redfordville (10144,12787,1)",
     IGUI_SFQuest_Questyno_KarenTaylor_Text = "Scambia con Karen",
@@ -6902,6 +6910,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_KarenTaylor_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_KarenTaylor_A = "Tanica Media",
     IGUI_SFQuest_Questyno_KarenTaylor_B = "Rotolo di Soldi",
+	IGUI_SFQuest_Questyno_KarenTaylor_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_CharlesDavis_Title = "Charles Davis da Redfordville (9285,8482,1)",
     IGUI_SFQuest_Questyno_CharlesDavis_Text = "Scambia con Charles",
@@ -6911,6 +6920,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_CharlesDavis_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_CharlesDavis_A = "Tanica Media",
     IGUI_SFQuest_Questyno_CharlesDavis_B = "15$",
+	IGUI_SFQuest_Questyno_CharlesDavis_Complete = "Ecco tieni!",
 
     --[[
             Pyno 

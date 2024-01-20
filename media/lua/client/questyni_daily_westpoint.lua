@@ -35,7 +35,6 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "TonyLupo;100", -- REP REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Lupo_Intro_Lore" },
-    ondone = "addserverpoints;1000",
     text = "IGUI_SFQuest_Questyno_Lupo_Intro_Text",
     texture = "media/textures/Item_TonyLupo.png",
     unique = true,

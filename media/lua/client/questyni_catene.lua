@@ -869,7 +869,7 @@ table.insert(SFQuest_Database.QuestPool,{
     completesound = "levelup",
     dailycode = "Questyno_RichardBrown",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
-    unlocks = "unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Complete",
+    unlocks = "unlockworldevent;Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Complete;addserverpoints;700",
     text = "IGUI_SFQuest_Questyno_RichardBrown6_B_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",

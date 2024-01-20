@@ -1413,7 +1413,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_LincolnReed",
     lore = { "IGUI_SFQuest_Questyno_LincolnReed1_Lore" },
     needsitem = "MoneyToXP.Rotolo;1",
-    onobtained = "completequest;Questyno_LincolnReed1",
+    onobtained = "unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed1_Complete",
     text = "IGUI_SFQuest_Questyno_LincolnReed1_Text",
     texture = "media/textures/Item_LincolnReed.png",
     title = "IGUI_SFQuest_Questyno_LincolnReed1_Title",
