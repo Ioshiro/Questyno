@@ -137,7 +137,7 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_L
 ]]
 
 -- intro. parla con Griff per sbloccare le daily
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif_Intro", text = "IGUI_SFQuest_Questyno_Grif_Intro_Complete_Text"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Grif_Intro;addreputation;SergenteGrif;100", text = "IGUI_SFQuest_Questyno_Grif_Intro_Complete_Text"})
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif1", optional = true, text = "IGUI_SFQuest_Questyno_Grif1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif1_Begin_Text_Declined"})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Grif1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_Grif1", optional = true, text = "IGUI_SFQuest_Questyno_Grif1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Grif1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Grif1_Begin_Text_Declined"})

@@ -40,11 +40,11 @@ require 'SFQuest_Database'
 local grifIntro = {
     guid = "Questyno_Grif_Intro",
 
-    awardsrep = "SergenteGrif;100", -- REP REWARD
+    --awardsrep = "SergenteGrif;100", -- REP REWARD
     --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
+    ondone = "addreputation;SergenteGrif;100",
     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
     texture = "media/textures/Item_Grif.png",
     unique = true,

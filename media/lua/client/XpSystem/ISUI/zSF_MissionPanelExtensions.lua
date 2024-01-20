@@ -168,6 +168,10 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                             if status == "Completed" then
                                 local guid = task.guid;
                                 SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
+								if task.ondone then
+									local commandTable = luautils.split(task.ondone, ";");
+									SF_MissionPanel.instance:readCommandTable(commandTable);
+								end
                             end
                         end
                     end
@@ -207,6 +211,34 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
             end
         end
     end
+end
+
+function SF_MissionPanel:updateQuestStatus(guid, status)
+	local player = self.player or getPlayer();
+	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
+		local currentTasks = player:getModData().missionProgress.Category2
+		local done = false
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i]
+				if task.guid and task.guid == guid then
+					task.status = status;
+					if status == "Failed" and task.onfailed then
+						local commandTable = luautils.split(task.onfailed, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+					elseif status == "Completed" and task.ondone then	
+						local commandTable = luautils.split(task.ondone, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+					elseif status == "Obtained" and task.onobtained then	
+						local commandTable = luautils.split(task.onobtained, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);							
+					end			
+					self.needsUpdate = true;
+					self.needsBackup = true;			
+				end
+			end
+		end
+	end
 end
 
 function SF_MissionPanel.DailyEventRerollExpand()
