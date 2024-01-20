@@ -252,12 +252,12 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_J
                 5. parla con pino. (1rep + Pen)
     ]]
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno1", optional = true, text = "IGUI_SFQuest_Questyno_Pyno1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Pyno1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Pyno1_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno1", text = "IGUI_SFQuest_Questyno_Pyno1_Begin_Text"})
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno2_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlocks;Questyno_Pyno2", optional = true, text = "IGUI_SFQuest_Questyno_Pyno2_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Pyno2_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Pyno2_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno2_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno2", text = "IGUI_SFQuest_Questyno_Pyno2_Begin_Text"})
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno3_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlocks;Questyno_Pyno3", optional = true, text = "IGUI_SFQuest_Questyno_Pyno3_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Pyno3_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Pyno3_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno3_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno3", text = "IGUI_SFQuest_Questyno_Pyno3_Begin_Text"})
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno4_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlocks;Questyno_Pyno4", optional = true, text = "IGUI_SFQuest_Questyno_Pyno4_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno4_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno4", text = "IGUI_SFQuest_Questyno_Pyno4_Begin_Text"})
 
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlocks;Questyno_Pyno5", optional = true, text = "IGUI_SFQuest_Questyno_Pyno5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_Pyno5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_Pyno5", text = "IGUI_SFQuest_Questyno_Pyno5_Begin_Text"})

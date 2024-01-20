@@ -437,7 +437,7 @@ table.insert(SFQuest_Database.WorldPool, {
 
 SFQuest_Database.MannequinPool["10153x6571x0"] = {
     sprite = "location_shop_mall_01_69",
-    direction = "E",
+    direction = "S",
     beard = "FullBeard",
     beardcolor = "1.0,1.0,1.0",
     hair = "Messy",
@@ -836,7 +836,7 @@ SFQuest_Database.MannequinPool["6684x6820x1"] = {
     direction = "S",
     beard = "",
     hair = "Bob",
-    haircolor = "0.0,0.0,0.0"
+    haircolor = "0.0,0.0,0.0",
     outfit = "SandraHarris",
 }
 
@@ -937,15 +937,15 @@ SFQuest_Database.MannequinPool["10144x12787x1"] = {
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_CharlesDavis",
-    square = "9285x8482x1",
+    square = "9285x8482x0",
     name = "IGUI_SFQuest_Questyno_CharlesDavis_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_CharlesDavis.png",
 })
 
-SFQuest_Database.MannequinPool["9285x8482x1"] = {
+SFQuest_Database.MannequinPool["9285x8482x0"] = {
     sprite = "location_shop_mall_01_70",
-    direction = "E",
+    direction = "W",
     beard = "",
     outfit = "CharlesDavis",
 }
