@@ -845,8 +845,8 @@
 
         <!-- John Baker -->
         <m_MaleOutfits>
-        <m_Name>JohnBaker</m_Name>
-        <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
+                <m_Name>JohnBaker</m_Name>
+                <m_Guid>266d0bf1-a20c-488e-b5d8-3e351113556b</m_Guid>
                 <m_Top>false</m_Top>
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
@@ -858,8 +858,7 @@
                 </m_items>        
                 <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
-                </m_items>                
-                </m_items>        
+                </m_items>         
                 <m_items> <!-- Adidas Shirts --> 
                         <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
                 </m_items>                
@@ -1182,8 +1181,7 @@
                 </m_items>
                 <!-- Belt Pack Pouch --> <m_items>
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
-                </m_items>                
-                </m_items>        
+                </m_items>         
 <!-- Adidas Shirts --> <m_items>
                         <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
                 </m_items>                
@@ -1196,4 +1194,3 @@
 </m_MaleOutfits>     
 
 </outfitManager>
-
