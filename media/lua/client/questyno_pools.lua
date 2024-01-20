@@ -981,7 +981,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
+--[[ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HeatherThomas_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EliaRima_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_BobRepair_Intro" })
@@ -1010,11 +1010,11 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LucasMiller_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_MayaBlackwell_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_LincolnReed_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_GabrielWalker_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DylanHarris_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_DylanHarris_Intro" }) ]]
 
 
 -- quest introduttive catene
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
+--[[ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EzekielFlynn_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_ElowenBeckett_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_BrianWhite_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JohnBaker_Intro" })
@@ -1022,7 +1022,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EthanSteele_Intr
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RobertWilson_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AndrewTurner_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" }) ]]
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Pyno1"})
 
 -- quest daily (così vengono sbloccate da subito?)
