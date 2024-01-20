@@ -540,7 +540,8 @@ SFQuest_Database.MannequinPool["7752x7759x0"] = {
     direction = "E",
     beard = "",
     hair = "Mullet",
-    outfit = "PonchoGiallo"
+    haircolor = "0.4,0.2,0.0",
+    outfit = "TaylorBlaze",
 }
 
 -- Marcus Kane 8574x11026x0
@@ -653,6 +654,7 @@ SFQuest_Database.MannequinPool["4862x11186x0"] = {
     direction = "E",
     beard = "",
     hair = "PonyTail",
+    haircolor = "0.7,0.4,0.1",
     outfit = "OliviaChambers",
 }
 
@@ -707,7 +709,8 @@ SFQuest_Database.MannequinPool["3637x7302x0"] = {
     direction = "E",
     beard = "",
     hair = "PonyTail",
-    outfit = "PonchoRosso",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "MayaBlackwell",
 }
 
 -- Andrew Turner da Louisville 13570,4021,0
