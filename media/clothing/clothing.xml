@@ -1000,5 +1000,84 @@
                         <itemGUID>e8fe0077-ff40-42b5-a49a-6d457ac03641</itemGUID>
                 </m_items>
         </m_MaleOutfits> 
+
+<!-- ........................................ ANNUALI ..........................................-->
+                       
+
+<m_MaleOutfits>
+                <m_Name>HarperWells</m_Name>
+                <m_Guid>261d0bfa-a20c-438c-b5d8-36351113456b</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- MASKA Helmet --> <m_items>
+                        <probability>0.1</probability>
+                        <itemGUID>656cfe92-b0d7-4b73-9bc3-1ebdd1a92423</itemGUID>
+                </m_items>
+                 <m_items> <!-- Sunset Aviators-->
+                        <itemGUID>882e870c-c037-46f7-b6d3-5f350bc692eb</itemGUID>
+                        </m_items>
+<!-- ZSH Helmet Visor --> <m_items>
+                        <probability>0.05</probability>
+                        <itemGUID>8e052579-cea3-466b-a7be-154affb8bf24</itemGUID>
+                </m_items>        
+<!-- Belt Pack Pouch --> <m_items>
+                        <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
+                </m_items>                
+<!-- 6B13 Armor --> <m_items>
+                        <probability>0.05</probability>
+                        <itemGUID>ecf09feb-05d1-4c80-b62b-8f597a63ff1e</itemGUID>
+                </m_items>        
+<!-- Adidas Shirts --> <m_items>
+                        <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
+                </m_items>                
+<!-- Adidas Pants --> <m_items>
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>
+<!-- Susie Boots --> <m_items>
+                        <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
+                </m_items>                
+        </m_MaleOutfits>
+
+        <m_FemaleOutfits>
+                <m_Name>GraceChambers</m_Name>
+                <m_Guid>7d6367d7-0fed-4d00-9d84-e89fa4360bfb</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+
+<!-- Ashe Scarf --> <m_items>
+                        <itemGUID>931c5588-09e8-4751-b2c7-b8afdc4fcaa9</itemGUID>
+                </m_items>                
+<!-- Ashe Necktie --> <m_items>
+                        <itemGUID>21e78dca-56d9-4dbf-924f-8779ea87c35a</itemGUID>
+                </m_items>                
+<!-- Y-Shirts --> <m_items> 
+                        <itemGUID>782bd42b-67c4-4380-a627-44fee483c115</itemGUID>
+                </m_items>                        
+<!-- Ashe Jacket --> <m_items> 
+                        <itemGUID>78ee55ff-c9cd-48ca-9731-867fdac0d56b</itemGUID>
+                </m_items>
+<!-- Ashe Jeans -->        <m_items> 
+                        <itemGUID>0baa9b04-0641-49bb-82ab-376029496010</itemGUID>
+                </m_items>
+<!-- Ashe Boots -->        <m_items> 
+                        <itemGUID>f87de33f-a48a-47c4-bcea-3075026a5fc1</itemGUID>
+                </m_items>                
+<!-- Ashe Gear --> <m_items>
+                        <probability>0.1</probability>
+                        <itemGUID>69595f76-d847-4852-895f-684998a8343f</itemGUID>
+                </m_items>        
+<!-- Ashe Leg Armor --> <m_items>
+                        <itemGUID>77139784-623d-4f09-a0fe-b4a53e7f8115</itemGUID>
+                </m_items>                        
+<!-- Ashe Cloak --> <m_items>
+                        <itemGUID>701b1335-cf6f-42f2-a261-3d8aa0b09958</itemGUID>
+                </m_items>                
+        </m_FemaleOutfits>        
 </outfitManager>
 

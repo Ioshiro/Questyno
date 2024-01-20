@@ -661,7 +661,8 @@ SFQuest_Database.MannequinPool["4866x11186x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "HarperWells",
 }
 
 -- Grace Chambers da Louisville (13641,4057,0)
@@ -678,7 +679,8 @@ SFQuest_Database.MannequinPool["13641x4057x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "GraceChambers",
 }
 
 -- MayaBlackwell Redfordville (3637,7302,0) Est
