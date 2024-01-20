@@ -5482,7 +5482,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ElowenBeckett4_Complete = "Ho bisogno di un ultima parte  prima di finire. ",
 
     IGUI_SFQuest_Questyno_ElowenBeckett5_Title = "Elowen dalla Tana 9324,8598,0",
-    IGUI_SFQuest_Questyno_ElowenBeckett5_Text = "Recupera 4 metalli di scarto",
+    IGUI_SFQuest_Questyno_ElowenBeckett5_Text = "Recupera 4 Scarti metallici",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Lore = "Elowen vuole rinforzare tutta la struttura con del metallo di scarto. Devo portargli 4 Scarti metallici e il lavoro sar? concluso.",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text = "Vorrei rinforzare un poco l'esterno della Carriola per farla resistere meglio a gli urti. Per questo lavoro avrei bisogno dei un poco di metallo di scarto. Dovresti riuscire con un martello e delle lattine a procurartene un poco.",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
@@ -5782,9 +5782,9 @@ IGUI_IT = {
 ]]
     IGUI_SFQuest_Questyno_BrianWhite_Name = "Brian White",
 
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White [Catena]",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian cel'ha a morte con le bande di Nigel, ? disposto a donarmi un veicolo se sono pronto a contrastarli.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian cel'ha a morte con le bande di Nigel, ? disposto a donarmi un veicolo se sono pronto a contrastarli. Mi aspetta alla fattoria di Muldraugh.",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Ti manda il Grif vero? Ultimamente stanno arrivando molti come te. Ci stiamo espandendo, mi fa molto piacere. Ti auguro solo di non avere mai nulla a che fare con quelle carogne delle Bande di Nigel. Dovremmo cominciare a fare degli assalti piuttosto che continuare a pagare il pizzo a quelle merde! Se mi dimostrerai di che pasta sei fatto ti dar? un veicolo funzionante al 100%. Promettimi che lo userai per pedinare quei bastardi e capire cosa tramano e dove nascondono le loro scorte!",
 
 	
@@ -5862,8 +5862,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Title = "Richard Brown 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Incontra Richard Brown [Catena]",
-    IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita ? la preparazione, l'ingegnosit? e la solidariet?. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome ? Richard e se farai alcune cose per me ti regaler? degli oggetti speciali utili a cavartela in questa situazione.",
-    IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita ? la preparazione, l'ingegnosit? e la solidariet?. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome ? Richard e se farai alcune cose per me ti regaler? degli oggetti speciali utili a cavartela in questa situazione.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Richard mi aspetta a Utopia (7178,9739,0) per farmi vedere il funzionamento di alcuni item speciali.",
+    IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita è la preparazione, l'ingegnosità e la solidarietà. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome ? Richard e se farai alcune cose per me ti regalerò degli oggetti speciali utili a cavartela in questa situazione.",
 
 	
 	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Utopia 7178,9739,0",
@@ -6259,12 +6259,12 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_AndrewTurner_Name = "Andrew Turner",
 
-    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13031,4070,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Text = "Incontra Andrew Turner. [Catena]",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Lore = "Andrew mi aspetta a Louisville, ha bisogno di me per recuperare quanto pi? propano possibile.",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text = "Ciao straniero! Io sono Andrew, piacere! Sono un ex militare che ha perso tutta la sua squadra quando ? scoppiata l'epidemia e adesso sto cercando di scoprire cosa ? successo a i miei compagni e perch? hanno perso tutti la ragione. Insieme a Grace e a James da Raven Creek, cerchiamo di creare un siero per il virus ma abbiamo bisogno di molti materiali preziosi per il nostro laboratorio chimico, uno di questo ? il Propano. Conosco molti posti dove trovarne, spero potrai darmi una mano. Se mi aiuterai ti dar? una Rivista speciale che ti insegner? come costruire un Tavolo da lavoro.",
     
-    IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13031,4070,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner1_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner1_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Lake Cumberland (16888,7783,0)",
     IGUI_SFQuest_Questyno_AndrewTurner1_Begin_Text = "Come primo posto puoi provare nel garage a Lake Cumberland. Posso contare su di te?",
@@ -6274,7 +6274,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_AndrewTurner1_A = "Cerca a Lake Cumberland (16888,7783,0)",
 	IGUI_SFQuest_Questyno_AndrewTurner1_A_Text = "Porta il propano a Andrew",
 
-    IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13031,4070,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner2_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner2_Lore = "Andrew vorrebbe che recuperassi del propano alla stazione dei treni a Ztardew Valley (12768,9497,0). Non dovrebbe essere difficile.",
     IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text = "Questa volta dovria fare un poco pi? di strada ma non dovrebbe essere difficile. Dovresti trovare ",
@@ -6284,7 +6284,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_AndrewTurner2_A = "Cerca a Ztardew Valley (12768,9497,0)",
 	IGUI_SFQuest_Questyno_AndrewTurner2_A_Text = "Porta il propano a Andrew",
 	
-    IGUI_SFQuest_Questyno_AndrewTurner3_Title = "Andrew da Louisville (13031,4070,0)",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner3_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner3_Lore = "Andrew vorrebbe che recuperassi del propano nel garage a Springwood (10490,8268,0). E' mezza giornata di viaggio.",
     IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text = "Recupera un ultima bombola e siamo apposto! Dovrai tornare pi? o meno da dove sei venuto! Conosci Springwood?",

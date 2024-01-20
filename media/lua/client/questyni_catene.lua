@@ -865,7 +865,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_RichardBrown6_B",
     awardsrep = "LaResistenza;50",
-    awardsitem = "Money;50;Base.AVCSClaimOrb;1",
+    awardsitem = "Money;50;LR.FloppyDisk;1",
     completesound = "levelup",
     dailycode = "Questyno_RichardBrown",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },

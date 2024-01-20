@@ -717,17 +717,17 @@ SFQuest_Database.MannequinPool["3637x7302x0"] = {
     outfit = "MayaBlackwell",
 }
 
--- Andrew Turner da Louisville 13570,4021,0
+-- Andrew Turner da Louisville 13631,4070,0 Est
 
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_AndrewTurner",
-    square = "13570x4021x0",
+    square = "13631x4070x0",
     name = "IGUI_SFQuest_Questyno_AndrewTurner_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_AndrewTurner.png",
 })
 
-SFQuest_Database.MannequinPool["13570x4021x0"] = {
+SFQuest_Database.MannequinPool["13631x4070x0"] = {
     sprite = "location_shop_mall_01_77",
     direction = "E",
     beard = "",
@@ -957,7 +957,7 @@ table.insert(SFQuest_Database.WorldPool, {
 
 SFQuest_Database.MannequinPool["9285x8482x0"] = {
     sprite = "location_shop_mall_01_77",
-    direction = "W",
+    direction = "E",
     beard = "",
     hair = "Short",
     haircolor = "0.0,0.0,0.0",
