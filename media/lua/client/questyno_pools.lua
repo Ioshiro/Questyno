@@ -980,7 +980,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 
 -- quest introduttive daily
 --table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Money_Intro" })
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Grif_Intro" })
 --[[ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AngelicaStella_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_HeatherThomas_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_EliaRima_Intro" })
@@ -1023,7 +1023,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Int
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RobertWilson_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AndrewTurner_Intro" })]]
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Pyno1"})
-table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
+--table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
