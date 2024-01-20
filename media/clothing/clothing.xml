@@ -1175,8 +1175,7 @@
                 </m_items>                        
         </m_FemaleOutfits>                
 
-<!-- ........................................ ANNUALI ..........................................-->
-                       
+<!-- ........................................ ANNUALI ..........................................-->         
         <!-- cura Raven Creek-->
         <m_MaleOutfits>
         <m_Name>HarperWells</m_Name>
@@ -1253,6 +1252,29 @@
                         <itemGUID>701b1335-cf6f-42f2-a261-3d8aa0b09958</itemGUID>
                 </m_items>                
         </m_FemaleOutfits>
+
+        <!-- annuale redforville -->
+        <m_MaleOutfits>
+        <m_Name>AlexMercer</m_Name>
+        <m_Guid>8f6230cc-884e-46cb-947e-ac08df9086af</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowPantsHue>false</m_AllowPantsHue>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+                <m_items> <!-- hat dusk mask --> 
+                        <itemGUID>1d070816-cfec-4d5d-820d-105c514251eb</itemGUID>
+                </m_items> 
+                <m_items> <!-- hoodie up white --> 
+                        <itemGUID>623c97c5-49f2-4763-bafb-549a881d6495</itemGUID>
+                </m_items>  
+                <m_items> <!-- combat pants --> 
+                        <itemGUID>6cb52b78-25ce-4efd-8995-d6e8fb6936e0</itemGUID>
+                </m_items>   
+                <m_items> <!-- boots heather --> 
+                        <itemGUID>34232344-2f86-4923-844c-6b5e718429b9</itemGUID>
+                </m_items>                                
+        </m_MaleOutfits>
 
 <!-- ........................................ NPC spawn benzina ..........................................-->  
         <m_MaleOutfits> 

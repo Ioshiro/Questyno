@@ -636,7 +636,9 @@ SFQuest_Database.MannequinPool["3642x7302x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "AlexMercer",
 }
 
 -- Olivia Chambers Raven Creek (4862,11186,0)
@@ -690,7 +692,8 @@ SFQuest_Database.MannequinPool["13641x4057x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    hair = "Bald",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0",
     outfit = "GraceChambers",
 }
 
