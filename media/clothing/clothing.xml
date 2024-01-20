@@ -1001,6 +1001,40 @@
                 </m_items>
         </m_MaleOutfits> 
 
+        <m_MaleOutfits> 
+        <m_Name>LucasMiller</m_Name>
+                <m_Guid>ed9efcf2-e14c-4fde-93a7-93a42a6cde67</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>
+                <m_items> <!-- Pants -->
+                        <itemGUID>52acd769-424a-4cbb-b02a-441cb723b747</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>
+        
+                <m_items> <!-- Shoes -->
+                        <itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+                </m_items>        
+                <m_items> <!-- Formal Shirt-->
+                        <itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+                </m_items>
+                <m_items> <!-- Watches -->
+                        <probability>0.3</probability>
+                        <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+                        <subItems>
+                                <itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+                        </subItems>
+                </m_items>           
+        </m_MaleOutfits>
+
 <!-- ........................................ ANNUALI ..........................................-->
                        
 
@@ -1078,6 +1112,82 @@
 <!-- Ashe Cloak --> <m_items>
                         <itemGUID>701b1335-cf6f-42f2-a261-3d8aa0b09958</itemGUID>
                 </m_items>                
-        </m_FemaleOutfits>        
+        </m_FemaleOutfits>
+
+<!-- ........................................ NPC spawn benzina ..........................................-->  
+<m_MaleOutfits> 
+<m_Name>CharlesDavis</m_Name>
+                <m_Guid>d196fa31-7c12-4ae9-86d7-aleufan69007</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>        
+                <m_items> <!-- Jeans -->
+                        <itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+                </m_items>
+                <m_items> <!-- Long Socks -->
+                        <itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+                </m_items>        
+                <m_items> <!-- Desert Military Boots  -->
+                        <itemGUID>1ed51bf2-67e5-41d9-b50d-92f42483868a</itemGUID>
+                </m_items>
+                <m_items> <!-- Rim Tank Top -->
+                        <itemGUID>48e002a3-87ae-4781-acb6-b65830ba39f1</itemGUID>
+                </m_items>
+                <m_items> <!-- Camo Vest-->
+                        <itemGUID>c9381d1c-2d50-4bd0-9d38-076314141a34</itemGUID>
+                </m_items>        
+                <m_items> <!-- Scarf -->
+                        <itemGUID>be23d492-87ab-427a-a6e8-d399a1dbaf1a</itemGUID>
+                </m_items>
+                <m_items> <!-- Holster -->
+                        <probability>0.1</probability>                        
+                        <itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+                </m_items>
+                <m_items> <!-- Plaid Formal Shirt -->
+                        <itemGUID>ad5ecd8f-10e7-431e-aad3-d356736b0e43</itemGUID>
+                </m_items>
+                <m_items> <!-- Baseball Cap -->
+                        <itemGUID>6bb580fa-3061-41a6-aef1-93c60237c9bc</itemGUID>
+                </m_items>
+                <m_items>  <!-- Alice Pack Army -->
+                        <probability>0.1</probability>                
+                        <itemGUID>e5e131ff-bc65-4b94-9bc1-b70e8f99e68d</itemGUID>
+                </m_items>                  
+</m_MaleOutfits> 
+
+<!-- ........................................ PYNO ..........................................-->  
+<m_MaleOutfits> 
+<m_Name>Pyno</m_Name>
+                <m_Guid>3e8b1986-764e-4c8b-b838-3614d4b4b4ac</m_Guid>
+                <m_Top>false</m_Top>
+                <m_Pants>false</m_Pants>
+                <m_AllowTopTint>false</m_AllowTopTint>        
+                <m_items>
+                        <itemGUID>58130fc7-68fc-48d6-b65d-84135aab1765</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>2d8f067c-1e9e-4068-a0a4-f8f718e082f4</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>2d8f067c-1e9e-4068-a0a4-f8f718e082f4</itemGUID>
+                </m_items>
+                <m_items>
+                        <itemGUID>9602c0a8-07d5-410e-a3db-3721bb48ea04</itemGUID>
+                </m_items>
+                <!-- Belt Pack Pouch --> <m_items>
+                        <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
+                </m_items>                
+                </m_items>        
+<!-- Adidas Shirts --> <m_items>
+                        <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
+                </m_items>                
+<!-- Adidas Pants --> <m_items>
+                        <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+                </m_items>
+<!-- Susie Boots --> <m_items>
+                        <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
+                </m_items>  
+</m_MaleOutfits>     
+
 </outfitManager>
 

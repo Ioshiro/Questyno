@@ -732,7 +732,8 @@ SFQuest_Database.MannequinPool["10345x12404x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "LucasMiller",
 }
 
 -- Gabriel Walker dalla Tana 9295,8580,0
@@ -923,7 +924,7 @@ SFQuest_Database.MannequinPool["9285x8482x1"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    outfit = "CharlesDavis",
 }
 
 -- Lincoln Reed March Ridge Spawn 9277,8480,0 Est
@@ -957,5 +958,6 @@ SFQuest_Database.MannequinPool["9332x8605x0"] = {
     sprite = "location_shop_mall_01_70",
     direction = "E",
     beard = "",
-    outfit = "PonchoRosso",
+    hair = "Bald",
+    outfit = "Pyno",
 }
