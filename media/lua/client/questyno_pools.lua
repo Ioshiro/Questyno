@@ -1023,7 +1023,7 @@ table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RichardBrown_Int
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_RobertWilson_Intro" })
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_AndrewTurner_Intro" })]]
 table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_Pyno1"})
---table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
+table.insert(SFQuest_Database.StartingPool, { quest = "Questyno_JamesMorris_Intro" })
 
 -- quest daily (così vengono sbloccate da subito?)
 --table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_Money" })
@@ -1080,7 +1080,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GarrettKing" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarvinPerry" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_KarenTaylor" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CharlesDavis" }) 
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_CharlesDavis" })
 
 
 -- completamento quest introduttive (da spostare nel unlock delle quest stesse..)
