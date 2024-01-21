@@ -1171,7 +1171,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardstask = "Questyno_Pyno2", -- DIALOGUE REWARD
     awardsrep = "LaResistenza;1", -- REP REWARD
-    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsitem = "Base.Money;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Pyno1_Lore" },
     text = "IGUI_SFQuest_Questyno_Pyno1_Text",
@@ -1186,7 +1186,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardstask = "Questyno_Pyno3", -- DIALOGUE REWARD
     awardsrep = "LaResistenza;1", -- REP REWARD
-    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsitem = "Base.Money;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Pyno2_Lore" },
     text = "IGUI_SFQuest_Questyno_Pyno2_Text",
@@ -1200,7 +1200,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardstask = "Questyno_Pyno4", -- DIALOGUE REWARD
     awardsrep = "LaResistenza;1", -- REP REWARD
-    awardsitem = "Base.Money;10", -- ITEM REWARD
+    awardsitem = "Base.Money;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Pyno3_Lore" },
     text = "IGUI_SFQuest_Questyno_Pyno3_Text",

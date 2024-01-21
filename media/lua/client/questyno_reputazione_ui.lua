@@ -1,3 +1,4 @@
+require "fazyoni.lua"
 local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
 local FONT_HGT_MEDIUM = getTextManager():getFontHeight(UIFont.Medium)
 local max = math.max
@@ -166,7 +167,13 @@ function ISCharacterScreen:render()
 	
 	self:drawTextRight(getText('IGUI_Reputation'), x, z, 0.7, 0.5, 0.1, 1, UIFont.Small)
     local tiername = getText('IGUI_Factions_Resistenza_Tier'.. self.char:getModData().missionProgress.Factions[1].tierlevel )
-	self:drawText(format('%d%% (%s)', (self.char:getModData().missionProgress.Factions[1].reputation/ self.char:getModData().missionProgress.Factions[1].repmax) * 100, tiername), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
+	local totalrep = self.char:getModData().missionProgress.Factions[1].reputation
+	for k,v in pairs(LaResistenzaTiersTemplate) do
+		if k < self.char:getModData().missionProgress.Factions[1].tierlevel then
+			totalrep = totalrep + v.minrep
+		end
+	end
+	self:drawText(format('%d%% (%s) Tot: %d', (self.char:getModData().missionProgress.Factions[1].reputation/ self.char:getModData().missionProgress.Factions[1].repmax) * 100, tiername, totalrep), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
 	
 	z = z + smallFontHgt;
 	local clock = UIManager.getClock()
