@@ -91,11 +91,28 @@ function SFQuest_PlayerHandler.StartPlayerFix(int, player)
 	end
 end
 
+local function OnPlayerDeath(player)
+	if not player:getModData().missionProgress then return end
+	local needUpdate = false;
+	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
+		local condition = luautils.split(v.condition, ";");
+		if condition[1] == "killzombies" then 
+			condition[2] = condition[2] - player:getZombieKills();
+			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. condition[2];
+			needUpdate = true;
+		end
+	end
+	if needUpdate == true then
+		SF_MissionPanel.instance:triggerUpdate();
+	end
+end
+
 
 
 Events.OnGameBoot.Add(function()
 	Events.OnCreatePlayer.Remove(SFQuest_PlayerHandler.StartPlayer);
     Events.OnCreatePlayer.Add(SFQuest_PlayerHandler.StartPlayerFix)
+	Events.OnPlayerDeath.Add(OnPlayerDeath)
 
     original_fun = SFQuest_PlayerHandler.StartPlayer
     SFQuest_PlayerHandler.StartPlayer = SFQuest_PlayerHandler.StartPlayerFix
