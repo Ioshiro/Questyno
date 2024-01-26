@@ -1,6 +1,12 @@
 local manager = ScriptManager.instance
 
 function Questyno_Tweaks()
+    -- ArmyBoots
+    manager:getItem("Base.Shoes_ArmyBoots"):DoParam("Tags".." = ".. "ArmyBoots");
+    manager:getItem("Base.Shoes_ArmyBootsDesert"):DoParam("Tags".." = ".. "ArmyBoots");
+    manager:getItem("Base.Shoes_BlackBoots"):DoParam("Tags".." = ".. "ArmyBoots");
+    manager:getItem("Base.Shoes_Wellies"):DoParam("Tags".." = ".. "ArmyBoots");
+    manager:getItem("Base.Shoes_RidingBoots"):DoParam("Tags".." = ".. "ArmyBoots");
     -- Mushrooms
     manager:getItem("Base.MushroomGeneric1"):DoParam("Tags".." = ".. "Mushroom");
     manager:getItem("Base.MushroomGeneric2"):DoParam("Tags".." = ".. "Mushroom");

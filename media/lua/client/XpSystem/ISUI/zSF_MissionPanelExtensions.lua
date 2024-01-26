@@ -4,10 +4,7 @@ require "XpSystem/ISUI/SF_MissionPanel"
 --SF_MissionPanel.Commands = {};
 
 function SF_MissionPanel.Commands.removeitem(item, quantity)
-    local inv = getPlayer():getInventory();
-    for i = 1, quantity do
-        inv:RemoveOneOf(item);
-    end
+    SF_MissionPanel.instance:takeNeededItem(item..";"..quantity) -- vabbe oh dai
 end
 
 function SF_MissionPanel.Commands.addserverpoints(points)
