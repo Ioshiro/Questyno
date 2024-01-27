@@ -316,17 +316,16 @@ function SF_MissionPanel:removeReputation(faction, value)
 						if player:getModData().missionProgress.Factions[facIndex].reputation < 0 then
 							newTier = currentTier - 1;
 							player:getModData().missionProgress.Factions[facIndex].tierlevel = newTier;
-							player:getModData().missionProgress.Factions[facIndex].reputation = player:getModData().missionProgress.Factions[facIndex].repmax + player:getModData().missionProgress.Factions[facIndex].reputation;
 							if SFQuest_Database.FactionPool[i].tiers then
 								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
 								local newName = tier.tiername;
 								local newMax = tier.minrep;
 								local newColor = tier.barcolor;
-								
 								player:getModData().missionProgress.Factions[facIndex].tiername = newName;
 								player:getModData().missionProgress.Factions[facIndex].repmax = newMax;
 								player:getModData().missionProgress.Factions[facIndex].tiercolor = newColor;
 							end
+                            player:getModData().missionProgress.Factions[facIndex].reputation = player:getModData().missionProgress.Factions[facIndex].repmax + player:getModData().missionProgress.Factions[facIndex].reputation;
 						end						
 					end
 				end
