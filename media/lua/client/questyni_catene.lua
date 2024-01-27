@@ -37,7 +37,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EzekielFlynn1_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn1_Title",
-    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn1_Complete:updatequeststatus:Questyno_EzekielFlynn1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -167,7 +167,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ElowenBeckett1_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett1_Title",
-    unlocks = "actionevent;killzombies:30;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:30;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett1_Complete:updatequeststatus:Questyno_ElowenBeckett1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -216,7 +216,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;20", -- REP REWARD
     awardsitem = "BeefJerky;1", -- ITEM REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Begin;Questyno_ElowenBeckett4", -- DIALOGUE REWARD
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett3_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett3_Complete:updatequeststatus:Questyno_ElowenBeckett3:Obtained", -- ZOMBIE REQUEST
     completesound = "levelup",
     dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett3_Lore" },
@@ -295,7 +295,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite1_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite1_Title",
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite1_Complete:updatequeststatus:Questyno_BrianWhite1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -325,7 +325,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite3_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite3_Title",
-    unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite3_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite3_Complete:updatequeststatus:Questyno_BrianWhite3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -468,7 +468,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker1_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker1_Title",
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker1_Complete:updatequeststatus:Questyno_JohnBaker1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -483,7 +483,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker2_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker2_Title",
-    unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker2_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker2_Complete:updatequeststatus:Questyno_JohnBaker2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -531,7 +531,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker4_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker4_Title",
-    unlocks = "actionevent;killzombies:500;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker4_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:500;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker4_Complete:updatequeststatus:Questyno_JohnBaker4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -752,7 +752,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown1_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown1_Title",
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown1_Complete:updatequeststatus:Questyno_RichardBrown1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -767,7 +767,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown2_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown2_Title",
-    unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown2_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown2_Complete:updatequeststatus:Questyno_RichardBrown2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -782,7 +782,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown3_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown3_Title",
-    unlocks = "actionevent;killzombies:300;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown3_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:300;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown3_Complete:updatequeststatus:Questyno_RichardBrown3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -797,7 +797,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown4_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown4_Title",
-    unlocks = "actionevent;killzombies:400;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown4_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:400;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown4_Complete:updatequeststatus:Questyno_RichardBrown4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -812,7 +812,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown5_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown5_Title",
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown5_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown5_Complete:updatequeststatus:Questyno_RichardBrown5:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -911,7 +911,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson1_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson1_Title",
-    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete:updatequeststatus:Questyno_RobertWilson1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 

@@ -37,7 +37,7 @@ LaResistenzaTiersTemplate = {
         unlocks = "addreputation;BrianWhite;1"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier5",
-        minrep = 9.525,
+        minrep = 9525,
         barcolor = "darkgreen",
         unlocks = "addreputation;SergenteGrif;1;addreputation;AngelicaStella;1;addreputation;HeatherThomas;1;addreputation;EliaRima;1;addreputation;BobRepair;1;addreputation;MikePozzo;1;addreputation;RosaChina;1;addreputation;EmilyTerry;1;addreputation;VictoriaSecret;1;addreputation;SusanLee;1;addreputation;GeorgeScott;1;addreputation;SamuelYoung;1;addreputation;XuMishura;1;addreputation;DavidTurner;1;addreputation;TonyLupo;1;addreputation;RafaelPrezioso;1;addreputation;JeffreyLewis;1;addreputation;ChristopherDavis;1;addreputation;PamelaPerez;1;addreputation;SamFisher;1;addreputation;RichardBrown;1;addreputation;RobertWilson;1;addreputation;LincolnReed;1"
     }, {

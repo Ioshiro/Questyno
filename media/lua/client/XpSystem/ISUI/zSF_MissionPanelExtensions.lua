@@ -284,6 +284,62 @@ function SF_MissionPanel.DailyEventRerollExpand()
     end
 end
 
+function SF_MissionPanel:removeReputation(faction, value)
+	local player = SF_MissionPanel.instance.player or getPlayer();
+	if player:getModData().missionProgress and player:getModData().missionProgress.Factions then
+		local factions = player:getModData().missionProgress.Factions;
+		
+		local facIndex;
+		local currentRep;
+		local currentTier;
+		local newTier;
+		local maxTier;
+		
+		if #factions > 0 then
+			for j=1,#factions do
+				if factions[j].factioncode and factions[j].factioncode == faction then
+					facIndex = j;
+					currentRep = factions[j].reputation;
+					currentTier = factions[j].tierlevel;
+					--print("SOUL QUEST SYSTEM - Player has a proper faction to increase reputation: " .. factions[j].factioncode .. " and reputation was " .. tostring(currentRep));
+					break
+				end
+			end
+		end
+		if facIndex then
+			for i=1,#SFQuest_Database.FactionPool do
+				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+					if currentTier == 1 then
+						player:getModData().missionProgress.Factions[facIndex].reputation = currentRep - value;
+						if player:getModData().missionProgress.Factions[facIndex].reputation < 0 then
+							player:getModData().missionProgress.Factions[facIndex].reputation = 0;
+						end
+					else
+						player:getModData().missionProgress.Factions[facIndex].reputation = currentRep - value;		
+						if player:getModData().missionProgress.Factions[facIndex].reputation < 0 then
+							newTier = currentTier - 1;
+							player:getModData().missionProgress.Factions[facIndex].tierlevel = newTier;
+							player:getModData().missionProgress.Factions[facIndex].reputation = player:getModData().missionProgress.Factions[facIndex].repmax + player:getModData().missionProgress.Factions[facIndex].reputation;
+							if SFQuest_Database.FactionPool[i].tiers then
+								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
+								local newName = tier.tiername;
+								local newMax = tier.minrep;
+								local newColor = tier.barcolor;
+								
+								player:getModData().missionProgress.Factions[facIndex].tiername = newName;
+								player:getModData().missionProgress.Factions[facIndex].repmax = newMax;
+								player:getModData().missionProgress.Factions[facIndex].tiercolor = newColor;
+							end
+						end						
+					end
+				end
+			end
+			SF_MissionPanel.instance.needsUpdate = true;
+			SF_MissionPanel.instance.needsBackup = true;	
+		end
+	end
+end
+
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)

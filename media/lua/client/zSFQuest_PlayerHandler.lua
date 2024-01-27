@@ -103,7 +103,7 @@ local function OnPlayerDeath(player)
 		end
 	end
 	if needUpdate == true then
-		SF_MissionPanel.instance:triggerUpdate();
+		SF_MissionPanel.instance:backupData();
 	end
 end
 
