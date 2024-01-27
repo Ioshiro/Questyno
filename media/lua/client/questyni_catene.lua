@@ -51,8 +51,8 @@ table.insert(SFQuest_Database.QuestPool, {
     objectives = {{
         guid = "Questyno_EzekielFlynn2_A",
         text = "IGUI_SFQuest_Questyno_EzekielFlynn2_B", -- loso l'ho fatto apposta.. sono pigro
-        needsitem = "Shoes_ArmyBoots;1",
-        onobtained = "updateobjective;Questyno_EzekielFlynn2;1;Completed;removeitem;Shoes_ArmyBoots;1",
+        needsitem = "Tag#ArmyBoots;1",
+        onobtained = "updateobjective;Questyno_EzekielFlynn2;1;Completed;removeitem;Tag#ArmyBoots;1",
         hidden = false,
     },{
         guid = "Questyno_EzekielFlynn2_B",
