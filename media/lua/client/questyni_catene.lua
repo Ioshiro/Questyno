@@ -295,6 +295,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite1_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite1_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite1_Complete:updatequeststatus:Questyno_BrianWhite1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -310,6 +311,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite2_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite2_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite2_Complete", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -325,6 +327,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite3_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite3_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_BrianWhite:SFQuest_Questyno_BrianWhite3_Complete:updatequeststatus:Questyno_BrianWhite3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -343,6 +346,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite4_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite4_Title",
+    unique = true,
     unlocks = "clickevent;9159x6127x0:EventoBrianWhite4;time:50:anim:loot;updateobjective:Questyno_BrianWhite4:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -360,6 +364,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite4_A_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite4_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -376,6 +381,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite5_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite5_Title",
+    unique = true,
     unlocks = "clickevent;10606x9409x0:EventoBrianWhite5;time:50:anim:loot;updateobjective:Questyno_BrianWhite5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -393,6 +399,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite5_A_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite5_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -409,6 +416,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite6_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite6_Title",
+    unique = true,
     unlocks = "clickevent;8219x11552x0:EventoBrianWhite6;time:50:anim:loot;updateobjective:Questyno_BrianWhite6:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -425,6 +433,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_BrianWhite6_A_Text",
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite6_Title",
+    unique = true,
 });
 
 
@@ -468,6 +477,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker1_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker1_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker1_Complete:updatequeststatus:Questyno_JohnBaker1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -483,6 +493,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker2_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker2_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:200;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker2_Complete:updatequeststatus:Questyno_JohnBaker2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -502,6 +513,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker3_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker3_Title",
+    unique = true,
     unlocks = "clickevent;10009x13072x1:EventoJohnBaker3;time:50:anim:loot;updateobjective:Questyno_JohnBaker3:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -518,6 +530,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker3_A_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker3_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -531,6 +544,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker4_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker4_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:500;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker4_Complete:updatequeststatus:Questyno_JohnBaker4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -549,6 +563,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker5_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
+    unique = true,
     unlocks = "clickevent;4417x6236x0:EventoJohnBaker5;time:50:anim:loot;updateobjective:Questyno_JohnBaker5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -586,6 +601,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker5_A_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
+    unique = true,
 })
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -598,6 +614,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JohnBaker5_B_Text",
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker5_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker5_Complete",
 })
 
@@ -643,6 +660,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele1_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele1_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele1:2:Completed;clickevent;10102x11172x0:EventoEthanSteele1;time:50:anim:loot;updateobjective:Questyno_EthanSteele1:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -660,6 +678,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele1_A_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele1_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -680,6 +699,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele2_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;updateobjective:Questyno_EthanSteele2:2:Completed;clickevent;11264x8219x0:EventoEthanSteele2;time:50:anim:loot;updateobjective:Questyno_EthanSteele2:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -697,6 +717,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele2_A_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele2_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -711,7 +732,8 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EthanSteele3_Text",
     texture = "media/textures/Item_EthanSteele.png",
     title = "IGUI_SFQuest_Questyno_EthanSteele3_Title",
-    unlockedsound = "QuestUnlocked"
+    unlockedsound = "QuestUnlocked",
+    unique = true,
 });
 
 --[[
@@ -752,6 +774,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown1_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown1_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown1_Complete:updatequeststatus:Questyno_RichardBrown1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -767,6 +790,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown2_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown2_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown2_Complete:updatequeststatus:Questyno_RichardBrown2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -782,6 +806,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown3_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown3_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:300;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown3_Complete:updatequeststatus:Questyno_RichardBrown3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -797,6 +822,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown4_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown4_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:400;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown4_Complete:updatequeststatus:Questyno_RichardBrown4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -812,6 +838,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RichardBrown5_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown5_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_RichardBrown:SFQuest_Questyno_RichardBrown5_Complete:updatequeststatus:Questyno_RichardBrown5:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -835,6 +862,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_RichardBrown6_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+    unique = true,
     unlocks = "clickevent;8614x9881x0:EventoRichardBrown6;time:50:anim:loot;updateobjective:Questyno_RichardBrown6:1:Completed",
     unlockedsound = "QuestUnlocked"
 } )
@@ -860,6 +888,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_RichardBrown6_A_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+    unique = true,
 })
 
 table.insert(SFQuest_Database.QuestPool,{
@@ -873,6 +902,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_RichardBrown6_B_Text",
     texture = "media/textures/Item_RichardBrown.png",
     title = "IGUI_SFQuest_Questyno_RichardBrown6_Title",
+    unique = true,
 });
 
 --[[
@@ -898,6 +928,7 @@ table.insert(SFQuest_Database.QuestPool, {
     unique = true,
     unlocks = "addreputation;RobertWilson;100;unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RobertWilson_Intro_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -911,6 +942,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson1_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson1_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete:updatequeststatus:Questyno_RobertWilson1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -933,6 +965,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson2_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
+    unique = true,
     unlocks = "actionevent;killzombies:50;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6683x10669x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
@@ -950,6 +983,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson2_A_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -965,6 +999,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson3_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson3_Title",
+    unique = true,
     unlockedsound = "QuestUnlocked"
 });
 
@@ -982,6 +1017,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson4_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson4_Title",
+    unique = true,
     unlocks = "clickevent;9416x9985x0:EventoRobertWilson4;time:50:anim:loot;updateobjective:Questyno_RobertWilson4:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -999,6 +1035,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson4_A_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson4_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1015,6 +1052,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson5_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson5_Title",
+    unique = true,
     unlocks = "clickevent;11593x8301x0:EventoRobertWilson5;time:50:anim:loot;updateobjective:Questyno_RobertWilson5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -1031,6 +1069,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RobertWilson5_A_Text",
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson5_Title",
+    unique = true,
 });
 
 	
@@ -1071,6 +1110,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner1_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner1_Title",
+    unique = true,
     unlocks = "clickevent;16888x7783x0:EventoAndrewTurner1;time:50:anim:loot;updateobjective:Questyno_AndrewTurner1:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -1088,6 +1128,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner1_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner1_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1104,6 +1145,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner2_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner2_Title",
+    unique = true,
     unlocks = "clickevent;12768x9497x0:EventoAndrewTurner2;time:50:anim:loot;updateobjective:Questyno_AndrewTurner2:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -1121,6 +1163,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner2_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner2_Title",
+    unique = true,
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1137,6 +1180,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner3_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner3_Title",
+    unique = true,
     unlocks = "clickevent;10490x8268x0:EventoAndrewTurner3;time:50:anim:loot;updateobjective:Questyno_AndrewTurner3:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -1154,6 +1198,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AndrewTurner3_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner3_Title",
+    unique = true,
 });
 
   --[[
@@ -1177,6 +1222,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_Pyno1_Text",
     texture = "media/textures/Item_Pyno.png",
     title = "IGUI_SFQuest_Questyno_Pyno1_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno1_Complete",
     unlockedsound = "QuestUnlocked"
 });
@@ -1192,6 +1238,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_Pyno2_Text",
     texture = "media/textures/Item_Pyno.png",
     title = "IGUI_SFQuest_Questyno_Pyno2_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno2_Complete",
 });
 
@@ -1206,6 +1253,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_Pyno3_Text",
     texture = "media/textures/Item_Pyno.png",
     title = "IGUI_SFQuest_Questyno_Pyno3_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno3_Complete",
 });
 
@@ -1220,6 +1268,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_Pyno4_Text",
     texture = "media/textures/Item_Pyno.png",
     title = "IGUI_SFQuest_Questyno_Pyno4_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno4_Complete",
 });
 
@@ -1233,6 +1282,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_Pyno5_Text",
     texture = "media/textures/Item_Pyno.png",
     title = "IGUI_SFQuest_Questyno_Pyno5_Title",
+    unique = true,
     unlocks = "unlockworldevent;Questyno_Pyno;SFQuest_Questyno_Pyno5_Complete",
 });
 
@@ -1280,6 +1330,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JamesMorris1_Text",
     texture = "media/textures/Item_JamesMorris.png",
     title = "IGUI_SFQuest_Questyno_JamesMorris1_Title",
+    unique = true,
     unlocks = "clickevent;6762x6135x0:EventoJamesMorris1;time:50:anim:loot;updateobjective:Questyno_JamesMorris1:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
@@ -1305,6 +1356,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JamesMorris1_A_Text",
     texture = "media/textures/Item_JamesMorris.png",
     title = "IGUI_SFQuest_Questyno_JamesMorris1_Title",
+    unique = true,
     --unlocks = "clickevent;6764x6135x0:EventoJamesMorris1;time:50:anim:loot;updateobjective:Questyno_JamesMorris1_A:1:Completed",
 });
 
@@ -1328,6 +1380,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JamesMorris1_B_Text",
     texture = "media/textures/Item_JamesMorris.png",
     title = "IGUI_SFQuest_Questyno_JamesMorris1_Title",
+    unique = true,
     unlocks = "clickevent;6762x6141x0:EventoJamesMorris1B;time:50:anim:loot;updateobjective:Questyno_JamesMorris1_B:1:Completed",
 });
 

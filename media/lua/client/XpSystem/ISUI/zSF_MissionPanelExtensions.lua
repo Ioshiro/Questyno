@@ -281,6 +281,62 @@ function SF_MissionPanel.DailyEventRerollExpand()
     end
 end
 
+function SF_MissionPanel:takeNeededItem(neededitem)
+	local player = getPlayer();
+	local needsTable = luautils.split(neededitem, ";");
+	local itemscript = needsTable[1];
+	local quantity = tonumber(needsTable[2]) or 1;
+	local carrying;
+	local items;
+	local predicateValue;
+	if luautils.stringStarts(needsTable[1], "Tag#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		carrying = player:getInventory():getCountTag(itemscript);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTag(itemscript, quantity);
+		end
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		carrying = player:getInventory():getCountTagEval(itemscript, predicateBigFish);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateBigFish, quantity);
+		end		
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		predicateValue = tonumber(needsTable[3]);
+		carrying = player:getInventory():getCountTagEvalArg(itemscript, predicateCondition, predicateValue);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateCondition, predicateValue, quantity);
+		end	
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then	
+		itemscript = luautils.split(itemscript, "#")[2];
+		carrying = player:getInventory():getCountTagEval(itemscript, predicateFreshFood);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFreshFood, quantity);
+		end	
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then	
+		itemscript = luautils.split(itemscript, "#")[2];
+		carrying = player:getInventory():getCountTagEval(itemscript, predicateFullDrainable);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFullDrainable, quantity);
+		end	
+	else
+		carrying = player:getInventory():getNumberOfItem(itemscript, true, true);
+		if quantity <= carrying then
+			items = player:getInventory():getSomeTypeRecurse(itemscript, quantity);
+		end	
+	end
+
+	if items then
+		for i=0, items:size()-1 do
+			local item = items:get(i):getFullType();
+			player:getInventory():RemoveOneOf(item, true);
+		end
+		return true
+	end
+	return nil
+end
+
 function SF_MissionPanel:removeReputation(faction, value)
 	local player = SF_MissionPanel.instance.player or getPlayer();
 	if player:getModData().missionProgress and player:getModData().missionProgress.Factions then
