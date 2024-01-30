@@ -10,7 +10,7 @@ end
 function SF_MissionPanel.Commands.addserverpoints(points)
     local player = getPlayer();
     sendClientCommand("ServerPoints", "add", { player:getUsername(), points })
-    sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
+    --sendServerCommand("ServerPoints", "add", { player:getUsername(), points })
 end
 
 function SF_MissionPanel.Commands.addreputation(faction, reputation)
@@ -335,6 +335,23 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 		return true
 	end
 	return nil
+end
+
+function SF_MissionPanel:forceBackupData()
+	local player = self.player or getPlayer();
+	local data = player:getModData().missionProgress;
+    data.forceBackup = true;
+	if not data then
+		print("Player had no quest data for the backup.");
+		return
+	end
+	if isClient() then
+		print("****************SALVO CLIENT************************");
+		sendClientCommand(player, 'SFQuest', 'saveData', data);
+	else
+		print("****************SALVO SERVER************************");
+		SFQuest_Server.localBackup(player, data);
+	end;
 end
 
 function SF_MissionPanel:removeReputation(faction, value)

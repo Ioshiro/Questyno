@@ -87,6 +87,10 @@ function Commands.sendData(player, args)
 	end;
 end
 
+function Commands.addserverpoints(player, args)
+	sendServerCommand("ServerPoints", "add", args)
+end
+
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
 Events.OnClientCommand.Add(function(module, command, player, args)
 	if module == 'SFQuest' and Commands[command] then
