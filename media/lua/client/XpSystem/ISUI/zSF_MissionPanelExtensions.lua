@@ -408,12 +408,31 @@ function SF_MissionPanel:removeReputation(faction, value)
 		end
 	end
 end
+function SF_MissionPanel.DebugEveryTenMinutes()
+	local player = getPlayer();
+	if not player:getModData().missionProgress then return end
+	
+	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
+        local actionevent = player:getModData().missionProgress.ActionEvent;
+		for a=#actionevent,1,-1 do
+            if actionevent[a].condition then
+				local condition = luautils.split(actionevent[a].condition, ";");
+            if condition[1] == "killzombies" then
+                local currentkills = player:getZombieKills();
+                local goal = tonumber(condition[2]);
+                print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " CURRENT:" .. currentkills .. " | TARGET:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
+            end
+        end
+    end
+end
+
 
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.OnGameStart.Remove(SF_MissionPanel.DailyEventReroll)
     Events.OnGameStart.Add(SF_MissionPanel.DailyEventRerollExpand)
+    Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes)
 
     local original_fun = SF_MissionPanel.DailyEventReroll
     SF_MissionPanel.DailyEventReroll = SF_MissionPanel.DailyEventRerollExpand
