@@ -52,7 +52,7 @@ function Commands.saveData(player, args)
 		end
 		datasize = datasize + 1
 	end
-	datasize = datasize + 1 + 20 -- add 20 for margin 1 for delivery
+	datasize = datasize + 1 + 100 -- add 100 for margin 1 for delivery
 	if tempsize > datasize then
 		print("[Commands.saveData] zSOUL QUEST SYSTEM - Backup file has more lines than current progress, sending backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. datasize .. ")");
 		local newargs = { id = id , data = temp };

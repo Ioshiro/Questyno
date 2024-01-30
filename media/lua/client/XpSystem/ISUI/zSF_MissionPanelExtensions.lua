@@ -417,10 +417,11 @@ function SF_MissionPanel.DebugEveryTenMinutes()
 		for a=#actionevent,1,-1 do
             if actionevent[a].condition then
 				local condition = luautils.split(actionevent[a].condition, ";");
-            if condition[1] == "killzombies" then
-                local currentkills = player:getZombieKills();
-                local goal = tonumber(condition[2]);
-                print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " CURRENT:" .. currentkills .. " | TARGET:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
+                if condition[1] == "killzombies" then
+                    local currentkills = player:getZombieKills();
+                    local goal = tonumber(condition[2]);
+                    print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " CURRENT:" .. currentkills .. " | TARGET:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
+                end
             end
         end
     end
