@@ -427,6 +427,92 @@ function SF_MissionPanel.DebugEveryTenMinutes()
     end
 end
 
+function SF_MissionPanel:completeQuest(player, guid)
+	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
+		local currentTasks = player:getModData().missionProgress.Category2;
+		local done = false
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i];
+				if task.guid and task.guid == guid then
+					player:getModData().missionProgress.Category2[i].status = "Completed";
+					if task.awardstask then
+						SF_MissionPanel:unlockQuest(task.awardstask);
+					end
+					if task.awardsitem then
+						local count = 1;
+						local rewardTable = luautils.split(task.awardsitem, ";");
+						local quantity = 1;
+						if rewardTable[count + 1] then
+							quantity = tonumber(rewardTable[count + 1]);
+						end
+						player:getInventory():AddItems(rewardTable[1], quantity);
+						count = 3;
+						while rewardTable[count] do
+							quantity = tonumber(rewardTable[count + 1]);
+							player:getInventory():AddItems(rewardTable[count], quantity);
+							count = count + 2;
+						end
+					end
+					if task.awardslore then
+						if task.lore then
+							table.insert(task.lore, task.awardslore);
+						else
+							task.lore = {task.awardslore};
+						end
+					end
+					if task.awardsrep then
+						local repvalues = luautils.split(task.awardsrep, ";");
+						print("This task awards " .. repvalues[2] .. " reputation for " .. repvalues[1]);
+						SF_MissionPanel.instance:awardReputation(repvalues[1], tonumber(repvalues[2]));
+					end
+					if task.awardsworld then
+						local entry = luautils.split(task.awardsworld, ";");
+						SF_MissionPanel.instance:runCommand("unlockworldevent", entry[1], entry[2], entry[3]);				
+					end
+					if task.completesound then
+						getSoundManager():playUISound(task.completesound);
+						--player:getEmitter():playSound(task.completesound);
+					end
+					if task.guid == self.expanded then
+						self.expanded = nil;
+						self.loretitle = nil;
+						self.lore = {};
+						self.currentPage = 1;
+						self.titleLabel:setVisible(false);
+						self.pageLabel:setVisible(false);
+						self.nextPage:setVisible(false);
+						self.previousPage:setVisible(false);
+						self.richText:setVisible(false);
+					end
+                    if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
+                        for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
+                            local commands = luautils.split(v.commands, ";");
+                            if luautils.stringStarts(task.guid, commands[2]) then
+                                table.remove(player:getModData().missionProgress.ActionEvent, k);
+                                break
+                            end
+                        end
+                    end
+					table.insert(player:getModData().missionProgress.Category1, task);
+					table.remove(player:getModData().missionProgress.Category2, i);
+					done = true;
+					self.needsUpdate = true
+					break
+				end
+			end
+		end
+		if #player:getModData().missionProgress.Delivery > 0 then
+			for d=1,#player:getModData().missionProgress.Delivery do
+				if player:getModData().missionProgress.Delivery[d] == guid then
+					player:getModData().missionProgress.Delivery[d] = nil;
+					break
+				end
+			end
+		end
+		self.needsBackup = true;
+	end
+end
 
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
