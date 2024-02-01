@@ -10,7 +10,7 @@ function SFQuest_PlayerHandler.StartPlayerFix(int, player)
 
 	-- If there is a backup file for the player's account then we use that, if not start it from zero.
 	if isClient() then
-		print("SOUL QUEST SYSTEM - Requesting backup quest data.");
+		print("zSOUL QUEST SYSTEM - Requesting backup quest data [pre init].");
 		local id = player:getUsername();
 		sendClientCommand(player, 'SFQuest', 'sendData', {id = id});
 	end
@@ -69,10 +69,11 @@ function SFQuest_PlayerHandler.StartPlayerFix(int, player)
 
 		SF_MissionPanel.instance:triggerUpdate();		
 		if isClient() then
-			print("SOUL QUEST SYSTEM - Requesting backup quest data.");
+			print("zSOUL QUEST SYSTEM - Requesting backup quest data.");
 			local id = player:getUsername();
 			sendClientCommand(player, 'SFQuest', 'sendData', {id = id});
 		else
+			print("zSOUL QUEST SYSTEM - Loading backup quest data server side FROM PlayerHandler.");
 			local id = player:getUsername();	
 			local filepath = "/Backup/SFQuest_" .. id .. ".txt";
 			local filereader = getFileReader(filepath, false);
@@ -96,8 +97,12 @@ local function OnPlayerDeath(player)
 	local needUpdate = false;
 	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
 		local condition = luautils.split(v.condition, ";");
-		if condition[1] == "killzombies" then 
-			condition[2] = condition[2] - player:getZombieKills();
+		if condition[1] == "killzombies" then
+			if tonumber(condition[2]) > player:getZombieKills() then
+				condition[2] = tonumber(condition[2]) - player:getZombieKills();
+			else
+				condition[2] = 0;
+			end
 			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. condition[2];
 			needUpdate = true;
 		end
