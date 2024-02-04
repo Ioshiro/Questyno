@@ -24,7 +24,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     unique = true,
-    unlocks = "addreputation;TaylorBlaze;100;unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title",
 });
 
@@ -245,7 +245,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MarcusKane_Intro_Text",
     texture = "media/textures/Item_MarcusKane.png",
     unique = true,
-    unlocks = "addreputation;MarcusKane;100;unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_MarcusKane;SFQuest_Questyno_MarcusKane_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MarcusKane_Intro_Title",
 });
 
@@ -419,7 +419,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Text",
     texture = "media/textures/Item_OliviaChambers.png",
     unique = true,
-    unlocks = "addreputation;OliviaChambers;100;unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_OliviaChambers;SFQuest_Questyno_OliviaChambers_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_OliviaChambers_Intro_Title",
 });
 
@@ -675,7 +675,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Text",
     texture = "media/textures/Item_MayaBlackwell.png",
     unique = true,
-    unlocks = "addreputation;MayaBlackwell;100;unlockworldevent;Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell_Intro_Title",
 });
 
@@ -1182,7 +1182,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Text",
     texture = "media/textures/Item_LucasMiller.png",
     unique = true,
-    unlocks = "addreputation;LucasMiller;100;unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_LucasMiller_Intro_Title",
 });
 
@@ -1445,7 +1445,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     unique = true,
-    unlocks = "addreputation;GabrielWalker;100;unlockworldevent;Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GabrielWalker_Intro_Title",
 });
 
@@ -1770,7 +1770,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris_Intro_Text",
     texture = "media/textures/Item_DylanHarris.png",
     unique = true,
-    unlocks = "addreputation;DylanHarris;100;unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DylanHarris_Intro_Title",
 });
 

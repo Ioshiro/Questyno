@@ -48,7 +48,7 @@ local grifIntro = {
     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
     texture = "media/textures/Item_Grif.png",
     unique = true,
-    unlocks = "addreputation;SergenteGrif;100;unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_Grif_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, grifIntro);
@@ -686,7 +686,7 @@ local stellaIntro = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     unique = true,
-    unlocks = "addreputation;AngelicaStella;100;unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, stellaIntro);
@@ -1501,7 +1501,7 @@ local thomasIntro = {
     text = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text",
     texture = "media/textures/Item_HeatherThomas.png",
     unique = true,
-    unlocks = "addreputation;HeatherThomas;100;unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasIntro);
@@ -2075,7 +2075,7 @@ local rimaIntro = {
     text = "IGUI_SFQuest_Questyno_EliaRima_Intro_Text",
     texture = "media/textures/Item_EliaRima.png",
     unique = true,
-    unlocks = "addreputation;EliaRima;100;unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EliaRima_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, rimaIntro);
@@ -3316,7 +3316,7 @@ local bobIntro = {
     text = "IGUI_SFQuest_Questyno_BobRepair_Intro_Text",
     texture = "media/textures/Item_BobRepair.png",
     unique = true,
-    unlocks = "addreputation;BobRepair;100;unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_BobRepair_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, bobIntro);

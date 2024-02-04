@@ -24,32 +24,32 @@ LaResistenzaTiersTemplate = {
         tiername = "IGUI_Factions_Resistenza_Tier2",
         minrep = 70,
         barcolor = "lightpink",
-        unlocks = "addreputation;EzekielFlynn;1"
+        unlocks = "addreputation;EzekielFlynn;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier3",
         minrep = 100,
         barcolor = "gray",
-        unlocks = "addreputation;ElowenBeckett;1"
+        unlocks = "addreputation;ElowenBeckett;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier4",
         minrep = 300,
         barcolor = "lightgreen",
-        unlocks = "addreputation;BrianWhite;1"
+        unlocks = "addreputation;BrianWhite;100;LincolnReed;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier5",
         minrep = 9525,
         barcolor = "darkgreen",
-        unlocks = "addreputation;SergenteGrif;1;addreputation;AngelicaStella;1;addreputation;HeatherThomas;1;addreputation;EliaRima;1;addreputation;BobRepair;1;addreputation;MikePozzo;1;addreputation;RosaChina;1;addreputation;EmilyTerry;1;addreputation;VictoriaSecret;1;addreputation;SusanLee;1;addreputation;GeorgeScott;1;addreputation;SamuelYoung;1;addreputation;XuMishura;1;addreputation;DavidTurner;1;addreputation;TonyLupo;1;addreputation;RafaelPrezioso;1;addreputation;JeffreyLewis;1;addreputation;ChristopherDavis;1;addreputation;PamelaPerez;1;addreputation;SamFisher;1;addreputation;RichardBrown;1;addreputation;RobertWilson;1;addreputation;LincolnReed;1"
+        unlocks = "addreputation;SergenteGrif;100;addreputation;AngelicaStella;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;BobRepair;100;addreputation;MikePozzo;100;addreputation;RosaChina;100;addreputation;EmilyTerry;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;SamuelYoung;100;addreputation;XuMishura;100;addreputation;DavidTurner;100;addreputation;TonyLupo;100;addreputation;RafaelPrezioso;100;addreputation;JeffreyLewis;100;addreputation;ChristopherDavis;100;addreputation;PamelaPerez;100;addreputation;SamFisher;100;addreputation;RichardBrown;100;addreputation;RobertWilson;100;addreputation"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier6",
         minrep = 90000,
         barcolor = "lightred",
-        unlocks = "addreputation;EthanSteele;1;addreputation;JohnBaker;1;addreputation;MarcusKane;1;addreputation;TaylorBlaze;1;addreputation;MayaBlackwell;1;addreputation;AlexMercer;1;addreputation;OliviaChambers;1;addreputation;GraceChambers;1;addreputation;HarperWells;1;addreputation;AndrewTurner;1;addreputation;LucasMiller;1;addreputation;GabrielWalker;1;addreputation;DylanHarris;1;addreputation;GraceChambers;1"
+        unlocks = "addreputation;EthanSteele;100;addreputation;JohnBaker;100;addreputation;MarcusKane;100;addreputation;TaylorBlaze;100;addreputation;MayaBlackwell;100;addreputation;AlexMercer;100;addreputation;OliviaChambers;100;addreputation;GraceChambers;100;addreputation;HarperWells;100;addreputation;AndrewTurner;100;addreputation;LucasMiller;100;addreputation;GabrielWalker;100;addreputation;DylanHarris;100;addreputation;GraceChambers;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier7",
         minrep = 400000,
         barcolor = "orange",
-        unlocks = "addreputation;JamesMorris;1"
+        unlocks = "addreputation;JamesMorris;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier8",
         minrep = 500000,

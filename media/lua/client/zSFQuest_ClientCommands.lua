@@ -25,7 +25,7 @@ function Commands.setProgress(args)
 		end
 	end
 	if not temp.Delivery then
-		print("zSOUL QUEST SYSTEM - Data transformation likely to be corrupted, aborting backup.");
+		print("zSOUL QUEST SYSTEM - Data transformation likely to be corrupted, aborting backup. LOOK @" .. lastnum);
 		return
 	end
 	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " ..lastnum.." lines of backup.");

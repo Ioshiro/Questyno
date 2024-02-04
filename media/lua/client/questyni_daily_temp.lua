@@ -41,7 +41,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Text",
     texture = "media/textures/Item_MikePozzo.png",
     unique = true,
-    unlocks = "addreputation;MikePozzo;100;unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_MikePozzo_Intro_Title",
 });
 
@@ -739,7 +739,7 @@ local chinaIntro = {
     text = "IGUI_SFQuest_Questyno_RosaChina_Intro_Text",
     texture = "media/textures/Item_RosaChina.png",
     unique = true,
-    unlocks = "addreputation;RosaChina;100;unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_RosaChina_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, chinaIntro);
@@ -1339,7 +1339,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text",
     texture = "media/textures/Item_EmilyTerry.png",
     unique = true,
-    unlocks = "addreputation;EmilyTerry;100;unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title",
 });
 

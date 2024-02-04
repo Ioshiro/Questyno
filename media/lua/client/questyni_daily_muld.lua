@@ -31,14 +31,13 @@ local secretIntro = {
     guid = "Questyno_VictoriaSecret_Intro",
 
     awardsrep = "VictoriaSecret;100", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore" },
     ondone = "randomcodedworldfrompool;Questyno_VictoriaSecret;Questyno;VictoriaSecret",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
     unique = true,
-    unlocks = "addreputation;VictoriaSecret;100;unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, secretIntro);
@@ -67,7 +66,6 @@ local secretQuest1A = {
     guid = "Questyno_VictoriaSecret1_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret2", -- TODO: REMOVE WHEN TESTING IS DONE
     awardsitem = "BaseballBat;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
@@ -105,7 +103,6 @@ local secretQuest2A = {
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Woodglue;1", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret3", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret2_Lore" },
@@ -142,7 +139,6 @@ local secretQuest3A = {
 
     awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret4", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret3_Lore" },
@@ -178,7 +174,6 @@ local secretQuest4A = {
     guid = "Questyno_VictoriaSecret4_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret5", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret4_Lore" },
@@ -215,7 +210,6 @@ local secretQuest5A = {
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret6", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret5_Lore" },
@@ -252,7 +246,6 @@ local secretQuest6A = {
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;200",
-    awardstask = "Questyno_VictoriaSecret7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret6_Lore" },
@@ -289,7 +282,6 @@ local secretQuest7A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret7_Lore" },
@@ -326,7 +318,6 @@ local secretQuest8A = {
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;60", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret9", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret8_Lore" },
@@ -362,7 +353,6 @@ local secretQuest9A = {
     guid = "Questyno_VictoriaSecret9_A",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret9_Lore" },
@@ -399,7 +389,6 @@ local secretQuest10A = {
 
     awardsrep = "LaResistenza;140", -- REP REWARD
     awardsitem = "Money;200", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret11", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret10_Lore" },
@@ -435,7 +424,6 @@ local secretQuest11A = {
     guid = "Questyno_VictoriaSecret11_A",
 
     awardsrep = "LaResistenza;25", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret12", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret11_Lore" },
@@ -471,7 +459,6 @@ local secretQuest12A = {
     guid = "Questyno_VictoriaSecret12_A",
 
     awardsrep = "LaResistenza;120", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret13", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret12_Lore" },
@@ -508,7 +495,6 @@ local secretQuest13A = {
 
     awardsrep = "LaResistenza;180", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret14", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret13_Lore" },
@@ -545,7 +531,6 @@ local secretQuest14A = {
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret15", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret14_Lore" },
@@ -582,7 +567,6 @@ local secretQuest15A = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;80", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret16", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret15_Lore" },
@@ -618,7 +602,6 @@ local secretQuest16A = {
     guid = "Questyno_VictoriaSecret16_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret17", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret16_Lore" },
@@ -657,7 +640,6 @@ local secretQuest17A = {
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;70", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret18", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret17_Lore" },
@@ -695,7 +677,6 @@ local secretQuest18A = {
     guid = "Questyno_VictoriaSecret18_A",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardstask = "Questyno_VictoriaSecret19", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret18_Lore" },
@@ -734,7 +715,6 @@ local secretQuest19A = {
 
     awardsrep = "LaResistenza;90", -- REP REWARD
     awardsitem = "Money;20", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret20", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret19_Lore" },
@@ -773,7 +753,6 @@ local secretQuest20A = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;20", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret21", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret20_Lore" },
@@ -791,7 +770,6 @@ local secretQuest21 = {
 
     awaardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;25", -- ITEM REWARD
-    awardstask = "Questyno_VictoriaSecret1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret21_Lore" },
@@ -843,7 +821,7 @@ local leeIntro = {
     text = "IGUI_SFQuest_Questyno_SusanLee_Intro_Text",
     texture = "media/textures/Item_SusanLee.png",
     unique = true,
-    unlocks = "addreputation;SusanLee;100;unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SusanLee_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, leeIntro);
@@ -1032,7 +1010,6 @@ local leeQuest6 = {
     guid = "Questyno_SusanLee6",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
-    awardstask = "Questyno_SusanLee7", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee6_Lore" },
@@ -1049,7 +1026,6 @@ local leeQuest7 = {
     guid = "Questyno_SusanLee7",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    awardstask = "Questyno_SusanLee8", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee7_Lore" },
@@ -1082,7 +1058,6 @@ local leeQuest9 = {
     guid = "Questyno_SusanLee9",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
-    awardstask = "Questyno_SusanLee10", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee9_Lore" },
@@ -1687,7 +1662,7 @@ local scottIntro = {
     text = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text",
     texture = "media/textures/Item_GeorgeScott.png",
     unique = true,
-    unlocks = "addreputation;GeorgeScott;100;unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, scottIntro);
@@ -2457,7 +2432,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Text",
     texture = "media/textures/Item_SamuelYoung.png",
     unique = true,
-    unlocks = "addreputation;SamuelYoung;100;unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_SamuelYoung_Intro_Title",
 });
 
@@ -2970,7 +2945,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_XuMishura_Intro_Text",
     texture = "media/textures/Item_XuMishura.png",
     unique = true,
-    unlocks = "addreputation;XuMishura;100;unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_XuMishura;SFQuest_Questyno_XuMishura_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_XuMishura_Intro_Title",
 })
 
@@ -3388,7 +3363,7 @@ table.insert(SFQuest_Database.QuestPool,{
     text = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Text",
     texture = "media/textures/Item_DavidTurner.png",
     unique = true,
-    unlocks = "addreputation;DavidTurner;100;unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_DavidTurner;SFQuest_Questyno_DavidTurner_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_DavidTurner_Intro_Title",
 })
 

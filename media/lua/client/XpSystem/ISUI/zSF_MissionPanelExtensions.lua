@@ -465,6 +465,12 @@ function SF_MissionPanel:completeQuest(player, guid)
 						local repvalues = luautils.split(task.awardsrep, ";");
 						print("This task awards " .. repvalues[2] .. " reputation for " .. repvalues[1]);
 						SF_MissionPanel.instance:awardReputation(repvalues[1], tonumber(repvalues[2]));
+                        local count = 3;
+                        while repvalues[count] do
+                            print("This task awards " .. repvalues[count + 1] .. " reputation for " .. repvalues[count]);
+                            SF_MissionPanel.instance:awardReputation(repvalues[count], tonumber(repvalues[count + 1]));
+                            count = count + 2;
+                        end
 					end
 					if task.awardsworld then
 						local entry = luautils.split(task.awardsworld, ";");
