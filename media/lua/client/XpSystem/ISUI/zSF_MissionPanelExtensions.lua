@@ -21,6 +21,30 @@ function SF_MissionPanel.Commands.unlockquest(questid)
     SF_MissionPanel.instance:unlockQuest(questid)
 end
 
+function SF_MissionPanel:checkDefaults()
+    if not self.player:getModData().missionProgress then return end
+
+    if self.player:getModData().missionProgress.DailyEvent then
+        for k, v in pairs(self.player:getModData().missionProgress.Factions) do
+            if v.factioncode == SFQuest_Database.FactionPool[k].factioncode then
+                if v.tierlevel > 1 then
+                    local tier = SFQuest_Database.FactionPool[k].tiers[v.tierlevel];
+                    v.tiername = tier.tiername
+                    v.tiercolor = tier.barcolor
+                end
+            end
+        end
+    end
+
+    if self.player:getModData().missionProgress.DailyEvent then
+        for k, v in pairs(self.player:getModData().missionProgress.DailyEvent) do
+            if v.dailycode == SFQuest_Database.DailyEventPool[k].dailycode then
+                v.condition = SFQuest_Database.DailyEventPool[k].condition
+            end
+        end
+    end
+end
+
 -- override SF_MissionPanel:readCommandTable(commandtable) to add removeitem
 local base_SF_MissionPanel_readCommandTable = SF_MissionPanel.readCommandTable;
 function SF_MissionPanel:readCommandTable(commandTable)
@@ -264,14 +288,15 @@ function SF_MissionPanel.DailyEventRerollExpand()
                             local tier = tonumber(conditionTable[6]);
                             local playerTier = SF_MissionPanel.instance:getReputationTier(faction, player);
                             if active < maxed and tier <= playerTier then
-                                event.days = lastRoll;
-                                SF_MissionPanel.instance.needsBackup = true;
-                                print("SOUL QUEST SYSTEM - No active quests for daily code: " .. dailycode);
-                                if player:getModData().missionProgress.WorldEvent then
-                                    SF_MissionPanel.instance:removeWorldEventsWithCode(dailycode);
+                                if player:getModData().missionProgress.WorldEvent and SF_MissionPanel.instance:hasActiveWorldEventWithCode(dailycode) then
+                                    print("SOUL QUEST SYSTEM - Active world event (dialogue) with code: " .. dailycode .. " already exists.");
+                                else
+                                    event.days = lastRoll;
+                                    SF_MissionPanel.instance.needsBackup = true;
+                                    print("SOUL QUEST SYSTEM - No active quests for daily code: " .. dailycode);
+                                    local commandTable = luautils.split(event.commands, ";");
+                                    SF_MissionPanel.instance:readCommandTable(commandTable);
                                 end
-                                local commandTable = luautils.split(event.commands, ";");
-                                SF_MissionPanel.instance:readCommandTable(commandTable);
                             end
                         end
                     end
@@ -279,6 +304,18 @@ function SF_MissionPanel.DailyEventRerollExpand()
             end
         end
     end
+end
+
+function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
+    local player = getPlayer();
+    if player:getModData().missionProgress.WorldEvent then
+        for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
+            if v.identity == dailycode then
+                return true
+            end
+        end
+    end
+    return false
 end
 
 function SF_MissionPanel:takeNeededItem(neededitem)

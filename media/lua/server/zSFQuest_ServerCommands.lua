@@ -33,13 +33,18 @@ function Commands.saveData(player, args)
 	end
 	local tempsize = #temp;
 	local datasize = 0
-	for k,v in pairs(args) do
+	for _,v in pairs(args) do
     	if type(v)=="table" then
-			for kn,vn in pairs(v) do
+			for _,vn in pairs(v) do
 				if type(vn)=="table" then
-					for kkn,vvn in pairs(vn) do
+					for _,vvn in pairs(vn) do
 						if type(vvn) == "table" then
-							for kkkn,vvvn in pairs(vvn) do
+							for _,vvvn in pairs(vvn) do
+								if type(vvvn) == "table" then
+									for _, vvvvn in pairs(vvvn) do
+										datasize = datasize + 1
+									end
+								end
 								datasize = datasize + 1
 							end
 							datasize = datasize + 1
@@ -52,7 +57,7 @@ function Commands.saveData(player, args)
 		end
 		datasize = datasize + 1
 	end
-	datasize = datasize + 1 + 100 -- add 100 for margin 1 for delivery
+	datasize = datasize + 1 + 500 -- add 100 for margin 1 for delivery
 	if tempsize > datasize then
 		print("[Commands.saveData] zSOUL QUEST SYSTEM - Backup file has more lines than current progress, sending backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. datasize .. ")");
 		local newargs = { id = id , data = temp };

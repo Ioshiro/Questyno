@@ -16,20 +16,23 @@ function Commands.setProgress(args)
 		if b == nil then
 			print("zSOUL QUEST SYSTEM - LINEA" .. lastnum .. " NULLA, SKIPPATA. (LINEA: " .. line .. ")");
 		else
-            local chunk = loadstring(line)
-            if chunk then               
+			local chunk = loadstring(line)
+			if chunk then
 				chunk();
-            else
-                print("zSOUL QUEST SYSTEM - Errore nel caricamento della riga " .. lastnum)
-            end
+			else
+				print("zSOUL QUEST SYSTEM - Errore nel caricamento della riga " .. lastnum)
+			end
 		end
 	end
 	if not temp.Delivery then
 		print("zSOUL QUEST SYSTEM - Data transformation likely to be corrupted, aborting backup. LOOK @" .. lastnum);
 		return
 	end
-	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " ..lastnum.." lines of backup.");
+	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " .. lastnum .. " lines of backup.");
 	player:getModData().missionProgress = temp;
+	if args.checkDefaults then
+		SF_MissionPanel.instance:checkDefaults();
+	end
 	SF_MissionPanel.instance:triggerUpdate();
 end
 

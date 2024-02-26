@@ -103,4 +103,13 @@ module LR{
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
+
+    item Volantino1 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Volantino,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
 }

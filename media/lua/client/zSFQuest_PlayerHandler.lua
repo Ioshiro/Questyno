@@ -98,12 +98,11 @@ local function OnPlayerDeath(player)
 	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
 		local condition = luautils.split(v.condition, ";");
 		if condition[1] == "killzombies" then
+			local newcount = 0
 			if tonumber(condition[2]) > player:getZombieKills() then
-				condition[2] = tonumber(condition[2]) - player:getZombieKills();
-			else
-				condition[2] = 0;
+				newcount = tonumber(condition[2]) - player:getZombieKills();
 			end
-			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. condition[2];
+			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. newcount;
 			needUpdate = true;
 		end
 	end
