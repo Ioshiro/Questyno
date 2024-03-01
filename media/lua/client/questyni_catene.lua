@@ -784,7 +784,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown2",
 
     awardsrep = "LaResistenza;20;RichardBrown;20", -- REP REWARD
-    awardsitem = "MoneyToXP.Droga2;1", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Droga2;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown3_Begin;Questyno_RichardBrown3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown2_Lore" },
@@ -800,7 +800,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown3",
 
     awardsrep = "LaResistenza;25;RichardBrown;20", -- REP REWARD
-    awardsitem = "MoneyToXP.Droga3;1", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Droga3;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown4_Begin;Questyno_RichardBrown4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown3_Lore" },
@@ -816,7 +816,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown4",
 
     awardsrep = "LaResistenza;35;RichardBrown;20", -- REP REWARD
-    awardsitem = "MoneyToXP.Droga4;1", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Droga4;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown5_Begin;Questyno_RichardBrown5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown4_Lore" },
@@ -895,7 +895,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_RichardBrown6_B",
     awardsrep = "LaResistenza;50;RichardBrown;109",
-    awardsitem = "Money;50;LR.FloppyDisk;1",
+    awardsitem = "Money;50;Base.AVCSClaimOrb;1",
     completesound = "levelup",
     dailycode = "Questyno_RichardBrown",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
