@@ -5160,17 +5160,17 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_SamFisher4_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher4_Text = "Sfida di pesca",
-    IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Gatto Grande almeno 50cm. Dovrei riuscire a pescarlo con una canna da pesca.",
-    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo, credo sia almeno 50cm!",
+    IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Luna Medio (20-25cm). Dovrei riuscire a pescarlo nel fiume o in un lago.",
+    IGUI_SFQuest_Questyno_SamFisher4_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo!",
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Declined = "Sarà per la prossima.",
-    IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Non pensavo ce l'avresti fatta! Alla tua!",
+    IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Vediamo cosa riesci a fare con questo.",
 	
 	
 	IGUI_SFQuest_Questyno_SamFisher5_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher5_Text = "Sfida di pesca",
-    IGUI_SFQuest_Questyno_SamFisher5_Lore = "Sam mi ha chiesto di portargli un Pesce Gatto Grande (35-55cm). Dovrei riuscire a pescarlo con una canna da pesca.",
-    IGUI_SFQuest_Questyno_SamFisher5_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo!",
+    IGUI_SFQuest_Questyno_SamFisher5_Lore = "Sam mi ha chiesto di portargli un Pesce Gatto Grande almeno 50cm. Dovrei riuscire a pescarlo con una canna da pesca.",
+    IGUI_SFQuest_Questyno_SamFisher5_Begin_Text = "Avanti, fammi vedere di cosa sei capace, scommetto che non riesci a prenderne uno come questo, credo sia almeno 50cm!",
     IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Accepted = "Pino non riesce a capire quanti dialoghi ci siano nelle quest",
     IGUI_SFQuest_Questyno_SamFisher5_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher5_Complete = "Complimenti! Non pensavo ce l'avresti fatta! Alla tua!",
