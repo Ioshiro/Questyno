@@ -3328,7 +3328,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;85",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
-    lore = { "IGUI_SFQuest_Questyno_PamelaPerez16_A_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez16_Lore" },
     text = "IGUI_SFQuest_Questyno_PamelaPerez16_A_Text",
     texture = "media/textures/Item_PamelaPerez.png",
     title = "IGUI_SFQuest_Questyno_PamelaPerez16_Title",
@@ -3400,7 +3400,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_PamelaPerez19_Text",
     texture = "media/textures/Item_PamelaPerez.png",
     title = "IGUI_SFQuest_Questyno_PamelaPerez19_Title",
-    unlocks = "clickevent;7901x8180x0:EventoPamelaPerez19;time:50:anim:loot;updateobjective:Questyno_PamelaPerez19:1:Completed",
+    unlocks = "clickevent;9504x6857x0:EventoPamelaPerez19;time:50:anim:loot;updateobjective:Questyno_PamelaPerez19:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -3425,7 +3425,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez20_Lore" },
-    needsitem = "Base.PotOfSoupRecipe;1",
+    needsitem = "Base.PotOfSoupRecipe;2",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez20_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez20_Text",
     texture = "media/textures/Item_PamelaPerez.png",

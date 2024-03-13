@@ -1260,13 +1260,13 @@ local leeQuest15 = {
         guid = "Questyno_SusanLee15_A",
         text = "IGUI_SFQuest_Questyno_SusanLee15_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee15;additem;JacketLong_Doctor;1"
+        oncompleted = "removeclickevent;EventoSusanLee15;additem;Corset_Medical;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee15_Text",
     texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee15_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;7298x9618x0:EventoSusanLee15;anim:loot:time:50;updateobjective:Questyno_SusanLee15:1:Completed"
+    unlocks = "clickevent;7298x9618x1:EventoSusanLee15;anim:loot:time:50;updateobjective:Questyno_SusanLee15:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, leeQuest15);
 
@@ -1278,7 +1278,7 @@ local leeQuest15A = {
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee15_Lore" },
-    needsitem = "JacketLong_Doctor;1", -- REQUIRE
+    needsitem = "Corset_Medical;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee15_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee15_A_Text",
     texture = "media/textures/Item_SusanLee.png",
