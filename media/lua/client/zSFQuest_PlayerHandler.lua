@@ -93,7 +93,7 @@ function SFQuest_PlayerHandler.StartPlayerFix(int, player)
 end
 
 local function OnPlayerDeath(player)
-	if not player:getModData().missionProgress then return end
+	if not player:getModData().missionProgress then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	local needUpdate = false;
 	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
 		local condition = luautils.split(v.condition, ";");
@@ -104,10 +104,14 @@ local function OnPlayerDeath(player)
 			end
 			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. newcount;
 			needUpdate = true;
+			print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Updated killzombies condition from " .. condition[2] .. " to " .. newcount);
 		end
 	end
 	if needUpdate == true then
 		SF_MissionPanel.instance:backupData();
+		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Backup data updated.");
+	else
+		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - No need to update backup data.");
 	end
 end
 

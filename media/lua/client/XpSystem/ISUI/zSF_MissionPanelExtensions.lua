@@ -234,6 +234,44 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
     end
 end
 
+function SF_MissionPanel:checkItemQuantity(stringforcheck)
+	local needsTable = luautils.split(stringforcheck, ";");
+	local itemscript = needsTable[1];
+	local quantity = tonumber(needsTable[2]) or 1;
+	local carrying;
+	local isTag;
+	local predicateValue;
+	if luautils.stringStarts(needsTable[1], "Tag#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		isTag = true;
+		carrying = self.player:getInventory():getCountTag(itemscript);
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		isTag = true;
+		carrying = self.player:getInventory():getCountTagEval(itemscript, predicateBigFish);
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		isTag = true;
+		predicateValue = tonumber(needsTable[3]);
+		carrying = self.player:getInventory():getCountTagEvalArg(itemscript, predicateCondition, predicateValue);			
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		isTag = true;
+		carrying = self.player:getInventory():getCountTagEval(itemscript, predicateFreshFood);	
+	elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
+		itemscript = luautils.split(itemscript, "#")[2];
+		isTag = true;
+		carrying = self.player:getInventory():getCountTagEval(itemscript, predicateFullDrainable);
+	else
+		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
+	end
+
+	if quantity <= carrying then
+		return true
+	end
+	return false
+end
+
 function SF_MissionPanel:updateQuestStatus(guid, status)
 	local player = self.player or getPlayer();
 	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then

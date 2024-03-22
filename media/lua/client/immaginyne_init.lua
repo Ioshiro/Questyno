@@ -16,8 +16,8 @@ local function bind()
     ExamineEntries.addEntry("Lore9", "media/ui/Poster.png", "pynokkio fynokkio");
     ExamineEntries.addEntry("Lore10", "media/ui/Poster.png", "pynokkio fynokkio");
 
-    ExamineEntries.addEntry("Volantino1", "media/ui/Volantino.png", "Un volantino in inglese? Che cos'è questa roba? Sembra una stampa fresca, sarà stato buttato dagli elicotteri che si sentivano passare ultimamente? Ma perché non li lanciano qui alla Tana questi rifornimenti? Boh, a me questa storia puzza..." );
-    
+    ExamineEntries.addEntry("Volantino1", "media/ui/Volantino.png", "Ancora questi volantini in inglese? Perchè continuano a passare ma non si fanno vedere?!" );
+	ExamineEntries.addEntry("Volantino2", "media/ui/Volantino2.png", "Mmmmmm.... Potrebbe essere una buona occasione per migliorare con la manutenzione le armi!" );
 
     table.insert(SPageTable, "LR.Lore1");
     table.insert(SPageTable, "LR.Lore2");
@@ -31,6 +31,7 @@ local function bind()
     table.insert(SPageTable, "LR.Lore10");
 
     table.insert(SPageTable, "LR.Volantino1");
+    table.insert(SPageTable, "LR.Volantino2");
 
 end
 
