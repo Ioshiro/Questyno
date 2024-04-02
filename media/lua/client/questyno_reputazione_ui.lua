@@ -173,7 +173,7 @@ function ISCharacterScreen:render()
 			totalrep = totalrep + v.minrep
 		end
 	end
-	self:drawText(format('%d%% (%s) Tot: %d', (self.char:getModData().missionProgress.Factions[1].reputation/ self.char:getModData().missionProgress.Factions[1].repmax) * 100, tiername, totalrep), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
+	self:drawText(format('%d (%d%% - %s)',totalrep,(self.char:getModData().missionProgress.Factions[1].reputation/ self.char:getModData().missionProgress.Factions[1].repmax) * 100, tiername), x + 10, z, 1, 1, 1, 0.5, UIFont.Small)
 	
 	z = z + smallFontHgt;
 	local clock = UIManager.getClock()

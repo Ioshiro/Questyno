@@ -829,77 +829,77 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	condition = "notmaxedwithcode;Questyno_TaylorBlaze;1;hasfactiontier;TaylorBlaze;3",
 	commands = "randomcodedworldfrompool;Questyno_TaylorBlaze;Questyno;TaylorBlaze",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_MarcusKane",
 	condition = "notmaxedwithcode;Questyno_MarcusKane;1;hasfactiontier;MarcusKane;3",
 	commands = "randomcodedworldfrompool;Questyno_MarcusKane;Questyno;MarcusKane",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_AlexMercer",
 	condition = "notmaxedwithcode;Questyno_AlexMercer;1;hasfactiontier;AlexMercer;3",
 	commands = "randomcodedworldfrompool;Questyno_AlexMercer;Questyno;AlexMercer",
 	days = 0,
-	frequency = 28
+	frequency = 365
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_OliviaChambers",
 	condition = "notmaxedwithcode;Questyno_OliviaChambers;1;hasfactiontier;OliviaChambers;3",
 	commands = "randomcodedworldfrompool;Questyno_OliviaChambers;Questyno;OliviaChambers",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_HarperWells",
 	condition = "notmaxedwithcode;Questyno_HarperWells;1;hasfactiontier;HarperWells;3",
 	commands = "randomcodedworldfrompool;Questyno_HarperWells;Questyno;HarperWells",
 	days = 0,
-	frequency = 336
+	frequency = 365
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GraceChambers",
 	condition = "notmaxedwithcode;Questyno_GraceChambers;1;hasfactiontier;GraceChambers;3",
 	commands = "randomcodedworldfrompool;Questyno_GraceChambers;Questyno;GraceChambers",
 	days = 0,
-	frequency = 336
+	frequency = 365
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_LucasMiller",
 	condition = "notmaxedwithcode;Questyno_LucasMiller;1;hasfactiontier;LucasMiller;3",
 	commands = "randomcodedworldfrompool;Questyno_LucasMiller;Questyno;LucasMiller",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_MayaBlackwell",
 	condition = "notmaxedwithcode;Questyno_MayaBlackwell;1;hasfactiontier;MayaBlackwell;3",
 	commands = "randomcodedworldfrompool;Questyno_MayaBlackwell;Questyno;MayaBlackwell",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_LincolnReed",
 	condition = "notmaxedwithcode;Questyno_LincolnReed;1;hasfactiontier;LincolnReed;3",
 	commands = "randomcodedworldfrompool;Questyno_LincolnReed;Questyno;LincolnReed",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GabrielWalker",
 	condition = "notmaxedwithcode;Questyno_GabrielWalker;1;hasfactiontier;GabrielWalker;3",
 	commands = "randomcodedworldfrompool;Questyno_GabrielWalker;Questyno;GabrielWalker",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_DylanHarris",
 	condition = "notmaxedwithcode;Questyno_DylanHarris;1;hasfactiontier;DylanHarris;3",
 	commands = "randomcodedworldfrompool;Questyno_DylanHarris;Questyno;DylanHarris",
 	days = 0,
-	frequency = 28
+	frequency = 30
 });
 
 --[[

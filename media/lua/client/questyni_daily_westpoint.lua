@@ -2367,6 +2367,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis20",
+    awardsrep = "LaResistenza;120",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis20_Lore" },

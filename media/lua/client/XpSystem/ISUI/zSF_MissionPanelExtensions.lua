@@ -3,6 +3,34 @@ require "XpSystem/ISUI/SF_MissionPanel"
 --SF_MissionPanel = SF_MissionPanel
 --SF_MissionPanel.Commands = {};
 
+--------------------------------------------------------------------------------------------------------
+-- Local functions, usually used to check certain items' conditions
+
+local function predicateBigFish(item)
+	local fullname =  item:getName():gsub(" ", "");
+	print("SOUL QUEST SYSTEM - Fish name was: " .. fullname);
+	local nameTable = luautils.split(fullname, "-");
+	if not nameTable[2] then return false end
+	local lengthstr = luautils.split(nameTable[2], "c")[1];
+	print("SOUL QUEST SYSTEM - Fish length was: " .. lengthstr);
+	local length = tonumber(lengthstr);
+	return item:isFresh() and length and length >= 50
+end
+
+local function predicateCondition(item, condition)
+	local percent = condition / 100;
+	local matchcondition = item:getConditionMax() * percent;
+	return instanceof(item, "HandWeapon") and item:getCondition() >= matchcondition
+end
+
+local function predicateFreshFood(item)
+	return item:isFresh()
+end
+
+local function predicateFullDrainable(item)
+	return item:getUsedDelta() == 1
+end
+
 function SF_MissionPanel.Commands.removeitem(item, quantity)
     SF_MissionPanel.instance:takeNeededItem(item..";"..quantity) -- vabbe oh dai
 end
