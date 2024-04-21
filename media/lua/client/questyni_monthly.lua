@@ -854,7 +854,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell5_A",
 
     awardsrep = "LaResistenza;150",
-    awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponsMag4;1",
+    awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponMag4;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell5_Lore" },
     needsitem = "Base.ScrapMetal;40",
@@ -1002,7 +1002,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell9_A",
 
     awardsrep = "LaResistenza;300",
-    awardsitem = "SWeapons.WeaponsMag5;1",
+    awardsitem = "SWeapons.WeaponMag5;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell9_Lore" },
     needsitem = "Base.ScrapMetal;60",
@@ -1203,7 +1203,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller1_A",
 
-    awardsrep = "LaResistenza;100",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Rotolo;3",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller1_A_Lore" },
@@ -1236,7 +1236,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller2_A",
 
-    awardsrep = "LaResistenza;110",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Rotolo;4",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller2_A_Lore" },
@@ -1269,7 +1269,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller3_A",
 
-    awardsrep = "LaResistenza;120",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Rotolo;5",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller3_A_Lore" },
@@ -1302,7 +1302,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller4_A",
 
-    awardsrep = "LaResistenza;130",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Rotolo;6",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller4_A_Lore" },
@@ -1335,7 +1335,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller5_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Mazzetta;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller5_A_Lore" },
@@ -1368,7 +1368,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller6_A",
 
-    awardsrep = "LaResistenza;50",
+    awardsrep = "LaResistenza;400",
     awardsitem = "MoneyToXP.Rotolo;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller6_A_Lore" },
