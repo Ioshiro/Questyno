@@ -392,7 +392,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Lupo23_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo23_Complete = "Hei hai provato gli intrugli del nostro amico NPC x? Cazzo che sballo, non so cosa ci metta maaa... dio boia! Hai trovato la scatola di cui ti avevo parlato?",    
     
-    
     IGUI_SFQuest_Questyno_Grif_Name = "Sergente Grif",
 
     IGUI_SFQuest_Questyno_Grif_Intro_Title = "Sergente Grif (9331x8640x0)",
@@ -497,7 +496,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Grif11_C = "Antidepressivi",
     IGUI_SFQuest_Questyno_Grif11_D = "Salviette con Alcohol",
     IGUI_SFQuest_Questyno_Grif11_A_Text = "Torna da Grif",
-
 
     IGUI_SFQuest_Questyno_Grif12_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif12_Text = "Medicine su medicine",
@@ -669,6 +667,7 @@ IGUI_IT = {
                 20. Recupero Base.Mov_MannequinFemale a 7338,9683,1 (35rep + 50$)
                 21. Recupero Base.Necklace_GoldDiamond (40rep + 25$)
                 ]]
+				
     IGUI_SFQuest_Questyno_AngelicaStella_Name = "Angelica Stella",
 
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title = "Angelica Stella 9343,8602,0",
@@ -2189,6 +2188,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina24_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina24_Begin_Text_Declined = "Spero troverai tempo.",
     IGUI_SFQuest_Questyno_RosaChina24_Complete = "Grazie, spero gli servir� ad alleviare il dolore.",
+	
 --[[
             *** Emily Terry ***
             Elenco:
@@ -2915,7 +2915,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SusanLee20_C = "2 Beta Bloccanti",
 	IGUI_SFQuest_Questyno_SusanLee20_B_Text = "Torna da Susan",
 	
-	
 	IGUI_SFQuest_Questyno_SusanLee21_Title = "Dr. Susan da Muldarugh 10822,9072,0",
     IGUI_SFQuest_Questyno_SusanLee21_Text = "Poltiglie per Susan",
     IGUI_SFQuest_Questyno_SusanLee21_Lore = "La dr. Susan mi ha chiesto di portarle una Poltiglia di piantaggine. Dovrei riuscire a crearla con un Mortaio e pestello.",
@@ -2941,6 +2940,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SusanLee23_Complete = "Grazie mille!",
 	IGUI_SFQuest_Questyno_SusanLee23_A = "Cerca a Riverside (6318,5267,0)",
 	IGUI_SFQuest_Questyno_SusanLee23_A_Text = "Torna da Susan con i Materassi",
+	
 --[[
             *** George Scott ***
             Elenco:
@@ -3959,7 +3959,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Rafael � un tipo strambo che cerca oggetti particolari sparsi per le varie citt�. Mi aspetta sempre a Muldraugh",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, � importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscir� a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dir� se valgono qualcosa! Mi darai una mano?",
 	
-	
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Text = "Whiskey per Rafael",
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Lore = "Rafael vuole che gli porti una bottiglia di Whiskey. Sembra che sia un collezionista di alcolici.",
@@ -3968,7 +3967,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Begin_Text_Declined = "Peccato! Non sai cosa ti perdi. Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Complete = "Grazie collega! Ecco a te!",
 	
-	
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Text = "Chardonnay per Rafael",
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Lore = "Rafael vorrebbe che gli trovassi una bottigli di Vino. Vediamo se riesco a trovarla.",
@@ -3976,7 +3974,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Begin_Text_Accepted = "Aspetterò con ansia",
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Begin_Text_Declined = "Peccato! Non sai cosa ti perdi. Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso2_Complete = "Grazie collega! Ecco a te!",
-	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso3_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso3_Text = "Una tromba per Rafael",
@@ -3988,7 +3985,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso3_A = "Cerca a Muldraugh (10837,10184,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso3_A_Text = "Porta la Tromba a Rafael",
 	
-	
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_Text = "Un basso per Rafael",
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_Lore = "Rafael vorrebbe che gli trovassi un Basso Blu al negozio di elettronica di New Ekron (7386,8285,0)",
@@ -3998,7 +3994,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_Complete = "Boia ma � bellissimo! Credo serva un amplificatore per questo!",
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_A = "Cerca a New Ekron (7383,8285,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso4_A_Text = "Porta il Basso Blu a Rafael",
-	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso5_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso5_Text = "Gli altoparlanti per Rafael",
@@ -4018,7 +4013,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RafaelPrezioso6_Begin_Text_Accepted = "Aspetterò con ansia",
 	IGUI_SFQuest_Questyno_RafaelPrezioso6_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso6_Complete = "Grazie, da parte di tutti mio caro.",
-	
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso7_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso7_Text = "Un favore personale",
@@ -4251,7 +4245,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Lore = "Jeffrey mi aspetta a Westpoint, sta cercando di rifornire le mensole con Pi� libiri possibile.",
     IGUI_SFQuest_Questyno_JeffreyLewis_Intro_Complete_Text = "Ciao, io sono Jeffrey. Ero un compagno di Universit� di Elia Rima a March Ridge quando tutto questo � scoppiato.  Sono arrivato trovando Sam fisher e la moglie Pamela in casa, sembravano gli unici rimasti nel quartiere e la cosa mi � sembrata molto strana. Anche il modo in cui Sam tratta sua moglie Pamela mi infastidisce. Ad ogni modo con me � stato gentile dandomi l'unica regola di non disturbarlo mentre fa le sue cose al fiume. Sono qui per ricordare a tutti l'importanza dello studio. Ti sar� molto grando se riuscirai a recuperare quanti Pi� libri in giro. Mi trovi sempre qua!",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis1_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis1_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis1_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Carpenteria 1, Carpenteria 2, Cucina 1, Elettricista 2. Dovrei andare a controllare in qualche libreria o al mercato.",
@@ -4264,7 +4257,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis1_C = "Cucina 1",
 	IGUI_SFQuest_Questyno_JeffreyLewis1_D = "Elettricista 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis1_A_Text = "Parla con Jeffrey",
-
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis2_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis2_Text = "Il prezzo della cultura",
@@ -4279,7 +4271,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis2_D = "Ispezione 3",
 	IGUI_SFQuest_Questyno_JeffreyLewis2_A_Text = "Parla con Jeffrey",
 
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis3_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis3_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis3_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 2, Lavorazione Metalli 1, Meccanica 4. Dovrei andare a controllare in qualche libreria o al mercato.",
@@ -4291,7 +4282,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis3_B = "Metalli 1",
 	IGUI_SFQuest_Questyno_JeffreyLewis3_C = "Meccanica 4",
 	IGUI_SFQuest_Questyno_JeffreyLewis3_A_Text = "Parla con Jeffrey",
-
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis4_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Il prezzo della civilt�",
@@ -4306,7 +4296,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis4_D = "Pesca 1",
 	IGUI_SFQuest_Questyno_JeffreyLewis4_A_Text = "Parla con Jeffrey",
 
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis5_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Il prezzo della civilt�",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 2, Pronto soccorso 3, Pesca 2, Pronto soccorso 5. Dovrei andare a controllare in qualche libreria o al mercato.",
@@ -4319,7 +4308,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis5_C = "Pesca 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis5_D = "Pronto Soccorso 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis5_A_Text = "Parla con Jeffrey",
-
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis6_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Il prezzo della civilt�",
@@ -4334,7 +4322,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis6_D = "Ispezione 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis6_A_Text = "Parla con Jeffrey",
 
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis7_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Text = "Il prezzo della cultura",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare alla libreria di Muldraugh (10611,10363,0)",
@@ -4349,7 +4336,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis7_D = "Rivista di Pesca vol.2",
     IGUI_SFQuest_Questyno_JeffreyLewis7_E = "Rivista di Elettronica vol.2",
     IGUI_SFQuest_Questyno_JeffreyLewis7_B_Text = "Porta a Jeffrey",
-
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis8_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Text = "Il prezzo della cultura",
@@ -4368,7 +4354,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis8_G = "Lavorazione Metalli 5",
     IGUI_SFQuest_Questyno_JeffreyLewis8_B_Text = "Porta i libri a Jeffrey",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis9_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Text = "Jeffrey il segaiolo",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifiche per lui. Vorrebbe 5 Riviste TV. Dovrei andare a controllare in qualche casa.",
@@ -4376,7 +4361,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Begin_Text_Declined = "Peccato...",
     IGUI_SFQuest_Questyno_JeffreyLewis9_Complete = "Grazie, ne far� buon uso.",
-	
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis10_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis10_Text = "Pollice verde con Jeffrey",
@@ -4392,7 +4376,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis10_E = "Coltivazione 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis10_A_Text = "Parla con Jeffrey",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis11_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis11_Text = "Nozioni di elettrica con Jeffrey",
     IGUI_SFQuest_Questyno_JeffreyLewis11_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Elettrica 1, Elettrica 2, Elettrica 3, Elettrica 4, Elettrica 5 Dovrei andare a controllare in qualche libreria o al mercato.",
@@ -4407,7 +4390,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis11_E = "Elettrica 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis11_A_Text = "Parla con Jeffrey",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis12_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Text = "Jeffrey il segaiolo",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Lore = "Jeffrey mi ha chiesto di cercare delle riviste specifici per lui. Vorrebbe 10 Riviste TV. Dovrei andare a controllare in qualche casa.",
@@ -4415,7 +4397,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Begin_Text_Declined = "Peccato...",
     IGUI_SFQuest_Questyno_JeffreyLewis12_Complete = "Grazie, ne far� buon uso.",
-	
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis13_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis13_Text = "Il prezzo dell'istruzione",
@@ -4431,7 +4412,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis13_E = "Trappole 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis13_A_Text = "Parla con Jeffrey",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Il prezzo della Societ�",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5. Dovrei andare a controllare in qualche libreria o al mercato.",
@@ -4445,7 +4425,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis14_D = "Carpenteria 2",
 	IGUI_SFQuest_Questyno_JeffreyLewis14_E = "Trappole 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis14_A_Text = "Parla con Jeffrey",
-	
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Il prezzo della Societ�",
@@ -4461,7 +4440,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis15_E = "Coltivazione 5",
 	IGUI_SFQuest_Questyno_JeffreyLewis15_A_Text = "Parla con Jeffrey",
 	
-	
 	IGUI_SFQuest_Questyno_JeffreyLewis16_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Il prezzo della civilt�",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di cacciatori 1, Rivista di cacciatori 2. Dovrei andare a controllare alla libreria a Pitstop (9681,11178,0)",
@@ -4474,7 +4452,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JeffreyLewis16_B = "Rivista di Cacciatori 1",
     IGUI_SFQuest_Questyno_JeffreyLewis16_C = "Rivista di Cacciatori 2",
     IGUI_SFQuest_Questyno_JeffreyLewis16_B_Text = "Porta a Jeffrey",
-	
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis17_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis17_Text = "Il prezzo della comunit�",
@@ -4597,7 +4574,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale per�. Questi te li sei meritati.",
 
-	
     IGUI_SFQuest_Questyno_ChristopherDavis2_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis2_Text = "Quattro salti in padella per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella. Spero gli baster�",
@@ -4606,7 +4582,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabb�, � mangiabile, tieni.",
 
-	
     IGUI_SFQuest_Questyno_ChristopherDavis3_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis3_Text = "Un cavolo per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Lore = "Christopher mi ha chiesto di portargli 3 Cavolo. Che gli � preso?",
@@ -4614,7 +4589,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Complete = "Grazie, non vedo l'ora che sia bello grasso e succulento. A presto ed ecco a te!",
-
 	
     IGUI_SFQuest_Questyno_ChristopherDavis4_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis4_Text = "L'insalatina di Christopher",
@@ -4861,7 +4835,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Pamela � la moglie sottomessa di Sam Fisher, mi aspetta sempre alla loro abirazione in cerca di risorse base.",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Ciao, io sono Pamela. Sono una perosona umule. La mia esistenza � stata sempre intrecciata con la terra, la pratica dell'agricoltura e l'allevamento degli animali (42). Ma poi, gli zombie hanno invaso il nostro mondo, e tutto � stato stravolto. Molte delle certezze di un tempo sono svanite nel nulla. Per fortuna mio marito Sam ha saputo provvedere a me e nostra figlia anche quando sono finite le forniture di acqua e corrente. Gli devo la mia vita e anche queste persone che ci hanno raggiunto. Spero mi darai una mano con alcuni semplici lavoretti..",
 
-	
 	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez1_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez1_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Carota. Dovrei trovarli nei campi agricoli.",
@@ -4870,7 +4843,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Complete = "Grazie mille, quando saranno cresciuti ti chiamo!",
 
-	
 	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez2_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez2_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Broccoli. Dovrei trovarli nei campi agricoli.",
@@ -4879,7 +4851,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Complete = "Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte!",
 
-	
 	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez3_Text = "Pi� ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez3_Lore = "Pamela mi ha chiesto di portarle 2 cataste da Tre ceppi. Dovrei trovarli nei campi agricoli.",
@@ -4887,7 +4858,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez3_Complete = "Grazie poggiali pure li. Questo � per il tuo aiuto.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez4_Text = "Pi� ceppi per Pamela",
@@ -4906,7 +4876,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez5_Complete = "Ottimo, grazie mille!",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez6_Text = "Pi� corde di stracci per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez6_Lore = "Pamela mi ha chiesto di portarle 60 Corde di stracci. Chiss� cosa deve farci.",
@@ -4914,7 +4883,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez6_Complete = "Ottimo, grazie mille!",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez7_Text = "Pi� rami per Pamela",
@@ -4924,7 +4892,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez7_Complete = "Grazie mille, li affileremo a dovere.",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez8_Text = "Cavallette per farina",
     IGUI_SFQuest_Questyno_PamelaPerez8_Lore = "Pamela mi ha chiesto di portarle 10 cavallette. Dovrei trovarle nell'erba alta.",
@@ -4932,7 +4899,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez8_Complete = "Ottimo, grazie mille!",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez9_Text = "Citronella per medicinali",
@@ -4942,7 +4908,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez9_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez10_Text = "I medicinali di Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez10_Lore = "Pamela mi ha chiesto di cercare 10 Salvia Mellifera. Vediamo se ne trovo qualcuna.",
@@ -4950,7 +4915,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez10_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez11_Text = "Due pacchi di chiodi per Pamela",
@@ -4960,7 +4924,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez11_Complete = "Grazie mille. Questo per il disturbo.",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez12_Text = "Ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez12_Lore = "Pamela mi ha chiesto di portarle 5 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci.",
@@ -4968,7 +4931,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez12_Complete = "Grazie, ci mettiamo subito al lavoro.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez13_Text = "Ceppi per Pamela",
@@ -4987,7 +4949,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Complete = "Grazie, guarda, basta sfregare in questo punto.",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez15_Text = "I funghi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela mi ha chiesto di recuperare due Funghi. Vediamo se li trovo nel bosco.",
@@ -4998,7 +4959,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_PamelaPerez15_A = "Fungo (MushroomGeneric6)",
 	IGUI_SFQuest_Questyno_PamelaPerez15_B = "Fungo (MushroomGeneric7)",
 	IGUI_SFQuest_Questyno_PamelaPerez15_A_Text = "Parla con Pamela",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez16_Text = "Armi per Pamela",
@@ -5012,7 +4972,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_PamelaPerez16_C = "4 Coltelli di pietra",
 	IGUI_SFQuest_Questyno_PamelaPerez16_A_Text = "Parla con Pamela",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez17_Text = "Pamela la piccola fabbra",
     IGUI_SFQuest_Questyno_PamelaPerez17_Lore = "Pamela mi ha chiesto di portarle 4 Scarti metallici e 1 Asse. Dice che mi costruir� un'arma speciale.",
@@ -5024,7 +4983,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_PamelaPerez17_B = "Asse",
 	IGUI_SFQuest_Questyno_PamelaPerez17_A_Text = "Parla con Pamela",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez18_Text = "Pi� stracci per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez18_Lore = "Pamela mi ha chiesto di portarle 100 stracci per pulire le sue pentole. Non farebbe prima con una spugna?",
@@ -5032,7 +4990,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez18_Complete = "Bene, mi servivano per pulire tutte le mie vettovaglie.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez19_Text = "La bambola di Pamela",
@@ -5044,7 +5001,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_PamelaPerez19_A = "Cerca nel bosco (9504,6857,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez19_A_Text = "Porta la Bambola a Pamela",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela l'affamata",
     IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela mi ha chiesto di cucinarle 2 Pentola di Zuppa e di portargliele. Dice che mi ricompenser�.",
@@ -5052,7 +5008,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Complete = "Grazie, te ne siamo infinitamente grati, ecco a te le pentole. Questi non si possono mangiare ma potrebbero farti comodo.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez21_Text = "I materassi di Pamela",
@@ -5064,7 +5019,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_PamelaPerez21_A = "Cerca nel rifugio (10934,8492,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez21_A_Text = "Porta i Materassi a Pamela",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez22_Text = "Armi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez22_Lore = "Pamela mi ha chiesto di recuperare 8 Asce di pietra. Sono a corto di armi, spero di poterle dare una mano.",
@@ -5073,7 +5027,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez22_Complete = "Grazie mille, comincio a buttare gi� qualche albero!",
 	
-	
 	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez23_Text = "Armi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez23_Lore = "Pamela mi ha chiesto di recuperare 8 Martelli di pietra. Sono a corto di armi, spero di poterle dare una mano.",
@@ -5081,7 +5034,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez23_Complete = "Grazie mille, ora possiamo difenderci! Questi sono per te.",
-	
 	
 	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez24_Text = "Pietre su pietre",
@@ -5127,7 +5079,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Sam � il capo di casa a Westpoint � un tipo pieno di sé ma a volte � quello che serve in una situazione come questa per sopravvivere. Credo abbia bisogno Pi� di compagnia che di qualcosa in particolare. Mi aspetta sempre al molo.",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita � stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Mia moglie mi ha sempre aspettato qua con nostra figlia, � stata una fortuna che non fossi in viaggio quanto tutto questo � cominciato. Ho accolto tutte queste altre persone per malinconia dei miei vecchi compagni e per la noia ma si sono rivelati tutti degli ottimi marinai! Il mare ci offre cibo abbondante se sappiamo come trovarlo.  Se non ti immischierai mai con quei farabutti della famiglia di Nigel potrai farmi un po' di compagnia quando ti va, magari impererai qualcosa! Quei bastardi continuano a razionalizzare le scorte di benzina e noi non riusciamo a prepararci in caso di emergenza!",
 
-	
 	IGUI_SFQuest_Questyno_SamFisher1_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher1_Text = "Esche per Sam",
     IGUI_SFQuest_Questyno_SamFisher1_Lore = "Sam mi ha chiesto di portagli 10 Vermi. Dovrei riuscire a trovare dei vermi scavando a terra.",
@@ -5136,7 +5087,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher1_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher1_Complete = "Perfetto, questi sono i loro preferiti.",
 
-	
 	IGUI_SFQuest_Questyno_SamFisher2_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher2_Text = "Un po' di lenza per Sam",
     IGUI_SFQuest_Questyno_SamFisher2_Lore = "Sam mi ha chiesto di portagli un po' di Lenza entro mezzogiorno. Sar� possibile?",
@@ -5145,7 +5095,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher2_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher2_Complete = "Grazie mille, questi dalli a chi te l'ha venduta, grazie.",
 
-	
 	IGUI_SFQuest_Questyno_SamFisher3_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher3_Text = "Lezioni di pesca",
     IGUI_SFQuest_Questyno_SamFisher3_Lore = "Sam mi ha chiesto di portagli un Bastone Robusto e una Graffetta. Chiss� cos'ha in mente.",
@@ -5157,7 +5106,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher3_B = "Graffetta",
 	IGUI_SFQuest_Questyno_SamFisher3_A_Text = "Parla con Sam",
 
-	
 	IGUI_SFQuest_Questyno_SamFisher4_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher4_Text = "Sfida di pesca",
     IGUI_SFQuest_Questyno_SamFisher4_Lore = "Sam mi ha chiesto di portargli un Pesce Luna Medio (20-25cm). Dovrei riuscire a pescarlo nel fiume o in un lago.",
@@ -5165,7 +5113,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher4_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher4_Complete = "Complimenti! Vediamo cosa riesci a fare con questo.",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher5_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher5_Text = "Sfida di pesca",
@@ -5184,7 +5131,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher6_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher6_Complete = "Ottimo, guarda cosa sono riuscito a prendere con uno di questi!",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher7_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher7_Text = "Lezioni di pesca",
     IGUI_SFQuest_Questyno_SamFisher7_Lore = "Sam mi ha chiesto di portargli una Rete da Pesca e in cambio mi insegner� ad usarla.",
@@ -5192,7 +5138,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher7_Complete = "Wow ottimo! Tieniti pure questo cavo, esercitati nella riparazione di queste reti e alla prossima!",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher8_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher8_Text = "Esche per Sam",
@@ -5208,7 +5153,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher8_D = "3 Vermi",
 	IGUI_SFQuest_Questyno_SamFisher8_B_Text = "Torna da Sam",
 
-	
 	IGUI_SFQuest_Questyno_SamFisher9_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher9_Text = "Sfida di pesca",
     IGUI_SFQuest_Questyno_SamFisher9_Lore = "Sam mi ha chiesto di portargli un Pesce Persico Grande (40-60cm). Dovrei riuscire a pescarlo a con una canna da pesca.",
@@ -5216,7 +5160,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher9_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher9_Complete = "Okay mi arrendo, non sono una persona cos� speciale... Ecco a te.",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher10_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher10_Text = "La vecchia canna da pesca di Sam",
@@ -5227,7 +5170,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher10_Complete = "Wow questa si che � una canna da pesca! Ti ringrazio molto, questi sono tuoi!",
 	IGUI_SFQuest_Questyno_SamFisher10_A = "Cerca a China Town (11218,8961,0)",
 	IGUI_SFQuest_Questyno_SamFisher10_A_Text = "Porta la canna da pesca a Sam",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher11_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher11_Text = "Spago per pescare",
@@ -5240,7 +5182,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher11_B = "Pesce Luna",
 	IGUI_SFQuest_Questyno_SamFisher11_A_Text = "Parla con Sam",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher12_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher12_Text = "Sfida di pesca",
     IGUI_SFQuest_Questyno_SamFisher12_Lore = "Sam mi ha chiesto portargli un Crappie. Dovrei riuscire a pescarlo a in qualche lago.",
@@ -5249,7 +5190,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher12_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher12_Complete = "Cavoli amico sei una forza!",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher13_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher13_Text = "Due gocci con Sam",
     IGUI_SFQuest_Questyno_SamFisher13_Lore = "Sam mi ha chiesto portargli due Birra in lattina per 'fare due gocci' con lui. Il solito ubriacone!",
@@ -5257,7 +5197,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher13_Complete = "Ahhh bella calda dio boia! Non fare complimenti, serviti pure",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher14_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher14_Text = "Esche per Sam",
@@ -5279,7 +5218,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher15_B = "Citronella",
 	IGUI_SFQuest_Questyno_SamFisher15_A_Text = "Parla con Sam",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher16_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher16_Text = "Un'alternativa all'amo",
     IGUI_SFQuest_Questyno_SamFisher16_Lore = "Sam mi ha chiesto di procurargli 15 Graffette perch� si trova a corto di ami. Ma perch� non se le prende da solo?",
@@ -5287,7 +5225,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher16_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher16_Complete = "Grazie, guarda, in mancanza di un amo vero, queste fanno un discreto lavoro!",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher17_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher17_Text = "Scommetti con Sam",
@@ -5301,7 +5238,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher17_A_Text = "La scommessa di Sam",
 	IGUI_SFQuest_Questyno_SamFisher17_B = "Pesce Gatto Grande",
 	IGUI_SFQuest_Questyno_SamFisher17_B_Text = "Parla con Sam",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher18_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher18_Text = "Scommetti con Sam",
@@ -5324,7 +5260,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher19_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher19_Complete = "Grazie, tieni forse questo � meglio se lo tieni tu.",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher20_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher20_Text = "Un piatto speciale",
     IGUI_SFQuest_Questyno_SamFisher20_Lore = "Sam mi ha chiesto di prendere delle Alghe per lui dal suo capanno a West Point (11286,6582,0). Dice che in cambio mi far� assaggiare un piatto speciale, speriamo bene!",
@@ -5335,7 +5270,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher20_A = "Cerca a West Point (11286,6582,0)",
 	IGUI_SFQuest_Questyno_SamFisher20_A_Text = "Porta le alghe a Sam",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher21_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher21_Text = "Pi� ceppi per Sam",
     IGUI_SFQuest_Questyno_SamFisher21_Lore = "Sam mi ha chiesto di portargli 2 Cataste da Quattro Ceppi.",
@@ -5343,7 +5277,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher21_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher21_Complete = "Grazie, sarai il primo a farci un giro.",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher22_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher22_Text = "Pi� esche per Sam",
@@ -5353,7 +5286,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher22_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher22_Complete = "Grazie, vediamo cosa ci prendo.",
 	
-	
 	IGUI_SFQuest_Questyno_SamFisher23_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher23_Text = "Sam il paranoico",
     IGUI_SFQuest_Questyno_SamFisher23_Lore = "Sam mi ha chiesto di eliminare 25 Zombie nei dintorni perch� ultimamente � paranoico. Vediamo se ne trovo qualcuno!",
@@ -5361,7 +5293,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher23_Begin_Text_Declined = "Sar� per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher23_Complete = "Grazie, tieni forse questo � meglio se lo tieni tu.",
-	
 	
 	IGUI_SFQuest_Questyno_SamFisher24_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher24_Text = "Esche per Sam",
@@ -5573,7 +5504,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Lore = "Ho incontrato Ethan a un vecchio motel all'entrata di Springwood 10310,8040,0. Sembra rimasto da solo e cerca di cavarsela come Pu�, � disposto a fare degli scambi con me, molto convenienti se sono disposto a dargli una mano con alcune faccende.",
     IGUI_SFQuest_Questyno_EthanSteele_Intro_Complete_Text = "Ciao, io sono Ethan. Mi sono unito alle Bande di Nigel perch� mi trovo Pi� a mio agio, io faccio dei lavori per loro e loro mi ricompensano con del buon cibo, vuoi giudicarmi per questo? Non esiste civilt� senza l'elettricit�, e loro mi forniscono anche quella gratuitamente. Se mi darai una mano ti lascer� una bella tanica che potr� servirti ad accumularne una quantit� maggiore.",
 
-	
 	IGUI_SFQuest_Questyno_EthanSteele1_Title = "Ethan da Springwood 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele1_Text = "Uno zaino fantastico ",
     IGUI_SFQuest_Questyno_EthanSteele1_Lore = "Ethan vorrebbe che recuperassi uno zaino particolare nel negozio a Pitstop (10102,11172,0)",
@@ -5585,7 +5515,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EthanSteele1_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_EthanSteele1_A_Text = "Porta lo zaino a Ethan",
 
-	
 	IGUI_SFQuest_Questyno_EthanSteele2_Title = "Ethan da Springwood 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele2_Text = "Una vestito speciale",
     IGUI_SFQuest_Questyno_EthanSteele2_Lore = "Ethan vorrebbe che recuperassi una giacca particolare nella mia vecchia abitazione a Cherokee Lake (11264,8219,0)",
@@ -5596,7 +5525,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EthanSteele2_A = "Cerca a Cherokee Lake (11264,8219,0)",
 	IGUI_SFQuest_Questyno_EthanSteele2_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_EthanSteele2_A_Text = "Porta la giacca a Ethan",
-
 	
 	IGUI_SFQuest_Questyno_EthanSteele3_Title = "Ethan da Springwood 10310,8040,0",
     IGUI_SFQuest_Questyno_EthanSteele3_Text = "Ethan il truffaldino",
@@ -5626,7 +5554,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor � una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta sempre a commerciare armi e munizioni, non coviene darle fregature. Posso trovarla sempre a Trelai a 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "Qui a Trelai non tolleriamo fregature. Se voglio commerciare con te, aspetto onest�. Niente giochi sporchi. Le mie armi sono le migliori in circolazione, e se vuoi sopravvivere in questo mondo, avrai bisogno di ci� che posso offrirti. Ma sii avvisato: se mi tradisci, non ci saranno seconde occasioni.",
 
-	
 	IGUI_SFQuest_Questyno_TaylorBlaze1_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze1_Text = "Munizioni per Taylor",
     IGUI_SFQuest_Questyno_TaylorBlaze1_Lore = "Taylor ha bisogno di munizioni di piccolo calibro, precisamente vorrebbe 10 Scatole di munizioni 9mm.",
@@ -5634,7 +5561,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_TaylorBlaze1_Begin_Text_Declined = "C'era da aspettarselo!",
     IGUI_SFQuest_Questyno_TaylorBlaze1_Complete = "Cavolo cen'hai messo di tempo!",
-
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze2_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze2_Text = "Munizioni per Taylor",
@@ -5644,7 +5570,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze2_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_TaylorBlaze2_Complete = "Wow, usa questa la prossima volta e dimmi come ti sembra!",
 
-	
 	IGUI_SFQuest_Questyno_TaylorBlaze3_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze3_Text = "Munizioni per Taylor",
     IGUI_SFQuest_Questyno_TaylorBlaze3_Lore = "Taylor ha bisogno di munizioni per fucili semiautomatici, precisamente vorrebbe 15 Scatole di munizioni .223",
@@ -5652,7 +5577,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze3_Begin_Text_Declined = "C'era da aspettarselo!",
     IGUI_SFQuest_Questyno_TaylorBlaze3_Complete = "Okay, hai la stoffa che serve.",
-	
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze4_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze4_Text = "Munizioni per Taylor",
@@ -5662,7 +5586,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze4_Begin_Text_Declined = "Sei un codardo!",
     IGUI_SFQuest_Questyno_TaylorBlaze4_Complete = "Complimenti, queste sono difficili da trovare, penso che parler� a Nigel di te!",
 	
-	
 	IGUI_SFQuest_Questyno_TaylorBlaze5_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Text = "Munizioni per Taylor",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Lore = "Taylor ha bisogno di munizioni per fucili semiautomatici, precisamente vorrebbe 12 Scatole di munizioni .44 Magnum",
@@ -5670,7 +5593,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Begin_Text_Declined = "C'era da aspettarselo!",
     IGUI_SFQuest_Questyno_TaylorBlaze5_Complete = "Complimenti, queste sono difficili da trovare, penso che parler� a Nigel di te!",
-	
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze6_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze6_Text = "Munizioni per Taylor",
@@ -5680,7 +5602,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze6_Begin_Text_Declined = "Sei un codardo!",
     IGUI_SFQuest_Questyno_TaylorBlaze6_Complete = "Complimenti ragazzo, davvero vieni anche tu dalla tana?!",
 	
-	
 	IGUI_SFQuest_Questyno_TaylorBlaze7_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Text = "Munizioni per Taylor",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Lore = "Taylor ha bisogno di cartucce per cecchini, precisamente 5 Scatole di munizioni .22",
@@ -5688,7 +5609,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Accepted = "Okay, muoviti, non mi muovo da qua!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Begin_Text_Declined = "Sei un codardo!",
     IGUI_SFQuest_Questyno_TaylorBlaze7_Complete = "Ottimo! Ti sei meritata una di questi kit per pulire le armi, fanne buon uso!",
-	
 	
 	IGUI_SFQuest_Questyno_TaylorBlaze8_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze8_Text = "Taylor e la Base militare",
@@ -5723,7 +5643,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Text = "Incontra Marcus Kane [Mensili]",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Lore = "Ho incotrato Marcus la prima volta a Rosewood Nord (8574,11026,0). Era in mezzo alla strada,  e l'ho quasi confuso con uno zombie da quanto sangue aveva addosso. E' una persona sadica e sembra molto divertito dalla situazione attuale delle cose. E' conosciuto anche dalle bande di Nigel e sono certo che conviene averlo dalla propria parte.",
     IGUI_SFQuest_Questyno_MarcusKane_Intro_Complete_Text = "Ciao straniero, io sono Marcus. Posso insegnarti molte tecniche diverse per colpire gli zombie in maniera efficace, dimostrami solo di essere all'altezza, okay?",
-
 	
 	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane1_Text = "Sete di sangue",
@@ -5735,7 +5654,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MarcusKane1_A = "50 Carta d'Identit�",
 	IGUI_SFQuest_Questyno_MarcusKane1_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane1_A_Text = "Parla con Marcus",
-
 	
 	IGUI_SFQuest_Questyno_MarcusKane2_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane2_Text = "Sete di sangue",
@@ -5747,7 +5665,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MarcusKane2_A = "100 Carta d'Identit�",
 	IGUI_SFQuest_Questyno_MarcusKane2_B = "Uccidi 100 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane2_A_Text = "Parla con Marcus",
-
 	
 	IGUI_SFQuest_Questyno_MarcusKane3_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane3_Text = "Sete di sangue",
@@ -5759,7 +5676,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MarcusKane3_A = "120 Carta d'Identit�",
 	IGUI_SFQuest_Questyno_MarcusKane3_B = "Uccidi 120 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane3_A_Text = "Parla con Marcus",
-	
 	
 	IGUI_SFQuest_Questyno_MarcusKane4_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane4_Text = "Sete di sangue",
@@ -5790,7 +5706,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian cel'ha a morte con le bande di Nigel, � disposto a donarmi un veicolo se sono pronto a contrastarli. Mi aspetta alla fattoria di Muldraugh.",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Ti manda il Grif vero? Ultimamente stanno arrivando molti come te. Ci stiamo espandendo, mi fa molto piacere. Ti auguro solo di non avere mai nulla a che fare con quelle carogne delle Bande di Nigel. Dovremmo cominciare a fare degli assalti piuttosto che continuare a pagare il pizzo a quelle merde! Se mi dimostrerai di che pasta sei fatto ti dar� un veicolo funzionante al 100%. Promettimi che lo userai per pedinare quei bastardi e capire cosa tramano e dove nascondono le loro scorte!",
 
-	
 	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite1_Text = "Fiducia per Brian",
     IGUI_SFQuest_Questyno_BrianWhite1_Lore = "Devo dimostrare a Brian e al gruppo di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto. ",
@@ -5798,7 +5713,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite1_Begin_Text_Declined = "Pff. Che femminuccia",
     IGUI_SFQuest_Questyno_BrianWhite1_Complete = "Okay, sei in gamba.",
-
 	
 	IGUI_SFQuest_Questyno_BrianWhite2_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite2_Text = "Fiducia per Brian",
@@ -5808,7 +5722,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite2_Begin_Text_Declined = "Lo immaginavo.",
     IGUI_SFQuest_Questyno_BrianWhite2_Complete = "Wow, non pensavo ce l'avresti fatta.",
 
-	
 	IGUI_SFQuest_Questyno_BrianWhite3_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite3_Text = "Fiducia per Brian",
     IGUI_SFQuest_Questyno_BrianWhite3_Lore = "Questa volta Brian vuole che ne ammazzi 200, forse si sta approfittando di me?",
@@ -5816,7 +5729,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_BrianWhite3_Begin_Text_Declined = "C'era da aspettarselo.",
     IGUI_SFQuest_Questyno_BrianWhite3_Complete = "Okay, hai la stoffa che serve.",
-	
 	
 	IGUI_SFQuest_Questyno_BrianWhite4_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite4_Text = "La Batteria per il veicolo",
@@ -5828,7 +5740,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_BrianWhite4_A = "Cerca a Coryerdon (9159,6127,0)",
 	IGUI_SFQuest_Questyno_BrianWhite4_A_Text = "Porta la batteria a Brian",
 	
-	
 	IGUI_SFQuest_Questyno_BrianWhite5_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite5_Text = "Uno pneumatico per il veicolo",
     IGUI_SFQuest_Questyno_BrianWhite5_Lore = "Brian vuole che gli porti uno Pneumatico di Genere robusto. Dovrei trovarne uno nell'officina di Muldraugh (10606,9409,0)",
@@ -5838,7 +5749,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite5_Complete = "Ottimo, buon lavoro",
 	IGUI_SFQuest_Questyno_BrianWhite5_A = "Cerca a Muldraugh (10606,9409,0)",
 	IGUI_SFQuest_Questyno_BrianWhite5_A_Text = "Porta lo Pneumatico a Brian",
-	
 	
 	IGUI_SFQuest_Questyno_BrianWhite6_Title = "Brian da Muldraugh 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite6_Text = "Un silenziatore per il veicolo",
@@ -5867,7 +5777,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Text = "Incontra Richard Brown [Catena]",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Lore = "Richard mi aspetta a Utopia (7178,9739,0) per farmi vedere il funzionamento di alcuni item speciali.",
     IGUI_SFQuest_Questyno_RichardBrown_Intro_Complete_Text = "Anche tu arrivi dalla Tana? Sono qua per darti qualche dritta preziosa. La chiave per rimanere in vita � la preparazione, l'ingegnosit� e la solidariet�. Insieme, possiamo costruire oggetti essenziali per la sopravvivenza e completare missioni per ottenere risorse speciali. Il mio nome � Richard e se farai alcune cose per me ti regaler� degli oggetti speciali utili a cavartela in questa situazione.",
-
 	
 	IGUI_SFQuest_Questyno_RichardBrown1_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown1_Text = "Piccolo Boost",
@@ -5876,7 +5785,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Accepted = "Ottimo! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_RichardBrown1_Begin_Text_Declined = "Pazienza. Peggio per te.",
     IGUI_SFQuest_Questyno_RichardBrown1_Complete = "Okay, prova a leggerlo e allena l'abilit� che preferisci! Ma non agitarti troppo!",
-
 	
 	IGUI_SFQuest_Questyno_RichardBrown2_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown2_Text = "Buon Boost",
@@ -5885,7 +5793,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Accepted = "Ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown2_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown2_Complete = "Okay, prova a leggerlo e allena l'abilit� che preferisci! Ma non agitarti troppo!",
-
 	
 	IGUI_SFQuest_Questyno_RichardBrown3_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown3_Text = "Ottimo Boost",
@@ -5895,7 +5802,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown3_Begin_Text_Declined = "Cercher� qualcun'altro.",
     IGUI_SFQuest_Questyno_RichardBrown3_Complete = "Okay, prova a leggerlo e allena l'abilit� che preferisci! Ma non agitarti troppo!",
 	
-	
 	IGUI_SFQuest_Questyno_RichardBrown4_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown4_Text = "Super Boost",
     IGUI_SFQuest_Questyno_RichardBrown4_Lore = "Devo uccidere 400 Zombie cos� Richard mi dar� qualcosa per migliorare le mie prestazioni.",
@@ -5904,7 +5810,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown4_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RichardBrown4_Complete = "Okay, prova a leggerlo e allena l'abilit� che preferisci! Ma non agitarti troppo!",
 	
-	
 	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
     IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che Pu� essere utilizzato solo una volta e appena ritorno in citt�. Devo uccidere 50 zombie per avere la sua approvazione.",
@@ -5912,7 +5817,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_RichardBrown5_Complete = "Okay, forse non ti servir� a molto ormai ma potrai sempre comprarne uno al Mercato della Tana [Funzioner� soltanto nelle prime 6 ore di sopravvivenza]",
-	
 	
 	IGUI_SFQuest_Questyno_RichardBrown6_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown6_Text = "Claim Veicolo",
@@ -5947,7 +5851,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Robert Pu� darmi una mano ad ottenere un generatore. Devo soltanto trovare le parti che richiede.",
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Mi trovo da queste parti per conto del Sergente Grif che rispetto moltissimo. E' grazie a lui se sono ancora vivo. Mi trovo qui per mantenere un minimo di diplomazia con la Tana. Posso darti una mano ad assemblare un generatore se mi troverai le parti, cos� da poterti stabilire e prosperare.",
 
-	
 	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da West Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson1_Text = "Fiducia da conquistare",
     IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 25 Zombie per suo conto. ",
@@ -5955,7 +5858,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson1_Complete = "Ottimo, andiamo avanti allora.",
-
 	
 	IGUI_SFQuest_Questyno_RobertWilson2_Title = "Robert da West Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson2_Text = "Pi� fiducia da conquistare",
@@ -5969,7 +5871,6 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RobertWilson2_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_RobertWilson2_B_Text = "Porta la Chiave a Robert",
 
-	
 	IGUI_SFQuest_Questyno_RobertWilson3_Title = "Robert da West Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson3_Text = "Parti elettroniche per Robert",
     IGUI_SFQuest_Questyno_RobertWilson3_Lore = "Devo portare 50 Parti elettroniche a Robert. Saranno utili per ultimare il mio generatore.",
@@ -5977,7 +5878,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson3_Complete = "Ottimo, buon lavoro.",
-	
 	
 	IGUI_SFQuest_Questyno_RobertWilson4_Title = "Robert da West Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson4_Text = "La rivista per i Generatori",
@@ -5988,7 +5888,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson4_Complete = "Ottimo, buon lavoro. Questa leggila per bene",
 	IGUI_SFQuest_Questyno_RobertWilson4_A = "Cerca a Lake Ivy (9416,9985,0)",
 	IGUI_SFQuest_Questyno_RobertWilson4_A_Text = "Porta la rivista a Robert",
-	
 	
 	IGUI_SFQuest_Questyno_RobertWilson5_Title = "Robert da West Point (10182,6764,0)",
     IGUI_SFQuest_Questyno_RobertWilson5_Text = "E luce sia!",
@@ -6015,7 +5914,6 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Text = "Incontra Alex Mercer. [Annuale]",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Lore = "Alex fa parte di un piccolo gruppo ben organizzato a Redfordville. Non ha mezzi termini, vuole che ammazzi Pi� bastardi possibile. La sua reputazione lo precede, sicuramente mi dar� una mano a farmi conoscere.",
     IGUI_SFQuest_Questyno_AlexMercer_Intro_Complete_Text = "Hei straniero, cosa ti spinge fino a qua? Non mi dire che anche tu arrivi dalla Tana! Siete ancora tutti vivi? Da queste parti abbiamo altre regole, se vorrai il nostro aiuto dovrai dimostrarci di avere la stoffa per ripulire questo mondo dall'infezione una volta per tutte. I cavoli e le patate lasciamole ai contadini, noi questo macello lo risolviamo con il metallo!",
-
     
     IGUI_SFQuest_Questyno_AlexMercer1_Title = "Alex Mercer da Redfordville (3642,7302,0)",
     IGUI_SFQuest_Questyno_AlexMercer1_Text = "Debellare l'infezione",
