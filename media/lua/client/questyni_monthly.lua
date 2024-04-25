@@ -854,7 +854,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell5_A",
 
     awardsrep = "LaResistenza;150",
-    awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponMag4;1",
+    awardsitem = "SWeapons.WeaponMag2;1;SWeapon.WeaponMag4;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell5_Lore" },
     needsitem = "Base.ScrapMetal;40",
@@ -1076,7 +1076,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell11_A",
 
     awardsrep = "LaResistenza;200",
-    awardsitem = "SWeapons.WeaponsMag6;1",
+    awardsitem = "SWeapons.WeaponMag6;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell11_Lore" },
     needsitem = "Base.ScrapMetal;50",
@@ -1150,7 +1150,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell13_A",
 
     awardsrep = "LaResistenza;200",
-    awardsitem = "SWeapons.WeaponsMag7;1",
+    awardsitem = "SWeapons.WeaponMag7;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell13_Lore" },
     needsitem = "Base.ScrapMetal;50",
