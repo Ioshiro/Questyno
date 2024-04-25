@@ -869,7 +869,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell5_A",
 
     awardsrep = "LaResistenza;150",
-    awardsitem = "SWeapons.WeaponMag2;1;SWeapon.WeaponMag4;1",
+    awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
     lore = { "IGUI_SFQuest_Questyno_MayaBlackwell5_Lore" },
