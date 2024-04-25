@@ -1691,7 +1691,7 @@ local scottQuest2 = {
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott2_Lore" },
-    needsitem = "Jacket_Chef;1", -- REQUIRE
+    needsitem = "Jacket_Padded;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott2_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2439,7 +2439,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung1",
 
-    awardsrep = "LaResistenza;275", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     needsitem = "DeadRabbit;4", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
@@ -2531,7 +2531,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung7",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Base.DehydratedMeatStick;8", -- ITEM REWARD
     needsitem = "DeadRabbit;2", -- REQUIRE
     completesound = "levelup",
@@ -2727,7 +2727,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung15",
 
-    awardsrep = "LaResistenza;190", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     needsitem = "DeadRabbit;6", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
@@ -2749,7 +2749,7 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_SamuelYoung16_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung16_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSamuelYoung16;additem;DeadSquirrel;10",
+        oncompleted = "removeclickevent;EventoSamuelYoung16;additem;DeadSquirrel;2",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung16_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2761,12 +2761,12 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung16_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;100",
     awardsitem = "DeadSquirrel;1",
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung16_Lore" },
-    needsitem = "DeadSquirrel;10",
+    needsitem = "DeadSquirrel;2",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung16_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung16_A_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2783,7 +2783,7 @@ table.insert(SFQuest_Database.QuestPool,{
         guid = "Questyno_SamuelYoung17_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung17_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSamuelYoung17;additem;DeadRabbit;10",
+        oncompleted = "removeclickevent;EventoSamuelYoung17;additem;DeadRabbit;2",
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung17_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2795,12 +2795,12 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung17_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;100",
     awardsitem = "DeadRabbit;1",
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung17_Lore" },
-    needsitem = "DeadRabbit;10",
+    needsitem = "DeadRabbit;2",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung17_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung17_A_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2871,7 +2871,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung22",
 
-    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
     needsitem = "DeadRabbit;6", -- REQUIRE
     completesound = "levelup",
@@ -3028,7 +3028,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura6",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    needsitem = "Trousers_Scrubs;1", -- REQUIRE
+    needsitem = "Trousers_Padded;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura6_Lore" },
@@ -3283,7 +3283,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura23",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
-    needsitem = "Shirt_PrisonGuard;1", -- REQUIRE
+    needsitem = "Shirt_Baseball_KY;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura23_Lore" },

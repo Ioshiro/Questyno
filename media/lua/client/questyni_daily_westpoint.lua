@@ -657,7 +657,7 @@ table.insert(SFQuest_Database.QuestPool, {
 				18. Recuperare Moveables.DylansWallDeco01_10 parlando con (8346,11716,0) (35rep)
 				19. Recuperare Base.Glasses_Eyepatch_Right parlando con (7338,9663,0) (50rep)
 				20. Recuperare Base.Suit_Jacket,Base.Trousers_Suit (80rep)
-				21. Recuperare Base.Neackle_DogTag;2 (50rep)
+				21. Recuperare Base.Neackle_DogTag;20 (50rep)
 				22. Recuperare Base.NoseStud_Gold (30rep)
 				23. Recuperare Base.Tie_BowTieWorn (150rep + 40$)
 ]]
@@ -1365,7 +1365,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso21_Lore" },
-    needsitem = "Base.Necklace_DogTag;2",
+    needsitem = "Base.Necklace_DogTag;20",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso21_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",
