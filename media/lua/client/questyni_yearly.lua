@@ -27,6 +27,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;1800", -- REP REWARD
     completesound = "levelup",
+    dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer1_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer1_Text",
     texture = "media/textures/Item_AlexMercer.png",
@@ -40,6 +41,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;2000", -- REP REWARD
     completesound = "levelup",
+    dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer2_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer2_Text",
     texture = "media/textures/Item_AlexMercer.png",
@@ -55,6 +57,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awrdsitem = "SWeapons.ChainBat;1",
     awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",
+    dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer3_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer3_Text",
     texture = "media/textures/Item_AlexMercer.png",
@@ -88,6 +91,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells1",
     awardstask = "Questyno_HarperWells1_A",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells1_Lore" },
     objectives = {{
         guid = "Questyno_HarperWells1_A",
@@ -111,6 +115,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
     completesound = "levelup",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells1_A_Lore" },
     needsitem = "LR.Lore1;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells1_Complete",
@@ -122,6 +127,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells2",
     awardstask = "Questyno_HarperWells2_A",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells2_Lore" },
     objectives = {{
         guid = "Questyno_HarperWells2_A",
@@ -145,6 +151,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
     completesound = "levelup",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells2_A_Lore" },
     needsitem = "LR.Lore2;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells2_Complete",
@@ -156,6 +163,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells3",
     awardstask = "Questyno_HarperWells3_A",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells3_Lore" },
     objectives = {{
         guid = "Questyno_HarperWells3_A",
@@ -179,6 +187,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
     completesound = "levelup",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells3_A_Lore" },
     needsitem = "LR.Lore3;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells3_Complete",
@@ -190,6 +199,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_HarperWells4",
     awardstask = "Questyno_HarperWells4_A",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells4_Lore" },
     objectives = {{
         guid = "Questyno_HarperWells4_A",
@@ -213,6 +223,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;3500", -- REP REWARD
     awardsitem = "Money;120;LabItems.CmpSyringeWithCure;1",
     completesound = "levelup",
+    dailycode = "Questyno_HarperWells",
     lore = { "IGUI_SFQuest_Questyno_HarperWells4_A_Lore" },
     needsitem = "LR.Lore4;1",
     onobtained = "unlockworldevent;Questyno_HarperWells;SFQuest_Questyno_HarperWells4_Complete",
@@ -236,6 +247,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "GraceChambers;100", -- REP REWARD
     completesound = "levelup",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers_Intro_Text",
     texture = "media/textures/Item_GraceChambers.png",
@@ -247,6 +259,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers1",
     awardstask = "Questyno_GraceChambers1_A",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers1_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers1_A",
@@ -266,6 +279,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;2400", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
     completesound = "levelup",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers1_Lore" },
     needsitem = "LabItems.CmpSyringeWithAdvancedVaccine;4",
     onobtained = "unlockworldevent;Questyno_GraceChambers;SFQuest_Questyno_GraceChambers1_Complete",
@@ -277,6 +291,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers2",
     awardstask = "Questyno_GraceChambers2_A",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers2_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers2_A",
@@ -299,6 +314,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers2_A",
     awardstask = "Questyno_GraceChambers2_B",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers2_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers2_C",
@@ -323,6 +339,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;2",
     completesound = "levelup",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers2_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers2_A_Text",
     texture = "media/textures/Item_GraceChambers.png",
@@ -333,6 +350,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers3",
     awardstask = "Questyno_GraceChambers3_A",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers3_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers3_A",
@@ -356,6 +374,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
     completesound = "levelup",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers3_Lore" },
     needsitem = "LabItems.CmpSyringeWithAdvancedVaccine;1",
     onobtained = "unlockworldevent;Questyno_GraceChambers;SFQuest_Questyno_GraceChambers3_Complete",
@@ -367,6 +386,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers4",
     awardstask = "Questyno_GraceChambers4_A",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers4_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers4_A",
@@ -389,6 +409,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GraceChambers4_A",
     awardstask = "Questyno_GraceChambers4_B",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers4_B_Lore" },
     objectives = {{
         guid = "Questyno_GraceChambers4_C",
@@ -413,6 +434,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "Money;1000",
     completesound = "levelup",
+    dailycode = "Questyno_GraceChambers",
     lore = { "IGUI_SFQuest_Questyno_GraceChambers4_B_Lore" },
     text = "IGUI_SFQuest_Questyno_GraceChambers4_B_Text",
     texture = "media/textures/Item_GraceChambers.png",

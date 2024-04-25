@@ -929,6 +929,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso10_A",
     awardstask = "Questyno_RafaelPrezioso10_B",
+    dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso10_Lore" },
     objectives = {
         {
@@ -992,6 +993,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso11_A",
     awardstask = "Questyno_RafaelPrezioso11_B",
+    dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso11_Lore" },
     objectives = {
         {
@@ -1054,6 +1056,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso12_A",
     awardstask = "Questyno_RafaelPrezioso12_B",
+    dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso12_Lore" },
     objectives = {
         {
@@ -1743,6 +1746,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis7_A",
     
     awardstask = "Questyno_JeffreyLewis7_B",
+    dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis7_Lore" },
     objectives = {
         {
@@ -2238,6 +2242,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis17_A",
     awardstask = "Questyno_JeffreyLewis17_B",
+    dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis17_A_Lore" },
     objectives = { {
         guid = "Questyno_JeffreyLewis17_B",
@@ -2290,6 +2295,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis18_A",
     awardstask = "Questyno_JeffreyLewis18_B",
+    dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis18_A_Lore" },
     objectives = { {
         guid = "Questyno_JeffreyLewis18_B",
@@ -2597,6 +2603,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;60",
     awardsitem = "Money;70",
     completesound = "levelup",
+    dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis5_Lore" },
     needsitem = "Base.Butter;2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis5_Complete",
@@ -2627,6 +2634,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis6_A",
     awardstask = "Questyno_ChristopherDavis6_B",
+    dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis6_A_Lore" },
     objectives = { {
         guid = "Questyno_ChristopherDavis6_B",
@@ -2818,6 +2826,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ChristopherDavis15_A",
     awardstask = "Questyno_ChristopherDavis15_B",
+    dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis15_A_Lore" },
     objectives = { {
         guid = "Questyno_ChristopherDavis15_B",
@@ -3700,6 +3709,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_SamFisher8_A",
     awardstask = "Questyno_SamFisher8_B",
+    dailycode = "Questyno_SamFisher",
     lore = { "IGUI_SFQuest_Questyno_SamFisher8_A_Lore" },
     objectives = { {
         guid = "Questyno_SamFisher8_B",
