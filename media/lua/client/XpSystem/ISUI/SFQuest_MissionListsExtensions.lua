@@ -133,7 +133,7 @@ function SFQuest_QuestWindow:render()
 						r,g,b = 0.5,0.5,0.5;
 					end
 				end
-				self:drawText(objtext, textX + 2, rewardHeight + 2, r, g, b, 1, self.font);
+				self:drawText(objtext, textX, rewardHeight + 2, r, g, b, 1, self.font);
 			end
 			rewardHeight = rewardHeight - 20;
 		end
@@ -158,7 +158,7 @@ function SFQuest_QuestWindow:close()
 end
 
 function SFQuest_QuestWindow:new(x, y, item)
-	local width = 400
+	local width = 420
 	local height = 240
 	local o = ISCollapsableWindow:new(x, y, width, height)
 	setmetatable(o, self)
