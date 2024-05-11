@@ -50,22 +50,19 @@ function SFQuest_QuestWindow:render()
 	local textX = 12 + picWidth + 36;
 	local rewardHeight = self.height - self.fontHeight - 10
 	local hasRewards = false;
+	local hasNeeds = false;
 	local hasObjs = false;
+	-- sezione Rewards Reputazione
 	if self.awardsrep  then
 		local repTable = luautils.split(self.awardsrep, ";");
-		--local factionName = 
 		local repBonus = repTable[2];
 		local repStr = "+" .. repBonus .. " reputation";
-		self:drawTextureScaledAspect(getTexture("media/textures/Item_PlusRep.png"), textX, rewardHeight, 20, 20, 1, 1, 1, 1);
-		self:drawText(repStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);	
+		self:drawTextureScaledAspect(getTexture("media/textures/Item_PlusRep.png"), textX - 20, rewardHeight, 20, 20, 1, 1, 1, 1);
+		self:drawText(repStr, textX, rewardHeight + 2, 1, 1, 1, 1, self.font);	
 		rewardHeight = rewardHeight - 20;
 		hasRewards = true;
 	end
-	
-
-	
-    
-
+	-- sezione rewards Item
 	if self.awardsitem  then
 		local count = 1;
 		local rewardTable = luautils.split(self.awardsitem, ";");
@@ -79,14 +76,14 @@ function SFQuest_QuestWindow:render()
 		if icon then
 			texture = getTexture("Item_" .. icon)
 			if texture then
-				self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);
+				self:drawTextureScaledAspect(texture, textX - 20, rewardHeight, 20, 20, 1, 1, 1, 1);
 			end
 		end
 		local rewardStr = itemName;
 		if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
 			rewardStr = itemName .. "  X " .. rewardTable[count + 1];
 		end		
-		self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
+		self:drawText(rewardStr, textX, rewardHeight + 2, 1, 1, 1, 1, self.font);
 		hasRewards = true;
 		count = 3;
 		rewardHeight = rewardHeight - 20;
@@ -100,14 +97,14 @@ function SFQuest_QuestWindow:render()
 			if icon then
 				texture = getTexture("Item_" .. icon)
 				if texture then
-					self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);
+					self:drawTextureScaledAspect(texture, textX - 20, rewardHeight, 20, 20, 1, 1, 1, 1);
 				end
 			end
 			rewardStr = itemName;
 			if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
 				rewardStr = itemName .. "  X " .. rewardTable[count + 1];
 			end	
-			self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
+			self:drawText(rewardStr, textX, rewardHeight + 2, 1, 1, 1, 1, self.font);
 			count = count + 2;
 			rewardHeight = rewardHeight - 20;
 		end
@@ -115,31 +112,106 @@ function SFQuest_QuestWindow:render()
 	if hasRewards then
 		self:drawText(getText("IGUI_Rewards"), 12 + picWidth + 24, rewardHeight + 4, 1, 1, 1, 1, self.font);
 	end
-	-- inserimento eventuali obiettivi
+	-- sezione obiettivi missione
+	local needsHeight = self.height - self.fontHeight - 10
+	if self.needsitem  then
+		local count = 1;
+		local newString = self.needsitem:gsub("Tag#", "")
+		local rewardTable = luautils.split(newString, ";");
+		local scriptItem = getScriptManager():FindItem(rewardTable[1]);
+		if scriptItem then
+			local itemName = scriptItem:getDisplayName();
+			local icon = scriptItem:getIcon()
+			if scriptItem:getIconsForTexture() and not scriptItem:getIconsForTexture():isEmpty() then
+				icon = scriptItem:getIconsForTexture():get(0)
+			end
+			if icon then
+				texture = getTexture("Item_" .. icon)
+				if texture then
+					self:drawTextureScaledAspect(texture, textX + 110, needsHeight, 20, 20, 1, 1, 1, 1);
+				end
+			end
+		
+			local rewardStr = itemName;
+			if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
+				rewardStr = itemName .. "  X " .. rewardTable[count + 1];
+			end		
+			self:drawText(rewardStr, textX + 130, needsHeight + 2, 1, 1, 1, 1, self.font);
+			hasNeeds = true;
+			count = 3;
+			needsHeight = needsHeight - 20;
+		
+			while rewardTable[count] do
+
+			
+				scriptItem = getScriptManager():FindItem(rewardTable[count]);
+				itemName = scriptItem:getDisplayName();
+				icon = scriptItem:getIcon()
+				if scriptItem:getIconsForTexture() and not scriptItem:getIconsForTexture():isEmpty() then
+					icon = scriptItem:getIconsForTexture():get(0)
+				end
+				if icon then
+					texture = getTexture("Item_" .. icon)
+					if texture then
+						self:drawTextureScaledAspect(texture, textX + 110, needsHeight, 20, 20, 1, 1, 1, 1);
+					end
+				end
+				rewardStr = itemName;
+				if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
+					rewardStr = itemName .. "  X " .. rewardTable[count + 1];
+				end	
+				self:drawText(rewardStr, textX + 130, needsHeight + 2, 1, 1, 1, 1, self.font);
+				count = count + 2;
+				needsHeight = needsHeight - 20;
+			end
+		end
+	end
+	if hasNeeds then
+		self:drawText(getText("IGUI_Objectives"), textX + 120, needsHeight + 4, 1, 1, 1, 1, self.font);
+	end
+	-- inserimento eventuali obiettivi multipli (quest con più objectives quests)
 	if self.objectives and #self.objectives > 0 then
 		hasObjs = true;
 		for i=1,#self.objectives do
 			if not self.objectives[i].hidden then
-				local objtext = "--" .. getText(self.objectives[i].text)
+				if self.objectives[i].needsitem then
+					local newString = self.objectives[i].needsitem:gsub("Tag#", "")
+					-- print("newString è: " .. newString);
+					local needsTable = luautils.split(newString, ";");	
+					local needItem = getScriptManager():FindItem(needsTable[1]);
+					if needItem then
+						-- print("needItem è: " .. needItem);
+						local needItemIcon = needItem:getIcon()
+						-- print("needItemIcon è: " .. needItemIcon);
+						if needItem:getIconsForTexture() and not needItem:getIconsForTexture():isEmpty() then
+							needItemIcon = needItem:getIconsForTexture():get(0)
+						end
+						if needItemIcon then
+							local needItemTexture = getTexture("Item_" .. needItemIcon)
+							if needItemTexture then
+								self:drawTextureScaledAspect(needItemTexture, textX - 20, rewardHeight, 20, 20, 1, 1, 1, 1);
+							end
+						end	
+					end
+				end	
+
+				local objtext = getText(self.objectives[i].text)
 				r,g,b = 0.5,0.5,0.5;
 				if not self.greyed then
-					r,g,b = 1.0,1.0,1.0;
+				r,g,b = 1.0,1.0,1.0;
 				end
 				if self.objectives[i].status then
-					objtext = "--" .. getText("IGUI_XP_TaskStatus_" .. self.objectives[i].status) .. getText(self.objectives[i].text);
+					objtext = getText("IGUI_XP_TaskStatus_" .. self.objectives[i].status) .. getText(self.objectives[i].text);
 					if self.objectives[i].status == "Failed" then
 						r,g,b = 1.0,0.25,0.25;
 					elseif  self.objectives[i].status == "Delivered" then
-						r,g,b = 0.5,0.5,0.5;
+							r,g,b = 0.5,0.5,0.5;
 					end
 				end
-				self:drawText(objtext, textX, rewardHeight + 2, r, g, b, 1, self.font);
+					self:drawText(objtext, textX +2, rewardHeight + 2, r, g, b, 1, self.font);
 			end
-			rewardHeight = rewardHeight - 20;
+				rewardHeight = rewardHeight - 20;
 		end
-
-
-
 	end
 	if hasObjs then
 		self:drawText(getText("IGUI_Objectives"), 12 + picWidth + 24, rewardHeight + 4, 1, 1, 1, 1, self.font);
@@ -171,7 +243,11 @@ function SFQuest_QuestWindow:new(x, y, item)
 	o.awardsrep = item.awardsrep
 	o.awardsitem = item.awardsitem
 	o.objectives = item.objectives
+	o.needsitem = item.needsitem
 	o.title = getText(item.text) or "????";
+	if item.status then
+		o.title = getText("IGUI_XP_TaskStatus_" .. item.status) .. getText(item.text);
+	end
 	o.npcname = getText(item.title) or "????";
 	o.buttonBorderColor = {r=0.7, g=0.7, b=0.7, a=0.5};
 	o:setResizable(false)

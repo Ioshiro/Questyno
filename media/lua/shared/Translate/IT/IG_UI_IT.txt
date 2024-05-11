@@ -36,7 +36,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Pynocchio_Name = "Pynocchio",
     IGUI_SFQuest_Questyno_Brioshi_Name = "Brioshi",
     IGUI_Reputation = "Reputazione",
-    IGUI_Objectives = "Obiettivi",
+    IGUI_Objectives = "Obiettivi:",
 
 --[[                        *** SEZIONE 1: QUEST PER SOLDI ***
             Elenco:

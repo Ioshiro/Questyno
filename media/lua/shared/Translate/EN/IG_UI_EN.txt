@@ -35,7 +35,7 @@ IGUI_Factions_Daily_Tier4: "Completed",
 IGUI_SFQuest_Questyno_Pynocchio_Name: "Pynocchio",
 IGUI_SFQuest_Questyno_Brioshi_Name: "Brioshi",
 IGUI_Reputation = "Reputation",
-IGUI_Objectives = "Objectives",
+IGUI_Objectives = "Objectives:",
 
 --[[                        *** SEZIONE 1: QUEST PER SOLDI ***
             Elenco:
