@@ -120,20 +120,20 @@ function SFQuest_QuestWindow:render()
 		hasObjs = true;
 		for i=1,#self.objectives do
 			if not self.objectives[i].hidden then
-				local objtext = getText(self.objectives[i].text)
+				local objtext = "--" .. getText(self.objectives[i].text)
 				r,g,b = 0.5,0.5,0.5;
 				if not self.greyed then
 					r,g,b = 1.0,1.0,1.0;
 				end
 				if self.objectives[i].status then
-					objtext = getText("IGUI_XP_TaskStatus_" .. self.objectives[i].status) .. getText(self.objectives[i].text);
+					objtext = "--" .. getText("IGUI_XP_TaskStatus_" .. self.objectives[i].status) .. getText(self.objectives[i].text);
 					if self.objectives[i].status == "Failed" then
 						r,g,b = 1.0,0.25,0.25;
 					elseif  self.objectives[i].status == "Delivered" then
 						r,g,b = 0.5,0.5,0.5;
 					end
 				end
-				self:drawText(objtext, textX + 22, rewardHeight + 2, r, g, b, 1, self.font);
+				self:drawText(objtext, textX + 2, rewardHeight + 2, r, g, b, 1, self.font);
 			end
 			rewardHeight = rewardHeight - 20;
 		end
