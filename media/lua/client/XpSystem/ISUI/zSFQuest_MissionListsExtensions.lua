@@ -34,7 +34,7 @@ function SFQuest_QuestWindow:createChildren()
 	
 
 	if self.picture then
-	self.Image = ISButton:new(12, 50, 100, 85, " ", nil, nil);
+	self.Image = ISButton:new(12, 50, 110, 85, " ", nil, nil);
 	self.picTexture = getTexture(self.picture)
 	self.Image:setImage(self.picTexture)
     self.Image:setVisible(true);
@@ -45,33 +45,47 @@ function SFQuest_QuestWindow:createChildren()
 
 
 	if self.unlocks and #self.unlocks > 0 then
-		local convertedcondition = self.unlocks:gsub(":", ";");
-		local unlocksTable = luautils.split(convertedcondition, ";");
-		local player = getPlayer();
-		if player and #unlocksTable > 0 then
-		  	for j = 1, #unlocksTable do
-				if unlocksTable[j] == "killzombies" then
-					self.goal = tonumber(unlocksTable[j + 1]);
-			  		if player:getModData().missionProgress.ActionEvent then 
-			  			for k, v in pairs(player:getModData().missionProgress.ActionEvent) do
-							local commands = luautils.split(v.commands, ";");
-							for g = 1, #commands do
-								if commands[g] == self.guid then
-									self.tempGoal = tonumber(luautils.split(v.condition, ";")[2]);
-									self.currentKills = player:getZombieKills()
-									self.hasZombieCounter = true;
-									print("tempGoal: " .. self.tempGoal)
-									print("currentKills: " .. self.currentKills)
-									print("goal: " .. self.goal)
-									break; 
-					  			end
-							end
-						end
-			  		end
-				end
-		  	end
-		end
-	end
+        local convertedcondition = self.unlocks:gsub(":", ";")
+        local unlocksTable = luautils.split(convertedcondition, ";")
+        local player = getPlayer()
+        if player and #unlocksTable > 0 then
+            for j = 1, #unlocksTable do
+                if unlocksTable[j] == "killzombies" then
+                    self.goal = tonumber(unlocksTable[j + 1])
+                    local hasUnlockWorldEvent = false
+                    local unlockWorldEventIdentifier = nil
+                    
+                    -- Cerca se esiste unlockworldevent
+                    for k = 1, #unlocksTable do
+                        if unlocksTable[k] == "unlockworldevent" then
+                            hasUnlockWorldEvent = true
+                            unlockWorldEventIdentifier = unlocksTable[k + 2]
+                            break
+                        end
+                    end
+                    
+                    if player:getModData().missionProgress.ActionEvent then 
+                        for k, v in pairs(player:getModData().missionProgress.ActionEvent) do
+                            local commands = luautils.split(v.commands, ";")
+    
+                            for g = 1, #commands do
+                                if commands[g] == self.guid or (commands[g] == "unlockworldevent" and hasUnlockWorldEvent and commands[g + 2] == unlockWorldEventIdentifier) then
+                                    self.tempGoal = tonumber(luautils.split(v.condition, ";")[2])
+                                    self.currentKills = player:getZombieKills()
+                                    self.hasZombieCounter = true
+                                    print("tempGoal: " .. self.tempGoal)
+                                    print("currentKills: " .. self.currentKills)
+                                    print("goal: " .. self.goal)
+                                    break
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
 
 	local objectiveHeight  = 15
 	if self.objectives and #self.objectives > 3 then
