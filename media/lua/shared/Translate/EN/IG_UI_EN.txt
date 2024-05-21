@@ -1,5 +1,10 @@
 IGUI_EN = {
-    IGUI_SFQuest_Questyno_Test1_Text: "That idiot wants pizza",
+
+IGUI_XP_TaskStatus_Completed = "[COMPL.] ",
+IGUI_XP_TaskStatus_Obtained = "[OBT.] ",
+IGUI_XP_TaskStatus_Updated = "[UPD.] ",
+	
+IGUI_SFQuest_Questyno_Test1_Text: "That idiot wants pizza",
 IGUI_SFQuest_Questyno_Test1_Title: "Pizza Day",
 IGUI_SFQuest_Questyno_Test1_Lore: "I spoke with Pino and he told me to look for pizza. Surely if I go further and kill two zombies I'll find the solution.",
 IGUI_SFQuest_Questyno_Test1_Lore_Award: "Wow, it was a fantastic experience, I'll probably change my job.",
@@ -49,7 +54,7 @@ IGUI_Objectives = "Objectives:",
                 7.  50 soldi per 2 pipe bomb
                 8.  30 soldi per 3 scatole di chiodi
                 9.  500 soldi per pharmacy book
-                10. 100 soldi per 1 arma da fuoco random (in verit? questa sono tre quest con stesso dialogo e titolo, per� danno tre reward diversi)
+                10. 100 soldi per 1 arma da fuoco random (in verit? questa sono tre quest con stesso dialogo e titolo, per? danno tre reward diversi)
                     10a. 100 soldi per pistola
                     10b. 100 soldi per fucile a pompa
                     10c. 100 soldi per revolver
@@ -1836,7 +1841,7 @@ IGUI_SFQuest_Questyno_Money10_Complete: "Hello slave! I guess it was quite an ex
 	IGUI_SFQuest_Questyno_MikePozzo14_Title = "Mike of the Den 9315,8638,0",
 	IGUI_SFQuest_Questyno_MikePozzo14_Text = "Mike the Thirsty",
 	IGUI_SFQuest_Questyno_MikePozzo14_Lore = "Mike asked me to bring him a Bottle of Water. Damn him, can't he get it himself?",
-	IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text = "Heil�! Welcome back. Are we in August by any chance? I can't take it anymore, I'm drenched in sweat. Could you spare some water?",
+	IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text = "Heil?! Welcome back. Are we in August by any chance? I can't take it anymore, I'm drenched in sweat. Could you spare some water?",
 	IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text_Accepted = "Pino can't understand how many dialogues there are in the quests",
 	IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text_Declined = "I'll wait here for you.",
 	IGUI_SFQuest_Questyno_MikePozzo14_Complete = "Ahhh, thank you so much. I'll get back to work right away.",
@@ -5622,10 +5627,10 @@ IGUI_SFQuest_Questyno_JeffreyLewis23_Title = "A Book for the Library",
             *** Marcus Kane ***
             Elenco:
                 intro. Incontra Marcus Kane per sbloccare le quest mensili.
-				1. Recuperare Carta d'Identit�;5, Uccidere 50 Zombie (130rep + 25$)
-				2. Recuperare Carta d'Identit�;10, Uccidere 100 Zombie (200rep + 50$)
-				3. Recuperare Carta d'Identit�;12, Uccidere 120 Zombie (220rep + 60$)
-				4. Recuperare Carta d'Identit�;20, Uccidere 200 Zombie (420rep + 80$)
+				1. Recuperare Carta d'Identit?;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Carta d'Identit?;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Carta d'Identit?;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Carta d'Identit?;20, Uccidere 200 Zombie (420rep + 80$)
 ]]
     IGUI_SFQuest_Questyno_MarcusKane_Name = "Marcus Kane",
 
