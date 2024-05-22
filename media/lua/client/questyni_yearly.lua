@@ -54,7 +54,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer3",
 
     awardsrep = "LaResistenza;3000", -- REP REWARD
-    awrdsitem = "SWeapons.ChainBat;1",
+    awardsitem = "SWeapons.ChainBat;1",
     awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
