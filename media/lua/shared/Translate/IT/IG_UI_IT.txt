@@ -286,8 +286,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Accepted = "Verrai ben ricompensato, sai che puoi contare su di me!",
     IGUI_SFQuest_Questyno_Lupo11_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo11_Complete = "Finalmente, eccoti qua! Ci sentiamo presto.",
-    IGUI_SFQuest_Questyno_Lupo11_A = "2 Fucili a Pompa M500",
-    IGUI_SFQuest_Questyno_Lupo11_B = "2 Scatole di cartucce per fucile",
+    IGUI_SFQuest_Questyno_Lupo11_B = "2 Fucili a Pompa M500",
+    IGUI_SFQuest_Questyno_Lupo11_A = "2 Scatole di cartucce per fucile",
     IGUI_SFQuest_Questyno_Lupo11_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo12_Title = "Tony Lupo da West Point 10161,6621,0",
@@ -624,7 +624,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_Grif26_Title = "Sergente Grif (9331x8640x0)",
     IGUI_SFQuest_Questyno_Grif26_Text = "Siringhe per ogni utilizzo che si desidera",
-    IGUI_SFQuest_Questyno_Grif26_Lore = "Grifis vuole che gli porto 5 Siringhe. Voglio dargli una mano con i sopravvissuti al campo base.",
+    IGUI_SFQuest_Questyno_Grif26_Lore = "Grifis vuole che gli porto 10 Siringhe. Voglio dargli una mano con i sopravvissuti al campo base.",
     IGUI_SFQuest_Questyno_Grif26_Begin_Text = "Vai alla clinica, recupera delle siringe e portale qui. Che fai ancora li?!",
     IGUI_SFQuest_Questyno_Grif26_Begin_Text_Accepted = "Cosa ci fai ancora li impalato?!",
     IGUI_SFQuest_Questyno_Grif26_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -1010,8 +1010,8 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_HeatherThomas11_Title = "Heather della Tana 9315,8624,0",
     IGUI_SFQuest_Questyno_HeatherThomas11_Text = "Recupero trappole per Heather",
-    IGUI_SFQuest_Questyno_HeatherThomas11_Lore = "Heather mi ha chiesto di costruire 10 Trappola a scatola. Sembrano pi? robuste delle Scatola per trappole, riuscir? a costruirle?",
-    IGUI_SFQuest_Questyno_HeatherThomas11_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamente 2 e sarai ben ricompensato!",
+    IGUI_SFQuest_Questyno_HeatherThomas11_Lore = "Heather mi ha chiesto di costruire 3 Trappola a scatola. Sembrano pi? robuste delle Scatola per trappole, riuscir? a costruirle?",
+    IGUI_SFQuest_Questyno_HeatherThomas11_Begin_Text = "Ti ricordi come si costruiscono delle trappole per conigli? Bene, portamente 3 e sarai ben ricompensato!",
     IGUI_SFQuest_Questyno_HeatherThomas11_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas11_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_HeatherThomas11_Complete = "Grazie mille, questo mi ha fatto risparmiare parecchio tempo.",
@@ -1030,6 +1030,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text = "Sono un poco a corto di esce, riusciresti a portarmene qualcuna per le mie trappole?",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_HeatherThomas13_A = "5 Vermi",
+	IGUI_SFQuest_Questyno_HeatherThomas13_B = "1 Carota",
+	IGUI_SFQuest_Questyno_HeatherThomas13_C = "2 Patate",
+    IGUI_SFQuest_Questyno_HeatherThomas13_A_Text = "Porta le esche a Heather",
     IGUI_SFQuest_Questyno_HeatherThomas13_Complete = "Grazie, spero di riuscire a prenderci qualcosa, queste sono quelle che preferiscono.",
 	
 	IGUI_SFQuest_Questyno_HeatherThomas14_Title = "Heather della Tana 9315,8624,0",
@@ -1038,6 +1042,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HeatherThomas14_Begin_Text = "Sono un poco a corto di esce, riusciresti a portarmene qualcuna per le mie trappole per uccellini?",
     IGUI_SFQuest_Questyno_HeatherThomas14_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas14_Begin_Text_Declined = "Pff, pivello",
+    IGUI_SFQuest_Questyno_HeatherThomas14_A = "5 Cavallette",
+	IGUI_SFQuest_Questyno_HeatherThomas14_B = "10 Vermi",
+    IGUI_SFQuest_Questyno_HeatherThomas14_A_Text = "Porta le esche a Heather",
     IGUI_SFQuest_Questyno_HeatherThomas14_Complete = "Grazie questa roba la tramuter? in carne!",
 	
 	IGUI_SFQuest_Questyno_HeatherThomas15_Title = "Heather della Tana 9315,8624,0",
@@ -2672,7 +2679,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_VictoriaSecret20_Begin_Text_Declined = "Mi stai rifiutando?",
     IGUI_SFQuest_Questyno_VictoriaSecret20_Complete = "Grazie mille caro!",
 	IGUI_SFQuest_Questyno_VictoriaSecret20_A = "Cerca a Muldraugh (10612,10314,0)",
-	IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text = "Porta il manichino a Victoria",
+	IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text = "Porta il manichino a Victoria [Poggiare il manichino e riprenderlo]",
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret21_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Text = "Un diamante per Victoria",
@@ -2851,7 +2858,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_SusanLee15_Title = "Dr. Susan da Muldarugh 10822,9072,0",
     IGUI_SFQuest_Questyno_SusanLee15_Text = "Dolori alla schiena",
-    IGUI_SFQuest_Questyno_SusanLee15_Lore = "La dr. Susan mi ha chiesto di recuperare un corsetto medico a casa del suo amico ad Utopia (7298,9618,0). Spero di trovarlo.",
+    IGUI_SFQuest_Questyno_SusanLee15_Lore = "La dr. Susan mi ha chiesto di recuperare un corsetto medico a casa del suo amico ad Utopia (7298,9618,1). Spero di trovarlo.",
     IGUI_SFQuest_Questyno_SusanLee15_Begin_Text = "La gente soffre di forti dolori alla schiena, avremmo bisogno di alcuni Corsetti Medici, riesci a recuperarne uno? Un mio amico lo usava, abitava ad Utopia, non credo gli serva pi? purtroppo.",
     IGUI_SFQuest_Questyno_SusanLee15_Begin_Text_Accepted = "Fai presto, la gente schiatta ogni giorno pd!",
     IGUI_SFQuest_Questyno_SusanLee15_Begin_Text_Declined = "Peccato, era molto importante.",
@@ -3518,7 +3525,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_XuMishura5_Complete = "Bene, sistemiamo un po' questo capo.",
 	
 	IGUI_SFQuest_Questyno_XuMishura6_Title = "Xu da Muldraugh 10829,9072,1",
-    IGUI_SFQuest_Questyno_XuMishura6_Text = "I pantaloni medici",
+    IGUI_SFQuest_Questyno_XuMishura6_Text = "I pantaloni invernale",
     IGUI_SFQuest_Questyno_XuMishura6_Lore = "Xu mi ha chiesto di portargli un paio di Pantaloni imbottiti. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura6_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
     IGUI_SFQuest_Questyno_XuMishura6_Begin_Text_Accepted = "Bene ti aspetto qui!",
@@ -6183,7 +6190,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AndrewTurner2_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner2_Text = "Propano per Andrew",
     IGUI_SFQuest_Questyno_AndrewTurner2_Lore = "Andrew vorrebbe che recuperassi del propano alla stazione dei treni a Ztardew Valley (12768,9497,0). Non dovrebbe essere difficile.",
-    IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text = "Questa volta dovria fare un poco pi? di strada ma non dovrebbe essere difficile. Dovresti trovare ",
+    IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text = "Questa volta dovrai fare un poco pi? di strada ma non dovrebbe essere difficile. Dovresti trovare 2 Bombole di Propano, se guardi bene.",
     IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Accepted = "Bene, mi trovi sempre nei paraggi.",
     IGUI_SFQuest_Questyno_AndrewTurner2_Begin_Text_Declined = "Pensavo fossi all'altezza.",
     IGUI_SFQuest_Questyno_AndrewTurner2_Complete = "Bellissima! Ti ringrazio! Un ultimo favore e sarai ricompensato!",
@@ -6520,13 +6527,13 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_LincolnReed_Name = "Lincoln Reed",
 
-    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln dalla Tana (10345,12404,0)",
+    IGUI_SFQuest_Questyno_LincolnReed_Intro_Title = "Lincoln dalla Tana (9275,8480,0)",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Text = "Incontra Lincoln Reed. [Mensile]",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore = "Lincoln mantiene la diplomazia fra tutti i Clan che continuano a crearsi e tiene il conto della moneta che circola. E' un punto di riferimento per tutta La Resistenza e accetta sempre donazioni in contanti per la causa.",
     IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text = "Ciao giovanotto, io sono Lincoln Reed. Chiunque abbia indossato un Poncho giallo mi conosce e nessuno prova a fregarmi. Quando sono arrivato in questo posto ho trovato il Sergente Grif con il quale mi sono subito trovato d'accordo. Abbiamo convenuto che fosse importante riuscire a mantenere il contante in questa nuova societ? per agevolare gli scambi. Ogni mese qualcuno dona spontaneamente ci? che Pu? per la Causa. Spero farai lo stesso!",
 
     
-    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln da March Ridge (10345,12404,0)",
+    IGUI_SFQuest_Questyno_LincolnReed1_Title = "Lincoln dalla Tana (9275,8480,0)",
     IGUI_SFQuest_Questyno_LincolnReed1_Text = "Un dono per La Resistenza",
     IGUI_SFQuest_Questyno_LincolnReed1_Lore = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
     IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text = "Lincoln mi aspetta per una donazione. Andra bene un Rotolo di soldi?",
@@ -6675,9 +6682,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Accepted = "Okay, ti aspetto.",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Begin_Text_Declined = "Ahahahah, immaginavo.",
     IGUI_SFQuest_Questyno_MayaBlackwell10_Complete = "Okay, come da accordo ecco a te, fanne buon uso!",
-	IGUI_SFQuest_Questyno_MayaBlackwell10_A = "Cerca a Grapeseed (3983,9166,0)",
+	IGUI_SFQuest_Questyno_MayaBlackwell10_A = "Cerca a Cataya Valley (3983,9166,0)",
 	IGUI_SFQuest_Questyno_MayaBlackwell10_A_Text = "Prendi il metallo per Maya",
-	IGUI_SFQuest_Questyno_MayaBlackwell10_B = "Uccidi 200 Zombie",
+	IGUI_SFQuest_Questyno_MayaBlackwell10_B = "Uccidi 100 Zombie",
 	IGUI_SFQuest_Questyno_MayaBlackwell10_B_Text = "Torna da Maya",
 	
 	IGUI_SFQuest_Questyno_MayaBlackwell11_Title = "Maya Blackwell da Redfordville (3637,7302,0)",
@@ -6749,7 +6756,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JuanBaker_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_JuanBaker_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Redfordville (6688,7467,1)",
+    IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Trelai (6688,7467,1)",
     IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Furi",
     IGUI_SFQuest_Questyno_FuriMishura_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_FuriMishura_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",    
@@ -6759,7 +6766,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_FuriMishura_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_FuriMishura_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Redfordville (6684,6820,1)",
+    IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Trelai (6684,6820,1)",
     IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra",
     IGUI_SFQuest_Questyno_SandraHarris_Lore = "Salve! Per gestire meglio le risorse, stiamo razionando i rifornimenti e offriamo una Tanica Media al mese per 100$. Riempio la tua?",
     IGUI_SFQuest_Questyno_SandraHarris_Begin = "Salve! Per gestire meglio le risorse, stiamo razionando i rifornimenti e offriamo una Tanica Media al mese per 100$. Riempio la tua?",
@@ -6769,7 +6776,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SandraHarris_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_SandraHarris_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_EricAdams_Title = "Eric Adams da Redfordville (7659,7316,1)",
+    IGUI_SFQuest_Questyno_EricAdams_Title = "Eric Adams da Trelai (7659,7316,1)",
     IGUI_SFQuest_Questyno_EricAdams_Text = "Scambia con Eric",
     IGUI_SFQuest_Questyno_EricAdams_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_EricAdams_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
@@ -6779,7 +6786,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EricAdams_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_EricAdams_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_RonaldPerez_Title = "Ronald Perez da Redfordville (8353,8579,1)",
+    IGUI_SFQuest_Questyno_RonaldPerez_Title = "Ronald Perez da Little Town (8353,8579,1)",
     IGUI_SFQuest_Questyno_RonaldPerez_Text = "Scambia con Ronald",
     IGUI_SFQuest_Questyno_RonaldPerez_Lore = "Sto attuando un piano di razionamento e possiamo garantirti una Tanica Media ogni due mesi per 100$. Questa misura ? necessaria per gestire le scorte in modo pi? efficiente. Accetti?",
     IGUI_SFQuest_Questyno_RonaldPerez_Begin = "Sto attuando un piano di razionamento e possiamo garantirti una Tanica Media ogni due mesi per 100$. Questa misura ? necessaria per gestire le scorte in modo pi? efficiente. Accetti?",
@@ -6789,7 +6796,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RonaldPerez_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_RonaldPerez_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_GarrettKing_Title = "Garrett King da Redfordville (10399,8316,1)",
+    IGUI_SFQuest_Questyno_GarrettKing_Title = "Garrett King da Springwood (10399,8316,1)",
     IGUI_SFQuest_Questyno_GarrettKing_Text = "Scambia con Garrett",
     IGUI_SFQuest_Questyno_GarrettKing_Lore = "Heila! Posso riempirti una sola Tanica Media ogni due mesi, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_GarrettKing_Begin = "Heila! Posso riempirti una sola Tanica Media ogni due mesi, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
@@ -6799,7 +6806,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_GarrettKing_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_GarrettKing_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_MarvinPerry_Title = "Marvin Perry da Redfordville (8186,11296,1)",
+    IGUI_SFQuest_Questyno_MarvinPerry_Title = "Marvin Perry da Rosewood Nord (8186,11296,1)",
     IGUI_SFQuest_Questyno_MarvinPerry_Text = "Scambia con Marvin",
     IGUI_SFQuest_Questyno_MarvinPerry_Lore = "Ciao. Stiamo limitando i rifornimenti a una sola Tanica Media ogni due mesi per gestire meglio le scorte. Posso riempire la tua al costo di 100$. Accetti l'offerta?",
     IGUI_SFQuest_Questyno_MarvinPerry_Begin = "Ciao. Stiamo limitando i rifornimenti a una sola Tanica Media ogni due mesi per gestire meglio le scorte. Posso riempire la tua al costo di 100$. Accetti l'offerta?",
@@ -6809,7 +6816,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MarvinPerry_B = "2 Rotoli di Soldi",
 	IGUI_SFQuest_Questyno_MarvinPerry_Complete = "Ecco tieni!",
 
-    IGUI_SFQuest_Questyno_KarenTaylor_Title = "Karen Taylor da Redfordville (10144,12787,1)",
+    IGUI_SFQuest_Questyno_KarenTaylor_Title = "Karen Taylor da March Ridge (10144,12787,1)",
     IGUI_SFQuest_Questyno_KarenTaylor_Text = "Scambia con Karen",
     IGUI_SFQuest_Questyno_KarenTaylor_Lore = "Buongiorno! Dobbiamo razionare i rifornimenti e possiamo riempire la tua Tanica Media una volta ogni due mesi. Il costo ? di 100$. Ci stai?",
     IGUI_SFQuest_Questyno_KarenTaylor_Begin = "Buongiorno! Dobbiamo razionare i rifornimenti e possiamo riempire la tua Tanica Media una volta ogni due mesi. Il costo ? di 100$. Ci stai?",

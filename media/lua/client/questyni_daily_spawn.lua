@@ -1422,8 +1422,7 @@ local stellaQuest20 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella20_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella20_Title",
-    unlocks =
-    "clickevent;7338x9683x1:EventoAngelicaStella20;time:50:anim:loot;updateobjective:Questyno_AngelicaStella20:1:Completed",
+    unlocks ="clickevent;7338x9683x1:EventoAngelicaStella20;time:50:anim:loot;updateobjective:Questyno_AngelicaStella20:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest20);
@@ -1436,7 +1435,7 @@ local stellaQuest20A = {
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella20_Lore" },
-    needsitem = "Mov_MannequinFemale;1", -- REQUIRE
+    needsitem = "Moveables.location_shop_mall_01_66;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Complete",
     text = "IGUI_SFQuest_Questyno_AngelicaStella20_A_Text",
     texture = "media/textures/Item_AngelicaStella.png",
