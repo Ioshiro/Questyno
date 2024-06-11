@@ -392,7 +392,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers4_A",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x2:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore;revealobjective;Questyno_GraceChambers4_A;2"
+        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x2:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore;revealobjective;Questyno_GraceChambers4;2"
     },{
         guid = "Questyno_GraceChambers4_B",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_B",
