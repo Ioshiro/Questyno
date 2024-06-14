@@ -603,7 +603,10 @@ function SF_MissionPanel:completeQuest(player, guid)
                             end
                         end
                     end
-					table.insert(player:getModData().missionProgress.Category1, task);
+
+					if task.dailycode == nil then
+						table.insert(player:getModData().missionProgress.Category1, task);
+					end
 					table.remove(player:getModData().missionProgress.Category2, i);
 					done = true;
 					self.needsUpdate = true
