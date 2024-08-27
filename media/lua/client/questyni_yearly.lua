@@ -32,7 +32,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AlexMercer1_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer1_Title",
-    unlocks = "actionevent;killzombies:1500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer1_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:1500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer1_Complete:placeholder:updatequeststatus:Questyno_AlexMercer1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -46,7 +46,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AlexMercer2_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer2_Title",
-    unlocks = "actionevent;killzombies:2000;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:2000;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -62,7 +62,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AlexMercer3_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer3_Title",
-    unlocks = "actionevent;killzombies:2500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:2500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete:placeholder:updatequeststatus:Questyno_AlexMercer3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -392,7 +392,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_GraceChambers4_A",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x2:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore;revealobjective;Questyno_GraceChambers4_A;2"
+        oncompleted = "removeclickevent;EventoGraceChambers4;additem;LR.Lore6;1;clickevent;13402x1893x2:EventoGraceChambers4A;time:50:anim:loot;updateobjective:Questyno_GraceChambers4:2:Completed;lore;Questyno_GraceChambers4;IGUI_SFQuest_Questyno_GraceChambers4_A_Lore;revealobjective;Questyno_GraceChambers4;2"
     },{
         guid = "Questyno_GraceChambers4_B",
         text = "IGUI_SFQuest_Questyno_GraceChambers4_B",
