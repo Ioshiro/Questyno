@@ -2,11 +2,11 @@ require("SFQuest_PlayerHandler")
 
 --local base_SF_PlayerHandler_StartPlayer = SF_PlayerHandler.StartPlayer;
 local original_fun
-function SFQuest_PlayerHandler.StartPlayerFix(int, player)
+function SFQuest_PlayerHandler.StartPlayerFix()
     --if false then
        -- base_SF_PlayerHandler_StartPlayer(int, player);
    --end
-	local player = player;
+	local player = getPlayer();
 
 	-- If there is a backup file for the player's account then we use that, if not start it from zero.
 	if isClient() then
@@ -116,10 +116,23 @@ local function OnPlayerDeath(player)
 end
 
 
+local tickDelay = 20
+function CreateDelay()
+    if tickDelay == 0 then
+		SFQuest_PlayerHandler.StartPlayerFix()
+    	Events.OnTick.Remove(CreateDelay)
+    	return
+    end
+    tickDelay = tickDelay - 1
+end
+
+local function onCreatedPlayer(playerIndex, player)
+    Events.OnTick.Add(CreateDelay)
+end
 
 Events.OnGameBoot.Add(function()
 	Events.OnCreatePlayer.Remove(SFQuest_PlayerHandler.StartPlayer);
-    Events.OnCreatePlayer.Add(SFQuest_PlayerHandler.StartPlayerFix)
+    Events.OnCreatePlayer.Add(onCreatedPlayer)
 	Events.OnPlayerDeath.Add(OnPlayerDeath)
 
     original_fun = SFQuest_PlayerHandler.StartPlayer
