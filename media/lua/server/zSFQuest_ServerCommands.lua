@@ -61,7 +61,7 @@ function Commands.saveData(player, args)
 	if tempsize > datasize then
 		print("[Commands.saveData] zSOUL QUEST SYSTEM - Backup file has more lines than current progress, sending backup. (TEMP SIZE: " .. tempsize .. " PROGRESS SIZE: " .. datasize .. ")");
 		local newargs = { id = id , data = temp };
-		sendServerCommand('SFQuest', "setProgress", newargs);
+		sendServerCommand(player,'SFQuest', "setProgress", newargs);
 		return
 	end
 	local filewriter = getFileWriter(filepath, true, false);
@@ -88,12 +88,12 @@ function Commands.sendData(player, args)
 		filereader:close();
 		local newargs = { id = id , data = temp };
 		print("[Commands.sendData] zSOUL QUEST SYSTEM - Requested quest data for player " .. id .. " sent.");
-		sendServerCommand('SFQuest', "setProgress", newargs);
+		sendServerCommand(player,'SFQuest', "setProgress", newargs);
 	end;
 end
 
 function Commands.addserverpoints(player, args)
-	sendServerCommand("ServerPoints", "add", args)
+	sendServerCommand(player,"ServerPoints", "add", args)
 end
 
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc

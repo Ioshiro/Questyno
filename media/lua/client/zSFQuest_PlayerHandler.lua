@@ -8,14 +8,15 @@ function SFQuest_PlayerHandler.StartPlayerFix()
    --end
 	local player = getPlayer();
 
-	-- If there is a backup file for the player's account then we use that, if not start it from zero.
-	if isClient() then
-		print("zSOUL QUEST SYSTEM - Requesting backup quest data [pre init].");
-		local id = player:getUsername();
-		sendClientCommand(player, 'SFQuest', 'sendData', {id = id});
-	end
-	local progress = player:getModData().missionProgress;
+	-- -- If there is a backup file for the player's account then we use that, if not start it from zero.
+	-- if isClient() then
+	-- 	print("zSOUL QUEST SYSTEM - Requesting backup quest data [pre init].");
+	-- 	local id = player:getUsername();
+	-- 	sendClientCommand(player, 'SFQuest', 'sendData', {id = id});
+	-- end
+	-- local progress = player:getModData().missionProgress;
 	if not player:getModData().missionProgress then
+		print("zSOUL QUEST SYSTEM - Starting player from zero.");
 		player:getModData().missionProgress = SFQuest_PlayerHandler.startingPlayerStats;
 
 		--inserting factions from Database here
@@ -67,7 +68,7 @@ function SFQuest_PlayerHandler.StartPlayerFix()
 			end
 		end
 
-		SF_MissionPanel.instance:triggerUpdate();		
+		-- SF_MissionPanel.instance:triggerUpdate();		
 		if isClient() then
 			print("zSOUL QUEST SYSTEM - Requesting backup quest data.");
 			local id = player:getUsername();
@@ -78,7 +79,6 @@ function SFQuest_PlayerHandler.StartPlayerFix()
 			local filepath = "/Backup/SFQuest_" .. id .. ".txt";
 			local filereader = getFileReader(filepath, false);
 			if not filereader then return nil end;
-			local data = {};
 			local temp = {}
 			local line = filereader:readLine();
 			while line ~= nil do
@@ -87,7 +87,14 @@ function SFQuest_PlayerHandler.StartPlayerFix()
 			end
 			filereader:close();		
 			player:getModData().missionProgress = temp;
-			SF_MissionPanel.instance:triggerUpdate();			
+			SF_MissionPanel.instance:triggerUpdate();
+		end
+	else
+		print("zSOUL QUEST SYSTEM - missionProgress already exists. Just check if there is data difference between server and client.")
+		if isClient() then
+			print("zSOUL QUEST SYSTEM - Requesting backup quest data.");
+			local id = player:getUsername();
+			sendClientCommand(player, 'SFQuest', 'sendData', {id = id});
 		end
 	end
 end
@@ -118,9 +125,12 @@ end
 
 local tickDelay = 20
 function CreateDelay()
-    if tickDelay == 0 then
-		SFQuest_PlayerHandler.StartPlayerFix()
-    	Events.OnTick.Remove(CreateDelay)
+    if tickDelay <= 0 then
+		print("Delay over, executing functions.")
+		 -- Call your custom functions after delay
+		 SFQuest_PlayerHandler.StartPlayerFix()
+		 -- Remove this function from the OnTick event to stop it from running
+		 Events.OnTick.Remove(CreateDelay)
     	return
     end
     tickDelay = tickDelay - 1

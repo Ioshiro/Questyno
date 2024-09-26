@@ -29,11 +29,16 @@ function Commands.setProgress(args)
 		return
 	end
 	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " .. lastnum .. " lines of backup.");
+	--fix brutale per rimuovere punto esclamativo di Pyno post restore del backup
+	SF_MissionPanel:removeWorldEvent("9332x8605x0")
+	-- player:getModData().missionProgress.WorldEvent["9332x8605x0"].marker:remove();
+	---------------------------------------------------------
 	player:getModData().missionProgress = temp;
 	if args.checkDefaults then
 		SF_MissionPanel.instance:checkDefaults();
 	end
 	SF_MissionPanel.instance:triggerUpdate();
+
 end
 
 Events.OnServerCommand.Add(function(module, command, args)
