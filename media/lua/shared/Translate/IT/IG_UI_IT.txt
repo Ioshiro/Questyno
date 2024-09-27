@@ -2688,7 +2688,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_VictoriaSecret20_Begin_Text_Declined = "Mi stai rifiutando?",
     IGUI_SFQuest_Questyno_VictoriaSecret20_Complete = "Grazie mille caro!",
 	IGUI_SFQuest_Questyno_VictoriaSecret20_A = "Cerca a Muldraugh (10612,10314,0)",
-	IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text = "Porta il manichino a Victoria [Poggiare il manichino e riprenderlo]",
+	IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text = "Porta il manichino a Victoria",
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret21_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Text = "Un diamante per Victoria",
