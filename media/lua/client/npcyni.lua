@@ -981,7 +981,6 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_LincolnReed_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_LincolnReed.png",
-    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["9277x8480x0"] = {
