@@ -17,6 +17,7 @@ local function delayAddItem()
     if tickAdditem <= 0 then
         Events.OnTick.Remove(delayAddItem)
         postAddItem()
+        return
     end
     tickAdditem = tickAdditem - 1
 end
