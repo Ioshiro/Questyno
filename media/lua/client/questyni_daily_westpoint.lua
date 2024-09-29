@@ -2680,7 +2680,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis7_Lore" },
-    needsitem = "Base.Rabbitmeat",
+    needsitem = "Base.Rabbitmeat;1",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis7_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis7_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
