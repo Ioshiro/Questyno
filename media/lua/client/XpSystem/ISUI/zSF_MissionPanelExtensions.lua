@@ -539,9 +539,6 @@ function SF_MissionPanel:completeQuest(player, guid)
 				local task = currentTasks[i];
 				if task.guid and task.guid == guid then
 					player:getModData().missionProgress.Category2[i].status = "Completed";
-					if task.awardstask then
-						SF_MissionPanel:unlockQuest(task.awardstask);
-					end
 					if task.awardsitem then
 						local count = 1;
 						local rewardTable = luautils.split(task.awardsitem, ";");
@@ -606,6 +603,10 @@ function SF_MissionPanel:completeQuest(player, guid)
 
 					if task.dailycode == nil then
 						table.insert(player:getModData().missionProgress.Category1, task);
+					end
+                    -- only unlock eventually awarded quests after every check of the current quest completed
+                    if task.awardstask then
+						SF_MissionPanel:unlockQuest(task.awardstask);
 					end
 					table.remove(player:getModData().missionProgress.Category2, i);
 					done = true;
