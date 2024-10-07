@@ -802,6 +802,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_JuanBaker_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_JuanBaker.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["3837x7028x1"] = {
@@ -822,6 +823,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_FuriMishura_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_FuriMishura.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["6688x7467x1"] = {
@@ -841,6 +843,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_SandraHarris_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_SandraHarris.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["6684x6820x1"] = {
@@ -860,6 +863,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_EricAdams_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_EricAdams.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["7659x7316x1"] = {
@@ -879,6 +883,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_RonaldPerez_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_RonaldPerez.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["8353x8579x1"] = {
@@ -897,6 +902,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_GarrettKing_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_GarrettKing.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["10399x8316x1"] = {
@@ -915,6 +921,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_MarvinPerry_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_MarvinPerry.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["8186x11296x1"] = {
@@ -934,6 +941,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_KarenTaylor_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_KarenTaylor.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["10144x12787x1"] = {
@@ -953,6 +961,7 @@ table.insert(SFQuest_Database.WorldPool, {
     name = "IGUI_SFQuest_Questyno_CharlesDavis_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_CharlesDavis.png",
+    occupation = "gas_station_attendant"
 })
 
 SFQuest_Database.MannequinPool["9285x8482x0"] = {

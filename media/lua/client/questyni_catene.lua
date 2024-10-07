@@ -32,7 +32,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;5;EzekielFlynn;20", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Begin;Questyno_EzekielFlynn2", -- DIALOGUE REWARD
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn1_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn1_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
@@ -46,7 +46,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardstask = "Questyno_EzekielFlynn2_A", -- TASK REWARD
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn2_Lore" },
     objectives = {{
         guid = "Questyno_EzekielFlynn2_A",
@@ -72,7 +72,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;10;EzekielFlynn;20", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn3_Begin;Questyno_EzekielFlynn3", -- DIALOGUE REWARD
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn2_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn2_A_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
@@ -87,7 +87,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn4_Begin;Questyno_EzekielFlynn4", -- DIALOGUE REWARD
     needsitem = "Tag#Digital;20", -- ITEM REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn3_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
@@ -103,7 +103,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
     needsitem = "RippedSheets;200", -- ITEM REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn4_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn4_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
@@ -119,7 +119,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "Crowbar;1", -- ITEM REWARD
     needsitem = "AxeStone;1", -- ITEM REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_EzekielFlynn",
+    -- dailycode = "Questyno_EzekielFlynn",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
@@ -162,7 +162,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;10;ElowenBeckett;20", -- REP REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett2_Begin;Questyno_ElowenBeckett2", -- DIALOGUE REWARD
     completesound = "levelup",
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett1_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett1_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -188,7 +188,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_ElowenBeckett2;2;Completed;removeitem;Plank;5",
         hidden = false,
     }},
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett2_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett2_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -202,7 +202,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;15;ElowenBeckett;20", -- REP REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett3_Begin;Questyno_ElowenBeckett3", -- DIALOGUE REWARD
     completesound = "levelup",
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett2_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett2_A_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -218,7 +218,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Begin;Questyno_ElowenBeckett4", -- DIALOGUE REWARD
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett3_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett3:Obtained", -- ZOMBIE REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett3_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett3_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -233,7 +233,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett5_Begin;Questyno_ElowenBeckett5", -- DIALOGUE REWARD
     needsitem = "Log;1", -- ITEM REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett4_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett4_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -249,7 +249,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1", -- ITEM REWARD
     needsitem = "ScrapMetal;4", -- ITEM REQUEST
     completesound = "levelup",
-    dailycode = "Questyno_ElowenBeckett",
+    -- dailycode = "Questyno_ElowenBeckett",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
@@ -1123,7 +1123,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner2_Begin;Questyno_AndrewTurner2", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner1_Lore" },
-    needsitem = "Base.PropaneTank;2",
+    needsitem = "PredicateFullDrainable#Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner1_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner1_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1158,7 +1158,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner3_Begin;Questyno_AndrewTurner3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner2_Lore" },
-    needsitem = "Base.PropaneTank;2",
+    needsitem = "PredicateFullDrainable#Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner2_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner2_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1193,7 +1193,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner4_Begin;Questyno_AndrewTurner4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner3_Lore" },
-    needsitem = "Base.PropaneTank;2",
+    needsitem = "PredicateFullDrainable#Base.PropaneTank;2",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner3_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner3_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",

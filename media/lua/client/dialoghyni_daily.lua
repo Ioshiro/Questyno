@@ -2391,7 +2391,8 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_G
 ]]
 
 -- intro. parla con Lincoln Reed per sbloccare le sue quest mensili
-table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LincolnReed_Intro", text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text"})
+-- test, aggiunto in serie al command il randomcodeworldfrompool per far scattare al completamento in automatico la quest successiva
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed_Intro_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LincolnReed_Intro;randomcodedworldfrompool;Questyno_LincolnReed;Questyno;LincolnReed", text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Complete_Text",})
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_LincolnReed1_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_LincolnReed1", optional = true, text = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_LincolnReed1_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_LincolnReed1_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_LincolnReed1", text = "IGUI_SFQuest_Questyno_LincolnReed1_Complete"})

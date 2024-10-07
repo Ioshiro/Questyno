@@ -1426,11 +1426,13 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LincolnReed;100",
     completesound = "levelup",
-    dailycode = "Questyno_LincolnReed",
+    -- dailycode = "Questyno_LincolnReed",
     lore = { "IGUI_SFQuest_Questyno_LincolnReed_Intro_Lore" },
     text = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Text",
     texture = "media/textures/Item_LincolnReed.png",
     unique = true,
+    -- oppure invece di usare ondone qui si può aggiungere il command nel wolrdevent!
+    -- ondone = "randomcodedworldfrompool;Questyno_LincolnReed;Questyno;LincolnReed",
     unlocks = "addreputation;LincolnReed;100;unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Title",
 });
