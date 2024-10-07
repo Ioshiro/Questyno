@@ -1,12 +1,7 @@
 local original_SFQuest_WorldEventWindow_createChildren = SFQuest_WorldEventWindow.createChildren
 function SFQuest_WorldEventWindow:createChildren()
-	if self.dialogueinfo.sound then
-		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 0.0);
-		getSoundManager():PlayAsMusic(self.dialogueinfo.sound.begin,self.playTalk,false,0);
-        self.playTalk:setVolume(1);
-	end
 	-- original_SFQuest_WorldEventWindow_createChildren(self)
-
+	
 	--original version
 	ISCollapsableWindow.createChildren(self)
 	self.richText = MapSpawnSelectInfoPanel:new(44, 10, 290,135);
@@ -31,6 +26,11 @@ function SFQuest_WorldEventWindow:createChildren()
 	self.CloseBtn:setVisible(false);
     self:addChild(self.CloseBtn);		
 	
+	if self.dialogueinfo.sound then
+		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 0.0);
+		getSoundManager():PlayAsMusic(self.dialogueinfo.sound.begin,self.playTalk,false,0);
+		self.playTalk:setVolume(1);
+	end
 	if self.dialogueinfo.optional then
 		self.DeclineBtn = ISButton:new(12, btnHeight, 100, 20, getText("IGUI_Decline"), self, SFQuest_WorldEventWindow.onOptionMouseDown);
 		self.DeclineBtn.internal = "DECLINE";
@@ -64,9 +64,10 @@ function SFQuest_WorldEventWindow:createChildren()
 			SF_MissionPanel.instance:completeQuest(self.character, self.questid);
 		elseif not neededStuffTaken then
 			-- still need to figure out this 
-			-- maybe checkQuestforCompletionByType("item", nil, "Obtained");
+			SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 			-- con modifica del worldevent dialogueinfo.text con informazioni dell'item che ha dato problemi?
-			print("zSOUL QUEST SYSTEM - Quest not completed because needed item is not in inventory.");
+			self.richText.text = "Mi dispiace ma l'item non è in inventario o non rispecchia le caratteristiche richieste più.";
+			-- FUNZIONA, CREARE IGUI TEXT PER IL RISULTATO
 		end
 	elseif self.command and self.command == "updateobjectivestatus" then
 		self.CloseBtn:setVisible(true);
