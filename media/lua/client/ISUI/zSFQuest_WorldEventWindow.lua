@@ -27,7 +27,7 @@ function SFQuest_WorldEventWindow:createChildren()
     self:addChild(self.CloseBtn);		
 	
 	if self.dialogueinfo.sound then
-		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 0.0);
+		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 0.0); --probably getSoundManager() start the audio for everyone, not good for this case...
 		getSoundManager():PlayAsMusic(self.dialogueinfo.sound.begin,self.playTalk,false,0);
 		self.playTalk:setVolume(1);
 	end

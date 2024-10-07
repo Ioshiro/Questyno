@@ -18,7 +18,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn1_Begin;Questyno_EzekielFlynn1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_EzekielFlynn;Questyno;EzekielFlynn",
+    -- ondone = "randomcodedworldfrompool;Questyno_EzekielFlynn;Questyno;EzekielFlynn",
     text = "IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     unique = true,
@@ -148,7 +148,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett1_Begin;Questyno_ElowenBeckett1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_ElowenBeckett;Questyno;ElowenBeckett",
+    -- ondone = "randomcodedworldfrompool;Questyno_ElowenBeckett;Questyno;ElowenBeckett",
     text = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     unique = true,
@@ -460,7 +460,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker1_Begin;Questyno_JohnBaker1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_JohnBaker;Questyno;JohnBaker",
+    -- ondone = "randomcodedworldfrompool;Questyno_JohnBaker;Questyno;JohnBaker",
     text = "IGUI_SFQuest_Questyno_JohnBaker_Intro_Text",
     texture = "media/textures/Item_JohnBaker.png",
     unique = true,
