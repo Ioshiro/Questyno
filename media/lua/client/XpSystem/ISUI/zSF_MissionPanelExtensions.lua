@@ -643,11 +643,15 @@ function SF_MissionPanel:takeNeededItem(neededitem)
     local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
     local itemscript = needsTable[1];
     local quantity = tonumber(needsTable[2]) or 1;
-    local carrying;
     local items;
     local predicateValue;
     local isTag;
     local isPredicate;
+    local isQuantity = SF_MissionPanel:checkItemQuantity(neededitem);
+
+    if not isQuantity then
+        return nil
+    end
 
     -- Verifica se itemscript inizia con 'Tag' o 'Predicate' e imposta i booleani
     if luautils.stringStarts(itemscript, "Tag") then
@@ -661,47 +665,40 @@ function SF_MissionPanel:takeNeededItem(neededitem)
         -- Gestione dei casi con 'Tag'
         if luautils.stringStarts(needsTable[1], "Tag#") then
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTagRecurse(itemscript);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagRecurse(itemscript, quantity);
             end
         elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTagEvalRecurse(itemscript, predicateBigFish);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateBigFish, quantity);
             end        
         elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateCondition, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateCondition, predicateValue, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then    
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTagEvalRecurse(itemscript, predicateFreshFood);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFreshFood, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then    
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTagEvalRecurse(itemscript, predicateFullDrainable);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFullDrainable, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
             end
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
             end
         end
@@ -709,48 +706,41 @@ function SF_MissionPanel:takeNeededItem(neededitem)
         -- Gestione dei casi senza 'Tag' (solo 'Predicate')
         if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTypeEvalRecurse(itemscript, predicateBigFish);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateBigFish, quantity);
             end
         elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateCondition, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateCondition, predicateValue, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then    
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFreshFood);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFreshFood, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then    
             itemscript = luautils.split(itemscript, "#")[2];
-            carrying = player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFullDrainable);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFullDrainable, quantity);
             end    
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
             end
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
             itemscript = luautils.split(itemscript, "#")[2];
             predicateValue = tonumber(needsTable[3]);
-            carrying = player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
-            if quantity <= carrying then
+            if isQuantity then
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
             end
         end
     else
         -- Caso di default (nessun 'Tag' o 'Predicate')
-        carrying = player:getInventory():getNumberOfItem(itemscript, true, true);
-        if quantity <= carrying then
+        if isQuantity then
             items = player:getInventory():getSomeTypeRecurse(itemscript, quantity);
         end    
     end
