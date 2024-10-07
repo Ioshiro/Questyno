@@ -66,7 +66,7 @@ function SFQuest_WorldEventWindow:createChildren()
 			-- still need to figure out this 
 			SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 			-- con modifica del worldevent dialogueinfo.text con informazioni dell'item che ha dato problemi?
-			self.richText.text = "Mi dispiace ma l'item non è in inventario o non rispecchia le caratteristiche richieste più.";
+			self.richText.text = getText("IGUI_FailCompleteQuest") or "...";
 			-- FUNZIONA, CREARE IGUI TEXT PER IL RISULTATO
 		end
 	elseif self.command and self.command == "updateobjectivestatus" then

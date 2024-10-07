@@ -230,7 +230,7 @@ end
 function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1, npcname)
 	local poolTable = SFQuest_Database.RandomEventPool[tablename1][npcname];
     if not poolTable then
-        print("zSOUL QUEST SYSTEM - Pool table not found: " .. tablename1);
+        print("zSOUL QUEST SYSTEM - Pool table not found: " .. tablename1 .. "for npc: " .. npcname);
         return
     end
 	local random = ZombRand(1, #poolTable + 1);
