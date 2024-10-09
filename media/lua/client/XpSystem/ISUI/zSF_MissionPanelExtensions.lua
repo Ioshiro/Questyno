@@ -851,6 +851,7 @@ function SF_MissionPanel:completeQuest(player, guid)
 						local entry = luautils.split(task.awardsworld, ";");
 						SF_MissionPanel.instance:runCommand("unlockworldevent", entry[1], entry[2], entry[3]);				
 					end
+                    -- not quite sure to put this here because it's already present in "updateQuestStatus" when status is setted to == "Completed" and "checkQuestForCompletionByType" too. So there is a possibility to trigger it twice or more. because if you update the quest status to "Complete" and there is "ondone" command, it will be executed and then will be executed again when "completequest" is called.
                     if task.ondone then
                         local commandTable = luautils.split(task.ondone, ";");
                         SF_MissionPanel.instance:readCommandTable(commandTable);

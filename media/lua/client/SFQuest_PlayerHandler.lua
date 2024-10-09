@@ -196,7 +196,6 @@ local function OnPlayerDeath(player)
 end
 
 function SFQuest_PlayerHandler.OnGameStart()
-	-- this happen before createPlayer. not good. 
 	SF_MissionPanel.instance:triggerUpdate();
 	
 	local player = getPlayer();

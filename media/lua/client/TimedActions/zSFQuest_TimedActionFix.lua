@@ -108,12 +108,16 @@ end
 
 
 -- TESTONE
-
-local function applyToInventory(ISInventoryPage, step)
-        if step == "end" and getPlayer():getInventory() == ISInventoryPage.inventory then
-            print("zSOUL QUEST SYSTEM - Added quest: Obtained");
-	        SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+Events.OnGameStart.Add(
+    function()
+        local function applyToInventory(ISInventoryPage, step)
+            if step == "end" and getPlayer():getInventory() == ISInventoryPage.inventory then
+                print("zSOUL QUEST SYSTEM - Added quest: Obtained");
+                SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+            end
         end
-end
+    
+        Events.OnRefreshInventoryWindowContainers.Add(applyToInventory)
+    end
+)
 
-Events.OnRefreshInventoryWindowContainers.Add(applyToInventory)
