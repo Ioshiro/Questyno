@@ -1190,7 +1190,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;3000;AndrewTurner;132", -- REP REWARD
     awardsitem = "TW.WorkshopMag1;1", -- ITEM REWARD
-    awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner4_Begin;Questyno_AndrewTurner4", -- DIALOGUE REWARD
+    -- awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner4_Begin;Questyno_AndrewTurner4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner3_Lore" },
     needsitem = "PredicateFullDrainable#Base.PropaneTank;2",
