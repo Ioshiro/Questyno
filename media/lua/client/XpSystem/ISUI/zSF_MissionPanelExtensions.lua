@@ -420,11 +420,15 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                     if type == "item" and task.needsitem then
                         local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(task.needsitem)
                         if quantitycheck then
-                            task.status = status;
-                            self.needsUpdate = true
-                            if status == "Obtained" and task.onobtained then
-                                local commandTable = luautils.split(task.onobtained, ";");
-                                SF_MissionPanel.instance:readCommandTable(commandTable);
+                            if task.status == status then --faccio un controllo per assicurarmi che se è già Obtained allora non risblocca "onbtained"
+                                self.needsUpdate = false
+                            else
+                                task.status = status;
+                                self.needsUpdate = true
+                                if status == "Obtained" and task.onobtained then
+                                    local commandTable = luautils.split(task.onobtained, ";");
+                                    SF_MissionPanel.instance:readCommandTable(commandTable);
+                                end
                             end
                             if status == "Completed" then
                                 local guid = task.guid;
@@ -1125,6 +1129,8 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 	    		local commandTable = luautils.split(quest.unlocks, ";");
 	    		SF_MissionPanel.instance:readCommandTable(commandTable);
 	    	end
+            -- si potrebbe pensare di mettere un checkQuestForCompletionByType check qui allo sblocco della quest per fixare il problema anche dell'addItem
+            SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 	    	SF_MissionPanel.instance.needsUpdate = true;
 	    	SF_MissionPanel.instance.needsBackup = true;
 	    	return

@@ -16,11 +16,13 @@ local function postAddItem()
     -- print("additem Successful overwrite again");
 end
 
-local tickAdditem = 20
+local tickAdditem = 50
 local function delayAddItem()
+    print("delayAddItem " .. tickAdditem )
     if tickAdditem <= 0 then
         Events.OnTick.Remove(delayAddItem)
         postAddItem()
+        tickAdditem = 50
         return
     end
     tickAdditem = tickAdditem - 1
@@ -30,9 +32,9 @@ end
 local function additemOverWrite(item, quantity)
     local inv = getPlayer():getInventory();
 	inv:AddItems(item, quantity);
-    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
         Events.OnTick.Add(delayAddItem)
-    end
+    -- end
 end
 
 
@@ -118,7 +120,7 @@ Events.OnGameStart.Add(
     function()
         local function applyToInventory(ISInventoryPage, step)
             if step == "end" and getPlayer():getInventory() == ISInventoryPage.inventory then
-                print("zSOUL QUEST SYSTEM - Added quest: Obtained");
+                print("zSOUL QUEST SYSTEM - Added quest: Obtained, applyToInventory");
                 SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
             end
         end

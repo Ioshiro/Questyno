@@ -7,7 +7,7 @@ SFQuest_ClickEventMenu = function(player, context, worldobjects, test)
 
 	local square;
 	
-	for i,v in ipairs(worldobjects) do
+	for i,v in ipairs(worldobjects) do -- forse si può ampliare il controllo sulla posizione con questo for loop
 		square = v:getSquare();
 		break;
 	end
