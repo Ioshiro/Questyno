@@ -60,6 +60,32 @@ function SF_MissionPanel.Commands.unlockquest(questid)
     SF_MissionPanel.instance:unlockQuest(questid)
 end
 
+function SF_MissionPanel.Commands.unlockworldevent(identity, dialoguecode, questid, dailycode)
+	local player = getPlayer();
+	local worldevent = SF_MissionPanel.instance:getWorldInfo(identity);
+	local squaretag = worldevent.square;
+	local event = {identity = identity, dialoguecode = dialoguecode, quest = questid, dailycode = dailycode};
+	player:getModData().missionProgress.WorldEvent[squaretag] = event;
+	
+	local squareTable = luautils.split(squaretag, "x");
+	local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+	local square = getCell():getGridSquare(x, y, z);
+	local marker
+	if square then
+        if string.find(string.lower(dialoguecode), "complete") then
+            marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+        else
+		    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+        end
+		marker:setDoAlpha(false);
+		marker:setAlphaMin(0.8);
+		marker:setAlpha(1.0);
+		player:getModData().missionProgress.WorldEvent[squaretag].marker = marker;
+		SF_MissionPanel.instance.needsBackup = true;
+	end
+end
+
+-- super funzione per rimuovere coattamente una quest e tutte le relative sottofunzioni aggiunte (se presenti)
 function SF_MissionPanel.Commands.removequest(questid)
     local player = getPlayer();
     local currentTasks = player:getModData().missionProgress.Category2
@@ -377,6 +403,7 @@ end
 
 local base_SF_MissionPanel_checkQuestForCompletionByType = SF_MissionPanel.checkQuestForCompletionByType;
 function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
+    print("zSOUL QUEST SYSTEM - checkQuestForCompletionByType triggered")
     if false then
         base_SF_MissionPanel_checkQuestForCompletionByType(self, type, entry, newStatus);
     end
@@ -418,7 +445,7 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                                                 for k, v in pairs(self.player:getModData().missionProgress.WorldEvent) do
                                                     if v.dialoguecode == condition then
                                                         if self.player:getModData().missionProgress.WorldEvent[k].marker then
-                                                            self.player:getModData().missionProgress.WorldEvent[k].      marker:remove();
+                                                            self.player:getModData().missionProgress.WorldEvent[k].marker:remove();
                                                         end
                                                         self.player:getModData().missionProgress.WorldEvent[k] = nil
                                                         task.status = nil
@@ -472,9 +499,10 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
     end
 end
 
+--PredicateFullDrainable#Base.PropaneTank;2;
 function SF_MissionPanel:checkItemQuantity(stringforcheck)
 	local needsTable = luautils.split(stringforcheck, ";");
-	local itemscript = needsTable[1];
+	local itemscript = needsTable[1]; -- PredicateFullDrainable#Base.PropaneTank
 	local quantity = tonumber(needsTable[2]) or 1;
 	local carrying;
 	local isTag;
@@ -488,8 +516,9 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
         isTag = true
     end
     if luautils.stringStarts(itemscript, "Predicate") then
-        itemscript = luautils.split(itemscript, "#")[2];
-        predicateValue = tonumber(needsTable[3]);
+        --PredicateFullDrainable#Base.PropaneTank
+        itemscript = luautils.split(itemscript, "#")[2]; -- Base.PropaneTank
+        predicateValue = tonumber(needsTable[3]) or 0;
         isPredicate = true
     end
     if isTag then
@@ -538,6 +567,7 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
 		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
 	end
 	if quantity <= carrying then
+        print("Carrying: " .. carrying .. " Quantity: " .. quantity)
 		return true
 	end
 	return false
@@ -615,6 +645,109 @@ function SF_MissionPanel.DailyEventRerollExpand()
     end
 end
 
+function SF_MissionPanel.EveryTenMinutesExpand()
+    print("zSOUL QUEST SYSTEM - EveryTenMinutesExpand overwrite success");
+    local player = getPlayer();
+	if not player:getModData().missionProgress then return end
+	-- si potrebbe rimuovere killzombies ed inserirlo in un evento "OnCharacterDeath" o qualche evento che viene triggherato quando si uccide uno zombie?
+	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
+		local actionevent = player:getModData().missionProgress.ActionEvent;
+		for a=#actionevent,1,-1 do
+			if actionevent[a].condition then
+				local condition = luautils.split(actionevent[a].condition, ";");
+				if condition[1] == "enterroom" then
+					local squareTable = luautils.split(condition[2], "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					if square then
+						local room = square:getRoom();
+						if player:getSquare():getRoom() == room then
+							local commandTable = luautils.split(actionevent[a].commands, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable);
+							table.remove(actionevent, a);
+						end
+					end	
+				elseif condition[1] == "enterdungeon" then
+					local dungeonID = condition[2];
+					if player:getModData().CurrentDungeon.dungeonId and player:getModData().CurrentDungeon.dungeonId == dungeonID then
+						local commandTable = luautils.split(actionevent[a].commands, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+						table.remove(actionevent, a);					
+					end
+				elseif condition[1] == "killzombies" then
+					local currentkills = player:getZombieKills();
+					local goal = tonumber(condition[2]);
+					if currentkills >= goal then
+							local commandTable = luautils.split(actionevent[a].commands, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable);
+							table.remove(actionevent, a);
+					end
+				elseif condition[1] == "readbook" then
+					
+				elseif condition[1] == "watchmedia" then
+					local media = getZomboidRadio():getRecordedMedia():getMediaData(condition[2]);
+					local watched = getZomboidRadio():getRecordedMedia():hasListenedToAll(player, media);
+					if watched and actionevent[a].commands then
+						local commandTable = luautils.split(actionevent[a].commands, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+						table.remove(actionevent, a);
+					end
+				end
+			end
+		end
+	end
+	
+	if player:getModData().missionProgress.Timers and #player:getModData().missionProgress.Timers > 0 then
+		local timers = player:getModData().missionProgress.Timers;
+		local ageHours = getGameTime():getWorldAgeHours();
+		for i=#timers,1,-1 do
+			if timers[i].timer and timers[i].timer < ageHours then
+				if timers[i].command == "unlockQuest" then
+					if timers[i].category then
+						SF_MissionPanel.instance:addTaskToCategory(timers[i].guid, category, timers[i].sound);
+					else
+						SF_MissionPanel.instance:unlockQuest(timers[i].guid, timers[i].sound);
+					end
+				end
+				if timers[i].commands then
+					local commandTable = luautils.split(timers[i].commands, ";");
+					SF_MissionPanel.instance:readCommandTable(commandTable);		
+				end
+				table.remove(player:getModData().missionProgress.Timers, i);
+				SF_MissionPanel.instance.needsBackup = true;
+			end
+		end
+	end
+
+	if player:getModData().missionProgress.WorldEvent then
+		for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
+			if not v2.marker then
+				local squareTable = luautils.split(k2, "x");
+				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+				local square = getCell():getGridSquare(x, y, z);
+                local marker
+				if square then
+                    if string.find(string.lower(v2.dialoguecode), "complete") then
+                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+                    else
+					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+                    end
+					marker:setDoAlpha(false);
+					marker:setAlphaMin(0.8);
+					marker:setAlpha(1.0);
+					v2.marker = marker;
+				end
+			end
+		end
+	end
+	
+	if SF_MissionPanel.instance.needsBackup == true then
+        print("zSOUL QUEST SYSTEM - needBackup true, backup data init.");
+		SF_MissionPanel.instance:backupData();
+		SF_MissionPanel.instance.needsBackup = false;
+	end
+end
+
 function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
     local player = getPlayer();
     if player:getModData().missionProgress.WorldEvent then
@@ -627,6 +760,7 @@ function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
     return false
 end
 
+-- PredicateFullDrainable#Base.PropaneTank;2
 function SF_MissionPanel:takeNeededItem(neededitem)
     local player = getPlayer();
     local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
@@ -679,7 +813,7 @@ function SF_MissionPanel:takeNeededItem(neededitem)
         elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then    
                 items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFreshFood, quantity);    
         elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then    
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFullDrainable, quantity);    
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFullDrainable, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight#") then
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
@@ -692,8 +826,10 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
     if items then
         for i=0, items:size()-1 do
-            local item = items:get(i):getFullType();
-            player:getInventory():RemoveOneOf(item, true);
+            local item = items:get(i)
+            -- if predicateFullDrainable(item) then 
+            player:getInventory():Remove(item);
+            -- end
         end
         return true
     end
@@ -813,7 +949,6 @@ function SF_MissionPanel:completeQuest(player, guid)
 				local task = currentTasks[i];
 				if task.guid and task.guid == guid then
 					player:getModData().missionProgress.Category2[i].status = "Completed";
-                    -- potrebbe avere senso rimuovere preventivamente il marker del worldevent che era presente qui? un doppio check magari. prima che vengano sbloccate tutte le varie proprietà (che potrebbero far comparire altri marker di qualche worldevent nuovo che subentra)
 					if task.awardsitem then
 						local count = 1;
 						local rewardTable = luautils.split(task.awardsitem, ";");
@@ -851,7 +986,7 @@ function SF_MissionPanel:completeQuest(player, guid)
 						local entry = luautils.split(task.awardsworld, ";");
 						SF_MissionPanel.instance:runCommand("unlockworldevent", entry[1], entry[2], entry[3]);				
 					end
-                    -- not quite sure to put this here because it's already present in "updateQuestStatus" when status is setted to == "Completed" and "checkQuestForCompletionByType" too. So there is a possibility to trigger it twice or more. because if you update the quest status to "Complete" and there is "ondone" command, it will be executed and then will be executed again when "completequest" is called.
+                    -- "task.ondone" not quite sure to put this here because it's already present in "updateQuestStatus" when status is setted to == "Completed" and "checkQuestForCompletionByType" too. So there is a possibility to trigger it twice or more. because if you update the quest status to "Complete" and there is "ondone" command, it will be executed and then will be executed again when "completequest" is called.
                     if task.ondone then
                         local commandTable = luautils.split(task.ondone, ";");
                         SF_MissionPanel.instance:readCommandTable(commandTable);
@@ -910,13 +1045,110 @@ function SF_MissionPanel:completeQuest(player, guid)
 	end
 end
 
+function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
+	local player = self.player or getPlayer();
+	local quest = SF_MissionPanel:getQuest(guid);
+    if player and quest then
+	    if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
+	    	if guid then
+	    		local hasTask = false
+	    		local currentTasks = player:getModData().missionProgress.Category2
+	    		if #currentTasks > 0 then
+	    			for i=1,#currentTasks do
+	    				if currentTasks[i].guid and currentTasks[i].guid == guid then
+	    					hasTask = true
+	    				end
+	    			end
+	    		end
+	    		if quest.unique then --a unique quest will never be unlocked again, so we need to check the quest log too
+	    			local questLog = player:getModData().missionProgress.Category1	
+	    			if questLog and #questLog > 0 then
+	    				for i=1,#questLog do
+	    					if questLog[i].guid and questLog[i].guid == guid then
+	    						hasTask = true
+	    					end
+	    				end
+	    			end
+	    		end
+	    		if hasTask == true then
+	    			print("SOUL QUEST SYSTEM - Player already had that quest unlocked.");
+	    			return
+	    		end
+	    	end
+	    	--quest should be unlocked for this player
+	    	if quest.unlockedsound then
+	    		getSoundManager():playUISound(quest.unlockedsound);
+	    	end
+	    	if quest.updates then
+	    		local updatedQuest = SF_MissionPanel.instance:getActiveQuest(quest.updates);
+	    		if updatedQuest then
+	    			updatedQuest.awardsitem = quest.awardsitem or updatedQuest.awardsitem;
+	    			updatedQuest.awardslore = quest.awardslore or updatedQuest.awardslore;
+	    			updatedQuest.awardsrep = quest.awardsrep or updatedQuest.awardsrep;
+	    			updatedQuest.awardstask = quest.awardstask or updatedQuest.awardstask;
+	    			updatedQuest.awardsworld = quest.awardsworld or updatedQuest.awardsworld;
+	    			updatedQuest.completesound = quest.completesound or updatedQuest.completesound;
+	    			updatedQuest.needsitem = quest.needsitem or updatedQuest.needsitem;
+	    			updatedQuest.onobtained = quest.onobtained or updatedQuest.onobtained;
+	    			updatedQuest.text = quest.text or updatedQuest.text;
+	    			updatedQuest.texture = quest.texture or updatedQuest.texture;
+	    			updatedQuest.title = quest.title or updatedQuest.title;
+	    			if (not updatedQuest.lore) and quest.lore then
+	    				updatedQuest.lore = quest.lore;
+	    			elseif updatedQuest.lore and quest.lore then
+	    				for l=1, #quest.lore do
+	    					local lore = quest.lore[l];
+	    					table.insert(updatedQuest.lore, lore);
+	    				end
+	    			end
+	    		else
+	    			print("SOUL QUEST SYSTEM - Unlocked quest was an update to an existing quest that could not be found.");
+	    		end
+	    	else
+	    		if quest.awardsitem and overrideAwardsItem then
+	    			local newQuest = quest;
+	    			newQuest.awardsitem = overrideAwardsItem;
+	    			table.insert(player:getModData().missionProgress.Category2, newQuest);	
+	    		elseif quest.awardsitem and luautils.stringStarts(quest.awardsitem, "Table:") then
+	    			local tableKey = luautils.split(quest.awardsitem, ":")[2];
+	    			local rewardTable = SFQuest_Database.RandomRewardItemPool[tableKey];
+	    			local newQuest = quest;
+	    			if rewardTable and #rewardTable > 0 then
+	    				newQuest.awardsitem = rewardTable[ZombRand(1, #rewardTable + 1)]
+	    			end
+	    			table.insert(player:getModData().missionProgress.Category2, newQuest);			
+	    		else
+	    			table.insert(player:getModData().missionProgress.Category2, quest);	
+	    		end
+	    	end
+	    	if quest.unlocks then
+	    		local commandTable = luautils.split(quest.unlocks, ";");
+	    		SF_MissionPanel.instance:readCommandTable(commandTable);
+	    	end
+	    	SF_MissionPanel.instance.needsUpdate = true;
+	    	SF_MissionPanel.instance.needsBackup = true;
+	    	return
+	    else
+	    	print("Player did not have a list of current tasks. Unable to unlock a task.");
+	    end
+    else
+        print("no quest found with guid: " .. guid);
+    end
+end
+
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
+    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
+    -- Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
+    Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
     Events.OnGameStart.Remove(SF_MissionPanel.DailyEventReroll)
     Events.OnGameStart.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes)
 
+
+    local original_EveryTenMinutes = SF_MissionPanel.EveryTenMinutes
+    SF_MissionPanel.EveryTenMinutes = SF_MissionPanel.EveryTenMinutesExpand
     local original_fun = SF_MissionPanel.DailyEventReroll
     SF_MissionPanel.DailyEventReroll = SF_MissionPanel.DailyEventRerollExpand
 end)

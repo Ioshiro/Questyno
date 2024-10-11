@@ -19,7 +19,7 @@ SFQuest_ClickEventMenu = function(player, context, worldobjects, test)
 		local event = playerObj:getModData().missionProgress.ClickEvent[c];
 		if event.square and event.square == sqTag then
         		local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"), worldobjects, onClickEvent, playerObj, square, event.address, event.actiondata, event.commands);
-				clickOption.iconTexture = getTexture("clickevent");			
+				clickOption.iconTexture = getTexture("media/textures/clickevent.png");
 		end
 	end
 end

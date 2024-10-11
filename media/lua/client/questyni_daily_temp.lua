@@ -1818,7 +1818,7 @@ local emilyTerryQuest22 = {
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry22_Lore" },
     needsitem = "Base.AxeStone;4", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry22_Complete",
+    onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry22_Complete", --commands di unlockworldevent = completequest
     text = "IGUI_SFQuest_Questyno_EmilyTerry22_Text",
     texture = "media/textures/Item_EmilyTerry.png",
     title = "IGUI_SFQuest_Questyno_EmilyTerry22_Title",

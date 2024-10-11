@@ -24,6 +24,7 @@ function Commands.setProgress(args)
 	print("zSOUL QUEST SYSTEM - missionProgress reset for backup");
 	player:getModData().missionProgress = temp;
 	print("zSOUL QUEST SYSTEM - backup data recovered");
+	-- impostiamo startingPlayerStats uguale al nuovo missionProgress del backup per sicurezza (realmente necessario?)
 	SFQuest_PlayerHandler.startingPlayerStats = player:getModData().missionProgress;
 	if args.checkDefaults then
 		SF_MissionPanel.instance:checkDefaults();

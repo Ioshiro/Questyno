@@ -166,6 +166,7 @@ local function CreateDelay()
 end
 
 local function onCreatedPlayer(playerIndex, player)
+	print("zSOUL QUEST SYSTEM - onCreatedPlayer event triggered")
     Events.OnTick.Add(CreateDelay)
 end
 
@@ -196,6 +197,7 @@ local function OnPlayerDeath(player)
 end
 
 function SFQuest_PlayerHandler.OnGameStart()
+	print("zSOUL QUEST SYSTEM - OnGameStart Event triggered")
 	SF_MissionPanel.instance:triggerUpdate();
 	
 	local player = getPlayer();
@@ -204,8 +206,13 @@ function SFQuest_PlayerHandler.OnGameStart()
 			local squareTable = luautils.split(k2, "x");
 			local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
 			local square = getCell():getGridSquare(x, y, z);
-			if square then
-				local marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+			local marker
+				if square then
+                    if string.find(string.lower(v2.dialoguecode), "complete") then
+                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+                    else
+					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+                    end
 				marker:setDoAlpha(false);
 				marker:setAlphaMin(0.8);
 				marker:setAlpha(1.0);
@@ -218,5 +225,6 @@ end
 
 
 Events.OnCreatePlayer.Add(onCreatedPlayer);
+Events.OnLoad.Add(function() print("zSOUL QUEST SYSTEM - OnLoad Event triggered") end);
 Events.OnGameStart.Add(SFQuest_PlayerHandler.OnGameStart);
 Events.OnPlayerDeath.Add(OnPlayerDeath)

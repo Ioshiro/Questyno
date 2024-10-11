@@ -27,9 +27,7 @@ function SFQuest_WorldEventWindow:createChildren()
     self:addChild(self.CloseBtn);		
 	
 	if self.dialogueinfo.sound then
-		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 0.0); --probably getSoundManager() start the audio for everyone, not good for this case...
-		getSoundManager():PlayAsMusic(self.dialogueinfo.sound.begin,self.playTalk,false,0);
-		self.playTalk:setVolume(1);
+		self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.begin, false, 1.0);
 	end
 	if self.dialogueinfo.optional then
 		self.DeclineBtn = ISButton:new(12, btnHeight, 100, 20, getText("IGUI_Decline"), self, SFQuest_WorldEventWindow.onOptionMouseDown);
@@ -52,7 +50,6 @@ function SFQuest_WorldEventWindow:createChildren()
 	
 	-- Not the ideal place to put this but I guess it works so what the hell
 	-- fix completequest command, sometimes the marker from the quest is not removed in time
-	-- fix also the problem if the completequest stop inside neededStuffTaken because maybe something goes wrong with takeNeededItem returning false for any reason regarding the state of the item request in the invetory (this is also a problem related to checkQuestForCompletionByType but we'll see if we can insert here some check here too)
 	if self.command and self.command == "completequest" then
 		self.CloseBtn:setVisible(true);
 		local neededStuffTaken = true;
@@ -63,11 +60,8 @@ function SFQuest_WorldEventWindow:createChildren()
 			SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square); -- this happen before, so why the marker remains after completeQuest?
 			SF_MissionPanel.instance:completeQuest(self.character, self.questid);
 		elseif not neededStuffTaken then
-			-- still need to figure out this 
 			SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-			-- con modifica del worldevent dialogueinfo.text con informazioni dell'item che ha dato problemi?
 			self.richText.text = getText("IGUI_FailCompleteQuest") or "...";
-			-- FUNZIONA, CREARE IGUI TEXT PER IL RISULTATO
 		end
 	elseif self.command and self.command == "updateobjectivestatus" then
 		self.CloseBtn:setVisible(true);
@@ -97,12 +91,13 @@ end
 -- local original_SFQuest_WorldEventWindow_onOptionMouseDown= SFQuest_WorldEventWindow.onOptionMouseDown
 function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 	if button.internal == "ACCEPT" then
+		if getPlayer():getModData().missionProgress.WorldEvent[self.worldinfo.square].marker then
+			getPlayer():getModData().missionProgress.WorldEvent[self.worldinfo.square].marker:remove(); -- put this before removeWorldEvent just to double check the marker is removed
+		end
 		if self.playTalk then --added feature for dialogue sound
 			self.playTalk:stop()
 			if self.dialogueinfo.sound.accept then
-				self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.accept, false, 0.0);
-				getSoundManager():PlayAsMusic(self.dialogueinfo.sound.accept,self.playTalk,false,0);
-        		self.playTalk:setVolume(1);
+				self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.accept, false, 1.0);
 			end
 		end
 		self.richText.text = getText(self.dialogueinfo.textaccepted) or "...";
@@ -111,7 +106,7 @@ function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 		if self.DeclineBtn then
 			self.DeclineBtn:setVisible(false);
 		end
-		SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square); -- fix, this remove must be the unlockQuest? if not will be remove the marker from the nextQuest? if the nextQuest unlock a worldevent
+		SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square); -- fix, put this here and not after unlockQuest to avoid removing the new worldevent
 		if self.overrideRewardItem then
 			SF_MissionPanel.instance:unlockQuest(self.questid, self.overrideRewardItem);
 		else
@@ -122,9 +117,7 @@ function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 		if self.playTalk then --added feature for dialogue sound
 			self.playTalk:stop()
 			if self.dialogueinfo.sound.decline then
-				self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.decline, false, 0.0);
-				getSoundManager():PlayAsMusic(self.dialogueinfo.sound.decline,self.playTalk,false,0);
-        		self.playTalk:setVolume(1);
+				self.playTalk = getSoundManager():PlaySound(self.dialogueinfo.sound.decline, false, 1.0);
 			end
 		end
 		self.richText.text = getText(self.dialogueinfo.textdeclined) or "...";

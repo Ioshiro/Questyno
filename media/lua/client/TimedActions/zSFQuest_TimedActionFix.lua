@@ -30,7 +30,9 @@ end
 local function additemOverWrite(item, quantity)
     local inv = getPlayer():getInventory();
 	inv:AddItems(item, quantity);
-    Events.OnTick.Add(delayAddItem)
+    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+        Events.OnTick.Add(delayAddItem)
+    end
 end
 
 
@@ -51,7 +53,9 @@ local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
 	ISInventoryTransferActionVanilla(self)
     print("ISInventoryTransferAction Successful overwrite")
-	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+	    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    end
 end
 
 
@@ -103,7 +107,9 @@ local origin_ISForageAction_perform = ISForageAction.perform
 function ISForageAction:perform()
     origin_ISForageAction_perform(self)
     print("ISForageAction Successful overwrite")
-    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+        SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    end
 end
 
 
