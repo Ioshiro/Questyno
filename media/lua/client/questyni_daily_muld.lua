@@ -738,7 +738,7 @@ local secretQuest20 = {
         guid = "Questyno_VictoriaSecret20_A",
         text = "IGUI_SFQuest_Questyno_VictoriaSecret20_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoVictoriaSecret20;additem;Mov_MannequinFemale;1"
+        oncompleted = "removeclickevent;EventoVictoriaSecret20;additem;Mov_MannequinMale;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret20_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -756,7 +756,7 @@ local secretQuest20A = {
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret20_Lore" },
-    needsitem = "Mov_MannequinFemale;1", -- REQUIRE
+    needsitem = "Tag#Mannequin;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret20_Complete",
     text = "IGUI_SFQuest_Questyno_VictoriaSecret20_A_Text",
     texture = "media/textures/Item_VictoriaSecret.png",

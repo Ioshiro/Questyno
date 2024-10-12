@@ -85,6 +85,41 @@ function SF_MissionPanel.Commands.unlockworldevent(identity, dialoguecode, quest
 	end
 end
 
+function SF_MissionPanel.Commands.clickevent(squareaddress, actiondata, commands)
+	local player = getPlayer();
+	local squareTable = luautils.split(squareaddress, ":");
+	local convertedaction = actiondata:gsub(":", ";");
+	local convertedlist = commands:gsub(":", ";");	
+    local squareCoord = luautils.split(squareTable[1], "x");
+    local x,y,z = tonumber(squareCoord[1]), tonumber(squareCoord[2]), tonumber(squareCoord[3]);
+    local square = getCell():getGridSquare(x,y,z);
+    local marker;
+    if square then
+        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
+        marker:setDoAlpha(false);
+		marker:setAlphaMin(0.8);
+		marker:setAlpha(1.0);
+    end
+    table.insert(player:getModData().missionProgress.ClickEvent, {square = squareTable[1], address = squareTable[2], actiondata = convertedaction, commands = convertedlist, marker = marker});
+	SF_MissionPanel.instance.needsBackup = true;
+end
+
+function SF_MissionPanel.Commands.removeclickevent(address)
+	local player = getPlayer();
+	if not player:getModData().missionProgress.ClickEvent then return end
+	for c=1,#player:getModData().missionProgress.ClickEvent do
+		local event = player:getModData().missionProgress.ClickEvent[c];
+		if event.address and event.address == address then
+            if event.marker then
+                event.marker:remove();
+            end
+			table.remove(player:getModData().missionProgress.ClickEvent, c);
+			SF_MissionPanel.instance.needsBackup = true;
+			break;
+		end
+	end
+end
+
 -- super funzione per rimuovere coattamente una quest e tutte le relative sottofunzioni aggiunte (se presenti)
 function SF_MissionPanel.Commands.removequest(questid)
     local player = getPlayer();
@@ -271,7 +306,8 @@ function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1
         SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1, npcname)
         return
     else
-        lastDailyCompleted[dailycode] = nil
+        lastDailyCompleted[dailycode] = randompick[3]
+        --aggiunge la daily in una tabella temporanea che si assicura di non farla ripescare al prossimo giro
     end
 	SF_MissionPanel.instance:runCommand("unlockworldevent", randompick[1], randompick[2], randompick[3], dailycode)
 end
@@ -744,6 +780,25 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 			end
 		end
 	end
+
+    if player:getModData().missionProgress.ClickEvent then
+        for c=1,#player:getModData().missionProgress.ClickEvent do
+            local event = player:getModData().missionProgress.ClickEvent[c];
+            if not event.marker then
+				local squareTable = luautils.split(event.square, "x");
+				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+				local square = getCell():getGridSquare(x, y, z);
+                local marker
+				if square then
+					marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
+					marker:setDoAlpha(false);
+					marker:setAlphaMin(0.8);
+					marker:setAlpha(1.0);
+					event.marker = marker;
+				end
+			end
+        end
+    end
 	
 	if SF_MissionPanel.instance.needsBackup == true then
         print("zSOUL QUEST SYSTEM - needBackup true, backup data init.");
@@ -1022,9 +1077,6 @@ function SF_MissionPanel:completeQuest(player, guid)
                     -- only save quests which are not daily events
 					if task.dailycode == nil then
 						table.insert(player:getModData().missionProgress.Category1, task);
-                    else 
-                        player:getModData().missionProgress.LastDailyCompleted[task.dailycode] = task.guid; 
-                        --aggiunge la daily in una tabella temporanea che si assicura di non farla ripescare al prossimo giro
                     end
                     -- only unlock eventually awarded quests after every check of the current quest completed
                     if task.awardstask then

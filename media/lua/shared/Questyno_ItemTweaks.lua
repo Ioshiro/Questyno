@@ -90,6 +90,11 @@ function Questyno_Tweaks()
     manager:getItem("Base.NoseStud_Gold"):DoParam("Tags".." = ".. "Golden");
     manager:getItem("Base.NoseRing_Gold"):DoParam("Tags".." = ".. "Golden");
 
+    -- Mannequin
+    -- manager:getItem("Moveables.location_shop_mall_01_66"):DoParam("Tags".." = ".. "Mannequin");
+    -- manager:getItem("Moveables.location_shop_mall_01_69"):DoParam("Tags".." = ".. "Mannequin");
+    manager:getItem("Mov_MannequinFemale"):DoParam("Tags".." = ".. "Mannequin");
+    manager:getItem("Mov_MannequinMale"):DoParam("Tags".." = ".. "Mannequin");
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)

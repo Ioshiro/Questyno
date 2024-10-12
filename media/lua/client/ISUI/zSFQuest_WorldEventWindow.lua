@@ -49,7 +49,6 @@ function SFQuest_WorldEventWindow:createChildren()
 	end
 	
 	-- Not the ideal place to put this but I guess it works so what the hell
-	-- fix completequest command, sometimes the marker from the quest is not removed in time
 	if self.command and self.command == "completequest" then
 		self.CloseBtn:setVisible(true);
 		local neededStuffTaken = true;
@@ -57,7 +56,7 @@ function SFQuest_WorldEventWindow:createChildren()
 			neededStuffTaken = SF_MissionPanel.instance:takeNeededItem(self.quest.needsitem);
 		end
 		if neededStuffTaken then
-			SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square); -- this happen before, so why the marker remains after completeQuest?
+			SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square);
 			SF_MissionPanel.instance:completeQuest(self.character, self.questid);
 		elseif not neededStuffTaken then
 			SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
@@ -91,9 +90,6 @@ end
 -- local original_SFQuest_WorldEventWindow_onOptionMouseDown= SFQuest_WorldEventWindow.onOptionMouseDown
 function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 	if button.internal == "ACCEPT" then
-		if getPlayer():getModData().missionProgress.WorldEvent[self.worldinfo.square].marker then
-			getPlayer():getModData().missionProgress.WorldEvent[self.worldinfo.square].marker:remove(); -- put this before removeWorldEvent just to double check the marker is removed
-		end
 		if self.playTalk then --added feature for dialogue sound
 			self.playTalk:stop()
 			if self.dialogueinfo.sound.accept then
