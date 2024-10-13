@@ -38,11 +38,11 @@ function Commands.sendDataTxt(player, args)
         --base_Commands_saveData(player, args);
     --end
 	local id = args.id;
-	print("[Commands.sendData] zSOUL QUEST SYSTEM - Server received a TXT request for quest data. Player ID: " .. id);
+	print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Server received a TXT request for quest data. Player ID: " .. id);
 	local filepath = "/Backup/SFQuest_" .. id .. ".txt";
 	local filereader = getFileReader(filepath, false);
 	if filereader then
-		print("[Commands.sendData] zSOUL QUEST SYSTEM - Located backup file player " .. id);
+		print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Located backup file player " .. id);
 		local temp = {};
 		local line = filereader:readLine();
 		while line ~= nil do
@@ -51,10 +51,10 @@ function Commands.sendDataTxt(player, args)
 		end
 		filereader:close();
 		local newargs = { id = id , data = temp };
-		print("[Commands.sendData] zSOUL QUEST SYSTEM - Requested quest data TXT for player " .. id .. " sent.");
-		sendServerCommand(player,'SFQuest', "setProgress", newargs);
+		print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Requested quest data TXT for player " .. id .. " sent.");
+		sendServerCommand(player,'SFQuest', "setProgressTxt", newargs);
 	else
-        print("[Commands.sendData] zSOUL QUEST SYSTEM - Unable to locate txt backup file for player " .. id);
+        print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Unable to locate txt backup file for player " .. id);
     end
 end
 
@@ -65,13 +65,16 @@ function Commands.sendData(player, args)
     local filereader = getFileReader(filepath, false);
     if filereader then
         print("[Commands.sendData] zSOUL QUEST SYSTEM - Located backup file for player " .. id);
-        local content = "";
+        local lines = {};
         local line = filereader:readLine();
         while line ~= nil do
-            content = content .. line .. "\n";
+            table.insert(lines, line);
             line = filereader:readLine();
         end
         filereader:close();
+
+        local content = table.concat(lines, "\n");
+
 
 
         -- Decodifica il contenuto JSON in una tabella Lua
