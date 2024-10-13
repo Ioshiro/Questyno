@@ -171,7 +171,7 @@ local function onCreatedPlayer(playerIndex, player)
 end
 
 local function OnPlayerDeath(player)
-	if not player:getModData().missionProgress then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
+	if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	local needUpdate = false;
 	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
 		local condition = luautils.split(v.condition, ";");
@@ -225,6 +225,6 @@ end
 
 
 Events.OnCreatePlayer.Add(onCreatedPlayer);
-Events.OnLoad.Add(function() print("zSOUL QUEST SYSTEM - OnLoad Event triggered") end);
+Events.OnLoad.Add(function() print("zSOUL QUEST SYSTEM - testing OnLoad Event triggered") end);
 Events.OnGameStart.Add(SFQuest_PlayerHandler.OnGameStart);
 Events.OnPlayerDeath.Add(OnPlayerDeath)

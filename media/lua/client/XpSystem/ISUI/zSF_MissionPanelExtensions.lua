@@ -297,17 +297,20 @@ function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1
 	local random = ZombRand(1, #poolTable + 1);
 	local randompick = luautils.split(poolTable[random], ";");
     local lastDailyCompleted = getPlayer():getModData().missionProgress.LastDailyCompleted;
+    if not getPlayer():getModData().missionProgress.LastDailyCompleted then
+        getPlayer():getModData().missionProgress.LastDailyCompleted = {};
+    end
     -- avoid last daily to be drawn again from the pool of quests of this dailycode
     -- randompick[3] is the guid of the quest
     -- lastDailyCompleted[dailycode] is the guid of the last daily quest of this dailycode
     -- se la poolTable ha solo 1 quest non darebbe più quest (tipo Lincoln Reed) quindi controlliamo che la poolTable è maggiore di 1
-    if #poolTable > 1 and randompick[3] == lastDailyCompleted[dailycode] then
+    if #poolTable > 1 and lastDailyCompleted[dailycode] and randompick[3] == lastDailyCompleted[dailycode] then
         print("zSOUL QUEST SYSTEM - Last daily quest already drawn from pool of quests of daily code: " .. dailycode);
         SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1, npcname)
         return
     else
         lastDailyCompleted[dailycode] = randompick[3]
-        --aggiunge la daily in una tabella temporanea che si assicura di non farla ripescare al prossimo giro
+        -- aggiunge la daily in una tabella temporanea che si assicura di non farla ripescare al prossimo giro
     end
 	SF_MissionPanel.instance:runCommand("unlockworldevent", randompick[1], randompick[2], randompick[3], dailycode)
 end
@@ -1183,6 +1186,7 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 	    	end
             -- si potrebbe pensare di mettere un checkQuestForCompletionByType check qui allo sblocco della quest per fixare il problema anche dell'addItem
             SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+            
 	    	SF_MissionPanel.instance.needsUpdate = true;
 	    	SF_MissionPanel.instance.needsBackup = true;
 	    	return
