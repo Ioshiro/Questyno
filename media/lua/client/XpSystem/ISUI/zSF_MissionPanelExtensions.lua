@@ -459,8 +459,8 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
 	if items then
 		for i=0, items:size()-1 do
-			local item = items:get(i):getFullType();
-			player:getInventory():RemoveOneOf(item, true);
+			local item = items:get(i);
+			player:getInventory():Remove(item);
 		end
 		return true
 	end
