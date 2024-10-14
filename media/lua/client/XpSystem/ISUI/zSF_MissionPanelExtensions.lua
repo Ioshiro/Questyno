@@ -43,7 +43,10 @@ local function predicateFullDrainable(item)
 end
 
 function SF_MissionPanel.Commands.removeitem(item, quantity)
+    local player = getPlayer();
     SF_MissionPanel.instance:takeNeededItem(item..";"..quantity) -- vabbe oh dai
+    -- bozza di idea per far comparire messaggi in generale, da capire quali però. esempio al prelevamento dell'item
+    getPlayer():setHaloNote(quantity .. " X " .. item .. " e' stato consegnato", 0, 255, 0, 500)
 end
 
 function SF_MissionPanel.Commands.addserverpoints(points)
@@ -318,12 +321,12 @@ end
 function SF_MissionPanel:checkDefaults()
     if not self.player:getModData().missionProgress then return end
 
-    if self.player:getModData().missionProgress.DailyEvent then
-        for k, v in pairs(self.player:getModData().missionProgress.Factions) do
-            -- ATTENZIONE: le due liste devono essere ordinate nello stesso ordine, ma in teoria dovrebbe essere così
-            if v.factioncode == SFQuest_Database.FactionPool[k].factioncode then
+    if self.player:getModData().missionProgress.Factions then
+        for i, v in ipairs(self.player:getModData().missionProgress.Factions) do
+            -- ATTENZIONE: le due liste devono essere ordinate nello stesso ordine, e bisogna usare ipairs per le table indicizzate!
+            if v.factioncode == SFQuest_Database.FactionPool[i].factioncode then
                 if v.tierlevel > 1 then
-                    local tier = SFQuest_Database.FactionPool[k].tiers[v.tierlevel];
+                    local tier = SFQuest_Database.FactionPool[i].tiers[v.tierlevel];
                     v.tiername = tier.tiername
                     v.tiercolor = tier.barcolor
                 end
@@ -332,9 +335,11 @@ function SF_MissionPanel:checkDefaults()
     end
 
     if self.player:getModData().missionProgress.DailyEvent then
-        for k, v in pairs(self.player:getModData().missionProgress.DailyEvent) do
-            if v.dailycode == SFQuest_Database.DailyEventPool[k].dailycode then
-                v.condition = SFQuest_Database.DailyEventPool[k].condition
+        for i, v in ipairs(self.player:getModData().missionProgress.DailyEvent) do
+            -- ATTENZIONE: le due liste devono essere ordinate nello stesso ordine, e bisogna usare ipairs per le table indicizzate!
+
+            if v.dailycode == SFQuest_Database.DailyEventPool[i].dailycode then
+                v.condition = SFQuest_Database.DailyEventPool[i].condition
             end
         end
     end
@@ -464,6 +469,8 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                             else
                                 task.status = status;
                                 self.needsUpdate = true
+                                local needsTable = luautils.split(task.needsitem, ";");
+                                getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto", 0, 255, 0, 250)
                                 if status == "Obtained" and task.onobtained then
                                     local commandTable = luautils.split(task.onobtained, ";");
                                     SF_MissionPanel.instance:readCommandTable(commandTable);
@@ -478,6 +485,7 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
 								end
                             end
                         else 
+                            -- se perdiamo l'oggetto o l'oggetto cambia stato e non è più valido ripristina la quest a non completabile "status nil"
 							if task.status == "Obtained" and task.onobtained then
 								local onObtainedTable = luautils.split(task.onobtained, ";");
                                 if #onObtainedTable > 0 then
@@ -492,6 +500,8 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                                                         end
                                                         self.player:getModData().missionProgress.WorldEvent[k] = nil
                                                         task.status = nil
+                                                        local needsTable = luautils.split(task.needsitem, ";");
+                                                        getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido", 255, 0, 0, 250)
                                                         self.needsBackup = true
                                                         self.needsUpdate = true
                                                         break;
@@ -889,9 +899,7 @@ function SF_MissionPanel:takeNeededItem(neededitem)
     if items then
         for i=0, items:size()-1 do
             local item = items:get(i)
-            -- if predicateFullDrainable(item) then 
             player:getInventory():Remove(item);
-            -- end
         end
         return true
     end
@@ -1069,22 +1077,27 @@ function SF_MissionPanel:completeQuest(player, guid)
 						self.richText:setVisible(false);
 					end
                     if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
-                        for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
+                        for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
                             local commands = luautils.split(v.commands, ";");
                             if luautils.stringStarts(task.guid, commands[2]) then
-                                table.remove(player:getModData().missionProgress.ActionEvent, k);
+                                table.remove(player:getModData().missionProgress.ActionEvent, i);
                                 break
                             end
                         end
-                    end
-                    -- only save quests which are not daily events
-					if task.dailycode == nil then
-						table.insert(player:getModData().missionProgress.Category1, task);
                     end
                     -- only unlock eventually awarded quests after every check of the current quest completed
                     if task.awardstask then
 						SF_MissionPanel:unlockQuest(task.awardstask);
 					end
+                    -- only save quests which are not daily events
+                    if task.dailycode == nil then
+                        table.insert(player:getModData().missionProgress.Category1, task);
+                    end
+                    -- idea per Reroll Daily Event solo al completamento dell'ultima step di una daily
+                    if task.dailycode and not task.awardstask then
+                        -- SF_MissionPanel.instance.DailyEventRerollExpand() --not working here. don't know why
+                        print("Daily Event Reroll triggered");
+                    end
 					table.remove(player:getModData().missionProgress.Category2, i);
 					done = true;
 					self.needsUpdate = true

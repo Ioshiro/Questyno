@@ -17,8 +17,8 @@
             self:drawTextRight(getText('IGUI_Reputation'), x, z, 0.7, 0.5, 0.1, 1, UIFont.Small)
             local tiername = getText('IGUI_Factions_Resistenza_Tier'.. self.char:getModData().missionProgress.Factions[1].tierlevel )
             local totalrep = self.char:getModData().missionProgress.Factions[1].reputation
-            for k,v in pairs(LaResistenzaTiersTemplate) do
-                if k < self.char:getModData().missionProgress.Factions[1].tierlevel then
+            for i,v in ipairs(LaResistenzaTiersTemplate) do
+                if i < self.char:getModData().missionProgress.Factions[1].tierlevel then
                     totalrep = totalrep + v.minrep
                 end
             end

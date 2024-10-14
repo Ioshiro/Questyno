@@ -875,7 +875,7 @@ local chinaQuest8 = {
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
         icon = "media/textures/Item_Pillbug",
         hidden = false,
-        needsitem = "PredicateFreshFood#PillBug;5",
+        needsitem = "PredicateFreshFood#Pillbug;5",
         onobtained = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Pillbug;5"
     }, {
         guid = "Questyno_RosaChina8_C",

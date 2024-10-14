@@ -1047,7 +1047,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_RobertWilson5_A",
         text = "IGUI_SFQuest_Questyno_RobertWilson5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoRobertWilson5;additem;Base.PetrolCan;1",
+        oncompleted = "removeclickevent;EventoRobertWilson5;additem;Base.EmptyPetrolCan;1",
     }},
     text = "IGUI_SFQuest_Questyno_RobertWilson5_Text",
     texture = "media/textures/Item_RobertWilson.png",

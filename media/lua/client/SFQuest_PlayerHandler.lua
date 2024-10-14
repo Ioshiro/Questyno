@@ -57,7 +57,8 @@ function SFQuest_PlayerHandler.StartPlayer()
 		if not ImDeath then
 			-- we enter here only if we DIE and we did close the game (or if is our first time in the server), in this case we have to restore startingPlayerStats from zero and if the player had a backup on server this will be restored. 
 			--inserting factions from Database here
-			for k,v in pairs(SFQuest_Database.FactionPool) do
+			local tempFaction = {};
+			for i,v in ipairs(SFQuest_Database.FactionPool) do
 				local factionTable = {};
 				factionTable.factioncode = v.factioncode;
 				factionTable.name = v.name;
@@ -67,10 +68,12 @@ function SFQuest_PlayerHandler.StartPlayer()
 				factionTable.tierlevel = 1;
 				factionTable.tiername = v.tiers[1].tiername;
 				factionTable.tiercolor = v.tiers[1].barcolor;
-				table.insert(player:getModData().missionProgress.Factions, factionTable);
+				table.insert(tempFaction, factionTable);
 			end
 
-			for q,u in pairs(SFQuest_Database.StartingPool) do
+			player:getModData().missionProgress.Factions = tempFaction;
+
+			for i,u in ipairs(SFQuest_Database.StartingPool) do
 				local hasCondition = true;
 				if u.condition then
 					local condition = luautils.split(u.condition, ";");
@@ -173,14 +176,14 @@ end
 local function OnPlayerDeath(player)
 	if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	local needUpdate = false;
-	for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
+	for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
 		local condition = luautils.split(v.condition, ";");
 		if condition[1] == "killzombies" then
 			local newcount = 0
 			if tonumber(condition[2]) > player:getZombieKills() then
 				newcount = tonumber(condition[2]) - player:getZombieKills();
 			end
-			player:getModData().missionProgress.ActionEvent[k].condition = condition[1] .. ";" .. newcount;
+			player:getModData().missionProgress.ActionEvent[i].condition = condition[1] .. ";" .. newcount;
 			needUpdate = true;
 			print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Updated killzombies condition from " .. condition[2] .. " to " .. newcount);
 		end

@@ -87,7 +87,7 @@ function SFQuest_WorldEventWindow:close()
 	end
 end
 
--- local original_SFQuest_WorldEventWindow_onOptionMouseDown= SFQuest_WorldEventWindow.onOptionMouseDown
+local original_SFQuest_WorldEventWindow_onOptionMouseDown = SFQuest_WorldEventWindow.onOptionMouseDown
 function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 	if button.internal == "ACCEPT" then
 		if self.playTalk then --added feature for dialogue sound
@@ -122,4 +122,108 @@ function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 		self.CloseBtn:setVisible(true);
     end
 	-- original_SFQuest_WorldEventWindow_onOptionMouseDown(self, button, x, y)
+end
+
+local original_SFQuest_WorldEventWindow_render = SFQuest_WorldEventWindow.render
+function SFQuest_WorldEventWindow:render()
+	local picWidth = 100;
+	if self.worldinfo.picture then
+		texture = getTexture(self.worldinfo.picture);
+		self:drawTexture(texture, 12, 28, 1, 1, 1, 1);
+		self:drawRectBorder(12, 28, texture:getWidth(), texture:getHeight(), 0.5, 1, 1, 1);
+		picWidth = texture:getWidth();
+	end
+
+	self.richText:setX(12 + picWidth)
+	self.richText:setY(16)
+	self.richText:setVisible(true);
+	self.richText:paginate();
+	
+	local textX = 12 + picWidth + 36;
+	local rewardHeight = self.height - self.fontHeight - 12
+	local hasRewards = false;
+	
+	if self.quest and self.quest.awardsrep and not (self.command == "updateobjectivestatus") then
+		local repTable = luautils.split(self.quest.awardsrep, ";");
+		--local factionName = 
+		local repBonus = repTable[2];
+		local repStr = "+" .. repBonus .. " reputation";
+		self:drawTextureScaledAspect(getTexture("media/textures/Item_PlusRep.png"), textX, rewardHeight, 20, 20, 1, 1, 1, 1);
+		self:drawText(repStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);	
+		rewardHeight = rewardHeight - 22;
+		hasRewards = true;
+	end
+	
+	if self.quest and self.quest.awardsitem and not (self.command == "updateobjectivestatus") then
+		local count = 1;
+		local rewardTable = luautils.split((self.overrideRewardItem or self.quest.awardsitem), ";");
+		local scriptItem = getScriptManager():FindItem(rewardTable[1]);
+		if not scriptItem then
+			local javaItem = getScriptManager():getItemsByType(needsTable[1])
+            if javaItem and javaItem:size() > 0 then
+                scriptItem = javaItem:get(0)
+            end
+		end
+		if scriptItem then
+			local itemName = scriptItem:getDisplayName();
+
+			local texture = scriptItem:getNormalTexture()
+                if not texture then
+                    local obj = scriptItem:InstanceItem(nil);
+	            	if obj then
+	            		local icons = scriptItem:getIconsForTexture();
+	            		if icons and icons:size() > 0 then
+	            			texture = loadTexture(obj:getVisual():getBaseTexture(), icons) or loadTexture(obj:getVisual():getTextureChoice(), icons);
+                            
+	            		else
+	            			texture = obj:getTexture();
+                            
+	            		end
+	            	end
+                end
+
+			local rewardStr = itemName;
+			if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
+				rewardStr = itemName .. "  X " .. rewardTable[count + 1];
+			end
+			self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);		
+			self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
+		end
+		hasRewards = true;
+		count = 3;
+		rewardHeight = rewardHeight - 22;
+		while rewardTable[count] do
+			local scriptItem = getScriptManager():FindItem(rewardTable[count]);
+			if scriptItem then
+				local itemName = scriptItem:getDisplayName();
+	
+				local texture = scriptItem:getNormalTexture()
+					if not texture then
+						local obj = scriptItem:InstanceItem(nil);
+						if obj then
+							local icons = scriptItem:getIconsForTexture();
+							if icons and icons:size() > 0 then
+								texture = loadTexture(obj:getVisual():getBaseTexture(), icons) or loadTexture(obj:getVisual():getTextureChoice(), icons);
+								
+							else
+								texture = obj:getTexture();
+								
+							end
+						end
+					end
+	
+				local rewardStr = itemName;
+				if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
+					rewardStr = itemName .. "  X " .. rewardTable[count + 1];
+				end
+				self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);		
+				self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
+			end
+			count = count + 2;
+			rewardHeight = rewardHeight - 22;
+		end
+	end
+	if hasRewards then
+		self:drawText(getText("IGUI_Rewards"), 12 + picWidth + 24, rewardHeight + 4, 1, 1, 1, 1, self.font);
+	end
 end
