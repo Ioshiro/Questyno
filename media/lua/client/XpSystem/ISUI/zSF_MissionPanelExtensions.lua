@@ -300,6 +300,33 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
 	return false
 end
 
+function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1, npcname)
+	local poolTable = SFQuest_Database.RandomEventPool[tablename1][npcname];
+    if not poolTable then
+        print("zSOUL QUEST SYSTEM - Pool table not found: " .. tablename1 .. "for npc: " .. npcname);
+        return
+    end
+	local random = ZombRand(1, #poolTable + 1);
+	local randompick = luautils.split(poolTable[random], ";");
+    local lastDailyCompleted = getPlayer():getModData().missionProgress.LastDailyCompleted;
+    if not getPlayer():getModData().missionProgress.LastDailyCompleted then
+        getPlayer():getModData().missionProgress.LastDailyCompleted = {};
+    end
+    -- avoid last daily to be drawn again from the pool of quests of this dailycode
+    -- randompick[3] is the guid of the quest
+    -- lastDailyCompleted[dailycode] is the guid of the last daily quest of this dailycode
+    -- se la poolTable ha solo 1 quest non darebbe più quest (tipo Lincoln Reed) quindi controlliamo che la poolTable è maggiore di 1
+    if #poolTable > 1 and lastDailyCompleted[dailycode] and randompick[3] == lastDailyCompleted[dailycode] then
+        print("zSOUL QUEST SYSTEM - Last daily quest already drawn from pool of quests of daily code: " .. dailycode);
+        SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1, npcname)
+        return
+    else
+        lastDailyCompleted[dailycode] = randompick[3]
+        -- aggiunge la daily in una tabella temporanea che si assicura di non farla ripescare al prossimo giro
+    end
+	SF_MissionPanel.instance:runCommand("unlockworldevent", randompick[1], randompick[2], randompick[3], dailycode)
+end
+
 function SF_MissionPanel:updateQuestStatus(guid, status)
 	local player = self.player or getPlayer();
 	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
@@ -432,8 +459,8 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
 	if items then
 		for i=0, items:size()-1 do
-			local item = items:get(i):getFullType();
-			player:getInventory():RemoveOneOf(item, true);
+			local item = items:get(i);
+			player:getInventory():Remove(item);
 		end
 		return true
 	end
@@ -511,6 +538,19 @@ function SF_MissionPanel:removeReputation(faction, value)
 		end
 	end
 end
+
+function SF_MissionPanel.RemoveAllWorldMarkers()
+    local player = getPlayer();
+    if player:getModData().missionProgress and player:getModData().missionProgress.WorldEvent then
+        for k2, v2 in pairs(player:getModData().missionProgress.WorldEvent) do
+            print("SOUL QUEST SYSTEM - checking marker for: " .. v2.dialoguecode);
+            if v2.marker then
+                v2.marker:remove();
+            end
+        end
+    end
+end
+
 function SF_MissionPanel.DebugEveryTenMinutes()
 	local player = getPlayer();
 	if not player:getModData().missionProgress then return end
@@ -539,9 +579,6 @@ function SF_MissionPanel:completeQuest(player, guid)
 				local task = currentTasks[i];
 				if task.guid and task.guid == guid then
 					player:getModData().missionProgress.Category2[i].status = "Completed";
-					if task.awardstask then
-						SF_MissionPanel:unlockQuest(task.awardstask);
-					end
 					if task.awardsitem then
 						local count = 1;
 						local rewardTable = luautils.split(task.awardsitem, ";");
@@ -606,6 +643,10 @@ function SF_MissionPanel:completeQuest(player, guid)
 
 					if task.dailycode == nil then
 						table.insert(player:getModData().missionProgress.Category1, task);
+					end
+                    -- only unlock eventually awarded quests after every check of the current quest completed
+                    if task.awardstask then
+						SF_MissionPanel:unlockQuest(task.awardstask);
 					end
 					table.remove(player:getModData().missionProgress.Category2, i);
 					done = true;
