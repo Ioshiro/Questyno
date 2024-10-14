@@ -1,4 +1,3 @@
-require("SFQuest_ServerCommands")
 local Commands = {}
 
 function Commands.saveData(player, args)
