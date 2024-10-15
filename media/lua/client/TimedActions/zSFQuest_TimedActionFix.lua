@@ -18,7 +18,6 @@ end
 
 local tickAdditem = 50
 local function delayAddItem()
-    print("delayAddItem " .. tickAdditem )
     if tickAdditem <= 0 then
         Events.OnTick.Remove(delayAddItem)
         postAddItem()
@@ -44,88 +43,123 @@ Events.OnGameStart.Add(
     end
 ) 
 
--- local untouched = ISCraftAction.perform;
--- function ISCraftAction:perform()
---     untouched(self);
---     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
---     print("ISCraftAction Successful overwrite");
--- end
+local untouched = ISCraftAction.perform;
+function ISCraftAction:perform()
+    untouched(self);
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    print("ISCraftAction Successful overwrite");
+end
 
 local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
 	ISInventoryTransferActionVanilla(self)
     print("ISInventoryTransferAction Successful overwrite")
-    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
 	    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    end
+    -- end
 end
 
 
--- local oldISDropItemAction_perform = ISDropItemAction.perform
--- function ISDropItemAction:perform()
--- 	oldISDropItemAction_perform(self)
--- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local oldISDropItemAction_perform = ISDropItemAction.perform
+function ISDropItemAction:perform()
+	oldISDropItemAction_perform(self)
+    print("ISDropItemAction Successful overwrite")
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local oldISDropWorldItemAction_perform = ISDropWorldItemAction.perform
--- function ISDropWorldItemAction:perform()
--- 	oldISDropWorldItemAction_perform(self)
--- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local oldISDropWorldItemAction_perform = ISDropWorldItemAction.perform
+function ISDropWorldItemAction:perform()
+	oldISDropWorldItemAction_perform(self)
+    print("ISDropWorldItemAction Successful overwrite")
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local oldISAddItemInRecipe_perform = ISAddItemInRecipe.perform
--- function ISAddItemInRecipe:perform()
--- 	oldISAddItemInRecipe_perform(self)
--- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local oldISAddItemInRecipe_perform = ISAddItemInRecipe.perform
+function ISAddItemInRecipe:perform()
+	oldISAddItemInRecipe_perform(self)
+    print("ISAddItemInRecipe Successful overwrite")
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local ISConsolidateDrainableAll_perform = ISConsolidateDrainableAll.perform
--- function ISConsolidateDrainableAll:perform()
--- 	ISConsolidateDrainableAll_perform(self)
--- 	print("ISConsolidateDrainableAll_perform")
--- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local ISConsolidateDrainableAll_perform = ISConsolidateDrainableAll.perform
+function ISConsolidateDrainableAll:perform()
+	ISConsolidateDrainableAll_perform(self)
+	print("ISConsolidateDrainableAll_perform")
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local ISConsolidateDrainable_perform = ISConsolidateDrainable.perform
--- function ISConsolidateDrainable:perform()
--- 	ISConsolidateDrainable_perform(self)
--- 	print("ISConsolidateDrainable_perform")
--- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local ISConsolidateDrainable_perform = ISConsolidateDrainable.perform
+function ISConsolidateDrainable:perform()
+	ISConsolidateDrainable_perform(self)
+	print("ISConsolidateDrainable_perform")
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local oldISDrinkFromBottle_perform = ISDrinkFromBottle.perform
--- function ISDrinkFromBottle:perform()
---     oldISDrinkFromBottle_perform(self)
---     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local oldISDrinkFromBottle_perform = ISDrinkFromBottle.perform
+function ISDrinkFromBottle:perform()
+    oldISDrinkFromBottle_perform(self)
+    print("ISDrinkFromBottle Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
--- local oldISEatFoodAction_perform = ISEatFoodAction.perform
--- function ISEatFoodAction:perform()
---     oldISEatFoodAction_perform(self)
---     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
--- end
+local oldISEatFoodAction_perform = ISEatFoodAction.perform
+function ISEatFoodAction:perform()
+    oldISEatFoodAction_perform(self)
+    print("ISEatFoodAction Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
 local origin_ISForageAction_perform = ISForageAction.perform
 function ISForageAction:perform()
     origin_ISForageAction_perform(self)
     print("ISForageAction Successful overwrite")
-    if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
         SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    end
+    -- end
 end
 
+local origin_ShopBuyAction_perform = ShopBuyAction.perform
+function ShopBuyAction:perform()
+    origin_ShopBuyAction_perform(self)
+    print("ShopBuyAction Successful overwrite")
+    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+        SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    -- end
+end
 
--- TESTONE
-Events.OnGameStart.Add(
+local origin_ISDumpWaterAction_perform = ISDumpWaterAction.perform
+function ISDumpWaterAction:perform()
+    origin_ISDumpWaterAction_perform(self)
+    print("ISDumpWaterAction Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
+
+local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdate
+function ISInventoryPage.OnContainerUpdateNew()
+    originISInventoryPage_OnContainerUpdate()
+    print("ISInventoryPage:OnContainerUpdate Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
+
+Events.OnGameBoot.Add(
     function()
-        local function applyToInventory(ISInventoryPage, step)
-            if step == "end" and getPlayer():getInventory() == ISInventoryPage.inventory then
-                print("zSOUL QUEST SYSTEM - Added quest: Obtained, applyToInventory");
-                SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-            end
-        end
-    
-        Events.OnRefreshInventoryWindowContainers.Add(applyToInventory)
+        Events.OnContainerUpdate.Remove(ISInventoryPage.OnContainerUpdate)
+        Events.OnContainerUpdate.Add(ISInventoryPage.OnContainerUpdateNew)
     end
 )
 
+
+
+-- TESTONE
+-- Events.OnGameStart.Add(
+--     function()
+--         local function applyToInventory(ISInventoryPage, step)
+--             if step == "end" and ISInventoryPage.inventory == getPlayer():getInventory() then
+--                 print("zSOUL QUEST SYSTEM - Added quest: Obtained, applyToInventory");
+--                 SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+--             end
+--         end
+    
+--         Events.OnRefreshInventoryWindowContainers.Add(applyToInventory)
+--     end
+-- )

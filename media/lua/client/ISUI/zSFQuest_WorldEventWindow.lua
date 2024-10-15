@@ -1,3 +1,26 @@
+
+local function loadTexture(id, icons)
+    if id > -1 and id < icons:size() then
+        return getTexture("Item_"..tostring(icons:get(id)));
+    end
+end
+
+local function getRealTexture(scriptItem)
+	local texture = scriptItem:getNormalTexture()
+	if not texture then
+		local obj = scriptItem:InstanceItem(nil)
+		if obj then
+			local icons = scriptItem:getIconsForTexture()
+			if icons and icons:size() > 0 then
+				texture = loadTexture(obj:getVisual():getBaseTexture(), icons) or loadTexture(obj:getVisual():getTextureChoice(), icons)
+			else
+				texture = obj:getTexture()
+			end
+		end
+	end
+	return texture
+end
+
 local original_SFQuest_WorldEventWindow_createChildren = SFQuest_WorldEventWindow.createChildren
 function SFQuest_WorldEventWindow:createChildren()
 	-- original_SFQuest_WorldEventWindow_createChildren(self)
@@ -155,72 +178,36 @@ function SFQuest_WorldEventWindow:render()
 	end
 	
 	if self.quest and self.quest.awardsitem and not (self.command == "updateobjectivestatus") then
-		local count = 1;
-		local rewardTable = luautils.split((self.overrideRewardItem or self.quest.awardsitem), ";");
-		local scriptItem = getScriptManager():FindItem(rewardTable[1]);
-		if not scriptItem then
-			local javaItem = getScriptManager():getItemsByType(needsTable[1])
-            if javaItem and javaItem:size() > 0 then
-                scriptItem = javaItem:get(0)
-            end
-		end
-		if scriptItem then
-			local itemName = scriptItem:getDisplayName();
-
-			local texture = scriptItem:getNormalTexture()
-                if not texture then
-                    local obj = scriptItem:InstanceItem(nil);
-	            	if obj then
-	            		local icons = scriptItem:getIconsForTexture();
-	            		if icons and icons:size() > 0 then
-	            			texture = loadTexture(obj:getVisual():getBaseTexture(), icons) or loadTexture(obj:getVisual():getTextureChoice(), icons);
-                            
-	            		else
-	            			texture = obj:getTexture();
-                            
-	            		end
-	            	end
-                end
-
-			local rewardStr = itemName;
-			if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
-				rewardStr = itemName .. "  X " .. rewardTable[count + 1];
-			end
-			self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);		
-			self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
-		end
-		hasRewards = true;
-		count = 3;
-		rewardHeight = rewardHeight - 22;
+		local rewardTable = luautils.split((self.overrideRewardItem or self.quest.awardsitem), ";")
+		hasRewards = false
+		local count = 1
+	
 		while rewardTable[count] do
-			local scriptItem = getScriptManager():FindItem(rewardTable[count]);
-			if scriptItem then
-				local itemName = scriptItem:getDisplayName();
-	
-				local texture = scriptItem:getNormalTexture()
-					if not texture then
-						local obj = scriptItem:InstanceItem(nil);
-						if obj then
-							local icons = scriptItem:getIconsForTexture();
-							if icons and icons:size() > 0 then
-								texture = loadTexture(obj:getVisual():getBaseTexture(), icons) or loadTexture(obj:getVisual():getTextureChoice(), icons);
-								
-							else
-								texture = obj:getTexture();
-								
-							end
-						end
-					end
-	
-				local rewardStr = itemName;
-				if rewardTable[count + 1] and rewardTable[count + 1] ~= "1" then
-					rewardStr = itemName .. "  X " .. rewardTable[count + 1];
+			local scriptItem = getScriptManager():FindItem(rewardTable[count])
+			if not scriptItem then
+				local javaItem = getScriptManager():getItemsByType(rewardTable[count])
+				if javaItem and javaItem:size() > 0 then
+					scriptItem = javaItem:get(0)
 				end
-				self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1);		
-				self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font);
 			end
-			count = count + 2;
-			rewardHeight = rewardHeight - 22;
+	
+			if scriptItem then
+				local itemName = scriptItem:getDisplayName()
+				local texture = getRealTexture(scriptItem)
+				local quantity = rewardTable[count + 1] or "1"
+				local rewardStr = itemName
+	
+				if quantity ~= "1" then
+					rewardStr = itemName .. "  X " .. quantity
+				end
+	
+				self:drawTextureScaledAspect(texture, textX, rewardHeight, 20, 20, 1, 1, 1, 1)
+				self:drawText(rewardStr, textX + 22, rewardHeight + 2, 1, 1, 1, 1, self.font)
+				hasRewards = true
+				rewardHeight = rewardHeight - 22
+			end
+	
+			count = count + 2
 		end
 	end
 	if hasRewards then

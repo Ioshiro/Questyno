@@ -898,8 +898,8 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
     if items then
         for i=0, items:size()-1 do
-            local item = items:get(i)
-            player:getInventory():Remove(item);
+            local itemId = items:get(i):getID();
+            player:getInventory():removeItemWithIDRecurse(itemId);
         end
         return true
     end
