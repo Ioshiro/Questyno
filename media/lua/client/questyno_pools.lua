@@ -684,17 +684,18 @@ SFQuest_Database.RandomEventPool.Questyno = Questyno;
 	days = 0,
 	frequency = 1
 });]]
-table.insert(SFQuest_Database.DailyEventPool, {
-	dailycode = "Questyno_Lupo",
-	condition = "notmaxedwithcode;Questyno_Lupo;1;hasfactiontier;TonyLupo;3",
-	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
-	days = 0,
-	frequency = 1
-});
+
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_Grif",
 	condition = "notmaxedwithcode;Questyno_Grif;1;hasfactiontier;SergenteGrif;3",
 	commands = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Lupo",
+	condition = "notmaxedwithcode;Questyno_Lupo;1;hasfactiontier;TonyLupo;3",
+	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
 	days = 0,
 	frequency = 1
 });
