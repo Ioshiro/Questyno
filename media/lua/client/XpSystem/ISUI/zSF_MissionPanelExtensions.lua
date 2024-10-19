@@ -47,7 +47,8 @@ function SF_MissionPanel.Commands.removeitem(item, quantity)
     SF_MissionPanel.instance:takeNeededItem(item..";"..quantity) -- vabbe oh dai
     -- bozza di idea per far comparire messaggi in generale, da capire quali però. esempio al prelevamento dell'item
     -- getPlayer():setHaloNote(quantity .. " X " .. item .. " e' stato consegnato", 0, 255, 0, 500)
-    getPlayer():Say(quantity .. " X " .. item .. " e' stato consegnato")
+    local message = "QUEST: " .. quantity .. " x " .. item .. " e' stato consegnato"
+    getPlayer():Say(message)
 end
 
 function SF_MissionPanel.Commands.addserverpoints(points)
@@ -480,7 +481,10 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                                 self.needsUpdate = true
                                 local needsTable = luautils.split(task.needsitem, ";");
                                 -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto", 0, 255, 0, 250)
-                                getPlayer():Say(needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto")
+                                local message = "QUEST: " .. needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto"
+                                getPlayer():Say(message, 0.000, 0.500, 0.500, UIFont.Small, 0, "default")
+                                -- getPlayer():Say(message)
+                                
                                 if status == "Obtained" and task.onobtained then
                                     local commandTable = luautils.split(task.onobtained, ";");
                                     SF_MissionPanel.instance:readCommandTable(commandTable);
@@ -512,7 +516,9 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                                                         task.status = nil
                                                         local needsTable = luautils.split(task.needsitem, ";");
                                                         -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido", 255, 0, 0, 250)
-                                                        getPlayer():Say(needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido")
+                                                        local message = "QUEST: " .. needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido"
+                                                        -- getPlayer():Say(message)
+                                                        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
                                                         self.needsBackup = true
                                                         self.needsUpdate = true
                                                         break;
@@ -561,6 +567,48 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
             end
         end
     end
+end
+
+function SF_MissionPanel:checkTaskForCompletion(guid)
+	local player = self.player or getPlayer();
+	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
+		local currentTasks = player:getModData().missionProgress.Category2
+		local done = false
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i];
+				if task.guid and task.guid == guid then
+					local completed = true;
+					local deliveryindex;
+					if task.objectives and #task.objectives > 0 then
+						for o=1,#task.objectives do
+							local objective = task.objectives[o];
+							if not objective.status then
+								completed = false;	
+							elseif objective.needsitem ~= nil and not objective.status == "Completed" then
+								completed = false;
+							elseif objective.blockscompletion == true and not objective.status == "Completed" then
+								completed = false;
+							elseif objective.deliverysquare then
+								deliveryindex = o;
+							end
+						end
+					end
+					if completed == true and task.onobjectivescompleted then
+						local commandsTable = luautils.split(task.onobjectivescompleted, ";");
+						SF_MissionPanel.instance:readCommandTable(commandsTable);
+					end
+					if completed == true and not task.needsreport then
+						if deliveryindex then
+							player:getModData().missionProgress.Category2[i].objectives[deliveryindex].status = "Completed";
+						end
+						SF_MissionPanel:completeQuest(player, guid);
+					end
+					break
+				end
+			end
+		end
+	end
 end
 
 function SF_MissionPanel:updateFrequency(dailycode, frequency)
@@ -1101,6 +1149,7 @@ function SF_MissionPanel:completeQuest(player, guid)
 						self.previousPage:setVisible(false);
 						self.richText:setVisible(false);
 					end
+                    -- che sia questo a far sparire le action event dei killzombies? ma come?
                     if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
                         for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
                             local commands = luautils.split(v.commands, ";");
@@ -1240,8 +1289,12 @@ Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
-    -- Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
-    Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
+    -- check sandbox option of time and set everyten or everyone minutes based on it?
+    -- if SandboxVars.DayLength >= 5 then
+        Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
+    -- else 
+        -- Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
+    -- end
     Events.OnGameStart.Remove(SF_MissionPanel.DailyEventReroll)
     Events.OnGameStart.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes)
