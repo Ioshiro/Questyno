@@ -1485,7 +1485,7 @@ local leeQuest19B = {
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee19_Lore" },
     unlocks = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee19_Complete",
-    text = "IGUI_SFQuest_Questyno_SusanLee19_A_Text",
+    text = "IGUI_SFQuest_Questyno_SusanLee19_B_Text",
     texture = "media/textures/Item_SusanLee.png",
     title = "IGUI_SFQuest_Questyno_SusanLee19_Title",
 }
@@ -2826,7 +2826,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung19",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    awardsitem = "ScrapClub;1", -- ITEM REWARD
+    awardsitem = "SWeapons.ScrapClub;1", -- ITEM REWARD
     needsitem = "LeatherStrips;20", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",

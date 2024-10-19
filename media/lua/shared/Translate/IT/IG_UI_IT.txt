@@ -274,7 +274,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Lupo9_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo9_Complete = " Grazie ti siamo grati. Questi sono per te.",
     IGUI_SFQuest_Questyno_Lupo9_A = "Pistola M9",
-    IGUI_SFQuest_Questyno_Lupo9_B = "Caricatore M9",
+    IGUI_SFQuest_Questyno_Lupo9_B = "Scatola munizioni 9mm",
     IGUI_SFQuest_Questyno_Lupo9_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo10_Title = "Tony Lupo da West Point 10161,6621,0",
@@ -334,7 +334,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Lupo15_Begin_Text_Declined = "Sapevo che non avevi la stoffa",
     IGUI_SFQuest_Questyno_Lupo15_Complete = "Ce n'hai messo di tempo! D? qua.",
     IGUI_SFQuest_Questyno_Lupo15_A = "Pistola Magnum",
-    IGUI_SFQuest_Questyno_Lupo15_B = "Scatola di proiettili da 44 Magnum",
+    IGUI_SFQuest_Questyno_Lupo15_B = "3 Scatole di proiettili da 44 Magnum",
     IGUI_SFQuest_Questyno_Lupo15_A_Text = "Torna da Tony Lupo",
 
     IGUI_SFQuest_Questyno_Lupo16_Title = "Tony Lupo da West Point 10161,6621,0",
@@ -1529,7 +1529,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_BobRepair4_A_Text = "Torna da Bob",
 	
 	IGUI_SFQuest_Questyno_BobRepair5_Title = "Bob della Tana 9340,8578,0",
-    IGUI_SFQuest_Questyno_BobRepair5_Text = "Scarti elettronici per Bob",
+    IGUI_SFQuest_Questyno_BobRepair5_Text = "Parti elettroniche per Bob",
     IGUI_SFQuest_Questyno_BobRepair5_Lore = "Bob mi ha chiesto di recuperare 20 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che ?.",
     IGUI_SFQuest_Questyno_BobRepair5_Begin_Text = "Mi sono fissato con questi Chippini, servono molte parti elettroniche, riesci a procurarmene qualcuna?",
     IGUI_SFQuest_Questyno_BobRepair5_Begin_Text_Accepted = "Corri, ti aspetto!",
@@ -2904,10 +2904,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SusanLee18_Complete = "Grazie ci faranno comodo.",
 	IGUI_SFQuest_Questyno_SusanLee18_A = "Cerca a New Ekron (7244,8373,0)",
 	IGUI_SFQuest_Questyno_SusanLee18_A_Text = "Prendi i medicinali per Susan",
-	IGUI_SFQuest_Questyno_SusanLee18_B = "Base.PillsVitamins",
-	IGUI_SFQuest_Questyno_SusanLee18_C = "2 Base.PillsSleepingTablets",
-	IGUI_SFQuest_Questyno_SusanLee18_D = "Base.SutureNeedle",
-	IGUI_SFQuest_Questyno_SusanLee18_E = "Base.Pills",
+	IGUI_SFQuest_Questyno_SusanLee18_B = "Vitamine",
+	IGUI_SFQuest_Questyno_SusanLee18_C = "2 Sonniferi",
+	IGUI_SFQuest_Questyno_SusanLee18_D = "Ago da sutura",
+	IGUI_SFQuest_Questyno_SusanLee18_E = "Antidolorifici",
 	IGUI_SFQuest_Questyno_SusanLee18_B_Text = "Torna da Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee19_Title = "Dr. Susan da Muldarugh 10822,9072,0",
@@ -2919,8 +2919,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SusanLee19_Complete = "Cosa devo farci con questa roba? Puoi tenerteli. ",
 	IGUI_SFQuest_Questyno_SusanLee19_A = "Cerca a New Ekron (7244,8357,0)",
 	IGUI_SFQuest_Questyno_SusanLee19_A_Text = "Prendi i medicinali per Susan",
-	IGUI_SFQuest_Questyno_SusanLee19_B = "2 Base.PillsBeta",
-	IGUI_SFQuest_Questyno_SusanLee19_C = "2 Base.AlcoholWipes",
+	IGUI_SFQuest_Questyno_SusanLee19_B = "2 Betabloccanti",
+	IGUI_SFQuest_Questyno_SusanLee19_C = "2 Salviette con alcol",
 	IGUI_SFQuest_Questyno_SusanLee19_B_Text = "Torna da Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee20_Title = "Dr. Susan da Muldarugh 10822,9072,0",
@@ -3395,7 +3395,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamuelYoung16_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_SamuelYoung16_Complete = "Wow grande, hanno preso tutte! Tieni, questo ? per te!",
 	IGUI_SFQuest_Questyno_SamuelYoung16_A = "Cerca a Muldraugh (11380,9501,0)",
-	IGUI_SFQuest_Questyno_SamuelYoung16_A_Text = "Porta i conigli a Samuel",
+	IGUI_SFQuest_Questyno_SamuelYoung16_A_Text = "Porta gli Scoiattoli a Samuel",
 	
 	IGUI_SFQuest_Questyno_SamuelYoung17_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung17_Text = "Conigli per Samuel",
@@ -4126,12 +4126,12 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Text = "Il cappello da Pirata",
-	IGUI_SFQuest_Questyno_RafaelPrezioso14_Lore = "Rafael vorrebbe che gli trovassi un cappello da Pirata nella casa di un collezionista ad Utopia (7465,9615,0)",
+	IGUI_SFQuest_Questyno_RafaelPrezioso14_Lore = "Rafael vorrebbe che gli trovassi un cappello da Pirata nella casa di un collezionista ad Utopia (7465,9615,2)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text = "Ho sempre amato i pirati perch? andavano a caccia di tesori! Conoscevo un Collezionista nella citt? di Utopia, vai l? e guarda se gli rimane qualche cappello da pirata!",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text_Accepted = "Aspetter? con ansia",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_Complete = "Cavoli questo ? ancora pi? bello del mio! Grazie di cuore, amico.",
-	IGUI_SFQuest_Questyno_RafaelPrezioso14_A = "Cerca a Utopia (7465,9615,0)",
+	IGUI_SFQuest_Questyno_RafaelPrezioso14_A = "Cerca a Utopia (7465,9615,2)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso14_A_Text = "Porta il cappello a Rafael",
 	
 	
@@ -5098,7 +5098,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher_Intro_Title = "Sam Fisher 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Text = "Incontra Sam Fisher [Settimanali]",
     IGUI_SFQuest_Questyno_SamFisher_Intro_Lore = "Sam ? il capo di casa a Westpoint ? un tipo pieno di s? ma a volte ? quello che serve in una situazione come questa per sopravvivere. Credo abbia bisogno pi? di compagnia che di qualcosa in particolare. Mi aspetta sempre al molo.",
-    IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita ? stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Mia moglie mi ha sempre aspettato qua con nostra figlia, ? stata una fortuna che non fossi in viaggio quanto tutto questo ? cominciato. Ho accolto tutte queste altre persone per malinconia dei miei vecchi compagni e per la noia ma si sono rivelati tutti degli ottimi marinai! Il mare ci offre cibo abbondante se sappiamo come trovarlo.  Se non ti immischierai mai con quei farabutti della famiglia di Nigel potrai farmi un po' di compagnia quando ti va, magari impererai qualcosa! Quei bastardi continuano a razionalizzare le scorte di benzina e noi non riusciamo a prepararci in caso di emergenza!",
+    IGUI_SFQuest_Questyno_SamFisher_Intro_Complete_Text = "Ciao, io sono Sam Fisher, sentirai molto parlare di me. La mia vita ? stata sempre legata all'oceano, alle onde e ai segreti del mare aperto. Siamo sopravvissuti a tempeste, onde alte e giorni senza fine in mare. Quando gli zombie hanno invaso, ho perso la mia barca e parte del mio equipaggio, ma non ho mai perso il mio legame con il mare. Mia moglie mi ha sempre aspettato qua con nostra figlia, ? stata una fortuna che non fossi in viaggio quanto tutto questo ? cominciato. Ho accolto tutte queste altre persone per malinconia dei miei vecchi compagni e per la noia ma si sono rivelati tutti degli ottimi marinai! Il mare ci offre cibo abbondante se sappiamo come trovarlo.  Se non ti immischierai mai con quei farabutti della famiglia di Nigel potrai farmi un po' di compagnia quando ti va, magari impererai qualcosa! Quei bastardi continuano a razionare le scorte di benzina e noi non riusciamo a prepararci in caso di emergenza!",
 
 	IGUI_SFQuest_Questyno_SamFisher1_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher1_Text = "Esche per Sam",
@@ -5403,7 +5403,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_ElowenBeckett1_Title = "Elowen dalla Tana 9324,8598,0",
     IGUI_SFQuest_Questyno_ElowenBeckett1_Text = "Uccidere 30 zombie",
-    IGUI_SFQuest_Questyno_ElowenBeckett1_Lore = "Devo dimostrare a Berto di meritarmi il suo aiuto. Devo uccidere 30 Zombie per suo conto.",
+    IGUI_SFQuest_Questyno_ElowenBeckett1_Lore = "Devo dimostrare a Elowen di meritarmi il suo aiuto. Devo uccidere 30 Zombie per suo conto.",
     IGUI_SFQuest_Questyno_ElowenBeckett1_Begin_Text = "Vorrei darti una mano ma vorrei prima capire di che pasta sei fatto. Uccidi 30 zombie per mio conto e ritorna da me, ci stai?",
     IGUI_SFQuest_Questyno_ElowenBeckett1_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_ElowenBeckett1_Begin_Text_Declined = "Peccato.",
@@ -6048,7 +6048,7 @@ IGUI_IT = {
 --[[ *** Harper Wells Raven Creek (4866,11186,0) ***
             Elenco:
                 intro. Incontra Harper Wells.
-                1. Recupero FOGLIO SPECIALE CON LORE LR.Lore1 @ (3949,11303,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
+                1. Recupero FOGLIO SPECIALE CON LORE LR.Lore1 @ (3314,11268,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
                 2. Recupero FOGLIO SPECIALE CON LR.Lore2 @ (4114,12446,0) e Uccidi 200 Zombie (2500rep + 120$ + LabItems.CmpSyringeWithCure)
                 3. Recupero FOGLIO SPECIALE CON LR.Lore3 @ 3607,11924,2 e Uccidi 200 Zombie (3000rep + 120$ + LabItems.CmpSyringeWithCure)
                 4. Recupero FOGLIO SPECIALE CON LR.Lore4 @ (3603,11382,3) e Uccidi 200 Zombie (3500rep + 120$ + LabItems.CmpSyringeWithCure)
@@ -6063,23 +6063,23 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_HarperWells1_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells1_Text = "Una speranza per la Resistenza",
-    IGUI_SFQuest_Questyno_HarperWells1_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Precisamente in degli uffici dismessi a (3949,11303,0)",
-    IGUI_SFQuest_Questyno_HarperWells1_Begin_Text = "Ho bisogno che recuperi alcuni documenti di alcuni colleghi che lavoravano al Virus Z prima dello scoppio dell'epidemia. Dovresti trovarli negli Uffici nella parte Nord-Est di Raven Creek ",
+    IGUI_SFQuest_Questyno_HarperWells1_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Precisamente in degli uffici dismessi a (3314,11268,0)",
+    IGUI_SFQuest_Questyno_HarperWells1_Begin_Text = "Ho bisogno che recuperi alcuni documenti di alcuni colleghi che lavoravano al Virus Z prima dello scoppio dell'epidemia. Dovresti trovarli negli Uffici nella parte Nord-Ovest di Raven Creek ",
     IGUI_SFQuest_Questyno_HarperWells1_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_HarperWells1_Begin_Text_Declined = "Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_HarperWells1_Complete = "Bene, prendi questa e torna il prossimo anno, quando saremo riusciti a produrne altre, facci sapere se funziona.",
-    IGUI_SFQuest_Questyno_HarperWells1_A = "Cerca a Raven Creek (3949,11303,0)",
+    IGUI_SFQuest_Questyno_HarperWells1_A = "Cerca a Raven Creek (3314,11268,0)",
     IGUI_SFQuest_Questyno_HarperWells1_B = "Uccidi 200 Zombie",
     IGUI_SFQuest_Questyno_HarperWells1_A_Text = "Porta il Foglio Speciale a Harper",
 
     IGUI_SFQuest_Questyno_HarperWells2_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells2_Text = "Una cura per la Resistenza",
-    IGUI_SFQuest_Questyno_HarperWells2_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Li trovo in un loro vecchio avamposto, prima che il gas si diffondesse nella citt?. L'avamposto si trova Sud-Est di Raven Creek, precisamente allo stadio di calcio (4114,12446,0)",
-    IGUI_SFQuest_Questyno_HarperWells2_Begin_Text = "Ho bisogno che recuperi alcuni documenti di alcuni colleghi che lavoravano al Virus Z prima dello scoppio dell'epidemia. Dovresti trovarli allo Stadio, si trova a Sud-Est, ? li che crearono un piccolo avamposto prima che la citt? venissa inondanta di radiazione da parte degli Americani. Quei bastardi continuano a metterci i bastoni fra le ruote, e non capiamo quale sia il loro vero obbiettivo. Possiamo contare su di te?",
+    IGUI_SFQuest_Questyno_HarperWells2_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Li trovo in un loro vecchio avamposto, prima che il gas si diffondesse nella citt?. L'avamposto si trova a Ovest di Raven Creek, precisamente nella zona portuale (3386,12287,0)",
+    IGUI_SFQuest_Questyno_HarperWells2_Begin_Text = "Ho bisogno che recuperi alcuni documenti di alcuni colleghi che lavoravano al Virus Z prima dello scoppio dell'epidemia. Dovresti trovarli nell'area portuale che si trova a Ovest, ? li che crearono un piccolo avamposto prima che la citt? venissa inondanta di radiazione da parte degli Americani. Quei bastardi continuano a metterci i bastoni fra le ruote, e non capiamo quale sia il loro vero obbiettivo. Possiamo contare su di te?",
     IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Declined = "Spero ci ripenserai.",
     IGUI_SFQuest_Questyno_HarperWells2_Complete = "Bene, prendi questa e torna il prossimo anno, quando saremo riusciti a produrne altre, facci sapere se funziona.",
-    IGUI_SFQuest_Questyno_HarperWells2_A = "Cerca a Raven Creek (4114,12446,0)",
+    IGUI_SFQuest_Questyno_HarperWells2_A = "Cerca a Raven Creek (3386,12287,0)",
     IGUI_SFQuest_Questyno_HarperWells2_B = "Uccidi 200 Zombie",
     IGUI_SFQuest_Questyno_HarperWells2_A_Text = "Porta il Foglio Speciale a Harper",
 
@@ -6169,6 +6169,9 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_GraceChambers4_B = "Cerca a Louisville (13402,1893,2)",
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Text = "Riporta la fiala a Grace",
 	IGUI_SFQuest_Questyno_GraceChambers4_B_Lore = "Ho trovato una fiala con uno strano composto trasparente. Credo sia meglio darlo a Grace.",
+    IGUI_SFQuest_Questyno_GraceChambers4_C = "Documento compromettente",
+	IGUI_SFQuest_Questyno_GraceChambers4_D = "Fiala con composto trasparente",
+
 	
 --[[
             *** Andrew Turner ***
@@ -6184,7 +6187,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Text = "Incontra Andrew Turner. [Catena]",
     IGUI_SFQuest_Questyno_AndrewTurner_Intro_Lore = "Andrew mi aspetta a Louisville, ha bisogno di me per recuperare quanto pi? propano possibile.",
-    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text = "Ciao straniero! Io sono Andrew, piacere! Sono un ex militare che ha perso tutta la sua squadra quando ? scoppiata l'epidemia e adesso sto cercando di scoprire cosa ? successo a i miei compagni e perch? hanno perso tutti la ragione. Insieme a Grace e a James da Raven Creek, cerchiamo di creare un siero per il virus ma abbiamo bisogno di molti materiali preziosi per il nostro laboratorio chimico, uno di questo ? il Propano. Conosco molti posti dove trovarne, spero potrai darmi una mano. Se mi aiuterai ti dar? una Rivista speciale che ti insegner? come costruire un Tavolo da lavoro.",
+    IGUI_SFQuest_Questyno_AndrewTurner_Intro_Complete_Text = "Ciao straniero! Io sono Andrew, piacere! Sono un ex militare che ha perso tutta la sua squadra quando ? scoppiata l'epidemia e adesso sto cercando di scoprire cosa ? successo a i miei compagni e perch? hanno perso tutti la ragione. Insieme a Grace e a James da Raven Creek, cerchiamo di creare un siero per il virus ma abbiamo bisogno di molti materiali preziosi per il nostro laboratorio chimico, uno di questo ? il Propano. Conosco molti posti dove trovarne, spero potrai darmi una mano. Se mi aiuterai ti dar? un Tavolo da Lavoro utile a creare armi e armature improvvisate.",
     
     IGUI_SFQuest_Questyno_AndrewTurner1_Title = "Andrew da Louisville (13631,4070,0)",
     IGUI_SFQuest_Questyno_AndrewTurner1_Text = "Propano per Andrew",
@@ -6212,7 +6215,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text = "Recupera un ultima bombola e siamo apposto! Dovrai tornare pi? o meno da dove sei venuto! Conosci Springwood?",
     IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Accepted = "Sono qui se cambi idea.",
     IGUI_SFQuest_Questyno_AndrewTurner3_Begin_Text_Declined = "Pensavo fossi all'altezza.",
-    IGUI_SFQuest_Questyno_AndrewTurner3_Complete = "Ottimo! Questa ? la rivista, falla leggere a uno che si intende di metallo, torner? utile a tutto il gruppo!",
+    IGUI_SFQuest_Questyno_AndrewTurner3_Complete = "Ottimo! Spero che sei venuto con la macchina, perch? questo pesa parecchio! Tieni!",
 	IGUI_SFQuest_Questyno_AndrewTurner3_A = "Cerca a Springwood (10490,8268,0)",
 	IGUI_SFQuest_Questyno_AndrewTurner3_A_Text = "Porta il propano a Andrew",	
 	
@@ -6496,12 +6499,12 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_DylanHarris5_Title = "Dylan da Bedford Fall (13847,10355,0)",
     IGUI_SFQuest_Questyno_DylanHarris5_Text = "Soldi per Potenziamento",
-    IGUI_SFQuest_Questyno_DylanHarris5_Lore = "Dylans vuole 50$ per rivelarmi un luogo in centro a Bedford Fall, in cui posso trovare una medicina speciale.",
+    IGUI_SFQuest_Questyno_DylanHarris5_Lore = "Dylan vuole 50$ per rivelarmi un luogo in centro a Bedford Fall, in cui posso trovare una medicina speciale.",
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text = "Se te la senti di addentrarti in citt? posso rivelarti un luogo in cui potrai trovare questa potente medicina. Mi servir? solo qualche spicciolo per la dritta!",
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Accepted = "Bene, bene. ",
     IGUI_SFQuest_Questyno_DylanHarris5_Complete = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_DylanHarris5_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_DylanHarris5_A = "Cerca a Bedford Fall (9196,9997,0)",
+	IGUI_SFQuest_Questyno_DylanHarris5_A = "Cerca a Bedford Fall (13851,11298,0)",
 	IGUI_SFQuest_Questyno_DylanHarris5_A_Text = "Prendi la medicina in cucina",
 	IGUI_SFQuest_Questyno_DylanHarris5_A_Lore = "Dovrebbe essere nella cucina a 13851,11298,0"
 	

@@ -106,7 +106,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_HarperWells1_Text",
     texture = "media/textures/Item_HarperWells.png",
     title = "IGUI_SFQuest_Questyno_HarperWells1_Title",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_HarperWells1:2:Completed;clickevent;3949x11303x0:EventoHarperWells1;time:50:anim:loot;updateobjective:Questyno_HarperWells1:1:Completed", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_HarperWells1:2:Completed;clickevent;3314x11268x0:EventoHarperWells1;time:50:anim:loot;updateobjective:Questyno_HarperWells1:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -142,7 +142,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_HarperWells2_Text",
     texture = "media/textures/Item_HarperWells.png",
     title = "IGUI_SFQuest_Questyno_HarperWells2_Title",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_HarperWells2:2:Completed;clickevent;4114x12446x0:EventoHarperWells2;time:50:anim:loot;updateobjective:Questyno_HarperWells2:1:Completed", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_HarperWells2:2:Completed;clickevent;3386x12287x0:EventoHarperWells2;time:50:anim:loot;updateobjective:Questyno_HarperWells2:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 

@@ -215,7 +215,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze8_B",
 
     awardsrep = "LaResistenza;2200",
-    awardsitem = "NoiseTrapTriggered;1;Money;150",
+    awardsitem = "PipeBomb;1;Money;150",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze8_Lore" },
@@ -277,7 +277,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane1_A",
 
-    awardsrep = "LaResistenza;130",
+    awardsrep = "LaResistenza;1300",
     awardsitem = "Base.Money;25",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
@@ -315,7 +315,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane2_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "Base.Money;50",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
@@ -353,7 +353,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane3_A",
 
-    awardsrep = "LaResistenza;220",
+    awardsrep = "LaResistenza;2200",
     awardsitem = "Base.Money;60",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
@@ -391,7 +391,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane4_A",
 
-    awardsrep = "LaResistenza;420",
+    awardsrep = "LaResistenza;4200",
     awardsitem = "Base.Money;80",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
