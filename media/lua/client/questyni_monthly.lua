@@ -260,7 +260,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane1_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_A",
         hidden = false,
-        needsitem = "CardID;50",
+        needsitem = "CardID;30",
         onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;50",
     },{
         guid = "Questyno_MarcusKane1_B",
@@ -271,7 +271,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane1_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_MarcusKane1:2:Completed",
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MarcusKane1:2:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -298,7 +298,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane2_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_A",
         hidden = false,
-        needsitem = "CardID;100",
+        needsitem = "CardID;50",
         onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;100",
     },{
         guid = "Questyno_MarcusKane2_B",
@@ -309,7 +309,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane2_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:100;updateobjective:Questyno_MarcusKane2:2:Completed",
+    unlocks = "actionevent;killzombies:500;updateobjective:Questyno_MarcusKane2:2:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -336,7 +336,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane3_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_A",
         hidden = false,
-        needsitem = "CardID;120",
+        needsitem = "CardID;60",
         onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;120",
     },{
         guid = "Questyno_MarcusKane3_B",
@@ -347,7 +347,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane3_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:120;updateobjective:Questyno_MarcusKane3:2:Completed",
+    unlocks = "actionevent;killzombies:600;updateobjective:Questyno_MarcusKane3:2:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -374,7 +374,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane4_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_A",
         hidden = false,
-        needsitem = "CardID;200",
+        needsitem = "CardID;100",
         onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;200",
     },{
         guid = "Questyno_MarcusKane4_B",
@@ -385,13 +385,13 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane4_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MarcusKane4:2:Completed",
+    unlocks = "actionevent;killzombies:1000;updateobjective:Questyno_MarcusKane4:2:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane4_A",
 
-    awardsrep = "LaResistenza;4200",
+    awardsrep = "LaResistenza;3200",
     awardsitem = "Base.Money;80",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
