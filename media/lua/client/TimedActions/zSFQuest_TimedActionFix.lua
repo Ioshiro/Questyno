@@ -1,4 +1,4 @@
--- require "TimedActions/ISCraftAction"
+-- require "TimedActions/ISCraftAction" -- already present in SQS
 -- require "TimedActions/ISInventoryTransferAction" - questo forse va messo?
 -- require "TimedActions/ISDropItemAction"
 -- require "TimedActions/ISDropWorldItemAction"
@@ -42,13 +42,6 @@ Events.OnGameStart.Add(
         SF_MissionPanel.Commands["additem"] = additemOverWrite;
     end
 ) 
-
-local untouched = ISCraftAction.perform;
-function ISCraftAction:perform()
-    untouched(self);
-    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    print("ISCraftAction Successful overwrite");
-end
 
 local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
