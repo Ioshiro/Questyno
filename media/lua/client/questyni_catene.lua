@@ -479,7 +479,8 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JohnBaker.png",
     title = "IGUI_SFQuest_Questyno_JohnBaker1_Title",
     unique = true,
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_JohnBaker:SFQuest_Questyno_JohnBaker1_Complete:placeholder:updatequeststatus:Questyno_JohnBaker1:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50;updatequeststatus:Questyno_JohnBaker1:Obtained", -- ZOMBIE REQUEST
+    onobtained = "unlockworldevent;Questyno_JohnBaker;SFQuest_Questyno_JohnBaker1_Complete", --updatequeststatus triggher onobtained?
     unlockedsound = "QuestUnlocked"
 });
 

@@ -806,8 +806,10 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
 		local actionevent = player:getModData().missionProgress.ActionEvent;
 		for a=#actionevent,1,-1 do
-			if actionevent[a].condition then
-				local condition = luautils.split(actionevent[a].condition, ";");
+            local event = actionevent[a]
+            local condition = event.condition
+			if condition then
+				local condition = luautils.split(condition, ";");
 				if condition[1] == "enterroom" then
 					local squareTable = luautils.split(condition[2], "x");
 					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
@@ -815,7 +817,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 					if square then
 						local room = square:getRoom();
 						if player:getSquare():getRoom() == room then
-							local commandTable = luautils.split(actionevent[a].commands, ";");
+							local commandTable = luautils.split(event.commands, ";");
 							SF_MissionPanel.instance:readCommandTable(commandTable);
 							table.remove(actionevent, a);
 						end
@@ -823,7 +825,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 				elseif condition[1] == "enterdungeon" then
 					local dungeonID = condition[2];
 					if player:getModData().CurrentDungeon.dungeonId and player:getModData().CurrentDungeon.dungeonId == dungeonID then
-						local commandTable = luautils.split(actionevent[a].commands, ";");
+						local commandTable = luautils.split(event.commands, ";");
 						SF_MissionPanel.instance:readCommandTable(commandTable);
 						table.remove(actionevent, a);					
 					end
@@ -831,7 +833,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 					local currentkills = player:getZombieKills();
 					local goal = tonumber(condition[2]);
 					if currentkills >= goal then
-							local commandTable = luautils.split(actionevent[a].commands, ";");
+							local commandTable = luautils.split(event.commands, ";");
 							SF_MissionPanel.instance:readCommandTable(commandTable);
 							table.remove(actionevent, a);
 					end
@@ -840,8 +842,8 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 				elseif condition[1] == "watchmedia" then
 					local media = getZomboidRadio():getRecordedMedia():getMediaData(condition[2]);
 					local watched = getZomboidRadio():getRecordedMedia():hasListenedToAll(player, media);
-					if watched and actionevent[a].commands then
-						local commandTable = luautils.split(actionevent[a].commands, ";");
+					if watched and event.commands then
+						local commandTable = luautils.split(event.commands, ";");
 						SF_MissionPanel.instance:readCommandTable(commandTable);
 						table.remove(actionevent, a);
 					end
