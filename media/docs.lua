@@ -61,6 +61,7 @@
 							TagPredicateFullDrainable# it will only accept full drainable items.
 							TagPredicateFoodWeight# it will only accept food that are above a certain weight.
 							TagPredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
+							TagPredicateFoodCooked# it will only accept cooked food.
 							you can also use this check for just a item type:
 							PredicateBigFish# accepts fresh fish above a certain length (>=50cm).
 							PredicateCondition# accepts weapons above a certain condition.
@@ -68,6 +69,7 @@
 							PredicateFullDrainable# it will only accept full drainable items.
 							PredicateFoodWeight# it will only accept food that are above a certain weight.
 							PredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
+							PredicateFoodCooked# it will only accept cooked food.
 	objectives = (OPTIONAL) A table containing one table for each objective. Objectives display their own text and can have their own separate 
 							progress status. It is usually required to complete all objectives before being able to complete a quest but 
 							not necessarily in the order they are presented. Example: A quest could require talking to 4 other NPCs.

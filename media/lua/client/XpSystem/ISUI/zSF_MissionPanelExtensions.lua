@@ -38,6 +38,12 @@ local function predicateFoodHunger(item, condition)
 	end
 end
 
+local function predicateFoodCooked(item)
+    if instanceof(item, "Food") then
+        return item:isFresh() and item:isCooked()
+    end
+end
+
 local function predicateFullDrainable(item)
 	return item:getUsedDelta() == 1
 end
@@ -665,10 +671,13 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
 	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateFullDrainable);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);  --non va
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger") then
 	    	isTag = true;
 	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked") then
+        	isTag = true;
+        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateFoodCooked);
         end
     elseif isPredicate then
         if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
@@ -688,6 +697,8 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
 
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger") then
             carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked") then
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFoodCooked);
         end
     else
 		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
@@ -977,6 +988,8 @@ function SF_MissionPanel:takeNeededItem(neededitem)
                 items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
                 items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked#") then
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFoodCooked, quantity);
         end
     elseif isPredicate then
         -- Gestione dei casi senza 'Tag' (solo 'Predicate')
@@ -992,6 +1005,8 @@ function SF_MissionPanel:takeNeededItem(neededitem)
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
                 items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked#") then
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFoodCooked, quantity);
         end
     else
         -- Caso di default (nessun 'Tag' o 'Predicate')
