@@ -1,13 +1,14 @@
 -- require "TimedActions/ISCraftAction" -- already present in SQS
--- require "TimedActions/ISInventoryTransferAction" - questo forse va messo?
--- require "TimedActions/ISDropItemAction"
--- require "TimedActions/ISDropWorldItemAction"
--- require "TimedActions/ISAddItemInRecipe"
--- require "TimedActions/ISConsolidateDrainableAll"
--- require "TimedActions/ISConsolidateDrainable"
--- require "TimedActions/ISDrinkFromBottle"
--- require "TimedActions/ISEatFoodAction"
--- require "Foraging/ISForageAction";
+require "TimedActions/ISInventoryTransferAction" -- already present in SQS
+require "TimedActions/ISDropItemAction"
+require "TimedActions/ISGrabItemAction"
+require "TimedActions/ISDropWorldItemAction"
+require "TimedActions/ISAddItemInRecipe"
+require "TimedActions/ISConsolidateDrainableAll"
+require "TimedActions/ISConsolidateDrainable"
+require "TimedActions/ISDrinkFromBottle"
+require "TimedActions/ISEatFoodAction"
+require "Foraging/ISForageAction";
 
 
 
@@ -46,13 +47,14 @@ Events.OnGameStart.Add(
 local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
 	ISInventoryTransferActionVanilla(self)
-    print("ISInventoryTransferAction Successful overwrite")
+    print("ISInventoryTransferAction Successful overwrite") -- temp, just for the print message
     -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
-	    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+	    -- SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
     -- end
 end
 
 
+-- Drop item (seems not working, it triggers ISInventoryTransferAction instead?)
 local oldISDropItemAction_perform = ISDropItemAction.perform
 function ISDropItemAction:perform()
 	oldISDropItemAction_perform(self)
@@ -60,11 +62,20 @@ function ISDropItemAction:perform()
 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
+-- Place item in the world
 local oldISDropWorldItemAction_perform = ISDropWorldItemAction.perform
 function ISDropWorldItemAction:perform()
 	oldISDropWorldItemAction_perform(self)
     print("ISDropWorldItemAction Successful overwrite")
 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
+
+-- Grab item
+local oldISGrabItemAction_perform = ISGrabItemAction.perform
+function ISGrabItemAction:perform()
+    oldISGrabItemAction_perform(self)
+    print("ISGrabItemAction Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
 local oldISAddItemInRecipe_perform = ISAddItemInRecipe.perform
