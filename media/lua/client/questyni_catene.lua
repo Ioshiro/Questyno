@@ -1064,7 +1064,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "Base.Money;50;Base.EmptyPetrolCan;1;Base.Generator;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RobertWilson5_Lore" },
-    needsitem = "Base.EmptyPetrolCan;1",
+    needsitem = "Base.PetrolCan;1",
     onobtained = "unlockworldevent;Questyno_RobertWilson;SFQuest_Questyno_RobertWilson5_Complete",
     text = "IGUI_SFQuest_Questyno_RobertWilson5_A_Text",
     texture = "media/textures/Item_RobertWilson.png",

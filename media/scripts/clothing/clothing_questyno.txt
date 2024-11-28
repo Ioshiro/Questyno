@@ -1,0 +1,66 @@
+module LR {
+     item MedaglyaBronzo {
+        Weight			=	0.1,
+		Type = Clothing,
+        DisplayCategory = 	Special,
+		ClothingItem = PC_BritishAfghanMedal,
+		BodyLocation = Necklace,
+        DisplayName		=	Medaglya di Bronzo della Resistenza,
+        Icon			=	MedaglyaBronzo,
+		Cosmetic = TRUE,
+		WorldStaticModel = PC_BritishAfghanMedal,
+		Tooltip	= Tooltip_Medaglya,
+    }
+
+    item MedaglyaArgento {
+        Weight			=	0.1,
+		Type = Clothing,
+        DisplayCategory = 	Special,
+		ClothingItem = PC_BritishWarMedal,
+        DisplayName		=	Medaglya d'Argento della Resistenza,
+        Icon			=	MedaglyaArgento,
+		BodyLocation = Necklace,
+		Cosmetic = TRUE,
+		WorldStaticModel = PC_BritishWarMedal,
+		Tooltip	= Tooltip_Medaglya,
+    }
+
+    item MedaglyaOro {
+        Weight			=	0.1,
+		Type = Clothing,
+        DisplayCategory = 	Special,
+		ClothingItem = PC_VietnamServiceStars,
+		BodyLocation = Necklace,
+        DisplayName		=	Medaglya d'Oro della Resistenza,
+        Icon			=	MedaglyaOro,
+		Cosmetic = TRUE,
+		WorldStaticModel = PC_VietnamServiceStars,
+		Tooltip	= Tooltip_Medaglya,
+    }
+
+    item MedaglyaPlatino {
+        Weight			=	0.1,
+		Type = Clothing,
+        DisplayCategory = 	Special,
+        DisplayName		=	Medaglya di Platino della Resistenza,
+		ClothingItem = PC_VictoriaCross,
+		BodyLocation = Necklace,
+        Icon			=	MedaglyaPlatino,
+		Cosmetic = TRUE,
+		WorldStaticModel = PC_VictoriaCross,
+		Tooltip	= Tooltip_Medaglya,
+    }
+
+    item MedaglyaDiamante {
+        Weight			=	0.1,
+		Type = Clothing,
+        DisplayCategory = 	Special,
+		ClothingItem = PC_SovietPolarMedal,
+		BodyLocation = Necklace,
+        DisplayName		=	Medaglya di Diamante della Resistenza,
+        Icon			=	MedaglyaDiamante,
+		Cosmetic = TRUE,
+		WorldStaticModel = PC_SovietPolarMedal,
+		Tooltip	= Tooltip_Medaglya,
+    }
+}

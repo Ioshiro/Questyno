@@ -1,0 +1,4 @@
+Tooltip_EN = {
+	Tooltip_Medaglya = "Medaglya della Resistenza"
+
+}
