@@ -9,7 +9,7 @@ module LR {
         Icon			=	MedaglyaBronzo,
 		Cosmetic = TRUE,
 		WorldStaticModel = PC_BritishAfghanMedal,
-		Tooltip	= Tooltip_Medaglya,
+		Tooltip	= Tooltip_MedaglyaBronzo,
     }
 
     item MedaglyaArgento {
@@ -22,7 +22,7 @@ module LR {
 		BodyLocation = Necklace,
 		Cosmetic = TRUE,
 		WorldStaticModel = PC_BritishWarMedal,
-		Tooltip	= Tooltip_Medaglya,
+		Tooltip	= Tooltip_MedaglyaArgento,
     }
 
     item MedaglyaOro {
@@ -35,7 +35,7 @@ module LR {
         Icon			=	MedaglyaOro,
 		Cosmetic = TRUE,
 		WorldStaticModel = PC_VietnamServiceStars,
-		Tooltip	= Tooltip_Medaglya,
+		Tooltip	= Tooltip_MedaglyaOro,
     }
 
     item MedaglyaPlatino {
@@ -48,7 +48,7 @@ module LR {
         Icon			=	MedaglyaPlatino,
 		Cosmetic = TRUE,
 		WorldStaticModel = PC_VictoriaCross,
-		Tooltip	= Tooltip_Medaglya,
+		Tooltip	= Tooltip_MedaglyaPlatino,
     }
 
     item MedaglyaDiamante {
@@ -61,6 +61,6 @@ module LR {
         Icon			=	MedaglyaDiamante,
 		Cosmetic = TRUE,
 		WorldStaticModel = PC_SovietPolarMedal,
-		Tooltip	= Tooltip_Medaglya,
+		Tooltip	= Tooltip_MedaglyaDiamante,
     }
 }
