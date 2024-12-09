@@ -1423,7 +1423,7 @@ Events.OnGameBoot.Add(function()
     Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
     -- check sandbox option of time and set everyten or everyone minutes based on it?
     -- if SandboxVars.DayLength >= 5 then
-        Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
+        -- Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
     -- else 
         -- Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
     -- end

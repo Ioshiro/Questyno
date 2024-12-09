@@ -140,6 +140,7 @@ function SFQuest_PlayerHandler.StartPlayer()
 			player:getModData().missionProgress.LastDailyCompleted = {};
 		end
 	end
+	Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
 	SF_MissionPanel.instance:triggerUpdate();
 	-- check for faction members based on reputation
 	-- local factions = Faction.getFactions()
@@ -181,7 +182,9 @@ local function onCreatedPlayer(playerIndex, player)
 end
 
 local function OnPlayerDeath(player)
-	print("zSOUL QUEST SYSTEM - Player " .. player:getUsername() .. " died.");
+	print("zSOUL QUEST SYSTEM - Player " .. player:getUsername() .. " died.")
+	Events.EveryOneMinute.Remove(SF_MissionPanel.EveryTenMinutesExpand)
+
 	-- if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	-- local needUpdate = false;
 	-- for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do

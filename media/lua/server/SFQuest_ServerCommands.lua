@@ -1,4 +1,4 @@
-local json = require("dkjson")
+local json = require("json")
 
 local Commands = {}
 
@@ -19,7 +19,7 @@ function Commands.saveData(player, args)
     local filepathJson = "/Backup/SFQuest_" .. id .. ".json"
 
 	
-    local serializedData = json.encode(args, { indent = true })
+    local serializedData = json.stringify(args)
 
     local filewriter = getFileWriter(filepathJson, false, false) -- Sovrascrive il file
     if filewriter then
@@ -78,7 +78,7 @@ function Commands.sendData(player, args)
 
 
         -- Decodifica il contenuto JSON in una tabella Lua
-        local data, pos, err = json.decode(content)
+        local data, pos, err = json.parse(content)
         if err then
             print("[Commands.sendData] Error parsing JSON: " .. err)
             return
