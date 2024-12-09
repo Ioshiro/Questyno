@@ -46,7 +46,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AlexMercer2_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer2_Title",
-    unlocks = "actionevent;killzombies:2000;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:2000:tierzone:Utopia;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -55,14 +55,14 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "SWeapons.ChainBat;1",
-    awardstask = "Questyno_AlexMercer1",
+    -- awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer3_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer3_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer3_Title",
-    unlocks = "actionevent;killzombies:2500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete:placeholder:updatequeststatus:Questyno_AlexMercer3:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:2500:tierlevel:2;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete:placeholder:updatequeststatus:Questyno_AlexMercer3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 

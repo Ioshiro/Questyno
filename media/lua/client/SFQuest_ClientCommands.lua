@@ -30,7 +30,7 @@ function Commands.setProgressTxt(args)
 	end
 	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " .. lastnum .. " lines of backup.");
 	
-	SF_MissionPanel.instance:RemoveAllWorldMarkers()
+	SF_MissionPanel.instance.RemoveAllWorldMarkers()
 	
 	player:getModData().missionProgress = {}
 	print("zSOUL QUEST SYSTEM - missionProgress reset for backup");

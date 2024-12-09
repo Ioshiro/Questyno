@@ -1,8 +1,9 @@
 require "XpSystem/ISUI/SFQuest_MissionPanel"
 --[[ ]]
 --SF_MissionPanel = SF_MissionPanel
---SF_MissionPanel.Commands = {};
-
+SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
+SF_MissionPanel.Events = {};
+SF_MissionPanel.EventsRegistered = false
 --------------------------------------------------------------------------------------------------------
 -- Local functions, usually used to check certain items' conditions
 
@@ -46,6 +47,90 @@ end
 
 local function predicateFullDrainable(item)
 	return item:getUsedDelta() == 1
+end
+
+function SF_MissionPanel.Events.OnZombieDead(zombie)
+    local player = getPlayer()
+    if zombie:getAttackedBy() ~= player then return end
+    if not player:getModData().missionProgress.ActionEvent then
+        Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
+        SF_MissionPanel.EventsRegistered = false
+        return
+    end
+
+    -- Ottieni tierLevel e zoneName attuali
+    local currentTierLevel, currentZoneName = checkZone(player)
+
+    local actionevent = player:getModData().missionProgress.ActionEvent;
+    for i = #actionevent, 1, -1 do
+        local eventData = actionevent[i]
+        local condition = luautils.split(eventData.condition, ";")
+
+        if condition[1] == "killzombies" then
+            local canIncrement = true
+
+            -- Se è impostata una tierzone, controlla se coincide con quella attuale
+            if eventData.tierzone and eventData.tierzone ~= currentZoneName then
+                canIncrement = false
+            end
+
+            -- Se è impostato un tierlevel, controlla se coincide con quello attuale
+            if eventData.tierlevel and eventData.tierlevel ~= currentTierLevel then
+                canIncrement = false
+            end
+
+            if canIncrement then
+                eventData.kills = (eventData.kills or 0) + 1
+                if eventData.kills >= eventData.goal then
+                    local commandTable = luautils.split(eventData.commands, ";")
+                    SF_MissionPanel.instance:readCommandTable(commandTable)
+                    table.remove(actionevent, i)
+                end
+            end
+        end
+    end
+    if #actionevent == 0 and SF_MissionPanel.EventsRegistered then
+        Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
+        SF_MissionPanel.EventsRegistered = false
+        return
+    end
+end
+
+function SF_MissionPanel.Commands.actionevent(condition, commandslist)
+    -- condition example: killzombies:2000:tierzone:Louisville;
+    -- or 
+    -- condition example: killzombies:1500:tierlevel:2;
+    -- commandslist example: unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained
+	-- local convertedcondition = condition:gsub(":", ";");
+	local checkcondition = luautils.split(condition, ":");
+	if checkcondition[1] == "killzombies" then
+        local player = getPlayer();
+		local goal = tonumber(checkcondition[2])
+        local tierzone, tierlevel
+        local conditionType = checkcondition[3]
+        local conditionValue = checkcondition[4]
+
+        if conditionType == "tierzone" then
+            tierzone = conditionValue
+        elseif conditionType == "tierlevel" then
+            tierlevel = tonumber(conditionValue)
+        end
+	    local convertedCommands = commandslist:gsub(":", ";");
+	    table.insert(player:getModData().missionProgress.ActionEvent, {
+            kills = 0,
+            goal = goal,
+            tierzone = tierzone,
+            tierlevel = tierlevel,
+            condition = "killzombies",
+            commands = convertedCommands
+        })
+        -- Registriamo l'evento una sola volta
+        if not SF_MissionPanel.EventsRegistered then
+            Events.OnZombieDead.Add(SF_MissionPanel.Events.OnZombieDead);
+            SF_MissionPanel.EventsRegistered = true;
+        end
+        SF_MissionPanel.instance.needsBackup = true;
+    end
 end
 
 function SF_MissionPanel.Commands.removeitem(item, quantity)
@@ -228,7 +313,7 @@ function SF_MissionPanel.Commands.removequest(questid)
                                 if unlocksTable[j] == "killzombies" then
                                     if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
                                         local actionevent = player:getModData().missionProgress.ActionEvent; 
-                                        for a=#actionevent,1,-1 do
+                                        for a=#actionevent,1,-1 do -- TODO: fix this with actionevent[a].condition == "killzombies" and using luautils.stringStarts
                                             local commands = luautils.split(actionevent[a].commands, ";");
                                             if commands[1] == "killzombies" and commands[2] == task.guid then                                                        
                                                 table.remove(player:getModData().missionProgress.ActionEvent, a);
@@ -241,7 +326,7 @@ function SF_MissionPanel.Commands.removequest(questid)
                                     local condition = unlocksTable[j+2]
                                     if player:getModData().missionProgress.WorldEvent then
                                         for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
-                                            if v.dialoguecode == condition then
+                                                if v.dialoguecode == condition then
                                                 if player:getModData().missionProgress.WorldEvent[k].marker then
                                                     player:getModData().missionProgress.WorldEvent[k].marker:remove();
                                                 end
@@ -816,6 +901,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 	-- si potrebbe rimuovere killzombies ed inserirlo in un evento "OnCharacterDeath" o qualche evento che viene triggherato quando si uccide uno zombie?
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
 		local actionevent = player:getModData().missionProgress.ActionEvent;
+        local isKillZombie = false -- check if killzombies actionevent exists, at least one (for the events)
 		for a=#actionevent,1,-1 do
             local event = actionevent[a]
             local condition = event.condition
@@ -833,20 +919,20 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 							table.remove(actionevent, a);
 						end
 					end	
+                elseif condition[1] == "killzombies" then -- not sure, maybe should be in onCreatedPlayer. 
+               
+                    if not SF_MissionPanel.EventsRegistered then
+                        Events.OnZombieDead.Add(SF_MissionPanel.Events.OnZombieDead);
+                        SF_MissionPanel.EventsRegistered = true;
+                    end
+                    isKillZombie = true
+                   
 				elseif condition[1] == "enterdungeon" then
 					local dungeonID = condition[2];
 					if player:getModData().CurrentDungeon.dungeonId and player:getModData().CurrentDungeon.dungeonId == dungeonID then
 						local commandTable = luautils.split(event.commands, ";");
 						SF_MissionPanel.instance:readCommandTable(commandTable);
 						table.remove(actionevent, a);					
-					end
-				elseif condition[1] == "killzombies" then
-					local currentkills = player:getZombieKills();
-					local goal = tonumber(condition[2]);
-					if currentkills >= goal then
-							local commandTable = luautils.split(event.commands, ";");
-							SF_MissionPanel.instance:readCommandTable(commandTable);
-							table.remove(actionevent, a);
 					end
 				elseif condition[1] == "readbook" then
 					
@@ -861,6 +947,10 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 				end
 			end
 		end
+        if not isKillZombie and SF_MissionPanel.EventsRegistered then
+            Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead);
+            SF_MissionPanel.EventsRegistered = false;
+        end
 	end
 	
 	if player:getModData().missionProgress.Timers and #player:getModData().missionProgress.Timers > 0 then
@@ -1115,13 +1205,11 @@ function SF_MissionPanel.DebugEveryTenMinutes()
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
         local actionevent = player:getModData().missionProgress.ActionEvent;
 		for a=#actionevent,1,-1 do
-            if actionevent[a].condition then
-				local condition = luautils.split(actionevent[a].condition, ";");
-                if condition[1] == "killzombies" then
-                    local currentkills = player:getZombieKills();
-                    local goal = tonumber(condition[2]);
-                    print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " CURRENT:" .. currentkills .. " | TARGET:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
-                end
+            local condition = luautils.split(actionevent[a].condition, ";");
+            if condition[1] == "killzombies" then
+                    local kills = actionevent[a].kills;
+                    local goal = actionevent[a].goal;
+                    print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " Kills:" .. kills .. " | Goal:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
             end
         end
     end
