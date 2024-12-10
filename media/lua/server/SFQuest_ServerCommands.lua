@@ -1,4 +1,4 @@
-local json = require("json")
+local json = require("dkjson")
 
 local Commands = {}
 
@@ -16,10 +16,10 @@ function Commands.saveData(player, args)
         return 
     end
 
-    local filepathJson = "/Backup/SFQuest_" .. id .. ".json"
+    local filepathJson = "/Backup/SFQuest/SFQuest_" .. id .. ".json"
 
 	
-    local serializedData = json.stringify(args)
+    local serializedData = json.encode(args, { indent = true })
 
     local filewriter = getFileWriter(filepathJson, false, false) -- Sovrascrive il file
     if filewriter then
@@ -39,7 +39,7 @@ function Commands.sendDataTxt(player, args)
     --end
 	local id = args.id;
 	print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Server received a TXT request for quest data. Player ID: " .. id);
-	local filepath = "/Backup/SFQuest_" .. id .. ".txt";
+	local filepath = "/Backup/SFQuest/SFQuest_" .. id .. ".txt";
 	local filereader = getFileReader(filepath, false);
 	if filereader then
 		print("[Commands.sendDataTxt] zSOUL QUEST SYSTEM - Located backup file player " .. id);
@@ -61,7 +61,7 @@ end
 function Commands.sendData(player, args)
     local id = args.id;
     print("[Commands.sendData] zSOUL QUEST SYSTEM - Server received a request for quest data. Player ID: " .. id);
-    local filepath = "/Backup/SFQuest_" .. id .. ".json";
+    local filepath = "/Backup/SFQuest/SFQuest_" .. id .. ".json";
     local filereader = getFileReader(filepath, false);
     if filereader then
         print("[Commands.sendData] zSOUL QUEST SYSTEM - Located backup file for player " .. id);
@@ -78,7 +78,7 @@ function Commands.sendData(player, args)
 
 
         -- Decodifica il contenuto JSON in una tabella Lua
-        local data, pos, err = json.parse(content)
+        local data, pos, err = json.decode(content)
         if err then
             print("[Commands.sendData] Error parsing JSON: " .. err)
             return
@@ -98,6 +98,28 @@ end
 function Commands.addserverpoints(player, args)
 	sendServerCommand(player,"ServerPoints", "add", args)
 end
+
+function Commands.saveHistory(player, args)
+    if isClient() or not args or not args.guid then return end
+    
+    local id = player:getUsername()
+    local filepathTxt = "/Backup/SFQuest/History/SFQuest_" .. id .. "_History.txt"
+
+    -- Ottieni data e ora correnti, ad esempio in formato YYYY-MM-DD HH:MM:SS
+    local currentTime = os.date("%Y-%m-%d %H:%M:%S")
+
+    local filewriter = getFileWriter(filepathTxt, true, true)
+    if filewriter then
+        -- Scrivi la quest completata con data e ora
+        filewriter:write(currentTime .. " - " .. args.guid .. "\n")
+        filewriter:close()
+        print("[Commands.saveHistory] zSOUL QUEST SYSTEM - Saved quest data for ID: " .. id .. " at " .. currentTime)
+    else
+        print("Unable to open file for writing.")
+    end
+end
+
+
 
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
 Events.OnClientCommand.Add(function(module, command, player, args)

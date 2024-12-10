@@ -1299,6 +1299,9 @@ function SF_MissionPanel:completeQuest(player, guid)
                     if task.dailycode == nil then
                         table.insert(player:getModData().missionProgress.Category1, task);
                     end
+                    -- inserire qui sendClientCommand per backup secondario delle quest completate? (diviso dal backup principale)
+                    sendClientCommand(player, 'SFQuest', 'saveHistory', {guid = task.guid});
+
                     -- idea per Reroll Daily Event solo al completamento dell'ultima step di una daily
 					table.remove(player:getModData().missionProgress.Category2, i);
                     if task.dailycode and not task.awardstask then
