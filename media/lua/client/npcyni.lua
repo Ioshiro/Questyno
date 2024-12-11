@@ -56,23 +56,23 @@ SFQuest_Database.MannequinPool["12430x1341x0"] = {
 ]]
  
 -- Sergente Grif 9331x8640,0
-table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_Grif",
-    square = "9331x8640x0",
-    name = "IGUI_SFQuest_Questyno_Grif_Name",
-    faction = "LaResistenza",
-    picture = "media/textures/Picture_Grif.png",
-})
+-- table.insert(SFQuest_Database.WorldPool, {
+--     identity = "Questyno_Grif",
+--     square = "9331x8640x0",
+--     name = "IGUI_SFQuest_Questyno_Grif_Name",
+--     faction = "LaResistenza",
+--     picture = "media/textures/Picture_Grif.png",
+-- })
 
-SFQuest_Database.MannequinPool["9331x8640x0"] = {
-    sprite = "location_shop_mall_01_68",
-    direction = "W",
-    beard = "PointyChin",
-    beardcolor = "0.8,0.8,0.8",
-    hair = "Recede",
-    haircolor = "0.8,0.8,0.8",
-    outfit = "SergenteGrif"
-}
+-- SFQuest_Database.MannequinPool["9331x8640x0"] = {
+--     sprite = "location_shop_mall_01_68",
+--     direction = "W",
+--     beard = "PointyChin",
+--     beardcolor = "0.8,0.8,0.8",
+--     hair = "Recede",
+--     haircolor = "0.8,0.8,0.8",
+--     outfit = "SergenteGrif"
+-- }
 -- Angelica Stella  9344x8618,0
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_AngelicaStella",
@@ -1032,3 +1032,41 @@ SFQuest_Database.MannequinPool["13635x4064x0"] = {
     haircolor = "0.3,0.3,0.3",
     outfit = "JamesMorris",
 }
+
+-- Load NPC From ModLoader
+local ModLoader = require 'asledgehammer/modloader/ModLoader';
+local ZedCrypt = require 'asledgehammer/encryption/ZedCrypt';
+local ZedUtils = require 'asledgehammer/util/ZedUtils';
+local MD5 = require 'asledgehammer/math/md5';
+
+(function()
+    local mod = 'Questyno';
+
+    local info = function(msg)
+        print('[' .. mod .. '] :: ' .. msg);
+    end
+
+    local onGameStart = function()
+        -- Request the client-code from the server.
+        ModLoader.requestServerFile(mod, 'NPCyini/NPCyno_Grif.lua', true, function(module, path, result, data)
+            -- Handle non-installed / missing result.
+            if result == ModLoader.RESULT_FILE_NOT_FOUND then
+                info('File not installed on server. Ignoring..');
+                return;
+            end
+
+            -- Unpackage the code.
+            info('Unpacking..');
+            local timeThen = getTimeInMillis();
+            local decryptedData = ZedCrypt.decrypt(data, 'Questyno');
+            local delta = getTimeInMillis() - timeThen;
+            info('Unpacked in ' .. delta .. ' ms.');
+
+            -- Invoke the code.
+            loadstring(decryptedData)();
+        end);
+    end
+
+    -- Delay the request by 5 or so ticks to give time for LuaNet to start.
+    ZedUtils.delay(5, onGameStart);
+end)();

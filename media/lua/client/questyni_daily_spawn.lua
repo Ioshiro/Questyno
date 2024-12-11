@@ -37,618 +37,618 @@ require 'SFQuest_Database'
                     28. Recupera 1 Base.PillsAntiDep (40 rep + 1 PynoTweaks.Joint)
 
 ]]
-local grifIntro = {
-    guid = "Questyno_Grif_Intro",
-
-    awardsrep = "SergenteGrif;100", -- REP REWARD
-    --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
-    completesound = "levelup",
-    lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
-    ondone = "addreputation;SergenteGrif;100",
-    text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
-    texture = "media/textures/Item_Grif.png",
-    unique = true,
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
-    title = "IGUI_SFQuest_Questyno_Grif_Intro_Title",
-}
-table.insert(SFQuest_Database.QuestPool, grifIntro);
-
-local grifQuest1 = {
-    guid = "Questyno_Grif1",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif1_Lore" },
-    needsitem = "FirstAidKit;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif1_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif1_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif1_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest1);
-
-local grifQuest2 = {
-    guid = "Questyno_Grif2",
-
-    awardsrep = "LaResistenza;60", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif2_Lore" },
-    needsitem = "Pills;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif2_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif2_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif2_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest2);
-
-local grifQuest3 = {
-    guid = "Questyno_Grif3",
-
-    awardsrep = "LaResistenza;35", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif3_Lore" },
-    needsitem = "PillsSleepingTablets;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif3_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif3_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif3_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest3);
-
-local grifQuest4 = {
-    guid = "Questyno_Grif4",
-
-    awardsrep = "LaResistenza;80", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif4_Lore" },
-    needsitem = "LabItems.LabSyringe;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif4_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif4_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif4_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest4);
-
-local grifQuest5 = {
-    guid = "Questyno_Grif5",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif5_Lore" },
-    needsitem = "Bandage;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif5_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif5_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif5_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest5);
-
-local grifQuest6 = {
-    guid = "Questyno_Grif6",
-
-    awardsrep = "LaResistenza;40", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif6_Lore" },
-    needsitem = "PillsAntiDep;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif6_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif6_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif6_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest6);
-
-local grifQuest7 = {
-    guid = "Questyno_Grif7",
-
-    awardsrep = "LaResistenza;40", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif7_Lore" },
-    needsitem = "PillsVitamins;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif7_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif7_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif7_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest7);
-
-local grifQuest8 = {
-    guid = "Questyno_Grif8",
-
-    awardsrep = "LaResistenza;40", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif8_Lore" },
-    needsitem = "Antibiotics;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif8_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif8_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif8_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest8);
-
-local grifQuest9 = {
-    guid = "Questyno_Grif9",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Money;30",       -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif9_Lore" },
-    needsitem = "PillsBeta;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif9_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif9_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif9_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest9);
-
-local grifQuest10 = {
-    guid = "Questyno_Grif10",
-
-    awardstask = "Questyno_Grif10_A",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
-    objectives = { {
-        guid = "Questyno_Grif10_A",
-        text = "IGUI_SFQuest_Questyno_Grif10_A",
-        needsitem = "FirstAidKit;1",
-        onobtained = "updateobjective;Questyno_Grif10;1;Completed;removeitem;FirstAidKit;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif10_B",
-        text = "IGUI_SFQuest_Questyno_Grif10_B",
-        needsitem = "PillsBeta;1",
-        onobtained = "updateobjective;Questyno_Grif10;2;Completed;removeitem;PillsBeta;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif10_C",
-        text = "IGUI_SFQuest_Questyno_Grif10_C",
-        needsitem = "Pills;1",
-        onobtained = "updateobjective;Questyno_Grif10;3;Completed;removeitem;Pills;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif10_D",
-        text = "IGUI_SFQuest_Questyno_Grif10_D",
-        needsitem = "Disinfectant;1",
-        onobtained = "updateobjective;Questyno_Grif10;4;Completed;removeitem;Disinfectant;1",
-        hidden = false,
-    } }, -- REQUIRE
-    text = "IGUI_SFQuest_Questyno_Grif10_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif10_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest10);
-
-local grifQuest10A = {
-    guid = "Questyno_Grif10_A",
-
-    awardsrep = "LaResistenza;135", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif10_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif10_A_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif10_Title",
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest10A);
-
-local grifQuest11 = {
-    guid = "Questyno_Grif11",
-
-    awardstask = "Questyno_Grif11_A",
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
-    objectives = { {
-        guid = "Questyno_Grif11_A",
-        text = "IGUI_SFQuest_Questyno_Grif11_A",
-        needsitem = "FirstAidKit;1",
-        onobtained = "updateobjective;Questyno_Grif11;1;Completed;removeitem;FirstAidKit;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif11_B",
-        text = "IGUI_SFQuest_Questyno_Grif11_B",
-        needsitem = "PillsVitamins;1",
-        onobtained = "updateobjective;Questyno_Grif11;2;Completed;removeitem;PillsVitamins;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif11_C",
-        text = "IGUI_SFQuest_Questyno_Grif11_C",
-        needsitem = "PillsAntiDep;1",
-        onobtained = "updateobjective;Questyno_Grif11;3;Completed;removeitem;PillsAntiDep;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif11_D",
-        text = "IGUI_SFQuest_Questyno_Grif11_D",
-        needsitem = "AlcoholWipes;1",
-        onobtained = "updateobjective;Questyno_Grif11;4;Completed;removeitem;AlcoholWipes;1",
-        hidden = false,
-    } },                    -- REQUIRE
-    text = "IGUI_SFQuest_Questyno_Grif11_Text",
-    texture = "media/textures/Item_Grif.png", -- ICONA
-    title = "IGUI_SFQuest_Questyno_Grif11_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest11);
-
-local grifQuest11A = {
-    guid = "Questyno_Grif11_A",
-
-    awardsrep = "LaResistenza;200", -- REP REWARD
-    awardsitem = "Money;40",        -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif11_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif11_A_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif11_Title",
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest11A);
-
-local grifQuest12 = {
-    guid = "Questyno_Grif12",
-
-    awardstask = "Questyno_Grif12_A",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
-    objectives = {
-        {
-            guid = "Questyno_Grif12_A",
-            text = "IGUI_SFQuest_Questyno_Grif12_A",
-            needsitem = "FirstAidKit;1",
-            onobtained = "updateobjective;Questyno_Grif12;1;Completed;removeitem;FirstAidKit;1",
-            hidden = false,
-        }, {
-        guid = "Questyno_Grif12_B",
-        text = "IGUI_SFQuest_Questyno_Grif12_B",
-        needsitem = "PillsSleepingTablets;1",
-        onobtained = "updateobjective;Questyno_Grif12;2;Completed;removeitem;PillsSleepingTablets;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif12_C",
-        text = "IGUI_SFQuest_Questyno_Grif12_C",
-        needsitem = "LabItems.LabSyringe;1",
-        onobtained = "updateobjective;Questyno_Grif12;3;Completed;removeitem;LabItems.LabSyringe;1",
-        hidden = false,
-    }, {
-        guid = "Questyno_Grif12_D",
-        text = "IGUI_SFQuest_Questyno_Grif12_D",
-        needsitem = "CottonBalls;1",
-        onobtained = "updateobjective;Questyno_Grif12;4;Completed;removeitem;CottonBalls;1",
-        hidden = false,
-    }
-    }, -- REQUIRE
-    text = "IGUI_SFQuest_Questyno_Grif12_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif12_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest12);
-
-local grifQuest12A = {
-    guid = "Questyno_Grif12_A",
-
-    awardsrep = "LaResistenza;120", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif12_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif12_A_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif12_Title",
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest12A);
-
-local grifQuest13 = {
-    guid = "Questyno_Grif13",
-
-    awardsrep = "LaResistenza;75", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif13_Lore" },
-    needsitem = "CottonBalls;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif13_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif13_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif13_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest13);
-
-local grifQuest14 = {
-    guid = "Questyno_Grif14",
-
-    awardsrep = "LaResistenza;40", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif14_Lore" },
-    needsitem = "Disinfectant;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif14_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif14_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif14_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest14);
-
-local grifQuest15 = {
-    guid = "Questyno_Grif15",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif15_Lore" },
-    needsitem = "AlcoholWipes;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif15_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif15_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif15_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest15);
-
-local grifQuest16 = {
-    guid = "Questyno_Grif16",
-
-    awardstask = "Questyno_Grif16_A",
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
-    objectives = {
-        {
-            guid = "Questyno_Grif16_A",
-            text = "IGUI_SFQuest_Questyno_Grif16_A",
-            needsitem = "SutureNeedle;1",
-            onobtained = "updateobjective;Questyno_Grif16;1;Completed;removeitem;SutureNeedle;1",
-            hidden = false,
-        }, {
-        guid = "Questyno_Grif16_B",
-        text = "IGUI_SFQuest_Questyno_Grif16_B",
-        needsitem = "SutureNeedleHolder;1",
-        onobtained = "updateobjective;Questyno_Grif16;2;Completed;removeitem;SutureNeedleHolder;1",
-        hidden = false,
-    }
-    }, -- REQUIRE
-    text = "IGUI_SFQuest_Questyno_Grif16_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif16_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest16);
-
-local grifQuest16A = {
-    guid = "Questyno_Grif16_A",
-
-    awardsrep = "LaResistenza;250", -- REP REWARD
-    awardsitem = "Money;30",        -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
-    unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif16_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif16_A_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif16_Title",
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest16A);
-
-local grifQuest17 = {
-    guid = "Questyno_Grif17",
-
-    awardsrep = "LaResistenza;150", -- REP REWARD
-    awardsitem = "Money;30",        -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif17_Lore" },
-    needsitem = "SutureNeedle;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif17_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif17_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif17_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest17);
-
-local grifQuest18 = {
-    guid = "Questyno_Grif18",
-
-    awardsrep = "LaResistenza;80", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif18_Lore" },
-    needsitem = "AlcoholBandage;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif18_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif18_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif18_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest18);
-
-local grifQuest19 = {
-    guid = "Questyno_Grif19",
-
-    awardsrep = "LaResistenza;20", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif19_Lore" },
-    needsitem = "Bandaid;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif19_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif19_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif19_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest19);
-
-local grifQuest20 = {
-    guid = "Questyno_Grif20",
-
-    awardsrep = "LaResistenza;80", -- REP REWARD
-    awardsitem = "Money;25",       -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif20_Lore" },
-    needsitem = "Bandaid;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif20_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif20_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif20_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest20);
-
-local grifQuest21 = {
-    guid = "Questyno_Grif21",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif21_Lore" },
-    needsitem = "Tweezers;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif21_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif21_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif21_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest21);
-
-local grifQuest22 = {
-    guid = "Questyno_Grif22",
-
-    awardsrep = "LaResistenza;25", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif22_Lore" },
-    needsitem = "Splint;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif22_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif22_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif22_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest22);
-
-local grifQuest23 = {
-    guid = "Questyno_Grif23",
-
-    awardsrep = "LaResistenza;25", -- REP REWARD
-    awardsitem = "FirstAidKit;1",
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif23_Lore" },
-    needsitem = "FirstAidKit;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif23_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif23_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif23_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest23);
-
-local grifQuest24 = {
-    guid = "Questyno_Grif24",
-
-    awardsrep = "LaResistenza;80", -- REP REWARD
-    awardsitem = "Pills;1",        -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif24_Lore" },
-    needsitem = "Pills;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif24_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif24_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif24_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest24);
-
-local grifQuest25 = {
-    guid = "Questyno_Grif25",
-
-    awardsrep = "LaResistenza;25",         -- REP REWARD
-    awardsitem = "PillsSleepingTablets;1", -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif25_Lore" },
-    needsitem = "PillsSleepingTablets;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif25_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif25_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif25_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest25);
-
-local grifQuest26 = {
-    guid = "Questyno_Grif26",
-
-    awardsrep = "LaResistenza;60",        -- REP REWARD
-    awardsitem = "LabItems.LabSyringe;5", -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif26_Lore" },
-    needsitem = "LabItems.LabSyringe;10", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif26_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif26_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif26_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest26);
-
-local grifQuest27 = {
-    guid = "Questyno_Grif27",
-
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Money;50",       -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif27_Lore" },
-    needsitem = "Bandage;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif27_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif27_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif27_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest27);
-
-local grifQuest28 = {
-    guid = "Questyno_Grif28",
-
-    awardsrep = "LaResistenza;40",     -- REP REWARD
-    awardsitem = "PynoTweaks.Joint;1;PillsAntiDep;1", -- MONEY REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_Grif",
-    lore = { "IGUI_SFQuest_Questyno_Grif28_Lore" },
-    needsitem = "PillsAntiDep;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif28_Complete",
-    text = "IGUI_SFQuest_Questyno_Grif28_Text",
-    texture = "media/textures/Item_Grif.png",
-    title = "IGUI_SFQuest_Questyno_Grif28_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, grifQuest28);
+-- local grifIntro = {
+--     guid = "Questyno_Grif_Intro",
+
+--     awardsrep = "SergenteGrif;100", -- REP REWARD
+--     --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
+--     completesound = "levelup",
+--     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
+--     ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
+--     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     unique = true,
+--     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif_Intro_Complete",
+--     title = "IGUI_SFQuest_Questyno_Grif_Intro_Title",
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifIntro);
+
+-- local grifQuest1 = {
+--     guid = "Questyno_Grif1",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif1_Lore" },
+--     needsitem = "FirstAidKit;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif1_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif1_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif1_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest1);
+
+-- local grifQuest2 = {
+--     guid = "Questyno_Grif2",
+
+--     awardsrep = "LaResistenza;60", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif2_Lore" },
+--     needsitem = "Pills;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif2_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif2_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif2_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest2);
+
+-- local grifQuest3 = {
+--     guid = "Questyno_Grif3",
+
+--     awardsrep = "LaResistenza;35", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif3_Lore" },
+--     needsitem = "PillsSleepingTablets;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif3_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif3_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif3_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest3);
+
+-- local grifQuest4 = {
+--     guid = "Questyno_Grif4",
+
+--     awardsrep = "LaResistenza;80", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif4_Lore" },
+--     needsitem = "LabItems.LabSyringe;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif4_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif4_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif4_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest4);
+
+-- local grifQuest5 = {
+--     guid = "Questyno_Grif5",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif5_Lore" },
+--     needsitem = "Bandage;3", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif5_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif5_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif5_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest5);
+
+-- local grifQuest6 = {
+--     guid = "Questyno_Grif6",
+
+--     awardsrep = "LaResistenza;40", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif6_Lore" },
+--     needsitem = "PillsAntiDep;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif6_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif6_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif6_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest6);
+
+-- local grifQuest7 = {
+--     guid = "Questyno_Grif7",
+
+--     awardsrep = "LaResistenza;40", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif7_Lore" },
+--     needsitem = "PillsVitamins;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif7_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif7_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif7_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest7);
+
+-- local grifQuest8 = {
+--     guid = "Questyno_Grif8",
+
+--     awardsrep = "LaResistenza;40", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif8_Lore" },
+--     needsitem = "Antibiotics;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif8_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif8_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif8_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest8);
+
+-- local grifQuest9 = {
+--     guid = "Questyno_Grif9",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     awardsitem = "Money;30",       -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif9_Lore" },
+--     needsitem = "PillsBeta;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif9_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif9_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif9_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest9);
+
+-- local grifQuest10 = {
+--     guid = "Questyno_Grif10",
+
+--     awardstask = "Questyno_Grif10_A",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
+--     objectives = { {
+--         guid = "Questyno_Grif10_A",
+--         text = "IGUI_SFQuest_Questyno_Grif10_A",
+--         needsitem = "FirstAidKit;1",
+--         onobtained = "updateobjective;Questyno_Grif10;1;Completed;removeitem;FirstAidKit;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif10_B",
+--         text = "IGUI_SFQuest_Questyno_Grif10_B",
+--         needsitem = "PillsBeta;1",
+--         onobtained = "updateobjective;Questyno_Grif10;2;Completed;removeitem;PillsBeta;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif10_C",
+--         text = "IGUI_SFQuest_Questyno_Grif10_C",
+--         needsitem = "Pills;1",
+--         onobtained = "updateobjective;Questyno_Grif10;3;Completed;removeitem;Pills;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif10_D",
+--         text = "IGUI_SFQuest_Questyno_Grif10_D",
+--         needsitem = "Disinfectant;1",
+--         onobtained = "updateobjective;Questyno_Grif10;4;Completed;removeitem;Disinfectant;1",
+--         hidden = false,
+--     } }, -- REQUIRE
+--     text = "IGUI_SFQuest_Questyno_Grif10_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif10_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest10);
+
+-- local grifQuest10A = {
+--     guid = "Questyno_Grif10_A",
+
+--     awardsrep = "LaResistenza;135", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
+--     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif10_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif10_A_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif10_Title",
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest10A);
+
+-- local grifQuest11 = {
+--     guid = "Questyno_Grif11",
+
+--     awardstask = "Questyno_Grif11_A",
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
+--     objectives = { {
+--         guid = "Questyno_Grif11_A",
+--         text = "IGUI_SFQuest_Questyno_Grif11_A",
+--         needsitem = "FirstAidKit;1",
+--         onobtained = "updateobjective;Questyno_Grif11;1;Completed;removeitem;FirstAidKit;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif11_B",
+--         text = "IGUI_SFQuest_Questyno_Grif11_B",
+--         needsitem = "PillsVitamins;1",
+--         onobtained = "updateobjective;Questyno_Grif11;2;Completed;removeitem;PillsVitamins;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif11_C",
+--         text = "IGUI_SFQuest_Questyno_Grif11_C",
+--         needsitem = "PillsAntiDep;1",
+--         onobtained = "updateobjective;Questyno_Grif11;3;Completed;removeitem;PillsAntiDep;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif11_D",
+--         text = "IGUI_SFQuest_Questyno_Grif11_D",
+--         needsitem = "AlcoholWipes;1",
+--         onobtained = "updateobjective;Questyno_Grif11;4;Completed;removeitem;AlcoholWipes;1",
+--         hidden = false,
+--     } },                    -- REQUIRE
+--     text = "IGUI_SFQuest_Questyno_Grif11_Text",
+--     texture = "media/textures/Item_Grif.png", -- ICONA
+--     title = "IGUI_SFQuest_Questyno_Grif11_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest11);
+
+-- local grifQuest11A = {
+--     guid = "Questyno_Grif11_A",
+
+--     awardsrep = "LaResistenza;200", -- REP REWARD
+--     awardsitem = "Money;40",        -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif11_Lore" },
+--     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif11_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif11_A_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif11_Title",
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest11A);
+
+-- local grifQuest12 = {
+--     guid = "Questyno_Grif12",
+
+--     awardstask = "Questyno_Grif12_A",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
+--     objectives = {
+--         {
+--             guid = "Questyno_Grif12_A",
+--             text = "IGUI_SFQuest_Questyno_Grif12_A",
+--             needsitem = "FirstAidKit;1",
+--             onobtained = "updateobjective;Questyno_Grif12;1;Completed;removeitem;FirstAidKit;1",
+--             hidden = false,
+--         }, {
+--         guid = "Questyno_Grif12_B",
+--         text = "IGUI_SFQuest_Questyno_Grif12_B",
+--         needsitem = "PillsSleepingTablets;1",
+--         onobtained = "updateobjective;Questyno_Grif12;2;Completed;removeitem;PillsSleepingTablets;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif12_C",
+--         text = "IGUI_SFQuest_Questyno_Grif12_C",
+--         needsitem = "LabItems.LabSyringe;1",
+--         onobtained = "updateobjective;Questyno_Grif12;3;Completed;removeitem;LabItems.LabSyringe;1",
+--         hidden = false,
+--     }, {
+--         guid = "Questyno_Grif12_D",
+--         text = "IGUI_SFQuest_Questyno_Grif12_D",
+--         needsitem = "CottonBalls;1",
+--         onobtained = "updateobjective;Questyno_Grif12;4;Completed;removeitem;CottonBalls;1",
+--         hidden = false,
+--     }
+--     }, -- REQUIRE
+--     text = "IGUI_SFQuest_Questyno_Grif12_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif12_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest12);
+
+-- local grifQuest12A = {
+--     guid = "Questyno_Grif12_A",
+
+--     awardsrep = "LaResistenza;120", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
+--     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif12_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif12_A_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif12_Title",
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest12A);
+
+-- local grifQuest13 = {
+--     guid = "Questyno_Grif13",
+
+--     awardsrep = "LaResistenza;75", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif13_Lore" },
+--     needsitem = "CottonBalls;2", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif13_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif13_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif13_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest13);
+
+-- local grifQuest14 = {
+--     guid = "Questyno_Grif14",
+
+--     awardsrep = "LaResistenza;40", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif14_Lore" },
+--     needsitem = "Disinfectant;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif14_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif14_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif14_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest14);
+
+-- local grifQuest15 = {
+--     guid = "Questyno_Grif15",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif15_Lore" },
+--     needsitem = "AlcoholWipes;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif15_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif15_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif15_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest15);
+
+-- local grifQuest16 = {
+--     guid = "Questyno_Grif16",
+
+--     awardstask = "Questyno_Grif16_A",
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
+--     objectives = {
+--         {
+--             guid = "Questyno_Grif16_A",
+--             text = "IGUI_SFQuest_Questyno_Grif16_A",
+--             needsitem = "SutureNeedle;1",
+--             onobtained = "updateobjective;Questyno_Grif16;1;Completed;removeitem;SutureNeedle;1",
+--             hidden = false,
+--         }, {
+--         guid = "Questyno_Grif16_B",
+--         text = "IGUI_SFQuest_Questyno_Grif16_B",
+--         needsitem = "SutureNeedleHolder;1",
+--         onobtained = "updateobjective;Questyno_Grif16;2;Completed;removeitem;SutureNeedleHolder;1",
+--         hidden = false,
+--     }
+--     }, -- REQUIRE
+--     text = "IGUI_SFQuest_Questyno_Grif16_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif16_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest16);
+
+-- local grifQuest16A = {
+--     guid = "Questyno_Grif16_A",
+
+--     awardsrep = "LaResistenza;250", -- REP REWARD
+--     awardsitem = "Money;30",        -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
+--     unlocks = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif16_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif16_A_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif16_Title",
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest16A);
+
+-- local grifQuest17 = {
+--     guid = "Questyno_Grif17",
+
+--     awardsrep = "LaResistenza;150", -- REP REWARD
+--     awardsitem = "Money;30",        -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif17_Lore" },
+--     needsitem = "SutureNeedle;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif17_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif17_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif17_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest17);
+
+-- local grifQuest18 = {
+--     guid = "Questyno_Grif18",
+
+--     awardsrep = "LaResistenza;80", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif18_Lore" },
+--     needsitem = "AlcoholBandage;2", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif18_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif18_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif18_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest18);
+
+-- local grifQuest19 = {
+--     guid = "Questyno_Grif19",
+
+--     awardsrep = "LaResistenza;20", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif19_Lore" },
+--     needsitem = "Bandaid;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif19_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif19_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif19_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest19);
+
+-- local grifQuest20 = {
+--     guid = "Questyno_Grif20",
+
+--     awardsrep = "LaResistenza;80", -- REP REWARD
+--     awardsitem = "Money;25",       -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif20_Lore" },
+--     needsitem = "Bandaid;3", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif20_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif20_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif20_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest20);
+
+-- local grifQuest21 = {
+--     guid = "Questyno_Grif21",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif21_Lore" },
+--     needsitem = "Tweezers;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif21_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif21_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif21_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest21);
+
+-- local grifQuest22 = {
+--     guid = "Questyno_Grif22",
+
+--     awardsrep = "LaResistenza;25", -- REP REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif22_Lore" },
+--     needsitem = "Splint;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif22_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif22_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif22_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest22);
+
+-- local grifQuest23 = {
+--     guid = "Questyno_Grif23",
+
+--     awardsrep = "LaResistenza;25", -- REP REWARD
+--     awardsitem = "FirstAidKit;1",
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif23_Lore" },
+--     needsitem = "FirstAidKit;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif23_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif23_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif23_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest23);
+
+-- local grifQuest24 = {
+--     guid = "Questyno_Grif24",
+
+--     awardsrep = "LaResistenza;80", -- REP REWARD
+--     awardsitem = "Pills;1",        -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif24_Lore" },
+--     needsitem = "Pills;2", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif24_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif24_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif24_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest24);
+
+-- local grifQuest25 = {
+--     guid = "Questyno_Grif25",
+
+--     awardsrep = "LaResistenza;25",         -- REP REWARD
+--     awardsitem = "PillsSleepingTablets;1", -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif25_Lore" },
+--     needsitem = "PillsSleepingTablets;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif25_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif25_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif25_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest25);
+
+-- local grifQuest26 = {
+--     guid = "Questyno_Grif26",
+
+--     awardsrep = "LaResistenza;60",        -- REP REWARD
+--     awardsitem = "LabItems.LabSyringe;5", -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif26_Lore" },
+--     needsitem = "LabItems.LabSyringe;10", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif26_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif26_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif26_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest26);
+
+-- local grifQuest27 = {
+--     guid = "Questyno_Grif27",
+
+--     awardsrep = "LaResistenza;50", -- REP REWARD
+--     awardsitem = "Money;50",       -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif27_Lore" },
+--     needsitem = "Bandage;3", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif27_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif27_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif27_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest27);
+
+-- local grifQuest28 = {
+--     guid = "Questyno_Grif28",
+
+--     awardsrep = "LaResistenza;40",     -- REP REWARD
+--     awardsitem = "PynoTweaks.Joint;1;PillsAntiDep;1", -- MONEY REWARD
+--     completesound = "levelup",
+--     dailycode = "Questyno_Grif",
+--     lore = { "IGUI_SFQuest_Questyno_Grif28_Lore" },
+--     needsitem = "PillsAntiDep;1", -- REQUIRE
+--     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif28_Complete",
+--     text = "IGUI_SFQuest_Questyno_Grif28_Text",
+--     texture = "media/textures/Item_Grif.png",
+--     title = "IGUI_SFQuest_Questyno_Grif28_Title",
+--     unlockedsound = "QuestUnlocked"
+-- }
+-- table.insert(SFQuest_Database.QuestPool, grifQuest28);
 
 --[[                                                       *** Angelica Stella ***
             Elenco:
