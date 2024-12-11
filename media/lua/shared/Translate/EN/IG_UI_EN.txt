@@ -3,7 +3,8 @@ IGUI_EN = {
 IGUI_XP_TaskStatus_Completed = "[COMPL.] ",
 IGUI_XP_TaskStatus_Obtained = "[OBT.] ",
 IGUI_XP_TaskStatus_Updated = "[UPD.] ",
-	
+IGUI_FailCompleteQuest = "I'm sorry, but the item is missing or is incorrect. Please check your inventory and try again.",
+
 IGUI_SFQuest_Questyno_Test1_Text = "That idiot wants pizza",
 IGUI_SFQuest_Questyno_Test1_Title = "Pizza Day",
 IGUI_SFQuest_Questyno_Test1_Lore = "I spoke with Pino and he told me to look for pizza. Surely if I go further and kill two zombies I'll find the solution.",

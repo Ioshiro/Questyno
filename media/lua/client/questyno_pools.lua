@@ -707,6 +707,13 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	frequency = 1
 });
 table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Lupo",
+	condition = "notmaxedwithcode;Questyno_Lupo;1;hasfactiontier;TonyLupo;3",
+	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
+	days = 0,
+	frequency = 1
+});
+table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_AngelicaStella",
 	condition = "notmaxedwithcode;Questyno_AngelicaStella;1;hasfactiontier;AngelicaStella;3",
 	commands = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",

@@ -738,7 +738,7 @@ local secretQuest20 = {
         guid = "Questyno_VictoriaSecret20_A",
         text = "IGUI_SFQuest_Questyno_VictoriaSecret20_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoVictoriaSecret20;additem;Mov_MannequinFemale;1"
+        oncompleted = "removeclickevent;EventoVictoriaSecret20;additem;Mov_MannequinMale;1"
     } },
     text = "IGUI_SFQuest_Questyno_VictoriaSecret20_Text",
     texture = "media/textures/Item_VictoriaSecret.png",
@@ -1134,7 +1134,7 @@ local leeQuest11A = {
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee11_Lore" },
-    needsitem = "LabItems.ChSulfuricAcidCan;1", -- REQUIRE
+    needsitem = "PredicateFullDrainable#LabItems.ChSulfuricAcidCan;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee11_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee11_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1579,7 +1579,7 @@ local leeQuest22 = {
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee22_Lore" },
-    needsitem = "LemonGrass;3", -- REQUIRE
+    needsitem = "PredicateFreshFood#Base.LemonGrass;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee22_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee22_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -2440,7 +2440,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung1",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    needsitem = "DeadRabbit;4", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;4", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung1_Lore" },
@@ -2455,7 +2455,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung2",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    needsitem = "DeadRabbit;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung2_Lore" },
@@ -2502,7 +2502,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung5",
 
     awardsrep = "LaResistenza;80", -- REP REWARD
-    needsitem = "DeadSquirrel;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadSquirrel;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung5_Lore" },
@@ -2517,7 +2517,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung6",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
-    needsitem = "DeadBird;4", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadBird;4", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung6_Lore" },
@@ -2533,7 +2533,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;30", -- REP REWARD
     awardsitem = "Base.DehydratedMeatStick;8", -- ITEM REWARD
-    needsitem = "DeadRabbit;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung7_Lore" },
@@ -2583,7 +2583,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;90", -- REP REWARD
     awardsitem = "Base.BeefJerky;1", -- ITEM REWARD
-    needsitem = "DeadBird;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadBird;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung9_Lore" },
@@ -2599,7 +2599,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;30;Base.BeefJerky;3", -- ITEM REWARD
-    needsitem = "DeadSquirrel;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadSquirrel;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung10_Lore" },
@@ -2652,7 +2652,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_SamuelYoung13_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung13_A",
         hidden = false,
-        needsitem = "Cabbage;10",
+        needsitem = "PredicateFreshFood#farming.Cabbage;10",
         onobtained = "updateobjective;Questyno_SamuelYoung13;1;Completed;removeitem;Cabbage;10"
     }, {
         guid = "Questyno_SamuelYoung13_B",
@@ -2696,13 +2696,13 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_SamuelYoung14_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung14_A",
         hidden = false,
-        needsitem = "Grasshopper;10",
+        needsitem = "PredicateFreshFood#Grasshopper;10",
         onobtained = "updateobjective;Questyno_SamuelYoung14;1;Completed;removeitem;Grasshopper;10"
     }, {
         guid = "Questyno_SamuelYoung14_B",
         text = "IGUI_SFQuest_Questyno_SamuelYoung14_B",
         hidden = false,
-        needsitem = "Worm;20",
+        needsitem = "PredicateFreshFood#Worm;20",
         onobtained = "updateobjective;Questyno_SamuelYoung14;2;Completed;removeitem;Worm;20"
     } },
     text = "IGUI_SFQuest_Questyno_SamuelYoung14_Text",
@@ -2728,7 +2728,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung15",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    needsitem = "DeadRabbit;6", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;6", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung15_Lore" },
@@ -2766,7 +2766,7 @@ table.insert(SFQuest_Database.QuestPool,{
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung16_Lore" },
-    needsitem = "DeadSquirrel;2",
+    needsitem = "PredicateFreshFood#DeadSquirrel;2",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung16_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung16_A_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2800,7 +2800,7 @@ table.insert(SFQuest_Database.QuestPool,{
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung17_Lore" },
-    needsitem = "DeadRabbit;2",
+    needsitem = "PredicateFreshFood#DeadRabbit;2",
     onobtained = "unlockworldevent;Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung17_Complete",
     text = "IGUI_SFQuest_Questyno_SamuelYoung17_A_Text",
     texture = "media/textures/Item_SamuelYoung.png",
@@ -2811,7 +2811,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung18",
 
     awardsrep = "LaResistenza;60", -- REP REWARD
-    needsitem = "DeadRabbit;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;2", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung18_Lore" },
@@ -2873,7 +2873,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
-    needsitem = "DeadRabbit;6", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;6", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung22_Lore" },
