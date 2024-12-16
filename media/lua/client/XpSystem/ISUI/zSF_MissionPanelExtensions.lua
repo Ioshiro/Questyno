@@ -52,6 +52,7 @@ end
 function SF_MissionPanel.Events.OnZombieDead(zombie)
     local player = getPlayer()
     if zombie:getAttackedBy() ~= player then return end
+    if player:isDriving() then return end
     if not player:getModData().missionProgress.ActionEvent then
         Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
         SF_MissionPanel.EventsRegistered = false
