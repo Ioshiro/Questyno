@@ -51,12 +51,15 @@ end
 
 function SF_MissionPanel.Events.OnZombieDead(zombie)
     local player = getPlayer()
-    if zombie:getAttackedBy() ~= player then return end
     if not player:getModData().missionProgress.ActionEvent then
         Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
         SF_MissionPanel.EventsRegistered = false
         return
     end
+    local attackedBy = zombie:getAttackedBy()
+    if player:isDriving() then return end
+    if attackedBy ~= player then return end
+    if not instanceof(attackedBy, "IsoPlayer") then return end
 
     -- Ottieni tierLevel e zoneName attuali
     local currentTierLevel, currentZoneName = checkZone(player)
