@@ -1,8 +1,9 @@
-require "XpSystem/ISUI/SF_MissionPanel"
+require "XpSystem/ISUI/SFQuest_MissionPanel"
 --[[ ]]
 --SF_MissionPanel = SF_MissionPanel
---SF_MissionPanel.Commands = {};
-
+SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
+SF_MissionPanel.Events = {};
+SF_MissionPanel.EventsRegistered = false
 --------------------------------------------------------------------------------------------------------
 -- Local functions, usually used to check certain items' conditions
 
@@ -29,6 +30,70 @@ end
 
 local function predicateFullDrainable(item)
 	return item:getUsedDelta() == 1
+end
+
+function SF_MissionPanel.Events.OnZombieDead(zombie)
+    local player = getPlayer()
+    if not player:getModData().missionProgress.ActionEvent then
+        Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
+        SF_MissionPanel.EventsRegistered = false
+        return
+    end
+    if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent == 0 then
+        Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
+        SF_MissionPanel.EventsRegistered = false
+        return
+    end
+    local attackedBy = zombie:getAttackedBy()
+    if player:isDriving() then return end
+    if attackedBy ~= player then return end
+    if not instanceof(attackedBy, "IsoPlayer") then return end
+
+    local actionevent = player:getModData().missionProgress.ActionEvent;
+
+    for i = #actionevent, 1, -1 do
+        local eventData = actionevent[i]
+        local condition = luautils.split(eventData.condition, ";")
+        
+        if condition[1] == "killzombies" then
+            --temp fix for preWipe
+            if not eventData.kills then eventData.kills = 0 end
+            if not eventData.goal then eventData.goal = tonumber(condition[2]) end
+            -- end temp fix
+            eventData.kills = (eventData.kills or 0) + 1
+            if eventData.kills >= eventData.goal then
+                local commandTable = luautils.split(eventData.commands, ";")
+                SF_MissionPanel.instance:readCommandTable(commandTable)
+                table.remove(actionevent, i)
+            end
+        end
+    end
+end
+
+function SF_MissionPanel.Commands.actionevent(condition, commandslist)
+    -- condition example: killzombies:2000:tierzone:Louisville;
+    -- or 
+    -- condition example: killzombies:1500:tierlevel:2;
+    -- commandslist example: unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained
+	-- local convertedcondition = condition:gsub(":", ";");
+	local checkcondition = luautils.split(condition, ":");
+	if checkcondition[1] == "killzombies" then
+        local player = getPlayer();
+		local goal = tonumber(checkcondition[2])
+	    local convertedCommands = commandslist:gsub(":", ";");
+	    table.insert(player:getModData().missionProgress.ActionEvent, {
+            kills = 0,
+            goal = goal,
+            condition = "killzombies",
+            commands = convertedCommands
+        })
+        -- Registriamo l'evento una sola volta
+        if not SF_MissionPanel.EventsRegistered then
+            Events.OnZombieDead.Add(SF_MissionPanel.Events.OnZombieDead);
+            SF_MissionPanel.EventsRegistered = true;
+        end
+        SF_MissionPanel.instance.needsBackup = true;
+    end
 end
 
 function SF_MissionPanel.Commands.removeitem(item, quantity)
@@ -399,6 +464,135 @@ function SF_MissionPanel.DailyEventRerollExpand()
     end
 end
 
+function SF_MissionPanel.EveryTenMinutesExpand()
+    print("zSOUL QUEST SYSTEM - EveryTenMinutesExpand overwrite success");
+    local player = getPlayer();
+	if not player:getModData().missionProgress then return end
+	-- si potrebbe rimuovere killzombies ed inserirlo in un evento "OnCharacterDeath" o qualche evento che viene triggherato quando si uccide uno zombie?
+	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
+		local actionevent = player:getModData().missionProgress.ActionEvent;
+        local isKillZombie = false -- check if killzombies actionevent exists, at least one (for the events)
+		for a=#actionevent,1,-1 do
+            local event = actionevent[a]
+            local condition = event.condition
+			if condition then
+				local condition = luautils.split(condition, ";");
+				if condition[1] == "enterroom" then
+					local squareTable = luautils.split(condition[2], "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					if square then
+						local room = square:getRoom();
+						if player:getSquare():getRoom() == room then
+							local commandTable = luautils.split(event.commands, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable);
+							table.remove(actionevent, a);
+						end
+					end	
+                elseif condition[1] == "killzombies" then -- not sure, maybe should be in onCreatedPlayer. 
+               
+                    if not SF_MissionPanel.EventsRegistered then
+                        Events.OnZombieDead.Add(SF_MissionPanel.Events.OnZombieDead);
+                        SF_MissionPanel.EventsRegistered = true;
+                    end
+                    isKillZombie = true
+                   
+				elseif condition[1] == "enterdungeon" then
+					local dungeonID = condition[2];
+					if player:getModData().CurrentDungeon.dungeonId and player:getModData().CurrentDungeon.dungeonId == dungeonID then
+						local commandTable = luautils.split(event.commands, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+						table.remove(actionevent, a);					
+					end
+				elseif condition[1] == "readbook" then
+					
+				elseif condition[1] == "watchmedia" then
+					local media = getZomboidRadio():getRecordedMedia():getMediaData(condition[2]);
+					local watched = getZomboidRadio():getRecordedMedia():hasListenedToAll(player, media);
+					if watched and event.commands then
+						local commandTable = luautils.split(event.commands, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+						table.remove(actionevent, a);
+					end
+				end
+			end
+		end
+        if not isKillZombie and SF_MissionPanel.EventsRegistered then
+            Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead);
+            SF_MissionPanel.EventsRegistered = false;
+        end
+	end
+	
+	if player:getModData().missionProgress.Timers and #player:getModData().missionProgress.Timers > 0 then
+		local timers = player:getModData().missionProgress.Timers;
+		local ageHours = getGameTime():getWorldAgeHours();
+		for i=#timers,1,-1 do
+			if timers[i].timer and timers[i].timer < ageHours then
+				if timers[i].command == "unlockQuest" then
+					if timers[i].category then
+						SF_MissionPanel.instance:addTaskToCategory(timers[i].guid, category, timers[i].sound);
+					else
+						SF_MissionPanel.instance:unlockQuest(timers[i].guid, timers[i].sound);
+					end
+				end
+				if timers[i].commands then
+					local commandTable = luautils.split(timers[i].commands, ";");
+					SF_MissionPanel.instance:readCommandTable(commandTable);		
+				end
+				table.remove(player:getModData().missionProgress.Timers, i);
+				SF_MissionPanel.instance.needsBackup = true;
+			end
+		end
+	end
+
+	if player:getModData().missionProgress.WorldEvent then
+		for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
+			if not v2.marker then
+				local squareTable = luautils.split(k2, "x");
+				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+				local square = getCell():getGridSquare(x, y, z);
+                local marker
+				if square then
+                    if string.find(string.lower(v2.dialoguecode), "complete") then
+                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+                    else
+					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+                    end
+					marker:setDoAlpha(false);
+					marker:setAlphaMin(0.8);
+					marker:setAlpha(1.0);
+					v2.marker = marker;
+				end
+			end
+		end
+	end
+
+    if player:getModData().missionProgress.ClickEvent then
+        for c=1,#player:getModData().missionProgress.ClickEvent do
+            local event = player:getModData().missionProgress.ClickEvent[c];
+            if not event.marker then
+				local squareTable = luautils.split(event.square, "x");
+				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+				local square = getCell():getGridSquare(x, y, z);
+                local marker
+				if square then
+					marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
+					marker:setDoAlpha(false);
+					marker:setAlphaMin(0.8);
+					marker:setAlpha(1.0);
+					event.marker = marker;
+				end
+			end
+        end
+    end
+	
+	if SF_MissionPanel.instance.needsBackup == true then
+        print("zSOUL QUEST SYSTEM - needBackup true, backup data init.");
+		SF_MissionPanel.instance:backupData();
+		SF_MissionPanel.instance.needsBackup = false;
+	end
+end
+
 function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
     local player = getPlayer();
     if player:getModData().missionProgress.WorldEvent then
@@ -558,13 +752,11 @@ function SF_MissionPanel.DebugEveryTenMinutes()
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
         local actionevent = player:getModData().missionProgress.ActionEvent;
 		for a=#actionevent,1,-1 do
-            if actionevent[a].condition then
-				local condition = luautils.split(actionevent[a].condition, ";");
-                if condition[1] == "killzombies" then
-                    local currentkills = player:getZombieKills();
-                    local goal = tonumber(condition[2]);
-                    print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " CURRENT:" .. currentkills .. " | TARGET:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
-                end
+            local condition = luautils.split(actionevent[a].condition, ";");
+            if condition[1] == "killzombies" then
+                    local kills = actionevent[a].kills;
+                    local goal = actionevent[a].goal;
+                    print("[SF_MissionPanel.EveryTenMinutes][DEBUG-KILLZOMBIES] >>> PLAYER: " .. player:getUsername() .. " Kills:" .. kills .. " | Goal:" .. goal .. " | COMMAND:" .. actionevent[a].commands .. " <<<");
             end
         end
     end
@@ -631,15 +823,16 @@ function SF_MissionPanel:completeQuest(player, guid)
 						self.previousPage:setVisible(false);
 						self.richText:setVisible(false);
 					end
-                    if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
-                        for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
-                            local commands = luautils.split(v.commands, ";");
-                            if luautils.stringStarts(task.guid, commands[2]) then
-                                table.remove(player:getModData().missionProgress.ActionEvent, k);
-                                break
-                            end
-                        end
-                    end
+                    -- con il nuovo metodo non serve più perché la rimuoviamo già nell'evento appena viene completata
+                    -- if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
+                    --     for k,v in pairs(player:getModData().missionProgress.ActionEvent) do
+                    --         local commands = luautils.split(v.commands, ";");
+                    --         if luautils.stringStarts(task.guid, commands[2]) then
+                    --             table.remove(player:getModData().missionProgress.ActionEvent, k);
+                    --             break
+                    --         end
+                    --     end
+                    -- end
 
 					if task.dailycode == nil then
 						table.insert(player:getModData().missionProgress.Category1, task);
@@ -672,7 +865,12 @@ Events.OnGameBoot.Add(function()
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.OnGameStart.Remove(SF_MissionPanel.DailyEventReroll)
     Events.OnGameStart.Add(SF_MissionPanel.DailyEventRerollExpand)
-    Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes)
+    Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes
+)
+    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
+    local original_EveryTenMinutes = SF_MissionPanel.EveryTenMinutes
+    SF_MissionPanel.EveryTenMinutes = SF_MissionPanel.EveryTenMinutesExpand
+
 
     local original_fun = SF_MissionPanel.DailyEventReroll
     SF_MissionPanel.DailyEventReroll = SF_MissionPanel.DailyEventRerollExpand

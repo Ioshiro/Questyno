@@ -30,7 +30,7 @@ function Commands.setProgress(args)
 	end
 	print("zSOUL QUEST SYSTEM - Data transformation successful, applying " .. lastnum .. " lines of backup.");
 	--fix brutale per rimuovere punto esclamativo di Pyno post restore del backup
-	SF_MissionPanel.instance:RemoveAllWorldMarkers()
+	SF_MissionPanel.instance.RemoveAllWorldMarkers()
 	---------------------------------------------------------
 	player:getModData().missionProgress = {}
 	print("zSOUL QUEST SYSTEM - missionProgress reset for backup");

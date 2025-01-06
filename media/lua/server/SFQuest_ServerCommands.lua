@@ -95,6 +95,26 @@ function Commands.addserverpoints(player, args)
 	sendServerCommand(player,"ServerPoints", "add", args)
 end
 
+function Commands.saveHistory(player, args)
+    if isClient() or not args or not args.guid then return end
+    
+    local id = player:getUsername()
+    local filepathTxt = "/Backup/SFQuest/History/SFQuest_" .. id .. "_History.txt"
+
+    -- Ottieni data e ora correnti, ad esempio in formato YYYY-MM-DD HH:MM:SS
+    local currentTime = os.date("%Y-%m-%d %H:%M:%S")
+
+    local filewriter = getFileWriter(filepathTxt, true, true)
+    if filewriter then
+        -- Scrivi la quest completata con data e ora
+        filewriter:write(currentTime .. " - " .. args.guid .. "\n")
+        filewriter:close()
+        print("[Commands.saveHistory] zSOUL QUEST SYSTEM - Saved quest data for ID: " .. id .. " at " .. currentTime)
+    else
+        print("Unable to open file for writing.")
+    end
+end
+
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
 Events.OnClientCommand.Add(function(module, command, player, args)
 	if module == 'SFQuest' and Commands[command] then
