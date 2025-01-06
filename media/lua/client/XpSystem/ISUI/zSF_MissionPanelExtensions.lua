@@ -1285,15 +1285,15 @@ function SF_MissionPanel:completeQuest(player, guid)
 						self.richText:setVisible(false);
 					end
                     -- che sia questo a far sparire le action event dei killzombies? ma come?
-                    if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
-                        for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
-                            local commands = luautils.split(v.commands, ";");
-                            if luautils.stringStarts(task.guid, commands[2]) then
-                                table.remove(player:getModData().missionProgress.ActionEvent, i);
-                                break
-                            end
-                        end
-                    end
+                    -- if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
+                    --     for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
+                    --         local commands = luautils.split(v.commands, ";");
+                    --         if luautils.stringStarts(task.guid, commands[2]) then
+                    --             table.remove(player:getModData().missionProgress.ActionEvent, i);
+                    --             break
+                    --         end
+                    --     end
+                    -- end
                     -- only unlock eventually awarded quests after every check of the current quest completed
                     if task.awardstask then
 						SF_MissionPanel:unlockQuest(task.awardstask);
