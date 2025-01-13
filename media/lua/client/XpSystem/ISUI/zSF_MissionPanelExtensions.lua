@@ -89,6 +89,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                     SF_MissionPanel.instance:readCommandTable(commandTable)
                     table.remove(actionevent, i)
                 end
+                SF_MissionPanel.instance.needsBackup = true
             end
         end
     end
@@ -901,7 +902,6 @@ function SF_MissionPanel.EveryTenMinutesExpand()
     print("zSOUL QUEST SYSTEM - EveryTenMinutesExpand overwrite success");
     local player = getPlayer();
 	if not player:getModData().missionProgress then return end
-	-- si potrebbe rimuovere killzombies ed inserirlo in un evento "OnCharacterDeath" o qualche evento che viene triggherato quando si uccide uno zombie?
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
 		local actionevent = player:getModData().missionProgress.ActionEvent;
         local isKillZombie = false -- check if killzombies actionevent exists, at least one (for the events)
