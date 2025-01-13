@@ -66,6 +66,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                 SF_MissionPanel.instance:readCommandTable(commandTable)
                 table.remove(actionevent, i)
             end
+            SF_MissionPanel.instance.needsBackup = true
         end
     end
 end

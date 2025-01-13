@@ -168,7 +168,7 @@ local function OnPlayerDeath(player)
 	Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutesExpand)
 
 	-- if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
-	-- local needUpdate = false;
+	local needUpdate = false;
 	-- for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
 	-- 	local condition = luautils.split(v.condition, ";");
 	-- 	if condition[1] == "killzombies" then
@@ -181,12 +181,12 @@ local function OnPlayerDeath(player)
 	-- 		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Updated killzombies condition from " .. condition[2] .. " to " .. newcount);
 	-- 	end
 	-- end
-	-- if needUpdate == true then
-	-- 	SF_MissionPanel.instance:backupData();
-	-- 	print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Backup data updated.");
-	-- else
-	-- 	print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - No need to update backup data.");
-	-- end
+	if needUpdate == true then
+		SF_MissionPanel.instance:backupData();
+		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Backup data updated.");
+	else
+		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - No need to update backup data.");
+	end
 	-- we set ImDeath to true for create a flag to know that the player died and we're still in the same game session
 	ImDeath = true
 
