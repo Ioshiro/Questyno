@@ -57,10 +57,10 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
         
         if condition[1] == "killzombies" then
             --temp fix for preWipe
-            if not eventData.kills then eventData.kills = 0 end
+            if not eventData.kills then eventData.kills = player:getZombieKills() end
             if not eventData.goal then eventData.goal = tonumber(condition[2]) end
             -- end temp fix
-            eventData.kills = (eventData.kills or 0) + 1
+            eventData.kills = eventData.kills + 1
             if eventData.kills >= eventData.goal then
                 local commandTable = luautils.split(eventData.commands, ";")
                 SF_MissionPanel.instance:readCommandTable(commandTable)
