@@ -2,7 +2,7 @@ IGUI_IT = {
 	IGUI_XP_TaskStatus_Completed = "[COMPL.] ",
 	IGUI_XP_TaskStatus_Obtained = "[OTTEN.] ",
 	IGUI_XP_TaskStatus_Updated = "[AGGIOR.] ",
-    IGUI_FailCompleteQuest = "Mi dispiace ma l'item non è in inventario o non rispecchia più le caratteristiche richieste. Trovane un altro!",
+    IGUI_FailCompleteQuest = "Mi dispiace ma l'item non ï¿½ in inventario o non rispecchia piï¿½ le caratteristiche richieste. Trovane un altro!",
     IGUI_PlayerText_Callout1 = "Bro!",
     IGUI_PlayerText_Callout1New = "MALEDETTY!",
     IGUI_PlayerText_Callout1Sneak = "pssst!",
@@ -12,6 +12,14 @@ IGUI_IT = {
     IGUI_PlayerText_Callout3 = "Centodiciottoo!",
     IGUI_PlayerText_Callout3New = "VERGONYA!",
     IGUI_PlayerText_Callout3Sneak = "hey",
+
+    IGUI_SFQuest_Questyno_NotCompleted = "QUEST [ %1 ] non completata, oggetto non piu' valido!",
+    IGUI_SFQuest_Questyno_Completed = "QUEST [ %1 ] completata!",
+    IGUI_SFQuest_Questyno_ItemRemoved "Rimosso %1 %2 per la missione %3.",
+    IGUI_SFQuest_Questyno_ItemRemoveFailed "Impossibile rimuovere l'oggetto per la missione %1.",
+    IGUI_SFQuest_Questyno_ZombieCompleted = "Hai ucciso %1 zombie per la missione %2.",
+
+
 
     IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
     IGUI_SFQuest_Questyno_Test1_Title = "Giorno della Pizza",

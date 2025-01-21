@@ -43,6 +43,12 @@ IGUI_SFQuest_Questyno_Brioshi_Name = "Brioshi",
 IGUI_Reputation = "Reputation",
 IGUI_Objectives = "Objectives:",
 
+IGUI_SFQuest_Questyno_NotCompleted = "QUEST [ %1 ] not completed, item no longer valid or in inventory!",
+IGUI_SFQuest_Questyno_Completed = "QUEST [ %1 ] completed!",
+IGUI_SFQuest_Questyno_ItemRemoved = "Removed %1 %2 for quest %3.",
+IGUI_SFQuest_Questyno_ItemRemoveFailed = "Failed to remove item for quest %1.",
+IGUI_SFQuest_Questyno_ZombieCompleted = "COMPLETE: %1 zombies for quest %2.",
+
 --[[                        *** SEZIONE 1: QUEST PER SOLDI ***
             Elenco:
                 intro. parla con ioshi per sbloccare la prima quest
