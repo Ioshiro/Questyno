@@ -25,35 +25,35 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer1",
 
-    awardsrep = "LaResistenza;1800", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer1_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer1_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer1_Title",
-    unlocks = "actionevent;killzombies:1500;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer1_Complete:placeholder:updatequeststatus:Questyno_AlexMercer1:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:350:tierlevel:4;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer1_Complete:placeholder:updatequeststatus:Questyno_AlexMercer1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer2",
 
-    awardsrep = "LaResistenza;2000", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
     lore = { "IGUI_SFQuest_Questyno_AlexMercer2_Lore" },
     text = "IGUI_SFQuest_Questyno_AlexMercer2_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer2_Title",
-    unlocks = "actionevent;killzombies:2000:tierzone:Utopia;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:400:tierlevel:4;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer2_Complete:placeholder:updatequeststatus:Questyno_AlexMercer2:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer3",
 
-    awardsrep = "LaResistenza;3000", -- REP REWARD
+    awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "SWeapons.ChainBat;1",
     -- awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",
@@ -62,7 +62,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_AlexMercer3_Text",
     texture = "media/textures/Item_AlexMercer.png",
     title = "IGUI_SFQuest_Questyno_AlexMercer3_Title",
-    unlocks = "actionevent;killzombies:2500:tierlevel:2;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete:placeholder:updatequeststatus:Questyno_AlexMercer3:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:500:tierlevel:4;unlockworldevent:Questyno_AlexMercer:SFQuest_Questyno_AlexMercer3_Complete:placeholder:updatequeststatus:Questyno_AlexMercer3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -441,3 +441,107 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_GraceChambers4_Title",
     unlocks = "unlockworldevent;Questyno_GraceChambers;SFQuest_Questyno_GraceChambers4_Complete",
 });
+
+-- Stagione 2
+
+--[[
+            *** HuxleyThorne ***
+            Elenco:
+                intro. Incontra HuxleyThorne.
+				1. Uccidere 1000 Zombie in tier 5 (4000rep)
+				2. Uccidere 1500 Zombie in tier 5 (5000rep)
+				3. Uccidere 2000 Zombie in tier 5 (6000rep)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_HuxleyThorne_Intro",
+
+    awardsrep = "HuxleyThorne;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Text",
+    texture = "media/textures/Item_HuxleyThorne.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_HuxleyThorne;SFQuest_Questyno_HuxleyThorne_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_HuxleyThorne1",
+
+    awardsrep = "LaResistenza;4000", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_HuxleyThorne",
+    lore = { "IGUI_SFQuest_Questyno_HuxleyThorne1_Lore" },
+    text = "IGUI_SFQuest_Questyno_HuxleyThorne1_Text",
+    texture = "media/textures/Item_HuxleyThorne.png",
+    title = "IGUI_SFQuest_Questyno_HuxleyThorne1_Title",
+    unlocks = "actionevent;killzombies:1000:tierlevel:5;unlockworldevent:Questyno_HuxleyThorne:SFQuest_Questyno_HuxleyThorne1_Complete:placeholder:updatequeststatus:Questyno_HuxleyThorne1:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_HuxleyThorne2",
+
+    awardsrep = "LaResistenza;5000", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_HuxleyThorne",
+    lore = { "IGUI_SFQuest_Questyno_HuxleyThorne2_Lore" },
+    text = "IGUI_SFQuest_Questyno_HuxleyThorne2_Text",
+    texture = "media/textures/Item_HuxleyThorne.png",
+    title = "IGUI_SFQuest_Questyno_HuxleyThorne2_Title",
+    unlocks = "actionevent;killzombies:1500:tierlevel:5;unlockworldevent:Questyno_HuxleyThorne:SFQuest_Questyno_HuxleyThorne2_Complete:placeholder:updatequeststatus:Questyno_HuxleyThorne2:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_HuxleyThorne3",
+
+    awardsrep = "LaResistenza;6000", -- REP REWARD
+    awardsitem = "Katana;1",
+    completesound = "levelup",
+    dailycode = "Questyno_HuxleyThorne",
+    lore = { "IGUI_SFQuest_Questyno_HuxleyThorne3_Lore" },
+    text = "IGUI_SFQuest_Questyno_HuxleyThorne3_Text",
+    texture = "media/textures/Item_HuxleyThorne.png",
+    title = "IGUI_SFQuest_Questyno_HuxleyThorne3_Title",
+    unlocks = "actionevent;killzombies:2000:tierlevel:5;unlockworldevent:Questyno_HuxleyThorne:SFQuest_Questyno_HuxleyThorne3_Complete:placeholder:updatequeststatus:Questyno_HuxleyThorne3:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+--[[
+            *** VivianParker ***
+            Elenco:
+                intro. Incontra VivianParker.
+                1. Recupera BlowTorch;15 (200rep, TW.LargePropaneTank)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_VivianParker_Intro",
+
+    awardsrep = "VivianParker;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_VivianParker_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_VivianParker_Intro_Text",
+    texture = "media/textures/Item_VivianParker.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_VivianParker;SFQuest_Questyno_VivianParker_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_VivianParker_Intro_Title",
+});
+
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_VivianParker1",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsitem = "TW.LargePropaneTank;1",
+    needsitem = "BlowTorch;15", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_VivianParker",
+    lore = { "IGUI_SFQuest_Questyno_VivianParker1_Lore" },
+    text = "IGUI_SFQuest_Questyno_VivianParker1_Text",
+    texture = "media/textures/Item_VivianParker.png",
+    onobtained = "unlockworldevent;Questyno_VivianParker;SFQuest_Questyno_VivianParker1_Complete",
+    title = "IGUI_SFQuest_Questyno_VivianParker1_Title",
+    unlockedsound = "QuestUnlocked"
+})

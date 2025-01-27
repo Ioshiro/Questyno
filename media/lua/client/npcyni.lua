@@ -1032,3 +1032,216 @@ SFQuest_Database.MannequinPool["13635x4064x0"] = {
     haircolor = "0.3,0.3,0.3",
     outfit = "JamesMorris",
 }
+
+-- STAGIONE 2
+
+-- Paige Turner Tana 9331x8640x0 Ovest
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_PaigeTurner",
+    square = "9331x8641x0",
+    name = "IGUI_SFQuest_Questyno_PaigeTurner_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_PaigeTurner.png",
+})
+
+SFQuest_Database.MannequinPool["9331x8641x0"] = {
+    sprite = "location_shop_mall_01_73",
+    direction = "W",
+    beard = "",
+    hair = "PonyTail",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "PaigeTurner",
+}
+
+-- Ansel Merrick West Point 10161x6628x0 Ovest
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_AnselMerrick",
+    square = "10161x6628x0",
+    name = "IGUI_SFQuest_Questyno_AnselMerrick_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_AnselMerrick.png",
+})
+
+SFQuest_Database.MannequinPool["10161x6628x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "W",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "AnselMerrick",
+}
+
+-- Tomas Joger Tana 9340x8578x0 Sud
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_TomasJoger",
+    square = "9340x8579x0",
+    name = "IGUI_SFQuest_Questyno_TomasJoger_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_TomasJoger.png",
+})
+
+SFQuest_Database.MannequinPool["9340x8579x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "S",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "TomasJoger",
+}
+
+-- Kyle Porter Louisville 13648x4046x0 SUD
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_KylePorter",
+    square = "13648x4046x0",
+    name = "IGUI_SFQuest_Questyno_KylePorter_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_KylePorter.png",
+})
+
+SFQuest_Database.MannequinPool["13648x4046x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "S",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "KylePorter",
+}
+
+-- Huxley Thorne Louisville 13635,4064,0 Sud
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_HuxleyThorne",
+    square = "13635x4065x0",
+    name = "IGUI_SFQuest_Questyno_HuxleyThorne_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_HuxleyThorne.png",
+})
+
+SFQuest_Database.MannequinPool["13635x4065x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "S",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "HuxleyThorne",
+}
+
+-- DorianPrescott Cittadella 7650x9016x0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_DorianPrescott",
+    square = "7650x9016x0",
+    name = "IGUI_SFQuest_Questyno_DorianPrescott_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_DorianPrescott.png",
+})
+
+SFQuest_Database.MannequinPool["7650x9016x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "E",
+    beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.1",
+    hair = "Spikes",
+    haircolor = "0.9,0.0,0.0",
+    outfit = "DorianPrescott",
+}
+
+-- TessaAnderson Trelai 7747x7756x0 Sud
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_TessaAnderson",
+    square = "7747x7756x0",
+    name = "IGUI_SFQuest_Questyno_TessaAnderson_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_TessaAnderson.png",
+})
+
+SFQuest_Database.MannequinPool["7747x7756x0"] = {
+    sprite = "location_shop_mall_01_73",
+    direction = "S",
+    beard = "",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "TessaAnderson",
+}
+
+-- RyanParker Citadella 7650x9010x0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_RyanParker",
+    square = "7650x9010x0",
+    name = "IGUI_SFQuest_Questyno_RyanParker_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_RyanParker.png",
+})
+
+SFQuest_Database.MannequinPool["7650x9010x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "E",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "RyanParker",
+}
+
+-- VivianParker Redfordville 3642x7302x0 Sud
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_VivianParker",
+    square = "3642x7303x0",
+    name = "IGUI_SFQuest_Questyno_VivianParker_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_VivianParker.png",
+})
+
+SFQuest_Database.MannequinPool["3642x7303x0"] = {
+    sprite = "location_shop_mall_01_73",
+    direction = "S",
+    beard = "",
+    hair = "Bob",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "VivianParker",
+}
+
+-- MalachiBlevins Cittadella 7650x9046x0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_MalachiBlevins",
+    square = "7650x9046x0",
+    name = "IGUI_SFQuest_Questyno_MalachiBlevins_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_MalachiBlevins.png",
+})
+
+SFQuest_Database.MannequinPool["7650x9046x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "E",
+    beard = "FullBeard",
+    beardcolor = "0.1,0.1,0.1",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "MalachiBlevins",
+}
+
+-- JacobTurner Tana 7650x9038x0
+
+table.insert(SFQuest_Database.WorldPool, {
+    identity = "Questyno_JacobTurner",
+    square = "7650x9038x0",
+    name = "IGUI_SFQuest_Questyno_JacobTurner_Name",
+    faction = "LaResistenza",
+    picture = "media/textures/Picture_JacobTurner.png",
+})
+
+SFQuest_Database.MannequinPool["7650x9038x0"] = {
+    sprite = "location_shop_mall_01_77",
+    direction = "E",
+    beard = "",
+    hair = "Short",
+    haircolor = "0.0,0.0,0.0",
+    outfit = "JacobTurner",
+}

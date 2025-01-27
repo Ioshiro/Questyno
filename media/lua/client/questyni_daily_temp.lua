@@ -48,7 +48,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo1",
 
-    awardsrep = "LaResistenza;25",      -- REP REWARD
+    awardsrep = "LaResistenza;100",      -- REP REWARD
     awardsitem = "Money;10;Base.Pot;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -64,7 +64,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo2",
 
-    awardsrep = "LaResistenza;30",      -- REP REWARD
+    awardsrep = "LaResistenza;120",      -- REP REWARD
     awardsitem = "Money;15;Base.Pan;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -80,7 +80,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo3",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;20",        -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -96,7 +96,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo4",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.Bowl;1",    -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -133,7 +133,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo5_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     awardsitem = "Money;50",       -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -202,7 +202,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo6_B",
 
-    awardsrep = "LaResistenza;50",  -- REP REWARD
+    awardsrep = "LaResistenza;150",  -- REP REWARD
     awardsitem = "Base.SushiEgg;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -286,7 +286,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo8_B",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Base.Baguette;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -398,7 +398,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo12_A",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Base.Sugar;1",   -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -413,7 +413,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo13",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo13_Lore" },
@@ -503,7 +503,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo15_B",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.TVDinner;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -538,7 +538,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo16_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Base.Cheese;1;Base.DriedChickpeas;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -590,7 +590,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo18_A",
 
-    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Base.PieBlueberry;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -605,7 +605,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo19",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -653,7 +653,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo22",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     awardsitem = "Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -669,7 +669,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_MikePozzo23",
 
-    awardsrep = "LaResistenza;70", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.Smallanimalmeat;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -685,7 +685,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo24",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -747,7 +747,7 @@ table.insert(SFQuest_Database.QuestPool, chinaIntro);
 local chinaQuest1 = {
     guid = "Questyno_RosaChina1",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina1_Lore" },
@@ -763,7 +763,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest1);
 local chinaQuest2 = {
     guid = "Questyno_RosaChina2",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina2_Lore" },
@@ -795,7 +795,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest3);
 local chinaQuest4 = {
     guid = "Questyno_RosaChina4",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.WildEggs;2",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
@@ -812,7 +812,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest4);
 local chinaQuest5 = {
     guid = "Questyno_RosaChina5",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;60", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina5_Lore" },
@@ -844,7 +844,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest6);
 local chinaQuest7 = {
     guid = "Questyno_RosaChina7",
 
-    awardsrep = "LaResistenza;70", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina7_Lore" },
@@ -882,9 +882,15 @@ local chinaQuest8 = {
         text = "IGUI_SFQuest_Questyno_RosaChina8_C",
         icon = "media/textures/Item_Cockroach",
         hidden = false,
-        needsitem = "PredicateFreshFood#Cockroach;1",
-        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;1"
-    } }, -- REQUIRE
+        needsitem = "PredicateFreshFood#Cockroach;4",
+        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;4"
+    },{
+        guid = "Questyno_RosaChina8_D",
+        text = "IGUI_SFQuest_Questyno_RosaChina8_D",
+        hidden = false,
+        needsitem = "PredicateFreshFood#Snail;10",
+        onobtained = "updateobjective;Questyno_RosaChina8;4;Completed;removeitem;Snail;10"
+    }}, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina8_Text",
     texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina8_Title",
@@ -895,7 +901,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest8);
 local chinaQuest8A = {
     guid = "Questyno_RosaChina8_A",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina8_Lore" },
@@ -937,7 +943,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest9);
 local chinaQuest9A = {
     guid = "Questyno_RosaChina9_A",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.PlantainCataplasm",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
@@ -969,7 +975,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest10);
 local chinaQuest11 = {
     guid = "Questyno_RosaChina11",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.Pumpkin",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
@@ -986,7 +992,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest11);
 local chinaQuest12 = {
     guid = "Questyno_RosaChina12",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina12_Lore" },
@@ -1185,11 +1191,11 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest18A);
 local chinaQuest19 = {
     guid = "Questyno_RosaChina19",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina19_Lore" },
-    needsitem = "TagPredicateFreshFood#Mushroom;1", -- REQUIRE
+    needsitem = "MushroomGeneric3;1", -- REQUIRE
     onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina19_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina19_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1238,7 +1244,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest21);
 local chinaQuest21A = {
     guid = "Questyno_RosaChina21_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;130", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina21_Lore" },
@@ -1271,6 +1277,7 @@ local chinaQuest23 = {
     guid = "Questyno_RosaChina23",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsitem = "DriedBlackBeens;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina23_Lore" },
@@ -1299,6 +1306,68 @@ local chinaQuest24 = {
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest24);
 
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_RosaChina25",
+
+    awardsrep = "LaResistenza;150", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_RosaChina",
+    lore = { "IGUI_SFQuest_Questyno_RosaChina25_Lore" },
+    needsitem = "Base.Thread;5", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina25_Complete",
+    text = "IGUI_SFQuest_Questyno_RosaChina25_Text",
+    texture = "media/textures/Item_RosaChina.png",
+    title = "IGUI_SFQuest_Questyno_RosaChina25_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+local chinaQuest26 = {
+    guid = "Questyno_RosaChina26",
+
+    awardsrep = "LaResistenza;400", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_RosaChina",
+    lore = { "IGUI_SFQuest_Questyno_RosaChina26_Lore" },
+    needsitem = "MushroomGeneric2;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina26_Complete",
+    text = "IGUI_SFQuest_Questyno_RosaChina26_Text",
+    texture = "media/textures/Item_RosaChina.png",
+    title = "IGUI_SFQuest_Questyno_RosaChina26_Title",
+    unlockedsound = "QuestUnlocked"
+}
+table.insert(SFQuest_Database.QuestPool, chinaQuest26);
+
+local chinaQuest27 = {
+    guid = "Questyno_RosaChina27",
+
+    awardsrep = "LaResistenza;400", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_RosaChina",
+    lore = { "IGUI_SFQuest_Questyno_RosaChina27_Lore" },
+    needsitem = "MushroomGeneric1;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina27_Complete",
+    text = "IGUI_SFQuest_Questyno_RosaChina27_Text",
+    texture = "media/textures/Item_RosaChina.png",
+    title = "IGUI_SFQuest_Questyno_RosaChina27_Title",
+    unlockedsound = "QuestUnlocked"
+}
+table.insert(SFQuest_Database.QuestPool, chinaQuest27);
+
+local chinaQuest27 = {
+    guid = "Questyno_RosaChina27",
+
+    awardsrep = "LaResistenza;400", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_RosaChina",
+    lore = { "IGUI_SFQuest_Questyno_RosaChina27_Lore" },
+    needsitem = "MushroomGeneric1;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina27_Complete",
+    text = "IGUI_SFQuest_Questyno_RosaChina27_Text",
+    texture = "media/textures/Item_RosaChina.png",
+    title = "IGUI_SFQuest_Questyno_RosaChina27_Title",
+    unlockedsound = "QuestUnlocked"
+}
+table.insert(SFQuest_Database.QuestPool, chinaQuest27);
 --[[
             *** Emily Terry ***
             Elenco:
@@ -1346,7 +1415,7 @@ table.insert(SFQuest_Database.QuestPool, {
 local emilyTerryQuest1 = {
     guid = "Questyno_EmilyTerry1",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry1_Lore" },
@@ -1445,7 +1514,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest6);
 local emilyTerryQuest7 = {
     guid = "Questyno_EmilyTerry7",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry7_Lore" },
@@ -1494,7 +1563,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest9);
 local emilyTerryQuest10 = {
     guid = "Questyno_EmilyTerry10",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry10_Lore" },
@@ -1600,12 +1669,12 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest14A);
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EmilyTerry15",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     awardsitem = "Base.OilOlive",  -- ITEM REWARD
     dailycode = "Questyno_EmilyTerry",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry15_Lore" },
-    needsitem = "TagPredicateFreshFood#Mushroom;2",
+    needsitem = "MushroomGeneric7;1",
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry15_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry15_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1624,21 +1693,21 @@ local emilyTerryQuest16 = {
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_A",
         icon = "media/textures/Item_AxeStone",
         hidden = false,
-        needsitem = "AxeStone;2",
+        needsitem = "AxeStone;4",
         onobtained = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;AxeStone;2"
     }, { 
         guid = "Questyno_EmilyTerry16_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_B",
         icon = "media/textures/Item_SpearCrafted",
         hidden = false,
-        needsitem = "SpearCrafted;2",
+        needsitem = "SpearCrafted;4",
         onobtained = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;SpearCrafted;2"
     }, { 
         guid = "Questyno_EmilyTerry16_C",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_C",
         icon = "media/textures/Item_FlintKnife",
         hidden = false,
-        needsitem = "FlintKnife;2",
+        needsitem = "FlintKnife;4",
         onobtained = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;2"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry16_Text",
@@ -1651,7 +1720,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest16);
 local emilyTerryQuest16A = {
     guid = "Questyno_EmilyTerry16_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry16_Lore" },
@@ -1744,7 +1813,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest19);
 local emilyTerryQuest19A = {
     guid = "Questyno_EmilyTerry19_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     awardsitem = "Base.BerryBlack;5",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
@@ -1760,7 +1829,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest19A);
 local emilyTerryQuest20 = {
     guid = "Questyno_EmilyTerry20",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Base.Pot;1;Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
@@ -1797,7 +1866,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest21);
 local emilyTerryQuest21A = {
     guid = "Questyno_EmilyTerry21_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry21_Lore" },
@@ -1812,7 +1881,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest21A);
 local emilyTerryQuest22 = {
     guid = "Questyno_EmilyTerry22",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Money;10",
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
@@ -1829,7 +1898,7 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest22);
 local emilyTerryQuest23 = {
     guid = "Questyno_EmilyTerry23",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     awardsitem = "Money;10",
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
@@ -1859,3 +1928,1316 @@ local emilyTerryQuest24 = {
 }
 table.insert(SFQuest_Database.QuestPool, emilyTerryQuest24);
 
+local emilyTerryQuest25 = {
+    guid = "Questyno_EmilyTerry25",
+
+    awardsrep = "LaResistenza;50", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_EmilyTerry",
+    lore = { "IGUI_SFQuest_Questyno_EmilyTerry25_Lore" },
+    needsitem = "Base.DenimStrips;40", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry25_Complete",
+    text = "IGUI_SFQuest_Questyno_EmilyTerry25_Text",
+    texture = "media/textures/Item_EmilyTerry.png",
+    title = "IGUI_SFQuest_Questyno_EmilyTerry25_Title",
+    unlockedsound = "QuestUnlocked"
+}
+table.insert(SFQuest_Database.QuestPool, emilyTerryQuest25);
+
+-- Stagione 2
+
+--[[
+            *** RyanParker ***
+            Elenco:
+                intro. Parla con RyanParker per sbloccare le daily.
+                1. Recupera DjackzVinyl @ 11414x11467x0 (300rep, 50$)
+                2. Recupera DjackzVinyl @ 6664x11421x0 (300rep, 50$)
+                3. Recupera DjackzVinyl @ 11609x6880x1 (300rep, 50$)
+                4. Recupera DjackzVinyl @ 7917x10059x0 (300rep, 50$)
+                5. Recupera DjackzVinyl @ 5286x9436x0 (300rep, 50$)
+                6. Recupera DjackzVinyl @ 39777x7672x0 (600rep, 100$)
+                7. Recupera DjackzVinyl @ 5644x11079x0 (600rep, 100$)
+                8. Recupera DjackzVinyl @ 7641x10277x0 (600rep, 100$)
+                9. Recupera DjackzVinyl @ 7244x7207x1 (600rep, 100$)
+                10. Recupera DjackzVinyl @ 8455x11805x0 (600rep, 100$)
+                11. Recupera DjackzVinyl @ 4651x6629x0 (600rep, 100$)
+                12. Recupera DjackzVinyl @ 3916x9236x0 (600rep, 100$)
+                13. Recupera DjackzVinyl @ 6212x4075x0 (600rep, 100$)
+                14. Recupera DjackzVinyl @ 4136x12145x0 (600rep, 100$)
+                15. Recupera DjackzVinyl @ 6469x10257x0 (600rep, 100$)
+                16. Recupera DjackzVinyl @ 8337x13743x1 (1200rep, 200$)
+                17. Recupera DjackzVinyl @ 5018x5846x0 (1200rep, 200$)
+                18. Recupera DjackzVinyl @ 12267x12122x0 (1200rep, 200$)
+                19. Recupera DjackzVinyl @ 13761x2622x0 (1200rep, 200$)
+                20. Recupera DjackzVinyl @ 12371x1984x1 (1200rep, 200$)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker_Intro",
+
+    awardsrep = "RyanParker;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker_Intro_Lore" },
+    ondone = "randomcodedworldfrompool;Questyno_RyanParker;Questyno;RyanParker",
+    text = "IGUI_SFQuest_Questyno_RyanParker_Intro_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_RyanParker_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker1",
+    awardstask = "Questyno_RyanParker1_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker1_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker1_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker1;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker1_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker1_Title",
+    unlocks = "clickevent;11414x11467x0:EventoRyanParker1;time:50:anim:loot;updateobjective:Questyno_RyanParker1:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker1_A",
+    awardsrep = "LaResistenza;300",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker1_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker1_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker1_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker1_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker2",
+    awardstask = "Questyno_RyanParker2_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker2_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker2_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker2;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker2_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker2_Title",
+    unlocks = "clickevent;6664x11421x0:EventoRyanParker2;time:50:anim:loot;updateobjective:Questyno_RyanParker2:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker2_A",
+    awardsrep = "LaResistenza;300",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker2_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker2_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker2_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker2_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker3",
+    awardstask = "Questyno_RyanParker3_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker3_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker3_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker3;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker3_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker3_Title",
+    unlocks = "clickevent;11609x6880x1:EventoRyanParker3;time:50:anim:loot;updateobjective:Questyno_RyanParker3:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker3_A",
+    awardsrep = "LaResistenza;300",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker3_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker3_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker3_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker3_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker4",
+    awardstask = "Questyno_RyanParker4_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker4_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker4_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker4;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker4_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker4_Title",
+    unlocks = "clickevent;7917x10059x0:EventoRyanParker4;time:50:anim:loot;updateobjective:Questyno_RyanParker4:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker4_A",
+    awardsrep = "LaResistenza;300",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker4_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker4_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker4_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker4_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker5",
+    awardstask = "Questyno_RyanParker5_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker5_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker5_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker5;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker5_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker5_Title",
+    unlocks = "clickevent;5286x9436x0:EventoRyanParker5;time:50:anim:loot;updateobjective:Questyno_RyanParker5:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker5_A",
+    awardsrep = "LaResistenza;300",
+    awardsitem = "Money;50",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker5_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker5_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker5_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker5_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker6",
+    awardstask = "Questyno_RyanParker6_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker6_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker6_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker6;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker6_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker6_Title",
+    unlocks = "clickevent;39777x7672x0:EventoRyanParker6;time:50:anim:loot;updateobjective:Questyno_RyanParker6:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker6_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker6_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker6_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker6_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker6_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker7",
+    awardstask = "Questyno_RyanParker7_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker7_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker7_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker7_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker7;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker7_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker7_Title",
+    unlocks = "clickevent;5644x11079x0:EventoRyanParker7;time:50:anim:loot;updateobjective:Questyno_RyanParker7:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker7_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker7_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker7_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker7_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker7_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker8",
+    awardstask = "Questyno_RyanParker8_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker8_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker8_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker8_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker8;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker8_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker8_Title",
+    unlocks = "clickevent;7641x10277x0:EventoRyanParker8;time:50:anim:loot;updateobjective:Questyno_RyanParker8:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker8_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker8_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker8_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker8_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker8_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker9",
+    awardstask = "Questyno_RyanParker9_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker9_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker9_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker9_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker9;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker9_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker9_Title",
+    unlocks = "clickevent;7244x7207x1:EventoRyanParker9;time:50:anim:loot;updateobjective:Questyno_RyanParker9:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker9_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker9_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker9_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker9_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker9_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker10",
+    awardstask = "Questyno_RyanParker10_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker10_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker10_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker10_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker10;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker10_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker10_Title",
+    unlocks = "clickevent;8455x11805x0:EventoRyanParker10;time:50:anim:loot;updateobjective:Questyno_RyanParker10:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker10_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker10_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker10_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker10_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker10_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker11",
+    awardstask = "Questyno_RyanParker11_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker11_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker11_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker11_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker11;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker11_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker11_Title",
+    unlocks = "clickevent;4651x6629x0:EventoRyanParker11;time:50:anim:loot;updateobjective:Questyno_RyanParker11:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker11_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker11_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker11_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker11_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker11_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker12",
+    awardstask = "Questyno_RyanParker12_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker12_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker12_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker12_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker12;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker12_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker12_Title",
+    unlocks = "clickevent;3916x9236x0:EventoRyanParker12;time:50:anim:loot;updateobjective:Questyno_RyanParker12:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker12_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker12_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker12_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker12_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker12_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker13",
+    awardstask = "Questyno_RyanParker13_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker13_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker13_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker13_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker13;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker13_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker13_Title",
+    unlocks = "clickevent;6212x4075x2:EventoRyanParker13;time:50:anim:loot;updateobjective:Questyno_RyanParker13:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker13_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker13_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker13_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker13_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker13_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker14",
+    awardstask = "Questyno_RyanParker14_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker14_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker14_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker14_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker14;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker14_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker14_Title",
+    unlocks = "clickevent;4136x12145x0:EventoRyanParker14;time:50:anim:loot;updateobjective:Questyno_RyanParker14:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker14_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker14_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker14_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker14_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker14_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker15",
+    awardstask = "Questyno_RyanParker15_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker15_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker15_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker15_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker15;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker15_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker15_Title",
+    unlocks = "clickevent;6469x10257x0:EventoRyanParker15;time:50:anim:loot;updateobjective:Questyno_RyanParker15:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker15_A",
+    awardsrep = "LaResistenza;600",
+    awardsitem = "Money;100",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker15_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker15_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker15_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker15_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker16",
+    awardstask = "Questyno_RyanParker16_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker16_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker16_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker16_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker16;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker16_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker16_Title",
+    unlocks = "clickevent;8337x13743x1:EventoRyanParker16;time:50:anim:loot;updateobjective:Questyno_RyanParker16:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker16_A",
+    awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;200",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker16_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker16_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker16_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker16_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker17",
+    awardstask = "Questyno_RyanParker17_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker17_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker17_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker17_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker17;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker17_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker17_Title",
+    unlocks = "clickevent;5018x5846x0:EventoRyanParker17;time:50:anim:loot;updateobjective:Questyno_RyanParker17:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker17_A",
+    awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;200",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker17_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker17_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker17_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker17_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker18",
+    awardstask = "Questyno_RyanParker18_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker18_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker18_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker18_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker18;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker18_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker18_Title",
+    unlocks = "clickevent;12267x12122x0:EventoRyanParker18;time:50:anim:loot;updateobjective:Questyno_RyanParker18:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker18_A",
+    awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;200",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker18_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker18_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker18_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker18_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker19",
+    awardstask = "Questyno_RyanParker19_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker19_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker19_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker19_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker19;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker19_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker19_Title",
+    unlocks = "clickevent;13761x2622x0:EventoRyanParker19;time:50:anim:loot;updateobjective:Questyno_RyanParker19:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker19_A",
+    awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;200",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker19_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker19_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker19_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker19_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker20",
+    awardstask = "Questyno_RyanParker20_A",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker20_Lore" },
+    objectives = { {
+        guid = "Questyno_RyanParker20_A",
+        text = "IGUI_SFQuest_Questyno_RyanParker20_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoRyanParker20;additem;DjackzVinyl;1",
+    } },
+    text = "IGUI_SFQuest_Questyno_RyanParker20_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker20_Title",
+    unlocks = "clickevent;12371x1984x1:EventoRyanParker20;time:50:anim:loot;updateobjective:Questyno_RyanParker20:1:Completed",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_RyanParker20_A",
+    awardsrep = "LaResistenza;1200",
+    awardsitem = "Money;200",
+    completesound = "levelup",
+    dailycode = "Questyno_RyanParker",
+    lore = { "IGUI_SFQuest_Questyno_RyanParker20_Lore" },
+    needsitem = "DjackzVinyl;1",
+    onobtained = "unlockworldevent;Questyno_RyanParker;SFQuest_Questyno_RyanParker20_Complete",
+    text = "IGUI_SFQuest_Questyno_RyanParker20_A_Text",
+    texture = "media/textures/Item_RyanParker.png",
+    title = "IGUI_SFQuest_Questyno_RyanParker20_Title",
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Jacob Turner
+
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner_Intro",
+
+    awardsrep = "JacobTurner;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_JacobTurner_Intro_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_JacobTurner_Intro_Title",
+});
+
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner1",
+
+    awardstask = "Questyno_JacobTurner1_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner1_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner1_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner1;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner1_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner1_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;3810x12530x0:EventoJacobTurner1;anim:loot:time:50;updateobjective:Questyno_JacobTurner1:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner1_A",
+
+    awardsrep = "LaResistenza;700", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner1_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner1_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner1_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner1_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner2",
+
+    awardstask = "Questyno_JacobTurner2_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner2_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner2_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner2;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner2_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner2_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;14048x10612x0:EventoJacobTurner2;anim:loot:time:50;updateobjective:Questyno_JacobTurner2:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner2_A",
+
+    awardsrep = "LaResistenza;500", -- REP REWARD
+    awardsitem = "Money;100", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner2_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner2_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner2_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner2_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner3",
+
+    awardstask = "Questyno_JacobTurner3_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner3_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner3_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner3;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner3_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner3_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13297x1480x0:EventoJacobTurner3;anim:loot:time:50;updateobjective:Questyno_JacobTurner3:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner3_A",
+
+    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsitem = "Money;180", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner3_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner3_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner3_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner3_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner4",
+
+    awardstask = "Questyno_JacobTurner4_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner4_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner4_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner4;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner4_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner4_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;3570x11270x0:EventoJacobTurner4;anim:loot:time:50;updateobjective:Questyno_JacobTurner4:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner4_A",
+
+    awardsrep = "LaResistenza;700", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner4_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner4_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner4_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner4_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner5",
+
+    awardstask = "Questyno_JacobTurner5_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner5_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner5_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner5;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner5_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner5_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;12984x1143x0:EventoJacobTurner5;anim:loot:time:50;updateobjective:Questyno_JacobTurner5:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner5_A",
+
+    awardsrep = "LaResistenza;1800", -- REP REWARD
+    awardsitem = "Money;200", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner5_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner5_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner5_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner5_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner6",
+
+    awardstask = "Questyno_JacobTurner6_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner6_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner6_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner6;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner6_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner6_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;12426x1990x0:EventoJacobTurner6;anim:loot:time:50;updateobjective:Questyno_JacobTurner6:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner6_A",
+
+    awardsrep = "LaResistenza;1600", -- REP REWARD
+    awardsitem = "Money;200", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner6_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner6_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner6_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner6_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner7",
+
+    awardstask = "Questyno_JacobTurner7_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner7_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner7_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner7_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner7;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner7_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner7_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;3164x11163x0:EventoJacobTurner7;anim:loot:time:50;updateobjective:Questyno_JacobTurner7:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner7_A",
+
+    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner7_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner7_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner7_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner7_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner8",
+
+    awardstask = "Questyno_JacobTurner8_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner8_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner8_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner8_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner8;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner8_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner8_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;3381x11426x0:EventoJacobTurner8;anim:loot:time:50;updateobjective:Questyno_JacobTurner8:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner8_A",
+
+    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner8_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner8_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner8_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner8_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner9",
+
+    awardstask = "Questyno_JacobTurner9_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner9_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner9_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner9_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner9;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner9_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner9_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;3730x11221x0:EventoJacobTurner9;anim:loot:time:50;updateobjective:Questyno_JacobTurner9:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner9_A",
+
+    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner9_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner9_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner9_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner9_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner10",
+
+    awardstask = "Questyno_JacobTurner10_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner10_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner10_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner10_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner10;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner10_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner10_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13789x1969x0:EventoJacobTurner10;anim:loot:time:50;updateobjective:Questyno_JacobTurner10:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner10_A",
+
+    awardsrep = "LaResistenza;1600", -- REP REWARD
+    awardsitem = "Money;200", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner10_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner10_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner10_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner10_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner11",
+
+    awardstask = "Questyno_JacobTurner11_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner11_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner11_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner11_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner11;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner11_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner11_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13209x3020x0:EventoJacobTurner11;anim:loot:time:50;updateobjective:Questyno_JacobTurner11:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner11_A",
+
+    awardsrep = "LaResistenza;1850", -- REP REWARD
+    awardsitem = "Money;160", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner11_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner11_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner11_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner11_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner12",
+
+    awardstask = "Questyno_JacobTurner12_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner12_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner12_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner12_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner12;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner12_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner12_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13527x2112x0:EventoJacobTurner12;anim:loot:time:50;updateobjective:Questyno_JacobTurner12:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner12_A",
+
+    awardsrep = "LaResistenza;1850", -- REP REWARD
+    awardsitem = "Money;160", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner12_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner12_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner12_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner12_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner13",
+
+    awardstask = "Questyno_JacobTurner13_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner13_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner13_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner13_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner13;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner13_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner13_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13722x10352x0:EventoJacobTurner13;anim:loot:time:50;updateobjective:Questyno_JacobTurner13:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner13_A",
+
+    awardsrep = "LaResistenza;850", -- REP REWARD
+    awardsitem = "Money;120", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner13_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner13_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner13_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner13_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner14",
+
+    awardstask = "Questyno_JacobTurner14_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner14_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner14_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner14_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner14;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner14_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner14_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13541x10910x0:EventoJacobTurner14;anim:loot:time:50;updateobjective:Questyno_JacobTurner14:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner14_A",
+
+    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner14_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner14_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner14_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner14_Title",
+});
+-- DAILY QUESTS (JacobTurner) 
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner15",
+
+    awardstask = "Questyno_JacobTurner15_A", -- TASK REWARD
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner15_Lore" },
+    objectives = { {
+        guid = "Questyno_JacobTurner15_A",
+        text = "IGUI_SFQuest_Questyno_JacobTurner15_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoJacobTurner15;additem;LabItems.InfectedBrain;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_JacobTurner15_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner15_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;13830x10792x0:EventoJacobTurner15;anim:loot:time:50;updateobjective:Questyno_JacobTurner15:1:Completed"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_JacobTurner15_A",
+
+    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsitem = "Money;150", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_JacobTurner",
+    lore = { "IGUI_SFQuest_Questyno_JacobTurner15_Lore" },
+    needsitem = "LabItems.InfectedBrain;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_JacobTurner;SFQuest_Questyno_JacobTurner15_Complete",
+    text = "IGUI_SFQuest_Questyno_JacobTurner15_A_Text",
+    texture = "media/textures/Item_JacobTurner.png",
+    title = "IGUI_SFQuest_Questyno_JacobTurner15_Title",
+});
+
+--[[
+            *** MalachiBlevins ***
+            Elenco:
+                intro. Parla con MalachiBlevins per sbloccare le daily.
+                1. Recupera Newspaper;100 (650rep)
+                2. Recupera ComicBook;80 (550rep)
+                3. Recupera Magazine;80 (500rep)
+]]--
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_MalachiBlevins_Intro",
+
+    awardsrep = "MalachiBlevins;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Text",
+    texture = "media/textures/Item_MalachiBlevins.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_MalachiBlevins;SFQuest_Questyno_MalachiBlevins_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_MalachiBlevins1",
+
+    awardsrep = "LaResistenza;650", -- REP REWARD
+    needsitem = "Newspaper;100", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_MalachiBlevins",
+    lore = { "IGUI_SFQuest_Questyno_MalachiBlevins1_Lore" },
+    text = "IGUI_SFQuest_Questyno_MalachiBlevins1_Text",
+    texture = "media/textures/Item_MalachiBlevins.png",
+    onobtained = "unlockworldevent;Questyno_MalachiBlevins;SFQuest_Questyno_MalachiBlevins1_Complete",
+    title = "IGUI_SFQuest_Questyno_MalachiBlevins1_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_MalachiBlevins2",
+
+    awardsrep = "LaResistenza;550", -- REP REWARD
+    needsitem = "ComicBook;80", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_MalachiBlevins",
+    lore = { "IGUI_SFQuest_Questyno_MalachiBlevins2_Lore" },
+    text = "IGUI_SFQuest_Questyno_MalachiBlevins2_Text",
+    texture = "media/textures/Item_MalachiBlevins.png",
+    onobtained = "unlockworldevent;Questyno_MalachiBlevins;SFQuest_Questyno_MalachiBlevins2_Complete",
+    title = "IGUI_SFQuest_Questyno_MalachiBlevins2_Title",
+    unlockedsound = "QuestUnlocked"
+})
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_MalachiBlevins3",
+
+    awardsrep = "LaResistenza;500", -- REP REWARD
+    needsitem = "Magazine;80", -- REQUIRE
+    completesound = "levelup",
+    dailycode = "Questyno_MalachiBlevins",
+    lore = { "IGUI_SFQuest_Questyno_MalachiBlevins3_Lore" },
+    text = "IGUI_SFQuest_Questyno_MalachiBlevins3_Text",
+    texture = "media/textures/Item_MalachiBlevins.png",
+    onobtained = "unlockworldevent;Questyno_MalachiBlevins;SFQuest_Questyno_MalachiBlevins3_Complete",
+    title = "IGUI_SFQuest_Questyno_MalachiBlevins3_Title",
+    unlockedsound = "QuestUnlocked"
+})

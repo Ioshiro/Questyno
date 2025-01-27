@@ -31,7 +31,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze1",
 
-    awardsrep = "LaResistenza;620",
+    awardsrep = "LaResistenza;650",
     awardsitem = "SWeapons.SalvagedPipeWrench;1;Money;150",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
@@ -47,12 +47,12 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TaylorBlaze2",
 
-    awardsrep = "LaResistenza;550",
+    awardsrep = "LaResistenza;650",
     awardsitem = "SWeapons.SalvagedBlade;1;Money;150",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze2_Lore" },
-    needsitem = "Bullets45Box;10",
+    needsitem = "Bullets45Box;5",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze2_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze2_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -68,7 +68,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze3_Lore" },
-    needsitem = "223Box;15",
+    needsitem = "223Box;8",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze3_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze3_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -84,7 +84,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze4_Lore" },
-    needsitem = "308Box;12",
+    needsitem = "308Box;6",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze4_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze4_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -100,7 +100,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze5_Lore" },
-    needsitem = "Bullets44Box;12",
+    needsitem = "Bullets44Box;6",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze5_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze5_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -116,7 +116,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze6_Lore" },
-    needsitem = "ShotgunShellsBox;10",
+    needsitem = "ShotgunShellsBox;5",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze6_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze6_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -132,7 +132,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
     lore = { "IGUI_SFQuest_Questyno_TaylorBlaze7_Lore" },
-    needsitem = "22Box;5",
+    needsitem = "22Box;3",
     onobtained = "unlockworldevent;Questyno_TaylorBlaze;SFQuest_Questyno_TaylorBlaze7_Complete",
     text = "IGUI_SFQuest_Questyno_TaylorBlaze7_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
@@ -205,10 +205,15 @@ table.insert(SFQuest_Database.QuestPool, {
         hidden = false,
         needsitem = "FiberglassStock;1",
         onobtained = "updateobjective;Questyno_TaylorBlaze8_A;6;Completed;removeitem;FiberglassStock;1",
+    },{
+        guid = "Questyno_TaylorBlaze8_I",
+        text = "IGUI_SFQuest_Questyno_TaylorBlaze8_I",
+        hidden = false,
     }},
     text = "IGUI_SFQuest_Questyno_TaylorBlaze8_A_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze8_Title",
+    unlocks = "actionevent;killzombies:1000:tierlevel:5;updateobjective:Questyno_TaylorBlaze8:7:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -218,7 +223,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "PipeBomb;1;Money;150",
     completesound = "levelup",
     dailycode = "Questyno_TaylorBlaze",
-    lore = { "IGUI_SFQuest_Questyno_TaylorBlaze8_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_TaylorBlaze8_Lore" }, 
     text = "IGUI_SFQuest_Questyno_TaylorBlaze8_B_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze8_Title",
@@ -1216,7 +1221,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller1_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller1_Lore" },
-    needsitem = "Tag#Golden;200",
+    needsitem = "Tag#Golden;120",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller1_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller1_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1228,7 +1233,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller1_A",
 
     awardsrep = "LaResistenza;500",
-    awardsitem = "MoneyToXP.Rotolo;3",
+    awardsitem = "MoneyToXP.Rotolo;2",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller1_A_Lore" },
@@ -1250,7 +1255,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller2_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller2_Lore" },
-    needsitem = "Tag#Golden;250",
+    needsitem = "Tag#Golden;150",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller2_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller2_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1262,7 +1267,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller2_A",
 
     awardsrep = "LaResistenza;500",
-    awardsitem = "MoneyToXP.Rotolo;4",
+    awardsitem = "MoneyToXP.Rotolo;3",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller2_A_Lore" },
@@ -1284,7 +1289,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller3_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller3_Lore" },
-    needsitem = "Tag#Golden;300",
+    needsitem = "Tag#Golden;200",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller3_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller3_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1296,7 +1301,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller3_A",
 
     awardsrep = "LaResistenza;500",
-    awardsitem = "MoneyToXP.Rotolo;5",
+    awardsitem = "MoneyToXP.Rotolo;3",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller3_A_Lore" },
@@ -1318,7 +1323,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller4_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller4_Lore" },
-    needsitem = "Tag#Golden;320",
+    needsitem = "Tag#Golden;220",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller4_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller4_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1330,7 +1335,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller4_A",
 
     awardsrep = "LaResistenza;500",
-    awardsitem = "MoneyToXP.Rotolo;6",
+    awardsitem = "MoneyToXP.Rotolo;4",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller4_A_Lore" },
@@ -1352,7 +1357,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller5_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller5_Lore" },
-    needsitem = "Tag#Golden;400",
+    needsitem = "Tag#Golden;250",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller5_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller5_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1364,7 +1369,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller5_A",
 
     awardsrep = "LaResistenza;500",
-    awardsitem = "MoneyToXP.Mazzetta;1",
+    awardsitem = "MoneyToXP.Rotolo;5",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller5_A_Lore" },
@@ -1386,7 +1391,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_LucasMiller6_A",
     dailycode = "Questyno_LucasMiller",
     lore = { "IGUI_SFQuest_Questyno_LucasMiller6_Lore" },
-    needsitem = "Tag#Golden;150",
+    needsitem = "Tag#Golden;100",
     onobtained = "unlockworldevent;Questyno_LucasMiller;SFQuest_Questyno_LucasMiller6_Complete",
     text = "IGUI_SFQuest_Questyno_LucasMiller6_Text",
     texture = "media/textures/Item_LucasMiller.png",
@@ -1397,7 +1402,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LucasMiller6_A",
 
-    awardsrep = "LaResistenza;400",
+    awardsrep = "LaResistenza;500",
     awardsitem = "MoneyToXP.Rotolo;1",
     completesound = "levelup",
     dailycode = "Questyno_LucasMiller",
@@ -1486,7 +1491,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_GabrielWalker1_A",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker1_Lore" },
-    needsitem = "Money;10",
+    needsitem = "Money;20",
     onobtained = "unlockworldevent;Questyno_GabrielWalker;SFQuest_Questyno_GabrielWalker1_Complete",
     text = "IGUI_SFQuest_Questyno_GabrielWalker1_Text",
     texture = "media/textures/Item_GabrielWalker.png",
@@ -1497,8 +1502,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker1_A",
 
-    awardsrep = "LaResistenza;25",
-    awardsitem = "MoneyToXP.Droga1;1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker1_A_Lore" },
@@ -1511,7 +1516,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker1_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker1_Title",
-    unlocks = "clickevent;8553x7690x0:EventoGabrielWalker1;time:50:anim:loot;updateobjective:Questyno_GabrielWalker1_A:1:Completed",
+    unlocks = "clickevent;8353x7515x0:EventoGabrielWalker1;time:50:anim:loot;updateobjective:Questyno_GabrielWalker1_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1531,8 +1536,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker2_A",
 
-    awardsrep = "LaResistenza;25",
-    awardsitem = "MoneyToXP.Droga1;1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker2_A_Lore" },
@@ -1565,8 +1570,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker3_A",
 
-    awardsrep = "LaResistenza;25",
-    awardsitem = "MoneyToXP.Droga1;1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker3_A_Lore" },
@@ -1579,7 +1584,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker3_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker3_Title",
-    unlocks = "clickevent;7686x11593x0:EventoGabrielWalker3;time:50:anim:loot;updateobjective:Questyno_GabrielWalker3_A:1:Completed",
+    unlocks = "clickevent;9196x9997x0:EventoGabrielWalker3;time:50:anim:loot;updateobjective:Questyno_GabrielWalker3_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1599,8 +1604,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker4_A",
 
-    awardsrep = "LaResistenza;25",
-    awardsitem = "MoneyToXP.Droga1;1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker4_A_Lore" },
@@ -1633,8 +1638,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker5_A",
 
-    awardsrep = "LaResistenza;25",
-    awardsitem = "MoneyToXP.Droga1;1",
+    awardsrep = "LaResistenza;50",
+    awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
     lore = { "IGUI_SFQuest_Questyno_GabrielWalker5_A_Lore" },
@@ -1647,7 +1652,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker5_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker5_Title",
-    unlocks = "clickevent;9196x9997x0:EventoGabrielWalker5;time:50:anim:loot;updateobjective:Questyno_GabrielWalker5_A:1:Completed",
+    unlocks = "clickevent;8835x9942x0:EventoGabrielWalker5;time:50:anim:loot;updateobjective:Questyno_GabrielWalker5_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1667,7 +1672,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker6_A",
 
-    awardsrep = "LaResistenza;25",
+    awardsrep = "LaResistenza;50",
     awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
@@ -1681,7 +1686,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker6_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker6_Title",
-    unlocks = "clickevent;7930x10645x2:EventoGabrielWalker6;time:50:anim:loot;updateobjective:Questyno_GabrielWalker6_A:1:Completed",
+    unlocks = "clickevent;8185x9628x0:EventoGabrielWalker6;time:50:anim:loot;updateobjective:Questyno_GabrielWalker6_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1701,7 +1706,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker7_A",
 
-    awardsrep = "LaResistenza;25",
+    awardsrep = "LaResistenza;50",
     awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
@@ -1715,7 +1720,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker7_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker7_Title",
-    unlocks = "clickevent;4720x6776x2:EventoGabrielWalker7;time:50:anim:loot;updateobjective:Questyno_GabrielWalker7_A:1:Completed",
+    unlocks = "clickevent;8034x9761x1:EventoGabrielWalker7;time:50:anim:loot;updateobjective:Questyno_GabrielWalker7_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1735,7 +1740,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker8_A",
 
-    awardsrep = "LaResistenza;25",
+    awardsrep = "LaResistenza;50",
     awardsitem = "MoneyToXP.Droga2;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
@@ -1749,7 +1754,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker8_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker8_Title",
-    unlocks = "clickevent;12184x12066x0:EventoGabrielWalker8;time:50:anim:loot;updateobjective:Questyno_GabrielWalker8_A:1:Completed",
+    unlocks = "clickevent;10751x9563x0:EventoGabrielWalker8;time:50:anim:loot;updateobjective:Questyno_GabrielWalker8_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1769,7 +1774,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GabrielWalker9_A",
 
-    awardsrep = "LaResistenza;25",
+    awardsrep = "LaResistenza;50",
     awardsitem = "MoneyToXP.Droga3;1",
     completesound = "levelup",
     dailycode = "Questyno_GabrielWalker",
@@ -1783,7 +1788,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_GabrielWalker9_A_Text",
     texture = "media/textures/Item_GabrielWalker.png",
     title = "IGUI_SFQuest_Questyno_GabrielWalker9_Title",
-    unlocks = "clickevent;7340x7239x0:EventoGabrielWalker9;time:50:anim:loot;updateobjective:Questyno_GabrielWalker9_A:1:Completed",
+    unlocks = "clickevent;7651x10397x0:EventoGabrielWalker9;time:50:anim:loot;updateobjective:Questyno_GabrielWalker9_A:1:Completed",
 });
 
   
@@ -1832,7 +1837,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_DylanHarris1_A",
 
     awardsrep = "LaResistenza;350",
-    awardsitem = "MoneyToXP.Droga3;1",
+    awardsitem = "MoneyToXP.Droga4;1",
     completesound = "levelup",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris1_A_Lore" },
@@ -1866,7 +1871,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_DylanHarris2_A",
 
     awardsrep = "LaResistenza;550",
-    awardsitem = "MoneyToXP.Droga3;1",
+    awardsitem = "MoneyToXP.Droga4;1",
     completesound = "levelup",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris2_A_Lore" },
@@ -1900,7 +1905,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_DylanHarris3_A",
 
     awardsrep = "LaResistenza;550",
-    awardsitem = "MoneyToXP.Droga3;1",
+    awardsitem = "MoneyToXP.Droga4;1",
     completesound = "levelup",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris3_A_Lore" },
@@ -2052,3 +2057,567 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "clickevent;14031x10945x0:EventoDylanHarris7;time:50:anim:loot;updateobjective:Questyno_DylanHarris7_A:1:Completed",
 });
 
+--[[
+            *** Dorian Prescott ***
+            Elenco:
+                intro. Incontra Dorian Prescott.
+				1. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (8353,7515,0) (150rep)
+				2. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (5288,9431,0) (150rep)
+				3. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (5546,10914,0) (150rep)
+				4. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (7682,10299,0) (150rep)
+				5. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (8208,11673,0) (150rep)
+				6. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (6823,11516,0) (150rep)
+				7. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (4677,10060,1) (150rep)
+				8. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (5046,5862,0) (200rep)
+				9. Recuperare 30$ -> Recuperare MoneyToXp.Droga3 parlando con (3474,7215,1) (150rep)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott_Intro",
+
+    awardsrep = "DorianPrescott;100",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_DorianPrescott_Intro_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott1",
+
+    awardstask = "Questyno_DorianPrescott1_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott1_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott1_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott1_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott1_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott1_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott1_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott1_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott1",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott1_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott1_Title",
+    unlocks = "clickevent;3716x7674x1:EventoDorianPrescott1;time:50:anim:loot;updateobjective:Questyno_DorianPrescott1_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott2",
+
+    awardstask = "Questyno_DorianPrescott2_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott2_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott2_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott2_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott2_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott2_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott2_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott2_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott2",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott2_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott2_Title",
+    unlocks = "clickevent;5288x9431x0:EventoDorianPrescott2;time:50:anim:loot;updateobjective:Questyno_DorianPrescott2_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott3",
+
+    awardstask = "Questyno_DorianPrescott3_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott3_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott3_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott3_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott3_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott3_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott3_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott3_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott3",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott3_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott3_Title",
+    unlocks = "clickevent;5546x10914x0:EventoDorianPrescott3;time:50:anim:loot;updateobjective:Questyno_DorianPrescott3_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott4",
+
+    awardstask = "Questyno_DorianPrescott4_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott4_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott4_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott4_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott4_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott4_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott4_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott4_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott4",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott4_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott4_Title",
+    unlocks = "clickevent;(7682x10299x0:EventoDorianPrescott4;time:50:anim:loot;updateobjective:Questyno_DorianPrescott4_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott5",
+
+    awardstask = "Questyno_DorianPrescott5_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott5_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott5_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott5_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott5_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott5_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott5_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott5_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott5",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott5_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott5_Title",
+    unlocks = "clickevent;8208x11673x0:EventoDorianPrescott5;time:50:anim:loot;updateobjective:Questyno_DorianPrescott5_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott6",
+
+    awardstask = "Questyno_DorianPrescott6_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott6_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott6_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott6_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott6_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott6_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott6_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott6_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott6",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott6_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott6_Title",
+    unlocks = "clickevent;6823x11516x0:EventoDorianPrescott6;time:50:anim:loot;updateobjective:Questyno_DorianPrescott6_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott7",
+
+    awardstask = "Questyno_DorianPrescott7_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott7_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott7_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott7_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott7_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott7_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott7_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott7_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott7_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott7",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott7_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott7_Title",
+    unlocks = "clickevent;4677x10060x1:EventoDorianPrescott7;time:50:anim:loot;updateobjective:Questyno_DorianPrescott7_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott8",
+
+    awardstask = "Questyno_DorianPrescott8_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott8_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott8_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott8_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott8_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott8_A",
+
+    awardsrep = "LaResistenza;200",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott8_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott8_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott8_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott8",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott8_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott8_Title",
+    unlocks = "clickevent;5046x5862x0:EventoDorianPrescott8;time:50:anim:loot;updateobjective:Questyno_DorianPrescott8_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott9",
+
+    awardstask = "Questyno_DorianPrescott9_A",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott9_Lore" },
+    needsitem = "Money;30",
+    onobtained = "unlockworldevent;Questyno_DorianPrescott;SFQuest_Questyno_DorianPrescott9_Complete",
+    text = "IGUI_SFQuest_Questyno_DorianPrescott9_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott9_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_DorianPrescott9_A",
+
+    awardsrep = "LaResistenza;150",
+    awardsitem = "MoneyToXP.Droga3;1",
+    completesound = "levelup",
+    dailycode = "Questyno_DorianPrescott",
+    lore = { "IGUI_SFQuest_Questyno_DorianPrescott9_A_Lore" },
+    objectives = {{
+        guid = "Questyno_DorianPrescott9_A",
+        text = "IGUI_SFQuest_Questyno_DorianPrescott9_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoDorianPrescott9",
+    }},
+    text = "IGUI_SFQuest_Questyno_DorianPrescott9_A_Text",
+    texture = "media/textures/Item_DorianPrescott.png",
+    title = "IGUI_SFQuest_Questyno_DorianPrescott9_Title",
+    unlocks = "clickevent;3474x7215x1:EventoDorianPrescott9;time:50:anim:loot;updateobjective:Questyno_DorianPrescott9_A:1:Completed",
+});
+
+--[[
+            *** Tessa Anderson ***
+            Elenco:
+                intro. Incontra Tessa Anderson.
+				1. Recuperare 15kg di oro, Recuperare MoneyToXP.Rotolo;3 parlando con (7665,7559,0) (1500rep)
+				2. Recuperare 20kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (7370,7254,0) (2000rep)
+				3. Recuperare 30kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (7032,7435,1) (1800rep)
+				4. Recuperare 25kg di oro, Recuperare MoneyToXP.Rotolo;6 parlando con (7365,6694,0) (1500rep)
+				5. Recuperare 22kg di oro, Recuperare MoneyToXP.Rotolo;4 parlando con (6781,7359,0) (1800rep)
+				6. Recuperare 40kg di oro, Recuperare MoneyToXP.Rotolo;5 parlando con (7257,6860,1) (1500rep)
+]]
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson_Intro",
+
+    awardsrep = "TessaAnderson;100",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson_Intro_Lore" },
+    text = "IGUI_SFQuest_Questyno_TessaAnderson_Intro_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson_Intro_Title",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson1",
+
+    awardstask = "Questyno_TessaAnderson1_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson1_Lore" },
+    needsitem = "Tag#Golden;150",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson1_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson1_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson1_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson1_A",
+
+    awardsrep = "LaResistenza;1500",
+    awardsitem = "MoneyToXP.Rotolo;3",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson1_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson1_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson1_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson1",
+    }},        
+    text = "IGUI_SFQuest_Questyno_TessaAnderson1_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson1_Title",
+    unlocks = "clickevent;7665x7559x0:EventoTessaAnderson1;time:50:anim:loot;updateobjective:Questyno_TessaAnderson1_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson2",
+
+    awardstask = "Questyno_TessaAnderson2_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson2_Lore" },
+    needsitem = "Tag#Golden;200",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson2_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson2_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson2_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson2_A",
+
+    awardsrep = "LaResistenza;2000",
+    awardsitem = "MoneyToXP.Rotolo;4",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson2_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson2_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson2_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson2",
+    }},
+    text = "IGUI_SFQuest_Questyno_TessaAnderson2_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson2_Title",
+    unlocks = "clickevent;7370x7254x0:EventoTessaAnderson2;time:50:anim:loot;updateobjective:Questyno_TessaAnderson2_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson3",
+
+    awardstask = "Questyno_TessaAnderson3_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson3_Lore" },
+    needsitem = "Tag#Golden;300",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson3_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson3_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson3_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson3_A",
+
+    awardsrep = "LaResistenza;1800",
+    awardsitem = "MoneyToXP.Rotolo;5",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson3_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson3_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson3_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson3",
+    }},
+    text = "IGUI_SFQuest_Questyno_TessaAnderson3_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson3_Title",
+    unlocks = "clickevent;7032x7435x1:EventoTessaAnderson3;time:50:anim:loot;updateobjective:Questyno_TessaAnderson3_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson4",
+
+    awardstask = "Questyno_TessaAnderson4_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson4_Lore" },
+    needsitem = "Tag#Golden;250",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson4_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson4_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson4_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson4_A",
+
+    awardsrep = "LaResistenza;1500",
+    awardsitem = "MoneyToXP.Rotolo;6",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson4_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson4_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson4_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson4",
+    }},
+    text = "IGUI_SFQuest_Questyno_TessaAnderson4_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson4_Title",
+    unlocks = "clickevent;7365x6694x0:EventoTessaAnderson4;time:50:anim:loot;updateobjective:Questyno_TessaAnderson4_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson5",
+
+    awardstask = "Questyno_TessaAnderson5_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson5_Lore" },
+    needsitem = "Tag#Golden;220",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson5_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson5_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson5_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson5_A",
+
+    awardsrep = "LaResistenza;1800",
+    awardsitem = "MoneyToXP.Rotolo;4",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson5_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson5_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson5",
+    }},
+    text = "IGUI_SFQuest_Questyno_TessaAnderson5_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson5_Title",
+    unlocks = "clickevent;6781x7359x0:EventoTessaAnderson5;time:50:anim:loot;updateobjective:Questyno_TessaAnderson5_A:1:Completed",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson6",
+
+    awardstask = "Questyno_TessaAnderson6_A",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson6_Lore" },
+    needsitem = "Tag#Golden;400",
+    onobtained = "unlockworldevent;Questyno_TessaAnderson;SFQuest_Questyno_TessaAnderson6_Complete",
+    text = "IGUI_SFQuest_Questyno_TessaAnderson6_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson6_Title",
+    unlockedsound = "QuestUnlocked",
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_TessaAnderson6_A",
+
+    awardsrep = "LaResistenza;1500",
+    awardsitem = "MoneyToXP.Rotolo;5",
+    completesound = "levelup",
+    dailycode = "Questyno_TessaAnderson",
+    lore = { "IGUI_SFQuest_Questyno_TessaAnderson6_A_Lore" },
+    objectives = {{
+        guid = "Questyno_TessaAnderson6_A",
+        text = "IGUI_SFQuest_Questyno_TessaAnderson6_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoTessaAnderson6",
+    }},
+    text = "IGUI_SFQuest_Questyno_TessaAnderson6_A_Text",
+    texture = "media/textures/Item_TessaAnderson.png",
+    title = "IGUI_SFQuest_Questyno_TessaAnderson6_Title",
+    unlocks = "clickevent;7257x6860x1:EventoTessaAnderson6;time:50:anim:loot;updateobjective:Questyno_TessaAnderson6_A:1:Completed",
+});

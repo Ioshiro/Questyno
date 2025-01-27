@@ -729,56 +729,45 @@
         <m_MaleOutfits> 
         <m_Name>SamFisher</m_Name>
         <m_Guid>ec66fc17-4bef-4e64-ad90-7abde37d01ed</m_Guid>
-                <m_Pants>false</m_Pants>
-                <m_items> <!-- Baseball Cap -->
-                        <itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+                <m_Top>false</m_Top>
+                <m_items>
+                        <probability>0.5</probability>
+                        <itemGUID>c9381d1c-2d50-4bd0-9d38-076314141a34</itemGUID>
                         <subItems>
-                                <itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
-                        </subItems>
-                        <subItems>
-                                <itemGUID>7dead2df-7a17-4c12-a487-40f613d26c69</itemGUID>
+                                <itemGUID>eaa559e6-7b6c-4cf1-bf95-7e910a9b1eb8</itemGUID>
                         </subItems>
                 </m_items>
-                <m_items> <!-- Jacket-->
+                <m_items>
+                        <itemGUID>b9f716f6-4037-4779-ad4c-238ce4fe4a45</itemGUID>
+                        <subItems>
+                                <itemGUID>cba6763a-6897-4631-8748-0c15f5450c93</itemGUID>
+                        </subItems>
+                        <subItems>
+                                <itemGUID>c003fd5d-5872-42a0-bd12-8612d166441e</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items>
+                        <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+                </m_items>
+                <m_items>
+                        <probability>0.5</probability>
+                        <itemGUID>061cfa05-c6e2-4dcd-8737-ab7af41e0750</itemGUID>
+                        <subItems>
+                                <itemGUID>7a946b38-8764-419f-a3fc-fd9c4c03cc23</itemGUID>
+                        </subItems>
+                </m_items>
+                <m_items>
                         <probability>0.9</probability>
-                        <itemGUID>9e094ca7-29b4-4c7d-ae70-597fa4c8a330</itemGUID>
-                        <subItems>
-                                <itemGUID>d9d60d23-421e-4a97-8e74-9e7b3c35d620</itemGUID>
-                        </subItems>
-                </m_items>
-                <m_items> <!-- Shoes-->
-                        <itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-                </m_items>
-                <m_items> <!-- Gloves-->
-                        <probability>0.3</probability>
-                        <itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID>
-                        <subItems>
-                                <itemGUID>cf0b766a-c273-49b0-bee4-5a0bb6496491</itemGUID>
-                        </subItems>
-                </m_items>
-                <m_items> <!-- Pants-->
-                        <itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
-                </m_items>
-                <m_items> <!-- Shades -->
-                        <itemGUID>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</itemGUID>
-                        <subItems>
-                                <itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
-                        </subItems>
-                </m_items>
-                <m_items> <!-- T-Shirt-->
                         <itemGUID>19af00e4-ed4d-49bc-a893-a4a3376fe6da</itemGUID>
-                        <subItems>
-                                <itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
-                        </subItems>
                 </m_items>
-                <m_items> <!-- Bandana Neck -->
+                <m_items>
                         <probability>0.3</probability>
-                        <itemGUID>e9e67eaf-4871-4d1d-887e-01f2ef884dee</itemGUID>
+                        <itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
                         <subItems>
-                                <itemGUID>7ac27303-88f1-417d-9914-dbc66cbdc84c</itemGUID>
+                                <itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
                         </subItems>
                 </m_items>
-                <m_items> <!-- Watches -->
+                <m_items>
                         <probability>0.3</probability>
                         <itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
                         <subItems>
@@ -790,7 +779,7 @@
                         <subItems>
                                 <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
                         </subItems>
-                </m_items>               
+                </m_items>
         </m_MaleOutfits>
 
 <!-- ........................................ CATENE ..........................................-->
