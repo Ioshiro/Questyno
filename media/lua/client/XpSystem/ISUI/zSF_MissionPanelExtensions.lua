@@ -86,9 +86,13 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                 eventData.kills = (eventData.kills or 0) + 1
                 if eventData.kills >= eventData.goal then
                     local commandTable = luautils.split(eventData.commands, ";")
+                    local questName = commandTable[3]:gsub("^SFQuest_", ""):gsub("_Complete$", "")
+                    questName = getText("IGUI_SFQuest_"..questName.."_Text")
+                    player:Say(getText("IGUI_SFQuest_Questyno_ZombieCompleted", eventData.goal, questName), 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
                     SF_MissionPanel.instance:readCommandTable(commandTable)
                     table.remove(actionevent, i)
                 end
+                SF_MissionPanel.instance.needsBackup = true
             end
         end
     end
@@ -136,13 +140,26 @@ function SF_MissionPanel.Commands.actionevent(condition, commandslist)
     end
 end
 
-function SF_MissionPanel.Commands.removeitem(item, quantity)
-    local player = getPlayer();
-    SF_MissionPanel.instance:takeNeededItem(item..";"..quantity) -- vabbe oh dai
-    -- bozza di idea per far comparire messaggi in generale, da capire quali però. esempio al prelevamento dell'item
-    -- getPlayer():setHaloNote(quantity .. " X " .. item .. " e' stato consegnato", 0, 255, 0, 500)
-    local message = "QUEST: " .. quantity .. " x " .. item .. " e' stato consegnato"
-    getPlayer():Say(message)
+--- Removes a specified quantity of an item from the player's inventory for a given quest.
+-- If the item is successfully removed, a message is displayed to the player indicating the item and quantity removed.
+-- If the item removal fails, a failure message is displayed to the player.
+-- @param item The item to be removed.
+-- @param quantity The quantity of the item to be removed.
+-- @param questName The name of the quest associated with the item removal.
+-- @message IGUI_SFQuest_Questyno_ItemRemoved "Removed {quantity} {itemName} for quest {questName}."
+-- @message IGUI_SFQuest_Questyno_ItemRemoveFailed "Failed to remove item for quest {questName}."
+function SF_MissionPanel.Commands.removeitem(item, quantity, questName)
+    local success = SF_MissionPanel.instance:takeNeededItem(item .. ";" .. quantity)
+
+    if success then
+        local newString = item:gsub("Tag.-#", ""):gsub("Predicate.-#", "")
+        local itemName =  getItemText(newString)
+        local message = getText("IGUI_SFQuest_Questyno_ItemRemoved", quantity, itemName, getText(questName))
+        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+    else
+        local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(questName))
+        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+    end
 end
 
 function SF_MissionPanel.Commands.addserverpoints(points)
@@ -447,7 +464,7 @@ end
 
 -- override SF_MissionPanel:readCommandTable(commandtable) to add removeitem
 local base_SF_MissionPanel_readCommandTable = SF_MissionPanel.readCommandTable;
-function SF_MissionPanel:readCommandTable(commandTable)
+function SF_MissionPanel:readCommandTable(commandTable, questName)
     if false then
         base_SF_MissionPanel_readCommandTable(self, commandTable);
     end
@@ -468,7 +485,7 @@ function SF_MissionPanel:readCommandTable(commandTable)
             SF_MissionPanel.instance:runCommand("addserverpoints", tonumber(commandTable[count + 1]));
             count = count + 2;
         elseif commandTable[count] == "removeitem" then
-            SF_MissionPanel.instance:runCommand("removeitem", commandTable[count + 1], tonumber(commandTable[count + 2]));
+            SF_MissionPanel.instance:runCommand("removeitem", commandTable[count + 1], tonumber(commandTable[count + 2]), questName);
             count = count + 3;
         elseif commandTable[count] == "addreputation" then
             SF_MissionPanel.instance:runCommand("addreputation", commandTable[count + 1],
@@ -573,15 +590,13 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                             else
                                 task.status = status;
                                 self.needsUpdate = true
-                                local needsTable = luautils.split(task.needsitem, ";");
                                 -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto", 0, 255, 0, 250)
-                                local message = "QUEST: " .. needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto"
-                                getPlayer():Say(message, 0.000, 0.500, 0.500, UIFont.Small, 0, "default")
-                                -- getPlayer():Say(message)
-                                
+                                local questName = getText(task.text)
+                                local message = getText("IGUI_SFQuest_Questyno_Completed", questName)
+                                self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
                                 if status == "Obtained" and task.onobtained then
                                     local commandTable = luautils.split(task.onobtained, ";");
-                                    SF_MissionPanel.instance:readCommandTable(commandTable);
+                                    SF_MissionPanel.instance:readCommandTable(commandTable, task.text); -- passiamo anche il text/nome della quest per il messaggio di completamento/ottenimento e viceversa
                                 end
                             end
                             if status == "Completed" then
@@ -608,11 +623,10 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                                                         end
                                                         self.player:getModData().missionProgress.WorldEvent[k] = nil
                                                         task.status = nil
-                                                        local needsTable = luautils.split(task.needsitem, ";");
+                                                        local questName = getText(task.text)
                                                         -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido", 255, 0, 0, 250)
-                                                        local message = "QUEST: " .. needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido"
-                                                        -- getPlayer():Say(message)
-                                                        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+                                                        local message = getText("IGUI_SFQuest_Questyno_NotCompleted", questName)
+                                                        self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
                                                         self.needsBackup = true
                                                         self.needsUpdate = true
                                                         break;
@@ -901,7 +915,6 @@ function SF_MissionPanel.EveryTenMinutesExpand()
     print("zSOUL QUEST SYSTEM - EveryTenMinutesExpand overwrite success");
     local player = getPlayer();
 	if not player:getModData().missionProgress then return end
-	-- si potrebbe rimuovere killzombies ed inserirlo in un evento "OnCharacterDeath" o qualche evento che viene triggherato quando si uccide uno zombie?
 	if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
 		local actionevent = player:getModData().missionProgress.ActionEvent;
         local isKillZombie = false -- check if killzombies actionevent exists, at least one (for the events)
@@ -1116,6 +1129,37 @@ function SF_MissionPanel:takeNeededItem(neededitem)
     return nil
 end
 
+function SF_MissionPanel:updateObjective(guid, index, status)
+	local player = self.player or getPlayer();
+	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
+		local currentTasks = player:getModData().missionProgress.Category2
+		local done = false
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i]
+				if task.guid and task.guid == guid then
+					if task.objectives and  task.objectives[index] then
+						task.objectives[index].status = status;
+						if status == "Failed" and task.objectives[index].onfailed then
+							local commandTable = luautils.split(task.objectives[index].onfailed, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable);
+						elseif status == "Completed" and task.objectives[index].oncompleted then	
+							local commandTable = luautils.split(task.objectives[index].oncompleted, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable);
+						elseif status == "Obtained" and task.objectives[index].onobtained then	
+							local commandTable = luautils.split(task.objectives[index].onobtained, ";");
+							SF_MissionPanel.instance:readCommandTable(commandTable, task.text);
+						end
+						SF_MissionPanel:checkTaskForCompletion(guid)
+						self.needsUpdate = true;
+						self.needsBackup = true;
+					end
+				end
+			end
+		end
+	end
+end
+
 
 function SF_MissionPanel:forceBackupData()
 	local player = self.player or getPlayer();
@@ -1285,15 +1329,15 @@ function SF_MissionPanel:completeQuest(player, guid)
 						self.richText:setVisible(false);
 					end
                     -- che sia questo a far sparire le action event dei killzombies? ma come?
-                    if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
-                        for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
-                            local commands = luautils.split(v.commands, ";");
-                            if luautils.stringStarts(task.guid, commands[2]) then
-                                table.remove(player:getModData().missionProgress.ActionEvent, i);
-                                break
-                            end
-                        end
-                    end
+                    -- if task.unlocks and luautils.stringStarts(task.unlocks, "actionevent") then
+                    --     for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
+                    --         local commands = luautils.split(v.commands, ";");
+                    --         if luautils.stringStarts(task.guid, commands[2]) then
+                    --             table.remove(player:getModData().missionProgress.ActionEvent, i);
+                    --             break
+                    --         end
+                    --     end
+                    -- end
                     -- only unlock eventually awarded quests after every check of the current quest completed
                     if task.awardstask then
 						SF_MissionPanel:unlockQuest(task.awardstask);

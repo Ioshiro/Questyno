@@ -13,6 +13,14 @@ IGUI_IT = {
     IGUI_PlayerText_Callout3New = "VERGONYA!",
     IGUI_PlayerText_Callout3Sneak = "hey",
 
+    IGUI_SFQuest_Questyno_NotCompleted = "QUEST [ %1 ] non completata, oggetto non piu' valido!",
+    IGUI_SFQuest_Questyno_Completed = "QUEST [ %1 ] completata!",
+    IGUI_SFQuest_Questyno_ItemRemoved "Rimosso %1 %2 per la missione %3.",
+    IGUI_SFQuest_Questyno_ItemRemoveFailed "Impossibile rimuovere l'oggetto per la missione %1.",
+    IGUI_SFQuest_Questyno_ZombieCompleted = "Hai ucciso %1 zombie per la missione %2.",
+
+
+
     IGUI_SFQuest_Questyno_Test1_Text = "Quel mona vuole la pizza",
     IGUI_SFQuest_Questyno_Test1_Title = "Giorno della Pizza",
     IGUI_SFQuest_Questyno_Test1_Lore = "Ho parlato con pino e mi ha detto di cercare della pizza. Sicuramente se vado piu' in la e ammazzo due zombie trovero' la soluzione.",
