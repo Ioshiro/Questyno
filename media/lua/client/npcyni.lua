@@ -876,7 +876,7 @@ SFQuest_Database.MannequinPool["7659x7316x1"] = {
 }
 
 -- Ronald Perez 8353,8579,1 E
-
+--[[
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Questyno_RonaldPerez",
     square = "8353x8579x1",
@@ -893,7 +893,7 @@ SFQuest_Database.MannequinPool["8353x8579x1"] = {
     hair = "Bald",
     outfit = "RonaldPerez",
 }
-
+]]--
 -- Garrett King 10399,8316,1 E
 
 table.insert(SFQuest_Database.WorldPool, {

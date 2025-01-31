@@ -993,7 +993,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	condition = "notmaxedwithcode;Questyno_DylanHarris;1;hasfactiontier;DylanHarris;3",
 	commands = "randomcodedworldfrompool;Questyno_DylanHarris;Questyno;DylanHarris",
 	days = 0,
-	frequency = 30
+	frequency = 365
 });
 
 --[[
@@ -1036,13 +1036,14 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 60
 });
+--[[
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_RonaldPerez",
 	condition = "notmaxedwithcode;Questyno_RonaldPerez;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_RonaldPerez;Questyno;RonaldPerez",
 	days = 0,
 	frequency = 60
-});
+});]]
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GarrettKing",
 	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;LaResistenza;6",
@@ -1235,7 +1236,7 @@ table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JuanBaker" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_FuriMishura" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SandraHarris" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EricAdams" })
-table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
+--table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RonaldPerez" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GarrettKing" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MarvinPerry" })
 table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_KarenTaylor" })

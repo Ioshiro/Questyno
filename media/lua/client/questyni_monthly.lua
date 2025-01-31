@@ -791,7 +791,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell3_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell3:2:Completed;clickevent;4758x10173x0:EventoMayaBlackwell3;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell3:1:Completed",
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell3:2:Completed;clickevent;3832x11659x0:EventoMayaBlackwell3;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell3:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -905,7 +905,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell6_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell6:2:Completed;clickevent;6619x10438x0:EventoMayaBlackwell6;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell6:1:Completed",
+    unlocks = "actionevent;killzombies:200:tierlevel:4;updateobjective:Questyno_MayaBlackwell6:2:Completed;clickevent;6619x10438x0:EventoMayaBlackwell6;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell6:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -943,7 +943,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell7_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell7:2:Completed;clickevent;7633x11463x0:EventoMayaBlackwell7;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell7:1:Completed",
+    unlocks = "actionevent;killzombies:200:tierlevel:5;updateobjective:Questyno_MayaBlackwell7:2:Completed;clickevent;4908x5728x0:EventoMayaBlackwell7;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell7:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -981,7 +981,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell8_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell8:2:Completed;clickevent;7840x10719x0:EventoMayaBlackwell8;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell8:1:Completed",
+    unlocks = "actionevent;killzombies:200:tierlevel:3;updateobjective:Questyno_MayaBlackwell8:2:Completed;clickevent;7840x10719x0:EventoMayaBlackwell8;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell8:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1019,7 +1019,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell9_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell9:2:Completed;clickevent;7162x7487x0:EventoMayaBlackwell9;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell9:1:Completed",
+    unlocks = "actionevent;killzombies:200:tierlevel:4;updateobjective:Questyno_MayaBlackwell9:2:Completed;clickevent;7162x7487x0:EventoMayaBlackwell9;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell9:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1057,7 +1057,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell10_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:125;updateobjective:Questyno_MayaBlackwell10:2:Completed;clickevent;3983x9166x0:EventoMayaBlackwell10;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell10:1:Completed",
+    unlocks = "actionevent;killzombies:125:tierlevel:5;updateobjective:Questyno_MayaBlackwell10:2:Completed;clickevent;5433x10210x0:EventoMayaBlackwell10;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell10:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1095,7 +1095,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell11_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:125;updateobjective:Questyno_MayaBlackwell11:2:Completed;clickevent;7289x7573x0:EventoMayaBlackwell11;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell11:1:Completed",
+    unlocks = "actionevent;killzombies:125:tierlevel:4;updateobjective:Questyno_MayaBlackwell11:2:Completed;clickevent;7289x7573x0:EventoMayaBlackwell11;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell11:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1171,7 +1171,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell13_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:140;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;4625x6732x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
+    unlocks = "actionevent;killzombies:150:tierlevel:3;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;5992x11924x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1825,7 +1825,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris1_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris1_Lore" },
-    needsitem = "Money;30",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris1_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris1_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -1850,7 +1850,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris1_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris1_Title",
-    unlocks = "clickevent;13953x10622x0:EventoDylanHarris1;time:50:anim:loot;updateobjective:Questyno_DylanHarris1_A:1:Completed",
+    unlocks = "clickevent;13591x10970x0:EventoDylanHarris1;time:50:anim:loot;updateobjective:Questyno_DylanHarris1_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1859,7 +1859,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris2_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris2_Lore" },
-    needsitem = "Money;30",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris2_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris2_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -1884,7 +1884,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris2_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris2_Title",
-    unlocks = "clickevent;13901x11005x0:EventoDylanHarris2;time:50:anim:loot;updateobjective:Questyno_DylanHarris2_A:1:Completed",
+    unlocks = "clickevent;12740x11934x0:EventoDylanHarris2;time:50:anim:loot;updateobjective:Questyno_DylanHarris2_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1893,7 +1893,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris3_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris3_Lore" },
-    needsitem = "Money;30",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris3_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris3_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -1918,7 +1918,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris3_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris3_Title",
-    unlocks = "clickevent;13123x10933x0:EventoDylanHarris3;time:50:anim:loot;updateobjective:Questyno_DylanHarris3_A:1:Completed",
+    unlocks = "clickevent;3431x11262x1:EventoDylanHarris3;time:50:anim:loot;updateobjective:Questyno_DylanHarris3_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1927,7 +1927,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris4_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris4_Lore" },
-    needsitem = "Money;50",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris4_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris4_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -1952,7 +1952,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris4_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris4_Title",
-    unlocks = "clickevent;13989x11246x1:EventoDylanHarris4;time:50:anim:loot;updateobjective:Questyno_DylanHarris4_A:1:Completed",
+    unlocks = "clickevent;7209x11221x1:EventoDylanHarris4;time:50:anim:loot;updateobjective:Questyno_DylanHarris4_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1961,7 +1961,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris5_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris5_Lore" },
-    needsitem = "Money;50",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris5_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris5_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -1986,7 +1986,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris5_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris5_Title",
-    unlocks = "clickevent;13851x11298x0:EventoDylanHarris5;time:50:anim:loot;updateobjective:Questyno_DylanHarris5_A:1:Completed",
+    unlocks = "clickevent;4109x11776x1:EventoDylanHarris5;time:50:anim:loot;updateobjective:Questyno_DylanHarris5_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -1995,7 +1995,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris6_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris6_Lore" },
-    needsitem = "Money;50",
+    needsitem = "Money;100",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris6_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris6_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -2020,7 +2020,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris6_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris6_Title",
-    unlocks = "clickevent;13778x11053x0:EventoDylanHarris6;time:50:anim:loot;updateobjective:Questyno_DylanHarris6_A:1:Completed",
+    unlocks = "clickevent;7417x6657x0:EventoDylanHarris6;time:50:anim:loot;updateobjective:Questyno_DylanHarris6_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2029,7 +2029,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardstask = "Questyno_DylanHarris7_A",
     dailycode = "Questyno_DylanHarris",
     lore = { "IGUI_SFQuest_Questyno_DylanHarris7_Lore" },
-    needsitem = "Money;100",
+    needsitem = "Money;200",
     onobtained = "unlockworldevent;Questyno_DylanHarris;SFQuest_Questyno_DylanHarris7_Complete",
     text = "IGUI_SFQuest_Questyno_DylanHarris7_Text",
     texture = "media/textures/Item_DylanHarris.png",
@@ -2054,7 +2054,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DylanHarris7_A_Text",
     texture = "media/textures/Item_DylanHarris.png",
     title = "IGUI_SFQuest_Questyno_DylanHarris7_Title",
-    unlocks = "clickevent;14031x10945x0:EventoDylanHarris7;time:50:anim:loot;updateobjective:Questyno_DylanHarris7_A:1:Completed",
+    unlocks = "clickevent;13080x1248x0:EventoDylanHarris7;time:50:anim:loot;updateobjective:Questyno_DylanHarris7_A:1:Completed",
 });
 
 --[[

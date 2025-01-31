@@ -39,18 +39,18 @@ LaResistenzaTiersTemplate = {
         unlocks = "addreputation;RosaChina;100;addreputation;EmilyTerry;100;addreputation;MikePozzo;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier5",
-        minrep = 47000,
+        minrep = 27000,
         barcolor = "darkgreen",
         unlocks = "addreputation;AngelicaStella;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;XuMishura;100;addreputation;DavidTurner;100;addreputation;RichardBrown;100;addreputation;PaigeTurner;100;addreputation;TomasJoger;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier6",
-        minrep = 200000,
+        minrep = 170000,
         barcolor = "lightred",
         unlocks = "addreputation;BrianWhite;100;addreputation;LincolnReed;100;addreputation;SergenteGrif;100;addreputation;BobRepair;100;addreputation;SamuelYoung;100;addreputation;TonyLupo;100;addreputation;RafaelPrezioso;100;addreputation;JeffreyLewis;100;addreputation;ChristopherDavis;100;addreputation;PamelaPerez;100;addreputation;SamFisher;100;addreputation;RobertWilson;100;addreputation;GabrielWalker;100;addreputation;AnselMerrick;100;addreputation;DorianPrescott;100;addreputation;RyanParker;100;addreputation;JacobTurner;100;addreputation;MalachiBlevins;100"
         -- DA CREARE: ;addreputation;AaronFletcher;100
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier7",
-        minrep = 250000,
+        minrep = 300000,
         barcolor = "orange",
         unlocks = "addreputation;EthanSteele;100;addreputation;JohnBaker;100;addreputation;MarcusKane;100;addreputation;TaylorBlaze;100;addreputation;MayaBlackwell;100;addreputation;AlexMercer;100;addreputation;GraceChambers;100;addreputation;HarperWells;100;addreputation;AndrewTurner;100;addreputation;LucasMiller;100;addreputation;DylanHarris;100;addreputation;GraceChambers;100;addreputation;KylePorter;100;addreputation;HuxleyThorne;100;addreputation;TessaAnderson;100;addreputation;VivianParker;100"
     }, {

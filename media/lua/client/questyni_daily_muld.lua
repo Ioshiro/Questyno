@@ -173,7 +173,7 @@ table.insert(SFQuest_Database.QuestPool, secretQuest4);
 local secretQuest4A = {
     guid = "Questyno_VictoriaSecret4_A",
 
-    awardsrep = "LaResistenza;800", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret4_Lore" },
@@ -713,7 +713,7 @@ table.insert(SFQuest_Database.QuestPool, secretQuest19);
 local secretQuest19A = {
     guid = "Questyno_VictoriaSecret19_A",
 
-    awardsrep = "LaResistenza;1000", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     awardsitem = "Money;20", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",

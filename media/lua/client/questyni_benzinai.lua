@@ -324,7 +324,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_CharlesDavis_B",
         text = "IGUI_SFQuest_Questyno_CharlesDavis_B",
         hidden = false,
-        needsitem = "Money;20",
+        needsitem = "Money;30",
         onobtained = "updateobjective;Questyno_CharlesDavis;2;Completed;removeitem;Money;20",
     } },
     text = "IGUI_SFQuest_Questyno_CharlesDavis_Text",
