@@ -62,7 +62,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
     if not instanceof(attackedBy, "IsoPlayer") then return end
 
     -- Ottieni tierLevel e zoneName attuali
-    local currentTierLevel, currentZoneName = checkZone(player)
+    local currentTierLevel, currentZoneName = checkZone()
 
     local actionevent = player:getModData().missionProgress.ActionEvent;
     for i = #actionevent, 1, -1 do
