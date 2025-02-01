@@ -11,10 +11,10 @@ function Commands.saveData(player, args)
         print("[Commands.saveData] zSOUL QUEST SYSTEM - No quests completed, skipping save for ID " .. id)
         return 
     end
-    if #args.Factions > 42 then 
-        print("[Commands.saveData] zSOUL QUEST SYSTEM - Too many factions, skipping save for ID " .. id)
-        return 
-    end
+    --if #args.Factions > 42 then 
+    --    print("[Commands.saveData] zSOUL QUEST SYSTEM - Too many factions, skipping save for ID " .. id)
+    --    return 
+    --end
 
     local filepathJson = "/Backup/SFQuest/SFQuest_" .. id .. ".json"
 

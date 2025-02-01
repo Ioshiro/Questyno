@@ -52,16 +52,17 @@ LaResistenzaTiersTemplate = {
         tiername = "IGUI_Factions_Resistenza_Tier7",
         minrep = 300000,
         barcolor = "orange",
-        unlocks = "addreputation;EthanSteele;100;addreputation;JohnBaker;100;addreputation;MarcusKane;100;addreputation;TaylorBlaze;100;addreputation;MayaBlackwell;100;addreputation;AlexMercer;100;addreputation;GraceChambers;100;addreputation;HarperWells;100;addreputation;AndrewTurner;100;addreputation;LucasMiller;100;addreputation;DylanHarris;100;addreputation;GraceChambers;100;addreputation;KylePorter;100;addreputation;HuxleyThorne;100;addreputation;TessaAnderson;100;addreputation;VivianParker;100"
+        unlocks = "addreputation;EthanSteele;100;addreputation;JohnBaker;100;addreputation;MarcusKane;100;addreputation;TaylorBlaze;100;addreputation;MayaBlackwell;100;addreputation;AlexMercer;100;addreputation;GraceChambers;100;addreputation;AndrewTurner;100;addreputation;LucasMiller;100;addreputation;DylanHarris;100;addreputation;GraceChambers;100;addreputation;KylePorter;100;addreputation;HuxleyThorne;100;addreputation;TessaAnderson;100;addreputation;VivianParker;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier8",
         minrep = 500000,
         barcolor = "purple",
-        unlocks = "addreputation;JamesMorris;100;addreputation;OliviaChambers;100"
+        unlocks = "addreputation;OliviaChambers;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier9",
         minrep = 10000000,
         barcolor = "resistenza",
+        unlocks = "addreputation;HarperWells;100;addreputation;JamesMorris;100"
     }
 };
 
