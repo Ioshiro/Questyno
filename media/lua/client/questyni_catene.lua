@@ -218,7 +218,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsrep = "LaResistenza;20;ElowenBeckett;20", -- REP REWARD
     awardsitem = "BeefJerky;1", -- ITEM REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Begin;Questyno_ElowenBeckett4", -- DIALOGUE REWARD
-    needsitem = "LogStacks;4", -- ITEM REQUEST
+    needsitem = "LogStacks2;1", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett3_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett3_Text",
