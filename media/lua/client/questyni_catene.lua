@@ -232,7 +232,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett4",
 
     awardsrep = "LaResistenza;25;ElowenBeckett;20", -- REP REWARD
-    awardsitem = "SleepingbagBKRolled;1", -- ITEM REWARD
+    awardsitem = "Table:SleepingBags", -- ITEM REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett5_Begin;Questyno_ElowenBeckett5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett4_Lore" },
@@ -1070,7 +1070,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson1_Title",
     unique = true,
-    unlocks = "actionevent;killzombies:25;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete:placeholder:updatequeststatus:Questyno_RobertWilson1:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:100:tierlevel:3;unlockworldevent:Questyno_RobertWilson:SFQuest_Questyno_RobertWilson1_Complete:placeholder:updatequeststatus:Questyno_RobertWilson1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -1093,7 +1093,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_RobertWilson.png",
     title = "IGUI_SFQuest_Questyno_RobertWilson2_Title",
     unique = true,
-    unlocks = "actionevent;killzombies:50;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6683x10669x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50:tierlevel:4;updateobjective:Questyno_RobertWilson2:2:Completed;clickevent;6683x10669x0:EventoRobertWilson2;time:50:anim:loot;updateobjective:Questyno_RobertWilson2:1:Completed", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 

@@ -1780,7 +1780,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_MikePozzo1_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo1_Text = "Una zuppa per Mike",
-    IGUI_SFQuest_Questyno_MikePozzo1_Lore = "Mike mi ha chiesto di portargli 1 Pentola di Zuppa. Spero gli baster?.",
+    IGUI_SFQuest_Questyno_MikePozzo1_Lore = "Mike mi ha chiesto di portargli 1 Pentola di Zuppa da 3.5kg. Spero gli baster?.",
     IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di stufato?",
     IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text_Accepted = "Mi ? tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -1804,9 +1804,9 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_MikePozzo4_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo4_Text = "L'insalatina di Mike",
-    IGUI_SFQuest_Questyno_MikePozzo4_Lore = "Mike mi ha chiesto di portargli un Insalata (di verdure). Che gli ? preso?",
-    IGUI_SFQuest_Questyno_MikePozzo4_Begin_Text = "Hei.. Ciao. Credo di aver esagerato, ieri sono svenuto con un forte dolore al petto. Credo sia arrivato il tempo di fare un poco di digiuno. Tu hai qualche bacca da parte per prepararmi una bella insalata per caso?",
-    IGUI_SFQuest_Questyno_MikePozzo4_Begin_Text_Accepted = "Mi ? tornata fame",
+    IGUI_SFQuest_Questyno_MikePozzo4_Lore = "Mike mi ha chiesto di portargli un'Insalata (di verdure) da 1kg. Che gli è preso?",
+    IGUI_SFQuest_Questyno_MikePozzo4_Begin_Text = "Hei.. Ciao. Credo di aver esagerato, ieri sono svenuto con un forte dolore al petto. Credo sia arrivato il tempo di fare un poco di digiuno. Tu hai un po' di verdura da parte per prepararmi una bella insalata per caso?",
+    IGUI_SFQuest_Questyno_MikePozzo4_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo4_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_MikePozzo4_Complete = "Pensi sia il caso di aggiungere un po' di olio? Mmmm... Magari la prossima volta.",
 	
@@ -1971,7 +1971,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_MikePozzo21_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo21_Text = "Mike galateo",
-    IGUI_SFQuest_Questyno_MikePozzo21_Lore = "Mike mi ha chiesto di preparare una Pentola di Zuppa. Vuole mettermi alla prova. Penso di potercela fare.",
+    IGUI_SFQuest_Questyno_MikePozzo21_Lore = "Mike mi ha chiesto di preparare una Pentola di Zuppa da 3.5kg. Vuole mettermi alla prova. Penso di potercela fare.",
     IGUI_SFQuest_Questyno_MikePozzo21_Begin_Text = "Tutti si danno molto da fame e bruciano molte calorie, il cibo non basta mai. Magari un giorno avr? bisogno del tuo aiuto in cucina! Fammi vedere di cosa sei capace, ti andrebbe?",
     IGUI_SFQuest_Questyno_MikePozzo21_Begin_Text_Accepted = "Mi ? tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo21_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -2095,7 +2095,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RosaChina8_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina8_Text = "La farina di Rosa",
-    IGUI_SFQuest_Questyno_RosaChina8_Lore = "Rosa mi ha chiesto di portargli 5 Cavallette, 5 Cimici e uno Scarafaggio. Vediamo se trovo qualcosa in mezzo alle fresche frasche.",
+    IGUI_SFQuest_Questyno_RosaChina8_Lore = "Rosa mi ha chiesto di portargli un sacco di insettacci vari. Vediamo se trovo qualcosa in mezzo alle fresche frasche.",
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text = "So che Pu? sembrare strano ma in mancaza di farina, gli insetti sono un ottima alternativa. Sono una grande fonte di proteine, per altro! Puoi procurarmi degli insetti per farne un po'?",
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Declined = "Spero troverai tempo.",
@@ -2209,7 +2209,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RosaChina20_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina20_Text = "Rosa l'affamata",
-    IGUI_SFQuest_Questyno_RosaChina20_Lore = "Rosa mi ha chiesto di preparargli una Pentola di Zuppa. Spero non muoia di stenti prima che io ce la faccia.",
+    IGUI_SFQuest_Questyno_RosaChina20_Lore = "Rosa mi ha chiesto di preparargli una Pentola di Zuppa da 3.5kg. Spero non muoia di stenti prima che io ce la faccia.",
     IGUI_SFQuest_Questyno_RosaChina20_Begin_Text = "Abbiamo fame, non c'? rimasto molto, ti avanza qualcosa per caso?",
     IGUI_SFQuest_Questyno_RosaChina20_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina20_Begin_Text_Declined = "Spero troverai tempo.",
@@ -2217,12 +2217,12 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RosaChina21_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina21_Text = "La Zappa di Rosa",
-    IGUI_SFQuest_Questyno_RosaChina21_Lore = "Rosa mi ha chiesto di recuperare la sua zappa nel loro vecchio rifugio nel bosco (8314,8902,0)..",
-    IGUI_SFQuest_Questyno_RosaChina21_Begin_Text = "Ho bisogno di un attrezzo migliore per fare dei solchi in terra, vai al vecchio tugurio nel bosco 8314,8902,0 e recuperare la mia vecchia zappa? ",
+    IGUI_SFQuest_Questyno_RosaChina21_Lore = "Rosa mi ha chiesto di recuperare la sua zappa nel loro vecchio rifugio a Edeyville (8314,8902,0)..",
+    IGUI_SFQuest_Questyno_RosaChina21_Begin_Text = "Ho bisogno di un attrezzo migliore per fare dei solchi in terra, cerca in un vecchio scantinato nella citta' di Edeyville 8314,8902,0 e recupera la mia vecchia zappa! Mi fai questo favore?",
     IGUI_SFQuest_Questyno_RosaChina21_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina21_Begin_Text_Declined = "Spero troverai tempo.",
     IGUI_SFQuest_Questyno_RosaChina21_Complete = "Grazie, grazie di cuore.",
-	IGUI_SFQuest_Questyno_RosaChina21_A = "Cerca nel bosco (8314,8902,0)",
+	IGUI_SFQuest_Questyno_RosaChina21_A = "Cerca in un vecchio scantinato nella citta' di Edeyville (8314,8902,0)",
 	IGUI_SFQuest_Questyno_RosaChina21_A_Text = "Porta il fieno a Rosa",
 	
 	IGUI_SFQuest_Questyno_RosaChina22_Title = "Rosa dalla Tana",
@@ -2306,7 +2306,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Title = "Emily Terry",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Text = "Incontra Emily Terry [Giornaliere]",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Lore = "Emily ? arrivata con sua figlia da poco alla Tana, forse mi dar? dei compiti molto semplici, penso che potrei cominciare con lei.",
-    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text = "Ciao, sono Rosa. Insieme a Emily e le nostre figlie stiamo cercando di coltivare qualcosa. Non siamo molto utili ad uccidere zombie ma ci diamo da fare con la terra. Noi e le nostre due figlie abbiamo legato molto e ci troviamo bene anche un poco fuori dalla Tana. Spero potrai fare qualche piccolo lavoretto per noi. Ci trovi qui tutti i giorni!",
+    IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text = "Ciao, sono Emily. Insieme a Rosa e le nostre figlie stiamo cercando di coltivare qualcosa. Non siamo molto utili ad uccidere zombie ma ci diamo da fare con la terra. Noi e le nostre due figlie abbiamo legato molto e ci troviamo bene anche un poco fuori dalla Tana. Spero potrai fare qualche piccolo lavoretto per noi. Ci trovi qui tutti i giorni!",
     IGUI_SFQuest_Questyno_EmilyTerry_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_EmilyTerry1_Title = "Terry dalla Tana",
@@ -2426,7 +2426,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry15_Title = "Terry dalla Tana",
     IGUI_SFQuest_Questyno_EmilyTerry15_Text = "I funghi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry15_Lore = "Terry mi ha chiesto di recuperare due funghi. Vediamo se li trovo nel bosco.",
+    IGUI_SFQuest_Questyno_EmilyTerry15_Lore = "Terry mi ha chiesto di recuperare un fungo in particolare. Vediamo se li trovo nel bosco.",
     IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text = "Riesci a recuperare due funghi? Ti ricompenser? con un ottima spezia!",
     IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Accepted = "Grazie per il tuo aiuto",
     IGUI_SFQuest_Questyno_EmilyTerry15_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -2478,7 +2478,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry20_Title = "Terry dalla Tana",
     IGUI_SFQuest_Questyno_EmilyTerry20_Text = "Terry l'affamata",
-    IGUI_SFQuest_Questyno_EmilyTerry20_Lore = "Terry mi ha chiesto di cucinarle una Pentola di Zuppa e di portargliela. Dice che mi ricompenserà",
+    IGUI_SFQuest_Questyno_EmilyTerry20_Lore = "Terry mi ha chiesto di cucinarle una Pentola di Zuppa da 3.5kg e di portargliela. Dice che mi ricompenserà",
     IGUI_SFQuest_Questyno_EmilyTerry20_Begin_Text = "Abbiamo fame, non c'? rimasto molto, ti avanza qualcosa per caso?",
     IGUI_SFQuest_Questyno_EmilyTerry20_Begin_Text_Accepted = "Grazie per il tuo aiuto",
     IGUI_SFQuest_Questyno_EmilyTerry20_Begin_Text_Declined = "Capisco, alla prossima.",
@@ -5442,8 +5442,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EzekielFlynn_Intro_Complete_Text = "Hei ciao, io sono Ezekiel. Nuovo da queste parti? Ho passato anni ad affinare le mie abilit� di cacciatore e ora sono qui per insegnarti tutto quello che so. La mia specialit� � il combattimento corpo a copro. Ho deciso di restare alla Tana insieme ad Elowen per aiutare i nuovi arrivati come te. Se mi dimostri il tuo valore ti lascer� un arma speciale che ti aiuter� contro quei mostri!",
 
     IGUI_SFQuest_Questyno_EzekielFlynn1_Title = "Ezekiel dalla Tana",
-    IGUI_SFQuest_Questyno_EzekielFlynn1_Text = "Recupera 4 Rami",
-    IGUI_SFQuest_Questyno_EzekielFlynn1_Lore = "Devo dimostrare a Ezekiel di meritarmi il suo aiuto. Devo recuperare dei Rami per suo conto",
+    IGUI_SFQuest_Questyno_EzekielFlynn1_Text = "Recupera dei materiali",
+    IGUI_SFQuest_Questyno_EzekielFlynn1_Lore = "Devo dimostrare a Ezekiel di meritarmi il suo aiuto. Devo recuperare dei materiali per suo conto",
     IGUI_SFQuest_Questyno_EzekielFlynn1_Begin_Text = "Per cominciare puoi cominciare a cercare qualche Ramo e qualche Pietra affilata! Portameli insieme a uno Straccio e ti faccio vedere una roba!",
     IGUI_SFQuest_Questyno_EzekielFlynn1_Begin_Text_Accepted = "Bene! Non farti mordere.",
     IGUI_SFQuest_Questyno_EzekielFlynn1_Begin_Text_Declined = "Hai altro di meglio da fare?",
@@ -5517,15 +5517,15 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_ElowenBeckett2_Title = "Elowen dalla Tana",
     IGUI_SFQuest_Questyno_ElowenBeckett2_Text = "Recupera 20 Chiodi",
-    IGUI_SFQuest_Questyno_ElowenBeckett2_Lore = "Devo trovare dei chiodi per Elowen, ha intenzione di costruirmi qualcosa per aiutarmi a trasportare oggetti pesanti. Mi ha chiesto 20 Chiodi e 5 Assi.",
-    IGUI_SFQuest_Questyno_ElowenBeckett2_Begin_Text = "Prima che tu riesca ad avere una macchina o un rifugio, posso costruirti una carriola, ti servir? per trasportare gli oggetti pesanti che troverai in giro. Intanto procurami dei chiodi e delle assi. Butta gi? qualche albero e usa una sega per ricavare delle assi, chiedi a qualcuno in giro se te ne presta una!",
+    IGUI_SFQuest_Questyno_ElowenBeckett2_Lore = "Devo trovare dei chiodi per Elowen, ha intenzione di costruirmi qualcosa per aiutarmi a trasportare oggetti pesanti. Mi ha chiesto 20 Chiodi.",
+    IGUI_SFQuest_Questyno_ElowenBeckett2_Begin_Text = "Prima che tu riesca ad avere una macchina o un rifugio, posso costruirti una carriola, ti servirà per trasportare gli oggetti pesanti che troverai in giro. Intanto procurami dei chiodi. Vai allo shop o chiedi in giro se qualcuno cel'ha.",
     IGUI_SFQuest_Questyno_ElowenBeckett2_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_ElowenBeckett2_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_ElowenBeckett2_Complete = "Ottimo, non abbiamo ancora finito.",
 
     IGUI_SFQuest_Questyno_ElowenBeckett3_Title = "Elowen dalla Tana",
-    IGUI_SFQuest_Questyno_ElowenBeckett3_Text = "Recupera 4 Rami",
-    IGUI_SFQuest_Questyno_ElowenBeckett3_Lore = "Elowen vuole che rimedio due ceppi. Da questi ricaver� la struttura per la carriola.",
+    IGUI_SFQuest_Questyno_ElowenBeckett3_Text = "Recupera 1x2 Ceppi ",
+    IGUI_SFQuest_Questyno_ElowenBeckett3_Lore = "Elowen vuole che rimedio una catasta da 2 ceppi. Da questi ricaverà la struttura per la carriola.",
     IGUI_SFQuest_Questyno_ElowenBeckett3_Begin_Text = "Bene, adesso servirebbe del legno! Vai nel bosco e abbati due alberi. Ricorda che con delle corde di stracci puoi legarli insieme, riuscirai a trasportarli meglio!",
     IGUI_SFQuest_Questyno_ElowenBeckett3_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_ElowenBeckett3_Begin_Text_Declined = "Peccato.",
@@ -6040,15 +6040,15 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Lore = "Robert Pu? darmi una mano ad ottenere un generatore. Devo soltanto trovare le parti che richiede.",
     IGUI_SFQuest_Questyno_RobertWilson_Intro_Complete_Text = "Salve straniero, io sono Robert. Mi trovo da queste parti per conto del Sergente Grif che rispetto moltissimo. E' grazie a lui se sono ancora vivo. Mi trovo qui per mantenere un minimo di diplomazia con la Tana. Posso darti una mano ad assemblare un generatore se mi troverai le parti, cos? da poterti stabilire e prosperare.",
 
-	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert da West Point (10182,6764,0)",
+	IGUI_SFQuest_Questyno_RobertWilson1_Title = "Robert",
     IGUI_SFQuest_Questyno_RobertWilson1_Text = "Fiducia da conquistare",
-    IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 25 Zombie per suo conto. ",
+    IGUI_SFQuest_Questyno_RobertWilson1_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 100 Zombie per suo conto. ",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text = "E' il momento di mettere insieme una squadra e cominciare a ripulire il territorio. Ecco un piano: prepariamoci delle lance fatte con rami robusti e pietre affilate. Sono armi efficaci e possono tenere gli zombie a distanza.",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Accepted = "Bene! Fai attenzione!",
     IGUI_SFQuest_Questyno_RobertWilson1_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson1_Complete = "Ottimo, andiamo avanti allora.",
 	
-	IGUI_SFQuest_Questyno_RobertWilson2_Title = "Robert da West Point (10182,6764,0)",
+	IGUI_SFQuest_Questyno_RobertWilson2_Title = "Robert",
     IGUI_SFQuest_Questyno_RobertWilson2_Text = "pi? fiducia da conquistare",
     IGUI_SFQuest_Questyno_RobertWilson2_Lore = "Devo dimostrare a Robert di meritarmi il suo aiuto. Devo uccidere 50 Zombie per suo conto e recuperare una Chiave Esagonale nel magazzino di Greenleaf (6683,10669,0)",
     IGUI_SFQuest_Questyno_RobertWilson2_Begin_Text = "Quelli di prima andavano bene come riscaldamento. Adesso voglio che vai nell'area di Greenleaf e recuperi un oggetto per me. sar? utile per assemblare il tuo Generatore.",
@@ -6060,7 +6060,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RobertWilson2_B = "Uccidi 50 Zombie",
 	IGUI_SFQuest_Questyno_RobertWilson2_B_Text = "Porta la Chiave a Robert",
 
-	IGUI_SFQuest_Questyno_RobertWilson3_Title = "Robert da West Point (10182,6764,0)",
+	IGUI_SFQuest_Questyno_RobertWilson3_Title = "Robert",
     IGUI_SFQuest_Questyno_RobertWilson3_Text = "Parti elettroniche per Robert",
     IGUI_SFQuest_Questyno_RobertWilson3_Lore = "Devo portare 50 Parti elettroniche a Robert. Saranno utili per ultimare il mio generatore.",
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text = "Bene, sei un tipo tosto, ti meriti il mio aiuto e quello dei miei compagni. Adesso recuperami 50 parti elettroniche. Le trovi facilmente smontando anche gli orologi digitali. Pensi di farcela?",
@@ -6068,7 +6068,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RobertWilson3_Begin_Text_Declined = "Capisco.",
     IGUI_SFQuest_Questyno_RobertWilson3_Complete = "Ottimo, buon lavoro.",
 	
-	IGUI_SFQuest_Questyno_RobertWilson4_Title = "Robert da West Point (10182,6764,0)",
+	IGUI_SFQuest_Questyno_RobertWilson4_Title = "Robert",
     IGUI_SFQuest_Questyno_RobertWilson4_Text = "La rivista per i Generatori",
     IGUI_SFQuest_Questyno_RobertWilson4_Lore = "Devo andare a Lake Ivy (9416,9985,0) a prendere la rivista Come usare i generatori, utile per capire come funzionano.",
     IGUI_SFQuest_Questyno_RobertWilson4_Begin_Text = "Per poter collegare e fare manutenzione al generatore avrai bisogno di una rivista specifica. Vai a Lake Ivy, ne troverai sicuramente una  nella mia officina.",
@@ -6078,7 +6078,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RobertWilson4_A = "Cerca a Lake Ivy (9416,9985,0)",
 	IGUI_SFQuest_Questyno_RobertWilson4_A_Text = "Porta la rivista a Robert",
 	
-	IGUI_SFQuest_Questyno_RobertWilson5_Title = "Robert da West Point (10182,6764,0)",
+	IGUI_SFQuest_Questyno_RobertWilson5_Title = "Robert",
     IGUI_SFQuest_Questyno_RobertWilson5_Text = "E luce sia!",
     IGUI_SFQuest_Questyno_RobertWilson5_Lore = "Robert mi ha cheisto di recuperare una Tanica di Benzina piena all benzinaio a Est di Cherokee Lake (11593,8301,0) e poi mi far? vedere come funziona un generatore!",
     IGUI_SFQuest_Questyno_RobertWilson5_Begin_Text = "Bene, il tuo generatore ? assemblato, recupera una Tanica di Benzina piena e torna da me, ti faccio vedere come funziona!",

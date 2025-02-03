@@ -53,7 +53,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo1_Lore" },
-    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;4", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;3.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo1_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo1_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -126,8 +126,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo5_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks =
-    "clickevent;8145x11482x0:EventoMikePozzo5;time:50:anim:loot;updateobjective:Questyno_MikePozzo5:1:Completed",
+    unlocks = "clickevent;8145x11482x0:EventoMikePozzo5;time:50:anim:loot;updateobjective:Questyno_MikePozzo5:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -637,12 +636,12 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo21",
 
-    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Base.Pot;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo21_Lore" },
-    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;4", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;3.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo21_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo21_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -1207,12 +1206,12 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest19);
 local chinaQuest20 = {
     guid = "Questyno_RosaChina20",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;60", -- REP REWARD
     awardsitem = "Pot;1;Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina20_Lore" },
-    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;4", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;3.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina20_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina20_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -1694,21 +1693,21 @@ local emilyTerryQuest16 = {
         icon = "media/textures/Item_AxeStone",
         hidden = false,
         needsitem = "AxeStone;4",
-        onobtained = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;AxeStone;2"
+        onobtained = "updateobjective;Questyno_EmilyTerry16;1;Completed;removeitem;AxeStone;4"
     }, { 
         guid = "Questyno_EmilyTerry16_B",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_B",
         icon = "media/textures/Item_SpearCrafted",
         hidden = false,
         needsitem = "SpearCrafted;4",
-        onobtained = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;SpearCrafted;2"
+        onobtained = "updateobjective;Questyno_EmilyTerry16;2;Completed;removeitem;SpearCrafted;4"
     }, { 
         guid = "Questyno_EmilyTerry16_C",
         text = "IGUI_SFQuest_Questyno_EmilyTerry16_C",
         icon = "media/textures/Item_FlintKnife",
         hidden = false,
         needsitem = "FlintKnife;4",
-        onobtained = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;2"
+        onobtained = "updateobjective;Questyno_EmilyTerry16;3;Completed;removeitem;FlintKnife;4"
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EmilyTerry16_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1834,7 +1833,7 @@ local emilyTerryQuest20 = {
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry20_Lore" },
-    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;4", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PotOfSoupRecipe;1;3.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry20_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry20_Text",
     texture = "media/textures/Item_EmilyTerry.png",
