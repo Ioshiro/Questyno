@@ -535,7 +535,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "TW.LargePropaneTank;1",
-    needsitem = "BlowTorch;15", -- REQUIRE
+    needsitem = "PredicateDrainable#BlowTorch;15;0.5", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_VivianParker",
     lore = { "IGUI_SFQuest_Questyno_VivianParker1_Lore" },
