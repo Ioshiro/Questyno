@@ -138,7 +138,7 @@ function ISDumpWaterAction:perform()
     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
-local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdate
+local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdate -- improve this for performance to check just our inventory
 function ISInventoryPage.OnContainerUpdateNew()
     originISInventoryPage_OnContainerUpdate()
     print("ISInventoryPage:OnContainerUpdate Successful overwrite")

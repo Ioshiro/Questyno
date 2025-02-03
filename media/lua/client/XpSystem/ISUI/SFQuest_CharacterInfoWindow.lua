@@ -29,7 +29,7 @@ function ISCharacterInfoWindow:RestoreLayout(name, layout)
 	previous_ISCharacterInfoWindow_RestoreLayout(self, name, layout)
 
 	-- fix the typo 'porotection' to 'protection'
-	local floating = { protection = false, quest = true }
+	local floating = { protection = false, quest = false }
 	if layout.tabs ~= nil then
 	    local tabs = string.split(layout.tabs, ',')
 	    for k,v in pairs(tabs) do
