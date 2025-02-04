@@ -8,7 +8,9 @@ require "TimedActions/ISConsolidateDrainableAll"
 require "TimedActions/ISConsolidateDrainable"
 require "TimedActions/ISDrinkFromBottle"
 require "TimedActions/ISEatFoodAction"
-require "Foraging/ISForageAction";
+require "TimedActions/ISTakeGenerator"
+require "Foraging/ISForageAction"
+
 
 
 
@@ -142,6 +144,13 @@ local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdat
 function ISInventoryPage.OnContainerUpdateNew()
     originISInventoryPage_OnContainerUpdate()
     print("ISInventoryPage:OnContainerUpdate Successful overwrite")
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
+
+local originalISTakeGenerator_perform = ISTakeGenerator.perform
+function ISTakeGenerator:perform()
+    originalISTakeGenerator_perform(self)
+    print("ISTakeGenerator Successful overwrite")
     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
