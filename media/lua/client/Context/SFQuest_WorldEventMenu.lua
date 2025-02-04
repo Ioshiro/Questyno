@@ -41,15 +41,3 @@ onInteraction2 = function(worldobjects, playerObj, square, worldinfo, dialoguein
 end
 
 Events.OnFillWorldObjectContextMenu.Add(SFQuest_WorldEventMenu);
-
-
-function ISDupingPlayer.addCoords(startingX, startingY)
-    ISDupingPlayer.coords = {}
-    local x1, y1, x2, y2 = startingX-1, startingY-1, startingX+1, startingY+1
-    for i = x1, x2 do
-        for j = y1, y2 do
-            if Debug then print("ISDupingPlayer: Adding coords: " .. i .. " " .. j) end
-            ISDupingPlayer.coords[i.."_"..j] = {x = i, y = j}
-        end
-    end
-end
