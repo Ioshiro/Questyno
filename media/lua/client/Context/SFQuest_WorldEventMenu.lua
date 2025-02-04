@@ -6,12 +6,13 @@ SFQuest_WorldEventMenu = function(player, context, worldobjects, test)
 
 	local square = worldobjects[1]:getSquare();
 
-	local startingX,startingY,startingZ = tostring(square:getX()), tostring(square:getY()), tostring(square:getZ());
+	local startingX,startingY,startingZ = square:getX(), square:getY(), square:getZ();
 	local x1, y1, x2, y2 = startingX-1, startingY-1, startingX+1, startingY+1
 	for i = x1, x2 do
         for j = y1, y2 do
-            local sqTag = i.."x"..j.."x"..startingZ;
+            local sqTag = tostring(i).."x"..tostring(j).."x"..tostring(startingZ);
 			if playerObj:getModData().missionProgress.WorldEvent[sqTag] then
+				local square = getCell():getGridSquare(i, j, startingZ);
 				local event = playerObj:getModData().missionProgress.WorldEvent[sqTag];
 				local worldinfo = SF_MissionPanel.instance:getWorldInfo(event.identity);
 				local dialogueinfo = SF_MissionPanel.instance:getDialogueInfo(event.dialoguecode);
