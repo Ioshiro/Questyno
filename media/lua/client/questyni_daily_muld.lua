@@ -237,7 +237,7 @@ local secretQuest6 = {
     texture = "media/textures/Item_VictoriaSecret.png",
     title = "IGUI_SFQuest_Questyno_VictoriaSecret6_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;8534x6437x1:EventoVictoriaSecret6;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret6:1:Completed"
+    unlocks = "clickevent;8535x6438x1:EventoVictoriaSecret6;anim:loot:time:50;updateobjective:Questyno_VictoriaSecret6:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, secretQuest6);
 
@@ -1778,7 +1778,7 @@ local scottQuest9 = {
         guid = "Questyno_GeorgeScott9_A",
         text = "IGUI_SFQuest_Questyno_GeorgeScott9_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGeorgeScott9;additem;VideoGame;1;clickevent;11424x8529x0:EventoGeorgeScott9A;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:2:Completed"
+        oncompleted = "removeclickevent;EventoGeorgeScott9;additem;VideoGame;1;revealobjective;Questyno_GeorgeScott9;2;clickevent;11424x8529x0:EventoGeorgeScott9A;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:2:Completed"
     }, {
         guid = "Questyno_GeorgeScott9_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott9_B",

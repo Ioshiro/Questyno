@@ -1444,7 +1444,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_LincolnReed1",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;200",
     completesound = "levelup",
     dailycode = "Questyno_LincolnReed",
     lore = { "IGUI_SFQuest_Questyno_LincolnReed1_Lore" },

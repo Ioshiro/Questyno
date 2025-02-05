@@ -1789,7 +1789,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger4_A",
         text = "IGUI_SFQuest_Questyno_TomasJoger4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoTomasJoger4;additem;Base.ModernTire3;2",
+        oncompleted = "removeclickevent;EventoTomasJoger4;additem;Base.ModernBrake3;2",
     },
     {
         guid = "Questyno_TomasJoger4_B",

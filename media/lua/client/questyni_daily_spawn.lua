@@ -2625,14 +2625,14 @@ local rimaQuest9 = {
     guid = "Questyno_EliaRima9",
 
     awardstask = "Questyno_EliaRima9_A", -- TASK REWARD
+    awardsitem = "BookCarpentry3;1;BookFarming2;1;BookFirstAid1;1;BookMechanic4;1;BookMetalWelding5;1;BookFishing4;1;TVMagazine;1;Book;5;ElectronicsMag4;1", -- ITEM REWARD
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima9_Lore" },
     objectives = { {
         guid = "Questyno_EliaRima9_A",
         text = "IGUI_SFQuest_Questyno_EliaRima9_A",
         hidden = false,
-        oncompleted =
-        "removeclickevent;EventoEliaRima9;additem;BookCarpentry3;1;additem;BookFarming2;1;additem;BookFirstAid1;1;additem;BookMechanic4;1;additem;BookMetalWelding5;1;additem;BookFishing4;1;additem;TVMagazine;1;additem;Book;5;additem;ElectronicsMag4;1"
+        oncompleted = "removeclickevent;EventoEliaRima9"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima9_Text",
     texture = "media/textures/Item_EliaRima.png",

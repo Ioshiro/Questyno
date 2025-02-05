@@ -1276,7 +1276,7 @@ local chinaQuest23 = {
     guid = "Questyno_RosaChina23",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "DriedBlackBeens;1",  -- ITEM REWARD
+    awardsitem = "DriedBlackBeans;1",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina23_Lore" },
@@ -1352,21 +1352,6 @@ local chinaQuest27 = {
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest27);
 
-local chinaQuest27 = {
-    guid = "Questyno_RosaChina27",
-
-    awardsrep = "LaResistenza;400", -- REP REWARD
-    completesound = "levelup",
-    dailycode = "Questyno_RosaChina",
-    lore = { "IGUI_SFQuest_Questyno_RosaChina27_Lore" },
-    needsitem = "MushroomGeneric1;1", -- REQUIRE
-    onobtained ="unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina27_Complete",
-    text = "IGUI_SFQuest_Questyno_RosaChina27_Text",
-    texture = "media/textures/Item_RosaChina.png",
-    title = "IGUI_SFQuest_Questyno_RosaChina27_Title",
-    unlockedsound = "QuestUnlocked"
-}
-table.insert(SFQuest_Database.QuestPool, chinaQuest27);
 --[[
             *** Emily Terry ***
             Elenco:
