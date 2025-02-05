@@ -1984,7 +1984,7 @@ table.insert(SFQuest_Database.QuestPool, {
             KylePorter
             elenco:
                 intro. Incontra Kyle. [Catena]
-                1. Recupera  Base.Blowtorch,Base.WeldingMask,Base.Wrench,Base.ClubHammer,Base.Dungarees @ 13104,1753,0 e MetalPipe;20 @ 12267,1820,0 (500rep, Burger, Fries, Pop2)
+                1. Recupera  Base.BlowTorch,Base.WeldingMask,Base.Wrench,Base.ClubHammer,Base.Dungarees @ 13104,1753,0 e MetalPipe;20 @ 12267,1820,0 (500rep, Burger, Fries, Pop2)
                 2. Recupera SheetMetal;10;SmallSheetMetal;5;ScrapMetal;50 (500rep)
                 3. Recupera ModernBrake3;4;ModernSuspension3;4;modernCarMuffler3 @ 13728,1657,0 (500rep)
                 4. Recupera MoodernTire3;2 @ 7049,7168,0 e ModernTire3;2 @ 7289,6912,0 (500rep, WhiskeyFull;2)
@@ -2019,7 +2019,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter1_A",
         text = "IGUI_SFQuest_Questyno_KylePorter1_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter1;additem;Base.Blowtorch;1;Base.WeldingMask;1;Base.Wrench;1;Base.ClubHammer;1;Base.Dungarees;1"
+        oncompleted = "removeclickevent;EventoKylePorter1;additem;Base.BlowTorch;1;Base.WeldingMask;1;Base.Wrench;1;Base.ClubHammer;1;Base.Dungarees;1"
     }, {
         guid = "Questyno_KylePorter1_B",
         text = "IGUI_SFQuest_Questyno_KylePorter1_B",
@@ -2043,7 +2043,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter1_C",
         text = "IGUI_SFQuest_Questyno_KylePorter1_C",
         hidden = false,
-        needsitem = "Blowtorch;1",
+        needsitem = "PredicateFullDrainable#BlowTorch;1",
         onobtained = "updateobjective;Questyno_KylePorter1_A;1;Completed;removeitem;Blowtorch;1"
     },{
         guid = "Questyno_KylePorter1_D",

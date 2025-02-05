@@ -57,16 +57,18 @@
 							Tag# accepts any item that has the tag. Example: "Tag#Egg;12".
 							TagPredicateBigFish# accepts fresh fish above a certain length (>=50cm).
 							TagPredicateCondition# accepts weapons above a certain condition.
-							TagPredicateFreshFood# accepts food items that are currently fresh.
+							TagPredicateDrainable# it will only accept drainable items with a certain amount of quantity.
 							TagPredicateFullDrainable# it will only accept full drainable items.
+							TagPredicateFreshFood# accepts food items that are currently fresh.
 							TagPredicateFoodWeight# it will only accept food that are above a certain weight.
 							TagPredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
 							TagPredicateFoodCooked# it will only accept cooked food.
 							you can also use this check for just a item type:
 							PredicateBigFish# accepts fresh fish above a certain length (>=50cm).
 							PredicateCondition# accepts weapons above a certain condition.
-							PredicateFreshFood# accepts food items that are currently fresh.
+							PredicateDrainable# it will only accept drainable items with a certain amount of quantity.
 							PredicateFullDrainable# it will only accept full drainable items.
+							PredicateFreshFood# accepts food items that are currently fresh.
 							PredicateFoodWeight# it will only accept food that are above a certain weight.
 							PredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
 							PredicateFoodCooked# it will only accept cooked food.
