@@ -1581,11 +1581,11 @@ table.insert(SFQuest_Database.QuestPool, scottQuest1);
 local scottQuest2 = {
     guid = "Questyno_GeorgeScott2",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott2_Lore" },
-    needsitem = "Jacket_Chef;1", -- REQUIRE
+    needsitem = "Base.Vest_BulletPolice;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott2_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -1778,7 +1778,7 @@ local scottQuest9 = {
         guid = "Questyno_GeorgeScott9_A",
         text = "IGUI_SFQuest_Questyno_GeorgeScott9_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoGeorgeScott9;additem;VideoGame;1;revealobjective;Questyno_GeorgeScott9;2;clickevent;11424x8529x0:EventoGeorgeScott9A;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:2:Completed"
+        oncompleted = "removeclickevent;EventoGeorgeScott9;additem;VideoGame;1;revealobjective;Questyno_GeorgeScott9;2;clickevent;11424x8529x1:EventoGeorgeScott9A;anim:loot:time:50;updateobjective:Questyno_GeorgeScott9:2:Completed"
     }, {
         guid = "Questyno_GeorgeScott9_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott9_B",
@@ -3705,7 +3705,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_DavidTurner9_A",
 
     awardsrep = "LaResistenza;100",
-    awardsitem = "TrunkDoor1;1",
+    awardsitem = "Base.FrontWindow1;2",
     completesound = "levelup",
     dailycode = "Questyno_DavidTurner",
     lore = { "IGUI_SFQuest_Questyno_DavidTurner9_Lore" },

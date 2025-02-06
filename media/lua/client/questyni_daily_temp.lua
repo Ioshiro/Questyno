@@ -1308,7 +1308,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest24);
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_RosaChina25",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina25_Lore" },
