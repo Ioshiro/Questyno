@@ -7,6 +7,12 @@ SF_MissionPanel.EventsRegistered = false
 --------------------------------------------------------------------------------------------------------
 -- Local functions, usually used to check certain items' conditions
 
+local function isPartiallyEaten(item)
+    local baseHunger = math.abs(item:getBaseHunger() * 100) + 0.001
+    local hungerChange = math.abs(item:getHungerChange() * 100) + 0.001
+    return hungerChange < baseHunger
+end
+
 local function predicateBigFish(item)
 	local fullname =  item:getName():gsub(" ", "");
 	print("SOUL QUEST SYSTEM - Fish name was: " .. fullname);
@@ -25,23 +31,44 @@ local function predicateCondition(item, condition)
 end
 
 local function predicateFreshFood(item)
-	return item:isFresh() and not item:isPoison()
+    if instanceof(item, "Food") then
+        if item:getHungChange() < 0 then
+            -- Il cibo è mangiabile, controlla se è intero
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison()
+        else
+            -- Il cibo non è mangiabile, controlla solo freschezza e tossicità
+            return item:isFresh() and not item:isPoison()
+        end
+    end
 end
 
 local function predicateFoodWeight(item, condition)
 	if instanceof(item, "Food") then
-		return item:getUsedDelta() == 0 and item:isFresh() and item:getWeight() >= condition
+        if item:getHungChange() < 0 then
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison() and item:getWeight() >= condition
+        else
+            return item:isFresh() and not item:isPoison() and item:getWeight() >= condition
+        end
 	end
 end
+
 local function predicateFoodHunger(item, condition)
 	if instanceof(item, "Food") then
-		return item:getUsedDelta() == 0 and item:isFresh() and item:getBaseHunger() >= condition
+        if item:getHungChange() < 0 then
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison() and item:getBaseHunger() >= condition
+        else
+		    return item:isFresh() and not item:isPoison() and item:getBaseHunger() >= condition
+        end
 	end
 end
 
 local function predicateFoodCooked(item)
     if instanceof(item, "Food") then
-        return item:getUsedDelta() == 0 and item:isFresh() and item:isCooked()
+        if item:getHungChange() < 0 then
+            return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not item:isPoison()
+        else
+            return item:isFresh() and item:isCooked() and not item:isPoison()
+        end
     end
 end
 
@@ -1134,7 +1161,37 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
     if items then
         for i=0, items:size()-1 do
-            local itemId = items:get(i):getID();
+            local item = items:get(i);
+            local itemId = item:getID();
+            if item:isEquipped() then
+                item:getContainer():setDrawDirty(true);
+                item:setJobDelta(0.0);
+                player:removeWornItem(item)
+        
+                local hotbar = getPlayerHotbar(player:getPlayerNum())
+                local fromHotbar = false;
+                if hotbar then
+                    fromHotbar = hotbar:isItemAttached(item);
+                end
+        
+                if fromHotbar then
+                    hotbar.chr:setAttachedItem(item:getAttachedToModel(), item);
+                    player:resetEquippedHandsModels()
+                end
+        
+                if item == player:getPrimaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getSecondaryHandItem() then
+                        player:setSecondaryHandItem(nil);
+                    end
+                    player:setPrimaryHandItem(nil);
+                end
+                if item == player:getSecondaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getPrimaryHandItem() then
+                        player:setPrimaryHandItem(nil);
+                    end
+                    player:setSecondaryHandItem(nil);
+                end
+            end
             player:getInventory():removeItemWithIDRecurse(itemId);
         end
         return true
