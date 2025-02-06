@@ -7,7 +7,7 @@ SF_MissionPanel.EventsRegistered = false
 --------------------------------------------------------------------------------------------------------
 -- Local functions, usually used to check certain items' conditions
 
-local function isWholeFood(item)
+local function isPartiallyEaten(item)
     local baseHunger = math.abs(item:getBaseHunger() * 100) + 0.001
     local hungerChange = math.abs(item:getHungerChange() * 100) + 0.001
     return hungerChange < baseHunger
@@ -34,7 +34,7 @@ local function predicateFreshFood(item)
     if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
             -- Il cibo è mangiabile, controlla se è intero
-            return isWholeFood(item) and item:isFresh() and not item:isPoison()
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison()
         else
             -- Il cibo non è mangiabile, controlla solo freschezza e tossicità
             return item:isFresh() and not item:isPoison()
@@ -45,16 +45,17 @@ end
 local function predicateFoodWeight(item, condition)
 	if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return isWholeFood(item) and item:isFresh() and not item:isPoison() and item:getWeight() >= condition
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison() and item:getWeight() >= condition
         else
             return item:isFresh() and not item:isPoison() and item:getWeight() >= condition
         end
 	end
 end
+
 local function predicateFoodHunger(item, condition)
 	if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return isWholeFood(item) and item:isFresh() and not item:isPoison() and item:getBaseHunger() >= condition
+            return not isPartiallyEaten(item) and item:isFresh() and not item:isPoison() and item:getBaseHunger() >= condition
         else
 		    return item:isFresh() and not item:isPoison() and item:getBaseHunger() >= condition
         end
@@ -64,7 +65,7 @@ end
 local function predicateFoodCooked(item)
     if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return isWholeFood(item) and item:isFresh() and item:isCooked() and not item:isPoison()
+            return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not item:isPoison()
         else
             return item:isFresh() and item:isCooked() and not item:isPoison()
         end
