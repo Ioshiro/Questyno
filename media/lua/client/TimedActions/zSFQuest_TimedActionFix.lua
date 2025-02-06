@@ -124,13 +124,22 @@ function ISForageAction:perform()
     -- end
 end
 
-local origin_ShopBuyAction_perform = ShopBuyAction.perform
-function ShopBuyAction:perform()
-    origin_ShopBuyAction_perform(self)
-    print("ShopBuyAction Successful overwrite")
-    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+if getActivatedMods():contains("nshops_retexture") or getActivatedMods():contains("nshops") then
+    -- require "TimedActions/ShopBuyAction"
+    local origin_ShopBuyAction_perform = ShopBuyAction.perform
+    function ShopBuyAction:perform()
+        origin_ShopBuyAction_perform(self)
+        print("ShopBuyAction Successful overwrite")
+        -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+            SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+        -- end
+    end
+    local original_PlayerShopBuyAction_perform = PlayerShopBuyAction.perform
+    function PlayerShopBuyAction:perform()
+        original_PlayerShopBuyAction_perform(self)
+        print("PlayerShopBuyAction Successful overwrite")
         SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    -- end
+    end
 end
 
 local origin_ISDumpWaterAction_perform = ISDumpWaterAction.perform
@@ -140,7 +149,8 @@ function ISDumpWaterAction:perform()
     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
-local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdate -- improve this for performance to check just our inventory
+local originISInventoryPage_OnContainerUpdate = ISInventoryPage.OnContainerUpdate
+-- this event is triggers when a food get an updateAge()
 function ISInventoryPage.OnContainerUpdateNew()
     originISInventoryPage_OnContainerUpdate()
     print("ISInventoryPage:OnContainerUpdate Successful overwrite")
@@ -160,19 +170,3 @@ Events.OnGameBoot.Add(
         Events.OnContainerUpdate.Add(ISInventoryPage.OnContainerUpdateNew)
     end
 )
-
-
-
--- TESTONE
--- Events.OnGameStart.Add(
---     function()
---         local function applyToInventory(ISInventoryPage, step)
---             if step == "end" and ISInventoryPage.inventory == getPlayer():getInventory() then
---                 print("zSOUL QUEST SYSTEM - Added quest: Obtained, applyToInventory");
---                 SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
---             end
---         end
-    
---         Events.OnRefreshInventoryWindowContainers.Add(applyToInventory)
---     end
--- )
