@@ -1134,7 +1134,37 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 
     if items then
         for i=0, items:size()-1 do
-            local itemId = items:get(i):getID();
+            local item = items:get(i);
+            local itemId = item:getID();
+            if item:isEquipped() then
+                item:getContainer():setDrawDirty(true);
+                item:setJobDelta(0.0);
+                player:removeWornItem(item)
+        
+                local hotbar = getPlayerHotbar(player:getPlayerNum())
+                local fromHotbar = false;
+                if hotbar then
+                    fromHotbar = hotbar:isItemAttached(item);
+                end
+        
+                if fromHotbar then
+                    hotbar.chr:setAttachedItem(item:getAttachedToModel(), item);
+                    player:resetEquippedHandsModels()
+                end
+        
+                if item == player:getPrimaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getSecondaryHandItem() then
+                        player:setSecondaryHandItem(nil);
+                    end
+                    player:setPrimaryHandItem(nil);
+                end
+                if item == player:getSecondaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getPrimaryHandItem() then
+                        player:setPrimaryHandItem(nil);
+                    end
+                    player:setSecondaryHandItem(nil);
+                end
+            end
             player:getInventory():removeItemWithIDRecurse(itemId);
         end
         return true
