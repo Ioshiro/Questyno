@@ -121,4 +121,13 @@ module LR{
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
+
+    item ChiaveBicicletta {
+        Weight			=	0.01,
+		Type	=	Key,
+	    DisplayCategory = Security,
+        DisplayName		=	Chiave Bicicletta,
+        Icon			=	Key5,        
+        WorldStaticModel = Key2,
+    }
 }

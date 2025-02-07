@@ -1,4 +1,5 @@
 ContextMenu_EN = {
     ContextMenu_WorldEvent_TalkTo2 = "Talk with %1",
     ContextMenu_InvestigateCorpse = "Inspect container (quest)",
+    ContextMenu_BikeKey = "Claim your bike",
 }
