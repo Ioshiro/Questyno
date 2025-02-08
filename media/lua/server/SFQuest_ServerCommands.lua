@@ -119,8 +119,6 @@ function Commands.saveHistory(player, args)
     end
 end
 
-
-
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
 Events.OnClientCommand.Add(function(module, command, player, args)
 	if module == 'SFQuest' and Commands[command] then
