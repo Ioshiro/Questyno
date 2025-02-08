@@ -1970,7 +1970,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger7_B",
 
     awardsrep = "LaResistenza;100;TomasJoger;114", -- REP REWARD
-    awardsitem = "ChiaveBicicletta;1;PynoTweaks.Joint;1", -- ITEM REWARD
+    awardsitem = "LR.ChiaveBicicletta;1;PynoTweaks.Joint;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger7_Lore" },
     unlocks = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_TomasJoger7_Complete",
