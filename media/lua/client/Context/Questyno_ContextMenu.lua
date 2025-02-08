@@ -20,12 +20,14 @@ function ISInventoryMenuElements.ContextBikeKey()
     function self.spawnBike( _p)
         local key = self.invMenu.inventory:getItemFromType("LR.ChiaveBicicletta")
 		if key == nil then return end
-        _p:setDir(IsoDirections.W)
 			if isClient() then
-				local command = "/addvehicle Base.BicycleMTB"
-				SendCommandToServer(command)
+				-- local command = "/addvehicle Base.BicycleMTB"
+				-- SendCommandToServer(command)
+                sendClientCommand(_p,'SFQuest', 'addVehicle', {vehicle="Base.BicycleMTB"})
+
 			else
-				addVehicle(tostring(self:getVehicle()))
+				local vehicle = addVehicleDebug("Base.BicycleMTB", _p:getDir(), nil, _p:getSquare())
+                vehicle:repair()
 			end
 	end
 	return self;

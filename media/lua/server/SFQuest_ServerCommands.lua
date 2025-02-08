@@ -119,6 +119,11 @@ function Commands.saveHistory(player, args)
     end
 end
 
+function Commands.addVehicle(module, command, player, args)
+    local vehicle = addVehicleDebug(args.vehicle, player:getDir(), nil, player:getSquare())
+    vehicle:repair()
+end
+
 
 
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
