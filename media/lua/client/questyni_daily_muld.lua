@@ -768,7 +768,7 @@ table.insert(SFQuest_Database.QuestPool, secretQuest20A);
 local secretQuest21 = {
     guid = "Questyno_VictoriaSecret21",
 
-    awaardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;100", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
@@ -1261,7 +1261,7 @@ local leeQuest18 = {
         guid = "Questyno_SusanLee18_A",
         text = "IGUI_SFQuest_Questyno_SusanLee18_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoSusanLee18;additem;PillsVitamins;2;additem;PillsSleepingTablets;2;additem;SutureNeedle;additem;Pills;1"
+        oncompleted = "removeclickevent;EventoSusanLee18;additem;PillsVitamins;2;additem;PillsSleepingTablets;2;additem;SutureNeedle;1;additem;Pills;1"
     } },
     text = "IGUI_SFQuest_Questyno_SusanLee18_Text",
     texture = "media/textures/Item_SusanLee.png",

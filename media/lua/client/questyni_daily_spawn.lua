@@ -1839,14 +1839,14 @@ local thomasQuest13 = {
         guid = "Questyno_HeatherThomas13_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
         hidden = false,
-        needsitem = " faming.RedRadish;15",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem; faming.RedRadish;15"
+        needsitem = "farming.RedRadish;15",
+        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;farming.RedRadish;15"
     }, {
         guid = "Questyno_HeatherThomas13_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
         hidden = false,
-        needsitem = "farming.Carrots;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;farming.Carrots;1"
+        needsitem = "Carrots;1",
+        onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;Carrots;1"
     }, {
         guid = "Questyno_HeatherThomas13_C",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
@@ -2625,14 +2625,13 @@ local rimaQuest9 = {
     guid = "Questyno_EliaRima9",
 
     awardstask = "Questyno_EliaRima9_A", -- TASK REWARD
-    awardsitem = "BookCarpentry3;1;BookFarming2;1;BookFirstAid1;1;BookMechanic4;1;BookMetalWelding5;1;BookFishing4;1;TVMagazine;1;Book;5;ElectronicsMag4;1", -- ITEM REWARD
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima9_Lore" },
     objectives = { {
         guid = "Questyno_EliaRima9_A",
         text = "IGUI_SFQuest_Questyno_EliaRima9_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoEliaRima9"
+        oncompleted = "removeclickevent;EventoEliaRima9;additem;BookCarpentry3;1;additem;BookFarming2;1;additem;BookFirstAid1;1;additem;BookMechanic4;1;additem;BookMetalWelding5;1;additem;BookFishing4;1;additem;TVMagazine;1;additem;Book;5;additem;ElectronicsMag4;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima9_Text",
     texture = "media/textures/Item_EliaRima.png",

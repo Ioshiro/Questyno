@@ -1775,20 +1775,20 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Title = "Mike Pozzo",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Text = "Incontra Mike Pozzo [Giornaliere]",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore = "Per ingraziarmi Mike mi basterà ingozzarlo di cibo. Semplice. Lo troverò sicuramente in cucina.",
-    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano 'Pozzo.' S?, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti. Il mio ristorante in centro era molto vicino al centro quindi sono stato uno dei primi colpiti senza preavviso. Per fortuna a cena ospite da me quella sera c'era il Sergente Grif, che è riuscito a tirarmi fuori da quel bordello mentre io ero ancora alle prese con i fornelli ignaro di quello che stava succedendo in sala e per le strade. Gli devo molto! Non ho bisogno di molto ma se ti andrà di farmi qualche favoretto potrei mettere una buona parola per te al Sergente! ",
+    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano 'Pozzo.' Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti. Il mio ristorante in centro era molto vicino al centro quindi sono stato uno dei primi colpiti senza preavviso. Per fortuna a cena ospite da me quella sera c'era il Sergente Grif, che è riuscito a tirarmi fuori da quel bordello mentre io ero ancora alle prese con i fornelli ignaro di quello che stava succedendo in sala e per le strade. Gli devo molto! Non ho bisogno di molto ma se ti andrà di farmi qualche favoretto potrei mettere una buona parola per te al Sergente! ",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_MikePozzo1_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo1_Text = "Una zuppa per Mike",
-    IGUI_SFQuest_Questyno_MikePozzo1_Lore = "Mike mi ha chiesto di portargli 1 Pentola di Zuppa da 3.5kg. Spero gli baster?.",
-    IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di stufato?",
+    IGUI_SFQuest_Questyno_MikePozzo1_Lore = "Mike mi ha chiesto di portargli 1 Pentola di Zuppa da 3.5kg. Spero gli basterà.",
+    IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di Zuppa?",
     IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo1_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_MikePozzo1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale per?. Questi te li sei meritati.",
+    IGUI_SFQuest_Questyno_MikePozzo1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale però. Questi te li sei meritati.",
 	
 	IGUI_SFQuest_Questyno_MikePozzo2_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo2_Text = "Quattro salti in padella per Mike",
-    IGUI_SFQuest_Questyno_MikePozzo2_Lore = "Mike mi ha chiesto di portargli 1 Saltato in padella. Spero gli baster?.",
+    IGUI_SFQuest_Questyno_MikePozzo2_Lore = "Mike mi ha chiesto di portargli 1 Saltato in padella. Spero gli basterà.",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text = "Scommetto che anche tu hai un leggero languorino. Riesci a portarmi qualcosa di saltato in padella?",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -2100,10 +2100,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Declined = "Spero troverai tempo.",
     IGUI_SFQuest_Questyno_RosaChina8_Complete = "Grazie, grazie di cuore.",
-	IGUI_SFQuest_Questyno_RosaChina8_A = "5 Cavallette",
-	IGUI_SFQuest_Questyno_RosaChina8_B = "5 Cimici",
-	IGUI_SFQuest_Questyno_RosaChina8_C = "4 Scarafaggi",
-	IGUI_SFQuest_Questyno_RosaChina8_D = "10 Lumache",
+	IGUI_SFQuest_Questyno_RosaChina8_A = "3 Cavallette",
+	IGUI_SFQuest_Questyno_RosaChina8_B = "1 Cimice",
+	IGUI_SFQuest_Questyno_RosaChina8_C = "2 Scarafaggi",
+	IGUI_SFQuest_Questyno_RosaChina8_D = "5 Lumache",
 	IGUI_SFQuest_Questyno_RosaChina8_A_Text = "Incontra Rosa",
 	
 	IGUI_SFQuest_Questyno_RosaChina9_Title = "Rosa dalla Tana",
@@ -2205,7 +2205,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina19_Begin_Text = "La mia bimba sta male, ha bisogno di una pomata speciale ottenibile da un fungo specifico, non posso lasciarla qua. Potresti cercare qualcosa per noi nel bosco?",
     IGUI_SFQuest_Questyno_RosaChina19_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina19_Begin_Text_Declined = "Spero troverai tempo.",
-    IGUI_SFQuest_Questyno_RosaChina19_Complete = "Grazie, non è molto ma per oggi le baster?.",
+    IGUI_SFQuest_Questyno_RosaChina19_Complete = "Grazie, non è molto ma per oggi le basterà.",
 	
 	IGUI_SFQuest_Questyno_RosaChina20_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina20_Text = "Rosa l'affamata",
@@ -2263,7 +2263,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina26_Begin_Text = "La mia bimba sta male, ha bisogno di una pomata speciale ottenibile da un fungo specifico, non posso lasciarla qua. Potresti cercare qualcosa per noi nel bosco?",
     IGUI_SFQuest_Questyno_RosaChina26_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina26_Begin_Text_Declined = "Spero troverai tempo.",
-    IGUI_SFQuest_Questyno_RosaChina26_Complete = "Grazie, non è molto ma per oggi le baster?.",
+    IGUI_SFQuest_Questyno_RosaChina26_Complete = "Grazie, non è molto ma per oggi le basterà.",
 	
 	IGUI_SFQuest_Questyno_RosaChina27_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina27_Text = "Rosa la guaritrice olistica",
@@ -2271,7 +2271,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina27_Begin_Text = "La mia bimba sta male, ha bisogno di una pomata speciale ottenibile da un fungo specifico, non posso lasciarla qua. Potresti cercare qualcosa per noi nel bosco?",
     IGUI_SFQuest_Questyno_RosaChina27_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina27_Begin_Text_Declined = "Spero troverai tempo.",
-    IGUI_SFQuest_Questyno_RosaChina27_Complete = "Grazie, non è molto ma per oggi le baster?.",
+    IGUI_SFQuest_Questyno_RosaChina27_Complete = "Grazie, non è molto ma per oggi le basterà.",
 --[[
             *** Emily Terry ***
             Elenco:
@@ -2563,7 +2563,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_VictoriaSecret1_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Text = "Scarpette per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Lore = "Victoria vuole che le trovi delle Scarpe eleganti nel negozio di Orchiwood (8264,9698,0) ",
-    IGUI_SFQuest_Questyno_VictoriaSecret1_Begin_Text = "Non voglio apparire trasandata, recupera le scarpette eleganti che si trovano nell'area commerciale di Lake Cumberland",
+    IGUI_SFQuest_Questyno_VictoriaSecret1_Begin_Text = "Non voglio apparire trasandata, recupera le scarpette eleganti che si trovano nell'area commerciale di Orchiwood",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Begin_Text_Accepted = "Spero non ci metterai troppo!",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Begin_Text_Declined = "Mi stai rifiutando?",
     IGUI_SFQuest_Questyno_VictoriaSecret1_Complete = "Che belle di questo colore! Grazie. Ti sei meritato questo gioiellino.",
@@ -2763,7 +2763,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_VictoriaSecret21_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Text = "Un diamante per Victoria",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Lore = "Victoria vuole che recuperi per lei una Collana Lunga in oro con diamante. Dovrei fare un salto in un quartiere ricco.",
-    IGUI_SFQuest_Questyno_VictoriaSecret21_Begin_Text = "Ho bisogno che il mio viso torni a splendere, spero riuscirai a portarmi degl orecchini degni del mio bellissimo viso.",
+    IGUI_SFQuest_Questyno_VictoriaSecret21_Begin_Text = "Ho bisogno che il mio look torni a splendere, spero riuscirai a portarmi una collana degna del mio bellissimo collo.",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Begin_Text_Accepted = "Spero non ci metterai troppo!",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Begin_Text_Declined = "Mi stai rifiutando?",
     IGUI_SFQuest_Questyno_VictoriaSecret21_Complete = "Wow che bello!",
@@ -3742,6 +3742,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_XuMishura25_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura25_Complete = "Bene, sistemiamo un po' questo capo.",
 	IGUI_SFQuest_Questyno_XuMishura25_A_Text = "Torna da Xu",
+	IGUI_SFQuest_Questyno_XuMishura25_A = "Costume da bagno blu",
+	IGUI_SFQuest_Questyno_XuMishura25_B = "Costume da bagno giallo",
+	IGUI_SFQuest_Questyno_XuMishura25_C = "Costume da bagno rosso",
+	IGUI_SFQuest_Questyno_XuMishura25_D = "Costume da bagno verde",
 	
 	IGUI_SFQuest_Questyno_XuMishura26_Title = "Xu",
     IGUI_SFQuest_Questyno_XuMishura26_Text = "Xu collezionista",
@@ -3751,6 +3755,11 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_XuMishura26_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura26_Complete = "Bene, sistemiamo un po' questo capo.",
 	IGUI_SFQuest_Questyno_XuMishura26_A_Text = "Torna da Xu",
+	IGUI_SFQuest_Questyno_XuMishura26_A = "Grembiule bianco",
+	IGUI_SFQuest_Questyno_XuMishura26_B = "Grembiule da Gelataio",
+	IGUI_SFQuest_Questyno_XuMishura26_C = "Grembiule da pizzaiolo",
+	IGUI_SFQuest_Questyno_XuMishura26_D = "Grembiule in pole",
+	IGUI_SFQuest_Questyno_XuMishura26_E = "Grembiule nero",
 	
 	IGUI_SFQuest_Questyno_XuMishura27_Title = "Xu",
     IGUI_SFQuest_Questyno_XuMishura27_Text = "Xu per le donne",
@@ -3760,6 +3769,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_XuMishura27_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura27_Complete = "Bene, sistemiamo un po' questo capo.",
 	IGUI_SFQuest_Questyno_XuMishura27_A_Text = "Torna da Xu",
+	IGUI_SFQuest_Questyno_XuMishura27_A = "Gonna lunga",
+	IGUI_SFQuest_Questyno_XuMishura27_B = "Gonna corta",
+	IGUI_SFQuest_Questyno_XuMishura27_C = "Gonna al ginocchio",
 	
 	IGUI_SFQuest_Questyno_XuMishura28_Title = "Xu",
     IGUI_SFQuest_Questyno_XuMishura28_Text = "Xu per le donne",
@@ -4681,15 +4693,15 @@ IGUI_IT = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis1_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis1_Text = "Due zuppe per Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis1_Lore = "Christopher mi ha chiesto di portargli 2 Pentola di Zuppa. Spero gli baster?",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Lore = "Christopher mi ha chiesto di portargli 2 Pentola di Zuppa. Spero gli basterà",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di stufato?",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_ChristopherDavis1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale per?. Questi te li sei meritati.",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale però. Questi te li sei meritati.",
 
     IGUI_SFQuest_Questyno_ChristopherDavis2_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis2_Text = "Quattro salti in padella per Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella. Spero gli baster?",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella. Spero gli basterà",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text = "Scommetto che anche tu hai un leggero languorino. Riesci a portarmi qualcosa di saltato in padella?",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -4776,7 +4788,7 @@ IGUI_IT = {
 	
     IGUI_SFQuest_Questyno_ChristopherDavis11_Title = "Christopher da West Point 10161,6627,0",
 	IGUI_SFQuest_Questyno_ChristopherDavis11_Text = "Dei coltelli per Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis11_Lore = "Christopher mi ha chiesto di portargli 4 Coltelli da cucina. Spero gli baster?.",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Lore = "Christopher mi ha chiesto di portargli 4 Coltelli da cucina. Spero gli basterà.",
     IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text = "Continuo a tagliare, tritare e sfilettare, sempre con la mia solita Mannaia. Non è che tante volte riesci a trovarmi un coltello affilato?",
     IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text_Declined = "Resto qui ad aspettarti.",
@@ -6225,7 +6237,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HarperWells_Name = "Harper Wells",
 
     IGUI_SFQuest_Questyno_HarperWells_Intro_Title = "Harper Wells da Raven Creek (4866,11186,0)",
-    IGUI_SFQuest_Questyno_HarperWells_Intro_Text = "Incontra Harper Wells. [Mensile]",
+    IGUI_SFQuest_Questyno_HarperWells_Intro_Text = "Incontra Harper Wells. [Annuale]",
     IGUI_SFQuest_Questyno_HarperWells_Intro_Lore = "Harper fa parte della banda di Nigel, insieme a i compagni cercano di recuperare informazioni ormai perse nelle città radioattive. Non sarà semplice avere la loro fiducia ma non è una cosa che mi interessa. La cosa importante è poter dare una speranza al mio gruppo.",
     IGUI_SFQuest_Questyno_HarperWells_Intro_Complete_Text = "Heil?, abbiamo sentito parlare di te, hai voglia di fare qualcosa di davvero utile per questo mondo? Allora spero sarai disposto ad aiutarmi. Io sono Harper Wells, prima di tutto questo ero un ricercatore. Insieme a Olivia abbiamo sviluppato un Vaccino che pare funzionare, riesce a coprire più del 50% dal virus zombie. Nell'ultimo mese però ci stiamo concentrando su una Cura definitiva. Saresti disposto a somminstrarla a qualcuno dei tuoi per testare i suoi effetti?",
 
@@ -6957,7 +6969,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_CharlesDavis_Name = "Charles Davis",
 
     IGUI_SFQuest_Questyno_JuanBaker_Title = "Juan Baker da Redfordville (3837,7028,1)",
-    IGUI_SFQuest_Questyno_JuanBaker_Text = "Scambia con Juan",
+    IGUI_SFQuest_Questyno_JuanBaker_Text = "Scambia con Juan [Bimensile]",
     IGUI_SFQuest_Questyno_JuanBaker_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_JuanBaker_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_JuanBaker_Accepted = "Affare fatto!",
@@ -6967,7 +6979,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JuanBaker_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_FuriMishura_Title = "Furi Mishura da Trelai (6688,7467,1)",
-    IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Furi",
+    IGUI_SFQuest_Questyno_FuriMishura_Text = "Scambia con Furi [Bimensile]",
     IGUI_SFQuest_Questyno_FuriMishura_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_FuriMishura_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",    
     IGUI_SFQuest_Questyno_FuriMishura_Accepted = "Affare fatto!",
@@ -6977,7 +6989,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_FuriMishura_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_SandraHarris_Title = "Sandra Harris da Trelai (6684,6820,1)",
-    IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra",
+    IGUI_SFQuest_Questyno_SandraHarris_Text = "Scambia con Sandra [Bimensile]",
     IGUI_SFQuest_Questyno_SandraHarris_Lore = "Salve! Per gestire meglio le risorse, stiamo razionando i rifornimenti e offriamo una Tanica Media al mese per 100$. Riempio la tua?",
     IGUI_SFQuest_Questyno_SandraHarris_Begin = "Salve! Per gestire meglio le risorse, stiamo razionando i rifornimenti e offriamo una Tanica Media al mese per 100$. Riempio la tua?",
     IGUI_SFQuest_Questyno_SandraHarris_Accepted = "Affare fatto!",
@@ -6987,7 +6999,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SandraHarris_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_EricAdams_Title = "Eric Adams da Trelai (7659,7316,1)",
-    IGUI_SFQuest_Questyno_EricAdams_Text = "Scambia con Eric",
+    IGUI_SFQuest_Questyno_EricAdams_Text = "Scambia con Eric [Bimensile]",
     IGUI_SFQuest_Questyno_EricAdams_Lore = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_EricAdams_Begin = "Heila! Posso riempirti una sola Tanica Media al mese, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_EricAdams_Accepted = "Affare fatto!",
@@ -6997,7 +7009,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EricAdams_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_RonaldPerez_Title = "Ronald Perez da Little Town (8353,8579,1)",
-    IGUI_SFQuest_Questyno_RonaldPerez_Text = "Scambia con Ronald",
+    IGUI_SFQuest_Questyno_RonaldPerez_Text = "Scambia con Ronald [Bimensile]",
     IGUI_SFQuest_Questyno_RonaldPerez_Lore = "Sto attuando un piano di razionamento e possiamo garantirti una Tanica Media ogni due mesi per 100$. Questa misura è necessaria per gestire le scorte in modo più efficiente. Accetti?",
     IGUI_SFQuest_Questyno_RonaldPerez_Begin = "Sto attuando un piano di razionamento e possiamo garantirti una Tanica Media ogni due mesi per 100$. Questa misura è necessaria per gestire le scorte in modo più efficiente. Accetti?",
     IGUI_SFQuest_Questyno_RonaldPerez_Accepted = "Affare fatto!",
@@ -7007,7 +7019,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RonaldPerez_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_GarrettKing_Title = "Garrett King da Springwood (10399,8316,1)",
-    IGUI_SFQuest_Questyno_GarrettKing_Text = "Scambia con Garrett",
+    IGUI_SFQuest_Questyno_GarrettKing_Text = "Scambia con Garrett [Bimensile]",
     IGUI_SFQuest_Questyno_GarrettKing_Lore = "Heila! Posso riempirti una sola Tanica Media ogni due mesi, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_GarrettKing_Begin = "Heila! Posso riempirti una sola Tanica Media ogni due mesi, dobbiamo razionare le scorte! Ti riempio la tua per 100$, ci stai?",
     IGUI_SFQuest_Questyno_GarrettKing_Accepted = "Affare fatto!",
@@ -7017,7 +7029,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_GarrettKing_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_MarvinPerry_Title = "Marvin Perry da Rosewood Nord (8186,11296,1)",
-    IGUI_SFQuest_Questyno_MarvinPerry_Text = "Scambia con Marvin",
+    IGUI_SFQuest_Questyno_MarvinPerry_Text = "Scambia con Marvin [Bimensile]",
     IGUI_SFQuest_Questyno_MarvinPerry_Lore = "Ciao. Stiamo limitando i rifornimenti a una sola Tanica Media ogni due mesi per gestire meglio le scorte. Posso riempire la tua al costo di 100$. Accetti l'offerta?",
     IGUI_SFQuest_Questyno_MarvinPerry_Begin = "Ciao. Stiamo limitando i rifornimenti a una sola Tanica Media ogni due mesi per gestire meglio le scorte. Posso riempire la tua al costo di 100$. Accetti l'offerta?",
     IGUI_SFQuest_Questyno_MarvinPerry_Accepted = "Affare fatto!",
@@ -7027,7 +7039,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MarvinPerry_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_KarenTaylor_Title = "Karen Taylor da March Ridge (10144,12787,1)",
-    IGUI_SFQuest_Questyno_KarenTaylor_Text = "Scambia con Karen",
+    IGUI_SFQuest_Questyno_KarenTaylor_Text = "Scambia con Karen [Bimensile]",
     IGUI_SFQuest_Questyno_KarenTaylor_Lore = "Buongiorno! Dobbiamo razionare i rifornimenti e possiamo riempire la tua Tanica Media una volta ogni due mesi. Il costo è di 100$. Ci stai?",
     IGUI_SFQuest_Questyno_KarenTaylor_Begin = "Buongiorno! Dobbiamo razionare i rifornimenti e possiamo riempire la tua Tanica Media una volta ogni due mesi. Il costo è di 100$. Ci stai?",
     IGUI_SFQuest_Questyno_KarenTaylor_Accepted = "Affare fatto!",
@@ -7037,7 +7049,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_KarenTaylor_Complete = "Ecco tieni!",
 
     IGUI_SFQuest_Questyno_CharlesDavis_Title = "Charles Davis dalla Tana (9285,8482,1)",
-    IGUI_SFQuest_Questyno_CharlesDavis_Text = "Scambia con Charles",
+    IGUI_SFQuest_Questyno_CharlesDavis_Text = "Scambia con Charles [Mensile]",
     IGUI_SFQuest_Questyno_CharlesDavis_Lore = "Heila! Posso riempirti una sola Tanica di benzina al mese, dobbiamo razionare le scorte! Ti riempio la tua per 20$, ci stai?",
     IGUI_SFQuest_Questyno_CharlesDavis_Begin = "Heila! Posso riempirti una sola Tanica di benzina  al mese, dobbiamo razionare le scorte! Ti riempio la tua per 20$, ci stai?",
     IGUI_SFQuest_Questyno_CharlesDavis_Accepted = "Affare fatto!",
@@ -7182,7 +7194,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AnselMerrick_Name = "Ansel Merrick",
 
     IGUI_SFQuest_Questyno_AnselMerrick_Intro_Title = "Ansel Merrick",
-    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Text = "Parla con Ansel per sbloccare le daily.",
+    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Text = "Parla con Ansel per sbloccare le daily [Settimanale]",
     IGUI_SFQuest_Questyno_AnselMerrick_Intro_Lore = "Pare che Ansel Merrick sia stato un contrabbandiere abile e ingegnoso, uno di quelli che sapeva come muoversi fra binari abbandonati e tunnel dimenticati, eludendo saccheggiatori e brulicanti orde di non-morti. Chi lo conosceva bene racconta che, senza l’aiuto della sua vecchia partner Petra, non avrebbe superato quella notte maledetta, quando i rifugi di fortuna furono invasi dagli infetti. Dicono che oggi sia tornato per insegnare come tener testa a quei mostri e far sparire la paura dai volti dei più deboli.",
     IGUI_SFQuest_Questyno_AnselMerrick_Intro_Complete_Text = "Mi chiamo Ansel Merrick. Un tempo ero un contrabbandiere, uno che guidava piccoli gruppi di disperati attraverso vecchie tratte ferroviarie e tunnel dimenticati. Portavo cibo, munizioni e medicinali a chi ne aveva bisogno, scavalcando posti di blocco e aggirando pattuglie di saccheggiatori. Era una vita rischiosa, ma mi ero creato una reputazione: sapevo come evitare guai, o almeno così credevo. Poi, una notte, un’orda di infetti ha fatto irruzione nei nostri rifugi di fortuna. Le mie rotte segrete non bastarono a salvarci: ci trovammo circondati e in trappola. Fu grazie al colpo di genio di Petra, la mia vecchia partner, che riuscimmo a scappare. Lei ha tenuto a bada quei mostri bastardi con un fucile a canne mozze e uno sguardo deciso, mentre io trascinavo il resto del gruppo verso un’apertura laterale in un vagone abbandonato. Senza di lei, non sarei qui ora. Sono tornato per aiutarti a non tremare più davanti a quei mangiacarne. Se c’è una cosa che ho imparato in tutti questi anni, è che la paura si può vincere, e io sono qui per mostrarti come.",
 
@@ -8102,7 +8114,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_VivianParker_Name = "Vivian Parker",
 
     IGUI_SFQuest_Questyno_VivianParker_Intro_Title = "Vivian Parker",
-    IGUI_SFQuest_Questyno_VivianParker_Intro_Text = "Incontra Vivian Parker [Mensili]",
+    IGUI_SFQuest_Questyno_VivianParker_Intro_Text = "Incontra Vivian Parker [Annuali]",
     IGUI_SFQuest_Questyno_VivianParker_Intro_Lore = "Vivian ha trovato il suo modo di raccimolare qualcosa offrendo questo servizio molto utile a tutti, io gli porto le torce al propano quasi finite e lei me le svuota dentro una bomba pronta all'uso!",
     IGUI_SFQuest_Questyno_VivianParker_Intro_Complete_Text = "Heila! Se ti va possiamo diventare amici io e tu! Piacere, io sono Vivian! Lavoravo nell'offina di mio padre da piccola, è li che ho imparato a usare ogni tipo di strumento. Dopo aver aiutato il gruppo di Lousiville mi sono fatta da parte per dare una mano ad Ovest. Mi trovo bene fra questi ragazzi, gli do una mano ad oliare queste torrette! Passa da me almeno una volta l'hanno o ti proporrò un affare interessante! Intanto comincia a raccogliere quante più torce al propano puoi, torna da me e non resterai deluso! ",
 
@@ -8126,7 +8138,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MalachiBlevins_Name = "Malachi Blevins",
 
     IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Title = "Malachi Blevins",
-    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Text = "Parla con Malachi Blevins [Mensili]",
+    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Text = "Parla con Malachi Blevins [Settimanali]",
     IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Lore = "Ho incontrato Malachi nel vecchio magazzino alla Cittadella. Tra scaffali cedevoli e scatoloni impolverati, ho intravisto un mare di riviste, giornali e fumetti d’epoca, impilati in equilibrio precario come torri di carta. Malachi, non è più solo un collezionista: è un vero e proprio archeologo della “letteratura spazzatura”, sempre alla ricerca di quella rarità introvabile che per lui vale più di un tesoro.",
     IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Complete_Text = "Hei viandante! Non capita spesso di vedere una faccia nuova in questo vecchio deposito di riviste e fumetti… Piacere di conoscerti, io sono Malachi, collezionista incallito e orgoglioso esploratore di ogni forma di ‘letteratura spazzatura’! Vedi queste pile traballanti? Per la maggior parte delle persone non sono altro che scarti polverosi, ma per me sono tesori inestimabili, frammenti di immaginazione che aspettano solo di essere riscoperti. Se riuscirai a portare a termine alcuni compiti che ti affiderò, sarai ricompensato con tutto ciò che ho a disposizione: qualche extra moneta, forse un fumetto raro, e la gratitudine di un collezionista che sa riconoscere il valore dell’aiuto di un vero avventuriero. E allora, che mi dici? Sei pronto a entrare nel mondo sorprendente della carta polverosa e delle storie dimenticate?",
 

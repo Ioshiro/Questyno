@@ -867,28 +867,28 @@ local chinaQuest8 = {
         text = "IGUI_SFQuest_Questyno_RosaChina8_A",
         icon = "media/textures/Item_Grasshopper",
         hidden = false,
-        needsitem = "PredicateFreshFood#Grasshopper;5",
-        onobtained = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Grasshopper;5"
+        needsitem = "PredicateFreshFood#Grasshopper;3",
+        onobtained = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Grasshopper;3"
     }, { 
         guid = "Questyno_RosaChina8_B",
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
         icon = "media/textures/Item_Pillbug",
         hidden = false,
-        needsitem = "PredicateFreshFood#Pillbug;5",
-        onobtained = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Pillbug;5"
+        needsitem = "PredicateFreshFood#Pillbug;1",
+        onobtained = "updateobjective;Questyno_RosaChina8;2;Completed;removeitem;Pillbug;1"
     }, {
         guid = "Questyno_RosaChina8_C",
         text = "IGUI_SFQuest_Questyno_RosaChina8_C",
         icon = "media/textures/Item_Cockroach",
         hidden = false,
-        needsitem = "PredicateFreshFood#Cockroach;4",
-        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;4"
+        needsitem = "PredicateFreshFood#Cockroach;2",
+        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;2"
     },{
         guid = "Questyno_RosaChina8_D",
         text = "IGUI_SFQuest_Questyno_RosaChina8_D",
         hidden = false,
-        needsitem = "PredicateFreshFood#Snail;10",
-        onobtained = "updateobjective;Questyno_RosaChina8;4;Completed;removeitem;Snail;10"
+        needsitem = "PredicateFreshFood#Snail;5",
+        onobtained = "updateobjective;Questyno_RosaChina8;4;Completed;removeitem;Snail;5"
     }}, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina8_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -900,7 +900,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest8);
 local chinaQuest8A = {
     guid = "Questyno_RosaChina8_A",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina8_Lore" },

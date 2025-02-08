@@ -1067,7 +1067,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_CharlesDavis",
-	condition = "notmaxedwithcode;Questyno_CharlesDavis;1;hasfactiontier;LaResistenza;4",
+	condition = "notmaxedwithcode;Questyno_CharlesDavis;1;hasfactiontier;LaResistenza;5",
 	commands = "randomcodedworldfrompool;Questyno_CharlesDavis;Questyno;CharlesDavis",
 	days = 0,
 	frequency = 30
