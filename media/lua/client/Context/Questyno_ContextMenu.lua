@@ -20,8 +20,13 @@ function ISInventoryMenuElements.ContextBikeKey()
     function self.spawnBike( _p)
         local key = self.invMenu.inventory:getItemFromType("LR.ChiaveBicicletta")
 		if key == nil then return end
-        addVehicleDebug("Base.BicycleMTB", IsoDirections.S, nil, _p:getSquare());
-        _p:getInventory():Remove(key)
+        _p:setDir(IsoDirections.W)
+			if isClient() then
+				local command = "/addvehicle Base.BicycleMTB"
+				SendCommandToServer(command)
+			else
+				addVehicle(tostring(self:getVehicle()))
+			end
 	end
 	return self;
 end
