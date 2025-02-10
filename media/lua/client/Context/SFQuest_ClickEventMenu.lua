@@ -39,7 +39,6 @@ local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
 	local playerObj = getSpecificPlayer(player)
 	if test then return ISWorldObjectContextMenu.setTest() end
 	if not playerObj:getModData().missionProgress.ClickEvent then return end
-	if #playerObj:getModData().missionProgress.ClickEvent == 0 then return end
 
 	local square = worldobjects[1]:getSquare();
 
@@ -52,7 +51,7 @@ local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
 			if event then
 				local square = getCell():getGridSquare(i, j, startingZ);
 				local event = playerObj:getModData().missionProgress.ClickEvent[sqTag]
-    			local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"),	worldobjects, onClickEvent, playerObj, square, event.address, event.		actiondata,	event.commands);
+    			local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"), worldobjects, onClickEvent, playerObj, square, event.address, event.actiondata, event.commands);
 				clickOption.iconTexture = getTexture("media/textures/clickevent.png");
 				break
 			end

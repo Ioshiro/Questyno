@@ -214,27 +214,60 @@ function SFQuest_PlayerHandler.OnGameStart()
 	SF_MissionPanel.instance:triggerUpdate();
 	
 	local player = getPlayer();
-	if player:getModData().missionProgress and player:getModData().missionProgress.WorldEvent then
-		for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
-			local squareTable = luautils.split(k2, "x");
-			local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
-			local square = getCell():getGridSquare(x, y, z);
-			local marker
-				if square then
-                    if string.find(string.lower(v2.dialoguecode), "complete") then
-                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
-                    else
-					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
-                    end
-				marker:setDoAlpha(false);
-				marker:setAlphaMin(0.8);
-				marker:setAlpha(1.0);
-				v2.marker = marker;
+	if player:getModData().missionProgress then
+		if  player:getModData().missionProgress.WorldEvent then
+			for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
+				if not v2.marker then
+					local squareTable = luautils.split(k2, "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					local marker = nil
+					if square then
+        	    	    if string.find(string.lower(v2.dialoguecode), "complete") then
+        	    	        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+        	    	    else
+						    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+        	    	    end
+						if marker then
+							marker:setDoAlpha(false);
+							marker:setAlphaMin(0.8);
+							marker:setAlpha(1.0);
+							v2.marker = marker;
+						end
+					end
+				else
+					v2.marker:setDoAlpha(false);
+					v2.marker:setAlphaMin(0.8);
+					v2.marker:setAlpha(1.0);
+				end
+			end
+		end
+		if player:getModData().missionProgress.ClickEvent then
+			for c=1,#player:getModData().missionProgress.ClickEvent do
+				local event = player:getModData().missionProgress.ClickEvent[c];
+				if not event.marker then
+					local squareTable = luautils.split(event.square, "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					local marker = nil
+					if square then
+						marker = getIsoMarkers():addIsoMarker({}, {"media/textures/clickevent.png"}, square, 1, 1, 1, false, false);
+						if marker then
+							marker:setDoAlpha(false);
+							marker:setAlphaMin(0.8);
+							marker:setAlpha(1.0);
+							event.marker = marker;
+						end
+					end
+				else
+					event.marker:setDoAlpha(false);
+					event.marker:setAlphaMin(0.8);
+					event.marker:setAlpha(1.0);
+				end
 			end
 		end
 	end
 end
-
 
 
 Events.OnCreatePlayer.Add(onCreatedPlayer);

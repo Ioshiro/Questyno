@@ -1034,19 +1034,25 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 				local squareTable = luautils.split(k2, "x");
 				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
 				local square = getCell():getGridSquare(x, y, z);
-                local marker
+                local marker = nil
 				if square then
                     if string.find(string.lower(v2.dialoguecode), "complete") then
                         marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
                     else
 					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
                     end
-					marker:setDoAlpha(false);
-					marker:setAlphaMin(0.8);
-					marker:setAlpha(1.0);
-					v2.marker = marker;
+					if marker then
+						marker:setDoAlpha(false);
+						marker:setAlphaMin(0.8);
+						marker:setAlpha(1.0);
+						v2.marker = marker;
+					end
 				end
-			end
+			else
+                v2.marker:setDoAlpha(false);
+                v2.marker:setAlphaMin(0.8);
+                v2.marker:setAlpha(1.0);
+            end
 		end
 	end
 
@@ -1060,12 +1066,19 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                 local marker
 				if square then
 					marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
-					marker:setDoAlpha(false);
-					marker:setAlphaMin(0.8);
-					marker:setAlpha(1.0);
-					event.marker = marker;
+					if marker then
+                        marker:setDoAlpha(false);
+                        marker:setAlphaMin(0.8);
+                        marker:setAlpha(1.0);
+                        event.marker = marker;
+                    end
+					
 				end
-			end
+			else
+                event.marker:setDoAlpha(false);
+                event.marker:setAlphaMin(0.8);
+                event.marker:setAlpha(1.0);
+            end
         end
     end
 	
