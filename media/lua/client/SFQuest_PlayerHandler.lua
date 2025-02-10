@@ -243,8 +243,7 @@ function SFQuest_PlayerHandler.OnGameStart()
 			end
 		end
 		if player:getModData().missionProgress.ClickEvent then
-			for c=1,#player:getModData().missionProgress.ClickEvent do
-				local event = player:getModData().missionProgress.ClickEvent[c];
+			for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
 				if not event.marker then
 					local squareTable = luautils.split(event.square, "x");
 					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);

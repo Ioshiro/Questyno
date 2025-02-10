@@ -259,13 +259,12 @@ end
 function SF_MissionPanel.Commands.removeclickevent(address)
 	local player = getPlayer();
 	if not player:getModData().missionProgress.ClickEvent then return end
-	for c=1,#player:getModData().missionProgress.ClickEvent do
-		local event = player:getModData().missionProgress.ClickEvent[c];
+	for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
 		if event.address and event.address == address then
             if event.marker then
                 event.marker:remove();
             end
-			table.remove(player:getModData().missionProgress.ClickEvent, c);
+			player:getModData().missionProgress.ClickEvent[k2] = nil;
 			SF_MissionPanel.instance.needsBackup = true;
 			break;
 		end
@@ -290,10 +289,9 @@ function SF_MissionPanel.Commands.removequest(questid)
                                 for j = 1, #oncompletedTable do
                                     if oncompletedTable[j] == "removeclickevent" then
                                         local removeClickEventValue = oncompletedTable[j + 1]
-                                        for c=1,#player:getModData().missionProgress.ClickEvent do
-                                            local event = player:getModData().missionProgress.ClickEvent[c];
+                                        for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
                                             if event.address and event.address == removeClickEventValue then
-                                                table.remove(player:getModData().missionProgress.ClickEvent, c);
+                                                player:getModData().missionProgress.ClickEvent[k2] = nil
                                                 break;
                                             end
                                         end
@@ -314,10 +312,9 @@ function SF_MissionPanel.Commands.removequest(questid)
                                     end
                                     if oncompletedTable[j] == "clickevent" then
                                         local removeClickEventValue = oncompletedTable[j + 2]
-                                        for c=1,#player:getModData().missionProgress.ClickEvent do
-                                            local event = player:getModData().missionProgress.ClickEvent[c];
+                                        for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
                                             if event.address and event.address == removeClickEventValue then
-                                                table.remove(player:getModData().missionProgress.ClickEvent, c);
+                                                player:getModData().missionProgress.ClickEvent[k2] = nil
                                                 break;
                                             end
                                         end
@@ -344,10 +341,9 @@ function SF_MissionPanel.Commands.removequest(questid)
                                         end
                                         if onObtainedTable[j] == "clickevent" then
                                             local removeClickEventValue = onObtainedTable[j + 2]
-                                            for c=1,#player:getModData().missionProgress.ClickEvent do
-                                                local event = player:getModData().missionProgress.ClickEvent[c];
+                                            for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
                                                 if event.address and event.address == removeClickEventValue then
-                                                    table.remove(player:getModData().missionProgress.ClickEvent, c);
+                                                    player:getModData().missionProgress.ClickEvent[k2] = nil
                                                     break;
                                                 end
                                             end
@@ -390,10 +386,9 @@ function SF_MissionPanel.Commands.removequest(questid)
                                 end
                                 if unlocksTable[j] == "clickevent" then
                                     local removeClickEventValue = unlocksTable[j + 2]
-                                    for c=1,#player:getModData().missionProgress.ClickEvent do
-                                        local event = player:getModData().missionProgress.ClickEvent[c];
+                                    for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
                                         if event.address and event.address == removeClickEventValue then
-                                            table.remove(player:getModData().missionProgress.ClickEvent, c);
+                                            player:getModData().missionProgress.ClickEvent[k2] = nil
                                             break;
                                         end
                                     end
@@ -1057,8 +1052,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 	end
 
     if player:getModData().missionProgress.ClickEvent then
-        for c=1,#player:getModData().missionProgress.ClickEvent do
-            local event = player:getModData().missionProgress.ClickEvent[c];
+        for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
             if not event.marker then
 				local squareTable = luautils.split(event.square, "x");
 				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
