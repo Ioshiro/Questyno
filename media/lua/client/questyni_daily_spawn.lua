@@ -35,7 +35,6 @@ require 'SFQuest_Database'
                     26. Recupera 10 LabItems.LabSyringe (60 rep + 5 LabItems.LabSyringe)
                     27. Recupera 3 Base.Bandage (50 rep + 50$)
                     28. Recupera 1 Base.PillsAntiDep (40 rep + 1 PynoTweaks.Joint)
-
 ]]
 local grifIntro = {
     guid = "Questyno_Grif_Intro",
@@ -44,7 +43,7 @@ local grifIntro = {
     --awardstask = "Questyno_Grif1", -- TODO: REMOVE WHEN TESTING IS DONE
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Grif_Intro_Lore" },
-    ondone = "addreputation;SergenteGrif;100",
+    ondone = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
     text = "IGUI_SFQuest_Questyno_Grif_Intro_Text",
     texture = "media/textures/Item_Grif.png",
     unique = true,
@@ -56,11 +55,11 @@ table.insert(SFQuest_Database.QuestPool, grifIntro);
 local grifQuest1 = {
     guid = "Questyno_Grif1",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif1_Lore" },
-    needsitem = "FirstAidKit;1", -- REQUIRE
+    needsitem = "FirstAidKit;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif1_Complete",
     text = "IGUI_SFQuest_Questyno_Grif1_Text",
     texture = "media/textures/Item_Grif.png",
@@ -72,11 +71,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest1);
 local grifQuest2 = {
     guid = "Questyno_Grif2",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;360", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif2_Lore" },
-    needsitem = "Pills;1", -- REQUIRE
+    needsitem = "Pills;6", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif2_Complete",
     text = "IGUI_SFQuest_Questyno_Grif2_Text",
     texture = "media/textures/Item_Grif.png",
@@ -88,11 +87,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest2);
 local grifQuest3 = {
     guid = "Questyno_Grif3",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif3_Lore" },
-    needsitem = "PillsSleepingTablets;1", -- REQUIRE
+    needsitem = "PillsSleepingTablets;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif3_Complete",
     text = "IGUI_SFQuest_Questyno_Grif3_Text",
     texture = "media/textures/Item_Grif.png",
@@ -104,7 +103,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest3);
 local grifQuest4 = {
     guid = "Questyno_Grif4",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif4_Lore" },
@@ -120,11 +119,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest4);
 local grifQuest5 = {
     guid = "Questyno_Grif5",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif5_Lore" },
-    needsitem = "Bandage;3", -- REQUIRE
+    needsitem = "Bandage;12", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif5_Complete",
     text = "IGUI_SFQuest_Questyno_Grif5_Text",
     texture = "media/textures/Item_Grif.png",
@@ -136,11 +135,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest5);
 local grifQuest6 = {
     guid = "Questyno_Grif6",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif6_Lore" },
-    needsitem = "PillsAntiDep;1", -- REQUIRE
+    needsitem = "PillsAntiDep;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif6_Complete",
     text = "IGUI_SFQuest_Questyno_Grif6_Text",
     texture = "media/textures/Item_Grif.png",
@@ -152,11 +151,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest6);
 local grifQuest7 = {
     guid = "Questyno_Grif7",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif7_Lore" },
-    needsitem = "PillsVitamins;1", -- REQUIRE
+    needsitem = "PillsVitamins;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif7_Complete",
     text = "IGUI_SFQuest_Questyno_Grif7_Text",
     texture = "media/textures/Item_Grif.png",
@@ -168,11 +167,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest7);
 local grifQuest8 = {
     guid = "Questyno_Grif8",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif8_Lore" },
-    needsitem = "Antibiotics;1", -- REQUIRE
+    needsitem = "Antibiotics;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif8_Complete",
     text = "IGUI_SFQuest_Questyno_Grif8_Text",
     texture = "media/textures/Item_Grif.png",
@@ -184,12 +183,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest8);
 local grifQuest9 = {
     guid = "Questyno_Grif9",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif9_Lore" },
-    needsitem = "PillsBeta;1", -- REQUIRE
+    needsitem = "PillsBeta;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif9_Complete",
     text = "IGUI_SFQuest_Questyno_Grif9_Text",
     texture = "media/textures/Item_Grif.png",
@@ -239,7 +238,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest10);
 local grifQuest10A = {
     guid = "Questyno_Grif10_A",
 
-    awardsrep = "LaResistenza;135", -- REP REWARD
+    awardsrep = "LaResistenza;235", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
@@ -292,7 +291,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest11);
 local grifQuest11A = {
     guid = "Questyno_Grif11_A",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     awardsitem = "Money;40",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -347,7 +346,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest12);
 local grifQuest12A = {
     guid = "Questyno_Grif12_A",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif12_Lore" },
@@ -361,11 +360,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest12A);
 local grifQuest13 = {
     guid = "Questyno_Grif13",
 
-    awardsrep = "LaResistenza;75", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif13_Lore" },
-    needsitem = "CottonBalls;2", -- REQUIRE
+    needsitem = "CottonBalls;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif13_Complete",
     text = "IGUI_SFQuest_Questyno_Grif13_Text",
     texture = "media/textures/Item_Grif.png",
@@ -381,7 +380,7 @@ local grifQuest14 = {
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif14_Lore" },
-    needsitem = "Disinfectant;1", -- REQUIRE
+    needsitem = "Disinfectant;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif14_Complete",
     text = "IGUI_SFQuest_Questyno_Grif14_Text",
     texture = "media/textures/Item_Grif.png",
@@ -393,11 +392,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest14);
 local grifQuest15 = {
     guid = "Questyno_Grif15",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif15_Lore" },
-    needsitem = "AlcoholWipes;1", -- REQUIRE
+    needsitem = "AlcoholWipes;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif15_Complete",
     text = "IGUI_SFQuest_Questyno_Grif15_Text",
     texture = "media/textures/Item_Grif.png",
@@ -438,7 +437,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest16);
 local grifQuest16A = {
     guid = "Questyno_Grif16_A",
 
-    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -453,12 +452,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest16A);
 local grifQuest17 = {
     guid = "Questyno_Grif17",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif17_Lore" },
-    needsitem = "SutureNeedle;1", -- REQUIRE
+    needsitem = "SutureNeedle;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif17_Complete",
     text = "IGUI_SFQuest_Questyno_Grif17_Text",
     texture = "media/textures/Item_Grif.png",
@@ -470,11 +469,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest17);
 local grifQuest18 = {
     guid = "Questyno_Grif18",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif18_Lore" },
-    needsitem = "AlcoholBandage;2", -- REQUIRE
+    needsitem = "AlcoholBandage;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif18_Complete",
     text = "IGUI_SFQuest_Questyno_Grif18_Text",
     texture = "media/textures/Item_Grif.png",
@@ -486,11 +485,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest18);
 local grifQuest19 = {
     guid = "Questyno_Grif19",
 
-    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif19_Lore" },
-    needsitem = "Bandaid;1", -- REQUIRE
+    needsitem = "Bandaid;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif19_Complete",
     text = "IGUI_SFQuest_Questyno_Grif19_Text",
     texture = "media/textures/Item_Grif.png",
@@ -502,7 +501,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest19);
 local grifQuest20 = {
     guid = "Questyno_Grif20",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;25",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -519,11 +518,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest20);
 local grifQuest21 = {
     guid = "Questyno_Grif21",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif21_Lore" },
-    needsitem = "Tweezers;1", -- REQUIRE
+    needsitem = "Tweezers;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif21_Complete",
     text = "IGUI_SFQuest_Questyno_Grif21_Text",
     texture = "media/textures/Item_Grif.png",
@@ -568,12 +567,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest23);
 local grifQuest24 = {
     guid = "Questyno_Grif24",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Pills;1",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif24_Lore" },
-    needsitem = "Pills;2", -- REQUIRE
+    needsitem = "Pills;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif24_Complete",
     text = "IGUI_SFQuest_Questyno_Grif24_Text",
     texture = "media/textures/Item_Grif.png",
@@ -585,12 +584,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest24);
 local grifQuest25 = {
     guid = "Questyno_Grif25",
 
-    awardsrep = "LaResistenza;25",         -- REP REWARD
+    awardsrep = "LaResistenza;400",         -- REP REWARD
     awardsitem = "PillsSleepingTablets;1", -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif25_Lore" },
-    needsitem = "PillsSleepingTablets;1", -- REQUIRE
+    needsitem = "PillsSleepingTablets;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif25_Complete",
     text = "IGUI_SFQuest_Questyno_Grif25_Text",
     texture = "media/textures/Item_Grif.png",
@@ -602,7 +601,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest25);
 local grifQuest26 = {
     guid = "Questyno_Grif26",
 
-    awardsrep = "LaResistenza;60",        -- REP REWARD
+    awardsrep = "LaResistenza;500",        -- REP REWARD
     awardsitem = "LabItems.LabSyringe;5", -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -619,12 +618,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest26);
 local grifQuest27 = {
     guid = "Questyno_Grif27",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif27_Lore" },
-    needsitem = "Bandage;3", -- REQUIRE
+    needsitem = "Bandage;6", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif27_Complete",
     text = "IGUI_SFQuest_Questyno_Grif27_Text",
     texture = "media/textures/Item_Grif.png",
@@ -636,12 +635,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest27);
 local grifQuest28 = {
     guid = "Questyno_Grif28",
 
-    awardsrep = "LaResistenza;40",     -- REP REWARD
+    awardsrep = "LaResistenza;250",     -- REP REWARD
     awardsitem = "PynoTweaks.Joint;1;PillsAntiDep;1", -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif28_Lore" },
-    needsitem = "PillsAntiDep;1", -- REQUIRE
+    needsitem = "PillsAntiDep;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif28_Complete",
     text = "IGUI_SFQuest_Questyno_Grif28_Text",
     texture = "media/textures/Item_Grif.png",
@@ -649,6 +648,114 @@ local grifQuest28 = {
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest28);
+
+local grifQuest29 = {
+    guid = "Questyno_Grif29",
+
+    awardstask = "Questyno_Grif29_A", -- TASK REWARD
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif29_Lore" },
+    objectives = { {
+        guid = "Questyno_Grif29_A",
+        text = "IGUI_SFQuest_Questyno_Grif29_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoGrif29;additem;LabItems.ChHydrochloricAcidCan;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_Grif29_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif29_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;7250x8369x0:EventoGrif29;anim:loot:time:50;updateobjective:Questyno_Grif29:1:Completed"
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest29);
+
+local grifQuest29A = {
+    guid = "Questyno_Grif29_A",
+
+    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsitem = "Money;40", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif29_Lore" },
+    needsitem = "LabItems.ChHydrochloricAcidCan;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif29_Complete",
+    text = "IGUI_SFQuest_Questyno_Grif29_A_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif29_Title",
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest29A);
+
+local grifQuest30 = {
+    guid = "Questyno_Grif30",
+
+    awardstask = "Questyno_Grif30_A", -- TASK REWARD
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif30_Lore" },
+    objectives = { {
+        guid = "Questyno_Grif30_A",
+        text = "IGUI_SFQuest_Questyno_Grif30_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoGrif30;additem;LabItems.ChSulfuricAcidCan;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_Grif30_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif30_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;5033x10038x0:EventoGrif30;anim:loot:time:50;updateobjective:Questyno_Grif30:1:Completed"
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest30);
+
+local grifQuest30A = {
+    guid = "Questyno_Grif30_A",
+
+    awardsrep = "LaResistenza;45", -- REP REWARD
+    awardsitem = "Money;50", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif30_Lore" },
+    needsitem = "PredicateFullDrainable#LabItems.ChSulfuricAcidCan;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif30_Complete",
+    text = "IGUI_SFQuest_Questyno_Grif30_A_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif30_Title",
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest30A);
+
+local grifQuest31 = {
+    guid = "Questyno_Grif31",
+
+    awardstask = "Questyno_Grif31_A", -- TASK REWARD
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif31_Lore" },
+    objectives = { {
+        guid = "Questyno_Grif31_A",
+        text = "IGUI_SFQuest_Questyno_Grif31_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoGrif31;additem;LabItems.ChSodiumHydroxideBag;1"
+    } },
+    text = "IGUI_SFQuest_Questyno_Grif31_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif31_Title",
+    unlockedsound = "QuestUnlocked",
+    unlocks = "clickevent;10287x11351x0:EventoGrif31;anim:loot:time:50;updateobjective:Questyno_Grif31:1:Completed"
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest31);
+
+local grifQuest31A = {
+    guid = "Questyno_Grif31_A",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsitem = "Money;30", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_Grif",
+    lore = { "IGUI_SFQuest_Questyno_Grif31_Lore" },
+    needsitem = "LabItems.ChSodiumHydroxideBag;1", -- REQUIRE
+    onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif31_Complete",
+    text = "IGUI_SFQuest_Questyno_Grif31_A_Text",
+    texture = "media/textures/Item_Grif.png",
+    title = "IGUI_SFQuest_Questyno_Grif31_Title",
+}
+table.insert(SFQuest_Database.QuestPool, grifQuest31A);
 
 --[[                                                       *** Angelica Stella ***
             Elenco:
@@ -715,7 +822,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest1);
 local stellaQuest1A = {
     guid = "Questyno_AngelicaStella1_A",
 
-    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Shovel2;1",      -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -753,7 +860,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest2);
 local stellaQuest2A = {
     guid = "Questyno_AngelicaStella2_A",
 
-    awardsrep = "LaResistenza;15", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "DuctTape;1",     -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -791,7 +898,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest3);
 local stellaQuest3A = {
     guid = "Questyno_AngelicaStella3_A",
 
-    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -829,7 +936,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest4);
 local stellaQuest4A = {
     guid = "Questyno_AngelicaStella4_A",
 
-    awardsrep = "LaResistenza;25", -- REP REWARD
+    awardsrep = "LaResistenza;180", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -867,7 +974,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest5);
 local stellaQuest5A = {
     guid = "Questyno_AngelicaStella5_A",
 
-    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;40",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -905,7 +1012,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest6);
 local stellaQuest6A = {
     guid = "Questyno_AngelicaStella6_A",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella6_Lore" },
@@ -942,7 +1049,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest7);
 local stellaQuest7A = {
     guid = "Questyno_AngelicaStella7_A",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -980,7 +1087,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest8);
 local stellaQuest8A = {
     guid = "Questyno_AngelicaStella8_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1009,8 +1116,7 @@ local stellaQuest9 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella9_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella9_Title",
-    unlocks =
-    "clickevent;10210x8216x0:EventoAngelicaStella9;time:50:anim:loot;updateobjective:Questyno_AngelicaStella9:1:Completed",
+    unlocks = "clickevent;10210x8216x0:EventoAngelicaStella9;time:50:anim:loot;updateobjective:Questyno_AngelicaStella9:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest9);
@@ -1055,7 +1161,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest10);
 local stellaQuest10A = {
     guid = "Questyno_AngelicaStella10_A",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella10_Lore" },
@@ -1129,7 +1235,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest12);
 local stellaQuest12A = {
     guid = "Questyno_AngelicaStella12_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella12_Lore" },
@@ -1156,8 +1262,7 @@ local stellaQuest13 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella13_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella13_Title",
-    unlocks =
-    "clickevent;8757x6545x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
+    unlocks = "clickevent;10086x10606x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest13);
@@ -1194,8 +1299,7 @@ local stellaQuest14 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella14_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella14_Title",
-    unlocks =
-    "clickevent;9719x10537x0:EventoAngelicaStella14;time:50:anim:loot;updateobjective:Questyno_AngelicaStella14:1:Completed",
+    unlocks = "clickevent;9719x10537x0:EventoAngelicaStella14;time:50:anim:loot;updateobjective:Questyno_AngelicaStella14:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest14);
@@ -1203,7 +1307,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest14);
 local stellaQuest14A = {
     guid = "Questyno_AngelicaStella14_A",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1232,8 +1336,7 @@ local stellaQuest15 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella15_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella15_Title",
-    unlocks =
-    "clickevent;8395x7581x0:EventoAngelicaStella15;time:50:anim:loot;updateobjective:Questyno_AngelicaStella15:1:Completed",
+    unlocks = "clickevent;8395x7581x0:EventoAngelicaStella15;time:50:anim:loot;updateobjective:Questyno_AngelicaStella15:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest15);
@@ -1270,8 +1373,7 @@ local stellaQuest16 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella16_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella16_Title",
-    unlocks =
-    "clickevent;9030x11491x0:EventoAngelicaStella16;time:50:anim:loot;updateobjective:Questyno_AngelicaStella16:1:Completed",
+    unlocks = "clickevent;9154x10082x0:EventoAngelicaStella16;time:50:anim:loot;updateobjective:Questyno_AngelicaStella16:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest16);
@@ -1279,7 +1381,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest16);
 local stellaQuest16A = {
     guid = "Questyno_AngelicaStella16_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "Money;80",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1308,8 +1410,7 @@ local stellaQuest17 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella17_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella17_Title",
-    unlocks =
-    "clickevent;7226x8474x1:EventoAngelicaStella17;time:50:anim:loot;updateobjective:Questyno_AngelicaStella17:1:Completed",
+    unlocks = "clickevent;7226x8474x1:EventoAngelicaStella17;time:50:anim:loot;updateobjective:Questyno_AngelicaStella17:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest17);
@@ -1317,7 +1418,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest17);
 local stellaQuest17A = {
     guid = "Questyno_AngelicaStella17_A",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1346,8 +1447,7 @@ local stellaQuest18 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella18_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella18_Title",
-    unlocks =
-    "clickevent;7016x8535x0:EventoAngelicaStella18;time:50:anim:loot;updateobjective:Questyno_AngelicaStella18:1:Completed",
+    unlocks = "clickevent;7942x9858x0:EventoAngelicaStella18;time:50:anim:loot;updateobjective:Questyno_AngelicaStella18:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest18);
@@ -1355,7 +1455,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest18);
 local stellaQuest18A = {
     guid = "Questyno_AngelicaStella18_A",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1393,7 +1493,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest19);
 local stellaQuest19A = {
     guid = "Questyno_AngelicaStella19_A",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;70;Tshirt_WhiteTINT;3",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1430,7 +1530,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest20);
 local stellaQuest20A = {
     guid = "Questyno_AngelicaStella20_A",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
@@ -1512,7 +1612,7 @@ local thomasQuest1 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas1_Lore" },
-    needsitem = "DeadRabbit;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas1_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas1_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1528,7 +1628,7 @@ local thomasQuest2 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas2_Lore" },
-    needsitem = "DeadRabbit;1", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas2_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas2_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1540,7 +1640,7 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest2);
 local thomasQuest3 = {
     guid = "Questyno_HeatherThomas3",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Twine;1",         -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -1578,7 +1678,7 @@ local thomasQuest5 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas5_Lore" },
-    needsitem = "DeadSquirrel;1", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadSquirrel;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas5_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas5_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1594,7 +1694,7 @@ local thomasQuest6 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas6_Lore" },
-    needsitem = "DeadBird;4", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadBird;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas6_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas6_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1611,7 +1711,7 @@ local thomasQuest7 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas7_Lore" },
-    needsitem = "DeadRabbit;1", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas7_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas7_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1669,7 +1769,7 @@ local thomasQuest9 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas9_Lore" },
-    needsitem = "DeadBird;2", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadBird;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas9_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas9_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1686,7 +1786,7 @@ local thomasQuest10 = {
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas10_Lore" },
-    needsitem = "DeadSquirrel;1", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadSquirrel;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas10_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas10_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1739,20 +1839,20 @@ local thomasQuest13 = {
         guid = "Questyno_HeatherThomas13_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
         hidden = false,
-        needsitem = "Worm;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;Worm;5"
+        needsitem = "PredicateFreshFood#farming.RedRadish;15",
+        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;farming.RedRadish;15"
     }, {
         guid = "Questyno_HeatherThomas13_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
         hidden = false,
-        needsitem = "Carrots;1",
+        needsitem = "PredicateFreshFood#Carrots;1",
         onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;Carrots;1"
     }, {
         guid = "Questyno_HeatherThomas13_C",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
         hidden = false,
-        needsitem = "Potato;2",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;3;Completed;removeitem;Potato;2"
+        needsitem = "PredicateFreshFood#farming.Potato;2",
+        onobtained = "updateobjective;Questyno_HeatherThomas13;3;Completed;removeitem;farming.Potato;2"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1785,13 +1885,13 @@ local thomasQuest14 = {
         guid = "Questyno_HeatherThomas14_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_A",
         hidden = false,
-        needsitem = "Grasshopper;5",
+        needsitem = "PredicateFreshFood#Grasshopper;5",
         onobtained = "updateobjective;Questyno_HeatherThomas14;1;Completed;removeitem;Grasshopper;5"
     }, {
         guid = "Questyno_HeatherThomas14_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas14_B",
         hidden = false,
-        needsitem = "Worm;10",
+        needsitem = "PredicateFreshFood#Worm;10",
         onobtained = "updateobjective;Questyno_HeatherThomas14;2;Completed;removeitem;Worm;10"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas14_Text",
@@ -1804,7 +1904,7 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest14);
 local thomasQuest14A = {
     guid = "Questyno_HeatherThomas14_A",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;180", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas14_Lore" },
@@ -1818,11 +1918,11 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest14A);
 local thomasQuest15 = {
     guid = "Questyno_HeatherThomas15",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas15_Lore" },
-    needsitem = "DeadRabbit;3", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas15_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas15_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1855,12 +1955,12 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest16);
 local thomasQuest16A = {
     guid = "Questyno_HeatherThomas16_A",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     awardsitem = "DeadSquirrel;1",  -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas16_Lore" },
-    needsitem = "DeadSquirrel;10", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadSquirrel;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas16_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas16_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1893,12 +1993,12 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest17);
 local thomasQuest17A = {
     guid = "Questyno_HeatherThomas17_A",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "DeadRabbit;1",    -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas17_Lore" },
-    needsitem = "DeadRabbit;10", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;10", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas17_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas17_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1917,7 +2017,7 @@ local thomasQuest18 = {
         guid = "Questyno_HeatherThomas18_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas18_A",
         hidden = false,
-        needsitem = "DeadRabbit;1",
+        needsitem = "PredicateFreshFood#DeadRabbit;1",
         onobtained = "updateobjective;Questyno_HeatherThomas18;1;Completed;removeitem;DeadRabbit;1"
     }, {
         guid = "Questyno_HeatherThomas18_B",
@@ -1936,7 +2036,7 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest18);
 local thomasQuest18A = {
     guid = "Questyno_HeatherThomas18_A",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "BeefJerky;2",    -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -1951,12 +2051,12 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest18A);
 local thomasQuest19 = {
     guid = "Questyno_HeatherThomas19",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "SWeapons.ScrapClub;1",    -- MONEY REWARD TODO: fixxa
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsitem = "Base.BaseballBatNails;1",    -- MONEY REWARD 
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas19_Lore" },
-    needsitem = "LeatherStrips;10", -- REQUIRE
+    needsitem = "LeatherStrips;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas19_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas19_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1968,11 +2068,12 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest19);
 local thomasQuest20 = {
     guid = "Questyno_HeatherThomas20",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsitem = "Base.PickAxe;1",    -- MONEY REWARD 
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas20_Lore" },
-    needsitem = "LeatherStrips;5", -- REQUIRE
+    needsitem = "LeatherStrips;80", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas20_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas20_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -1984,11 +2085,11 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest20);
 local thomasQuest21 = {
     guid = "Questyno_HeatherThomas21",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas21_Lore" },
-    needsitem = "TrapMouse;1", -- REQUIRE
+    needsitem = "TrapSnare;2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas21_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas21_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -2000,12 +2101,12 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest21);
 local thomasQuest22 = {
     guid = "Questyno_HeatherThomas22",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;280", -- REP REWARD
     awardsitem = "Money;50",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas22_Lore" },
-    needsitem = "DeadRabbit;3", -- REQUIRE
+    needsitem = "PredicateFreshFood#DeadRabbit;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas22_Complete",
     text = "IGUI_SFQuest_Questyno_HeatherThomas22_Text",
     texture = "media/textures/Item_HeatherThomas.png",
@@ -2017,7 +2118,7 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest22);
 local thomasQuest23 = {
     guid = "Questyno_HeatherThomas23",
 
-    awardsrep = "LaResistenza;20", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     awardsitem = "Salt;1",         -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -2117,7 +2218,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest1);
 local rimaQuest1A = {
     guid = "Questyno_EliaRima1_A",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima1_Lore" },
@@ -2166,7 +2267,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest2);
 local rimaQuest2A = {
     guid = "Questyno_EliaRima2_A",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima2_Lore" },
@@ -2306,7 +2407,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest5);
 local rimaQuest5A = {
     guid = "Questyno_EliaRima5_A",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima5_Lore" },
@@ -2424,7 +2525,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest7A);
 local rimaQuest7B = {
     guid = "Questyno_EliaRima7_B",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;15",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2468,35 +2569,35 @@ local rimaQuest8A = {
         text = "IGUI_SFQuest_Questyno_EliaRima8_B",
         needsitem = "BookCarpentry5;1",
         icon = "media/textures/Item_Book8",
-        onobtained = "updateobjective;Questyno_EliaRima8;1;Completed;removeitem;BookCarpentry5;1",
+        onobtained = "updateobjective;Questyno_EliaRima8_A;1;Completed;removeitem;BookCarpentry5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_C",
         text = "IGUI_SFQuest_Questyno_EliaRima8_C",
         needsitem = "BookFarming5;1",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima8;2;Completed;removeitem;BookFarming5;1",
+        onobtained = "updateobjective;Questyno_EliaRima8_A;2;Completed;removeitem;BookFarming5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_D",
         text = "IGUI_SFQuest_Questyno_EliaRima8_D",
         needsitem = "BookFirstAid5;1",
         icon = "media/textures/Item_Book5",
-        onobtained = "updateobjective;Questyno_EliaRima8;3;Completed;removeitem;BookFirstAid5;1",
+        onobtained = "updateobjective;Questyno_EliaRima8_A;3;Completed;removeitem;BookFirstAid5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_E",
         text = "IGUI_SFQuest_Questyno_EliaRima8_E",
         needsitem = "BookMechanic5;1",
         icon = "media/textures/Item_Book6",
-        onobtained = "updateobjective;Questyno_EliaRima8;4;Completed;removeitem;BookMechanic5;1",
+        onobtained = "updateobjective;Questyno_EliaRima8_A;4;Completed;removeitem;BookMechanic5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima8_F",
         text = "IGUI_SFQuest_Questyno_EliaRima8_F",
         needsitem = "BookMetalWelding5;1",
         icon = "media/textures/Item_Book6",
-        onobtained = "updateobjective;Questyno_EliaRima8;5;Completed;removeitem;BookMetalWelding5;1",
+        onobtained = "updateobjective;Questyno_EliaRima8_A;5;Completed;removeitem;BookMetalWelding5;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima8_A_Text",
@@ -2508,7 +2609,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest8A);
 local rimaQuest8B = {
     guid = "Questyno_EliaRima8_B",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;160", -- REP REWARD
     awardsitem = "Money;15",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2530,8 +2631,7 @@ local rimaQuest9 = {
         guid = "Questyno_EliaRima9_A",
         text = "IGUI_SFQuest_Questyno_EliaRima9_A",
         hidden = false,
-        oncompleted =
-        "removeclickevent;EventoEliaRima9;additem;BookCarpentry3;1;additem;BookFarming2;1;additem;BookFirstAid1;1;additem;BookMechanic4;1;additem;BookMetalWelding5;1;additem;BookFishing4;1;additem;TVMagazine;1;additem;Book;5;additem;ElectronicsMag4;1"
+        oncompleted = "removeclickevent;EventoEliaRima9;additem;BookCarpentry3;1;additem;BookFarming2;1;additem;BookFirstAid1;1;additem;BookMechanic4;1;additem;BookMetalWelding5;1;additem;BookFishing4;1;additem;TVMagazine;1;additem;Book;5;additem;ElectronicsMag4;1"
     } },
     text = "IGUI_SFQuest_Questyno_EliaRima9_Text",
     texture = "media/textures/Item_EliaRima.png",
@@ -2552,63 +2652,63 @@ local rimaQuest9A = {
         text = "IGUI_SFQuest_Questyno_EliaRima9_B",
         needsitem = "BookCarpentry3;1",
         icon = "media/textures/Item_Book8",
-        onobtained = "updateobjective;Questyno_EliaRima9;1;Completed;removeitem;BookCarpentry3;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;1;Completed;removeitem;BookCarpentry3;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_C",
         text = "IGUI_SFQuest_Questyno_EliaRima9_C",
         needsitem = "BookFarming2;1",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima9;2;Completed;removeitem;BookFarming2;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;2;Completed;removeitem;BookFarming2;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_D",
         text = "IGUI_SFQuest_Questyno_EliaRima9_D",
         needsitem = "BookFirstAid1;1",
         icon = "media/textures/Item_Book5",
-        onobtained = "updateobjective;Questyno_EliaRima9;3;Completed;removeitem;BookFirstAid1;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;3;Completed;removeitem;BookFirstAid1;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_E",
         text = "IGUI_SFQuest_Questyno_EliaRima9_E",
         needsitem = "BookMechanic4;1",
         icon = "media/textures/Item_Book6",
-        onobtained = "updateobjective;Questyno_EliaRima9;4;Completed;removeitem;BookMechanic4;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;4;Completed;removeitem;BookMechanic4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_F",
         text = "IGUI_SFQuest_Questyno_EliaRima9_F",
         needsitem = "BookMetalWelding5;1",
         icon = "media/textures/Item_Book6",
-        onobtained = "updateobjective;Questyno_EliaRima9;5;Completed;removeitem;BookMetalWelding5;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;5;Completed;removeitem;BookMetalWelding5;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_G",
         text = "IGUI_SFQuest_Questyno_EliaRima9_G",
         needsitem = "BookFishing4;1",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima9;6;Completed;removeitem;BookFishing4;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;6;Completed;removeitem;BookFishing4;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_H",
         text = "IGUI_SFQuest_Questyno_EliaRima9_H",
         needsitem = "TVMagazine;1",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima9;7;Completed;removeitem;TVMagazine;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;7;Completed;removeitem;TVMagazine;1",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_I",
         text = "IGUI_SFQuest_Questyno_EliaRima9_I",
         needsitem = "Book;5",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima9;8;Completed;removeitem;Book;5",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;8;Completed;removeitem;Book;5",
         hidden = false,
     }, {
         guid = "Questyno_EliaRima9_J",
         text = "IGUI_SFQuest_Questyno_EliaRima9_J",
         needsitem = "ElectronicsMag4;1",
         icon = "media/textures/Item_Book4",
-        onobtained = "updateobjective;Questyno_EliaRima9;9;Completed;removeitem;ElectronicsMag4;1",
+        onobtained = "updateobjective;Questyno_EliaRima9_A;9;Completed;removeitem;ElectronicsMag4;1",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_EliaRima9_A_Text",
@@ -2620,7 +2720,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest9A);
 local rimaQuest9B = {
     guid = "Questyno_EliaRima9_B",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "Book;2;ElectronicsMag4;1",         -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -2763,7 +2863,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest11A);
 local rimaQuest12 = {
     guid = "Questyno_EliaRima12",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "HerbalistMag;1",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima12_Lore" },
@@ -3065,7 +3165,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest17A);
 local rimaQuest17B = {
     guid = "Questyno_EliaRima17_B",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;450", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima17_Lore" },
@@ -3136,7 +3236,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest18A);
 local rimaQuest18B = {
     guid = "Questyno_EliaRima18_B",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -3157,7 +3257,7 @@ local rimaQuest19 = {
     objectives = { {
         guid = "Questyno_EliaRima19_A",
         text = "IGUI_SFQuest_Questyno_EliaRima19_A",
-        needsitem = "SheetPaper2;3",
+        needsitem = "SheetPaper2;5",
         icon = "media/textures/Item_SheetPaper2",
         onobtained = "updateobjective;Questyno_EliaRima19;1;Completed;removeitem;SheetPaper2;3",
         hidden = false,
@@ -3179,7 +3279,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest19);
 local rimaQuest19A = {
     guid = "Questyno_EliaRima19_A",
 
-    awardsrep = "LaResistenza;70", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima19_Lore" }, -- REQUIRE
@@ -3193,11 +3293,11 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest19A);
 local rimaQuest20 = {
     guid = "Questyno_EliaRima20",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima20_Lore" },
-    needsitem = "Journal;2", -- REQUIRE
+    needsitem = "Journal;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima20_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima20_Text",
     texture = "media/textures/Item_EliaRima.png",
@@ -3230,7 +3330,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest21);
 local rimaQuest21A = {
     guid = "Questyno_EliaRima21_A",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;40",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
@@ -3247,7 +3347,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest21A);
 local rimaQuest22 = {
     guid = "Questyno_EliaRima22",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima22_Lore" },
@@ -3263,7 +3363,7 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest22);
 local rimaQuest23 = {
     guid = "Questyno_EliaRima23",
 
-    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsrep = "LaResistenza;50", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima23_Lore" },
@@ -3323,11 +3423,11 @@ table.insert(SFQuest_Database.QuestPool, bobIntro);
 local bobQuest1 = {
     guid = "Questyno_BobRepair1",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair1_Lore" },
-    needsitem = "SmallSheetMetal;2", -- REQUIRE
+    needsitem = "SmallSheetMetal;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair1_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair1_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3339,12 +3439,12 @@ table.insert(SFQuest_Database.QuestPool, bobQuest1);
 local bobQuest2 = {
     guid = "Questyno_BobRepair2",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     awardsitem = "ScrapVest",       -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair2_Lore" },
-    needsitem = "SheetMetal;2", -- REQUIRE
+    needsitem = "SheetMetal;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair2_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair2_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3369,8 +3469,7 @@ local bobQuest3 = {
     text = "IGUI_SFQuest_Questyno_BobRepair3_Text",
     texture = "media/textures/Item_BobRepair.png",
     title = "IGUI_SFQuest_Questyno_BobRepair3_Title",
-    unlocks =
-    "clickevent;11599x9788x0:EventoBobRepair3;time:50:anim:loot;updateobjective:Questyno_BobRepair3:1:Completed",
+    unlocks = "clickevent;6616x10441x0:EventoBobRepair3;time:50:anim:loot;updateobjective:Questyno_BobRepair3:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest3);
@@ -3378,7 +3477,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest3);
 local bobQuest3A = {
     guid = "Questyno_BobRepair3_A",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;1700", -- REP REWARD
     awardsitem = "Money;20",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3401,16 +3500,16 @@ local bobQuest4 = {
     objectives = { {
         guid = "Questyno_BobRepair4_A",
         text = "IGUI_SFQuest_Questyno_BobRepair4_A",
-        needsitem = "ElectronicsScrap;15",
+        needsitem = "ElectronicsScrap;50",
         icon = "media/textures/Item_ElectronicsScrap",
-        onobtained = "updateobjective;Questyno_BobRepair4;1;Completed;removeitem;ElectronicsScrap;15",
+        onobtained = "updateobjective;Questyno_BobRepair4;1;Completed;removeitem;ElectronicsScrap;50",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair4_B",
         text = "IGUI_SFQuest_Questyno_BobRepair4_B",
-        needsitem = "ElectricWire;2",
+        needsitem = "ElectricWire;80",
         icon = "media/textures/Item_ElectricWire",
-        onobtained = "updateobjective;Questyno_BobRepair4;2;Completed;removeitem;ElectricWire;2",
+        onobtained = "updateobjective;Questyno_BobRepair4;2;Completed;removeitem;ElectricWire;80",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair4_C",
@@ -3430,7 +3529,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest4);
 local bobQuest4A = {
     guid = "Questyno_BobRepair4_A",
 
-    awardsrep = "LaResistenza;140", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair4_Lore" },
@@ -3444,7 +3543,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest4A);
 local bobQuest5 = {
     guid = "Questyno_BobRepair5",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair5_Lore" },
@@ -3468,23 +3567,23 @@ local bobQuest6 = {
     objectives = { {
         guid = "Questyno_BobRepair6_A",
         text = "IGUI_SFQuest_Questyno_BobRepair6_A",
-        needsitem = "ElectronicsScrap;10",
+        needsitem = "ElectronicsScrap;100",
         icon = "media/textures/Item_ElectronicsScrap",
-        onobtained = "updateobjective;Questyno_BobRepair6;1;Completed;removeitem;ElectronicsScrap;10",
+        onobtained = "updateobjective;Questyno_BobRepair6;1;Completed;removeitem;ElectronicsScrap;100",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_B",
         text = "IGUI_SFQuest_Questyno_BobRepair6_B",
-        needsitem = "Battery;2",
+        needsitem = "Battery;20",
         icon = "media/textures/Item_Battery",
-        onobtained = "updateobjective;Questyno_BobRepair6;2;Completed;removeitem;Battery;2",
+        onobtained = "updateobjective;Questyno_BobRepair6;2;Completed;removeitem;Battery;20",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_C",
         text = "IGUI_SFQuest_Questyno_BobRepair6_C",
-        needsitem = "RadioTransmitter;2",
+        needsitem = "RadioTransmitter;50",
         icon = "media/textures/Item_RadioTransmitter",
-        onobtained = "updateobjective;Questyno_BobRepair6;3;Completed;removeitem;RadioTransmitter;2",
+        onobtained = "updateobjective;Questyno_BobRepair6;3;Completed;removeitem;RadioTransmitter;50",
         hidden = false,
     } }, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_BobRepair6_Text",
@@ -3497,7 +3596,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest6);
 local bobQuest6A = {
     guid = "Questyno_BobRepair6_A",
 
-    awardsrep = "LaResistenza;150",      -- REP REWARD
+    awardsrep = "LaResistenza;450",      -- REP REWARD
     awardsitem = "SWeapons.TireIronAxe", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3533,7 +3632,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest7);
 local bobQuest7A = {
     guid = "Questyno_BobRepair7_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3550,12 +3649,12 @@ table.insert(SFQuest_Database.QuestPool, bobQuest7A);
 local bobQuest8 = {
     guid = "Questyno_BobRepair8",
 
-    awardsrep = "LaResistenza;40", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Ham",            -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair8_Lore" },
-    needsitem = "ElectricWire;5", -- REQUIRE
+    needsitem = "ElectricWire;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair8_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair8_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3595,7 +3694,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest9);
 local bobQuest9A = {
     guid = "Questyno_BobRepair9_A",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair9_Lore" },
@@ -3609,11 +3708,11 @@ table.insert(SFQuest_Database.QuestPool, bobQuest9A);
 local bobQuest10 = {
     guid = "Questyno_BobRepair10",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair10_Lore" },
-    needsitem = "EngineParts;2", -- REQUIRE
+    needsitem = "EngineParts;20", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair10_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair10_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3641,7 +3740,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest11);
 local bobQuest12 = {
     guid = "Questyno_BobRepair12",
 
-    awardsrep = "LaResistenza;30", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     awardsitem = "ScrapKilt",      -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3680,7 +3779,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest13);
 local bobQuest13A = {
     guid = "Questyno_BobRepair13_A",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;1500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair13_Lore" },
@@ -3775,8 +3874,8 @@ table.insert(SFQuest_Database.QuestPool, bobQuest15A);
 local bobQuest15B = {
     guid = "Questyno_BobRepair15_B",
 
-    awardsrep = "LaResistenza;50",             -- REP REWARD
-    awardsitem = "SheetMetal;2;EngineParts;2", -- ITEM REWARD
+    awardsrep = "LaResistenza;250",             -- REP REWARD
+    awardsitem = "SheetMetal;2;EngineParts;10", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair15_Lore" },
@@ -3828,7 +3927,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest17);
 local bobQuest17A = {
     guid = "Questyno_BobRepair17_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair17_Lore" },
@@ -3865,7 +3964,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest18);
 local bobQuest18A = {
     guid = "Questyno_BobRepair18_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "Money;25",       -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3897,11 +3996,11 @@ table.insert(SFQuest_Database.QuestPool, bobQuest19);
 local bobQuest20 = {
     guid = "Questyno_BobRepair20",
 
-    awardsrep = "LaResistenza;70", -- REP REWARD
+    awardsrep = "LaResistenza;750", -- REP REWARD
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair20_Lore" },
-    needsitem = "ScrapMetal;15", -- REQUIRE
+    needsitem = "ScrapMetal;40", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair20_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair20_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3913,7 +4012,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest20);
 local bobQuest21 = {
     guid = "Questyno_BobRepair21",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair21_Lore" },
@@ -3951,8 +4050,8 @@ table.insert(SFQuest_Database.QuestPool, bobQuest22);
 local bobQuest22A = {
     guid = "Questyno_BobRepair22_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "PipeWrench",     -- ITEM REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsitem = "PipeWrench;1;Tissue;1",     -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair22_Lore" },
@@ -3967,11 +4066,11 @@ table.insert(SFQuest_Database.QuestPool, bobQuest22A);
 local bobQuest23 = {
     guid = "Questyno_BobRepair23",
 
-    awardsrep = "LaResistenza;70", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     dailycode = "Questyno_BobRepair",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BobRepair23_Lore" },
-    needsitem = "ScrapMetal;6", -- REQUIRE
+    needsitem = "Aluminum;30", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_BobRepair;SFQuest_Questyno_BobRepair23_Complete",
     text = "IGUI_SFQuest_Questyno_BobRepair23_Text",
     texture = "media/textures/Item_BobRepair.png",
@@ -3979,3 +4078,71 @@ local bobQuest23 = {
     unlockedsound = "QuestUnlocked",
 }
 table.insert(SFQuest_Database.QuestPool, bobQuest23);
+
+-- Stagione 2
+
+--[[
+            *** Paige Turner ***
+            Elenco:
+                intro. Parla con Paige per sbloccare le daily.
+                1. Uccidi 200 Zombie in Tier 2 (200rep)
+                2. Uccidi 300 Zombie in Tier 2 (250rep)
+                3. Uccidi 350 Zombie in Tier 2 (300rep + 20$)
+]]--
+
+table.insert(SFQuest_Database.QuestPool,{
+    guid = "Questyno_PaigeTurner_Intro",
+
+    awardsrep = "PaigeTurner;100", -- REP REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_PaigeTurner_Intro_Lore" },
+    ondone = "randomcodedworldfrompool;Questyno_PaigeTurner;Questyno;PaigeTurner",
+    text = "IGUI_SFQuest_Questyno_PaigeTurner_Intro_Text",
+    texture = "media/textures/Item_PaigeTurner.png",
+    unique = true,
+    unlocks = "unlockworldevent;Questyno_PaigeTurner;SFQuest_Questyno_PaigeTurner_Intro_Complete",
+    title = "IGUI_SFQuest_Questyno_PaigeTurner_Intro_Title",
+})
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PaigeTurner1",
+
+    awardsrep = "LaResistenza;200", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PaigeTurner",
+    lore = { "IGUI_SFQuest_Questyno_PaigeTurner1_Lore" },
+    text = "IGUI_SFQuest_Questyno_PaigeTurner1_Text",
+    texture = "media/textures/Item_PaigeTurner.png",
+    title = "IGUI_SFQuest_Questyno_PaigeTurner1_Title",
+    unlocks = "actionevent;killzombies:200:tierlevel:2;unlockworldevent:Questyno_PaigeTurner:SFQuest_Questyno_PaigeTurner1_Complete:placeholder:updatequeststatus:Questyno_PaigeTurner1:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PaigeTurner2",
+
+    awardsrep = "LaResistenza;250", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PaigeTurner",
+    lore = { "IGUI_SFQuest_Questyno_PaigeTurner2_Lore" },
+    text = "IGUI_SFQuest_Questyno_PaigeTurner2_Text",
+    texture = "media/textures/Item_PaigeTurner.png",
+    title = "IGUI_SFQuest_Questyno_PaigeTurner2_Title",
+    unlocks = "actionevent;killzombies:300:tierlevel:2;unlockworldevent:Questyno_PaigeTurner:SFQuest_Questyno_PaigeTurner2_Complete:placeholder:updatequeststatus:Questyno_PaigeTurner2:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PaigeTurner3",
+
+    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsitem = "Money;20", -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PaigeTurner",
+    lore = { "IGUI_SFQuest_Questyno_PaigeTurner3_Lore" },
+    text = "IGUI_SFQuest_Questyno_PaigeTurner3_Text",
+    texture = "media/textures/Item_PaigeTurner.png",
+    title = "IGUI_SFQuest_Questyno_PaigeTurner3_Title",
+    unlocks = "actionevent;killzombies:350:tierlevel:2;unlockworldevent:Questyno_PaigeTurner:SFQuest_Questyno_PaigeTurner3_Complete:placeholder:updatequeststatus:Questyno_PaigeTurner3:Obtained", -- ZOMBIE REQUEST
+    unlockedsound = "QuestUnlocked"
+});

@@ -1,4 +1,4 @@
-require("SFQuest_ServerFunctions")
+SFQuest_Server = {}
 
 function SFQuest_Server.parseTable(data, writer, _ident)
 	if not writer then

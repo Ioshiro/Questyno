@@ -142,6 +142,23 @@ function SFQuest_PlayerHandler.StartPlayer()
 	end
 	Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
 	SF_MissionPanel.instance:triggerUpdate();
+	-- check for faction members based on reputation
+	-- local factions = Faction.getFactions()
+	-- for i = 1, factions:size() do
+	-- 	local faction = factions:get(i - 1);
+	-- 	if (faction:isOwner(username) or faction:isMember(username)) then
+	-- 		return faction:getName()
+	-- 	end
+	-- end
+	-- factionExist(string)
+	-- getPlayerFaction(player)
+	-- getPlayerFaction(string)
+	-- getFaction(string)
+	-- isMember(string)
+	-- local tierLevel = player:getModData().missionProgress.Factions[1].tierlevel
+	-- if tierLevel < 6 then
+
+	-- end
 end
 
 
@@ -166,6 +183,7 @@ end
 
 local function OnPlayerDeath(player)
 	Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutesExpand)
+	print("zSOUL QUEST SYSTEM - Player " .. player:getUsername() .. " died.")
 
 	-- if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	local needUpdate = false;
@@ -196,27 +214,59 @@ function SFQuest_PlayerHandler.OnGameStart()
 	SF_MissionPanel.instance:triggerUpdate();
 	
 	local player = getPlayer();
-	if player:getModData().missionProgress and player:getModData().missionProgress.WorldEvent then
-		for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
-			local squareTable = luautils.split(k2, "x");
-			local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
-			local square = getCell():getGridSquare(x, y, z);
-			local marker
-				if square then
-                    if string.find(string.lower(v2.dialoguecode), "complete") then
-                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
-                    else
-					    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
-                    end
-				marker:setDoAlpha(false);
-				marker:setAlphaMin(0.8);
-				marker:setAlpha(1.0);
-				v2.marker = marker;
+	if player:getModData().missionProgress then
+		if  player:getModData().missionProgress.WorldEvent then
+			for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
+				if not v2.marker then
+					local squareTable = luautils.split(k2, "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					local marker = nil
+					if square then
+        	    	    if string.find(string.lower(v2.dialoguecode), "complete") then
+        	    	        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+        	    	    else
+						    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+        	    	    end
+						if marker then
+							marker:setDoAlpha(false);
+							marker:setAlphaMin(0.8);
+							marker:setAlpha(1.0);
+							v2.marker = marker;
+						end
+					end
+				else
+					v2.marker:setDoAlpha(false);
+					v2.marker:setAlphaMin(0.8);
+					v2.marker:setAlpha(1.0);
+				end
+			end
+		end
+		if player:getModData().missionProgress.ClickEvent then
+			for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
+				if not event.marker then
+					local squareTable = luautils.split(event.square, "x");
+					local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
+					local square = getCell():getGridSquare(x, y, z);
+					local marker = nil
+					if square then
+						marker = getIsoMarkers():addIsoMarker({}, {"media/textures/clickevent.png"}, square, 1, 1, 1, false, false);
+						if marker then
+							marker:setDoAlpha(false);
+							marker:setAlphaMin(0.8);
+							marker:setAlpha(1.0);
+							event.marker = marker;
+						end
+					end
+				else
+					event.marker:setDoAlpha(false);
+					event.marker:setAlphaMin(0.8);
+					event.marker:setAlpha(1.0);
+				end
 			end
 		end
 	end
 end
-
 
 
 Events.OnCreatePlayer.Add(onCreatedPlayer);

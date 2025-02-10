@@ -3,7 +3,8 @@ IGUI_EN = {
 IGUI_XP_TaskStatus_Completed = "[COMPL.] ",
 IGUI_XP_TaskStatus_Obtained = "[OBT.] ",
 IGUI_XP_TaskStatus_Updated = "[UPD.] ",
-	
+IGUI_FailCompleteQuest = "I'm sorry, but the item is missing or is incorrect. Please check your inventory and try again.",
+
 IGUI_SFQuest_Questyno_Test1_Text = "That idiot wants pizza",
 IGUI_SFQuest_Questyno_Test1_Title = "Pizza Day",
 IGUI_SFQuest_Questyno_Test1_Lore = "I spoke with Pino and he told me to look for pizza. Surely if I go further and kill two zombies I'll find the solution.",
@@ -41,6 +42,12 @@ IGUI_SFQuest_Questyno_Pynocchio_Name = "Pynocchio",
 IGUI_SFQuest_Questyno_Brioshi_Name = "Brioshi",
 IGUI_Reputation = "Reputation",
 IGUI_Objectives = "Objectives:",
+
+IGUI_SFQuest_Questyno_NotCompleted = "QUEST [ %1 ] not completed, item no longer valid or in inventory!",
+IGUI_SFQuest_Questyno_Completed = "QUEST [ %1 ] completed!",
+IGUI_SFQuest_Questyno_ItemRemoved = "Removed %1 %2 for quest %3.",
+IGUI_SFQuest_Questyno_ItemRemoveFailed = "Failed to remove item for quest %1.",
+IGUI_SFQuest_Questyno_ZombieCompleted = "COMPLETE: %1 zombies for quest %2.",
 
 --[[                        *** SEZIONE 1: QUEST PER SOLDI ***
             Elenco:

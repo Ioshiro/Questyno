@@ -57,8 +57,21 @@
 							Tag# accepts any item that has the tag. Example: "Tag#Egg;12".
 							TagPredicateBigFish# accepts fresh fish above a certain length (>=50cm).
 							TagPredicateCondition# accepts weapons above a certain condition.
-							TagPredicateFreshFood# accepts food items that are currently fresh.
+							TagPredicateDrainable# it will only accept drainable items with a certain amount of quantity.
 							TagPredicateFullDrainable# it will only accept full drainable items.
+							TagPredicateFreshFood# accepts food items that are currently fresh.
+							TagPredicateFoodWeight# it will only accept food that are above a certain weight.
+							TagPredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
+							TagPredicateFoodCooked# it will only accept cooked food.
+							you can also use this check for just a item type:
+							PredicateBigFish# accepts fresh fish above a certain length (>=50cm).
+							PredicateCondition# accepts weapons above a certain condition.
+							PredicateDrainable# it will only accept drainable items with a certain amount of quantity.
+							PredicateFullDrainable# it will only accept full drainable items.
+							PredicateFreshFood# accepts food items that are currently fresh.
+							PredicateFoodWeight# it will only accept food that are above a certain weight.
+							PredicateFoodHunger# it will only accept food that are above a certain amount of hunger.
+							PredicateFoodCooked# it will only accept cooked food.
 	objectives = (OPTIONAL) A table containing one table for each objective. Objectives display their own text and can have their own separate 
 							progress status. It is usually required to complete all objectives before being able to complete a quest but 
 							not necessarily in the order they are presented. Example: A quest could require talking to 4 other NPCs.
@@ -109,9 +122,37 @@
 	
 	Here is the list of commands and the parameters they need:
 	
-	actionevent - Adds a specific condition that will be checked every 10 minutes, when the condition is met a list of commands will be given. Parameters: Condition and list of commands.
-					Possible conditions: "killzombies", followed by the quantity, separated by : "killzombies:25".
-					Commands: Any commands and their parameters, but with : instead of ;
+	- actionevent command adds a specific condition to the player's mission system. When the condition
+				is met during gameplay, a list of commands will be executed. These commands are checked dynamically based on player actions or events. 
+				Additionally, every 10 minutes, the system ensures that the 			relevant event handlers are registered correctly (e.g., for zombie kills).
+
+				Parameters:
+				Condition:
+
+				The condition to activate the commands.
+				Examples:
+				"killzombies:25": Track if the player kills 25 zombies.
+				"killzombies:200:tierzone:Louisville": Track 200 zombie kills in the Louisville zone.
+				"killzombies:150:tierlevel:2": Track 150 zombie kills in areas with a level of 2.
+				Commands:
+
+				A list of commands to execute when the condition is met. Use : instead of ; to separate commands.
+				Example:
+				"unlockworldevent:QuestId:updatequeststatus:QuestId:Completed"
+				How it Works:
+				Dynamic Checks:
+
+				For conditions like killzombies, progress is updated in real-time as zombies are killed by the player.
+				The system registers the event handler OnZombieDead dynamically when any killzombies condition exists.
+				Periodic Validation (Every 10 Minutes):
+
+				The system verifies that all required event handlers (like OnZombieDead) are registered. If they are missing,
+				they are re-registered to ensure conditions are tracked.
+				Example Usage:
+				actionevent = "killzombies:100:tierzone:Rosewood;updatequeststatus:Quest_Example:Completed",
+				Description: The system tracks zombie kills in the Rosewood zone. When the player kills 100 zombies, it updates the quest status for Quest_Example to Completed.
+				actionevent = "enterroom:1234x5678x0;unlockworldevent:RoomQuest",
+				Description: When the player enters the room at coordinates 1234x5678x0, the system unlocks the world event tied to the quest RoomQuest.
 	addmannequin - Adds a mannequin to the world. Keep in mind that the mannequin must have been inserted 
 					into the list of mannequins for this to work. 
 					Parameter: A squaretag (string composed of the square's x, y and z).
