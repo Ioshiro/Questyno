@@ -1223,7 +1223,7 @@ function SF_MissionPanel:updateObjective(guid, index, status)
 		if #currentTasks > 0 then
 			for i=1,#currentTasks do
 				local task = currentTasks[i]
-				if task.guid and task.guid == guid then
+				if task.guid and task.guid == guid then -- error qui qualche volta
 					if task.objectives and  task.objectives[index] then
 						task.objectives[index].status = status;
 						if status == "Failed" and task.objectives[index].onfailed then
