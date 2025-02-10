@@ -251,7 +251,8 @@ function SF_MissionPanel.Commands.clickevent(squareaddress, actiondata, commands
 		marker:setAlphaMin(0.8);
 		marker:setAlpha(1.0);
     end
-    table.insert(player:getModData().missionProgress.ClickEvent, {square = squareTable[1], address = squareTable[2], actiondata = convertedaction, commands = convertedlist, marker = marker});
+    local event = {square = squareTable[1], address = squareTable[2], actiondata = convertedaction, commands = convertedlist, marker = marker};
+    player:getModData().missionProgress.ClickEvent[squareTable[1]] = event;
 	SF_MissionPanel.instance.needsBackup = true;
 end
 

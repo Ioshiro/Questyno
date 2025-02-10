@@ -1,4 +1,10 @@
-SFQuest_WorldEventMenu = function(player, context, worldobjects, test)
+local function onInteraction2(worldobjects, playerObj, square, worldinfo, dialogueinfo, questid)
+	if luautils.walkAdj(playerObj, square) then
+		ISTimedActionQueue.add(SFQuest_WorldEventCheck:new(playerObj, square, worldinfo, dialogueinfo, questid));
+	end
+end
+
+ local function SFQuest_WorldEventMenu(player, context, worldobjects, test)
 
 	local playerObj = getSpecificPlayer(player)
 	if test then return ISWorldObjectContextMenu.setTest() end
@@ -28,17 +34,12 @@ SFQuest_WorldEventMenu = function(player, context, worldobjects, test)
 				end
 				local contextWords = getText(dialogueinfo.context, name);
 		
-					local worldOption = context:addOptionOnTop(contextWords, worldobjects, onInteraction2, playerObj, square, worldinfo, dialogueinfo, questid);
-					worldOption.iconTexture = getTexture(worldinfo.picture);
+				local worldOption = context:addOptionOnTop(contextWords, worldobjects, onInteraction2, playerObj, square, worldinfo, dialogueinfo, questid);
+				worldOption.iconTexture = getTexture(worldinfo.picture);
+				break
 			end
         end
     end
-end
-
-onInteraction2 = function(worldobjects, playerObj, square, worldinfo, dialogueinfo, questid)
-	if luautils.walkAdj(playerObj, square) then
-		ISTimedActionQueue.add(SFQuest_WorldEventCheck:new(playerObj, square, worldinfo, dialogueinfo, questid));
-	end
 end
 
 Events.OnFillWorldObjectContextMenu.Add(SFQuest_WorldEventMenu);

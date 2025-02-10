@@ -1,30 +1,4 @@
-SFQuest_ClickEventMenu = function(player, context, worldobjects, test)
-
-	local playerObj = getSpecificPlayer(player)
-	if test then return ISWorldObjectContextMenu.setTest() end
-	if not playerObj:getModData().missionProgress.ClickEvent then return end
-	if #playerObj:getModData().missionProgress.ClickEvent == 0 then return end
-
-	local square;
-	
-	for i,v in ipairs(worldobjects) do -- forse si può ampliare il controllo sulla posizione con questo for loop
-		square = v:getSquare();
-		break;
-	end
-
-	local x,y,z = tostring(square:getX()), tostring(square:getY()), tostring(square:getZ());
-	local sqTag = x .. "x" .. y .. "x" .. z;
-	--print("Clicked square was " .. sqTag);
-	for c=1,#playerObj:getModData().missionProgress.ClickEvent do
-		local event = playerObj:getModData().missionProgress.ClickEvent[c];
-		if event.square and event.square == sqTag then
-        		local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"), worldobjects, onClickEvent, playerObj, square, event.address, event.actiondata, event.commands);
-				clickOption.iconTexture = getTexture("media/textures/clickevent.png");
-		end
-	end
-end
-
-onClickEvent = function(worldobjects, playerObj, square, address, actiondata, commands)
+local function onClickEvent(worldobjects, playerObj, square, address, actiondata, commands)
 	local dataTable = luautils.split(actiondata, ";");
 	local count = 1;
 	local time;
@@ -57,6 +31,32 @@ onClickEvent = function(worldobjects, playerObj, square, address, actiondata, co
 	end
 	if luautils.walkAdj(playerObj, square) then
 		ISTimedActionQueue.add(SFQuest_ClickEventAction:new(playerObj, square, address, time, anim, prop1, prop2, commands, animvar1, animvar2));
+	end
+end
+
+local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
+
+	local playerObj = getSpecificPlayer(player)
+	if test then return ISWorldObjectContextMenu.setTest() end
+	if not playerObj:getModData().missionProgress.ClickEvent then return end
+	if #playerObj:getModData().missionProgress.ClickEvent == 0 then return end
+
+	local square = worldobjects[1]:getSquare();
+
+	local startingX,startingY,startingZ = square:getX(), square:getY(), square:getZ();
+	local x1, y1, x2, y2 = startingX-1, startingY-1, startingX+1, startingY+1
+	for i = x1, x2 do
+        for j = y1, y2 do
+			local sqTag = tostring(i).."x"..tostring(j).."x"..tostring(startingZ);
+			local event = playerObj:getModData().missionProgress.ClickEvent[sqTag];
+			if event then
+				local square = getCell():getGridSquare(i, j, startingZ);
+				local event = playerObj:getModData().missionProgress.ClickEvent[sqTag]
+    			local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"),	worldobjects, onClickEvent, playerObj, square, event.address, event.		actiondata,	event.commands);
+				clickOption.iconTexture = getTexture("media/textures/clickevent.png");
+				break
+			end
+		end
 	end
 end
 
