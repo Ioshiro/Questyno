@@ -12,8 +12,8 @@
 		<m_items>
 			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
 		</m_items>
-                <m_items>
-                        <itemGUID>67089f74-7ba1-467e-b325-d5245e35cf08</itemGUID>
+                <m_items> <!-- pooncho-->
+                        <itemGUID>383addbb-9d31-4615-9e55-8a3c2abb9787</itemGUID>
                 </m_items>
                 <m_items>
                         <itemGUID>7fb2c6bd-1503-440d-8471-57b12275881a</itemGUID>
@@ -848,31 +848,19 @@
                 <m_Pants>false</m_Pants>
                 <m_AllowPantsHue>false</m_AllowPantsHue>
                 <m_AllowTopTint>false</m_AllowTopTint>
-                <m_AllowTShirtDecal>false</m_AllowTShirtDecal>
-                <m_items> <!-- MASKA Helmet --> 
-                        <probability>0.1</probability>
-                        <itemGUID>656cfe92-b0d7-4b73-9bc3-1ebdd1a92423</itemGUID>
+                <m_AllowTShirtDecal>false</m_AllowTShirtDecal> 
+                <m_items> <!-- poncho down-->
+                        <itemGUID>88edde24-16f3-49b9-95bc-fd0c0d8e78ff</itemGUID>
                 </m_items>
-                <m_items> <!-- ZSH Helmet Visor --> 
-                        <probability>0.05</probability>
-                        <itemGUID>8e052579-cea3-466b-a7be-154affb8bf24</itemGUID>
-                </m_items>        
                 <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
-                </m_items>                
-                <m_items> <!-- 6B13 Armor --> 
-                        <probability>0.05</probability>
-                        <itemGUID>ecf09feb-05d1-4c80-b62b-8f597a63ff1e</itemGUID>
-                </m_items>        
-                <m_items> <!-- Adidas Shirts --> 
-                        <itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
-                </m_items>                
-                <m_items> <!-- Adidas Pants --> 
+                </m_items>                 
+                <m_items><!-- Adidas Pants -->
                         <itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
                 </m_items>
                 <m_items> <!-- Susie Boots --> 
                         <itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
-                </m_items>                
+                </m_items>                 
         </m_MaleOutfits> 
 
         <!-- Ethan Steele -->
@@ -1615,7 +1603,7 @@
                         <itemGUID>9602c0a8-07d5-410e-a3db-3721bb48ea04</itemGUID>
                 </m_items>      
                 <m_items> <!-- poncho down-->
-                        <itemGUID>d788ff7a-361a-4830-a911-a838f53c7efe</itemGUID>
+                        <itemGUID>88edde24-16f3-49b9-95bc-fd0c0d8e78ff</itemGUID>
                 </m_items>
                 <m_items> <!-- Belt Pack Pouch --> 
                         <itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
@@ -1715,4 +1703,45 @@
                         </subItems>
                 </m_items>                       
         </m_MaleOutfits>      
+
+
+<!-- STAGIONE 2-->
+
+<!-- ........................................ ANSEL MERRICK ..........................................--> 
+
+	<m_MaleOutfits>
+		<m_Name>AnselMerrick</m_Name>
+		<m_Guid>266d0bb0-a20c-488c-b5d8-36351113556c</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- MASKA Helmet --> <m_items>
+			<probability>0.1</probability>
+			<itemGUID>656cfe92-b0d7-4b73-9bc3-1ebdd1a92423</itemGUID>
+		</m_items>
+<!-- ZSH Helmet Visor --> <m_items>
+			<probability>0.05</probability>
+			<itemGUID>8e052579-cea3-466b-a7be-154affb8bf24</itemGUID>
+		</m_items>	
+<!-- Belt Pack Pouch --> <m_items>
+			<itemGUID>9eef5f5c-3b00-409d-b709-356aa82b3271</itemGUID>
+		</m_items>		
+<!-- 6B13 Armor --> <m_items>
+			<probability>0.05</probability>
+			<itemGUID>ecf09feb-05d1-4c80-b62b-8f597a63ff1e</itemGUID>
+		</m_items>	
+<!-- Adidas Shirts --> <m_items>
+			<itemGUID>d327a358-f501-42cf-ab0b-296b983adaf3</itemGUID>
+		</m_items>		
+<!-- Adidas Pants --> <m_items>
+			<itemGUID>5f9578f8-d072-4a23-9f74-d21f844dd956</itemGUID>
+		</m_items>
+<!-- Susie Boots --> <m_items>
+			<itemGUID>7b8e477a-c765-401c-9ac7-a7ff0fdc7c14</itemGUID>
+		</m_items>		
+	</m_MaleOutfits>
+
+
 </outfitManager>

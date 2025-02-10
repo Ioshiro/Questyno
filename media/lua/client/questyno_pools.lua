@@ -116,7 +116,7 @@ Questyno = {
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella17_Begin;Questyno_AngelicaStella17",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella18_Begin;Questyno_AngelicaStella18",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella19_Begin;Questyno_AngelicaStella19",
-		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Begin;Questyno_AngelicaStella20",
+		--"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Begin;Questyno_AngelicaStella20",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella21_Begin;Questyno_AngelicaStella21",
 	},
 	HeatherThomas = {
@@ -790,7 +790,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	condition = "notmaxedwithcode;Questyno_Lupo;1;hasfactiontier;TonyLupo;3",
 	commands = "randomcodedworldfrompool;Questyno_Lupo;Questyno;Lupo",
 	days = 0,
-	frequency = 1
+	frequency = 7
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_AngelicaStella",
@@ -1010,28 +1010,28 @@ table.insert(SFQuest_Database.DailyEventPool, {
 ]]
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_JuanBaker",
-	condition = "notmaxedwithcode;Questyno_JuanBaker;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_JuanBaker;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_JuanBaker;Questyno;JuanBaker",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_FuriMishura",
-	condition = "notmaxedwithcode;Questyno_FuriMishura;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_FuriMishura;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_FuriMishura;Questyno;FuriMishura",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_SandraHarris",
-	condition = "notmaxedwithcode;Questyno_SandraHarris;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_SandraHarris;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_SandraHarris;Questyno;SandraHarris",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_EricAdams",
-	condition = "notmaxedwithcode;Questyno_EricAdams;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_EricAdams;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_EricAdams;Questyno;EricAdams",
 	days = 0,
 	frequency = 60
@@ -1046,28 +1046,28 @@ table.insert(SFQuest_Database.DailyEventPool, {
 });]]
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GarrettKing",
-	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_GarrettKing;Questyno;GarrettKing",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_MarvinPerry",
-	condition = "notmaxedwithcode;Questyno_MarvinPerry;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_MarvinPerry;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_MarvinPerry;Questyno;MarvinPerry",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_KarenTaylor",
-	condition = "notmaxedwithcode;Questyno_KarenTaylor;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_KarenTaylor;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_KarenTaylor;Questyno;KarenTaylor",
 	days = 0,
 	frequency = 60
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_CharlesDavis",
-	condition = "notmaxedwithcode;Questyno_CharlesDavis;1;hasfactiontier;LaResistenza;5",
+	condition = "notmaxedwithcode;Questyno_CharlesDavis;1;hasfactiontier;LaResistenza;6",
 	commands = "randomcodedworldfrompool;Questyno_CharlesDavis;Questyno;CharlesDavis",
 	days = 0,
 	frequency = 30
@@ -1086,7 +1086,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	condition = "notmaxedwithcode;Questyno_AnselMerrick;1;hasfactiontier;AnselMerrick;3",
 	commands = "randomcodedworldfrompool;Questyno_AnselMerrick;Questyno;AnselMerrick",
 	days = 0,
-	frequency = 7
+	frequency = 30
 });
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_HuxleyThorne",

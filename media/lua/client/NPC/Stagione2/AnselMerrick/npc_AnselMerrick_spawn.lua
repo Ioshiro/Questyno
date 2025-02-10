@@ -15,5 +15,5 @@ SFQuest_Database.MannequinPool["10161x6628x0"] = {
     beard = "",
     hair = "Short",
     haircolor = "0.0,0.0,0.0",
-    outfit = "AnselMerrick",
+    outfit = "Brita_Killa_2",
 }

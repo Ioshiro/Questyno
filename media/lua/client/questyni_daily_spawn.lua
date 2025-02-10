@@ -1640,7 +1640,7 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest2);
 local thomasQuest3 = {
     guid = "Questyno_HeatherThomas3",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Twine;1",         -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
@@ -1839,19 +1839,19 @@ local thomasQuest13 = {
         guid = "Questyno_HeatherThomas13_A",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
         hidden = false,
-        needsitem = "farming.RedRadish;15",
+        needsitem = "PredicateFreshFood#farming.RedRadish;15",
         onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;farming.RedRadish;15"
     }, {
         guid = "Questyno_HeatherThomas13_B",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
         hidden = false,
-        needsitem = "Carrots;1",
+        needsitem = "PredicateFreshFood#Carrots;1",
         onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;Carrots;1"
     }, {
         guid = "Questyno_HeatherThomas13_C",
         text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
         hidden = false,
-        needsitem = "farming.Potato;2",
+        needsitem = "PredicateFreshFood#farming.Potato;2",
         onobtained = "updateobjective;Questyno_HeatherThomas13;3;Completed;removeitem;farming.Potato;2"
     } },
     text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
@@ -3293,11 +3293,11 @@ table.insert(SFQuest_Database.QuestPool, rimaQuest19A);
 local rimaQuest20 = {
     guid = "Questyno_EliaRima20",
 
-    awardsrep = "LaResistenza;250", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_EliaRima",
     lore = { "IGUI_SFQuest_Questyno_EliaRima20_Lore" },
-    needsitem = "Journal;2", -- REQUIRE
+    needsitem = "Journal;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EliaRima;SFQuest_Questyno_EliaRima20_Complete",
     text = "IGUI_SFQuest_Questyno_EliaRima20_Text",
     texture = "media/textures/Item_EliaRima.png",
@@ -3500,14 +3500,14 @@ local bobQuest4 = {
     objectives = { {
         guid = "Questyno_BobRepair4_A",
         text = "IGUI_SFQuest_Questyno_BobRepair4_A",
-        needsitem = "ElectronicsScrap;15",
+        needsitem = "ElectronicsScrap;50",
         icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair4;1;Completed;removeitem;ElectronicsScrap;50",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair4_B",
         text = "IGUI_SFQuest_Questyno_BobRepair4_B",
-        needsitem = "ElectricWire;2",
+        needsitem = "ElectricWire;80",
         icon = "media/textures/Item_ElectricWire",
         onobtained = "updateobjective;Questyno_BobRepair4;2;Completed;removeitem;ElectricWire;80",
         hidden = false,
@@ -3567,21 +3567,21 @@ local bobQuest6 = {
     objectives = { {
         guid = "Questyno_BobRepair6_A",
         text = "IGUI_SFQuest_Questyno_BobRepair6_A",
-        needsitem = "ElectronicsScrap;10",
+        needsitem = "ElectronicsScrap;100",
         icon = "media/textures/Item_ElectronicsScrap",
         onobtained = "updateobjective;Questyno_BobRepair6;1;Completed;removeitem;ElectronicsScrap;100",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_B",
         text = "IGUI_SFQuest_Questyno_BobRepair6_B",
-        needsitem = "Battery;2",
+        needsitem = "Battery;20",
         icon = "media/textures/Item_Battery",
         onobtained = "updateobjective;Questyno_BobRepair6;2;Completed;removeitem;Battery;20",
         hidden = false,
     }, {
         guid = "Questyno_BobRepair6_C",
         text = "IGUI_SFQuest_Questyno_BobRepair6_C",
-        needsitem = "RadioTransmitter;2",
+        needsitem = "RadioTransmitter;50",
         icon = "media/textures/Item_RadioTransmitter",
         onobtained = "updateobjective;Questyno_BobRepair6;3;Completed;removeitem;RadioTransmitter;50",
         hidden = false,

@@ -10,7 +10,7 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["10106x6634x0"] = {
-    sprite = "location_shop_mall_01_77",
+    sprite = "location_shop_mall_01_76",
     direction = "E",
     beard = "",
     hair = "Short",

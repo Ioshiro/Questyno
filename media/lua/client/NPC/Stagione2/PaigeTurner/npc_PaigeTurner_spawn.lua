@@ -10,10 +10,10 @@ table.insert(SFQuest_Database.WorldPool, {
 })
 
 SFQuest_Database.MannequinPool["9331x8641x0"] = {
-    sprite = "location_shop_mall_01_73",
+    sprite = "location_shop_mall_01_65",
     direction = "W",
     beard = "",
     hair = "PonyTail",
     haircolor = "0.0,0.0,0.0",
-    outfit = "PaigeTurner",
+    outfit = "KarenTaylor", -- stesso outfit di Karen Taylor 
 }

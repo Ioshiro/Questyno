@@ -69,7 +69,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo2_Lore" },
-    needsitem = "Base.PanFriedVegetables;1", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PanFriedVegetables;1;1.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo2_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo2_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -137,7 +137,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo5_Lore" },
-    needsitem = "Base.Butter;1", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.Butter;1;0.3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo5_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo5_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -220,7 +220,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo7_Lore" },
-    needsitem = "Rabbitmeat;1", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Rabbitmeat;1;0.3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo7_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo7_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -402,7 +402,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo12_Lore" },
-    needsitem = "Base.Cereal;2", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.Cereal;2;0.2", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo12_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo12_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -542,7 +542,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo16_Lore" },
-    needsitem = "Base.Lard;1", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.Lard;1;0.22", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo16_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo16_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -594,7 +594,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo18_Lore" },
-    needsitem = "Base.Egg;4", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.Egg;4;0.1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo18_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo18_A_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -625,7 +625,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo20_Lore" },
-    needsitem = "Base.PanFriedVegetables;1", -- REQUIRE
+    needsitem = "PredicateFoodWeight#Base.PanFriedVegetables;1;1.5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo20_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo20_Text",
     texture = "media/textures/Item_MikePozzo.png",
@@ -815,7 +815,7 @@ local chinaQuest5 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina5_Lore" },
-    needsitem = "Base.SpearCrafted;10", -- REQUIRE
+    needsitem = "predicateCondition#Base.SpearCrafted;10;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina5_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina5_Text",
     texture = "media/textures/Item_RosaChina.png",

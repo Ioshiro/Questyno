@@ -72,7 +72,7 @@ IGUI_IT = {
                 7.  50 soldi per 2 pipe bomb
                 8.  30 soldi per 3 scatole di chiodi
                 9.  500 soldi per pharmacy book
-                10. 100 soldi per 1 arma da fuoco random (in verit? questa sono tre quest con stesso dialogo e titolo, però danno tre reward diversi)
+                10. 100 soldi per 1 arma da fuoco random (in verità questa sono tre quest con stesso dialogo e titolo, però danno tre reward diversi)
                     10a. 100 soldi per pistola
                     10b. 100 soldi per fucile a pompa
                     10c. 100 soldi per revolver
@@ -196,7 +196,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TonyLupo_Name = "Tony 'Lupo'",
 
     IGUI_SFQuest_Questyno_Lupo_Intro_Title = "Tony il 'Lupo', 10161,6621,0 ",
-    IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony Lupo [Giornaliere]",
+    IGUI_SFQuest_Questyno_Lupo_Intro_Text = "Incontra Tony. [Settimanale]",
     IGUI_SFQuest_Questyno_Lupo_Intro_Lore = "Tony lupo tiene unito il gruppo di Muldraugh e lo difende con l'artiglieria pensante. Mi aspetta sempre alla villa vicino al lago a Muldraugh.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text = "Ciao straniero, cosa ti spinge da queste parti? I sono Tony e tutti mi chiamano Lupo. Mi occupo di raccogliere più munizioni, possibile e cerco di formare nuovi combattenti in questo nostro avamposto. Ci siamo staccati ormai da più di due anni dalla Tana. Siamo certi che per cambiare la situazione dobbiamo capire cosa lega Nigel agli Americani. Sono altrettanto convinto che queste famose zone ''radioattive'' sono più che sicure e li si nascono tutti i segreti di cui abbiamo bisogno per capire cosa è successo a questo paese. Spero sarai dei nostri.",
     IGUI_SFQuest_Questyno_Lupo_Intro_Complete_Text_Accepted = "Piacere. Quello che ti serve è un vero esperto nella caccia agli zombie, e io sono il tuo uomo.",
@@ -1024,7 +1024,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_HeatherThomas7_Title = "Heather dalla Tana",
     IGUI_SFQuest_Questyno_HeatherThomas7_Text = "Heather il conservatore",
     IGUI_SFQuest_Questyno_HeatherThomas7_Lore = "Heather mi ha proposto di farmi essiccare un po' di carne.perché no. Devo portargli un Coniglio.",
-    IGUI_SFQuest_Questyno_HeatherThomas7_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_HeatherThomas7_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_HeatherThomas7_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas7_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_HeatherThomas7_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -1042,7 +1042,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_HeatherThomas9_Title = "Heather dalla Tana",
     IGUI_SFQuest_Questyno_HeatherThomas9_Text = "Heather l'essicatore",
     IGUI_SFQuest_Questyno_HeatherThomas9_Lore = "Heather mi ha chiesto di cacciare 2 Uccellini e di portarglieli per farmi vedere come conserva la carne. Penso che recupererò qualche verme.",
-    IGUI_SFQuest_Questyno_HeatherThomas9_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_HeatherThomas9_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_HeatherThomas9_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas9_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_HeatherThomas9_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -1050,7 +1050,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_HeatherThomas10_Title = "Heather dalla Tana",
     IGUI_SFQuest_Questyno_HeatherThomas10_Text = "Essiccando scoiattoli con Heather",
     IGUI_SFQuest_Questyno_HeatherThomas10_Lore = "Heather mi ha chiesto di cacciare uno Scoiattolo e di portarglielo per farmi vedere come conserva la carne. Penso che recupererò qualche nocciolina.",
-    IGUI_SFQuest_Questyno_HeatherThomas10_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_HeatherThomas10_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_HeatherThomas10_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas10_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_HeatherThomas10_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -1245,7 +1245,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima3_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima4_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima4_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_EliaRima4_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_EliaRima4_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 3, Pronto Soccorso 1, Pesca 1. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_EliaRima4_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_EliaRima4_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1257,7 +1257,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima4_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima5_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima5_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_EliaRima5_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_EliaRima5_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 2, Pronto Soccorso 3, Pesca 2. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_EliaRima5_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_EliaRima5_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1269,7 +1269,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima5_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima6_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima6_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_EliaRima6_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_EliaRima6_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 4, Costruire Trappole 4, Ispezione 4. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_EliaRima6_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_EliaRima6_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1381,7 +1381,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima13_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima14_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima14_Text = "Il prezzo della Societ?",
+    IGUI_SFQuest_Questyno_EliaRima14_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_EliaRima14_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione Metalli 1, Carpenteria 2, Trappole 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_EliaRima14_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_EliaRima14_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1394,7 +1394,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima14_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima15_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima15_Text = "Il prezzo della Societ?",
+    IGUI_SFQuest_Questyno_EliaRima15_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_EliaRima15_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Meccanica 1, Carpenteria 2, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_EliaRima15_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_EliaRima15_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1407,7 +1407,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima15_A_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima16_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima16_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_EliaRima16_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_EliaRima16_Lore = "Elia mi ha chiesto di cercare dei libri specifici per lui a Pitstop (9681,11177,0). VorrebbeLa rivista di cacciatori Vol.1 e La rivista di cacciatori Vol.2",
     IGUI_SFQuest_Questyno_EliaRima16_Begin_Text = "Dobbiamo tramandare le nostre conoscienze per rimanere in vita, cercami questa rivista speciale, la troverai nella libreria a Pitstop.",
     IGUI_SFQuest_Questyno_EliaRima16_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1447,7 +1447,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima18_B_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima19_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima19_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_EliaRima19_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_EliaRima19_Lore = "Elia mi ha chiesto di cercare 5 Fogli e dei Pastelli a cera per i pargoli.",
     IGUI_SFQuest_Questyno_EliaRima19_Begin_Text = "Abbiamo bisogno di più fogli per i nostri pargoli, non possono continuare a scrivere sui muri!",
     IGUI_SFQuest_Questyno_EliaRima19_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -1459,8 +1459,8 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_EliaRima20_Title = "Elia dalla Tana",
     IGUI_SFQuest_Questyno_EliaRima20_Text = "Elia il furbetto",
-    IGUI_SFQuest_Questyno_EliaRima20_Lore = "Elia mi ha chiesto di recuperare 2 Diario personale.",
-    IGUI_SFQuest_Questyno_EliaRima20_Begin_Text = "Mi piace sfogliare i Diari personali delle persone, mi immergono in un mondo che ormai è andato, se ne trovi qualcuno me lo porti?",
+    IGUI_SFQuest_Questyno_EliaRima20_Lore = "Elia mi ha chiesto di recuperare un Diario personale.",
+    IGUI_SFQuest_Questyno_EliaRima20_Begin_Text = "Mi piace sfogliare i Diari personali delle persone, mi immergono in un mondo che ormai è andato, se ne trovi uno me lo porti?",
     IGUI_SFQuest_Questyno_EliaRima20_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
     IGUI_SFQuest_Questyno_EliaRima20_Begin_Text_Declined = "Hai altro di meglio da fare?",
     IGUI_SFQuest_Questyno_EliaRima20_Complete = "Grazie è molto importante per me.",
@@ -1556,19 +1556,19 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_BobRepair4_Title = "Bob della Tana 9340,8578,0",
     IGUI_SFQuest_Questyno_BobRepair4_Text = "Il generatore di Bob",
-    IGUI_SFQuest_Questyno_BobRepair4_Lore = "Bob mi ha chiesto di recuperare 15 Parti elettroniche, 2 Cavi elettrici e una Lamiera. Vuole assemblare un generatore, ce la far??",
+    IGUI_SFQuest_Questyno_BobRepair4_Lore = "Bob mi ha chiesto di recuperare Parti elettroniche, Cavi elettrici e una Lamiera. Vuole assemblare un generatore, ce la farà?",
     IGUI_SFQuest_Questyno_BobRepair4_Begin_Text = "Sto cercando di assemblare un generatore. Mi servono tanto metallo, scarti elettrici e dei bellissimi ingranaggi. Riesci a trovarli per me?",
     IGUI_SFQuest_Questyno_BobRepair4_Begin_Text_Accepted = "Corri, ti aspetto!",
     IGUI_SFQuest_Questyno_BobRepair4_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_BobRepair4_Complete = "Bene, non pensavo saresti stato così efficiente, ti ringrazio molte! Speriamo non scoppi tutto.",
-	IGUI_SFQuest_Questyno_BobRepair4_A = "15 Parti elettroniche",
-	IGUI_SFQuest_Questyno_BobRepair4_B = "2 Cavi elettrici",
+	IGUI_SFQuest_Questyno_BobRepair4_A = "50 Parti elettroniche",
+	IGUI_SFQuest_Questyno_BobRepair4_B = "80 Cavi elettrici",
 	IGUI_SFQuest_Questyno_BobRepair4_C = "Lamiera",
 	IGUI_SFQuest_Questyno_BobRepair4_A_Text = "Torna da Bob",
 	
 	IGUI_SFQuest_Questyno_BobRepair5_Title = "Bob della Tana 9340,8578,0",
     IGUI_SFQuest_Questyno_BobRepair5_Text = "Parti elettroniche per Bob",
-    IGUI_SFQuest_Questyno_BobRepair5_Lore = "Bob mi ha chiesto di recuperare 20 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che ?.",
+    IGUI_SFQuest_Questyno_BobRepair5_Lore = "Bob mi ha chiesto di recuperare 20 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che è.",
     IGUI_SFQuest_Questyno_BobRepair5_Begin_Text = "Mi sono fissato con questi Chippini, servono molte parti elettroniche, riesci a procurarmene qualcuna?",
     IGUI_SFQuest_Questyno_BobRepair5_Begin_Text_Accepted = "Corri, ti aspetto!",
     IGUI_SFQuest_Questyno_BobRepair5_Begin_Text_Declined = "Diamine, okay.",
@@ -1581,9 +1581,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BobRepair6_Begin_Text_Accepted = "Corri, ti aspetto!",
     IGUI_SFQuest_Questyno_BobRepair6_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_BobRepair6_Complete = "Era propio quello che mi serviva, grazie! Questa è per te!",
-	IGUI_SFQuest_Questyno_BobRepair6_A = "10 Parti elettroniche",
-	IGUI_SFQuest_Questyno_BobRepair6_B = "2 Batterie",
-	IGUI_SFQuest_Questyno_BobRepair6_C = "2 Trasmettitori",
+	IGUI_SFQuest_Questyno_BobRepair6_A = "100 Parti elettroniche",
+	IGUI_SFQuest_Questyno_BobRepair6_B = "20 Batterie",
+	IGUI_SFQuest_Questyno_BobRepair6_C = "50 Trasmettitori",
 	IGUI_SFQuest_Questyno_BobRepair6_A_Text = "Torna da Bob",
 	
 	IGUI_SFQuest_Questyno_BobRepair7_Title = "Bob della Tana 9340,8578,0",
@@ -1606,7 +1606,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_BobRepair9_Title = "Bob della Tana 9340,8578,0",
     IGUI_SFQuest_Questyno_BobRepair9_Text = "Bob aggiusta motori",
-    IGUI_SFQuest_Questyno_BobRepair9_Lore = "Bob mi ha chiesto di recuperare 4 Scarti metallici e 16 Parti elettroniche per creare delle Parti di ricambio per motore. Non lo deluder?",
+    IGUI_SFQuest_Questyno_BobRepair9_Lore = "Bob mi ha chiesto di recuperare 4 Scarti metallici e 16 Parti elettroniche per creare delle Parti di ricambio per motore. Non lo deluderò",
     IGUI_SFQuest_Questyno_BobRepair9_Begin_Text = "Ho bisogno di costruire delle Parti di Ricambio per motore, riescia  portarmi un po' di materiale utile?",
     IGUI_SFQuest_Questyno_BobRepair9_Begin_Text_Accepted = "Corri, ti aspetto!",
     IGUI_SFQuest_Questyno_BobRepair9_Begin_Text_Declined = "Diamine, okay.",
@@ -1652,7 +1652,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_BobRepair14_Title = "Bob della Tana 9340,8578,0",
     IGUI_SFQuest_Questyno_BobRepair14_Text = "Bob l'assetato",
     IGUI_SFQuest_Questyno_BobRepair14_Lore = "Bob mi ha chiesto di portargli una Bottiglia di Acqua, ha molta sete poverino e non vuole staccarsi dal suo progetto. Se non bestemmio guarda...",
-    IGUI_SFQuest_Questyno_BobRepair14_Begin_Text = "Heil?! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_BobRepair14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
     IGUI_SFQuest_Questyno_BobRepair14_Begin_Text_Accepted = "Corri, ti aspetto!",
     IGUI_SFQuest_Questyno_BobRepair14_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_BobRepair14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
@@ -1788,11 +1788,11 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_MikePozzo2_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo2_Text = "Quattro salti in padella per Mike",
-    IGUI_SFQuest_Questyno_MikePozzo2_Lore = "Mike mi ha chiesto di portargli 1 Saltato in padella. Spero gli basterà.",
+    IGUI_SFQuest_Questyno_MikePozzo2_Lore = "Mike mi ha chiesto di portargli 1 Saltato in padella da 1.5kg. Spero gli basterà.",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text = "Scommetto che anche tu hai un leggero languorino. Riesci a portarmi qualcosa di saltato in padella?",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo2_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_MikePozzo2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabb?, è mangiabile, tieni.",
+    IGUI_SFQuest_Questyno_MikePozzo2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabbè, è mangiabile, tieni.",
 	
 	IGUI_SFQuest_Questyno_MikePozzo3_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo3_Text = "Un cavolo per Mike",
@@ -1905,7 +1905,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MikePozzo14_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo14_Text = "Mike l'assetato",
     IGUI_SFQuest_Questyno_MikePozzo14_Lore = "Mike mi ha chiesto se gli porto una Bottiglia d'acqua. Accidenti a lui, non Può prendersela da solo?",
-    IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text = "Heil?! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
     IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo14_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_MikePozzo14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
@@ -1963,11 +1963,11 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_MikePozzo20_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo20_Text = "Il provino di Mike",
-    IGUI_SFQuest_Questyno_MikePozzo20_Lore = "Mike mi ha chiesto di preparare un Saltato in Padella. Vuole mettermi alla prova. Penso di potercela fare.",
+    IGUI_SFQuest_Questyno_MikePozzo20_Lore = "Mike mi ha chiesto di preparare un Saltato in Padella da 1.5kg. Vuole mettermi alla prova. Penso di potercela fare.",
     IGUI_SFQuest_Questyno_MikePozzo20_Begin_Text = "Sempre più persone arrivano, sempre più affamate. Magari un giorno avrò bisogno di aiuto cuoco! Fammi vedere di cosa sei capace, ti andrebbe?",
     IGUI_SFQuest_Questyno_MikePozzo20_Begin_Text_Accepted = "Mi è tornata fame",
     IGUI_SFQuest_Questyno_MikePozzo20_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_MikePozzo20_Complete = "Mmmm difficile stupirmi con così pochi ingredienti. Credo tu debba ancora lavorare sulle quantit?.",
+    IGUI_SFQuest_Questyno_MikePozzo20_Complete = "Mmmm difficile stupirmi con così pochi ingredienti. Credo tu debba ancora lavorare sulle quantità.",
 	
 	IGUI_SFQuest_Questyno_MikePozzo21_Title = "Mike dalla Tana",
     IGUI_SFQuest_Questyno_MikePozzo21_Text = "Mike galateo",
@@ -2034,7 +2034,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina_Intro_Title = "Rosa China",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Text = "Incontra Rosa China [Giornaliere]",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Lore = "Rosa è arrivata con sua figlia da poco al campo Tana, forse mi darà dei compiti molto semplici, penso che potrei cominciare con lei.",
-    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, sono arrivata qua insieme a Emily e mia figlia. ci siamo conosciute a March Ridge, quando tutto è cominciato. Eravamo all'interno del cinema, eravamo le uniche che stavano guardando quel film insieme alle nostre figlie e una volte uscite abbiamo trovato le strade deserte. Siamo arrivate in questo posto seguendo un gruppo di persone che abbiamo incontrato subito fuori dalla citt?. Siamo le ultime arrivate e stiamo cercando di trovarne il nostro posto all'interno della Resistenza ma senza dover affrontare quei cosi la fuori. Ti saremo grate se ci darai una mano a reperire alcuni materiali per dare una mano alla nostra famiglia.",
+    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, sono arrivata qua insieme a Emily e mia figlia. ci siamo conosciute a March Ridge, quando tutto è cominciato. Eravamo all'interno del cinema, eravamo le uniche che stavano guardando quel film insieme alle nostre figlie e una volte uscite abbiamo trovato le strade deserte. Siamo arrivate in questo posto seguendo un gruppo di persone che abbiamo incontrato subito fuori dalla città. Siamo le ultime arrivate e stiamo cercando di trovarne il nostro posto all'interno della Resistenza ma senza dover affrontare quei cosi la fuori. Ti saremo grate se ci darai una mano a reperire alcuni materiali per dare una mano alla nostra famiglia.",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_RosaChina1_Title = "Rosa dalla Tana",
@@ -2071,7 +2071,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RosaChina5_Title = "Rosa dalla Tana",
     IGUI_SFQuest_Questyno_RosaChina5_Text = "Lance per Rosa",
-    IGUI_SFQuest_Questyno_RosaChina5_Lore = "Rosa mi ha chiesto di portargli 10 Lance. Spero di poterle dare una mano.",
+    IGUI_SFQuest_Questyno_RosaChina5_Lore = "[50%+]Rosa mi ha chiesto di portargli 10 Lance. Spero di poterle dare una mano.",
     IGUI_SFQuest_Questyno_RosaChina5_Begin_Text = "Abbiamo bisogno di difenderci dagli animali aggressivi che si aggirano per i boschi e le steppe quando usciamo per foraggiare. Riusciresti a procurarmi qualcosa per difenderci?",
     IGUI_SFQuest_Questyno_RosaChina5_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina5_Begin_Text_Declined = "Spero troverai tempo.",
@@ -2602,12 +2602,12 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret5_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Text = "Un vestitino per Victoria",
-    IGUI_SFQuest_Questyno_VictoriaSecret5_Lore = "Victoria vuole che recupero un vestito a Cathaya Valley (4003,9110,0)",
+    IGUI_SFQuest_Questyno_VictoriaSecret5_Lore = "Victoria vuole che recupero un vestito a Cathaya Valley (3976,9077,0)",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Begin_Text = "Non pensi che avrei bisogno di qualcosa di più colorato? Vai all'outlet di Cathaya Valley, c'è una gonna che dovevo recuperare proprio quando è cominciato tutto questo!",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Begin_Text_Accepted = "Spero non ci metterai troppo!",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Begin_Text_Declined = "Mi stai rifiutando?",
     IGUI_SFQuest_Questyno_VictoriaSecret5_Complete = "Ma grazie caro! Che te ne pare? Prendi questi.",
-	IGUI_SFQuest_Questyno_VictoriaSecret5_A = "Cerca a Cathaya Valley (4003,9110,0)",
+	IGUI_SFQuest_Questyno_VictoriaSecret5_A = "Cerca a Cathaya Valley (3976,9077,0)",
 	IGUI_SFQuest_Questyno_VictoriaSecret5_A_Text = "Porta la gonna a Victoria",
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret6_Title = "Victoria da Muldraugh 10824,9070,1",
@@ -2642,7 +2642,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret9_Title = "Victoria da Muldraugh 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Text = "Un vestito per Victoria",
-    IGUI_SFQuest_Questyno_VictoriaSecret9_Lore = "Victoria vuole che le recuperi un vestito a Riverside (6399,5266,0). Come ci arrivo fino laggi??",
+    IGUI_SFQuest_Questyno_VictoriaSecret9_Lore = "Victoria vuole che le recuperi un vestito a Riverside (6399,5266,0). Come ci arrivo fino laggiù?",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Begin_Text = "Mi sono stancata di questi stracci, ti prego trovami qualche altro vestito! Fai un salto nell'area commerciale di Riverside.",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Begin_Text_Accepted = "Spero non ci metterai troppo!",
     IGUI_SFQuest_Questyno_VictoriaSecret9_Begin_Text_Declined = "Mi stai rifiutando?",
@@ -2917,7 +2917,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SusanLee15_A_Text = "Porta il corsetto a Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee16_Title = "Dr. Susan da Muldarugh",
-    IGUI_SFQuest_Questyno_SusanLee16_Text = "Una via di fuga dalla realt?",
+    IGUI_SFQuest_Questyno_SusanLee16_Text = "Una via di fuga dalla realtà",
     IGUI_SFQuest_Questyno_SusanLee16_Lore = "La dr. Susan mi ha chiesto di recuperare Degli antidepressivi nel magazzino a Muldraugh (10673,9819,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee16_Begin_Text = "Qui la gente sta impazzendo, non è solo un problema di ferite sanguinanti. Vai nel Magazzino di Muldraugh e recupera tutti gli antidepressivi che trovi.",
     IGUI_SFQuest_Questyno_SusanLee16_Begin_Text_Accepted = "Fai presto, la gente schiatta ogni giorno pd!",
@@ -2927,7 +2927,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SusanLee16_A_Text = "Porta gli antidepressivi a Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee17_Title = "Dr. Susan da Muldarugh",
-    IGUI_SFQuest_Questyno_SusanLee17_Text = "Una via di fuga dalla realt?",
+    IGUI_SFQuest_Questyno_SusanLee17_Text = "Una via di fuga dalla realtà",
     IGUI_SFQuest_Questyno_SusanLee17_Lore = "La dr. Susan mi ha chiesto di recuperare degli antidepressivi nella farmacia a Rosewood Nord (8211,10887,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee17_Begin_Text = "Qui la gente sta impazzendo, non è solo un problema di ferite sanguinanti. Vai nel Magazzino di Rosewood Nord e recupera tutti gli antidepressivi che trovi.",
     IGUI_SFQuest_Questyno_SusanLee17_Begin_Text_Accepted = "Fai presto, la gente schiatta ogni giorno pd!",
@@ -2973,8 +2973,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SusanLee20_Complete = "Cosa devo farci con questa roba? Puoi tenertela. ",
 	IGUI_SFQuest_Questyno_SusanLee20_A = "Cerca a Orchiwood (8236,9760,0)",
 	IGUI_SFQuest_Questyno_SusanLee20_A_Text = "Prendi i medicinali per Susan",
-	IGUI_SFQuest_Questyno_SusanLee20_B = "Bottiglia di Disinfettante",
-	IGUI_SFQuest_Questyno_SusanLee20_C = "2 Beta Bloccanti",
+	IGUI_SFQuest_Questyno_SusanLee20_B = "2 Beta Bloccanti",
+	IGUI_SFQuest_Questyno_SusanLee20_C = "Bottiglia di Disinfettante",
 	IGUI_SFQuest_Questyno_SusanLee20_B_Text = "Torna da Susan",
 	
 	IGUI_SFQuest_Questyno_SusanLee21_Title = "Dr. Susan da Muldarugh",
@@ -2987,7 +2987,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_SusanLee22_Title = "Dr. Susan da Muldarugh",
     IGUI_SFQuest_Questyno_SusanLee22_Text = "La citronella per Susan",
-    IGUI_SFQuest_Questyno_SusanLee22_Lore = "La dr. Susan mi ha chiesto di portarle 20 Citronella. Dovrei poterne trovare un po' nel bosco.",
+    IGUI_SFQuest_Questyno_SusanLee22_Lore = "La dr. Susan mi ha chiesto di portarle dell Citronella. Dovrei poterne trovare un po' nel bosco.",
     IGUI_SFQuest_Questyno_SusanLee22_Begin_Text = "Purtroppo alcuni pazienti sono allergici ad alcuni medicinali. Riesci a recuperarmi una un po' di citronella? ",
     IGUI_SFQuest_Questyno_SusanLee22_Begin_Text_Accepted = "Fai presto, la gente schiatta ogni giorno pd!",
     IGUI_SFQuest_Questyno_SusanLee22_Begin_Text_Declined = "Peccato, era molto importante.",
@@ -3036,7 +3036,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Title = "George Scott 10830,9068,0",
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Text = "Incontra George Scott [Settimanali]",
     IGUI_SFQuest_Questyno_GeorgeScott_Intro_Lore = "George ha bisogno che intraprenda dei viaggi per recupeare degli oggetti che venivano usati prima di questo disastro. Pensa che possano sollevarci il morale nei momenti difficili. Penso che gli darò un mano, mi aspetta sempre alla fattoria di Muldraugh",
-    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Complete_Text = "Ciao, io sono George. Siamo qua a Muldraugh per ricostruire, un mattone alla volta, la nostra civilt?. Ognuno di noi svolge un ruolo fondamentale. Prima di tutto questo mi occupavo di Design. Sedie, poltrone, divani, non avrei mai pensato che ci saremmo ridotti così e che le mie competenze sarebbero diventate quasi del tutto inutili. Sono arrivato qua insieme alla Dottoressa Susan. In casa ci accolse Samuel, sembrava ignaro di quello che stava accadendo. E' stata una fortuna trovarlo ma era proprio quello che sperava Susan. Questa è la prova che se continuiamo ad espanderci potremmo trovare altri sopravvissuti. Dobbiamo restare uniti e sacrificarci l'un l'altro per rimanere in vita. Se c'è qualcosa che Può mantenere vivo il fuoco della speranza sono i ricordi del tempo passato. Spero di vederti spesso per aiutarmi a recupeare degli oggetti che possano farci ritornare a casa, anche solo per un attimo.",
+    IGUI_SFQuest_Questyno_GeorgeScott_Intro_Complete_Text = "Ciao, io sono George. Siamo qua a Muldraugh per ricostruire, un mattone alla volta, la nostra civiltà. Ognuno di noi svolge un ruolo fondamentale. Prima di tutto questo mi occupavo di Design. Sedie, poltrone, divani, non avrei mai pensato che ci saremmo ridotti così e che le mie competenze sarebbero diventate quasi del tutto inutili. Sono arrivato qua insieme alla Dottoressa Susan. In casa ci accolse Samuel, sembrava ignaro di quello che stava accadendo. E' stata una fortuna trovarlo ma era proprio quello che sperava Susan. Questa è la prova che se continuiamo ad espanderci potremmo trovare altri sopravvissuti. Dobbiamo restare uniti e sacrificarci l'un l'altro per rimanere in vita. Se c'è qualcosa che Può mantenere vivo il fuoco della speranza sono i ricordi del tempo passato. Spero di vederti spesso per aiutarmi a recupeare degli oggetti che possano farci ritornare a casa, anche solo per un attimo.",
 	
 	IGUI_SFQuest_Questyno_GeorgeScott1_Title = "George da Muldarugh 10830,9068,0",
     IGUI_SFQuest_Questyno_GeorgeScott1_Text = "Vino per George",
@@ -3350,7 +3350,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamuelYoung7_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung7_Text = "Conigli per Samuel",
     IGUI_SFQuest_Questyno_SamuelYoung7_Lore = "Samuel mi ha chiesto di cacciare 2 Conigli per lui. Devo piazzare delle trappole nel bosco.",
-    IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Accepted = "Ottimo! Torna in tempo per la merenda",
     IGUI_SFQuest_Questyno_SamuelYoung7_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_SamuelYoung7_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -3358,7 +3358,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamuelYoung8_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung8_Text = "Le papele di Samuel",
     IGUI_SFQuest_Questyno_SamuelYoung8_Lore = "Samuel mi ha chiesto di recuperare le cartine per farsi le canne a Chinatown (11217,8963,0)",
-    IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text = "Pensi di poter recuperare le mie papele a Chinatow?",
+    IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text = "Pensi di poter recuperare le mie papele a Chinatown?",
     IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Accepted = "Ottimo! Torna in tempo per la merenda",
     IGUI_SFQuest_Questyno_SamuelYoung8_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_SamuelYoung8_Complete = "Grazie mille, cominciavo a sentirmi a sentirmi un po' stressato.",
@@ -3368,7 +3368,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamuelYoung9_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung9_Text = "Uccellini per Samuel",
     IGUI_SFQuest_Questyno_SamuelYoung9_Lore = "Samuel mi ha chiesto di cacciare 2 Uccelli per lui. Devo piazzare delle trappole nel bosco.",
-    IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Accepted = "Ottimo! Torna in tempo per la merenda",
     IGUI_SFQuest_Questyno_SamuelYoung9_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_SamuelYoung9_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -3376,7 +3376,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamuelYoung10_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung10_Text = "Scoiattoli per Samuel",
     IGUI_SFQuest_Questyno_SamuelYoung10_Lore = "Samuel mi ha chiesto di cacciare 2 Scoiattoli per lui. Devo piazzare delle trappole nel bosco.",
-    IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text = "Heil?, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
+    IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text = "Heilà, ciao. Ho un po' di sale che mi avanza, se mi porti della carne posso conservartela!",
     IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Accepted = "Ottimo! Torna in tempo per la merenda",
     IGUI_SFQuest_Questyno_SamuelYoung10_Begin_Text_Declined = "Pff, pivello",
     IGUI_SFQuest_Questyno_SamuelYoung10_Complete = "Ottimo, aspetta un secondo. Ecco a te!",
@@ -3491,7 +3491,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamuelYoung23_Title = "Samuel da Muldarugh 10823,9066,0",
     IGUI_SFQuest_Questyno_SamuelYoung23_Text = "Del sale per Samuel",
     IGUI_SFQuest_Questyno_SamuelYoung23_Lore = "Samuel mi ha chiesto di recuperare del sale per lui a Rosewood (8008,11896,0) per insegnarmi ad essiccare la carne.",
-    IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text = "Hei hai mai provato a creare della carne essiccata? Ti basta del sale e un procedimento particolare che magari un giorno ti spiegher?. Se vuoi provare dovrebbe essere rimasto del sale nella mia vecchia abitazione a Rosewood. ",
+    IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text = "Hei hai mai provato a creare della carne essiccata? Ti basta del sale e un procedimento particolare che magari un giorno ti spiegherò. Se vuoi provare dovrebbe essere rimasto del sale nella mia vecchia abitazione a Rosewood. ",
     IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Accepted = "Ottimo, ti aspetto allora",
     IGUI_SFQuest_Questyno_SamuelYoung23_Begin_Text_Declined = "Pff, pivello",
 	IGUI_SFQuest_Questyno_SamuelYoung23_A = "Cerca a Rosewood (8008,11896,0)",
@@ -3819,7 +3819,7 @@ IGUI_IT = {
 				15. Recuperare Base.SheetMetal;20,Base.EngineParts;20,Base.ElectronicsScrap;20,Base.UnusableMetal;2 parlando con (8224,7501,0) (80rep + Base.SheetMetal;2,Base.EngineParts;6)
 				16. Recuperare Base.ElectronicsScrap;40 (100rep)
 				17. Recuperare Base.Wrench parlando con (10452,8267,0) (60rep)
-				18. Recuperare Base.SheetPaper2 parlando con (16514,6503,0) (65rep + 25$) - passworD?: swR48x3j
+				18. Recuperare Base.SheetPaper2 parlando con (16514,6503,0) (65rep + 25$)
 				19. Recuperare Base.MetalPipe;2 (65rep)
 				20. Recuperare Base.ScrapMetal;15 (120rep)
 				21. Recuperare Base.ScrapMetal;40 (200rep)
@@ -3861,7 +3861,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_DavidTurner4_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner4_Text = "Il generatore di David",
-    IGUI_SFQuest_Questyno_DavidTurner4_Lore = "David mi ha chiesto di recuperare 30 Parti elettroniche, 4 Cavi elettrici e 2 Lamiere. Vuole assemblare un generatore, ce la far??",
+    IGUI_SFQuest_Questyno_DavidTurner4_Lore = "David mi ha chiesto di recuperare 30 Parti elettroniche, 4 Cavi elettrici e 2 Lamiere. Vuole assemblare un generatore, ce la farò?",
     IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text = "Sto cercando di assemblare un generatore. Mi servono tanto metallo, scarti elettrici e dei bellissimi ingranaggi. Riesci a trovarli per me?",
     IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner4_Begin_Text_Declined = "Diamine, okay.",
@@ -3873,7 +3873,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_DavidTurner5_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner5_Text = "Scarti elettrici per David",
-    IGUI_SFQuest_Questyno_DavidTurner5_Lore = "David mi ha chiesto di recuperare 40 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che ?.",
+    IGUI_SFQuest_Questyno_DavidTurner5_Lore = "David mi ha chiesto di recuperare 40 Parti elettroniche per i suoi Chippini. Cazzo di smanettone che è.",
     IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text = "Mi sono fissato con questi Chippini, servono molte parti elettroniche, riesci a procurarmene qualcuna?",
     IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner5_Begin_Text_Declined = "Diamine, okay.",
@@ -3911,7 +3911,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_DavidTurner9_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner9_Text = "David l'aggiustatore",
-    IGUI_SFQuest_Questyno_DavidTurner9_Lore = "David mi ha chiesto di recuperare 8 Scarti metallici e 32 Parti elettroniche per creare delle Parti di ricambio per motore. Non lo deluder?.",
+    IGUI_SFQuest_Questyno_DavidTurner9_Lore = "David mi ha chiesto di recuperare 8 Scarti metallici e 32 Parti elettroniche per creare delle Parti di ricambio per motore. Non lo deluderò.",
     IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text = "Ho bisogno di costruire delle Parti di Ricambio per motore, riesci a portarmi un po' di materiale utile?",
     IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner9_Begin_Text_Declined = "Diamine, okay.",
@@ -3957,7 +3957,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_DavidTurner14_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner14_Text = "David l'assetato",
     IGUI_SFQuest_Questyno_DavidTurner14_Lore = "David mi ha chiesto di portargli una Bottiglia di Acqua, ha molta sete poverino e non vuole staccarsi dal suo progetto. Se non bestemmio guarda...",
-    IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text = "Heil?! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono in un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono in un bagno di sudore. Potresti allungarmi un poco di acqua?",
     IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner14_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_DavidTurner14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
@@ -3998,7 +3998,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_DavidTurner18_Title = "David da Muldraugh 10839,9071,0 ",
     IGUI_SFQuest_Questyno_DavidTurner18_Text = "David l'ingegnere",
     IGUI_SFQuest_Questyno_DavidTurner18_Lore = "David vorrebbe che trovassi una password su un foglio nella sua abitazione a Ztardew Valley (12567,9951,0). Spero di riuscire a trovarla.",
-    IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text = "Heil?, vieni qui presto! Non riesco a far partire questo trasmettitore, ho lasciato la password per collegarlo su un foglietto in uno degli armadi di casa mia a Ztardew Valley. Puoi fare un salto per trovarlo?",
+    IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text = "Heilà, vieni qui presto! Non riesco a far partire questo trasmettitore, ho lasciato la password per collegarlo su un foglietto in uno degli armadi di casa mia a Ztardew Valley. Puoi fare un salto per trovarlo?",
     IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner18_Begin_Text_Declined = "Diamine, okay.",
     IGUI_SFQuest_Questyno_DavidTurner18_Complete = "Eccola qui, grazie di cuore! Questi per il disturbo.",
@@ -4035,7 +4035,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text = "Non riesco a riparare la mia chiave giratubi, riusciresti a recuperarne un'altra nel magazzino degli attrezzi a Rosewood Nord?",
     IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_DavidTurner22_Begin_Text_Declined = "Diamine, okay.",
-    IGUI_SFQuest_Questyno_DavidTurner22_Complete = "Heil?, mi dispiace di averti disturbato, alla fine sono riuscito a rimontarla. Puoi tenerti la chiave se vuoi.",
+    IGUI_SFQuest_Questyno_DavidTurner22_Complete = "Heilà, mi dispiace di averti disturbato, alla fine sono riuscito a rimontarla. Puoi tenerti la chiave se vuoi.",
 	IGUI_SFQuest_Questyno_DavidTurner22_A = "Cerca a Rosewood (8232,10996,0)",
 	IGUI_SFQuest_Questyno_DavidTurner22_A_Text = "Porta la Chiave a David",
 	
@@ -4081,7 +4081,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Title = "Rafael Prezioso (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Text = "Incontra Rafael [Settimanali]",
-	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Rafael è un tipo strambo che cerca oggetti particolari sparsi per le varie citt?. Mi aspetta sempre a Muldraugh",
+	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Lore = "Rafael è un tipo strambo che cerca oggetti particolari sparsi per le varie città. Mi aspetta sempre a Muldraugh",
 	IGUI_SFQuest_Questyno_RafaelPrezioso_Intro_Complete_Text = "Hei, ciao! Io sono Rafael ma tutti mi chiamano 'Prezioso'. Prima di tutto, non fare troppe domande, ero un collezionista e lo sono ancora oggi. Sono alla ricerca di oggetti veramente unici, è importante ricordarsi come siamo arrivati a questo punto collezionando gli oggetti del Vecchio Mondo. Non si sa mai quale diavoleria riuscirà a farti concquistare un posto all'interno del nostro gruppo. Porta a me soltanto tutte le cose assurde che trovi in giro e ti dirò se valgono qualcosa! Mi darai una mano?",
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso1_Title = "Rafael 'Prezioso' (10155,6623,0)",
@@ -4221,7 +4221,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RafaelPrezioso13_Title = "Rafael 'Prezioso' (10155,6623,0)",
 	IGUI_SFQuest_Questyno_RafaelPrezioso13_Text = "Uno Yoyo per Rafael",
-	IGUI_SFQuest_Questyno_RafaelPrezioso13_Lore = "Rafael vorrebbe che gli trovassi uno Yo-yo. Devo guardare in qualche cameretta in citt?.",
+	IGUI_SFQuest_Questyno_RafaelPrezioso13_Lore = "Rafael vorrebbe che gli trovassi uno Yo-yo. Devo guardare in qualche cameretta in città.",
 	IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text = "Sai cosa mi manca? Un fottuto Yo-yo! Riesci a trovarne uno per me?",
 	IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text_Accepted = "Aspetterò con ansia",
 	IGUI_SFQuest_Questyno_RafaelPrezioso13_Begin_Text_Declined = "Peccato! Spero ci ripenserai.",
@@ -4409,7 +4409,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis3_A_Text = "Parla con Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis4_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_JeffreyLewis4_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pronto Soccorso 2, Meccanica 3, Pronto Soccorso 1, Pesca 1. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca. ",
     IGUI_SFQuest_Questyno_JeffreyLewis4_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4422,7 +4422,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis4_A_Text = "Parla con Jeffrey",
 
 	IGUI_SFQuest_Questyno_JeffreyLewis5_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_JeffreyLewis5_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 2, Pronto soccorso 3, Pesca 2, Pronto soccorso 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis5_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4435,7 +4435,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis5_A_Text = "Parla con Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis6_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_JeffreyLewis6_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Coltivazione 4, Trappole 4, Ispezione 4, Ispezione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text = "Cerca questi libri per me, è molto importante per rifornire la nostra biblioteca.",
     IGUI_SFQuest_Questyno_JeffreyLewis6_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4464,12 +4464,12 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis8_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Text = "Il prezzo della cultura",
-    IGUI_SFQuest_Questyno_JeffreyLewis8_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 1, Carpenteria 5, Coltivazione 5, Pronto soccorso 5, Meccanica 5, Lavorazioni metalli 5. Dovrei andare a controllare alla libreria di Hartburg (8140,9694,0)",
-    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla libreria di Hartburg, vai li e portameli!",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Meccanica 1, Carpenteria 5, Coltivazione 5, Pronto soccorso 5, Meccanica 5, Lavorazioni metalli 5. Dovrei andare a controllare alla libreria di Orchiwood (8140,9694,0)",
+    IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla libreria di Orchiwood, vai li e portameli!",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Begin_Text_Declined = "Peccato...",
     IGUI_SFQuest_Questyno_JeffreyLewis8_Complete = "Grazie erano proprio quelli che stavo cercando. ",
-	IGUI_SFQuest_Questyno_JeffreyLewis8_A = "Cerca a Hartburg (8140,9694,0)",
+	IGUI_SFQuest_Questyno_JeffreyLewis8_A = "Cerca a Orchiwood (8140,9694,0)",
 	IGUI_SFQuest_Questyno_JeffreyLewis8_A_Text = "Prendi i libri per Jeffrey",
     IGUI_SFQuest_Questyno_JeffreyLewis8_B = "Meccanica 1",
     IGUI_SFQuest_Questyno_JeffreyLewis8_C = "Carpenteria 5",
@@ -4538,7 +4538,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis13_A_Text = "Parla con Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis14_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Il prezzo della Societ?",
+    IGUI_SFQuest_Questyno_JeffreyLewis14_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Pesca 4, Lavorazione metalli 1, Lavorazione metalli 2, Carpenteria 2, Trappole 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis14_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4552,7 +4552,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis14_A_Text = "Parla con Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis15_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Il prezzo della Societ?",
+    IGUI_SFQuest_Questyno_JeffreyLewis15_Text = "Il prezzo della Società",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Ispezione 4, Ispezione 3, Meccanica 1, Carpenteria 2, Coltivazione 5. Dovrei andare a controllare in qualche libreria o al mercato.",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text = "E' un piacere rivederti, non è che ti avanzano dei libri?",
     IGUI_SFQuest_Questyno_JeffreyLewis15_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4566,7 +4566,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis15_A_Text = "Parla con Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis16_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_JeffreyLewis16_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di cacciatori 1, Rivista di cacciatori 2. Dovrei andare a controllare alla libreria a Pitstop (9681,11178,0)",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text = "Dobbiamo tramandare le nostre conoscienze per rimanere in vita, cercami questa rivista speciale, la troverai nella libreria a Pitstop.",
     IGUI_SFQuest_Questyno_JeffreyLewis16_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4606,7 +4606,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_JeffreyLewis18_B_Text = "Torna da Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis19_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis19_Text = "Il prezzo della civilt?",
+    IGUI_SFQuest_Questyno_JeffreyLewis19_Text = "Il prezzo della civiltà",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Lore = "Jeffrey mi ha chiesto di portargli 4 Foglio e 2 Pastelli a cera.",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text = "Abbiamo bisogno di più fogli per i nostri pargoli, non possono continuare a scrivere sui muri!",
     IGUI_SFQuest_Questyno_JeffreyLewis19_Begin_Text_Accepted = "Ti aspetto qui",
@@ -4686,12 +4686,12 @@ IGUI_IT = {
 ]]
     IGUI_SFQuest_Questyno_ChristopherDavis_Name = "Christopher Davis",
 
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Christopher Davis da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Title = "Christopher Davis",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Text = "Incontra Christopher Davis [Settimanali]",
     IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Lore = "Christopher mi aspetta sempre in cucina pronto a ricevere qualche pasto generoso da me. Mi ricorda qualcuno...",
-    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da s?. Sono il vicino di casa di Sam e mi sono trasferito da lui quando ho notato che mio fratello non faceva più ritorno. Era andato a fare la spesa in città e non è più ritornato... Affogo la disperazione nel cibo e spero di poter contare su di te per poter continuare a piangere il mio fratello scomparso.. Sigh.",
+    IGUI_SFQuest_Questyno_ChristopherDavis_Intro_Complete_Text = "Hei bello! Io sono Christopher detto 'Forchetta'. Lo so, il mio soprannome parla da sè. Sono il vicino di casa di Sam e mi sono trasferito da lui quando ho notato che mio fratello non faceva più ritorno. Era andato a fare la spesa in città e non è più ritornato... Affogo la disperazione nel cibo e spero di poter contare su di te per poter continuare a piangere il mio fratello scomparso.. Sigh.",
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis1_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis1_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis1_Text = "Due zuppe per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Lore = "Christopher mi ha chiesto di portargli 2 Pentola di Zuppa. Spero gli basterà",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text = "Tu non hai fame? Io si, riesci a portarmi una Pentola di stufato?",
@@ -4699,15 +4699,15 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis1_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis1_Complete = "Mmmm! Sembra delizioso, credo manchi un po di sale però. Questi te li sei meritati.",
 
-    IGUI_SFQuest_Questyno_ChristopherDavis2_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis2_Text = "Quattro salti in padella per Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella. Spero gli basterà",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Lore = "Christopher mi ha chiesto di portargli 2 Saltato in padella da 1.5kg. Spero gli basterà",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text = "Scommetto che anche tu hai un leggero languorino. Riesci a portarmi qualcosa di saltato in padella?",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis2_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_ChristopherDavis2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabb?, è mangiabile, tieni.",
+    IGUI_SFQuest_Questyno_ChristopherDavis2_Complete = "Mmmm, forse te lo sei scordato sul fuoco?. Vabbè, è mangiabile, tieni.",
 
-    IGUI_SFQuest_Questyno_ChristopherDavis3_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis3_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis3_Text = "Un cavolo per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Lore = "Christopher mi ha chiesto di portargli 3 Cavolo. Che gli è preso?",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text = "Pensi di riuscire a portarmi un cavolo? Ah, tranquillo, non è per me, è per il mio coniglio.",
@@ -4715,16 +4715,16 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis3_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis3_Complete = "Grazie, non vedo l'ora che sia bello grasso e succulento. A presto ed ecco a te!",
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis4_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis4_Text = "L'insalatina di Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis4_Lore = "Christopher mi ha chiesto di portargli 2 Insalata (di verdure). Che gli è preso?",
-    IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text = "Hei... Ciao. Credo di aver esagerato, ieri sono svenuto con un forte dolore al petto. Credo sia arrivato il tempo di fare un poco di digiuno. Tu hai qualche bacca da parte per prepararmi una bella insalata per caso?",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Lore = "Christopher mi ha chiesto di portargli 2 Insalata (di verdure) da 1kg. Che gli è preso?",
+    IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text = "Hei... Ciao. Credo di aver esagerato, ieri sono svenuto con un forte dolore al petto. Credo sia arrivato il tempo di fare un poco di digiuno. Tu hai qualche insalata di verdure da parte per caso?",
     IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis4_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis4_Complete = "Pensi sia il caso di aggiungere un po' di olio? Mmmm... Magari la prossima volta.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis5_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis5_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis5_Text = "Christopher colesterolo",
     IGUI_SFQuest_Questyno_ChristopherDavis5_Lore = "Christopher mi ha chiesto di andare a recuperare del burro fresco al centro commerciale di St.Bernard's Hill (12315,11739,0)",
     IGUI_SFQuest_Questyno_ChristopherDavis5_Begin_Text = "Non c'è niente di meglio di un bel panetto di burro fritto! Le vacche sono tutte morte, ma in qualche negozio dovresti ancora trovare del burro più o meno "fresco". Prova al centro commerciale di St.Bernard's Hill li c'è sicuramente qualcosa.",
@@ -4735,7 +4735,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis5_A_Text = "Porta il burro a Christopher",
 	
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis6_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis6_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis6_Text = "La ricerca del sapore perduto di Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis6_Lore = "Christopher mi ha chiesto di recuperargli delle spezie dal Dinner a Rosewood Nord (8199,11177,0)",
     IGUI_SFQuest_Questyno_ChristopherDavis6_Begin_Text = "Non so se è stato il burro o l'eccesso di sale ma ultimamente non riesco proprio più a sentire i sapori. Riusciresti a trovarmi qualche spezia bella forte? c'è un minimarket a Rosewood Nord, prova a vedere li!",
@@ -4750,16 +4750,16 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis6_B_Text = "Torna da Christopher",
 	
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis7_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis7_Text = "La specialità di Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis7_Lore = "Christopher mi ha chiesto di portargli un pezzo di coniglio per prepararmi una sua specialit?.",
+    IGUI_SFQuest_Questyno_ChristopherDavis7_Lore = "Christopher mi ha chiesto di portargli un pezzo di coniglio per prepararmi una sua specialità.",
     IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text = "Oggi sono davvero di buon umore, se mi porti un pezzetto di coniglio ti preparerò un piatto che ti farà ricordare i motivi della prima causa di morte negli Stati uniti!",
     IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis7_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis7_Complete = "Eheheh, dimmi che te ne pare e non fare complimenti!",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis8_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis8_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis8_Text = "Un grembiule per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis8_Lore = "Christopher mi ha chiesto di recuperare un Grembiule Nero. perché proprio nero? Maledetto, dove lo trovo?",
     IGUI_SFQuest_Questyno_ChristopherDavis8_Begin_Text = "Hei avrei bisogno di qualche grembiule nuovo, continuo a sporcarmi i vestiti, pensi di riuscire a trovarne uno per me? Va bene uno Nero, magari.",
@@ -4768,7 +4768,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis8_Complete = "Grazie caro, questi sono per te.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis9_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis9_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis9_Text = "Delle bistecchiere per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis9_Lore = "Christopher mi ha chiesto di portargli 2 Bistecchiere. Forse posso trovarle al mercato alla Tana...",
     IGUI_SFQuest_Questyno_ChristopherDavis9_Begin_Text = "L'energia non è gratis e mi ritrovo spesso a cucinare molte pietanze contemporaneamente per poi congelarle, l'unico problema è che mi mancano gli strumenti! Se riuscissi a trovarmi delle vettovaglie te ne sarei infinitamente grato.",
@@ -4777,7 +4777,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis9_Complete = "Grazie mille! Spero bastino.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis10_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis10_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis10_Text = "Delle casseruole per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis10_Lore = "Christopher mi ha chiesto di portargli 2 Casseruole. Devo controllare in qualche cucina.",
     IGUI_SFQuest_Questyno_ChristopherDavis10_Begin_Text = "L'energia è lusso oggi come oggi e mi ritrovo spesso a cucinare molte pietanze contemporaneamente per poi congelarle, l'unico problema è che mi macano gli strumenti! Se riuscissi a trovarmi delle Casseruole te ne sarei infinitamente grato.",
@@ -4786,7 +4786,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis10_Complete = "Grazie mille! Spero bastino.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis11_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis11_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis11_Text = "Dei coltelli per Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis11_Lore = "Christopher mi ha chiesto di portargli 4 Coltelli da cucina. Spero gli basterà.",
     IGUI_SFQuest_Questyno_ChristopherDavis11_Begin_Text = "Continuo a tagliare, tritare e sfilettare, sempre con la mia solita Mannaia. Non è che tante volte riesci a trovarmi un coltello affilato?",
@@ -4795,7 +4795,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis11_Complete = "Bene, sembrano molto affilati, sono Miracle Blade?",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis12_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis12_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis12_Text = "La colazione di Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis12_Lore = "Christopher mi ha chiesto di prendergli un paio di Pacchi di cereali nel minimarket a Utopia 7373,9732,0.",
     IGUI_SFQuest_Questyno_ChristopherDavis12_Begin_Text = "Ogni pasto è importante, specialmente la terza colazione! Potrei chiederti di fare un salto al minimarket ad Utopia per recuperare dei cereali?",
@@ -4806,7 +4806,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis12_A_Text = "Porta i cereali a Christopher",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis13_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis13_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis13_Text = "Christopher l'assetato",
     IGUI_SFQuest_Questyno_ChristopherDavis13_Lore = "Christopher mi ha chiesto di portargli portargli una Lattina di birra. Maledetto ubriacone.",
     IGUI_SFQuest_Questyno_ChristopherDavis13_Begin_Text = "Ho sempre caldo, ho sempre sete. L'acqua non mi basta più. Non è che ti avanza una Birra?",
@@ -4815,16 +4815,16 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis13_Complete = "Wow grazie, sarebbe bello anche del ghiaccio, ma penso che dovrò fare senza...",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis14_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis14_Text = "Christopher l'assetato",
     IGUI_SFQuest_Questyno_ChristopherDavis14_Lore = "Christopher mi ha chiesto di portargli una Bottiglia d'acqua. Gli pesa molto il culo a quanto pare.",
-    IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text = "Heil?! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
+    IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text = "Heilà! Ben ritrovato. Ma siamo in agosto per caso? Non ce la faccio più, sono un bagno di sudore. Potresti allungarmi un poco di acqua?",
     IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis14_Begin_Text_Declined = "Resto qui ad aspettarti.",
     IGUI_SFQuest_Questyno_ChristopherDavis14_Complete = "Ahhh, grazie mille. Mi rimetto subito a lavoro.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis15_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis15_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis15_Text = "Christopher l'ingordo",
     IGUI_SFQuest_Questyno_ChristopherDavis15_Lore = "Christopher mi ha chiesto di recuperare del cibo per lui nel magazzino di Orchiwood (8108,9699,0).",
     IGUI_SFQuest_Questyno_ChristopherDavis15_Begin_Text = "Salve amico mio! Che fai oggi? Che ne dici di recuperare tutto il cibo in scatola rimasto nel magazzino a Orchiwood?",
@@ -4840,7 +4840,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis15_B_Text = "Torna da Christopher",
 	
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis16_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis16_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis16_Text = "L'affare di Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis16_Lore = "Christopher mi ha chiesto di recuperare del Lardo in cambio di un po' di Latte.  Dovrei trovare il lardo nella sua casa a Cherokee Lake  (11287,8287,0).",
     IGUI_SFQuest_Questyno_ChristopherDavis16_Begin_Text = "Hei! Vieni qui! Ti propongo un affare. Io ti darò proteine e tu mi darai grasso saturo. Ci stai? Vai a recuperare il lardo che ho lasciato nella mia cucina a Cherokee Lake.",
@@ -4851,7 +4851,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis16_A_Text = "Porta il lardo a Christopher",
 	
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis17_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis17_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis17_Text = "Burro in sconto di Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis17_Lore = "Christopher sembra a corto di grana ed è disposto a lasciarmi del burro per 35$.",
     IGUI_SFQuest_Questyno_ChristopherDavis17_Begin_Text = "Ultimamente fa molto caldo e le mie riserve di burro si stanno sciogliendo anche in frigo. Ne vuoi un po' per qualche spicciolo?",
@@ -4860,7 +4860,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis17_Complete = "Bene, direi che hai appena fatto un affare!",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis18_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis18_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis18_Text = "Christopher Massari",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Lore = "Christopher mi ha chiesto di portargli andare a recuperare 4 uova per lui nel bosco ad Est da qui (13603,6883,0).",
     IGUI_SFQuest_Questyno_ChristopherDavis18_Begin_Text = "Ho in mente di preparare una bella torta, non è che potresti andare nel bosco a trovare delle uova per me? c'è un posto dove le troverai sicuramente, ma dovresti arrampicarti, altrimenti sarei andato io. Prova nel bosco ad Est, prosegui fino a quando non trovi una piccola radura.",
@@ -4871,7 +4871,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_ChristopherDavis18_A_Text = "Porta le uova a Christopher",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis19_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis19_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis19_Text = "Christopher galateo",
     IGUI_SFQuest_Questyno_ChristopherDavis19_Lore = "Christopher mi ha chiesto di portargli 6 Cucchiai. c'è una festa a cui non sono stato invitato?",
     IGUI_SFQuest_Questyno_ChristopherDavis19_Begin_Text = "Dicono che non è igenico usare le mani per mangiare. Tu che ne pensi? Tutti a lamentarsi ma nessuno che viene da me con una soluzione! Puoi fare qualcosa?",
@@ -4880,16 +4880,16 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis19_Complete = "Beh, strano non ci abbia pensato nessuno prima di oggi. Grazie da parte di tutti, ecco a te.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis20_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis20_Text = "Il provino di Christopher",
-    IGUI_SFQuest_Questyno_ChristopherDavis20_Lore = "Christopher mi ha chiesto di portargli un Saltato in padella. Spero gli piacer?.",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Lore = "Christopher mi ha chiesto di portargli un Saltato in padella. Spero gli piacerà.",
     IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text = "Sempre più persone arrivano, sempre più affamate. Magari un giorno avrò bisogno di aiuto cuoco! Fammi vedere di cosa sei capace, ti andrebbe?",
     IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_ChristopherDavis20_Begin_Text_Declined = "Resto qui ad aspettarti.",
-    IGUI_SFQuest_Questyno_ChristopherDavis20_Complete = "Mmmm difficile stupirmi con così pochi ingredienti. Credo tu debba ancora lavorare sulle quantit?.",
+    IGUI_SFQuest_Questyno_ChristopherDavis20_Complete = "Mmmm difficile stupirmi con così pochi ingredienti. Credo tu debba ancora lavorare sulle quantità.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis21_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis21_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis21_Text = "Il provino di Christopher",
     IGUI_SFQuest_Questyno_ChristopherDavis21_Lore = "Christopher mi ha chiesto di portargli 2 Pentole di zuppa. Spero gli piaceranno",
     IGUI_SFQuest_Questyno_ChristopherDavis21_Begin_Text = "Tutti si danno molto da fame e bruciano molte calorie, il cibo non basta mai. Magari un giorno avrò bisogno del tuo aiuto in cucina! Fammi vedere di cosa sei capace, ti andrebbe?",
@@ -4898,7 +4898,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis21_Complete = "Mmmm difficile stupirmi con solo dell'acqua aromatizzata allo schifo. Ma cel'hai la lingua? *Versa a terra* Tieni riprendi pure la tua pentola.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis22_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis22_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis22_Text = "Christopher il lavapiatti",
     IGUI_SFQuest_Questyno_ChristopherDavis22_Lore = "Christopher mi ha chiesto di portargli 2 Liquidi detergenti. Spero lo usi anche per quelle mani merdose che si ritrova.",
     IGUI_SFQuest_Questyno_ChristopherDavis22_Begin_Text = "Heila! Ho bisogno del tuo aiuto, non riesco a pulire le pentole con sola acqua sporca. Riusciresti a rimediarmi del sapone per i piatti?",
@@ -4907,7 +4907,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis22_Complete = "Grazie di cuore, ultimamente ogni piatto aveva lo stesso sapore. Ecco a te!",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis23_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis23_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis23_Text = "Christopher grandi porzioni",
     IGUI_SFQuest_Questyno_ChristopherDavis23_Lore = "Christopher mi ha chiesto di portargli una Teglia da forno per preparare un grande pranzo.",
     IGUI_SFQuest_Questyno_ChristopherDavis23_Begin_Text = "Un conto è cucinare per se stessi, un altro conto è cucinare per 40 persone. Se riuscissi a portarmi delle teglie per forno potrei velocizzare le preparazioni. Puoi aiutarmi?",
@@ -4916,7 +4916,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_ChristopherDavis23_Complete = "Ottimo grazie, non so come farei senza di te! Questo per il disturbo.",
 
 	
-    IGUI_SFQuest_Questyno_ChristopherDavis24_Title = "Christopher da West Point 10161,6627,0",
+    IGUI_SFQuest_Questyno_ChristopherDavis24_Title = "Christopher Davis",
 	IGUI_SFQuest_Questyno_ChristopherDavis24_Text = "Christopher galateo",
     IGUI_SFQuest_Questyno_ChristopherDavis24_Lore = "Christopher mi ha chiesto di portargli 12 Coltelli da pane. Devo controllare in qualche cucina.",
     IGUI_SFQuest_Questyno_ChristopherDavis24_Begin_Text = "Il cibo assaporato con le mani ha tutto un altro sapore. Tu che ne pensi? Tutti a lamentarsi ma poi tutti che si leccano le dita, maledetti! Puoi fare qualcosa per questa gente?",
@@ -5268,7 +5268,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher7_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher7_Text = "Lezioni di pesca",
     IGUI_SFQuest_Questyno_SamFisher7_Lore = "Sam mi ha chiesto di portargli una Rete da Pesca e in cambio mi insegnerà ad usarla.",
-    IGUI_SFQuest_Questyno_SamFisher7_Begin_Text = "Heil?, se mi procuri una rete da pesca ti faccio vedere come si piazza in acqua! Sono molto utili per catturare dei piccoli pesci esca. Pensi di potermi dare una mano?",
+    IGUI_SFQuest_Questyno_SamFisher7_Begin_Text = "Heilà, se mi procuri una rete da pesca ti faccio vedere come si piazza in acqua! Sono molto utili per catturare dei piccoli pesci esca. Pensi di potermi dare una mano?",
     IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher7_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher7_Complete = "Wow ottimo! Tieniti pure questo cavo, esercitati nella riparazione di queste reti e alla prossima!",
@@ -5327,7 +5327,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_SamFisher13_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher13_Text = "Due gocci con Sam",
     IGUI_SFQuest_Questyno_SamFisher13_Lore = "Sam mi ha chiesto portargli due Birra in lattina per 'fare due gocci' con lui. Il solito ubriacone!",
-    IGUI_SFQuest_Questyno_SamFisher13_Begin_Text = "Heil?, oggi splende il sole, fermati con me a fare due gocci! Offri tu?",
+    IGUI_SFQuest_Questyno_SamFisher13_Begin_Text = "Heilà, oggi splende il sole, fermati con me a fare due gocci! Offri tu?",
     IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher13_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher13_Complete = "Ahhh bella calda dio boia! Non fare complimenti, serviti pure",
@@ -5338,7 +5338,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SamFisher14_Begin_Text = "Hei ciao, riesci a portarmi delle esche la prossima volta che passi di qua?",
     IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher14_Begin_Text_Declined = "Sarà per la prossima.",
-    IGUI_SFQuest_Questyno_SamFisher14_Complete = "Grazie, adesso li trasformo in cibo vero, come Ges?!",
+    IGUI_SFQuest_Questyno_SamFisher14_Complete = "Grazie, adesso li trasformo in cibo vero, come Gesù!",
 	
 	
 	IGUI_SFQuest_Questyno_SamFisher15_Title = "Sam da West Point 10153,6571,0",
@@ -5573,8 +5573,8 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Title = "John Baker, 7744,7760,0",
     IGUI_SFQuest_Questyno_JohnBaker_Intro_Text = "Incontra John Baker [Catena]",
-    IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilit?, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
-    IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilit?, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Lore = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
+    IGUI_SFQuest_Questyno_JohnBaker_Intro_Complete_Text = "Salve, io sono John. Ho dedicato la mia vita all'arte del kenjutsu, e ora, sono qui per insegnarti come usare queste spade giapponesi con grazia ed efficacia contro gli zombi. Le katane sono armi straordinarie, e con la giusta abilità, possono essere letali. Sono leggere e agili, perfette per affrontare nemici veloci e imprevedibili. Ti insegnerò l'arte del taglio preciso, come muoverti con eleganza e come affrontare le orde di non-morti con fiducia. Prima però dovrai dimostrarmi di essere degno di questa lama!",
 	
 	IGUI_SFQuest_Questyno_JohnBaker1_Title = "John",
     IGUI_SFQuest_Questyno_JohnBaker1_Text = "[T3]Uccidi 50 Zombie",
@@ -5752,7 +5752,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Title = "Taylor Blaze 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Text = "Incontra Taylor Blaze [Mensili]",
     IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Lore = "Taylor è una ex Pugile con un carattere scontroso, non mi soprende che si sia allontana dalla Tana e collabori con gli uomini di Nigel. E' disposta sempre a commerciare armi e munizioni, non coviene darle fregature. Posso trovarla sempre a Trelai a 7752,7759,0",
-    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "Qui a Trelai non tolleriamo fregature. Se voglio commerciare con te, aspetto onest?. Niente giochi sporchi. Le mie armi sono le migliori in circolazione, e se vuoi sopravvivere in questo mondo, avrai bisogno di ciò che posso offrirti. Ma sii avvisato: se mi tradisci, non ci saranno seconde occasioni.",
+    IGUI_SFQuest_Questyno_TaylorBlaze_Intro_Complete_Text = "Qui a Trelai non tolleriamo fregature. Se voglio commerciare con te, aspetto onestà. Niente giochi sporchi. Le mie armi sono le migliori in circolazione, e se vuoi sopravvivere in questo mondo, avrai bisogno di ciò che posso offrirti. Ma sii avvisato: se mi tradisci, non ci saranno seconde occasioni.",
 
 	IGUI_SFQuest_Questyno_TaylorBlaze1_Title = "Taylor da Trelai 7752,7759,0",
     IGUI_SFQuest_Questyno_TaylorBlaze1_Text = "Munizioni per Taylor",
@@ -5833,10 +5833,10 @@ IGUI_IT = {
             *** Marcus Kane ***
             Elenco:
                 intro. Incontra Marcus Kane per sbloccare le quest mensili.
-				1. Recuperare Carta d'Identit?;5, Uccidere 50 Zombie (130rep + 25$)
-				2. Recuperare Carta d'Identit?;10, Uccidere 100 Zombie (200rep + 50$)
-				3. Recuperare Carta d'Identit?;12, Uccidere 120 Zombie (220rep + 60$)
-				4. Recuperare Carta d'Identit?;20, Uccidere 200 Zombie (420rep + 80$)
+				1. Recuperare Carta d'Identità;5, Uccidere 50 Zombie (130rep + 25$)
+				2. Recuperare Carta d'Identità;10, Uccidere 100 Zombie (200rep + 50$)
+				3. Recuperare Carta d'Identità;12, Uccidere 120 Zombie (220rep + 60$)
+				4. Recuperare Carta d'Identità;20, Uccidere 200 Zombie (420rep + 80$)
 ]]
     IGUI_SFQuest_Questyno_MarcusKane_Name = "Marcus Kane",
 
@@ -5848,44 +5848,44 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_MarcusKane1_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane1_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane1_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese.",
-    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identit?! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane1_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane1_A = "30 Carta d'Identit?",
+	IGUI_SFQuest_Questyno_MarcusKane1_A = "30 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane1_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane1_A_Text = "Parla con Marcus",
 	
 	IGUI_SFQuest_Questyno_MarcusKane2_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane2_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane2_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identit?! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane2_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane2_A = "50 Carta d'Identit?",
+	IGUI_SFQuest_Questyno_MarcusKane2_A = "50 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane2_B = "Uccidi 500 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane2_A_Text = "Parla con Marcus",
 	
 	IGUI_SFQuest_Questyno_MarcusKane3_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane3_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane3_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identit?! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane3_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane3_A = "60 Carta d'Identit?",
+	IGUI_SFQuest_Questyno_MarcusKane3_A = "60 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane3_B = "Uccidi 600 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane3_A_Text = "Parla con Marcus",
 	
 	IGUI_SFQuest_Questyno_MarcusKane4_Title = "Marcus da Rosewood Nord 8574,11026,0",
     IGUI_SFQuest_Questyno_MarcusKane4_Text = "Sete di sangue",
     IGUI_SFQuest_Questyno_MarcusKane4_Lore = "Marcus è pronto a scommettere che non riesco a uccidere più zombie di lui nell'arco di un mese. ",
-    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identit?! Ahahaha!",
+    IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text = "Coraggio, fai saltare qualche testa e assicurati di portarmi la loro Carta d'Identità! Ahahaha!",
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane4_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane4_A = "100 Carta d'Identit?",
+	IGUI_SFQuest_Questyno_MarcusKane4_A = "100 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane4_B = "Uccidi 1000 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane4_A_Text = "Parla con Marcus",
 
@@ -5904,7 +5904,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Title = "Brian White 10812,9077,0",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Text = "Incontra Brian White [Catena]",
-    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian cel'ha a morte con le bande di Nigel, è disposto a donarmi un veicolo se sono pronto a contrastarli. Mi aspetta alla fattoria di Muldraugh.",
+    IGUI_SFQuest_Questyno_BrianWhite_Intro_Lore = "Brian ce l'ha a morte con le bande di Nigel, è disposto a donarmi un veicolo se sono pronto a contrastarli. Mi aspetta alla fattoria di Muldraugh.",
     IGUI_SFQuest_Questyno_BrianWhite_Intro_Complete_Text = "Ciao ragazzo, io sono Brian. Ti manda il Grif vero? Ultimamente stanno arrivando molti come te. Ci stiamo espandendo, mi fa molto piacere. Ti auguro solo di non avere mai nulla a che fare con quelle carogne delle Bande di Nigel. Dovremmo cominciare a fare degli assalti piuttosto che continuare a pagare il pizzo a quelle merde! Se mi dimostrerai di che pasta sei fatto ti darò un veicolo funzionante al 100%. Promettimi che lo userai per pedinare quei bastardi e capire cosa tramano e dove nascondono le loro scorte!",
 
 	IGUI_SFQuest_Questyno_BrianWhite1_Title = "Brian da Muldraugh 10812,9077,0",
@@ -5957,7 +5957,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text = "Eccoti qua, abbiamo bisogno di un ultimo pezzo per la tua auto. Vai a Rosewood e recupera un Silenziatore Genere Robusto e torna da me.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Accepted = "Bene! Corri, ti aspetto.",
     IGUI_SFQuest_Questyno_BrianWhite6_Begin_Text_Declined = "Okay, c'eravamo quasi.",
-    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato [Premi ESC e clicca su serve Point Shop - Vehicle - Buy (non essere all'interno di strutture o il veicolo non spawner?)]",
+    IGUI_SFQuest_Questyno_BrianWhite6_Complete = "Bene prendi questo Ticket che ho firmato e vai dal capogruppo, verrai ricompensato [Premi ESC e clicca su serve Point Shop - Vehicle - Buy (non essere all'interno di strutture o il veicolo non spawnerà)]",
 	IGUI_SFQuest_Questyno_BrianWhite6_A = "Cerca a Rosewood (8219,11552,0)",
 	IGUI_SFQuest_Questyno_BrianWhite6_A_Text = "Porta il Silenziatore a Brian",
 
@@ -6013,7 +6013,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_RichardBrown5_Title = "Richard da Utopia 7178,9739,0",
     IGUI_SFQuest_Questyno_RichardBrown5_Text = "Un taxi",
-    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che Può essere utilizzato solo una volta e appena ritorno in citt?. Devo uccidere 50 zombie per avere la sua approvazione.",
+    IGUI_SFQuest_Questyno_RichardBrown5_Lore = "Richard vuole darmi uno speciale Ticket per raggiungere velocemente la mia abitazione. Dice che Può essere utilizzato solo una volta e appena ritorno in città. Devo uccidere 50 zombie per avere la sua approvazione.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text = "Se avrai intenzione di trasferirti lontano da qui, i vaggi verso il tuo rifugio potrebbero diventare molto lunghi. Con questo oggetto puoi arrivare immediatamente nella tua abitazione. Potrai comprarlo quando vuoi al Mercato della Tana ogni volta che ti ritroverai in questo luogo per 'gravi infortuni'. Ti va di averne uno? Uccidi altri 50 zombie!",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Accepted = "Okay, tieni, non sprecarlo.",
     IGUI_SFQuest_Questyno_RichardBrown5_Begin_Text_Declined = "Peccato.",
@@ -6025,7 +6025,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text = "Quando riuscirai ad avere una macchina, con questo oggetto potrai diventarne il proprietario ufficiale ed evitare che altri te la tocchino. Vorrei che recuperassi il mio nella mia vecchia base a Orchiwood, e già che vai li magari puoi recuperare le riviste sotto il mio letto?",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Accepted = "Okay, ti aspetto qui.",
     IGUI_SFQuest_Questyno_RichardBrown6_Begin_Text_Declined = "Peccato.",
-    IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai averne 3 al massimo e trovarli sempre al Mercato della Resistenza della Tana per 250$. Ricorda che se vorrai toglierlo, questo sparir?, quindi valuta bene se il tuo veicolo vale questa spesa. [ Con orb in inventario - Click destro sul veicolo - Claim Veichle - *Strano suono alieno* ]",
+    IGUI_SFQuest_Questyno_RichardBrown6_Complete = "Bene, adesso basta che ti avvicini ad un auto e glielo appoggi sul tettuccio! Potrai averne 3 al massimo e trovarli sempre al Mercato della Resistenza della Tana per 250$. Ricorda che se vorrai toglierlo, questo sparirà, quindi valuta bene se il tuo veicolo vale questa spesa. [ Con orb in inventario - Click destro sul veicolo - Claim Veichle - *Strano suono alieno* ]",
 	IGUI_SFQuest_Questyno_RichardBrown6_A = "Cerca a Orchiwood (8614,9881,0)",
 	IGUI_SFQuest_Questyno_RichardBrown6_A_Text = "Prendi gli oggetti per Richard",
     IGUI_SFQuest_Questyno_RichardBrown6_B = "Cerca a Orchiwood (8617,9876,0)",
@@ -6239,7 +6239,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HarperWells_Intro_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells_Intro_Text = "Incontra Harper Wells. [Annuale]",
     IGUI_SFQuest_Questyno_HarperWells_Intro_Lore = "Harper fa parte della banda di Nigel, insieme a i compagni cercano di recuperare informazioni ormai perse nelle città radioattive. Non sarà semplice avere la loro fiducia ma non è una cosa che mi interessa. La cosa importante è poter dare una speranza al mio gruppo.",
-    IGUI_SFQuest_Questyno_HarperWells_Intro_Complete_Text = "Heil?, abbiamo sentito parlare di te, hai voglia di fare qualcosa di davvero utile per questo mondo? Allora spero sarai disposto ad aiutarmi. Io sono Harper Wells, prima di tutto questo ero un ricercatore. Insieme a Olivia abbiamo sviluppato un Vaccino che pare funzionare, riesce a coprire più del 50% dal virus zombie. Nell'ultimo mese però ci stiamo concentrando su una Cura definitiva. Saresti disposto a somminstrarla a qualcuno dei tuoi per testare i suoi effetti?",
+    IGUI_SFQuest_Questyno_HarperWells_Intro_Complete_Text = "Heilà, abbiamo sentito parlare di te, hai voglia di fare qualcosa di davvero utile per questo mondo? Allora spero sarai disposto ad aiutarmi. Io sono Harper Wells, prima di tutto questo ero un ricercatore. Insieme a Olivia abbiamo sviluppato un Vaccino che pare funzionare, riesce a coprire più del 50% dal virus zombie. Nell'ultimo mese però ci stiamo concentrando su una Cura definitiva. Saresti disposto a somminstrarla a qualcuno dei tuoi per testare i suoi effetti?",
 
     IGUI_SFQuest_Questyno_HarperWells1_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells1_Text = "Una speranza per la Resistenza",
@@ -6254,7 +6254,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_HarperWells2_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells2_Text = "Una cura per la Resistenza",
-    IGUI_SFQuest_Questyno_HarperWells2_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Li trovo in un loro vecchio avamposto, prima che il gas si diffondesse nella citt?. L'avamposto si trova a Ovest di Raven Creek, precisamente nella zona portuale (3386,12287,0)",
+    IGUI_SFQuest_Questyno_HarperWells2_Lore = "Harper vorrebbe che recuperassi alcuni documenti importanti per lui nella zona radioattiva di Raven Creek. Li trovo in un loro vecchio avamposto, prima che il gas si diffondesse nella città. L'avamposto si trova a Ovest di Raven Creek, precisamente nella zona portuale (3386,12287,0)",
     IGUI_SFQuest_Questyno_HarperWells2_Begin_Text = "Ho bisogno che recuperi alcuni documenti di alcuni colleghi che lavoravano al Virus Z prima dello scoppio dell'epidemia. Dovresti trovarli nell'area portuale che si trova a Ovest, è li che crearono un piccolo avamposto prima che la città venissa inondanta di radiazione da parte degli Americani. Quei bastardi continuano a metterci i bastoni fra le ruote, e non capiamo quale sia il loro vero obbiettivo. Possiamo contare su di te?",
     IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_HarperWells2_Begin_Text_Declined = "Spero ci ripenserai.",
@@ -6276,7 +6276,7 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_HarperWells4_Title = "Harper Wells da Raven Creek (4866,11186,0)",
     IGUI_SFQuest_Questyno_HarperWells4_Text = "Una cura per la Resistenza",
-    IGUI_SFQuest_Questyno_HarperWells4_Lore = "Harper vorrebbe che cercassi la lista dei pazienti all'interno di un ambulatorio costruito da alcuni soldati americani. E' convinto di poter trovare una correlazione analizzando le cartelle cliniche che sono rimaste nella zona radioattiva di Raven Creek. L'ambulatorio dovrebbe trovarsi a Nord della citt?: Precisamente a (3603,11382,3)",
+    IGUI_SFQuest_Questyno_HarperWells4_Lore = "Harper vorrebbe che cercassi la lista dei pazienti all'interno di un ambulatorio costruito da alcuni soldati americani. E' convinto di poter trovare una correlazione analizzando le cartelle cliniche che sono rimaste nella zona radioattiva di Raven Creek. L'ambulatorio dovrebbe trovarsi a Nord della città: Precisamente a (3603,11382,3)",
     IGUI_SFQuest_Questyno_HarperWells4_Begin_Text = "Ho bisogno che recuperi la lista dei pazienti che si trovavano nell'ambulatorio Nord di Raven Creek, quando l'epidemia è scoppiata. E' stato uno dei primi centri costruiti dagli americani prima che tutot questo cominciasse, ho motivo di credere che in quella lista potremmo trovare degli indizi importanti su come sia cominciato tutto questo.",
     IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Accepted = "Okay fai attenzione e indossa una tuta Hazmat",
     IGUI_SFQuest_Questyno_HarperWells4_Begin_Text_Declined = "Spero ci ripenserai.",
@@ -7050,12 +7050,12 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_CharlesDavis_Title = "Charles Davis dalla Tana (9285,8482,1)",
     IGUI_SFQuest_Questyno_CharlesDavis_Text = "Scambia con Charles [Mensile]",
-    IGUI_SFQuest_Questyno_CharlesDavis_Lore = "Heila! Posso riempirti una sola Tanica di benzina al mese, dobbiamo razionare le scorte! Ti riempio la tua per 20$, ci stai?",
-    IGUI_SFQuest_Questyno_CharlesDavis_Begin = "Heila! Posso riempirti una sola Tanica di benzina  al mese, dobbiamo razionare le scorte! Ti riempio la tua per 20$, ci stai?",
+    IGUI_SFQuest_Questyno_CharlesDavis_Lore = "Heila! Posso riempirti una sola Tanica di benzina al mese, dobbiamo razionare le scorte! Ti riempio la tua per 30$, ci stai?",
+    IGUI_SFQuest_Questyno_CharlesDavis_Begin = "Heila! Posso riempirti una sola Tanica di benzina  al mese, dobbiamo razionare le scorte! Ti riempio la tua per 30$, ci stai?",
     IGUI_SFQuest_Questyno_CharlesDavis_Accepted = "Affare fatto!",
     IGUI_SFQuest_Questyno_CharlesDavis_Declined = "Ti aspetto qua.",
     IGUI_SFQuest_Questyno_CharlesDavis_A = "Tanica di benzina vuota",
-    IGUI_SFQuest_Questyno_CharlesDavis_B = "20$",
+    IGUI_SFQuest_Questyno_CharlesDavis_B = "30$",
 	IGUI_SFQuest_Questyno_CharlesDavis_Complete = "Ecco tieni!",
 
     --[[
@@ -7073,7 +7073,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Pyno1_Title = "Pyno da Pisa",
     IGUI_SFQuest_Questyno_Pyno1_Text = "Tutorialyno 1/5",
     IGUI_SFQuest_Questyno_Pyno1_Lore = "Pyno è l'unico soggetto che mi parlerà fuori RP e con il quale potrò parlare fuori RP. Per adesso si è limitato a spammare i suoi canali social come se mi importasse qualcosa... speriamo che continaundo a parlare mi dia veramente qualche informazione utile e anche alla svelta che devo andare a Rosewood alla stazionde dei pompieri a vedere se c'è un ascia rossa sennò quitto istant dio boia. ",
-    IGUI_SFQuest_Questyno_Pyno1_Begin_Text = "Bentrovato mio caro, io sono Pyno e ti farò un piccolo tutorial per capire cosa puoi aspettarti qua dentro. Ascoltami fino alla fine perché in questo modo potrai cavartela e otterrai degli oggetti utili pd! Intanto se ancora non lo hai fatto entra nel Regno di Pyno (Discord) ti basta premere la Y per vedere il link. Da li potrai vedere tutte le mappe e consigli utili, oltre a conoscere altri sopravvissuti che potrebbero un domani darti una mano. Se vuoi vedere qualche spoiler su quello che Può capitarti e cosa succede qua dentro puoi anche seguirmi su Twitch e commentare in diretta (pynoTTV). Sappi che su Discord vengono creati anche degli Eventi settimanali o mensili, non perderteli! Andremo sempre d'accordo fino a quando non mancherai di rispetto a nessuno all'interno del server. Spero riuscirai a rimanere sempre dalla parte della ragione, agendo secondo regole e non cedendo alle provocazioni dei giocatori tossici che cercheremo sempre di allontanare. Do per scontato che non userai strani trucchetti per agevolarti all'interno del gioco e denuncerai se qualcuno lo far?, l'idea sarebbe quella di una sfida equa. Ad ogni modo non portare mai nessuna discussione che si crea in gioco, nelle chat generali su Discord. Se hai qualsiasi tipo di problema sei obbligato ad aprire un ticket su Discord o in gioco. Se vorrai diventare una sorta di Bandito, mi aspetto, più che da gli altri giocatori che dovranno farlo per rilevare bug o malfunzionamenti, che registri la tua partita con un software, ricorda anche che gli Admin non rimborsano nulla sulla fiducia. Dopo mesi di preparazione, finalmente, insieme al mitico Ioshi (e anche all'aiuto di persone buone di cuore senza secondi fini che hanno creduto nel progetto fin dall'inizio senza mai smettere), siamo riusciti a ricreare un mondo con più di 40 Npc, per un totale di oltre 500 missioni diverse. Sono certo che ti divertirai se affronterai il tutto con il giusto spirito. Il server è tendenzialmente PVE ma potrebbero capitarti comunque cose spiacevoli se ti aggirerai nelle zone PVP, e ti assicuro che se vorrai davvero espanderti o avere un gruppo numeroso sarai praticamente costretto a farlo. Spero prenderai sempre il tutto come una sfida e con filosofia, ricordandoti che siamo all'interno di un gioco. Se ti andasse di contribuire a far crescere questa community potrai sempre comprare del Tonno a Ioshi, sul Discord capirai come fare, te ne saremmo molto grati. Grazie per il tuo tempo, prendi questi intanto! Ritorna appena hai assimilitato il tutto, continuiamo la nostra conversazione.",
+    IGUI_SFQuest_Questyno_Pyno1_Begin_Text = "Bentrovato mio caro, io sono Pyno e ti farò un piccolo tutorial per capire cosa puoi aspettarti qua dentro. Ascoltami fino alla fine perché in questo modo potrai cavartela e otterrai degli oggetti utili pd! Intanto se ancora non lo hai fatto entra nel Regno di Pyno (Discord) ti basta premere la Y per vedere il link. Da li potrai vedere tutte le mappe e consigli utili, oltre a conoscere altri sopravvissuti che potrebbero un domani darti una mano. Se vuoi vedere qualche spoiler su quello che Può capitarti e cosa succede qua dentro puoi anche seguirmi su Twitch e commentare in diretta (pynoTTV). Sappi che su Discord vengono creati anche degli Eventi settimanali o mensili, non perderteli! Andremo sempre d'accordo fino a quando non mancherai di rispetto a nessuno all'interno del server. Spero riuscirai a rimanere sempre dalla parte della ragione, agendo secondo regole e non cedendo alle provocazioni dei giocatori tossici che cercheremo sempre di allontanare. Do per scontato che non userai strani trucchetti per agevolarti all'interno del gioco e denuncerai se qualcuno lo farà, l'idea sarebbe quella di una sfida equa. Ad ogni modo non portare mai nessuna discussione che si crea in gioco, nelle chat generali su Discord. Se hai qualsiasi tipo di problema sei obbligato ad aprire un ticket su Discord o in gioco. Se vorrai diventare una sorta di Bandito, mi aspetto, più che da gli altri giocatori che dovranno farlo per rilevare bug o malfunzionamenti, che registri la tua partita con un software, ricorda anche che gli Admin non rimborsano nulla sulla fiducia. Dopo mesi di preparazione, finalmente, insieme al mitico Ioshi (e anche all'aiuto di persone buone di cuore senza secondi fini che hanno creduto nel progetto fin dall'inizio senza mai smettere), siamo riusciti a ricreare un mondo con più di 40 Npc, per un totale di oltre 500 missioni diverse. Sono certo che ti divertirai se affronterai il tutto con il giusto spirito. Il server è tendenzialmente PVE ma potrebbero capitarti comunque cose spiacevoli se ti aggirerai nelle zone PVP, e ti assicuro che se vorrai davvero espanderti o avere un gruppo numeroso sarai praticamente costretto a farlo. Spero prenderai sempre il tutto come una sfida e con filosofia, ricordandoti che siamo all'interno di un gioco. Se ti andasse di contribuire a far crescere questa community potrai sempre comprare del Tonno a Ioshi, sul Discord capirai come fare, te ne saremmo molto grati. Grazie per il tuo tempo, prendi questi intanto! Ritorna appena hai assimilitato il tutto, continuiamo la nostra conversazione.",
     IGUI_SFQuest_Questyno_Pyno1_Begin_Text_Accepted = "Bene, vuoi sapere altro?",
     IGUI_SFQuest_Questyno_Pyno1_Begin_Text_Declined = "Ungul a mammita",
 
@@ -7094,14 +7094,14 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Pyno4_Title = "Pyno da Pisa",
     IGUI_SFQuest_Questyno_Pyno4_Text = "Tutorialyno 4/5",
     IGUI_SFQuest_Questyno_Pyno4_Lore = "Pyno mi ha spigato l'obbiettivo che avrei all'interno del server e mi ha lasciato un Portafogli e una Carta di credito che serviranno a farmi capire come si usano i soldi. Spero che si possa anche giocare in questo server",
-    IGUI_SFQuest_Questyno_Pyno4_Begin_Text = "Nella Resistenza, fanno parte gli NPC delle zone PVE. Poi troverai altri NPC nelle zone PVP che fanno parte della Banda di Nigel o si sono staccati definitivamente dalla Tana o non hanno più molto a che farci. In fine potresti incontrare gli Americani. Questi faranno il bello e il cattivo tempo all'interno del server, ma non voglio spoilerarti nulla. Gli Npc sono divisi in 4 catogorie. Quelli della Tana ti daranno missioni Giornaliere (ogni 3h reali) altri te le daranno Settimanali (ogni 21h reali) altri ancora Mensili ( ogni 4 giorni reali ) altri più importanti una volta l'anno ( ogni 48 giorni reali ). Infine alcuni saranno delle ''Catene'' queste missioni potranno essere fatte una sola volta, fra queste otterrai delle ricompense come: una prima arma, una prima carriola, un primo generatore con rivista, un primo veicolo, una prima Tanica Media ecc ecc, fino ad arrivare all'Item supremo, quello che serve per creare una Cura. Potrai provare ad ottenere mensilmente i libri per produrre un Vaccino ma per la Cura avrai una sola possibilit?. Il server è pensato per aumentare la sfida mano a mano che ci si allontana dalla Tana, tendenzialmente troverai sempre più zombie/loot allontanandoti da questa posizione. Questo posto Può essere un buon punto per farmare soldi e fama, essendoci missioni giornaliere semplici, anche se non si è ancora molto esperti del gioco. L'idea è quella di farvi allontanare spontaneamente mano a mano che cominciate a diventare esperti e non avete più bisogno di fare queste missioni ma preferite farne meno ma più impegnative e rimunerative. La Resistenza su questo server mira a svelare la verità dietro l'origine dell'epidemia, indagando sul legame tra Nigel e gli Americani e di questi ultimi con la stessa Resistenza. L'obiettivo è creare una cura efficace per ridurre le perdite e riformare una nuova civilt?... Adesso prendi questo portafoglio e questa Carta di credito, ti spiego due cose.",
+    IGUI_SFQuest_Questyno_Pyno4_Begin_Text = "Nella Resistenza, fanno parte gli NPC delle zone PVE. Poi troverai altri NPC nelle zone PVP che fanno parte della Banda di Nigel o si sono staccati definitivamente dalla Tana o non hanno più molto a che farci. In fine potresti incontrare gli Americani. Questi faranno il bello e il cattivo tempo all'interno del server, ma non voglio spoilerarti nulla. Gli Npc sono divisi in 4 catogorie. Quelli della Tana ti daranno missioni Giornaliere (ogni 3h reali) altri te le daranno Settimanali (ogni 21h reali) altri ancora Mensili ( ogni 4 giorni reali ) altri più importanti una volta l'anno ( ogni 48 giorni reali ). Infine alcuni saranno delle ''Catene'' queste missioni potranno essere fatte una sola volta, fra queste otterrai delle ricompense come: una prima arma, una prima carriola, un primo generatore con rivista, un primo veicolo, una prima Tanica Media ecc ecc, fino ad arrivare all'Item supremo, quello che serve per creare una Cura. Potrai provare ad ottenere mensilmente i libri per produrre un Vaccino ma per la Cura avrai una sola possibilità. Il server è pensato per aumentare la sfida mano a mano che ci si allontana dalla Tana, tendenzialmente troverai sempre più zombie/loot allontanandoti da questa posizione. Questo posto Può essere un buon punto per farmare soldi e fama, essendoci missioni giornaliere semplici, anche se non si è ancora molto esperti del gioco. L'idea è quella di farvi allontanare spontaneamente mano a mano che cominciate a diventare esperti e non avete più bisogno di fare queste missioni ma preferite farne meno ma più impegnative e rimunerative. La Resistenza su questo server mira a svelare la verità dietro l'origine dell'epidemia, indagando sul legame tra Nigel e gli Americani e di questi ultimi con la stessa Resistenza. L'obiettivo è creare una cura efficace per ridurre le perdite e riformare una nuova civiltà... Adesso prendi questo portafoglio e questa Carta di credito, ti spiego due cose.",
     IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Accepted = "Bene, vuoi sapere altro?",
     IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Declined = "Okey domani quitti. Sicuro.",
 
     IGUI_SFQuest_Questyno_Pyno5_Title = "Pyno da Pisa",
     IGUI_SFQuest_Questyno_Pyno5_Text = "Tutorialyno 5/5",
     IGUI_SFQuest_Questyno_Pyno5_Lore = "Pare che grazie alla Carta di credito possa conservare i miei risparmi. Posso usarla anche per inviare o ricevere denaro. Spero di cavarmela a questo punto e consiglierò sicuramente il server a tutti i miei amici, Pyno è il migliore, seguitelo su Twitch.",
-    IGUI_SFQuest_Questyno_Pyno5_Begin_Text = "Okey, tutto quello che devi fare per attivare il tuo conto è cliccare con il tasto destro sulla Carta di credito e premere su "Link".  Adesso la carta mostrerà sempre il tuo saldo attuale. Se vuoi depositare dei soldi ti basterà premere con il tasto destro su quelli che hai nell'inventario e premere su "Trasferisci sul conto". Cliccando con il destro sulla Carta di credito potrai anche inviare soldi ad un altro giocatore. Se smarrirai la carta potrai sempre collegarne una nuova e il tuo saldo non verra perduto. Adesso prova ad aprire il portafogli che ti ho dato, puoi trovare da 2 a 6 dollari all'interno dei portafogli. Ne troverai diversi sugli zombie ma potrai anche ottenerli come ricompense per le kill o i giorni di sopravvivenza. Ricorda sempre di controllare nei cadaveri se ce n'? qualcuno! Puoi usare i Soldi che accumuli al Mercato della Resistenza e potrai anche ritirarli sempre in quel posto. Ti consiglio di usare i soldi che ti ho dato per comprare una Pentola grazie alla quale potrai sterilizzare gli stracci dentro al fuoco da campo o accumulare un poco di acqua dal pozzo per allontanarti più facilmente da questa zona! Potresti pensare anche a una torcia o un accendino, vedi un po' te! Divertiti e se hai qualsiasi problema, apri un ticket. Buona fortuna, usa questa penna per segnarti la posizione della Tana sulla mappa! [M]",
+    IGUI_SFQuest_Questyno_Pyno5_Begin_Text = "Okey, tutto quello che devi fare per attivare il tuo conto è cliccare con il tasto destro sulla Carta di credito e premere su "Link".  Adesso la carta mostrerà sempre il tuo saldo attuale. Se vuoi depositare dei soldi ti basterà premere con il tasto destro su quelli che hai nell'inventario e premere su "Trasferisci sul conto". Cliccando con il destro sulla Carta di credito potrai anche inviare soldi ad un altro giocatore. Se smarrirai la carta potrai sempre collegarne una nuova e il tuo saldo non verra perduto. Adesso prova ad aprire il portafogli che ti ho dato, puoi trovare da 2 a 6 dollari all'interno dei portafogli. Ne troverai diversi sugli zombie ma potrai anche ottenerli come ricompense per le kill o i giorni di sopravvivenza. Ricorda sempre di controllare nei cadaveri se ce n'è qualcuno! Puoi usare i Soldi che accumuli al Mercato della Resistenza e potrai anche ritirarli sempre in quel posto. Ti consiglio di usare i soldi che ti ho dato per comprare una Pentola grazie alla quale potrai sterilizzare gli stracci dentro al fuoco da campo o accumulare un poco di acqua dal pozzo per allontanarti più facilmente da questa zona! Potresti pensare anche a una torcia o un accendino, vedi un po' te! Divertiti e se hai qualsiasi problema, apri un ticket. Buona fortuna, usa questa penna per segnarti la posizione della Tana sulla mappa! [M]",
     IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Accepted = "Daje, divertiti e FORZA LA RESISTENZA!",
     IGUI_SFQuest_Questyno_Pyno5_Begin_Text_Declined = "Okey domani quitti. Sicuro.",
 
@@ -7123,7 +7123,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JamesMorris_Intro_Begin_Text = "Ciao io sono James. Ero uno dei compagni di camerata di Nigel, prima che ci assegnarono a due basi operative diverse nel lontano 1984. Non ho mai creduto che fosse coinvolto in tutto questo ma ogni indizio che troviamo riconduce ci riconduce a lui. Ricordo la base in cui era assegnato e sono certo che se riuscirai a raggiungerla troveremo qualche informazione sul siero che stava sviluppando per conto degli americani. Te la senti di darmi una mano?",
 
     IGUI_SFQuest_Questyno_JamesMorris1_Title = "James Morris 13635,4064,0",
-    IGUI_SFQuest_Questyno_JamesMorris1_Text = "La ricerca della verit?",
+    IGUI_SFQuest_Questyno_JamesMorris1_Text = "La ricerca della verità",
     IGUI_SFQuest_Questyno_JamesMorris1_Lore = "James vorrebbe che raggiungessi la base militare di Fort Rock RIdge per ottenere più informazioni possibili riguardo Nigel.",
     IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text = "Nigel ha collaborato molti anni con il governo degli americani. La sua base operativa era a Fort Rock Ridge, vai li e cerca di capire in quale struttura aveva il suo laboratorio e recupera quante più informazioni possibili.",
     IGUI_SFQuest_Questyno_JamesMorris1_Begin_Text_Accepted = "Bene, bene. Devi cercare in ogni posto!",
@@ -7154,9 +7154,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PaigeTurner_Name = "Paige Turner",
 
     IGUI_SFQuest_Questyno_PaigeTurner_Intro_Title = "Paige Turner",
-    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Text = "Parla con Paige per sbloccare le daily.",
-    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Lore = "Si diceva che Paige Turner, un tempo responsabile della sicurezza presso una vecchia centrale idroelettrica tra le montagne, fosse riuscita a fuggire dall’orda di infetti solo grazie alla furia armata della sua compagna Mia. Ora si era ripresentata, pronta ad aiutare gli altri a superare la paura di quei mangiacarne.",
-    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Complete_Text = "Mi chiamo Paige Turner. Un tempo ero a capo della sicurezza di un piccolo gruppo di sopravvissuti asserragliato presso una vecchia centrale idroelettrica, tra le montagne. Sembrava un rifugio sicuro, finché non fummo sopraffatti da un’orda di infetti. Senza l’intervento disperato della mia compagna Mia – che armata fino ai denti ha decimato quella feccia non-morta, concedendomi il tempo di fuggire – ora non sarei qui a raccontartelo. Sono qui per farti passare la paura di quei mangiacarne!",
+    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Text = "Incontra Paige. [Mensile]",
+    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Lore = "Si diceva che Paige Turner, un tempo responsabile della sicurezza presso una vecchia centrale idroelettrica tra le montagne, fosse riuscita a fuggire dall'orda di infetti solo grazie alla furia armata della sua compagna Mia. Ora si era ripresentata, pronta ad aiutare gli altri a superare la paura di quei mangiacarne.",
+    IGUI_SFQuest_Questyno_PaigeTurner_Intro_Complete_Text = "Mi chiamo Paige Turner. Un tempo ero a capo della sicurezza di un piccolo gruppo di sopravvissuti asserragliato presso una vecchia centrale idroelettrica, tra le montagne. Sembrava un rifugio sicuro, finché non fummo sopraffatti da un'orda di infetti. Senza l'intervento disperato della mia compagna Mia – che armata fino ai denti ha decimato quella feccia non-morta, concedendomi il tempo di fuggire – ora non sarei qui a raccontartelo. Sono qui per farti passare la paura di quei mangiacarne!",
 
     IGUI_SFQuest_Questyno_PaigeTurner1_Title = "Paige Turner",
     IGUI_SFQuest_Questyno_PaigeTurner1_Text = "[T2] Coplisci alla testa",
@@ -7194,9 +7194,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AnselMerrick_Name = "Ansel Merrick",
 
     IGUI_SFQuest_Questyno_AnselMerrick_Intro_Title = "Ansel Merrick",
-    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Text = "Parla con Ansel per sbloccare le daily [Settimanale]",
-    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Lore = "Pare che Ansel Merrick sia stato un contrabbandiere abile e ingegnoso, uno di quelli che sapeva come muoversi fra binari abbandonati e tunnel dimenticati, eludendo saccheggiatori e brulicanti orde di non-morti. Chi lo conosceva bene racconta che, senza l’aiuto della sua vecchia partner Petra, non avrebbe superato quella notte maledetta, quando i rifugi di fortuna furono invasi dagli infetti. Dicono che oggi sia tornato per insegnare come tener testa a quei mostri e far sparire la paura dai volti dei più deboli.",
-    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Complete_Text = "Mi chiamo Ansel Merrick. Un tempo ero un contrabbandiere, uno che guidava piccoli gruppi di disperati attraverso vecchie tratte ferroviarie e tunnel dimenticati. Portavo cibo, munizioni e medicinali a chi ne aveva bisogno, scavalcando posti di blocco e aggirando pattuglie di saccheggiatori. Era una vita rischiosa, ma mi ero creato una reputazione: sapevo come evitare guai, o almeno così credevo. Poi, una notte, un’orda di infetti ha fatto irruzione nei nostri rifugi di fortuna. Le mie rotte segrete non bastarono a salvarci: ci trovammo circondati e in trappola. Fu grazie al colpo di genio di Petra, la mia vecchia partner, che riuscimmo a scappare. Lei ha tenuto a bada quei mostri bastardi con un fucile a canne mozze e uno sguardo deciso, mentre io trascinavo il resto del gruppo verso un’apertura laterale in un vagone abbandonato. Senza di lei, non sarei qui ora. Sono tornato per aiutarti a non tremare più davanti a quei mangiacarne. Se c’è una cosa che ho imparato in tutti questi anni, è che la paura si può vincere, e io sono qui per mostrarti come.",
+    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Text = "Incontra Ansel. [Mensile]",
+    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Lore = "Pare che Ansel Merrick sia stato un contrabbandiere abile e ingegnoso, uno di quelli che sapeva come muoversi fra binari abbandonati e tunnel dimenticati, eludendo saccheggiatori e brulicanti orde di non-morti. Chi lo conosceva bene racconta che, senza l'aiuto della sua vecchia partner Petra, non avrebbe superato quella notte maledetta, quando i rifugi di fortuna furono invasi dagli infetti. Dicono che oggi sia tornato per insegnare come tener testa a quei mostri e far sparire la paura dai volti dei più deboli.",
+    IGUI_SFQuest_Questyno_AnselMerrick_Intro_Complete_Text = "Mi chiamo Ansel Merrick. Un tempo ero un contrabbandiere, uno che guidava piccoli gruppi di disperati attraverso vecchie tratte ferroviarie e tunnel dimenticati. Portavo cibo, munizioni e medicinali a chi ne aveva bisogno, scavalcando posti di blocco e aggirando pattuglie di saccheggiatori. Era una vita rischiosa, ma mi ero creato una reputazione: sapevo come evitare guai, o almeno così credevo. Poi, una notte, un'orda di infetti ha fatto irruzione nei nostri rifugi di fortuna. Le mie rotte segrete non bastarono a salvarci: ci trovammo circondati e in trappola. Fu grazie al colpo di genio di Petra, la mia vecchia partner, che riuscimmo a scappare. Lei ha tenuto a bada quei mostri bastardi con un fucile a canne mozze e uno sguardo deciso, mentre io trascinavo il resto del gruppo verso un'apertura laterale in un vagone abbandonato. Senza di lei, non sarei qui ora. Sono tornato per aiutarti a non tremare più davanti a quei mangiacarne. Se c'è una cosa che ho imparato in tutti questi anni, è che la paura si può vincere, e io sono qui per mostrarti come.",
 
     IGUI_SFQuest_Questyno_AnselMerrick1_Title = "Ansel Merrick",
     IGUI_SFQuest_Questyno_AnselMerrick1_Text = "[T3]Coplisci e fuggi",
@@ -7238,9 +7238,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger_Name = "Tomas Joger",
 
     IGUI_SFQuest_Questyno_TomasJoger_Intro_Title = "Tomas Joger",
-    IGUI_SFQuest_Questyno_TomasJoger_Intro_Text = "Parla con Tomas per sbloccare la sua catena.",
+    IGUI_SFQuest_Questyno_TomasJoger_Intro_Text = "Incontra Tomas. [Catena]",
     IGUI_SFQuest_Questyno_TomasJoger_Intro_Lore = "Tomas è un eccentrico meccanico con un aspetto unico: sembra tantissimo che non si fa una doccia, mi chiederà di fare delle missioni per lui e mi ricompenserà con una bicicletta.",
-    IGUI_SFQuest_Questyno_TomasJoger_Intro_Complete_Text = "Ciao, io sono Tomas. Immagino tu sia venuto qui per procurarti un mezzo con cui pedalare in piena sicurezza tra le strade affollate di quei dannati zombie… Beh, dire che sei nel posto giusto è un eufemismo, ma non aspettarti che sia tutto facile. Se hai voglia di tornartene a casa con la coda tra le gambe, non ti tratterrò. Ma se invece decidi di restare e di seguire i miei consigli, dovrai riempire lo zaino di speranza e sangue freddo, perché per ottenere la bici che ho in mente di darti, dovrai compiere alcune missioni tutt’altro che semplici. Allora, cosa intendi fare? Vogliamo iniziare a fare sul serio, o preferisci mollare ora? Ah, quasi dimenticavo: hai portato con te un po’ di soldi, vero?",
+    IGUI_SFQuest_Questyno_TomasJoger_Intro_Complete_Text = "Ciao, io sono Tomas. Immagino tu sia venuto qui per procurarti un mezzo con cui pedalare in piena sicurezza tra le strade affollate di quei dannati zombie… Beh, dire che sei nel posto giusto è un eufemismo, ma non aspettarti che sia tutto facile. Se hai voglia di tornartene a casa con la coda tra le gambe, non ti tratterrò. Ma se invece decidi di restare e di seguire i miei consigli, dovrai riempire lo zaino di speranza e sangue freddo, perché per ottenere la bici che ho in mente di darti, dovrai compiere alcune missioni tutt'altro che semplici. Allora, cosa intendi fare? Vogliamo iniziare a fare sul serio, o preferisci mollare ora? Ah, quasi dimenticavo: hai portato con te un po' di soldi, vero?",
     
     IGUI_SFQuest_Questyno_TomasJoger1_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger1_Text = "Tubi per il telaio",
@@ -7278,7 +7278,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger4_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger4_Text = "Ci facciamo un giretto?",
     IGUI_SFQuest_Questyno_TomasJoger4_Lore = "Recupera 2 pneumatici a Greenport 8306,7507,0 e altri 2 a 8308,7506,0 poi torna da Tomas.",
-    IGUI_SFQuest_Questyno_TomasJoger4_Begin_Text = "Ciao, amico caro, vedo che non molli facilmente! Ottimo, perché ho bisogno del tuo aiuto: a Greenport ci sono dei vecchi magazzini privati. Lì dovresti trovare ancora delle ruote di fabbricazione cinese di scarsissima qualità. Ho pensato di recuperarle e riadattarle per la bici che sto assemblando per te, ricavandone copertoni resistenti all’asfalto e alle strade dissestate di oggi.",
+    IGUI_SFQuest_Questyno_TomasJoger4_Begin_Text = "Ciao, amico caro, vedo che non molli facilmente! Ottimo, perché ho bisogno del tuo aiuto: a Greenport ci sono dei vecchi magazzini privati. Lì dovresti trovare ancora delle ruote di fabbricazione cinese di scarsissima qualità. Ho pensato di recuperarle e riadattarle per la bici che sto assemblando per te, ricavandone copertoni resistenti all'asfalto e alle strade dissestate di oggi.",
     IGUI_SFQuest_Questyno_TomasJoger4_Begin_Text_Accepted = "Buona fortuna!",
     IGUI_SFQuest_Questyno_TomasJoger4_Begin_Text_Declined = "Cercano operai alla Lines, vai dai...",
     IGUI_SFQuest_Questyno_TomasJoger4_Complete = "Ottimo, vediamo di cominicare a ricavare dei copertoni da questa merda! Tieni, fatti un goccio!",
@@ -7289,7 +7289,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger5_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger5_Text = "Un po' di ferraglia",
     IGUI_SFQuest_Questyno_TomasJoger5_Lore = "Recupera 1 molle, 2 scatole di bulloni grandi, 2 tubi lunghi e 1 tubo di piombo e torna da Tomas.",
-    IGUI_SFQuest_Questyno_TomasJoger5_Begin_Text = "Se riesci a portarmi tutto questo, vedrai che la tua bici non avrà nulla da invidiare a un bolide motorizzato. Quindi, forza: spolvera le ginocchia, raccogli il coraggio che ti rimane e mettiti subito all’opera! Che aspetti ancora? Vai! Subito! Senza fiatare!",
+    IGUI_SFQuest_Questyno_TomasJoger5_Begin_Text = "Se riesci a portarmi tutto questo, vedrai che la tua bici non avrà nulla da invidiare a un bolide motorizzato. Quindi, forza: spolvera le ginocchia, raccogli il coraggio che ti rimane e mettiti subito all'opera! Che aspetti ancora? Vai! Subito! Senza fiatare!",
     IGUI_SFQuest_Questyno_TomasJoger5_Begin_Text_Accepted = "Armati di tanta pazienza e non mollare.",
     IGUI_SFQuest_Questyno_TomasJoger5_Begin_Text_Declined = "Dai fatti il biberon e vai a nanna",
     IGUI_SFQuest_Questyno_TomasJoger5_Complete = "Ma quanto tempo ci hai messo è Pensavo fossi ansioso di completare quest'auto Jhonny, dai appoggia' li' che mi metto subito al lavoro, qui non si dorme.",
@@ -7302,7 +7302,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger6_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger6_Text = "Catena di montaggio",
     IGUI_SFQuest_Questyno_TomasJoger6_Lore = "Recupera il propano alla base militare di Killian Country 7947,9786,0",
-    IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text = "Che ci fai ancora qui con le mani in mano? Vai subito a Killian Country, dammi retta! Lì c’è una catena robusta che mi serve come l’aria: non è una di quelle cinesate arrugginite, è roba seria. Ti aspetto a braccia conserte finché non torni. Ah, e se pensi di tornare a mani vuote, scordati il mio aiuto",
+    IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text = "Che ci fai ancora qui con le mani in mano? Vai subito a Killian Country, dammi retta! Lì c'è una catena robusta che mi serve come l'aria: non è una di quelle cinesate arrugginite, è roba seria. Ti aspetto a braccia conserte finché non torni. Ah, e se pensi di tornare a mani vuote, scordati il mio aiuto",
     IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text_Accepted = "Armati di tanta pazienza e non mollare.",
     IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text_Declined = "Dai fatti il biberon e vai a nanna",
     IGUI_SFQuest_Questyno_TomasJoger6_Complete = "Ma questo e' oro per i miei occhi ! Se ti dai una mossa per natale potrai avere un mezzo come si deve dai...Questi soldi sono per le bacchette, comprati qualche vestito che non ti si puo' guardare vestito cosi...",
@@ -7344,7 +7344,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_KylePorter_Name = "Kyle Porter",
 
     IGUI_SFQuest_Questyno_KylePorter_Intro_Title = "Kyle Porter",
-    IGUI_SFQuest_Questyno_KylePorter_Intro_Text = "Parla con Kyle per sbloccare la sua catena.",
+    IGUI_SFQuest_Questyno_KylePorter_Intro_Text = "Incontra Kyle. [Catena]",
     IGUI_SFQuest_Questyno_KylePorter_Intro_Lore = "Kyle è un eccentrico meccanico con un aspetto unico: il suo corpo è un mix di metallo e ingranaggi oltre a svariati problemi evidenti, mi chiederà di fare delle missioni per lui e mi ricompenserà con una macchina mooolto Especial",
     IGUI_SFQuest_Questyno_KylePorter_Intro_Complete_Text = "Ciao, io sono Kyle. Immagino tu sia qui per ottenere un mezzo con cui muoversi in totale tranquillita' per le strade ormai colme di zombie... Bhe dire che sei nel posto giusto e' dir poco, ma non sara' facile per te  quindi se vuoi tornartene da dove sei venuto non ti giudichero' ma se decidi di restare qui e darmi retta conviene che tu ti faccia uno zaino pieno di fortuna perche' stai sicuro che te ne servira' molta per completare le missioni che ti chiedero' di fare per me.  Quindi cosa vogliamo fare è Iniziamo a fare sul serio o che cosa è Hai portato dei soldi o no?",
 
@@ -7465,9 +7465,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HuxleyThorne_Name = "Huxley Thorne",
 
     IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Title = "Huxley Thorne",
-    IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Text = "Incontra Huxley Thorne. [Annuale]",
+    IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Text = "Incontra Huxley. [Annuale]",
     IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Lore = "Huxley fa parte di un piccolo gruppo ben organizzato a Redfordville. Non ha mezzi termini, vuole che ammazzi più bastardi possibile. La sua reputazione lo precede, sicuramente mi darà una mano a farmi conoscere.",
-    IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Complete_Text = "Ehi, forestiero, cosa ti porta nelle nostre terre? Non starmi a raccontare che vieni dalla Tana, laggiù devono essere tutti mezzi morti ormai, no? Beh, qui facciamo le cose a modo nostro. Se cerchi il nostro appoggio, meglio che tu abbia nervi saldi e braccia forti, perché vogliamo vedere azione, non parole. Questa piaga non si sconfigge con preghiere o buone intenzioni, e noi non ci affidiamo certo ai raccolti dei campi per sopravvivere. Qui vinciamo lottando, con lame affilate e proiettili letali. Se pensi di esserne all’altezza, dimostralo. Se no, quella è la strada per tornare indietro.",
+    IGUI_SFQuest_Questyno_HuxleyThorne_Intro_Complete_Text = "Ehi, forestiero, cosa ti porta nelle nostre terre? Non starmi a raccontare che vieni dalla Tana, laggiù devono essere tutti mezzi morti ormai, no? Beh, qui facciamo le cose a modo nostro. Se cerchi il nostro appoggio, meglio che tu abbia nervi saldi e braccia forti, perché vogliamo vedere azione, non parole. Questa piaga non si sconfigge con preghiere o buone intenzioni, e noi non ci affidiamo certo ai raccolti dei campi per sopravvivere. Qui vinciamo lottando, con lame affilate e proiettili letali. Se pensi di esserne all'altezza, dimostralo. Se no, quella è la strada per tornare indietro.",
     
     IGUI_SFQuest_Questyno_HuxleyThorne1_Title = "Huxley Thorne",
     IGUI_SFQuest_Questyno_HuxleyThorne1_Text = "[T5]La storia di come sei morto",
@@ -7512,8 +7512,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_DorianPrescott_Name = "Dorian Prescott",
 
     IGUI_SFQuest_Questyno_DorianPrescott_Intro_Title = "Dorian Prescott",
-    IGUI_SFQuest_Questyno_DorianPrescott_Intro_Text = "Incontra Dorian Prescott. [Mensili]",
-    IGUI_SFQuest_Questyno_DorianPrescott_Intro_Lore = "Dorian è uno di quei tipi da cui non sai mai bene cosa aspettarti. Di solito rimane in disparte, appoggiato contro un muro della Cittadella, a osservarne gli abitanti con uno sguardo tra l’indifferente e il curioso. Ha l’aria di chi conosce ogni segreto e ogni debolezza degli altri, ma non sente il bisogno di vantarsene. Dicono sia stato coinvolto in traffici poco chiari, che abbia avuto a che fare con uomini pericolosi, e che ora viva vendendo informazioni sulla gente che gli ruota attorno. Se sei disposto a pagare - e non sarà un prezzo lieve - ogni mese potrebbe indirizzarti dai suoi ex “clienti”. Ma non aspettarti favori o sconti: per Dorian tutto ha un costo, e a fine partita potresti scoprire di essere anche tu nella sua lista.",
+    IGUI_SFQuest_Questyno_DorianPrescott_Intro_Text = "Incontra Dorian. [Mensili]",
+    IGUI_SFQuest_Questyno_DorianPrescott_Intro_Lore = "Dorian è uno di quei tipi da cui non sai mai bene cosa aspettarti. Di solito rimane in disparte, appoggiato contro un muro della Cittadella, a osservarne gli abitanti con uno sguardo tra l'indifferente e il curioso. Ha l'aria di chi conosce ogni segreto e ogni debolezza degli altri, ma non sente il bisogno di vantarsene. Dicono sia stato coinvolto in traffici poco chiari, che abbia avuto a che fare con uomini pericolosi, e che ora viva vendendo informazioni sulla gente che gli ruota attorno. Se sei disposto a pagare - e non sarà un prezzo lieve - ogni mese potrebbe indirizzarti dai suoi ex “clienti”. Ma non aspettarti favori o sconti: per Dorian tutto ha un costo, e a fine partita potresti scoprire di essere anche tu nella sua lista.",
     IGUI_SFQuest_Questyno_DorianPrescott_Intro_Complete_Text = "Mi chiamo Dorian. Un tempo ero ben inserito nella società, con un lavoro rispettabile e una vita apparentemente perfetta. Ora sono qui, nella Tana, circondato da gente pronta a tutto pur di sopravvivere. Io mi sono adattato: conosco chiunque abbia qualcosa da vendere o da nascondere, e se sei disposto a pagare bene, potrei indicarti i miei vecchi contatti. Non aspettarti però amicizia o pietà: per me ogni persona è una moneta di scambio, ogni informazione un investimento. Se cerchi qualcuno o qualcosa, io potrei darti una mano, ma ricordati sempre chi ha il coltello dalla parte del manico.",
 
     
@@ -7631,8 +7631,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TessaAnderson_Name = "Tessa Anderson",
 
     IGUI_SFQuest_Questyno_TessaAnderson_Intro_Title = "Tessa Anderson",
-    IGUI_SFQuest_Questyno_TessaAnderson_Intro_Text = "Incontra Tessa Anderson. [Mensili]",
-    IGUI_SFQuest_Questyno_TessaAnderson_Intro_Lore = "Tessa era una commerciante d’alto bordo, nota per i suoi modi raffinati e i suoi contatti con la crème della vecchia società. Originaria di Riverside, un tempo gestiva una rinomata boutique di gioielli a Trelai, dove mercanti, funzionari e ricchi benestanti venivano a rifornirsi di pezzi rari e pietre preziose. Con il crollo dell’ordine civile, la sua attività non è morta, si è semplicemente evoluta.",
+    IGUI_SFQuest_Questyno_TessaAnderson_Intro_Text = "Incontra Tessa. [Mensili]",
+    IGUI_SFQuest_Questyno_TessaAnderson_Intro_Lore = "Tessa era una commerciante d'alto bordo, nota per i suoi modi raffinati e i suoi contatti con la crème della vecchia società. Originaria di Riverside, un tempo gestiva una rinomata boutique di gioielli a Trelai, dove mercanti, funzionari e ricchi benestanti venivano a rifornirsi di pezzi rari e pietre preziose. Con il crollo dell'ordine civile, la sua attività non è morta, si è semplicemente evoluta.",
     IGUI_SFQuest_Questyno_TessaAnderson_Intro_Complete_Text = "Ciao, io sono Tessa. Credo fermamente che i gioielli e le pietre preziose siano ancora un bene di grande valore, persino in un mondo così stravolto. So però che le Bande di Nigel vi costringono a usare il contante, perché lo trovano più pratico nei loro scambi. Perciò immagino che anche tu avrai bisogno di qualche bel gruzzolo per condurre i tuoi affari nella Resistenza. Ecco la mia proposta: se mi porterai pietre rare, monili di pregio o qualsiasi tesoro luccicante che riesca a procurare, io potrei indicarti la posizione di alcuni luoghi dove avrai la certezza di trovare del contante. Non devi fare altro che provare: vedrai che la mia parola vale il prezzo di queste piccole meraviglie",
 
     IGUI_SFQuest_Questyno_TessaAnderson1_Title = "Tessa Anderson",
@@ -7736,9 +7736,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RyanParker_Name = "Ryan Parker",
 
     IGUI_SFQuest_Questyno_RyanParker_Intro_Title = "Ryan Parker",
-    IGUI_SFQuest_Questyno_RyanParker_Intro_Text = "Parla con Ryan Parker per sbloccare le daily. [Mensili]",
-    IGUI_SFQuest_Questyno_RyanParker_Intro_Lore = "Tonno Disko è un giovane Deejay con una passione per i vinili. La sua collezione include pezzi rari e unici. Ogni disco ha una storia e lui è convinto che un giorno il suo tesoro avra' un valore inestimabile.",
-    IGUI_SFQuest_Questyno_RyanParker_Intro_Complete_Text = "Ciao amico mio, io sono Tonno Disko, lavoravo in negozio di dischi a Pitstop prima di tutto cio', eh bei tempi giorno e notte a fare festini, peccato che ogni tanto qualche pezzo pregiato ero costretto a venderlo per mandare avanti la baracca. Stavo pensando di iniziare a riprendermi almeno quelli piu' rari dato che nel corso del tempo ho spedito molte cose a domicilio ai miei clienti, potresti aiutarmi a recuperarne qualcuno? O forse vuoi che le prossime generazioni non conoscano Branduardi?",
+    IGUI_SFQuest_Questyno_RyanParker_Intro_Text = "Incontra Ryan. [Mensili]",
+    IGUI_SFQuest_Questyno_RyanParker_Intro_Lore = "Ryan è un giovane Deejay con una passione per i vinili. La sua collezione include pezzi rari e unici. Ogni disco ha una storia e lui è convinto che un giorno il suo tesoro avra' un valore inestimabile.",
+    IGUI_SFQuest_Questyno_RyanParker_Intro_Complete_Text = "Ciao amico mio, io sono Ryan, lavoravo in negozio di dischi a Pitstop prima di tutto cio', eh bei tempi giorno e notte a fare festini, peccato che ogni tanto qualche pezzo pregiato ero costretto a venderlo per mandare avanti la baracca. Stavo pensando di iniziare a riprendermi almeno quelli piu' rari dato che nel corso del tempo ho spedito molte cose a domicilio ai miei clienti, potresti aiutarmi a recuperarne qualcuno? O forse vuoi che le prossime generazioni non conoscano Branduardi?",
 
     IGUI_SFQuest_Questyno_RyanParker1_Title = "Ryan Parker",
     IGUI_SFQuest_Questyno_RyanParker1_Text = "Un vinile e' per sempre",
@@ -7950,7 +7950,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_JacobTurner_Name = "Jacob Turner",
 
     IGUI_SFQuest_Questyno_JacobTurner_Intro_Title = "Jacob Turner",
-    IGUI_SFQuest_Questyno_JacobTurner_Intro_Text = "Incontra Jacob Turner [Mensili]",
+    IGUI_SFQuest_Questyno_JacobTurner_Intro_Text = "Incontra Jacob [Mensili]",
     IGUI_SFQuest_Questyno_JacobTurner_Intro_Lore = "Jacob e' lo strambo del paese, colleziona materiale organico, non si sa bene il motivo ma ogni tanto salta fuori qualcosa di buono da quello che fa quindi nessuno si lamenta, poi ha molti soldi da parte quindi perchè non aiutarlo?",
     IGUI_SFQuest_Questyno_JacobTurner_Intro_Complete_Text = "Ciao, io sono il professor Jacob Turner. Ho un laboratorio segreto qui in zona dove giustamente nessuno osa entrare per paura di prendere svariate malattie infettive. Sai, dai cervelli di questi individui barcollanti si possono scoprire tantissime cose come ad esempio il loro colore preferito o il tipo di sigarette che fumavano… e' interessante non trovi? Beh io posso comunicarti alcune zone dove poter trovare questi morbidissimi giocattoli umani o qualsiasi cosa siano… ",
 
@@ -8114,7 +8114,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_VivianParker_Name = "Vivian Parker",
 
     IGUI_SFQuest_Questyno_VivianParker_Intro_Title = "Vivian Parker",
-    IGUI_SFQuest_Questyno_VivianParker_Intro_Text = "Incontra Vivian Parker [Annuali]",
+    IGUI_SFQuest_Questyno_VivianParker_Intro_Text = "Incontra Vivian. [Annuale]",
     IGUI_SFQuest_Questyno_VivianParker_Intro_Lore = "Vivian ha trovato il suo modo di raccimolare qualcosa offrendo questo servizio molto utile a tutti, io gli porto le torce al propano quasi finite e lei me le svuota dentro una bomba pronta all'uso!",
     IGUI_SFQuest_Questyno_VivianParker_Intro_Complete_Text = "Heila! Se ti va possiamo diventare amici io e tu! Piacere, io sono Vivian! Lavoravo nell'offina di mio padre da piccola, è li che ho imparato a usare ogni tipo di strumento. Dopo aver aiutato il gruppo di Lousiville mi sono fatta da parte per dare una mano ad Ovest. Mi trovo bene fra questi ragazzi, gli do una mano ad oliare queste torrette! Passa da me almeno una volta l'hanno o ti proporrò un affare interessante! Intanto comincia a raccogliere quante più torce al propano puoi, torna da me e non resterai deluso! ",
 
@@ -8138,9 +8138,9 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MalachiBlevins_Name = "Malachi Blevins",
 
     IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Title = "Malachi Blevins",
-    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Text = "Parla con Malachi Blevins [Settimanali]",
-    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Lore = "Ho incontrato Malachi nel vecchio magazzino alla Cittadella. Tra scaffali cedevoli e scatoloni impolverati, ho intravisto un mare di riviste, giornali e fumetti d’epoca, impilati in equilibrio precario come torri di carta. Malachi, non è più solo un collezionista: è un vero e proprio archeologo della “letteratura spazzatura”, sempre alla ricerca di quella rarità introvabile che per lui vale più di un tesoro.",
-    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Complete_Text = "Hei viandante! Non capita spesso di vedere una faccia nuova in questo vecchio deposito di riviste e fumetti… Piacere di conoscerti, io sono Malachi, collezionista incallito e orgoglioso esploratore di ogni forma di ‘letteratura spazzatura’! Vedi queste pile traballanti? Per la maggior parte delle persone non sono altro che scarti polverosi, ma per me sono tesori inestimabili, frammenti di immaginazione che aspettano solo di essere riscoperti. Se riuscirai a portare a termine alcuni compiti che ti affiderò, sarai ricompensato con tutto ciò che ho a disposizione: qualche extra moneta, forse un fumetto raro, e la gratitudine di un collezionista che sa riconoscere il valore dell’aiuto di un vero avventuriero. E allora, che mi dici? Sei pronto a entrare nel mondo sorprendente della carta polverosa e delle storie dimenticate?",
+    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Text = "Parla con Malachi. [Settimanali]",
+    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Lore = "Ho incontrato Malachi nel vecchio magazzino alla Cittadella. Tra scaffali cedevoli e scatoloni impolverati, ho intravisto un mare di riviste, giornali e fumetti d'epoca, impilati in equilibrio precario come torri di carta. Malachi, non è più solo un collezionista: è un vero e proprio archeologo della “letteratura spazzatura”, sempre alla ricerca di quella rarità introvabile che per lui vale più di un tesoro.",
+    IGUI_SFQuest_Questyno_MalachiBlevins_Intro_Complete_Text = "Hei viandante! Non capita spesso di vedere una faccia nuova in questo vecchio deposito di riviste e fumetti… Piacere di conoscerti, io sono Malachi, collezionista incallito e orgoglioso esploratore di ogni forma di ‘letteratura spazzatura'! Vedi queste pile traballanti? Per la maggior parte delle persone non sono altro che scarti polverosi, ma per me sono tesori inestimabili, frammenti di immaginazione che aspettano solo di essere riscoperti. Se riuscirai a portare a termine alcuni compiti che ti affiderò, sarai ricompensato con tutto ciò che ho a disposizione: qualche extra moneta, forse un fumetto raro, e la gratitudine di un collezionista che sa riconoscere il valore dell'aiuto di un vero avventuriero. E allora, che mi dici? Sei pronto a entrare nel mondo sorprendente della carta polverosa e delle storie dimenticate?",
 
     IGUI_SFQuest_Questyno_MalachiBlevins1_Title = "Malachi Blevins",
     IGUI_SFQuest_Questyno_MalachiBlevins1_Text = "Malachi l'accumulatore",
