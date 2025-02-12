@@ -10050,24 +10050,4 @@
     <path>media/clothing/clothingItems/Hat_PSGT_Helmet.xml</path>
     <guid>f1852f25-f422-4c83-9324-75835d9d9847</guid>
 </files>
-<files>
-    <path>media/clothing/clothingItems/PC_VietnamServiceStars.xml</path>
-    <guid>PC1cec4b-2bf7-442e-b316-bb4b966541a4</guid>
-</files>
-<files>
-    <path>media/clothing/clothingItems/PC_BritishAfghanMedal.xml</path>
-    <guid>PC1cec4b-2bf7-442e-b316-bb4b966541b6</guid>
-</files>
-<files>
-    <path>media/clothing/clothingItems/PC_BritishWarMedal.xml</path>
-    <guid>PC1cec4b-2bf7-442e-b316-bb4b966541b8</guid>
-</files>
-<files>
-    <path>media/clothing/clothingItems/PC_VictoriaCross.xml</path>
-    <guid>PC1cec4b-2bf7-442e-b316-bb4b966541c1</guid>
-</files>
-<files>
-    <path>media/clothing/clothingItems/PC_SovietPolarMedal.xml</path>
-    <guid>PC1cec4b-2bf7-442e-b316-bb4b966541c6</guid>
-</files>
 </fileGuidTable>

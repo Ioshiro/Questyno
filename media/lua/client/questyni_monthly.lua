@@ -276,7 +276,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MarcusKane.png",
     title = "IGUI_SFQuest_Questyno_MarcusKane1_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:400;updateobjective:Questyno_MarcusKane1:2:Completed",
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MarcusKane1:2:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {

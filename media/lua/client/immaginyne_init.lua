@@ -18,42 +18,6 @@ local function bind()
 
     ExamineEntries.addEntry("Volantino1", "media/ui/Volantino.png", "Ancora questi volantini in inglese? Perchè continuano a passare ma non si fanno vedere?!" );
 	ExamineEntries.addEntry("Volantino2", "media/ui/Volantino2.png", "Mmmmmm.... Potrebbe essere una buona occasione per migliorare con la manutenzione le armi!" );
-	--rivista1
-	local Rivista1_pagine = {
-        "media/ui/Rivista1.png",
-        "media/ui/Rivista1a.png",
-        "media/ui/Rivista1b.png",
-		"media/ui/Rivista1c.png",
-		"media/ui/Rivista1d.png",
-		"media/ui/Rivista1e.png",
-		"media/ui/Rivista1f.png",
-		"media/ui/Rivista1g.png",
-    }
-	local Rivista1_texts = {
-        "...",
-        "...",
-        "Cavoli, che offerta...",
-		"Roba completamente inutile",
-		"Ma che cazz..?!",
-		"...",
-		"....",
-		".....",
-    }
-	ExamineEntries.addEntry("Rivista1",Rivista1_pagine,Rivista1_texts);
-	
-	
-	--rivista2
-	ExamineEntries.addEntry("Rivista2", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista3", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista4", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista5", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista6", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista7", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista8", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista9", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-	ExamineEntries.addEntry("Rivista10", "media/ui/Rivista1.png", "Da dove diavolo arriva questo?!" );
-
-
 
     table.insert(SPageTable, "LR.Lore1");
     table.insert(SPageTable, "LR.Lore2");
@@ -68,16 +32,6 @@ local function bind()
 
     table.insert(SPageTable, "LR.Volantino1");
     table.insert(SPageTable, "LR.Volantino2");
-	table.insert(MPageTable, "LR.Rivista1");
-    table.insert(SPageTable, "LR.Rivista2");
-	 table.insert(SPageTable, "LR.Rivista3");
-	  table.insert(SPageTable, "LR.Rivista4");
-	  table.insert(SPageTable, "LR.Rivista5");
-	  table.insert(SPageTable, "LR.Rivista6");
-	  table.insert(SPageTable, "LR.Rivista7");
-	  table.insert(SPageTable, "LR.Rivista8");
-	  table.insert(SPageTable, "LR.Rivista9");
-	  table.insert(SPageTable, "LR.Rivista10");
 
 end
 

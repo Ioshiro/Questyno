@@ -1,5 +1,5 @@
-name=Questyno2
-id=questyno2
+name=Questyno
+id=questyno
 description=smart
 require=SoulQuestSystem
 poster=poster.png

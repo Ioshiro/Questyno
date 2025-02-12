@@ -1,7 +1,0 @@
-Tooltip_EN = {
-	Tooltip_MedaglyaBronzo = "+350 punti reputazione",
-	Tooltip_MedaglyaArgento = "+1000 punti reputazione",
-	Tooltip_MedaglyaOro = "+3000 punti reputazione",
-	Tooltip_MedaglyaPlatino = "+10000 punti reputazione",
-	Tooltip_MedaglyaDiamante = "+50000 punti reputazione",
-}

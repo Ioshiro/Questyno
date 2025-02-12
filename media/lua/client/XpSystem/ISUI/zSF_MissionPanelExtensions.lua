@@ -87,16 +87,10 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
         SF_MissionPanel.EventsRegistered = false
         return
     end
-    if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent == 0 then
-        Events.OnZombieDead.Remove(SF_MissionPanel.Events.OnZombieDead)
-        SF_MissionPanel.EventsRegistered = false
-        return
-    end
     local attackedBy = zombie:getAttackedBy()
     if player:isDriving() then return end
     if attackedBy ~= player then return end
     if not instanceof(attackedBy, "IsoPlayer") then return end
-
 
     -- Ottieni tierLevel e zoneName attuali
     local currentTierLevel, currentZoneName = checkZone()
@@ -1035,7 +1029,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 				local squareTable = luautils.split(k2, "x");
 				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
 				local square = getCell():getGridSquare(x, y, z);
-        local marker = nil
+                local marker = nil
 				if square then
                     if string.find(string.lower(v2.dialoguecode), "complete") then
                         marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
@@ -1050,16 +1044,15 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 					end
 				end
 			else
-        v2.marker:setDoAlpha(false);
-        v2.marker:setAlphaMin(0.8);
-        v2.marker:setAlpha(1.0);
-      end
+                v2.marker:setDoAlpha(false);
+                v2.marker:setAlphaMin(0.8);
+                v2.marker:setAlpha(1.0);
+            end
 		end
 	end
 
     if player:getModData().missionProgress.ClickEvent then
         for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
-
             if not event.marker then
 				local squareTable = luautils.split(event.square, "x");
 				local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
@@ -1067,7 +1060,6 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                 local marker
 				if square then
 					marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
-
 					if marker then
                         marker:setDoAlpha(false);
                         marker:setAlphaMin(0.8);
@@ -1565,12 +1557,7 @@ Events.OnGameBoot.Add(function()
     -- end
     Events.OnGameStart.Remove(SF_MissionPanel.DailyEventReroll)
     Events.OnGameStart.Add(SF_MissionPanel.DailyEventRerollExpand)
-    Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes
-)
-    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
-    local original_EveryTenMinutes = SF_MissionPanel.EveryTenMinutes
-    SF_MissionPanel.EveryTenMinutes = SF_MissionPanel.EveryTenMinutesExpand
-
+    Events.EveryTenMinutes.Add(SF_MissionPanel.DebugEveryTenMinutes)
 
 
     local original_EveryTenMinutes = SF_MissionPanel.EveryTenMinutes
