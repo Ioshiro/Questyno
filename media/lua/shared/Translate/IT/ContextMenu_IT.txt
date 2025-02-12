@@ -1,4 +1,5 @@
 ContextMenu_IT = {
     ContextMenu_WorldEvent_TalkTo2 = "Digliene quattro a %1",
     ContextMenu_InvestigateCorpse = "Cerca nel contenitore (quest)",
+    ContextMenu_TakeReputation = "Riscatta Reputazione",
 }

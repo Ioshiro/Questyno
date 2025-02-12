@@ -121,4 +121,93 @@ module LR{
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
+
+    item Rivista1 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Strana Rivista,
+        Icon			=	Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+	    item Rivista2 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista3 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista4 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista5 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista6 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista7 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista8 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista9 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
+
+    item Rivista10 {
+        Weight          =   0.1,
+        Type            =   Normal,
+        DisplayCategory =   Literature,
+        DisplayName     =   Strana Rivista,
+        Icon            =   Magazine,        
+        WorldStaticModel = TVMagazineGround,
+    }
 }
