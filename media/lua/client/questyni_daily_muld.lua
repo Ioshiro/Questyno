@@ -3104,7 +3104,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura17",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
-    needsitem = "ShellSuit_Green;4", -- REQUIRE
+    needsitem = "Jacket_Shellsuit_Green;4", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura17_Lore" },

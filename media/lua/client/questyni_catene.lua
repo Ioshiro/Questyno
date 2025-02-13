@@ -1789,13 +1789,13 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger4_A",
         text = "IGUI_SFQuest_Questyno_TomasJoger4_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoTomasJoger4;additem;Base.ModernTire3;2",
+        oncompleted = "removeclickevent;EventoTomasJoger4;additem;Base.BicycleTireRegularScrap;1",
     },
     {
         guid = "Questyno_TomasJoger4_B",
         text = "IGUI_SFQuest_Questyno_TomasJoger4_B",
         hidden = false,
-        oncompleted = "removeclickevent;EventoTomasJoger4A;additem;Base.ModernTire3;2",
+        oncompleted = "removeclickevent;EventoTomasJoger4A;additem;Base.BicycleTireRegularScrap;1",
     }},
     text = "IGUI_SFQuest_Questyno_TomasJoger4_Text",
     texture = "media/textures/Item_TomasJoger.png",
@@ -1813,7 +1813,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger5_Begin;Questyno_TomasJoger5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger4_Lore" },
-    needsitem = "ModernTire3;4",
+    needsitem = "BicycleTireRegularScrap;2",
     onobtained = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_TomasJoger4_Complete",
     text = "IGUI_SFQuest_Questyno_TomasJoger4_A_Text",
     texture = "media/textures/Item_TomasJoger.png",
@@ -1830,26 +1830,14 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger5_A",
         text = "IGUI_SFQuest_Questyno_TomasJoger5_A",
         hidden = false,
-        needsitem = "TW.Spring;1",
-        onobtained = "updateobjective;Questyno_TomasJoger5;1;Completed;removeitem;TW.Spring;1"
+        needsitem = "SOMW.LongMetalPipe;2",
+        onobtained = "updateobjective;Questyno_TomasJoger5;1;Completed;removeitem;SOMW.LongMetalPipe;2"
     }, {
         guid = "Questyno_TomasJoger5_B",
         text = "IGUI_SFQuest_Questyno_TomasJoger5_B",
         hidden = false,
-        needsitem = "TW.BoxLargeBolts;2",
-        onobtained = "updateobjective;Questyno_TomasJoger5;2;Completed;removeitem;TW.BoxLargeBolts;2"
-    }, {
-        guid = "Questyno_TomasJoger5_C",
-        text = "IGUI_SFQuest_Questyno_TomasJoger5_C",
-        hidden = false,
-        needsitem = "SOMW.LongMetalPipe;2",
-        onobtained = "updateobjective;Questyno_TomasJoger5;3;Completed;removeitem;SOMW.LongMetalPipe;2"
-    }, {
-        guid = "Questyno_TomasJoger5_D",
-        text = "IGUI_SFQuest_Questyno_TomasJoger5_D",
-        hidden = false,
-        needsitem = "SOMW.LongLeadPipe;1",
-        onobtained = "updateobjective;Questyno_TomasJoger5;4;Completed;removeitem;SOMW.LongLeadPipe;1"
+        needsitem = "Scotchtape;1",
+        onobtained = "updateobjective;Questyno_TomasJoger5;2;Completed;removeitem;Scotchtape;1"
     }},
     text = "IGUI_SFQuest_Questyno_TomasJoger5_Text",
     texture = "media/textures/Item_TomasJoger.png",
@@ -1895,7 +1883,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger6_A",
 
     awardsrep = "LaResistenza;100;TomasJoger;14", -- REP REWARD
-    awardsitem = "MoneytoXP.Rotolo;1", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Rotolo;1", -- ITEM REWARD
     awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger7_Begin;Questyno_TomasJoger7", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger6_Lore" },
@@ -1916,16 +1904,16 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger7_A",
         text = "IGUI_SFQuest_Questyno_TomasJoger7_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoTomasJoger7;additem;PynoTweaks.Cannabis;10"
+        oncompleted = "removeclickevent;EventoTomasJoger7;additem;PynoTweaks.Cannabis;4"
     }, {
         guid = "Questyno_TomasJoger7_B",
         text = "IGUI_SFQuest_Questyno_TomasJoger7_B",
-        hidden = true,
+        hidden = false,
         oncompleted = "removeclickevent;EventoTomasJoger7A;additem;PynoTweaks.RollingPapers;3"
     }, {
         guid = "Questyno_TomasJoger7_C",
         text = "IGUI_SFQuest_Questyno_TomasJoger7_C",
-        hidden = true,
+        hidden = false,
         oncompleted = "removeclickevent;EventoTomasJoger7B;additem;HottieZ;3"
     } },
     text = "IGUI_SFQuest_Questyno_TomasJoger7_Text",
@@ -1945,7 +1933,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger7_D",
         text = "IGUI_SFQuest_Questyno_TomasJoger7_D",
         hidden = false,
-        needsitem = "PynoTweaks.Cannabis;10",
+        needsitem = "PynoTweaks.Cannabis;12",
         onobtained = "updateobjective;Questyno_TomasJoger7_A;1;Completed;removeitem;PynoTweaks.Cannabis;10"
     },{
         guid = "Questyno_TomasJoger7_E",

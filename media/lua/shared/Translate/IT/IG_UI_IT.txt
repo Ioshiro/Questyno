@@ -1206,7 +1206,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EliaRima_Intro_Title = "Elia Rima",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Text = "Incontra Elia Rima [Giornaliere]",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Lore = "Elia è una delle prime persone arrivate nella Tana. Anche se non è scontato svolge un ruolo fondamentale.",
-    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. Sono cresciuto fra queste campagne. Il giorno in cui tutto è cominciato mi trovato a March Ridge, la ho incontrato Angelica che si trovava li per un provino in un piccolo appartamento. Le ho subito parlato di questo posto dove abitavano i miei nonni e mi sono incamminato con lei. Arrivato qui c'erano già il Sergente Grif e Mike e mi hanno subito ben accolto insieme ad Angelica. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarò molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
+    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. Sono cresciuto fra queste campagne. Il giorno in cui tutto è cominciato mi trovavo a March Ridge, là ho incontrato Angelica che si trovava li per un provino in un piccolo appartamento. Le ho subito parlato di questo posto dove abitavano i miei nonni e mi sono incamminato con lei. Arrivato qui c'erano già il Sergente Grif e Mike e mi hanno subito ben accolto insieme ad Angelica. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarò molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni strumenti musicali da una casa di un musicista. ",
 	
 	IGUI_SFQuest_Questyno_EliaRima1_Title = "Elia dalla Tana",
@@ -2801,7 +2801,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_SusanLee_Intro_Title = "Susan Lee da Muldraugh 10822,9072,0",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Text = "Incontra Susan Lee [Settimanali]",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Lore = "La Dottoressa Susan ha bisogno di me per recuperare dei medicinali. Non posso deluderla. Sono certo che dandole una mano riusciremo ad avere meno perdite. La trovo sempre alla fattoria a Nord di Muldraugh",
-    IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Sono la Dott.ssa Susan. Mi sono staccata dalla Tana insieme a George cercando di trovare nuovi campi coltivabili e formare una nuova comunità. Non sarei qui grazie a lui. Quando tutto questo è cominciato stavo tornando a casa dal lovoro. Uno di quei cosi mi stava correndo alle spalle e George lo investì e mi fece salire in macchina con lui. Ho bisogno di te per recuperare più medicinali e attrezzature mediche possibili, puoi daremi una mano?",
+    IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Sono la Dott.ssa Susan. Mi sono staccata dalla Tana insieme a George cercando di trovare nuovi campi coltivabili e formare una nuova comunità. Non sarei qui grazie a lui. Quando tutto questo è cominciato stavo tornando a casa dal lavoro. Uno di quei cosi mi stava correndo alle spalle e George lo investì e mi fece salire in macchina con lui. Ho bisogno di te per recuperare più medicinali e attrezzature mediche possibili, puoi daremi una mano?",
 	
 	IGUI_SFQuest_Questyno_SusanLee1_Title = "Dr. Susan da Muldarugh",
     IGUI_SFQuest_Questyno_SusanLee1_Text = "Gli antibiotici per Susan",
@@ -3781,21 +3781,21 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_XuMishura28_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura28_Complete = "Bene, sistemiamo un po' questo capo.",
 	
-	IGUI_SFQuest_Questyno_XuMishura28_Title = "Xu",
-    IGUI_SFQuest_Questyno_XuMishura28_Text = "I jeans di Xu",
-    IGUI_SFQuest_Questyno_XuMishura28_Lore = "Xu mi ha chiesto di portargli dei Jeans Larhi. Vediamo se lo trovo su qualche zombie.",
-    IGUI_SFQuest_Questyno_XuMishura28_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
-    IGUI_SFQuest_Questyno_XuMishura28_Begin_Text_Accepted = "Bene ti aspetto qui!",
-    IGUI_SFQuest_Questyno_XuMishura28_Begin_Text_Declined = "Spero ci ripenserai",
-    IGUI_SFQuest_Questyno_XuMishura28_Complete = "Bene, sistemiamo un po' questo capo.",
-	
 	IGUI_SFQuest_Questyno_XuMishura29_Title = "Xu",
-    IGUI_SFQuest_Questyno_XuMishura29_Text = "Xu gambe calde",
-    IGUI_SFQuest_Questyno_XuMishura29_Lore = "Xu mi ha chiesto di portargli dei Mutandoni lunghi. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura29_Text = "I jeans di Xu",
+    IGUI_SFQuest_Questyno_XuMishura29_Lore = "Xu mi ha chiesto di portargli dei Jeans Larhi. Vediamo se lo trovo su qualche zombie.",
     IGUI_SFQuest_Questyno_XuMishura29_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
     IGUI_SFQuest_Questyno_XuMishura29_Begin_Text_Accepted = "Bene ti aspetto qui!",
     IGUI_SFQuest_Questyno_XuMishura29_Begin_Text_Declined = "Spero ci ripenserai",
     IGUI_SFQuest_Questyno_XuMishura29_Complete = "Bene, sistemiamo un po' questo capo.",
+	
+	IGUI_SFQuest_Questyno_XuMishura30_Title = "Xu",
+    IGUI_SFQuest_Questyno_XuMishura30_Text = "Xu gambe calde",
+    IGUI_SFQuest_Questyno_XuMishura30_Lore = "Xu mi ha chiesto di portargli dei Mutandoni lunghi. Vediamo se lo trovo su qualche zombie.",
+    IGUI_SFQuest_Questyno_XuMishura30_Begin_Text = "Portami questo indumento e verrai ben ricompensato!",
+    IGUI_SFQuest_Questyno_XuMishura30_Begin_Text_Accepted = "Bene ti aspetto qui!",
+    IGUI_SFQuest_Questyno_XuMishura30_Begin_Text_Declined = "Spero ci ripenserai",
+    IGUI_SFQuest_Questyno_XuMishura30_Complete = "Bene, sistemiamo un po' questo capo.",
 
 
 --[[
@@ -7294,14 +7294,12 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger5_Begin_Text_Declined = "Dai fatti il biberon e vai a nanna",
     IGUI_SFQuest_Questyno_TomasJoger5_Complete = "Ma quanto tempo ci hai messo è Pensavo fossi ansioso di completare quest'auto Jhonny, dai appoggia' li' che mi metto subito al lavoro, qui non si dorme.",
     IGUI_SFQuest_Questyno_TomasJoger5_A_Text = "Riporta i pezzi a Tomas",
-    IGUI_SFQuest_Questyno_TomasJoger5_A = "1 molla",
-    IGUI_SFQuest_Questyno_TomasJoger5_B = "2 Scatole di bulloni grandi",
-    IGUI_SFQuest_Questyno_TomasJoger5_C = "2 Tubi lunghi",
-    IGUI_SFQuest_Questyno_TomasJoger5_D = "1 Tubo di piombo",
+    IGUI_SFQuest_Questyno_TomasJoger5_A = "2 Tubi lunghi",
+    IGUI_SFQuest_Questyno_TomasJoger5_B = "1 Scotch",
 
     IGUI_SFQuest_Questyno_TomasJoger6_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger6_Text = "Catena di montaggio",
-    IGUI_SFQuest_Questyno_TomasJoger6_Lore = "Recupera il propano alla base militare di Killian Country 7947,9786,0",
+    IGUI_SFQuest_Questyno_TomasJoger6_Lore = "Recupera il propano a Killian Country 7947,9786,0",
     IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text = "Che ci fai ancora qui con le mani in mano? Vai subito a Killian Country, dammi retta! Lì c'è una catena robusta che mi serve come l'aria: non è una di quelle cinesate arrugginite, è roba seria. Ti aspetto a braccia conserte finché non torni. Ah, e se pensi di tornare a mani vuote, scordati il mio aiuto",
     IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text_Accepted = "Armati di tanta pazienza e non mollare.",
     IGUI_SFQuest_Questyno_TomasJoger6_Begin_Text_Declined = "Dai fatti il biberon e vai a nanna",
@@ -7321,7 +7319,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_TomasJoger7_C = "Cerca a Linden (11528,8507,0)",
     IGUI_SFQuest_Questyno_TomasJoger7_A_Text = "Riporta gli oggetti a Tomas",
     IGUI_SFQuest_Questyno_TomasJoger7_B_Text = "Riporta gli oggetti a Tomas",
-    IGUI_SFQuest_Questyno_TomasJoger7_D = "10 Cannabis",
+    IGUI_SFQuest_Questyno_TomasJoger7_D = "12 Cannabis",
     IGUI_SFQuest_Questyno_TomasJoger7_E = "3 Cartine",
     IGUI_SFQuest_Questyno_TomasJoger7_F = "3 HottieZ",
 
