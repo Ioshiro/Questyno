@@ -281,6 +281,7 @@ function SFQuest_WorldEventWindow:new(x, y, character, square, worldinfo, dialog
 			character:Say("This quest was already completed.");
 			o:removeFromUIManager();
 			o:close();
+			SF_MissionPanel.instance.DailyEventRerollExpand()
 			return nil;
 		end
 	elseif o.command == "unlockquest" then
