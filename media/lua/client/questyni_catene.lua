@@ -1238,14 +1238,14 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_AndrewTurner.png",
     title = "IGUI_SFQuest_Questyno_AndrewTurner1_Title",
     unique = true,
-    unlocks = "clickevent;16888x7783x0:EventoAndrewTurner1;time:50:anim:loot;updateobjective:Questyno_AndrewTurner1:1:Completed",
+    unlocks = "clickevent;5774x4029x0:EventoAndrewTurner1;time:50:anim:loot;updateobjective:Questyno_AndrewTurner1:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AndrewTurner1_A",
 
-    awardsrep = "LaResistenza;2500;AndrewTurner;16", -- REP REWARD
+    awardsrep = "LaResistenza;2000;AndrewTurner;16", -- REP REWARD
     awardsitem = "Base.Money;100", -- ITEM REWARD
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner2_Begin;Questyno_AndrewTurner2", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -1372,7 +1372,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_AndrewTurner5_A",
         text = "IGUI_SFQuest_Questyno_AndrewTurner5_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoAndrewTurner5;additem;Base.PropaneTank;5",
+        oncompleted = "removeclickevent;EventoAndrewTurner5;additem;Base.PropaneTank;4",
     }},
     text = "IGUI_SFQuest_Questyno_AndrewTurner5_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1390,7 +1390,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner6_Begin;Questyno_AndrewTurner6", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner5_Lore" },
-    needsitem = "PredicateFullDrainable#Base.PropaneTank;5",
+    needsitem = "PredicateFullDrainable#Base.PropaneTank;4",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner5_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner5_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1407,7 +1407,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_AndrewTurner6_A",
         text = "IGUI_SFQuest_Questyno_AndrewTurner6_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoAndrewTurner6;additem;Base.PropaneTank;6",
+        oncompleted = "removeclickevent;EventoAndrewTurner6;additem;Base.PropaneTank;4",
     }},
     text = "IGUI_SFQuest_Questyno_AndrewTurner6_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -1421,11 +1421,11 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AndrewTurner6_A",
 
     awardsrep = "LaResistenza;5000;AndrewTurner;114", -- REP REWARD
-    awardsitem = "LabItems.LabWorkbench;1", -- ITEM REWARD
+    awardsitem = "TW.MetalWorkbench;1", -- ITEM REWARD
     --awardsworld = "Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner6_Begin;Questyno_AndrewTurner6", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_AndrewTurner6_Lore" },
-    needsitem = "PredicateFullDrainable#Base.PropaneTank;56",
+    needsitem = "PredicateFullDrainable#Base.PropaneTank;4",
     onobtained = "unlockworldevent;Questyno_AndrewTurner;SFQuest_Questyno_AndrewTurner6_Complete",
     text = "IGUI_SFQuest_Questyno_AndrewTurner6_A_Text",
     texture = "media/textures/Item_AndrewTurner.png",
@@ -2007,7 +2007,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter1_A",
         text = "IGUI_SFQuest_Questyno_KylePorter1_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter1;additem;Base.BlowTorch;1;Base.WeldingMask;1;Base.Wrench;1;Base.ClubHammer;1;Base.Dungarees;1"
+        oncompleted = "removeclickevent;EventoKylePorter1;additem;Base.BlowTorch;1;additem;Base.WeldingMask;1;additem;Base.Wrench;1;additem;Base.ClubHammer;1;additem;Base.Dungarees;1"
     }, {
         guid = "Questyno_KylePorter1_B",
         text = "IGUI_SFQuest_Questyno_KylePorter1_B",
@@ -2015,7 +2015,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoKylePorter1A;additem;MetalPipe;20"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter1_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter1_Title",
     unlockedsound = "QuestUnlocked",
     unique = true,
@@ -2050,22 +2050,22 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_KylePorter1_F",
         hidden = false,
         needsitem = "ClubHammer;1",
-        onobtained = "updateobjective;Questyno_KylePorter1_A;3;Completed;removeitem;ClubHammer;1"
+        onobtained = "updateobjective;Questyno_KylePorter1_A;4;Completed;removeitem;ClubHammer;1"
     } , {
         guid = "Questyno_KylePorter1_G",
         text = "IGUI_SFQuest_Questyno_KylePorter1_G",
         hidden = false,
         needsitem = "Dungarees;1",
-        onobtained = "updateobjective;Questyno_KylePorter1_A;3;Completed;removeitem;Dungarees;1"
+        onobtained = "updateobjective;Questyno_KylePorter1_A;5;Completed;removeitem;Dungarees;1"
     } , {
         guid = "Questyno_KylePorter1_H",
         text = "IGUI_SFQuest_Questyno_KylePorter1_H",
         hidden = false,
         needsitem = "MetalPipe;20",
-        onobtained = "updateobjective;Questyno_KylePorter1_A;3;Completed;removeitem;MetalPipe;20"
+        onobtained = "updateobjective;Questyno_KylePorter1_A;6;Completed;removeitem;MetalPipe;20"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter1_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     unique = true,
     title = "IGUI_SFQuest_Questyno_KylePorter1_Title",
 });
@@ -2073,14 +2073,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter1_B",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsitem = "Burger;1;Fries;1;Pop2;1", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter2_Begin;Questyno_KylePorter2", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter1_Lore" },
-    unlocks = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_KylePorter1_Complete",
+    unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter1_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter1_B_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter1_Title",
     unique = true,
 });
@@ -2110,7 +2110,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_KylePorter2;3;Completed;removeitem;ScrapMetal;50"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter2_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter2_Title",
     unique = true,
     unlockedsound = "QuestUnlocked"
@@ -2119,13 +2119,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_KylePorter2_A",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10",
+    awardsrep = "LaResistenza;500;KylePorter;10",
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter3_Begin;Questyno_KylePorter3", -- DIALOGUE REWARD
     completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
     lore = { "IGUI_SFQuest_Questyno_KylePorter2_Lore" },
-    unlocks = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_KylePorter2_Complete",
+    unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter2_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter2_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter2_Title",
     unique = true,
 })
@@ -2139,10 +2139,10 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter3_A",
         text = "IGUI_SFQuest_Questyno_KylePorter3_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter3;additem;Base.ModernBrake3;4;Base.ModernSuspension3;4;Base.modernCarMuffler3;4",
+        oncompleted = "removeclickevent;EventoKylePorter3;additem;Base.ModernBrake3;4;additem;Base.ModernSuspension3;4;additem;Base.ModernCarMuffler3;4",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter3_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter3_Title",
     unique = true,
     unlocks = "clickevent;13728x1657x0:EventoKylePorter3;time:50:anim:loot;updateobjective:Questyno_KylePorter3:1:Completed",
@@ -2170,11 +2170,11 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter3_D",
         text = "IGUI_SFQuest_Questyno_KylePorter3_D",
         hidden = false,
-        needsitem = "modernCarMuffler3;4",
-        onobtained = "updateobjective;Questyno_KylePorter3_A;3;Completed;removeitem;modernCarMuffler3;4"
+        needsitem = "ModernCarMuffler3;4",
+        onobtained = "updateobjective;Questyno_KylePorter3_A;3;Completed;removeitem;ModernCarMuffler3;4"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter3_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter3_Title",
     unique = true,
 });
@@ -2182,14 +2182,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter3_B",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsitem = "WhiskeyFull;2", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter4_Begin;Questyno_KylePorter4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter3_Lore" },
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter3_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter3_B_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter3_Title",
     unique = true,
 });
@@ -2212,7 +2212,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoKylePorter4A;additem;Base.ModernTire3;2",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter4_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter4_Title",
     unique = true,
     unlocks = "clickevent;7049x7168x0:EventoKylePorter4;time:50:anim:loot;updateobjective:Questyno_KylePorter4:1:Completed;clickevent;7289x6912x0:EventoKylePorter4A;time:50:anim:loot;updateobjective:Questyno_KylePorter4:2:Completed",
@@ -2222,14 +2222,15 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter4_A",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsitem = "WhiskeyFull;2", -- ITEM REWARD
+    needsitem = "ModernTire3;4",
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter5_Begin;Questyno_KylePorter5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter4_Lore" },
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter4_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter4_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter4_Title",
     unique = true,
 });
@@ -2277,7 +2278,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_KylePorter5;6;Completed;removeitem;SOMW.LongLeadPipe;4"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter5_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter5_Title",
     unique = true,
     unlockedsound = "QuestUnlocked"
@@ -2286,13 +2287,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_KylePorter5_A",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10",
+    awardsrep = "LaResistenza;500;KylePorter;10",
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter6_Begin;Questyno_KylePorter6", -- DIALOGUE REWARD
     completesound = "levelup",                                                                                          -- Suono completamento quest, sempre uguale
     lore = { "IGUI_SFQuest_Questyno_KylePorter5_Lore" },
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter5_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter5_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     unique = true,
     title = "IGUI_SFQuest_Questyno_KylePorter5_Title",
 })
@@ -2306,10 +2307,10 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter6_A",
         text = "IGUI_SFQuest_Questyno_KylePorter6_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter6;additem;PropaneTank;2;WeldingRods;5",
+        oncompleted = "removeclickevent;EventoKylePorter6;additem;PropaneTank;2;additem;WeldingRods;5",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter6_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter6_Title",
     unique = true,
     unlocks = "clickevent;13891x9976x0:EventoKylePorter6;time:50:anim:loot;updateobjective:Questyno_KylePorter6:1:Completed",
@@ -2335,7 +2336,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_KylePorter6_A;2;Completed;removeitem;WeldingRods;5"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter6_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter6_Title",
     unique = true,
 });
@@ -2343,14 +2344,14 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter6_B",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
-    awardsitem = "Wine;1", -- ITEM REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
+    awardsitem = "MoneytoXP.Rotolo;4", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter7_Begin;Questyno_KylePorter7", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter6_Lore" },
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter6_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter6_B_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter6_Title",
     unique = true,
 });
@@ -2364,10 +2365,10 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter7_A",
         text = "IGUI_SFQuest_Questyno_KylePorter7_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter7;additem;RadiatedZones.Iodine;3",
+        oncompleted = "removeclickevent;EventoKylePorter7;additem;RadiatedZones.Iodine;1",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter7_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter7_Title",
     unique = true,
     unlocks = "clickevent;4121x13304x2:EventoKylePorter7;time:50:anim:loot;updateobjective:Questyno_KylePorter7:1:Completed",
@@ -2377,15 +2378,15 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter7_A",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsitem = "RadiatedZones.Hat_EmptyGasMask;1;RadiatedZones.GasMaskFilter;2", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter8_Begin;Questyno_KylePorter8", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter7_Lore" },
-    needsitem = "RadiatedZones.Iodine;3",
+    needsitem = "RadiatedZones.Iodine;6",
     onobtained = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter7_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter7_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter7_Title",
     unique = true,
 });
@@ -2399,10 +2400,10 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_KylePorter8_A",
         text = "IGUI_SFQuest_Questyno_KylePorter8_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoKylePorter8;additem;PaintWhite;1;PaintBlue;1;PaintBlack;1;PaintRed;1",
+        oncompleted = "removeclickevent;EventoKylePorter8;additem;PaintWhite;1;additem;PaintBlue;1;additem;PaintBlack;1;additem;PaintRed;1",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter8_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter8_Title",
     unique = true,
     unlocks = "clickevent;12107x1259x0:EventoKylePorter8;time:50:anim:loot;updateobjective:Questyno_KylePorter8:1:Completed",
@@ -2440,7 +2441,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_KylePorter8_A;4:Completed;removeitem;PaintRed;1"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter8_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     unique = true,
     title = "IGUI_SFQuest_Questyno_KylePorter8_Title",
 });
@@ -2448,12 +2449,12 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter8_B",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter9_Begin;Questyno_KylePorter9", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter8_Lore" },
     text = "IGUI_SFQuest_Questyno_KylePorter8_B_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter8_Title",
     unique = true,
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter8_Complete",
@@ -2462,7 +2463,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter9",
 
-    awardsrep = "LaResistenza;500;TomasJoger;10", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
     awardsitem = "Wine;1", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter10_Begin;Questyno_KylePorter10", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -2470,7 +2471,7 @@ table.insert(SFQuest_Database.QuestPool, {
     needsitem = "EngineParts;50",
     onobtained = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter9_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter9_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter9_Title",
     unique = true,
     unlockedsound = "QuestUnlocked"
@@ -2494,7 +2495,7 @@ table.insert(SFQuest_Database.QuestPool, {
         oncompleted = "removeclickevent;EventoKylePorter10A;additem;Key2;1",
     }},
     text = "IGUI_SFQuest_Questyno_KylePorter10_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter10_Title",
     unique = true,
     unlocks = "clickevent;3138x11274x0:EventoKylePorter10;time:50:anim:loot;updateobjective:Questyno_KylePorter10:1:Completed;clickevent;3734x11700x0:EventoKylePorter10A;time:50:anim:loot;updateobjective:Questyno_KylePorter10:2:Completed",
@@ -2520,7 +2521,7 @@ table.insert(SFQuest_Database.QuestPool, {
         onobtained = "updateobjective;Questyno_KylePorter10_A;2;Completed;removeitem;Key2;1"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter10_A_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter10_Title",
     unique = true,
 });
@@ -2528,13 +2529,13 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter10_B",
 
-    awardsrep = "LaResistenza;500;TomasJoger;109", -- REP REWARD
+    awardsrep = "LaResistenza;500;KylePorter;109", -- REP REWARD
     --awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter11_Begin;Questyno_KylePorter11", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter10_Lore" },
     unlocks = "unlockworldevent;Questyno_KylePorter;SFQuest_Questyno_KylePorter10_Complete",
     text = "IGUI_SFQuest_Questyno_KylePorter10_B_Text",
-    texture = "media/textures/Item_TomasJoger.png",
+    texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter10_Title",
     unique = true,
 });

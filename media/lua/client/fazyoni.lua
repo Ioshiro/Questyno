@@ -63,6 +63,10 @@ LaResistenzaTiersTemplate = {
         minrep = 10000000,
         barcolor = "resistenza",
         unlocks = "addreputation;HarperWells;100;addreputation;JamesMorris;100"
+    }, {
+        tiername = "IGUI_Factions_Resistenza_Tier10",
+        minrep = 10000000,
+        barcolor = "white",
     }
 };
 

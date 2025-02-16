@@ -815,7 +815,7 @@ local chinaQuest5 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina5_Lore" },
-    needsitem = "predicateCondition#Base.SpearCrafted;10;50", -- REQUIRE
+    needsitem = "TagPredicateCondition#Spear;10;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina5_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina5_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -831,7 +831,7 @@ local chinaQuest6 = {
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina6_Lore" },
-    needsitem = "Base.SpearCrafted;5", -- REQUIRE
+    needsitem = "TagPredicateCondition#Spear;5;50", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_RosaChina;SFQuest_Questyno_RosaChina6_Complete",
     text = "IGUI_SFQuest_Questyno_RosaChina6_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -2336,7 +2336,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RyanParker12_Text",
     texture = "media/textures/Item_RyanParker.png",
     title = "IGUI_SFQuest_Questyno_RyanParker12_Title",
-    unlocks = "clickevent;3916x9236x0:EventoRyanParker12;time:50:anim:loot;updateobjective:Questyno_RyanParker12:1:Completed",
+    unlocks = "clickevent;4187x9236x1:EventoRyanParker12;time:50:anim:loot;updateobjective:Questyno_RyanParker12:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 

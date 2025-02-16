@@ -95,6 +95,11 @@ function Questyno_Tweaks()
     -- manager:getItem("Moveables.location_shop_mall_01_69"):DoParam("Tags".." = ".. "Mannequin"); -- not working
     manager:getItem("Mov_MannequinFemale"):DoParam("Tags".." = ".. "Mannequin");
     manager:getItem("Mov_MannequinMale"):DoParam("Tags".." = ".. "Mannequin");
+
+    -- Spears
+    manager:getItem("Base.SpearCrafted"):DoParam("Tags".." = ".. "Spear");
+    manager:getItem("Base.WoodenLance"):DoParam("Tags".." = ".. "Spear");
+
 end
 
 Events.OnGameBoot.Add(Questyno_Tweaks)

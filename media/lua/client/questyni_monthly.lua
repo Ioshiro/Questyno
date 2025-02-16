@@ -265,7 +265,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane1_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_A",
         hidden = false,
-        needsitem = "CardID;30",
+        needsitem = "CardID;50",
         onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;50",
     },{
         guid = "Questyno_MarcusKane1_B",
@@ -303,7 +303,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane2_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_A",
         hidden = false,
-        needsitem = "CardID;50",
+        needsitem = "CardID;100",
         onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;100",
     },{
         guid = "Questyno_MarcusKane2_B",
@@ -341,7 +341,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane3_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_A",
         hidden = false,
-        needsitem = "CardID;60",
+        needsitem = "CardID;120",
         onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;120",
     },{
         guid = "Questyno_MarcusKane3_B",
@@ -379,7 +379,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane4_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_A",
         hidden = false,
-        needsitem = "CardID;100",
+        needsitem = "CardID;200",
         onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;200",
     },{
         guid = "Questyno_MarcusKane4_B",
