@@ -2032,7 +2032,7 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_KylePorter1_C",
         hidden = false,
         needsitem = "PredicateFullDrainable#BlowTorch;1",
-        onobtained = "updateobjective;Questyno_KylePorter1_A;1;Completed;removeitem;Blowtorch;1"
+        onobtained = "updateobjective;Questyno_KylePorter1_A;1;Completed;removeitem;BlowTorch;1"
     },{
         guid = "Questyno_KylePorter1_D",
         text = "IGUI_SFQuest_Questyno_KylePorter1_D",
@@ -2420,25 +2420,25 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_KylePorter8_B",
         hidden = false,
         needsitem = "PaintWhite;1",
-        onobtained = "updateobjective;Questyno_KylePorter8_A;1:Completed;removeitem;PaintWhite;1"
+        onobtained = "updateobjective;Questyno_KylePorter8_A;1;Completed;removeitem;PaintWhite;1"
     },{
         guid = "Questyno_KylePorter8_C",
         text = "IGUI_SFQuest_Questyno_KylePorter8_C",
         hidden = false,
         needsitem = "PaintBlue;1",
-        onobtained = "updateobjective;Questyno_KylePorter8_A;2:Completed;removeitem;PaintBlue;1"
+        onobtained = "updateobjective;Questyno_KylePorter8_A;2;Completed;removeitem;PaintBlue;1"
     }, {
         guid = "Questyno_KylePorter8_D",
         text = "IGUI_SFQuest_Questyno_KylePorter8_D",
         hidden = false,
         needsitem = "PaintBlack;1",
-        onobtained = "updateobjective;Questyno_KylePorter8_A;3:Completed;removeitem;PaintBlack;1"
+        onobtained = "updateobjective;Questyno_KylePorter8_A;3;Completed;removeitem;PaintBlack;1"
     }, {
         guid = "Questyno_KylePorter8_E",
         text = "IGUI_SFQuest_Questyno_KylePorter8_E",
         hidden = false,
         needsitem = "PaintRed;1",
-        onobtained = "updateobjective;Questyno_KylePorter8_A;4:Completed;removeitem;PaintRed;1"
+        onobtained = "updateobjective;Questyno_KylePorter8_A;4;Completed;removeitem;PaintRed;1"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter8_A_Text",
     texture = "media/textures/Item_KylePorter.png",
