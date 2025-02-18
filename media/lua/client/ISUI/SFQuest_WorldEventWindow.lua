@@ -147,6 +147,8 @@ function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 		elseif not neededStuffTaken then
 			SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 			self.richText.text = getText("IGUI_FailCompleteQuest") or "...";
+			self.CompleteBtn:setVisible(false);
+			self.CloseBtn:setVisible(true);
 		end
 	end
     if button.internal == "DECLINE" then

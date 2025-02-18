@@ -46,14 +46,14 @@ Events.OnGameStart.Add(
     end
 ) 
 
-local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
-function ISInventoryTransferAction:perform()
-	ISInventoryTransferActionVanilla(self)
-    print("ISInventoryTransferAction Successful overwrite") -- temp, just for the print message
-    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
-	    -- SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    -- end
-end
+-- local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
+-- function ISInventoryTransferAction:perform()
+-- 	ISInventoryTransferActionVanilla(self)
+--     print("ISInventoryTransferAction Successful overwrite") -- temp, just for the print message
+--     -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
+-- 	    -- SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+--     -- end
+-- end
 
 
 -- Drop item (seems not working, it triggers ISInventoryTransferAction instead?)
