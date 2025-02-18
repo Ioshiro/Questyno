@@ -96,7 +96,7 @@ table.insert(SFQuest_Database.FactionPool, {
     name = "IGUI_Factions_LaResistenza",
     startrep = 0,
     minrep = 0,
-    maxtier = 8,
+    maxtier = 9,
     tiers = LaResistenzaTiersTemplate
 });
 -- tier 2
