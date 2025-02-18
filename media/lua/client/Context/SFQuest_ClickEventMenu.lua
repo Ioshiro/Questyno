@@ -44,6 +44,7 @@ local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
 
 	local startingX,startingY,startingZ = square:getX(), square:getY(), square:getZ();
 	local x1, y1, x2, y2 = startingX-1, startingY-1, startingX+1, startingY+1
+	local clickEventsFounds = {}
 	for i = x1, x2 do
         for j = y1, y2 do
 			local sqTag = tostring(i).."x"..tostring(j).."x"..tostring(startingZ);
@@ -51,11 +52,20 @@ local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
 			if event then
 				local square = getCell():getGridSquare(i, j, startingZ);
 				local event = playerObj:getModData().missionProgress.ClickEvent[sqTag]
-    			local clickOption = context:addOptionOnTop(getText("ContextMenu_InvestigateCorpse"), worldobjects, onClickEvent, playerObj, square, event.address, event.actiondata, event.commands);
-				clickOption.iconTexture = getTexture("media/textures/clickevent.png");
-				break
+				table.insert(clickEventsFounds, {square = square, event = event});
 			end
 		end
+	end
+	if #clickEventsFounds == 0 then return end
+	local newOption = context:addOptionOnTop(getText("ContextMenu_ClickEvent"), worldobjects, nil);
+	newOption.iconTexture = getTexture("media/textures/clickevent.png");
+	local subMenu = ISContextMenu:getNew(context)
+	context:addSubMenu(newOption, subMenu)
+	for _, clickEvent in ipairs(clickEventsFounds) do
+		local square = clickEvent.square;
+		local event = clickEvent.event;
+		local worldOption = subMenu:addOption(getText("ContextMenu_InvestigateCorpse"), worldobjects, onClickEvent, playerObj, square, event.address, event.actiondata, event.commands);
+		worldOption.iconTexture = getTexture("media/textures/clickevent.png");
 	end
 end
 

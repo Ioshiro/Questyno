@@ -124,7 +124,7 @@ function ISForageAction:perform()
     -- end
 end
 
-if getActivatedMods():contains("nshops_retexture") or getActivatedMods():contains("nshops") then
+if getActivatedMods():contains("nshops_retexture") or getActivatedMods():contains("nshops") or getActivatedMods():contains("nshoppyniTest") or getActivatedMods():contains("nshoppyni") then
     -- require "TimedActions/ShopBuyAction"
     local origin_ShopBuyAction_perform = ShopBuyAction.perform
     function ShopBuyAction:perform()

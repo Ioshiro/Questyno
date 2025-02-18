@@ -1,4 +1,6 @@
 ContextMenu_EN = {
+    ContextMenu_WorldEvent = "Interact with NPC",
+    ContextMenu_ClickEvent = "Interact with Quest",
     ContextMenu_WorldEvent_TalkTo2 = "Talk with %1",
     ContextMenu_InvestigateCorpse = "Inspect container (quest)",
 }

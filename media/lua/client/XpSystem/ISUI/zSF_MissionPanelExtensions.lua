@@ -1430,7 +1430,7 @@ function SF_MissionPanel:completeQuest(player, guid)
                     -- idea per Reroll Daily Event solo al completamento dell'ultima step di una daily
 					table.remove(player:getModData().missionProgress.Category2, i);
                     if task.dailycode and not task.awardstask then
-                        SF_MissionPanel.instance.DailyEventRerollExpand() --not working here. don't know why
+                        SF_MissionPanel.instance.DailyEventRerollExpand()
                         print("Daily Event Reroll triggered");
                     end
 					done = true;
