@@ -3184,7 +3184,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_MalachiBlevins1",
 
-    awardsrep = "LaResistenza;650", -- REP REWARD
+    awardsrep = "LaResistenza;1000", -- REP REWARD
+    awardsitem = "Money;120", -- ITEM REWARD
     needsitem = "Newspaper;100", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
@@ -3199,7 +3200,8 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_MalachiBlevins2",
 
-    awardsrep = "LaResistenza;550", -- REP REWARD
+    awardsrep = "LaResistenza;800", -- REP REWARD
+    awardsitem = "Money;100", -- ITEM REWARD
     needsitem = "ComicBook;80", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
@@ -3214,7 +3216,8 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_MalachiBlevins3",
 
-    awardsrep = "LaResistenza;500", -- REP REWARD
+    awardsrep = "LaResistenza;800", -- REP REWARD
+    awardsitem = "Money;100", -- ITEM REWARD
     needsitem = "Magazine;80", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",

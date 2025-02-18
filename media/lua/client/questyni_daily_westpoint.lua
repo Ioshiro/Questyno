@@ -1364,11 +1364,12 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso21",
-    awardsrep = "LaResistenza;400",
+    awardsrep = "LaResistenza;500",
+    awardsitem = "Money;30",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso21_Lore" },
-    needsitem = "Base.Necklace_DogTag;50",
+    needsitem = "Base.Necklace_DogTag;30",
     onobtained = "unlockworldevent;Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso21_Complete",
     text = "IGUI_SFQuest_Questyno_RafaelPrezioso21_Text",
     texture = "media/textures/Item_RafaelPrezioso.png",

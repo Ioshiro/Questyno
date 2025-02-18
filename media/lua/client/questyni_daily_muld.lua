@@ -245,7 +245,7 @@ local secretQuest6A = {
     guid = "Questyno_VictoriaSecret6_A",
 
     awardsrep = "LaResistenza;500", -- REP REWARD
-    awardsitem = "Money;100",
+    awardsitem = "Money;200",
     completesound = "levelup",
     dailycode = "Questyno_VictoriaSecret",
     lore = { "IGUI_SFQuest_Questyno_VictoriaSecret6_Lore" },
@@ -2802,8 +2802,8 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_SamuelYoung24",
 
     awardsrep = "LaResistenza;750", -- REP REWARD
-    awardsitem = "Money;50", -- ITEM REWARD
-    needsitem = "Soap2;12", -- REQUIRE
+    awardsitem = "Money;100", -- ITEM REWARD
+    needsitem = "Soap2;6", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_SamuelYoung",
     lore = { "IGUI_SFQuest_Questyno_SamuelYoung24_Lore" },
