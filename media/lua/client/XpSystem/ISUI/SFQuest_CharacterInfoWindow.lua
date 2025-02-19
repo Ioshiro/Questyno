@@ -4,13 +4,47 @@ require "XpSystem/ISUI/ISCharacterInfoWindow"
 
 print("zSOUL QUEST SYSTEM - Loading CharacterInfoWindow.lua");
 
+local function addNewViewAfter(self, name, view, nameAfter)
+	print("addNewViewAfter: " .. name .. " after " .. nameAfter);
+    local newView = {};
+	newView.name = name;
+	newView.view = view;
+	newView.tabWidth = getTextManager():MeasureStringX(UIFont.Small, name) + self.tabPadX;
+	newView.fade = UITransition.new()
+    local newViewList = {};
+	for _,viewObject in ipairs(self.viewList) do
+		if viewObject.name ~= nameAfter then
+			table.insert(newViewList, viewObject);
+        else
+			table.insert(newViewList, viewObject);
+            table.insert(newViewList, newView);
+        end
+	end
+    self.viewList = newViewList;
+    view:setY(self.tabHeight);
+--	view:initialise();
+	self:addChild(view);
+	view.parent = self;
+    if #self.viewList == 1 then
+		view:setVisible(true);
+		self.activeView = newView;
+		self.maxLength = newView.tabWidth;
+	else
+		view:setVisible(false);
+		if newView.tabWidth > self.maxLength then
+			self.maxLength = newView.tabWidth;
+		end
+	end
+end
+
 local previous_ISCharacterInfoWindow_createChildren = ISCharacterInfoWindow.createChildren
 function ISCharacterInfoWindow:createChildren()
 	self.questView = SF_MissionPanel:new(getSpecificPlayer(self.playerNum), 0, 8, 420, 400)
 	self.questView:initialise()
 	self.questView.infoText = getTextOrNull("UI_QuestPanel");
 	previous_ISCharacterInfoWindow_createChildren(self)
-	self.panel:addView(xpSystemText.quest, self.questView);
+	-- self.panel:addView(xpSystemText.quest, self.questView);
+	addNewViewAfter(self.panel, xpSystemText.quest, self.questView, xpSystemText.health)
 end
 
 local previous_ISCharacterInfoWindow_onTabTornOff = ISCharacterInfoWindow.onTabTornOff
