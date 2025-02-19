@@ -7980,12 +7980,12 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_JacobTurner1_Title = "Jacob Turner",
     IGUI_SFQuest_Questyno_JacobTurner1_Text = "Soldi per cervella",
-    IGUI_SFQuest_Questyno_JacobTurner1_Lore = "Jacob vorrebbe che recuperassi delle cervella nella citta' di Raven Creek. Dice che mi paghera' bene se riesco a portargliene almeno un pezzo ancora pulsante. Dovrei trovarlo a Raven Creek, precisamente a 3810,12530,0.",
+    IGUI_SFQuest_Questyno_JacobTurner1_Lore = "Jacob vorrebbe che recuperassi delle cervella nella citta' di Raven Creek. Dice che mi paghera' bene se riesco a portargliene almeno un pezzo ancora pulsante. Dovrei trovarlo a Raven Creek, precisamente a 3772,12352,0.",
     IGUI_SFQuest_Questyno_JacobTurner1_Begin_Text = "Ho bisogno che vai in una clinica a Raven Creek per recuperare delle cervella.",
     IGUI_SFQuest_Questyno_JacobTurner1_Begin_Text_Accepted = "Bene, bene. Ecco a te le coordinate, usa i guantini ne.",
     IGUI_SFQuest_Questyno_JacobTurner1_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
     IGUI_SFQuest_Questyno_JacobTurner1_Complete = "Fantastico ha davvero un bell'aspetto!",
-    IGUI_SFQuest_Questyno_JacobTurner1_A = "Cerca a Raven Creek (3810,12530,0)",
+    IGUI_SFQuest_Questyno_JacobTurner1_A = "Cerca a Raven Creek (3772,12352,0)",
     IGUI_SFQuest_Questyno_JacobTurner1_A_Text = "Porta le cervella umane a Jacob",
 
     IGUI_SFQuest_Questyno_JacobTurner2_Title = "Jacob Turner",

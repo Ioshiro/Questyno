@@ -2665,7 +2665,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JacobTurner.png",
     title = "IGUI_SFQuest_Questyno_JacobTurner1_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;3810x12530x0:EventoJacobTurner1;anim:loot:time:50;updateobjective:Questyno_JacobTurner1:1:Completed"
+    unlocks = "clickevent;3772x12352x0:EventoJacobTurner1;anim:loot:time:50;updateobjective:Questyno_JacobTurner1:1:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
