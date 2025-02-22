@@ -425,7 +425,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_BrianWhite6_A",
 
     awardsrep = "LaResistenza;100;BrianWhite;109", -- REP REWARD
-    awardsitem = "Money;50;Base.CarTicket;1", -- ITEM REWARD
+    awardsitem = "Money;50;LR.ChiaveMacchinyno;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BrianWhite6_Lore" },
     needsitem = "Base.NormalCarMuffler2;1",
@@ -434,7 +434,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_BrianWhite.png",
     title = "IGUI_SFQuest_Questyno_BrianWhite6_Title",
     unique = true,
-    unlocks = "addserverpoints;850"
+    --unlocks = "addserverpoints;850"
 });
 
 
