@@ -1,4 +1,8 @@
 module LR {
+    imports
+    {
+        Base
+    }
      item MedaglyaBronzo {
         Weight			=	0.1,
 		Type = Clothing,
