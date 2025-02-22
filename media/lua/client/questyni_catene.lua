@@ -425,7 +425,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_BrianWhite6_A",
 
     awardsrep = "LaResistenza;100;BrianWhite;109", -- REP REWARD
-    awardsitem = "Money;50;LR.ChiaveMacchinyno;1", -- ITEM REWARD
+    awardsitem = "Table:Macchinyni", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_BrianWhite6_Lore" },
     needsitem = "Base.NormalCarMuffler2;1",

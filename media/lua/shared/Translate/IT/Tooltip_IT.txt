@@ -4,4 +4,8 @@ Tooltip_IT = {
 	Tooltip_MedaglyaOro = "+3000 punti reputazione",
 	Tooltip_MedaglyaPlatino = "+10000 punti reputazione",
 	Tooltip_MedaglyaDiamante = "+50000 punti reputazione",
+	Tooltip_item_ChiaveMacchinyno1 = "potenza del motore 360, peso 1170kg, 4 posti",
+	Tooltip_item_ChiaveMacchinyno2 = "potenza del motore 340, peso 1100kg, 4 posti",
+	Tooltip_item_ChiaveMacchinyno3 = "potenza del motore 400, peso 1250kg, 2 posti",
+	Tooltip_item_ChiaveMacchinyno4 = "potenza del motore 380, peso 1150kg, 4 posti",
 }

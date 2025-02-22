@@ -31,3 +31,10 @@ SFQuest_Database.RandomRewardItemPool.GoldWeapons3 = {
     "SOMWReward.SRewardMachete;2",
     "SOMWReward.SRewardKatana;2",
 }
+
+SFQuest_Database.RandomRewardItemPool.Macchinyni = {
+    "LR.ChiaveMacchinyno1;1",
+    "LR.ChiaveMacchinyno2;1",
+    "LR.ChiaveMacchinyno3;1",
+    "LR.ChiaveMacchinyno4;1",
+}

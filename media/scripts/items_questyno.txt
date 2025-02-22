@@ -210,4 +210,44 @@ module LR{
         Icon            =   Magazine,        
         WorldStaticModel = TVMagazineGround,
     }
+
+    item ChiaveMacchinyno1 {
+        Weight			=	0.01,
+		Type	=	Key,
+	    DisplayCategory = Security,
+        DisplayName		=	Chiave Chevalier Primani,
+        Icon			=	Key5,        
+        WorldStaticModel = Key2,
+        Tooltip           =   Tooltip_item_ChiaveMacchinyno1,
+    }
+
+    item ChiaveMacchinyno2 {
+        Weight			=	0.01,
+		Type	=	Key,
+	    DisplayCategory = Security,
+        DisplayName		=	Chiave Chevalier Dart,
+        Icon			=	Key5,        
+        WorldStaticModel = Key2,
+        Tooltip           =   Tooltip_item_ChiaveMacchinyno2,
+    }
+
+    item ChiaveMacchinyno3 {
+        Weight			=	0.01,
+		Type	=	Key,
+	    DisplayCategory = Security,
+        DisplayName		=	Chiave Dash Rancher,
+        Icon			=	Key5,        
+        WorldStaticModel = Key2,
+        Tooltip           =   Tooltip_item_ChiaveMacchinyno3,
+    }
+
+    item ChiaveMacchinyno4 {
+        Weight			=	0.01,
+		Type	=	Key,
+	    DisplayCategory = Security,
+        DisplayName		=	Chiave Masterson Horizon,
+        Icon			=	Key5,        
+        WorldStaticModel = Key2,
+        Tooltip           =   Tooltip_item_ChiaveMacchinyno4,
+    }
 }
