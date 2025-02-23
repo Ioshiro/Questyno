@@ -251,7 +251,9 @@ function SFQuest_WorldEventWindow:close()
 	if self.playTalk then
 		self.playTalk:stop()
 	end
+	self:setVisible(false)
 	self:removeFromUIManager()
+	SFQuest_WorldEventWindow.instance = nil;
 end
 
 function SFQuest_WorldEventWindow:new(x, y, character, square, worldinfo, dialogueinfo, questid)
@@ -302,6 +304,9 @@ function SFQuest_WorldEventWindow:new(x, y, character, square, worldinfo, dialog
 	o:setResizable(false)
 	o.deal = "open";
 	o.fontHeight = getTextManager():getFontHeight(self.font)
+	if SFQuest_WorldEventWindow.instance then
+		SFQuest_WorldEventWindow.instance:close()
+	end
 	SFQuest_WorldEventWindow.instance = o;
 	return o
 end
