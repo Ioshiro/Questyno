@@ -109,7 +109,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
             end
 
             -- Se è impostato un tierlevel, controlla se coincide con quello attuale
-            if eventData.tierlevel and eventData.tierlevel <= currentTierLevel then
+            if eventData.tierlevel and eventData.tierlevel > currentTierLevel then
                 canIncrement = false
             end
 
