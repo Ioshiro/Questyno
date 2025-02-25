@@ -726,7 +726,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Title = "Angelica Stella 9343,8602,0",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Text = "Incontra Angelica Stella [Giornaliere]",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Lore = "Ho inctrato Angelica alla Tana. Sembra essere un po' fuori dal mondo, ma chi non ha avuto i suoi traumi dopo tutto questo? Credo che le darò una mano se Può servire ad avere qualcosa per commerciare.",
-    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text = "Ciao, sono Angelica, ma tutti mi chiamano "Stella". Non mi riconosci? Ero una famosa attrice di hollywood. Non reputarmi una pazza ma... continuare a vestirmi in maniera elegante mi fa sentire come allora. Quando indosso un vestito e mi guardo allo specchio è come se non fossi più in questo posto. Ho bisogno di te per recuperare alcuni abitiche mi interessano, spero tu possa darmi una mano, ho ancora molti soldi da parte!",
+    IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text = "Oh, finalmente! Uno nuovo! Beh, che fortuna per te avermi trovata. No, sul serio, questa è una benedizione. Vedi, qui alla Tana tutti pensano solo a coltelli, munizioni e cibo in scatola… ma qualcuno deve pur pensare all'immagine, giusto? Voglio dire, solo perché il mondo è finito non significa che dobbiamo andare in giro come degli straccioni senza speranza. Io sono Angelica. E sì, sono consapevole di essere la persona più affascinante qui dentro. Ma non sono solo bellezza, sono anche generosa. La mia missione? Riportare un po' di civiltà in questa landa desolata, un po' di stile, di eleganza. E qui entri in gioco tu! Avrai il privilegio di aiutarmi a recuperare vestiti, trucchi, scarpe… insomma, tutto ciò che può rendere questo posto meno deprimente. Non è solo per me, sai? Lo faccio per tutti. Perché quando mi vedono così splendida, ricordano com'era il mondo prima del disastro. E un po' di speranza fa bene a tutti. Ah, e prima che tu chieda: sì, conosco il Sergente Grif. Siamo… diciamo amici. Se vuoi che parli bene di te quando arriverai alla Cittadella, è meglio che non mi deludi. Allora, sei pronto a fare qualcosa di veramente importante?",
     IGUI_SFQuest_Questyno_AngelicaStella_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti di alta moda da una boutique nel centro commerciale. Posso ancora essere una stella, anche in mezzo agli zombie. Va' lì, prendili e assicurati che siano in ottime condizioni. Non voglio apparire trasandata",
 
     IGUI_SFQuest_Questyno_AngelicaStella1_Title = "Angelica dalla Tana",
@@ -971,7 +971,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title = "Heather Thomas",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text = "Incontra Heather Thomas [Giornaliere]",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore = "Heater sembra un tipo burbero ma leale. Posso contare su di lui se volessi imaparare l'arte della caccia. E' disposto anche a pagarmi se riesco a rimediare della selvaggina.",
-    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text = "Ciao straniero. Sono Heater, ma tutti mi chiamano "Lupo Selvaggio" perché da sempre amo la natura selvaggia. Mi trovo benissimo in questo Nuovo Mondo, non ho cambiato moltissimo le mie abitudini se non per il fatto che adesso devo prendermi cura del mio gruppo, credo di aver conosciuto più persone durante questa apocalisse che prima di tutto questo! La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto. Mi raccomando, semmai dovesse bloccarti Mike per dirti che puoi lasciare a lui i MIEI conigli, non dargli ascolto è solo un ingordo!",
+    IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text = "Oh, guarda un po'… un altro che pensa di potersela cavare qui fuori. Vedremo. Io sono Heater. Non mi piace parlare troppo, quindi ascolta bene perché non mi ripeterò. Qui dentro tutti si preoccupano di difendersi, ma pochi pensano a mangiare come si deve. Se credi che sopravvivere significhi campare di scatolette e cracker stantii, sei più stupido di Mike Pozzo. E fidati, quello è un bel primato. Quel dannato scroccone ha più talento a svuotare la dispensa che a riempirla, ma almeno sa riconoscere una buona bistecca quando la vede. Io invece caccio. Conigli, scoiattoli, uccelli… quello che si trova. La carne fresca è un lusso da queste parti, ma se vuoi imparare, posso insegnarti. Niente sprechi, niente rumore inutile, e soprattutto niente errori. Ti darò qualche compito semplice: piazzare trappole, raccogliere esche, capire dove passano le bestie. Se fai le cose per bene, magari ti insegnerò a usare una balestra, senza cavarti un occhio. Ma se pensi di poter cazzeggiare e rubare il cibo degli altri come fa Mike, allora scordatelo. Qui bisogna lavorare. Ora dimmi, hai intenzione di imparare o devo già considerarti un'altra bocca inutile da sfamare?",
     IGUI_SFQuest_Questyno_HeatherThomas_Intro_Complete_Text_Accepted = " La mia specialità sono le trappole, possi insegnarti tutti i segreti per cattuarare la selvaggina se mi darai ascolto.",
 
 	IGUI_SFQuest_Questyno_HeatherThomas1_Title = "Heather dalla Tana",
@@ -1207,7 +1207,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EliaRima_Intro_Title = "Elia Rima",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Text = "Incontra Elia Rima [Giornaliere]",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Lore = "Elia è una delle prime persone arrivate nella Tana. Anche se non è scontato svolge un ruolo fondamentale.",
-    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Sono Elia, ma tutti mi chiamano "Rima" per il mio amore per le parole e la poesia. Sono cresciuto fra queste campagne. Il giorno in cui tutto è cominciato mi trovavo a March Ridge, là ho incontrato Angelica che si trovava li per un provino in un piccolo appartamento. Le ho subito parlato di questo posto dove abitavano i miei nonni e mi sono incamminato con lei. Arrivato qui c'erano già il Sergente Grif e Mike e mi hanno subito ben accolto insieme ad Angelica. In questo mondo devastato dagli zombie, le parole sono diventate la mia ancora, la mia speranza e il mio conforto. Trovo ispirazione nelle emozioni e nelle storie dei sopravvissuti che incontriamo ogni giorno. Non abbiamo molto da offrirti in cambio sono certo che tutta la comunità ti sarò molto riconoscente se riuscissi a riempire la nostra biblioteca nel corso del tempo.",
+    IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text = "Ah, sei arrivato. Benvenuto. Spero che tu abbia una mente aperta e il cuore pronto ad ascoltare. Io sono Elia Rima, e non sono uno di quelli che si preoccupano solo di sopravvivere. La sopravvivenza è importante, certo, ma la conoscenza, la cultura, la bellezza… queste sono le cose che ci rendono umani. Senza di esse, saremmo come uno di quei cosi. Ecco perché quello che ti chiederò è di recuperare libri. Qualsiasi libro. La storia, la filosofia, la poesia… tutto quello che possiamo salvare dal disastro che ci ha travolti. Immagina, se un giorno ci saranno altre generazioni, cosa racconteranno di noi? Che siamo stati barbari, senza arte né cultura? Non posso permetterlo. Non dobbiamo permetterlo. Ecco perché ti chiedo di recuperare ogni libro che riesci a trovare. La mia missione non è solo per me, ma per l'intera umanità. A proposito, so che anche Mike Pozzo è un grande lettore. Ma non sono sicuro che apprezzi la lettura tanto quanto una buona bottiglia di rum. Comunque, lui è un altro che conosco bene, insieme a Grif. Quel bravo sergente sa sempre dove fare il bene, anche in un mondo che sembra impazzito. Quindi, che dici? Sei pronto a fare qualcosa che vada oltre la semplice sopravvivenza?",
     IGUI_SFQuest_Questyno_EliaRima_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni strumenti musicali da una casa di un musicista. ",
 	
 	IGUI_SFQuest_Questyno_EliaRima1_Title = "Elia dalla Tana",
@@ -1776,7 +1776,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Title = "Mike Pozzo",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Text = "Incontra Mike Pozzo [Giornaliere]",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Lore = "Per ingraziarmi Mike mi basterà ingozzarlo di cibo. Semplice. Lo troverò sicuramente in cucina.",
-    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Hey, sono Mike, ma tutti mi chiamano 'Pozzo.' Sì, lo so, il mio soprannome dice tutto. Prima di tutto questo caos, ero uno chef di un ristorante di lusso, il tipo di posto in cui le persone venivano per assaporare piatti eccezionali. Il cibo è sempre stato la mia passione, e non ho mai smesso di sognare di preparare pietanze incredibili, anche in mezzo a questo mondo infestato dai non morti. Il mio ristorante in centro era molto vicino al centro quindi sono stato uno dei primi colpiti senza preavviso. Per fortuna a cena ospite da me quella sera c'era il Sergente Grif, che è riuscito a tirarmi fuori da quel bordello mentre io ero ancora alle prese con i fornelli ignaro di quello che stava succedendo in sala e per le strade. Gli devo molto! Non ho bisogno di molto ma se ti andrà di farmi qualche favoretto potrei mettere una buona parola per te al Sergente! ",
+    IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text = "Eh, finalmente! Un altro che si è svegliato per darmi una mano, eh? Io sono Mike Pozzo, cuoco del gruppo. Se puoi chiamarla cucina, visto che spesso è solo cibo in scatola e quello che riesco a tirar fuori dai sacchi di immondizia. Ma non preoccuparti, so cosa sto facendo. Ho passato anni a sopravvivere con poco, e alla fine il segreto è questo: tirare fuori il meglio dal peggio. Non è roba da principi, ma è la realtà, amico mio. E anche se qualche volta mi fanno venire il dubbio che qualcuno si stia mangiando più di quanto dovrebbe, alla fine... siamo tutti sulla stessa barca, giusto? Però, veniamo a noi. La vera cosa che ci manca qui sono le provviste. Cibo, rifornimenti, ogni cosa che possa tenerci in vita. Quindi ti chiederò spesso di andare a cercare qualcosa. Non preoccuparti, non ti lascerò mai a bocca asciutta… forse solo un po' affamato, ma è il gioco delle cose. Tutto andrà per il bene della comunità, vedrai. Lo facciamo tutti. Nessuno di noi sa cosa c'è davvero là fuori. Siamo nati in questo disastro. Non sappiamo più che sapore ha una mela vera o quanto fosse bello vedere un cielo senza minacce, ma… eh, chi se ne importa? Qui sappiamo sopravvivere. E lo faremo insieme. Ora, che ne dici? Raccogli qualcosa di buono per la nostra tavola?",
     IGUI_SFQuest_Questyno_MikePozzo_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_MikePozzo1_Title = "Mike dalla Tana",
@@ -2035,7 +2035,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina_Intro_Title = "Rosa China",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Text = "Incontra Rosa China [Giornaliere]",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Lore = "Rosa è arrivata con sua figlia da poco al campo Tana, forse mi darà dei compiti molto semplici, penso che potrei cominciare con lei.",
-    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, sono arrivata qua insieme a Emily e mia figlia. ci siamo conosciute a March Ridge, quando tutto è cominciato. Eravamo all'interno del cinema, eravamo le uniche che stavano guardando quel film insieme alle nostre figlie e una volte uscite abbiamo trovato le strade deserte. Siamo arrivate in questo posto seguendo un gruppo di persone che abbiamo incontrato subito fuori dalla città. Siamo le ultime arrivate e stiamo cercando di trovarne il nostro posto all'interno della Resistenza ma senza dover affrontare quei cosi la fuori. Ti saremo grate se ci darai una mano a reperire alcuni materiali per dare una mano alla nostra famiglia.",
+    IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text = "Ciao, sono Rosa, sono arrivata qui insieme a Terry e le nostre figlie. Siamo arrivate in questo posto seguendo un gruppo di persone che abbiamo incontrato subito fuori dalla città. Siamo le ultime arrivate e stiamo cercando di trovarne il nostro posto all'interno della Resistenza ma senza dover affrontare quei cosi la fuori. Ti saremo grate se ci darai una mano a reperire alcuni materiali per dare una mano alla nostra famiglia.",
     IGUI_SFQuest_Questyno_RosaChina_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni attrezzi da un garage. ",
 	
 	IGUI_SFQuest_Questyno_RosaChina1_Title = "Rosa dalla Tana",
@@ -2104,7 +2104,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_RosaChina8_A = "3 Cavallette",
 	IGUI_SFQuest_Questyno_RosaChina8_B = "1 Cimice",
 	IGUI_SFQuest_Questyno_RosaChina8_C = "2 Scarafaggi",
-	IGUI_SFQuest_Questyno_RosaChina8_D = "5 Lumache",
+	IGUI_SFQuest_Questyno_RosaChina8_D = "5 Chiocciole",
 	IGUI_SFQuest_Questyno_RosaChina8_A_Text = "Incontra Rosa",
 	
 	IGUI_SFQuest_Questyno_RosaChina9_Title = "Rosa dalla Tana",
@@ -5276,14 +5276,14 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_SamFisher8_Title = "Sam da West Point 10153,6571,0",
     IGUI_SFQuest_Questyno_SamFisher8_Text = "Esche per Sam",
-    IGUI_SFQuest_Questyno_SamFisher8_Lore = "Sam mi ha chiesto di recuperargli 2 Lumache, 2 Cavallette e 3 Vermi dal suo rifugio a Greenport (8633,7477,0).",
+    IGUI_SFQuest_Questyno_SamFisher8_Lore = "Sam mi ha chiesto di recuperargli 2 Chiocciole, 2 Cavallette e 3 Vermi dal suo rifugio a Greenport (8633,7477,0).",
     IGUI_SFQuest_Questyno_SamFisher8_Begin_Text = "Puoi passare dal mio rifugio qui a Greenport e recuperare le esche vive che sono rimaste? Ci metterai 5 minuti, coraggio!",
     IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Accepted = "Bene campione!",
     IGUI_SFQuest_Questyno_SamFisher8_Begin_Text_Declined = "Sarà per la prossima.",
     IGUI_SFQuest_Questyno_SamFisher8_Complete = "Bene, ti ringrazio. Fatti un goccetto con me!",
 	IGUI_SFQuest_Questyno_SamFisher8_A = "Cerca a Greenport (8633,7477,0)",
 	IGUI_SFQuest_Questyno_SamFisher8_A_Text = "Prendi le esche per Sam",
-	IGUI_SFQuest_Questyno_SamFisher8_B = "2 Lumache",
+	IGUI_SFQuest_Questyno_SamFisher8_B = "2 Chiocciole",
 	IGUI_SFQuest_Questyno_SamFisher8_C = "2 Cavallette",
 	IGUI_SFQuest_Questyno_SamFisher8_D = "3 Vermi",
 	IGUI_SFQuest_Questyno_SamFisher8_B_Text = "Torna da Sam",
@@ -5495,12 +5495,14 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EzekielFlynn4_Complete = "Ottimo, dammi!",
 
     IGUI_SFQuest_Questyno_EzekielFlynn5_Title = "Ezekiel dalla Tana",
-    IGUI_SFQuest_Questyno_EzekielFlynn5_Text = "Uccidi 100 Zombie",
-    IGUI_SFQuest_Questyno_EzekielFlynn5_Lore = "Ezekiel vuole che uccida altri 100 zombie per conto suo.",
-    IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text = "Grande! Adesso se vuoi ottenere la mia fiducia vai ad ucciderne altri 100, poi torna da me!",
+    IGUI_SFQuest_Questyno_EzekielFlynn5_Text = "Recupera i Ceppi",
+    IGUI_SFQuest_Questyno_EzekielFlynn5_Lore = "Ezekiel vuole che vada a recuperare dei Ceppi da Emily Terry (9264,8495,0).",
+    IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text = "Grande! Adesso solo un piccolo favore personale, puoi andare da Terry e recuperare dei ceppi per alimentare la stufa?",
     IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_EzekielFlynn5_Complete = "Bene, ecco a te. Spero che ti darà una mano a difenderti meglio, mi raccomando impugnalo a due mani. Fammi sapere se ti torna utile!",
+    IGUI_SFQuest_Questyno_EzekielFlynn2_A = "Vai da Emily Terry (9264,8495,0)",
+    IGUI_SFQuest_Questyno_EzekielFlynn2_A_Text = "Riporta i Ceppi a Ezekiel",
 
     --[[
                         *** Elowen Beckett ***
@@ -7095,7 +7097,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_Pyno4_Title = "Pyno da Pisa",
     IGUI_SFQuest_Questyno_Pyno4_Text = "Tutorialyno 4/5",
     IGUI_SFQuest_Questyno_Pyno4_Lore = "Pyno mi ha spigato l'obbiettivo che avrei all'interno del server e mi ha lasciato un Portafogli e una Carta di credito che serviranno a farmi capire come si usano i soldi. Spero che si possa anche giocare in questo server",
-    IGUI_SFQuest_Questyno_Pyno4_Begin_Text = "Nel server, gli NPC sono divisi in 4 categorie: NPC giornalieri, NPC settimanali, NPC mensili, e quelli con missioni annuali che premiano con oggetti rari e necessari per creare il Vaccino o la Cura.  Il gameplay è pensato per incentivare a spostarsi dalla Tana, dove ci sono missioni semplici e sicure, verso zone più sfidanti e remunerative. La Resistenza indaga sulla causa dell’epidemia e punta a creare una Cura per rifondare una civiltà. Adesso prendi questi, ti spiego due cose.",
+    IGUI_SFQuest_Questyno_Pyno4_Begin_Text = "Nel server, gli NPC sono divisi in 4 categorie: NPC giornalieri, NPC settimanali, NPC mensili, e quelli con missioni annuali che premiano con oggetti rari e necessari per creare il Vaccino o la Cura.  Il gameplay è pensato per incentivare a spostarsi dalla Tana, dove ci sono missioni semplici e sicure, verso zone più sfidanti e remunerative. La Resistenza indaga sulla causa dell'epidemia e punta a creare una Cura per rifondare una civiltà. Adesso prendi questi, ti spiego due cose.",
     IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Accepted = "Bene, vuoi sapere altro?",
     IGUI_SFQuest_Questyno_Pyno4_Begin_Text_Declined = "Okey domani quitti. Sicuro.",
 

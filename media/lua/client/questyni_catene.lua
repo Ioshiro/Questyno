@@ -144,15 +144,33 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5",
 
-    awardsrep = "LaResistenza;45;EzekielFlynn;119", -- REP REWARD
-    awardsitem = "Crowbar;1", -- ITEM REWARD
-    completesound = "levelup",
+    awardstask = "Questyno_EzekielFlynn5_A", -- TASK REWARD
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
+    objectives = {{
+        guid = "Questyno_EzekielFlynn5_A",
+        text = "IGUI_SFQuest_Questyno_EzekielFlynn5_A",
+        hidden = false,
+        oncompleted = "removeclickevent;EventoEzekielFlynn5;additem;LogStacks4;1",
+    }},
     text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn5_Title",
-    unlocks = "actionevent;killzombies:100;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn5_Complete:placeholder:updatequeststatus:Questyno_EzekielFlynn5:Obtained", -- ZOMBIE REQUEST
+    unlocks = "clickevent;4418x6236x0:EventoEzekielFlynn5;anim:loot:time:50;updateobjective:Questyno_EzekielFlynn5:1:Completed",
     unlockedsound = "QuestUnlocked"
+});
+
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_EzekielFlynn5_A",
+
+    awardsrep = "LaResistenza;45;EzekielFlynn;119", -- REP REWARD
+    awardsitem = "Crowbar;1;BeefJerky;1", -- ITEM REWARD
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
+    needsitem = "LogStacks4;1", -- ITEM REQUEST
+    text = "IGUI_SFQuest_Questyno_EzekielFlynn5_A_Text",
+    texture = "media/textures/Item_EzekielFlynn.png",
+    title = "IGUI_SFQuest_Questyno_EzekielFlynn5_Title",
 });
 
 
@@ -1824,7 +1842,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_TomasJoger5_A",
         text = "IGUI_SFQuest_Questyno_TomasJoger5_A",
         hidden = false,
-        needsitem = "SOMW.LongMetalPipe;2",
+        needsitem = "SOMW.LongMetalPipe;1",
         onobtained = "updateobjective;Questyno_TomasJoger5;1;Completed;removeitem;SOMW.LongMetalPipe;1"
     }, {
         guid = "Questyno_TomasJoger5_B",
