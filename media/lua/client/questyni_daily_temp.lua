@@ -126,7 +126,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MikePozzo.png",
     title = "IGUI_SFQuest_Questyno_MikePozzo5_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;8145x11482x0:EventoMikePozzo5;time:50:anim:loot;updateobjective:Questyno_MikePozzo5:1:Completed",
+    unlocks = "clickevent;8659x9963x0:EventoMikePozzo5;time:50:anim:loot;updateobjective:Questyno_MikePozzo5:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -220,7 +220,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo7_Lore" },
-    needsitem = "PredicateFoodWeight#Rabbitmeat;1;0.3", -- REQUIRE
+    needsitem = "FrogMeat;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_MikePozzo;SFQuest_Questyno_MikePozzo7_Complete",
     text = "IGUI_SFQuest_Questyno_MikePozzo7_Text",
     texture = "media/textures/Item_MikePozzo.png",

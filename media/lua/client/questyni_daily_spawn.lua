@@ -1007,7 +1007,7 @@ local stellaQuest6 = {
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella6_Title",
     unlocks =
-    "clickevent;7207x11247x0:EventoAngelicaStella6;time:50:anim:loot;updateobjective:Questyno_AngelicaStella6:1:Completed",
+    "clickevent;8384x8943x1:EventoAngelicaStella6;time:50:anim:loot;updateobjective:Questyno_AngelicaStella6:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest6);
@@ -1044,7 +1044,7 @@ local stellaQuest7 = {
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella7_Title",
     unlocks =
-    "clickevent;11884x6909x0:EventoAngelicaStella7;time:50:anim:loot;updateobjective:Questyno_AngelicaStella7:1:Completed",
+    "clickevent;7298x8739x0:EventoAngelicaStella7;time:50:anim:loot;updateobjective:Questyno_AngelicaStella7:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest7);

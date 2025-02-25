@@ -116,7 +116,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn3",
 
     awardsrep = "LaResistenza;15;EzekielFlynn;20", -- REP REWARD
-    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn4_Begin;Questyno_EzekielFlynn4", -- DIALOGUE REWARD
+    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn4_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn3_Text",
@@ -239,7 +239,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_ElowenBeckett4_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett4_Title",
-    unlocks = "actionevent;killzombies:100:tierlevel:2;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett4_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett4:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:50:tierlevel:2;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett4_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 
@@ -248,7 +248,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
     awardsrep = "LaResistenza;30;ElowenBeckett;119", -- REP REWARD
     awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1", -- ITEM REWARD
-    needsitem = "ScrapMetal;4", -- ITEM REQUEST
+    needsitem = "ScrapMetal;2", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Text",
@@ -1713,17 +1713,11 @@ table.insert(SFQuest_Database.QuestPool, {
         needsitem = "SheetMetal;1",
         onobtained = "updateobjective;Questyno_TomasJoger2;1;Completed;removeitem;SheetMetal;1"
     }, {
-        guid = "Questyno_TomasJoger2_B",
-        text = "IGUI_SFQuest_Questyno_TomasJoger2_B",
-        hidden = false,
-        needsitem = "SmallSheetMetal;2",
-        onobtained = "updateobjective;Questyno_TomasJoger2;2;Completed;removeitem;SmallSheetMetal;2"
-    }, {
         guid = "Questyno_TomasJoger2_C",
         text = "IGUI_SFQuest_Questyno_TomasJoger2_C",
         hidden = false,
-        needsitem = "ScrapMetal;20",
-        onobtained = "updateobjective;Questyno_TomasJoger2;3;Completed;removeitem;ScrapMetal;20"
+        needsitem = "ScrapMetal;1",
+        onobtained = "updateobjective;Questyno_TomasJoger2;3;Completed;removeitem;ScrapMetal;1"
     }},
     text = "IGUI_SFQuest_Questyno_TomasJoger2_Text",
     texture = "media/textures/Item_TomasJoger.png",
@@ -1831,7 +1825,7 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_TomasJoger5_A",
         hidden = false,
         needsitem = "SOMW.LongMetalPipe;2",
-        onobtained = "updateobjective;Questyno_TomasJoger5;1;Completed;removeitem;SOMW.LongMetalPipe;2"
+        onobtained = "updateobjective;Questyno_TomasJoger5;1;Completed;removeitem;SOMW.LongMetalPipe;1"
     }, {
         guid = "Questyno_TomasJoger5_B",
         text = "IGUI_SFQuest_Questyno_TomasJoger5_B",
@@ -1850,7 +1844,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_TomasJoger5_A",
 
     awardsrep = "LaResistenza;90;TomasJoger;14",
-    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger6_Begin;Questyno_TomasJoger6", -- DIALOGUE REWARD
+    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger6_Begin;Questyno_TomasJoger7", -- DIALOGUE REWARD 
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger5_Lore" },
     unlocks = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_TomasJoger5_Complete",
@@ -1860,6 +1854,7 @@ table.insert(SFQuest_Database.QuestPool,{
     unique = true,
 })
 
+-- si salta la 6
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger6",
 
@@ -1957,7 +1952,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger7_B",
 
-    awardsrep = "LaResistenza;100;TomasJoger;114", -- REP REWARD
+    awardsrep = "LaResistenza;250;TomasJoger;114", -- REP REWARD
     awardsitem = "LR.ChiaveBicicletta;1;PynoTweaks.Joint;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger7_Lore" },

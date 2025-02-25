@@ -34,14 +34,14 @@ LaResistenzaTiersTemplate = {
         unlocks = "addreputation;ElowenBeckett;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier4",
-        minrep = 2825,
+        minrep = 2325,
         barcolor = "lightgreen",
-        unlocks = "addreputation;RosaChina;100;addreputation;EmilyTerry;100;addreputation;MikePozzo;100;addreputation;PaigeTurner;100;addreputation;AngelicaStella;100;addreputation;LincolnReed;100"
+        unlocks = "addreputation;RosaChina;100;addreputation;EmilyTerry;100;addreputation;MikePozzo;100;addreputation;PaigeTurner;100;addreputation;AngelicaStella;100;addreputation;LincolnReed;100;addreputation;TomasJoger;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier5",
-        minrep = 17000,
+        minrep = 17500,
         barcolor = "darkgreen",
-        unlocks = "addreputation;PamelaPerez;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;XuMishura;100;addreputation;DavidTurner;100;addreputation;TomasJoger;100"
+        unlocks = "addreputation;PamelaPerez;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;XuMishura;100;addreputation;DavidTurner;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier6",
         minrep = 180000,
