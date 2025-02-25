@@ -1717,7 +1717,7 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_TomasJoger2_C",
         hidden = false,
         needsitem = "ScrapMetal;1",
-        onobtained = "updateobjective;Questyno_TomasJoger2;3;Completed;removeitem;ScrapMetal;1"
+        onobtained = "updateobjective;Questyno_TomasJoger2;2;Completed;removeitem;ScrapMetal;1"
     }},
     text = "IGUI_SFQuest_Questyno_TomasJoger2_Text",
     texture = "media/textures/Item_TomasJoger.png",
