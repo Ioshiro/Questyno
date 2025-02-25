@@ -144,7 +144,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5",
 
-    awardsrep = "LaResistenza;25;EzekielFlynn;119", -- REP REWARD
+    awardsrep = "LaResistenza;45;EzekielFlynn;119", -- REP REWARD
     awardsitem = "Crowbar;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
