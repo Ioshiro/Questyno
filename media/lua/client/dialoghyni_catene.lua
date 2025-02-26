@@ -38,7 +38,7 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_E
 
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_EzekielFlynn5_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_EzekielFlynn5", optional = true, text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Declined",})
 
-table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EzekielFlynn5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EzekielFlynn5", text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Complete", })
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_EzekielFlynn5_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_EzekielFlynn5_A", text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Complete", })
 
 
 --[[

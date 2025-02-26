@@ -168,6 +168,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
     needsitem = "LogStacks4;1", -- ITEM REQUEST
+    onobtained = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Complete",
     text = "IGUI_SFQuest_Questyno_EzekielFlynn5_A_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn5_Title",
