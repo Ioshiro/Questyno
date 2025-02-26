@@ -155,7 +155,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_EzekielFlynn5_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn5_Title",
-    unlocks = "clickevent;4418x6236x0:EventoEzekielFlynn5;anim:loot:time:50;updateobjective:Questyno_EzekielFlynn5:1:Completed",
+    unlocks = "clickevent;9264x8495x0:EventoEzekielFlynn5;anim:loot:time:50;updateobjective:Questyno_EzekielFlynn5:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
