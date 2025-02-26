@@ -5501,8 +5501,8 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_EzekielFlynn5_Begin_Text_Declined = "Peccato.",
     IGUI_SFQuest_Questyno_EzekielFlynn5_Complete = "Bene, ecco a te. Spero che ti darà una mano a difenderti meglio, mi raccomando impugnalo a due mani. Fammi sapere se ti torna utile!",
-    IGUI_SFQuest_Questyno_EzekielFlynn2_A = "Vai da Emily Terry (9264,8495,0)",
-    IGUI_SFQuest_Questyno_EzekielFlynn2_A_Text = "Riporta i Ceppi a Ezekiel",
+    IGUI_SFQuest_Questyno_EzekielFlynn5_A = "Vai da Emily Terry (9264,8495,0)",
+    IGUI_SFQuest_Questyno_EzekielFlynn5_A_Text = "Riporta i Ceppi a Ezekiel",
 
     --[[
                         *** Elowen Beckett ***

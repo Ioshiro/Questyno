@@ -116,7 +116,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn3",
 
     awardsrep = "LaResistenza;15;EzekielFlynn;20", -- REP REWARD
-    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn4_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
+    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn3_Text",
