@@ -3,4 +3,7 @@ ContextMenu_EN = {
     ContextMenu_ClickEvent = "Interact with Quest",
     ContextMenu_WorldEvent_TalkTo2 = "Talk with %1",
     ContextMenu_InvestigateCorpse = "Inspect container (quest)",
+    ContextMenu_TakeReputation = "Redeem Reputation",
+    ContextMenu_ChiaveMacchinyno = "Redeem vehicle",
+    ContextMenu_ChiaveMacchinyno_ToolTip = "Redeem vehicle in perfect condition and with 100 quality engine!",
 }
