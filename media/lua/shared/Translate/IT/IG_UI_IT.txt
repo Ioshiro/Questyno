@@ -5548,11 +5548,11 @@ IGUI_IT = {
 
     IGUI_SFQuest_Questyno_ElowenBeckett4_Title = "Elowen dalla Tana",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Text = "[T2]Uccidi 50 Zombie",
-    IGUI_SFQuest_Questyno_ElowenBeckett4_Lore = "Elowen vuole darmi un sacco a pelo grazie al quale potrò finalmente muovermi meglio nelle aree circostanti.",
+    IGUI_SFQuest_Questyno_ElowenBeckett4_Lore = "Elowen vuole darmi un sacco a pelo grazie al quale potrò finalmente muovermi meglio nelle aree circostanti, ma prima dovrò diventare Nomade.",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text = "Non te la caverai mai se non riuscirai a uccidere quelli un po' più tosti, lontani da qua... vai e fanne fuori altri 50 prima di andare avanti.",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text_Accepted = "Bene! Ti aspetto qua.",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text_Declined = "Peccato.",
-    IGUI_SFQuest_Questyno_ElowenBeckett4_Complete = "Bene, ecco a te. Adesso potrai lasciare la roba di troppo in un posto sicuro...",
+    IGUI_SFQuest_Questyno_ElowenBeckett4_Complete = "Bene, ecco a te. Adesso potrai lasciare la roba di troppo in un posto sicuro... ma prima dovrai diventare Nomade e ottenere la tua carryola, a tal proposito...",
 
     IGUI_SFQuest_Questyno_ElowenBeckett5_Title = "Elowen dalla Tana",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Text = "Recupera 2 Scarti metallici",

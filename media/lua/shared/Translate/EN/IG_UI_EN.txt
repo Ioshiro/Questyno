@@ -5552,7 +5552,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text = "You will never make it if you don't manage to kill the tougher ones, far from here... go and take out another 50 before moving on.",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text_Accepted = "Good! I'll wait for you here.",
     IGUI_SFQuest_Questyno_ElowenBeckett4_Begin_Text_Declined = "Too bad.",
-    IGUI_SFQuest_Questyno_ElowenBeckett4_Complete = "Good, here you go. Now you can leave the excess stuff in a safe place...",
+    IGUI_SFQuest_Questyno_ElowenBeckett4_Complete = "Good, here you go. Now you can leave excess items in a safe place... but first you need to become a Nomad and get your wheelbarrow, by the way...",
 
     IGUI_SFQuest_Questyno_ElowenBeckett5_Title = "Elowen from the Den",
     IGUI_SFQuest_Questyno_ElowenBeckett5_Text = "Retrieve 2 Scrap Metals",
