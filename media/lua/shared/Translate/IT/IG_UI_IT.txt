@@ -2558,7 +2558,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title = "Victoria Secret 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text = "Incontra Victoria Secret [Settimanali]",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore = "Victoria fa parte di un piccolo gruppo a Nord di Muldraugh che si è spostato dalla Tana. Ha bisogno di qualcuno che non le faccia vedere che sta invecchiando male. Dovrei girare dei centri commerciali per recuperarle dei fottuti vestiti! Pazzesco.",
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Oh, finalmente qualcuno con un minimo di senso estetico! Non fare quella faccia… So benissimo che là fuori c'è il caos, ma non è una scusa per sembrare degli straccioni. Il mondo può essere finito, ma lo stile è eterno. Lascia che ti illumini: prima dell'apocalisse, ero una modella. Ma non una qualunque—io ero LA modella. Copertine, passerelle, eventi esclusivi… ora tutto quello che resta sono rovine e sciatti sopravvissuti che si vestono come barboni. Ma io? Io non mi arrendo. L'eleganza è un'arma. L'aspetto conta. Mantiene la mente lucida, impone rispetto. Ed è per questo che ho una missione per te. Là fuori ci sono ancora vestiti di qualità, scarpe degne di essere indossate, trucchi per riportare un po' di vita su questi volti spenti. Portameli. Ma bada bene: non voglio stracci logori o robaccia da supermercato. Io voglio stile, classe, capi con personalità! Dimostrami che hai occhio, e forse potrei insegnarti qualcosa su come presentarti al meglio. Ah, e non nominarmi quella Angelica… Ho già perso abbastanza tempo con lei alla Tana. Si atteggia, si crede raffinata… ma non sarà mai al mio livello. Lo stile non si compra, è innato. Per questo me ne sono andata. Non sopportavo di stare nella stessa tana di un'imitazione scadente. Qui alla fattoria, almeno, nessuno discute la mia superiorità. Quindi, che aspetti? Vai a renderti utile. E non deludermi.",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Oh, finalmente qualcuno con un minimo di potenziale! Dimmi, sai già chi sono o devo fare le presentazioni? Beh, nel dubbio… sono Victoria.Se pensi che l’apocalisse possa cancellare il buon gusto e l’eleganza, mi dispiace per te. Io non mi sono arresa.
+Vedi, una volta ero alla Tana. Non che fosse un posto terribile, ma… diciamo che certe persone rendono la convivenza impossibile. Angelica? Sì, la conosci? Immagino di sì, difficile non notarla. O almeno, difficile che lei non si faccia notare. Non fraintendermi, rispetto la sua missione, anche se il suo stile lascia un po’ a desiderare. Ma io non sopporto la mediocrità, né chi pensa di essere al centro dell’universo. Quindi ho deciso di andarmene.
+Qui almeno posso lavorare con chi apprezza davvero il bello. Non basta un vestito carino per portare speranza, serve gusto, serve classe, serve visione. E io ho tutto questo. Perciò, ho una proposta per te: voglio che tu mi aiuti a recuperare abiti di valore, tessuti pregiati, accessori degni di essere indossati. Non solo per me, ma per chiunque voglia elevarsi al di sopra del grigiore di questa nuova realtà.
+Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macerie, e potrei anche insegnarti qualcosa. Oh, e un consiglio? Se vuoi davvero distinguerti, lascia perdere Angelica. Lei si accontenta di brillare nella polvere, io voglio ricostruire la bellezza dalle sue fondamenta.",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text_Accepted = "Ho bisogno di te per recuperare alcuni vestiti da una boutique. ",
 	
 	IGUI_SFQuest_Questyno_VictoriaSecret1_Title = "Victoria da Muldraugh 10824,9070,1",
@@ -5168,15 +5171,15 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
-	
-	IGUI_SFQuest_Questyno_PamelaPerez26_Title = "Pamela da West Point 10115,6622,0",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Text = "Semi per Pamela",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Lore = "Pamela mi ha chiesto di portargli dei pacchi di semi. Spero di trovarli tutti",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text = "Puoi fare un giro sulla strada e portarmi dei pacchi di semi?",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Accepted = "Ti prego, fai presto",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Declined = "Capisco, alla prossima.",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Complete = "Grazie mille, ci serviranno per la prossima stagione! Ecco a te!",
-	IGUI_SFQuest_Questyno_PamelaPerez26_A_Text = "Porta i Materassi a Pamela",
+
+	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela da West Point 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Text = "Semi per Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Lore = "Pamela mi ha chiesto di portargli dei pacchi di semi. Spero di trovarli tutti",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text = "Puoi fare un giro sulla strada e portarmi dei pacchi di semi?",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Ti prego, fai presto",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "Capisco, alla prossima.",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Grazie mille, ci serviranno per la prossima stagione! Ecco a te!",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Porta i Materassi a Pamela",
 	
 --[[
             *** Sam Fisher ***
