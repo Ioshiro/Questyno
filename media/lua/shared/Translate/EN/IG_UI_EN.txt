@@ -2558,7 +2558,10 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Title = "Victoria Secret 10824,9070,1",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Text = "Meet Victoria Secret [Weeklies]",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Lore = "Victoria is part of a small group north of Muldraugh who moved from the Camp. She needs someone who doesn't make her see that she is aging badly. I should go around shopping centers to retrieve some damn clothes for her! Crazy.",
-    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Oh, finally someone with a minimum of aesthetic sense! Don't make that face... I know very well that there is chaos out there, but it's not an excuse to look like tramps. The world may be over, but style is eternal. Let me enlighten you: before the apocalypse, I was a model. But not just any... I was THE model. Covers, runways, exclusive events... now all that remains are ruins and sloppy survivors who dress like bums. But me? I don't give up. Elegance is a weapon. Appearance matters. It keeps the mind clear, commands respect. And that's why I have a mission for you. Out there there are still quality clothes, shoes worthy of being worn, makeup to bring some life back to these dull faces. Bring them to me. But be careful: I don't want worn rags or supermarket junk. I want style, class, clothes with personality! Show me you have an eye, and maybe I could teach you something about how to present yourself better. Ah, and don't mention that Angelica to me... I've already wasted enough time with her at the Camp. She poses, she thinks she is refined... but she will never be at my level. Style is not bought, it is innate. That's why I left. I couldn't stand being in the same camp as a cheap imitation. Here at the farm, at least, no one disputes my superiority. So, what are you waiting for? Go make yourself useful. And don't disappoint me.",
+    IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text = "Oh, finally someone with a little potential! Do you already know who I am or should I make the introductions? Well, in case you don't know, I'm Victoria. If you think the apocalypse can erase good taste and elegance, I'm sorry for you. I didn't give up.
+You see, I used to be at The Den. It wasn't a terrible place, but some people make coexistence impossible. Angelica? Yes, I'm sure you know her. It's hard not to notice her. Or at least, it's hard for her not to get noticed. I don't mean to be rude, but I respect her mission, even if her style leaves a bit to be desired. But I can't stand mediocrity, nor people who think they're the center of the universe. So, I decided to leave.
+Here, at least I can work with people who truly appreciate beauty. It's not just about wearing a nice dress to bring hope, it takes taste, class, vision. And I have all of that. So, I have a proposal for you: I want you to help me retrieve valuable clothes, precious fabrics, worthy accessories. Not just for me, but for anyone who wants to rise above the dullness of this new reality.
+Show me you have an eye, that you don't just pick up whatever you find in the rubble, and I might even teach you something. Oh, and a tip? If you really want to stand out, forget about Angelica. She's content with shining in the dust, I want to rebuild beauty from its foundations.",
     IGUI_SFQuest_Questyno_VictoriaSecret_Intro_Complete_Text_Accepted = "I need you to retrieve some clothes from a boutique. ",
 
 	IGUI_SFQuest_Questyno_VictoriaSecret1_Title = "Victoria from Muldraugh 10824,9070,1",
@@ -5169,14 +5172,14 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Can you take a walk on the road and bring me as many stones as you can find?",
 
-	IGUI_SFQuest_Questyno_PamelaPerez26_Title = "Pamela from West Point 10115,6622,0",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Text = "Seeds for Pamela",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Lore = "Pamela asked me to bring her packs of seeds. I hope I can find them all",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text = "Can you take a walk on the road and bring me packs of seeds?",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Accepted = "Please, hurry",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Declined = "I understand, next time.",
-    IGUI_SFQuest_Questyno_PamelaPerez26_Complete = "Thank you very much, they will be useful for next season! Here you go!",
-	IGUI_SFQuest_Questyno_PamelaPerez26_A_Text = "Bring the Mattresses to Pamela",
+	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela from West Point 10115,6622,0",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Text = "Seeds for Pamela",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Lore = "Pamela asked me to bring her packs of seeds. I hope I can find them all",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text = "Can you take a walk on the road and bring me packs of seeds?",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Please, hurry",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "I understand, next time.",
+    IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Thank you very much, they will be useful for next season! Here you go!",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Bring the Mattresses to Pamela",
 
 --[[
             *** Sam Fisher ***
