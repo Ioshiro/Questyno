@@ -14,10 +14,8 @@ local function isPartiallyEaten(item)
 end
 
 local function isPoisonFood(item)
-    if item.getPoisonPower then
-        return item:getPoisonPower() > 0
-    end
-    return false
+    local poisonPower = item:getPoisonPower()
+    return poisonPower > 0
 end
 
 local function predicateBigFish(item)
@@ -38,7 +36,7 @@ local function predicateCondition(item, condition)
 end
 
 local function predicateFreshFood(item)
-    if instanceof(item, "Food") then
+    if item:IsFood() then
         if item:getHungChange() < 0 then
             -- Il cibo è mangiabile, controlla se è intero
             return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item)
@@ -50,7 +48,7 @@ local function predicateFreshFood(item)
 end
 
 local function predicateFoodWeight(item, condition)
-	if instanceof(item, "Food") then
+	if item:IsFood() then
         if item:getHungChange() < 0 then
             return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item) and item:getWeight() >= condition
         else
@@ -60,7 +58,7 @@ local function predicateFoodWeight(item, condition)
 end
 
 local function predicateFoodHunger(item, condition)
-	if instanceof(item, "Food") then
+	if item:IsFood() then
         if item:getHungChange() < 0 then
             return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item) and item:getBaseHunger() >= condition
         else
@@ -70,7 +68,7 @@ local function predicateFoodHunger(item, condition)
 end
 
 local function predicateFoodCooked(item)
-    if instanceof(item, "Food") then
+    if item:IsFood() then
         if item:getHungChange() < 0 then
             return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not isPoisonFood(item)
         else
