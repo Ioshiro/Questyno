@@ -34,10 +34,12 @@ local function predicateFreshFood(item)
     if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
             -- Il cibo è mangiabile, controlla se è intero
-            return not isPartiallyEaten(item) and item:isFresh() and not item:getPoisonPower() > 0
+            return not isPartiallyEaten(item) and item:isFresh() and not (item:getPoisonPower() > 0)
+
         else
             -- Il cibo non è mangiabile, controlla solo freschezza e tossicità
-            return item:isFresh() and not item:getPoisonPower() > 0
+            return item:isFresh() and not (item:getPoisonPower() > 0)
+
         end
     end
 end
@@ -45,9 +47,11 @@ end
 local function predicateFoodWeight(item, condition)
 	if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and not item:getPoisonPower() > 0 and item:getWeight() >= condition
+            return not isPartiallyEaten(item) and item:isFresh() and not (item:getPoisonPower() > 0)
+ and item:getWeight() >= condition
         else
-            return item:isFresh() and not item:getPoisonPower() > 0 and item:getWeight() >= condition
+            return item:isFresh() and not (item:getPoisonPower() > 0)
+ and item:getWeight() >= condition
         end
 	end
 end
@@ -55,9 +59,11 @@ end
 local function predicateFoodHunger(item, condition)
 	if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and not item:getPoisonPower() > 0 and item:getBaseHunger() >= condition
+            return not isPartiallyEaten(item) and item:isFresh() and not (item:getPoisonPower() > 0)
+ and item:getBaseHunger() >= condition
         else
-		    return item:isFresh() and not item:getPoisonPower() > 0 and item:getBaseHunger() >= condition
+		    return item:isFresh() and not (item:getPoisonPower() > 0)
+ and item:getBaseHunger() >= condition
         end
 	end
 end
@@ -65,9 +71,11 @@ end
 local function predicateFoodCooked(item)
     if instanceof(item, "Food") then
         if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not item:getPoisonPower() > 0
+            return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not (item:getPoisonPower() > 0)
+
         else
-            return item:isFresh() and item:isCooked() and not item:getPoisonPower() > 0
+            return item:isFresh() and item:isCooked() and not (item:getPoisonPower() > 0)
+
         end
     end
 end
