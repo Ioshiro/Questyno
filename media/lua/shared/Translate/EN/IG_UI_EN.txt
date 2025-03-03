@@ -5179,7 +5179,11 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Please, hurry",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Thank you very much, they will be useful for next season! Here you go!",
-	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Bring the Mattresses to Pamela",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Broccoli Seed Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_B_Text = "Carrot Seed Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_C_Text = "Strawberry Seed Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_D_Text = "Potato Seed Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_E_Text = "Tomato Seed Pack",
 
 --[[
             *** Sam Fisher ***

@@ -5180,7 +5180,11 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Grazie mille, ci serviranno per la prossima stagione! Ecco a te!",
-	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Porta i Materassi a Pamela",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Pacco di semi di Broccoli",
+    IGUI_SFQuest_Questyno_PamelaPerez25_B_Text = "Pacco di semi di Carote",
+    IGUI_SFQuest_Questyno_PamelaPerez25_C_Text = "Pacco di semi di Fragole",
+    IGUI_SFQuest_Questyno_PamelaPerez25_D_Text = "Pacco di semi di Patate",
+    IGUI_SFQuest_Questyno_PamelaPerez25_E_Text = "Pacco di semi di Pomodori",
 	
 --[[
             *** Sam Fisher ***
