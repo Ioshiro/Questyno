@@ -1743,7 +1743,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_JeffreyLewis7_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
     title = "IGUI_SFQuest_Questyno_JeffreyLewis7_Title",
-    unlocks = "clickevent;10611x10363x0:EventoJeffreyLewis7;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis7:1:Completed",
+    unlocks = "clickevent;10070x10706x0:EventoJeffreyLewis7;time:50:anim:loot;updateobjective:Questyno_JeffreyLewis7:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 

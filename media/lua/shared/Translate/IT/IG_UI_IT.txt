@@ -1,4 +1,5 @@
 IGUI_IT = {
+    IGUI_TradingUI_AcceptDeal = "Accetta",
 	IGUI_XP_TaskStatus_Completed = "[COMPL.] ",
 	IGUI_XP_TaskStatus_Obtained = "[OTTEN.] ",
 	IGUI_XP_TaskStatus_Updated = "[AGGIOR.] ",
@@ -4453,12 +4454,12 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
 	IGUI_SFQuest_Questyno_JeffreyLewis7_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Text = "Il prezzo della cultura",
-    IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare alla libreria di Muldraugh (10611,10363,0)",
-    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla libreria di Muldraugh, vai li e portameli!",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe Rivista di elettronica Vol.3, Il giornale dell'agricoltura, Rivista di pesca Vol.2, Rivista di elettronica Vol.2. Dovrei andare a controllare alla chiesa di Heartlake (10070,10706,0)",
+    IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text = "Ci sono dei libri molto speciali che devono assolutamente recuperare, puoi trovarli alla chiesa di Heartlake, vai li e portameli!",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Begin_Text_Declined = "Peccato...",
     IGUI_SFQuest_Questyno_JeffreyLewis7_Complete = "Grazie era proprio quello che mi serviva!",
-	IGUI_SFQuest_Questyno_JeffreyLewis7_A = "Cerca a Mulrdaugh (10611,10363,0)",
+	IGUI_SFQuest_Questyno_JeffreyLewis7_A = "Cerca a Heartlake (10070,10706,0)",
 	IGUI_SFQuest_Questyno_JeffreyLewis7_A_Text = "Prendi i libri per Jeffrey",
     IGUI_SFQuest_Questyno_JeffreyLewis7_B = "Rivista di Elettronica vol.3",
     IGUI_SFQuest_Questyno_JeffreyLewis7_C = "Giornale di Agricoltura",
