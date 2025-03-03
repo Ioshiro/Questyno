@@ -5133,7 +5133,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	
 	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela da West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela l'affamata",
-    IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela mi ha chiesto di cucinarle 2 Pentola di Zuppa e di portargliele. Dice che mi ricompenserà.",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela mi ha chiesto di cucinarle 2 Pentola di Zuppa (4kg) e di portargliele. Dice che mi ricompenserà.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text = "Abbiamo fame, non c'è rimasto molto, ti avanza qualcosa per caso?",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "Capisco, alla prossima.",

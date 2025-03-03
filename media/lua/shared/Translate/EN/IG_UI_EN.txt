@@ -5132,7 +5132,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
 	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela from West Point 10115,6622,0",
     IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela the hungry",
-    IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela asked me to cook her 2 Pots of Soup and bring them to her. She says she will reward me.",
+    IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela asked me to cook her 2 Pots of Soup (4kg) and bring them to her. She says she will reward me.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text = "We are hungry, we don't have much left, do you happen to have something to spare?",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Accepted = "Please, hurry",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "I understand, next time.",
