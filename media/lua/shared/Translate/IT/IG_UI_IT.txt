@@ -4965,7 +4965,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Pamela è la moglie sottomessa di Sam Fisher, mi aspetta sempre alla loro abirazione in cerca di risorse base.",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Oh… non mi aspettavo visite. Non preoccuparti, non disturbi… Io… non parlo molto con gli estranei, ma se sei qui, vuol dire che vuoi aiutare. Il nostro gruppo ha bisogno di tante cose per sopravvivere. Legna, stoffa, strumenti di base… se riesci a recuperarli, sarà un sollievo per tutti noi. Mio marito, Sam, tiene in piedi West Point con la sua pesca. Senza di lui, molti di noi non ce l'avrebbero fatta. È un uomo forte, ha sempre saputo cosa fare… anche se a volte sa essere duro. Molto duro. Ma lo fa per il bene della comunità, per la nostra famiglia. Io e nostra figlia non abbiamo mai conosciuto un mondo diverso da questo, e Sam fa tutto il possibile per tenerci al sicuro. Non posso biasimarlo per questo. La sopravvivenza ci ha cambiati tutti. Alcuni diventano leader, altri semplicemente seguono. Io… ho trovato il mio posto accanto a mio marito. Non è facile, ma è la mia vita. E lui è un uomo buono, anche se non sempre lo dimostra nel modo giusto. Se vuoi aiutare, portami quello che trovi. Ti sarò grata, anche se… preferirei che non parlassimo troppo. Sam non ama che io chiacchieri con gli altri. Non voglio dargli motivo di preoccuparsi.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez1_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez1_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Carota. Dovrei trovarli nei campi agricoli.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text = "Ho bisogno di qualche Seme di Carota, riesci a rimediarlo?",
@@ -4973,7 +4973,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Complete = "Grazie mille, quando saranno cresciuti ti chiamo!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez2_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez2_Lore = "Pamela mi ha chiesto di portarle 24 Semi di Broccoli. Dovrei trovarli nei campi agricoli.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text = "Ho bisogno di qualche Seme di Broccoli, riesci a rimediarlo?",
@@ -4981,7 +4981,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Complete = "Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez3_Text = "più ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez3_Lore = "Pamela mi ha chiesto di portarle 2 cataste da Tre ceppi. Dovrei trovarli nei campi agricoli.",
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
@@ -4989,7 +4989,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez3_Complete = "Grazie poggiali pure li. Questo è per il tuo aiuto.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez4_Text = "più ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez4_Lore = "Pamela mi ha chiesto di portarle 2 cataste da Quattro ceppi. Dovrei abbattere qualche albero con un'ascia.",
     IGUI_SFQuest_Questyno_PamelaPerez4_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
@@ -4998,7 +4998,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez4_Complete = "Grazie poggiali pure li. Questo è per il tuo aiuto.",
 	
 	
-	IGUI_SFQuest_Questyno_PamelaPerez5_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez5_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez5_Text = "più corde di stracci per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez5_Lore = "Pamela mi ha chiesto di portarle 40 Corde di stracci. Dovrei riuscire con qualche vestito che trovo su gli Zombie",
     IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text = "Avremmo bisogno di un po' di corde, riusciresti a rimediarle da qualche vestito?",
@@ -5006,7 +5006,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez5_Complete = "Ottimo, grazie mille!",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez6_Text = "più corde di stracci per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez6_Lore = "Pamela mi ha chiesto di portarle 60 Corde di stracci. chissà cosa deve farci.",
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text = "Avremmo bisogno di un po' di corde, riusciresti a rimediarle da qualche vestito?",
@@ -5014,7 +5014,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez6_Complete = "Ottimo, grazie mille!",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez7_Text = "più rami per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez7_Lore = "Pamela mi ha chiesto di portarle 20 Rami. Dovrei buttare giù qualche cespuglio.",
     IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text = "Riusciresti a procurarmi qualcosa per poter creare delle armi efficaci?",
@@ -5022,7 +5022,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez7_Complete = "Grazie mille, li affileremo a dovere.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez8_Text = "Cavallette per farina",
     IGUI_SFQuest_Questyno_PamelaPerez8_Lore = "Pamela mi ha chiesto di portarle 10 cavallette. Dovrei trovarle nell'erba alta.",
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text = "So che Può sembrare strano ma in mancaza di farina, gli insetti sono un'ottima alternativa. Sono una grande fonte di proteine, per altro! Puoi procurarmi degli insetti per farne un po'?",
@@ -5030,7 +5030,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez8_Complete = "Ottimo, grazie mille!",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez9_Text = "Citronella per medicinali",
     IGUI_SFQuest_Questyno_PamelaPerez9_Lore = "Pamela mi ha chiesto di portarle 10 Citronella. Devo fare un po' di foraggiamento.",
     IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text = "Come te la cavi con le erbe? Sai che posso ricavare diversi medicinali da queste? Credi di poterne recuperare qualcuna per me?",
@@ -5038,7 +5038,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez9_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez10_Text = "I medicinali di Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez10_Lore = "Pamela mi ha chiesto di cercare 10 Salvia Mellifera. Vediamo se ne trovo qualcuna.",
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text = "Come te la cavi con le erbe? Sai che posso ricavare diversi medicinali da queste? Credi di poterne recuperare qualcuna per me?",
@@ -5046,7 +5046,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez10_Complete = "Grazie di cuore, ti faccio vedere cosa puoi fare con questa roba.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez11_Text = "Due pacchi di chiodi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez11_Lore = "Pamela mi ha chiesto di portarle 2 Scatola di chiodi. Le servirà per riparare il tetto della stalla.",
     IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text = "Stiamo cercando di sistemarci. Purtroppo con gli stracci le strutture non sono molto resistenti. Riusciresti a rimediarci dei chiodi?",
@@ -5054,7 +5054,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez11_Complete = "Grazie mille. Questo per il disturbo.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez12_Text = "Ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez12_Lore = "Pamela mi ha chiesto di portarle 5 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci.",
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
@@ -5062,7 +5062,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez12_Complete = "Grazie, ci mettiamo subito al lavoro.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez13_Text = "Ceppi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez13_Lore = "Pamela mi ha chiesto di portarle 4 Cataste da Due Ceppi. Dovrei recuperare delle corde di stracci.",
     IGUI_SFQuest_Questyno_PamelaPerez13_Begin_Text = "Hei, ciao, non vorrei disturbarti troppo ma non è che riusciresti a rimediarci qualche altro ceppo??",
@@ -5071,7 +5071,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez13_Complete = "Grazie, ci mettiamo subito al lavoro. Queste sono per te.",
 	
 	
-	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez14_Text = "Fuoco senza accendino",
     IGUI_SFQuest_Questyno_PamelaPerez14_Lore = "Pamela mi ha chiesto di portarle 50 rametti per insegnarmi ad accendere un fuoco da campo.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text = "Hei ciao! Se mi recuperi un bel po' di rametti ti faccio vedere come possono essere utili per accendere un fuoco.",
@@ -5079,7 +5079,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Complete = "Grazie, guarda, basta sfregare in questo punto.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez15_Text = "I funghi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela mi ha chiesto di recuperare un Fungo particolare. Vediamo se lo trovo nel bosco.",
     IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text = "Riesci a recuperare questo tipo di fungo? Ti ricompenserò con un'ottima spezia!",
@@ -5090,7 +5090,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_PamelaPerez15_B = "Fungo (MushroomGeneric7)",
 	IGUI_SFQuest_Questyno_PamelaPerez15_A_Text = "Parla con Pamela",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez16_Text = "Armi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez16_Lore = "Pamela mi ha chiesto di costruire per lei 4 Asce di pietra, 4 Lance e 4 Coltelli di pietra.",
     IGUI_SFQuest_Questyno_PamelaPerez16_Begin_Text = "Hei, sembri una persona molto pratica, potresti darmi una mano e creare alcune armi per il mio gruppo?",
@@ -5102,7 +5102,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_PamelaPerez16_C = "4 Coltelli di pietra",
 	IGUI_SFQuest_Questyno_PamelaPerez16_A_Text = "Parla con Pamela",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez17_Text = "Pamela la piccola fabbra",
     IGUI_SFQuest_Questyno_PamelaPerez17_Lore = "Pamela mi ha chiesto di portarle 4 Scarti metallici e 1 Asse. Dice che mi costruirà un'arma speciale.",
     IGUI_SFQuest_Questyno_PamelaPerez17_Begin_Text = "Se mi porti un po' di metallo e del legno ti costruirà un'arma molto efficace contro gli zombie. Credi di farcela?",
@@ -5113,7 +5113,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_PamelaPerez17_B = "Asse",
 	IGUI_SFQuest_Questyno_PamelaPerez17_A_Text = "Parla con Pamela",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez18_Text = "più stracci per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez18_Lore = "Pamela mi ha chiesto di portarle 100 stracci per pulire le sue pentole. Non farebbe prima con una spugna?",
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text = "Salve! Ho bisogno del tuo aiuto, riusciresti a recuperarmi degli stracci?",
@@ -5121,7 +5121,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez18_Complete = "Bene, mi servivano per pulire tutte le mie vettovaglie.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez19_Text = "La bambola di Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez19_Lore = "Pamela mi ha chiesto di recuperare la Bambola che sua figlia ha perso quando sono andati a cercare funghi nel bosco a ovest (9504,6857,0).",
     IGUI_SFQuest_Questyno_PamelaPerez19_Begin_Text = "Potresti cercare qualcosa per me nel bosco a ovest? La mia bimba ha perso la sua bambola l'ultima volta che siamo andati a far funghi. La riconoscerai ha un vestitino azzurro e i capelli rossi.",
@@ -5131,7 +5131,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_PamelaPerez19_A = "Cerca nel bosco (9504,6857,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez19_A_Text = "Porta la Bambola a Pamela",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela l'affamata",
     IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela mi ha chiesto di cucinarle 2 Pentola di Zuppa (4kg) e di portargliele. Dice che mi ricompenserà.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text = "Abbiamo fame, non c'è rimasto molto, ti avanza qualcosa per caso?",
@@ -5139,7 +5139,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Complete = "Grazie, te ne siamo infinitamente grati, ecco a te le pentole. Questi non si possono mangiare ma potrebbero farti comodo.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez21_Text = "I materassi di Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez21_Lore = "Pamela mi ha chiesto di recuperare dei Materassi che ha lasciato nel vecchio rifugio nel bosco (10934,8492,0).",
     IGUI_SFQuest_Questyno_PamelaPerez21_Begin_Text = "Comincia a fare freddo, dobbiamo isolarci, potresti andare nel nostro vecchio rifugio nel bosco e recuperare i nostri materassi?",
@@ -5149,7 +5149,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_PamelaPerez21_A = "Cerca nel rifugio (10934,8492,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez21_A_Text = "Porta i Materassi a Pamela",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez22_Text = "Armi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez22_Lore = "Pamela mi ha chiesto di recuperare 8 Asce di pietra. Sono a corto di armi, spero di poterle dare una mano.",
     IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text = "Spero che potrai aiutarci nel procurarci qualche arma! Basta qualcosa di rudimentale.",
@@ -5157,7 +5157,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez22_Complete = "Grazie mille, comincio a buttare giù qualche albero!",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez23_Text = "Armi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez23_Lore = "Pamela mi ha chiesto di recuperare 8 Martelli di pietra. Sono a corto di armi, spero di poterle dare una mano.",
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text = "Spero che potrai aiutarci nel procurarci qualche arma! Basta qualcosa di rudimentale",
@@ -5165,7 +5165,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez23_Complete = "Grazie mille, ora possiamo difenderci! Questi sono per te.",
 	
-	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez24_Text = "Pietre su pietre",
     IGUI_SFQuest_Questyno_PamelaPerez24_Lore = "Pamela mi ha chiesto di recuperare 20 Pietre. Meglio fare un giro sull'asfalto.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
@@ -5173,18 +5173,19 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Puoi fare un giro sulla strada e portarmi quante più pietre riesci a trovare?",
 
-	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela da West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez25_Text = "Semi per Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez25_Lore = "Pamela mi ha chiesto di portargli dei pacchi di semi. Spero di trovarli tutti",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text = "Puoi fare un giro sulla strada e portarmi dei pacchi di semi?",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Ti prego, fai presto",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Grazie mille, ci serviranno per la prossima stagione! Ecco a te!",
-	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Pacco di semi di Broccoli",
-    IGUI_SFQuest_Questyno_PamelaPerez25_B_Text = "Pacco di semi di Carote",
-    IGUI_SFQuest_Questyno_PamelaPerez25_C_Text = "Pacco di semi di Fragole",
-    IGUI_SFQuest_Questyno_PamelaPerez25_D_Text = "Pacco di semi di Patate",
-    IGUI_SFQuest_Questyno_PamelaPerez25_E_Text = "Pacco di semi di Pomodori",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Ritorna da Pamela",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A = "Pacco di semi di Broccoli",
+    IGUI_SFQuest_Questyno_PamelaPerez25_B = "Pacco di semi di Carote",
+    IGUI_SFQuest_Questyno_PamelaPerez25_C = "Pacco di semi di Fragole",
+    IGUI_SFQuest_Questyno_PamelaPerez25_D = "Pacco di semi di Patate",
+    IGUI_SFQuest_Questyno_PamelaPerez25_E = "Pacco di semi di Pomodori",
 	
 --[[
             *** Sam Fisher ***
