@@ -2327,7 +2327,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EmilyTerry2_Complete = "Thank you very much, when they grow up I'll call you! Thank you, take this, come back in a couple of weeks and these that I plant will be ready! ",
 
 	IGUI_SFQuest_Questyno_EmilyTerry3_Title = "Terry from the Camp",
-    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "more logs for Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "More logs for Terry",
     IGUI_SFQuest_Questyno_EmilyTerry3_Lore = "Terry asked me to bring her 2 Stacks of Three Logs. I should retrieve some ripped sheets.",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text = "I see you have nice muscles, could I use them for manual labor?",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text_Accepted = "Thank you for your help",
@@ -2335,7 +2335,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EmilyTerry3_Complete = "Thank you, just put them there. This is for your help.",
 
 	IGUI_SFQuest_Questyno_EmilyTerry4_Title = "Terry from the Camp",
-    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "more logs for Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "More logs for Terry",
     IGUI_SFQuest_Questyno_EmilyTerry4_Lore = "Terry asked me to bring her 2 Stacks of Four Logs. I should retrieve some ripped sheets",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text = "I see you have nice muscles, could I use them for manual labor?",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text_Accepted = "Thank you for your help",
@@ -6556,7 +6556,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
     IGUI_SFQuest_Questyno_GabrielWalker1_Title = "Gabriel from the Den (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker1_Text = "Money for Boost",
-    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel asked me for $10 to reveal the location of a special Drug.",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel asked me for $20 to reveal the location of a special Drug.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text = "I'm sure you'll find a special pill in Greenport. Then let me know if I was wrong!",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted = "Good, good.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Complete = "Good, good. Here's the address for you, check in the kitchen.",
@@ -7265,7 +7265,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
     IGUI_SFQuest_Questyno_TomasJoger2_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger2_Text = "Metal for the bike",
-    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "I have to bring Tomas 1 large sheet metal, 2 small sheet metal and 20 scrap metal.",
+    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "I need to bring Tomas 1 sheet metal and 1 scrap metal.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text = "Okay, listen to me carefully: I don't care how you get it, but I need metal to carry on my project. Yes, you got it, dreams are not enough for the bike I'm building, you need properly processed iron! And keep in mind that this is just the first of five missions I'm going to give you. So, what do we do? Do we get to work or do you go back to where you came from?",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Accepted = "Come on, we're only at the beginning.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Declined = "When it's time to get serious, guys like you always disappear!",
