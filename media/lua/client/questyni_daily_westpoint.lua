@@ -3302,7 +3302,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez15_Lore" },
-    needsitem = "MushroomGeneric5;1",
+    needsitem = "PredicateFreshFood#MushroomGeneric5;1",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez15_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez15_Text",
     texture = "media/textures/Item_PamelaPerez.png",
