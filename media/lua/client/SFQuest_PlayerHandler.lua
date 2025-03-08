@@ -17,7 +17,7 @@ SFQuest_PlayerHandler.startingPlayerStats = {
 	LastDailyCompleted = {},
 };
 
-ImDeath = false
+local imDeath = false
 
 function SFQuest_PlayerHandler.StartPlayer()
 
@@ -50,11 +50,11 @@ function SFQuest_PlayerHandler.StartPlayer()
 		-- here there was the big problem, this fucking line make me crazy because if the player is new but is a player created after death (without closing the game) we have SFQuest_PlayerHandler.startingPlayerStats already fill with data from pre-death and so when we restore it with this line we already restored last backup from the game itself and if we continue inside this function we will produce a lot of bug because we are going to readd FactionPool, DailyEvent eccecc.
 		player:getModData().missionProgress = SFQuest_PlayerHandler.startingPlayerStats;
 
-		-- so after this line we have to check if startngPlayerStats is empty or not (or maybe as a second check if ImDeath is true or not). ImDeath is true when the player died and we didn't close the game.
-		-- ImDeath is false when we enter the game first time and never died. So we never fill the SFQuest_PlayerHandler.startingPlayerStats table.
-		-- ImDeath is true when we die and we create a new player without closing the game. So we already fill the SFQuest_PlayerHandler.startingPlayerStats table.
+		-- so after this line we have to check if startngPlayerStats is empty or not (or maybe as a second check if imDeath is true or not). imDeath is true when the player died and we didn't close the game.
+		-- imDeath is false when we enter the game first time and never died. So we never fill the SFQuest_PlayerHandler.startingPlayerStats table.
+		-- imDeath is true when we die and we create a new player without closing the game. So we already fill the SFQuest_PlayerHandler.startingPlayerStats table.
 
-		if not ImDeath then
+		if not imDeath then
 			-- we enter here only if we DIE and we did close the game (or if is our first time in the server), in this case we have to restore startingPlayerStats from zero and if the player had a backup on server this will be restored. 
 			--inserting factions from Database here
 			local tempFaction = {};
@@ -140,8 +140,9 @@ function SFQuest_PlayerHandler.StartPlayer()
 			player:getModData().missionProgress.LastDailyCompleted = {};
 		end
 	end
-	Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
-	Events.EveryTenMinutes.Remove(SF_MissionPanel.DebugEveryTenMinutes)
+	imDeath = false --in caso si rimuove di nuovo nella stessa partita (due o più volte volte di fila)
+	Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
+	Events.EveryOneMinute.Remove(SF_MissionPanel.DebugEveryTenMinutes)
 	SF_MissionPanel.instance:triggerUpdate();
 	-- check for faction members based on reputation
 	-- local factions = Faction.getFactions()
@@ -184,8 +185,8 @@ end
 
 local function OnPlayerDeath(player)
 	print("zSOUL QUEST SYSTEM - Player " .. player:getUsername() .. " died.")
-	Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutesExpand)
-	Events.EveryTenMinutes.Remove(SF_MissionPanel.DebugEveryTenMinutes)
+	Events.EveryOneMinute.Remove(SF_MissionPanel.EveryTenMinutesExpand)
+	Events.EveryOneMinute.Remove(SF_MissionPanel.DebugEveryTenMinutes)
 	-- if not player:getModData().missionProgress and not player:getModData().missionProgress.ActionEvent then print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - Player has no missionProgress data."); return end;
 	local needUpdate = false;
 	-- for i,v in ipairs(player:getModData().missionProgress.ActionEvent) do
@@ -206,8 +207,8 @@ local function OnPlayerDeath(player)
 	else
 		print("[OnPlayerDeath][DEBUG-KILLZOMBIES] - No need to update backup data.");
 	end
-	-- we set ImDeath to true for create a flag to know that the player died and we're still in the same game session
-	ImDeath = true
+	-- we set imDeath to true for create a flag to know that the player died and we're still in the same game session
+	imDeath = true
 
 end
 
