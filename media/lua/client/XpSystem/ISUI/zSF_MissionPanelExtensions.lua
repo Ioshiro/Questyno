@@ -1,5 +1,6 @@
 require "XpSystem/ISUI/SFQuest_MissionPanel"
--- local ActivityCalendar = require("lib/ActivityCalendar")
+local SFQuest_Utils = require "utils/SFQuest_Utils"
+local SFQuest_Calendar = require("utils/SFQuest_Calendar")
 
 --[[ ]]
 --SF_MissionPanel = SF_MissionPanel
@@ -8,84 +9,6 @@ SF_MissionPanel.Events = {};
 SF_MissionPanel.EventsRegistered = false
 --------------------------------------------------------------------------------------------------------
 -- Local functions, usually used to check certain items' conditions
-
-local function isPartiallyEaten(item)
-    local baseHunger = math.abs(item:getBaseHunger() * 100) + 0.001
-    local hungerChange = math.abs(item:getHungerChange() * 100) + 0.001
-    return hungerChange < baseHunger
-end
-
-local function isPoisonFood(item)
-    local poisonPower = item:getPoisonPower()
-    return poisonPower > 0
-end
-
-local function predicateBigFish(item)
-	local fullname =  item:getName():gsub(" ", "");
-	print("SOUL QUEST SYSTEM - Fish name was: " .. fullname);
-	local nameTable = luautils.split(fullname, "-");
-	if not nameTable[2] then return false end
-	local lengthstr = luautils.split(nameTable[2], "c")[1];
-	print("SOUL QUEST SYSTEM - Fish length was: " .. lengthstr);
-	local length = tonumber(lengthstr);
-	return item:isFresh() and length and length >= 50
-end
-
-local function predicateCondition(item, condition)
-	local percent = condition / 100;
-	local matchcondition = item:getConditionMax() * percent;
-	return instanceof(item, "HandWeapon") and item:getCondition() >= matchcondition
-end
-
-local function predicateFreshFood(item)
-    if item:IsFood() then
-        if item:getHungChange() < 0 then
-            -- Il cibo è mangiabile, controlla se è intero
-            return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item)
-        else
-            -- Il cibo non è mangiabile, controlla solo freschezza e tossicità
-            return item:isFresh() and not isPoisonFood(item)
-        end
-    end
-end
-
-local function predicateFoodWeight(item, condition)
-	if item:IsFood() then
-        if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item) and item:getWeight() >= condition
-        else
-            return item:isFresh() and not isPoisonFood(item) and item:getWeight() >= condition
-        end
-	end
-end
-
-local function predicateFoodHunger(item, condition)
-	if item:IsFood() then
-        if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and not isPoisonFood(item) and item:getBaseHunger() >= condition
-        else
-		    return item:isFresh() and not isPoisonFood(item) and item:getBaseHunger() >= condition
-        end
-	end
-end
-
-local function predicateFoodCooked(item)
-    if item:IsFood() then
-        if item:getHungChange() < 0 then
-            return not isPartiallyEaten(item) and item:isFresh() and item:isCooked() and not isPoisonFood(item)
-        else
-            return item:isFresh() and item:isCooked() and not isPoisonFood(item)
-        end
-    end
-end
-
-local function predicateFullDrainable(item)
-	return item:getUsedDelta() == 1
-end
-
-local function predicateDrainable(item, condition)
-	return item:getUsedDelta() >= condition
-end
 
 function SF_MissionPanel.Events.OnZombieDead(zombie)
     local player = getPlayer()
@@ -484,17 +407,17 @@ end
 --         return
 --     end
     
---     -- Se usiamo ActivityCalendar e days è diverso da 0, potremmo convertirlo
+--     -- Se usiamo SFQuest_Calendar e days è diverso da 0, potremmo convertirlo
 --     -- in un timestamp reale. Ma se days è 0, lo lasciamo come 0 per indicare
 --     -- "disponibile immediatamente"
 --     local initialDays = daily.days
     
 --     -- Opzionale: se vuoi convertire valori di days non-zero in timestamp
 --     if initialDays ~= 0 then
---         local currentTime = ActivityCalendar.getStarTime()
---         ActivityCalendar.setExpectedDateInSecond(currentTime)
---         ActivityCalendar.setWaitingOfDays(initialDays)
---         initialDays = ActivityCalendar.getExpectedDateInSecond()
+--         local currentTime = SFQuest_Calendar.getStarTime()
+--         SFQuest_Calendar.setExpectedDateInSecond(currentTime)
+--         SFQuest_Calendar.setWaitingOfDays(initialDays)
+--         initialDays = SFQuest_Calendar.getExpectedDateInSecond()
 --     end
     
 --     local dailyTable = { 
@@ -924,51 +847,51 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
 	    	carrying = self.player:getInventory():getCountTagRecurse(itemscript);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateBigFish);
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateCondition, predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateFreshFood);	
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);	
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateFullDrainable);
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateDrainable, predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked") then
         	isTag = true;
-        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, predicateFoodCooked);
+        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
         end
     elseif isPredicate then
         if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, predicateBigFish);
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
 
         elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateCondition, predicateValue);
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
 
         elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFreshFood);    
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);    
 
         elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFullDrainable);
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
         elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateDrainable, predicateValue);
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
 
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue);
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
 
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue);
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, predicateFoodCooked);
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
         end
     else
 		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
@@ -1067,7 +990,7 @@ end
 --     end
     
 --     local prog = player:getModData().missionProgress
---     local currentTime = ActivityCalendar.getStarTime()
+--     local currentTime = SFQuest_Calendar.getStarTime()
 --     local eventTable = prog.DailyEvent
     
 --     for d = #eventTable, 1, -1 do
@@ -1090,8 +1013,8 @@ end
 --                 if active < maxed and tier <= playerTier then
 --                     if not prog.WorldEvent or not SF_MissionPanel.instance:hasActiveWorldEventWithCode(dailycode) then
 --                         -- Calcola la data di prossima disponibilità (giorni attuali + frequenza)
---                         ActivityCalendar.setWaitingOfDays(event.frequency)
---                         event.days = ActivityCalendar.getExpectedDateInSecond()
+--                         SFQuest_Calendar.setWaitingOfDays(event.frequency)
+--                         event.days = SFQuest_Calendar.getExpectedDateInSecond()
                         
 --                         SF_MissionPanel.instance.needsBackup = true
 --                         local commandTable = luautils.split(event.commands, ";")
@@ -1331,40 +1254,40 @@ function SF_MissionPanel:takeNeededItem(neededitem)
         if luautils.stringStarts(needsTable[1], "Tag#") then
                 items = player:getInventory():getSomeTagRecurse(itemscript, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateBigFish, quantity);        
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);        
         elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateCondition, predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then    
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFreshFood, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then    
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFullDrainable, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then    
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateDrainable, predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, predicateFoodCooked, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
         end
     elseif isPredicate then
         -- Gestione dei casi senza 'Tag' (solo 'Predicate')
         if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateBigFish, quantity);
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateCondition, predicateValue, quantity);    
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);    
         elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then    
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFreshFood, quantity);    
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);    
         elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then    
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFullDrainable, quantity);
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then    
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateDrainable, predicateValue, quantity);
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodWeight, predicateValue, quantity);
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, predicateFoodHunger, predicateValue, quantity);
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked#") then
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, predicateFoodCooked, quantity);
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
         end
     else
         -- Caso di default (nessun 'Tag' o 'Predicate')

@@ -1,0 +1,294 @@
+--
+--- Created by lele.
+---
+
+---@class ActivityCalendar
+
+local ActivityCalendar = {}
+
+local dataValidator = require("lib/DataValidator")
+local errHandler = require("lib/ErrHandler")
+local month = {
+    Jan = 1, Feb = 2, Mar = 3, Apr = 4, May = 5, Jun = 6,
+    Jul = 7, Aug = 8, Sep = 9, Oct = 10, Nov = 11, Dec = 12
+}
+
+---@type int
+local SECOND_IN_DAY = 86400
+
+---@type double
+local expectedDateInSecond
+
+--- **Get Time In Millis**
+---@return double
+--- - PZCalendar : zombie.util.PZCalendar
+local function getTimeInMillis()
+    return getGameTime():getCalender():getTimeInMillis()
+end
+
+--- **???? DEPRECATED - Work ????**
+--- **Set Time In Millis**
+---@param millisSeconds double
+---@return void
+--- - PZCalendar : zombie.util.PZCalendar
+---@deprecated
+local function setTimeInMillis(millisSeconds)
+    --- **Check if millisSeconds is nil**
+    if not millisSeconds then
+        errHandler.errMsg("setTimeInMillis(millisSeconds)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if millisSeconds is number**
+    elseif dataValidator.isNumber(millisSeconds) then
+        errHandler.errMsg("setTimeInMillis(millisSeconds)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    getGameTime():getCalender():setTimeInMillis(millisSeconds)
+end
+
+--- **Get Time**
+---@return string
+--- - The date retrieved from API is 24 hours behind the digital clock in game
+--- - Format date: Fri Jul 09 09:43:41 CEST 1993
+function ActivityCalendar.getTime()
+    return tostring( getGameTime():getCalender():getTime() )
+end
+
+--- **From seconds to date**
+---@param timestamp double
+---@return string
+--- - "Fri Jul 09 09:43:41 CEST 1993"
+function ActivityCalendar.fromSecondToDate(timestamp)
+    --- **Check if timestamp is nil**
+    if not timestamp then
+        errHandler.errMsg("fromSecondToDate(timestamp)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if timestamp is number**
+    elseif not dataValidator.isNumber(timestamp) then
+        errHandler.errMsg("fromSecondToDate(timestamp)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    local formattedDate = os.date("%a %b %d %H:%M:%S %Z %Y", timestamp)
+    return formattedDate
+end
+
+---  **From millis to date**
+---@param timestamp double
+---@return string
+--- - "Fri Jul 09 09:43:41 CEST 1993"
+function ActivityCalendar.fromMillisToDate(timestamp)
+    --- **Check if timestamp is nil**
+    if not timestamp then
+        errHandler.errMsg("fromMillisToDate(timestamp)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if timestamp is number**
+    elseif not dataValidator.isNumber(timestamp) then
+        errHandler.errMsg("fromMillisToDate(timestamp)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    local millisToSeconds = timestamp * 1000
+    return ActivityCalendar.fromSecondToDate(millisToSeconds)
+end
+
+--- **Extract Date**
+---@param date string
+---@return int
+--- - "Fri Jul 09 09:43:41 CEST 1993"
+function ActivityCalendar.extractDate(date)
+    --- **Check if date is nil**
+    if not date then
+        errHandler.errMsg("extractDate(date)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if date is string**
+    elseif not dataValidator.isString(date) then
+        errHandler.errMsg("extractDate(date)",
+                errHandler.err.IS_NOT_STRING)
+        return nil
+    end
+
+    ---@type table
+    local dateParts = {}
+
+    --- **Extract date**
+    for datePart in date:gmatch("%S+") do
+        table.insert(dateParts, datePart)
+    end
+
+    --- **Extract time**
+    for hour, minute, second in date:gmatch("(%d+):(%d+):(%d+)") do
+        dateParts[7] = hour
+        dateParts[8] = minute
+        dateParts[9] = second
+    end
+
+    --@type table
+    --- - "Fri Jul 09 09:43:41 CEST 1993"
+    local datePartsConverted = {
+        ---@type string
+        day = dateParts[1],
+        ---@type number
+        dayOfWeek = tonumber(dateParts[3]),
+        ---@type string
+        month = dateParts[2],
+        ---@type number
+        monthOfYear = month[dateParts[2]],
+        ---@type string
+        cest = dateParts[5],
+        ---@type number
+        year = tonumber(dateParts[6]),
+        ---@type number
+        hour = tonumber(dateParts[7]),
+        ---@type number
+        min = tonumber(dateParts[8]),
+        ---@type number
+        sec = tonumber(dateParts[9]),
+    }
+
+    --@type table
+    local dateConverted = {
+        ---@type number
+        year = datePartsConverted.year,
+        ---@type number
+        month = datePartsConverted.monthOfYear,
+        ---@type number
+        day = datePartsConverted.dayOfWeek,
+        ---@type number
+        hour = datePartsConverted.hour,
+        ---@type number
+        min = datePartsConverted.min,
+        ---@type number
+        sec = datePartsConverted.sec,
+    }
+
+    return os.time(dateConverted)
+end
+
+--- **Get Seconds From Days**
+---@param days int
+---@return double seconds
+local function getSecondsFromDays(days)
+    --- **Check if days is nil**
+    if not days then
+        errHandler.errMsg("getSecondsFromDays(days)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if days is number**
+    elseif not dataValidator.isNumber(days) then
+        errHandler.errMsg("getSecondsFromDays(days)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    return days * SECOND_IN_DAY
+end
+
+--- **Get Days From Seconds**
+---@param seconds double
+---@return int days
+local function getDaysFromSeconds(seconds)
+    --- **Check if seconds is nil**
+    if not seconds then
+        errHandler.errMsg("getDaysFromSeconds(seconds)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if seconds is number**
+    elseif not dataValidator.isNumber(seconds) then
+        errHandler.errMsg("getDaysFromSeconds(seconds)",
+                errHandler.err.IS_NOT_NUMBER)
+    end
+
+    return seconds / SECOND_IN_DAY
+end
+
+--- **Get Star Time**
+--- - The date retrieved from API is 24 hours behind the digital clock in game, I added 24 hours
+--- - Format date: Fri Jul 09 09:43:41 CEST 1993
+---@return double seconds
+function ActivityCalendar.getStarTime()
+    ---@type string
+    local date = ActivityCalendar.getTime()
+
+    ---@type int
+    --- **I added 24 hours**
+    local dataAdjustment = ActivityCalendar.extractDate(date) + (SECOND_IN_DAY)
+    return dataAdjustment
+end
+
+--- **Set Waiting Days**
+---@param waitingDays int
+---@return void
+function ActivityCalendar.setWaitingOfDays(waitingDays)
+    --- **Check if waitingDays is nil**
+    if not waitingDays then
+        errHandler.errMsg("setWaitingOfDays(waitingDays)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if waitingDays is number**
+    elseif not dataValidator.isNumber(waitingDays) then
+        errHandler.errMsg("setWaitingOfDays(waitingDays)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    expectedDateInSecond = ActivityCalendar.getStarTime() + getSecondsFromDays(waitingDays)
+end
+
+--- **Set Expected Date In Seconds**
+---@param expectedDate double
+---@return void
+function ActivityCalendar.setExpectedDateInSecond(expectedDate)
+    --- **Check if expectedDate is nil**
+    if not expectedDate then
+        errHandler.errMsg("setExpectedDateInSecond(expectedDate)",
+                errHandler.err.IS_NULL)
+        return nil
+
+    --- **Check if expectedDate is number**
+    elseif not dataValidator.isNumber(expectedDate) then
+        errHandler.errMsg("setExpectedDateInSecond(expectedDate)",
+                errHandler.err.IS_NOT_NUMBER)
+        return nil
+    end
+
+    expectedDateInSecond = expectedDate
+end
+
+--- **Get Expected Date In Seconds**
+---@return double expectedDate
+function ActivityCalendar.getExpectedDateInSecond()
+    return expectedDateInSecond
+end
+
+--- **Is Expected Date**
+---@return boolean
+function ActivityCalendar.isExpectedDate()
+    --- **Check if expectedDateInSecond is nil then setWaitingOfDays**
+    if not expectedDateInSecond then
+        ActivityCalendar.setWaitingOfDays(1)
+    end
+
+    --- **Check if the date is correct**
+    if  ActivityCalendar.getStarTime() >= ActivityCalendar.getExpectedDateInSecond() then
+        return true
+    end
+
+    return false
+end
+
+return ActivityCalendar
