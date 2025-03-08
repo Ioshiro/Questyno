@@ -2328,7 +2328,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EmilyTerry2_Complete = "Grazie mille, quando saranno cresciute ti chiamo! Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte! ",
 	
 	IGUI_SFQuest_Questyno_EmilyTerry3_Title = "Terry dalla Tana",
-    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "più ceppi per Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "Più ceppi per Terry",
     IGUI_SFQuest_Questyno_EmilyTerry3_Lore = "Terry mi ha chiesto di portargli 2 Cataste da Tre Ceppi. Dovrei recuperare delle corde di stracci.",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text_Accepted = "Grazie per il tuo aiuto",
@@ -2336,7 +2336,7 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_EmilyTerry3_Complete = "Grazie poggiali pure li. Questo è per il tuo aiuto.",
 	
 	IGUI_SFQuest_Questyno_EmilyTerry4_Title = "Terry dalla Tana",
-    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "più ceppi per Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "Più ceppi per Terry",
     IGUI_SFQuest_Questyno_EmilyTerry4_Lore = "Terry mi ha chiesto di portargli 2 Cataste da Quattro Ceppi. Dovrei recuperare delle corde di stracci",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text = "Vedo che hai dei bei muscoli, potrei sfuttarli per del lavoro manuale?",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text_Accepted = "Grazie per il tuo aiuto",
@@ -6557,7 +6557,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     
     IGUI_SFQuest_Questyno_GabrielWalker1_Title = "Gabriel dalla Tana (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker1_Text = "Soldi per Potenziamento",
-    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel mi ha chiesto 10$ per rivelarmi la posizione di una Droga speciale.",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel mi ha chiesto 20$ per rivelarmi la posizione di una Droga speciale.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text = "Sono certo che troverai una pasticchina speciale a Greenport. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted = "Bene, bene.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Complete = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
@@ -7266,7 +7266,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_TomasJoger2_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger2_Text = "Metallo per la bici",
-    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "Devo portare a Tomas 1 lamiere grandi, 2 lamiere piccole e 20 scarti metallici.",
+    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "Devo portare a Tomas 1 lamiere grande e 1 scarto metallico.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text = "Ok, ascoltami bene: non mi importa come lo procuri, ma ho bisogno di metallo per portare avanti il mio progetto. Sì, hai capito, per la bicicletta che sto costruendo non bastano i sogni, serve ferro lavorato come si deve! E tieni presente che questa è solo la prima di cinque missioni che ti darò. Quindi, che facciamo? Ci mettiamo al lavoro o te ne torni da dove sei venuto?",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Accepted = "Daje che siamo solo all'inizio.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Declined = "Quando c'è da fare sul serio quelli come te spariscono sempre!",

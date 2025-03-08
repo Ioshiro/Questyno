@@ -2327,7 +2327,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EmilyTerry2_Complete = "Thank you very much, when they grow up I'll call you! Thank you, take this, come back in a couple of weeks and these that I plant will be ready! ",
 
 	IGUI_SFQuest_Questyno_EmilyTerry3_Title = "Terry from the Camp",
-    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "more logs for Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry3_Text = "More logs for Terry",
     IGUI_SFQuest_Questyno_EmilyTerry3_Lore = "Terry asked me to bring her 2 Stacks of Three Logs. I should retrieve some ripped sheets.",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text = "I see you have nice muscles, could I use them for manual labor?",
     IGUI_SFQuest_Questyno_EmilyTerry3_Begin_Text_Accepted = "Thank you for your help",
@@ -2335,7 +2335,7 @@ IGUI_EN = {
     IGUI_SFQuest_Questyno_EmilyTerry3_Complete = "Thank you, just put them there. This is for your help.",
 
 	IGUI_SFQuest_Questyno_EmilyTerry4_Title = "Terry from the Camp",
-    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "more logs for Terry",
+    IGUI_SFQuest_Questyno_EmilyTerry4_Text = "More logs for Terry",
     IGUI_SFQuest_Questyno_EmilyTerry4_Lore = "Terry asked me to bring her 2 Stacks of Four Logs. I should retrieve some ripped sheets",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text = "I see you have nice muscles, could I use them for manual labor?",
     IGUI_SFQuest_Questyno_EmilyTerry4_Begin_Text_Accepted = "Thank you for your help",
@@ -4964,7 +4964,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Lore = "Pamela is Sam Fisher's submissive wife, she is always waiting for me at their abode looking for basic resources.",
     IGUI_SFQuest_Questyno_PamelaPerez_Intro_Complete_Text = "Oh… I wasn't expecting visitors. Don't worry, you're not disturbing… I… don't talk much to strangers, but if you're here, it means you want to help. Our group needs many things to survive. Wood, cloth, basic tools… if you can retrieve them, it will be a relief for all of us. My husband, Sam, keeps West Point afloat with his fishing. Without him, many of us wouldn't have made it. He's a strong man, he's always known what to do… even if he can be harsh sometimes. Very harsh. But he does it for the good of the community, for our family. My daughter and I have never known a world different from this, and Sam does everything he can to keep us safe. I can't blame him for that. Survival has changed us all. Some become leaders, others simply follow. I… have found my place next to my husband. It's not easy, but it's my life. And he's a good man, even if he doesn't always show it in the right way. If you want to help, bring me what you find. I will be grateful, even if… I would prefer if we didn't talk too much. Sam doesn't like me chatting with others. I don't want to give him reason to worry.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez1_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez1_Text = "Seeds for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez1_Lore = "Pamela asked me to bring her 24 Carrot Seeds. I should find them in the agricultural fields.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text = "I need some Carrot Seeds, can you get them?",
@@ -4972,7 +4972,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez1_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez1_Complete = "Thank you very much, when they grow I'll call you!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez2_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez2_Text = "Seeds for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez2_Lore = "Pamela asked me to bring her 24 Broccoli Seeds. I should find them in the agricultural fields.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text = "I need some Broccoli Seeds, can you get them?",
@@ -4980,7 +4980,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez2_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez2_Complete = "Thank you, take this, come back in a couple of weeks and these that I plant will be ready!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez3_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez3_Text = "more logs for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez3_Lore = "Pamela asked me to bring her 2 stacks of Three logs. I should find them in the agricultural fields.",
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text = "I see you have nice muscles, could I use them for some manual work?",
@@ -4988,7 +4988,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez3_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez3_Complete = "Thank you, just put them there. This is for your help.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez4_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez4_Text = "more logs for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez4_Lore = "Pamela asked me to bring her 2 stacks of Four logs. I should cut down some trees with an axe.",
     IGUI_SFQuest_Questyno_PamelaPerez4_Begin_Text = "I see you have nice muscles, could I use them for some manual work?",
@@ -4997,7 +4997,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez4_Complete = "Thank you, just put them there. This is for your help.",
 
 
-	IGUI_SFQuest_Questyno_PamelaPerez5_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez5_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez5_Text = "more sheet ropes for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez5_Lore = "Pamela asked me to bring her 40 Sheet Ropes. I should be able to get them with some clothes I find on the Zombies",
     IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text = "We would need some ropes, could you get them from some clothes?",
@@ -5005,7 +5005,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez5_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez5_Complete = "Excellent, thank you very much!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez6_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez6_Text = "more sheet ropes for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez6_Lore = "Pamela asked me to bring her 60 Sheet Ropes. Who knows what she needs them for.",
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text = "We would need some ropes, could you get them from some clothes?",
@@ -5013,7 +5013,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez6_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez6_Complete = "Excellent, thank you very much!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez7_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez7_Text = "more branches for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez7_Lore = "Pamela asked me to bring her 20 Branches. I should cut down some bushes.",
     IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text = "Could you get me something to be able to create effective weapons?",
@@ -5021,7 +5021,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez7_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez7_Complete = "Thank you very much, we will sharpen them properly.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez8_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez8_Text = "Grasshoppers for flour",
     IGUI_SFQuest_Questyno_PamelaPerez8_Lore = "Pamela asked me to bring her 10 grasshoppers. I should find them in tall grass.",
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text = "I know it may seem strange but in the absence of flour, insects are an excellent alternative. They are a great source of protein, by the way! Can you get me some insects to make some?",
@@ -5029,7 +5029,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez8_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez8_Complete = "Excellent, thank you very much!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez9_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez9_Text = "Lemongrass for medicines",
     IGUI_SFQuest_Questyno_PamelaPerez9_Lore = "Pamela asked me to bring her 10 Lemongrass. I have to do some foraging.",
     IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text = "How are you with herbs? Did you know that I can get various medicines from these? Do you think you can retrieve some for me?",
@@ -5037,7 +5037,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez9_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez9_Complete = "Thank you from the bottom of my heart, I'll show you what you can do with this stuff.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez10_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez10_Text = "Pamela's medicines",
     IGUI_SFQuest_Questyno_PamelaPerez10_Lore = "Pamela asked me to look for 10 Black Sage. Let's see if I can find some.",
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text = "How are you with herbs? Did you know that I can get various medicines from these? Do you think you can retrieve some for me?",
@@ -5045,7 +5045,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez10_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez10_Complete = "Thank you from the bottom of my heart, I'll show you what you can do with this stuff.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez11_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez11_Text = "Two packs of nails for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez11_Lore = "Pamela asked me to bring her 2 Boxes of nails. She will need them to repair the roof of the stable.",
     IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text = "We are trying to settle down. Unfortunately, with rags the structures are not very resistant. Could you get us some nails?",
@@ -5053,7 +5053,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez11_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez11_Complete = "Thank you very much. This is for the trouble.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez12_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez12_Text = "Logs for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez12_Lore = "Pamela asked me to bring her 5 Stacks of Two Logs. I should retrieve some sheet ropes.",
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text = "Hey, hi, I wouldn't want to bother you too much but wouldn't you happen to get us some more logs?",
@@ -5061,7 +5061,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez12_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez12_Complete = "Thank you, we're getting right to work.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez13_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez13_Text = "Logs for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez13_Lore = "Pamela asked me to bring her 4 Stacks of Two Logs. I should retrieve some sheet ropes.",
     IGUI_SFQuest_Questyno_PamelaPerez13_Begin_Text = "Hey, hi, I wouldn't want to bother you too much but wouldn't you happen to get us some more logs?",
@@ -5070,7 +5070,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez13_Complete = "Thank you, we're getting right to work. These are for you.",
 
 
-	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez14_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez14_Text = "Fire without a lighter",
     IGUI_SFQuest_Questyno_PamelaPerez14_Lore = "Pamela asked me to bring her 50 twigs to teach me how to light a campfire.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text = "Hey hi! If you get me a lot of twigs I'll show you how they can be useful for lighting a fire.",
@@ -5078,7 +5078,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez14_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez14_Complete = "Thank you, look, just rub in this spot.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez15_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez15_Text = "Mushrooms for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez15_Lore = "Pamela asked me to retrieve a particular Mushroom. Let's see if I can find it in the woods.",
     IGUI_SFQuest_Questyno_PamelaPerez15_Begin_Text = "Can you retrieve this type of mushroom? I will reward you with an excellent spice!",
@@ -5089,7 +5089,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_PamelaPerez15_B = "Mushroom (MushroomGeneric7)",
 	IGUI_SFQuest_Questyno_PamelaPerez15_A_Text = "Talk to Pamela",
 
-	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez16_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez16_Text = "Weapons for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez16_Lore = "Pamela asked me to build for her 4 Stone Axes, 4 Spears and 4 Stone Knives.",
     IGUI_SFQuest_Questyno_PamelaPerez16_Begin_Text = "Hey, you seem like a very practical person, could you give me a hand and create some weapons for my group?",
@@ -5101,7 +5101,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_PamelaPerez16_C = "4 Stone Knives",
 	IGUI_SFQuest_Questyno_PamelaPerez16_A_Text = "Talk to Pamela",
 
-	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez17_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez17_Text = "Pamela the little blacksmith",
     IGUI_SFQuest_Questyno_PamelaPerez17_Lore = "Pamela asked me to bring her 4 Scrap Metals and 1 Plank. She says she will build me a special weapon.",
     IGUI_SFQuest_Questyno_PamelaPerez17_Begin_Text = "If you bring me some metal and wood I will build you a very effective weapon against zombies. Do you think you can do it?",
@@ -5112,7 +5112,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_PamelaPerez17_B = "Plank",
 	IGUI_SFQuest_Questyno_PamelaPerez17_A_Text = "Talk to Pamela",
 
-	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez18_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez18_Text = "more rags for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez18_Lore = "Pamela asked me to bring her 100 rags to clean her pots. Wouldn't she be faster with a sponge?",
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text = "Hello! I need your help, could you retrieve some rags for me?",
@@ -5120,7 +5120,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez18_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez18_Complete = "Good, I needed them to clean all my supplies.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez19_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez19_Text = "Pamela's doll",
     IGUI_SFQuest_Questyno_PamelaPerez19_Lore = "Pamela asked me to retrieve the Doll that her daughter lost when they went mushroom hunting in the woods to the west (9504,6857,0).",
     IGUI_SFQuest_Questyno_PamelaPerez19_Begin_Text = "Could you look for something for me in the woods to the west? My little girl lost her doll last time we went mushroom hunting. You will recognize her, she has a light blue dress and red hair.",
@@ -5130,7 +5130,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_PamelaPerez19_A = "Search in the woods (9504,6857,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez19_A_Text = "Bring the Doll to Pamela",
 
-	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez20_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez20_Text = "Pamela the hungry",
     IGUI_SFQuest_Questyno_PamelaPerez20_Lore = "Pamela asked me to cook her 2 Pots of Soup (4kg) and bring them to her. She says she will reward me.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text = "We are hungry, we don't have much left, do you happen to have something to spare?",
@@ -5138,7 +5138,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez20_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez20_Complete = "Thank you, we are infinitely grateful, here are the pots. These cannot be eaten but they might come in handy.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez21_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez21_Text = "Pamela's mattresses",
     IGUI_SFQuest_Questyno_PamelaPerez21_Lore = "Pamela asked me to retrieve the Mattresses she left in the old shelter in the woods (10934,8492,0).",
     IGUI_SFQuest_Questyno_PamelaPerez21_Begin_Text = "It's starting to get cold, we need to insulate ourselves, could you go to our old shelter in the woods and retrieve our mattresses?",
@@ -5148,7 +5148,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_PamelaPerez21_A = "Search in the shelter (10934,8492,0)",
 	IGUI_SFQuest_Questyno_PamelaPerez21_A_Text = "Bring the Mattresses to Pamela",
 
-	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez22_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez22_Text = "Weapons for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez22_Lore = "Pamela asked me to retrieve 8 Stone Axes. They are short on weapons, I hope I can help her.",
     IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text = "I hope you can help us in getting some weapons! Something rudimentary is enough.",
@@ -5156,7 +5156,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez22_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez22_Complete = "Thank you very much, I'm starting to cut down some trees!",
 
-	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez23_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez23_Text = "Weapons for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez23_Lore = "Pamela asked me to retrieve 8 Stone Hammers. They are short on weapons, I hope I can help her.",
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text = "I hope you can help us in getting some weapons! Something rudimentary is enough",
@@ -5164,7 +5164,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez23_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez23_Complete = "Thank you very much, now we can defend ourselves! These are for you.",
 
-	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez24_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez24_Text = "Stones upon stones",
     IGUI_SFQuest_Questyno_PamelaPerez24_Lore = "Pamela asked me to retrieve 20 Stones. Better to take a walk on the asphalt.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text = "Can you take a walk on the road and bring me as many stones as you can find?",
@@ -5172,18 +5172,19 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
     IGUI_SFQuest_Questyno_PamelaPerez24_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez24_Complete = "Can you take a walk on the road and bring me as many stones as you can find?",
 
-	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela from West Point 10115,6622,0",
+	IGUI_SFQuest_Questyno_PamelaPerez25_Title = "Pamela Perez",
     IGUI_SFQuest_Questyno_PamelaPerez25_Text = "Seeds for Pamela",
     IGUI_SFQuest_Questyno_PamelaPerez25_Lore = "Pamela asked me to bring her packs of seeds. I hope I can find them all",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text = "Can you take a walk on the road and bring me packs of seeds?",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted = "Please, hurry",
     IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined = "I understand, next time.",
     IGUI_SFQuest_Questyno_PamelaPerez25_Complete = "Thank you very much, they will be useful for next season! Here you go!",
-	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Broccoli Seed Pack",
-    IGUI_SFQuest_Questyno_PamelaPerez25_B_Text = "Carrot Seed Pack",
-    IGUI_SFQuest_Questyno_PamelaPerez25_C_Text = "Strawberry Seed Pack",
-    IGUI_SFQuest_Questyno_PamelaPerez25_D_Text = "Potato Seed Pack",
-    IGUI_SFQuest_Questyno_PamelaPerez25_E_Text = "Tomato Seed Pack",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A_Text = "Return to Pamela",
+	IGUI_SFQuest_Questyno_PamelaPerez25_A = "Broccoli Seeds Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_B = "Carrot Seeds Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_C = "Strawberry Seeds Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_D = "Potato Seeds Pack",
+    IGUI_SFQuest_Questyno_PamelaPerez25_E = "Tomato Seeds Pack",
 
 --[[
             *** Sam Fisher ***
@@ -6555,7 +6556,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
     IGUI_SFQuest_Questyno_GabrielWalker1_Title = "Gabriel from the Den (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker1_Text = "Money for Boost",
-    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel asked me for $10 to reveal the location of a special Drug.",
+    IGUI_SFQuest_Questyno_GabrielWalker1_Lore = "Gabriel asked me for $20 to reveal the location of a special Drug.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text = "I'm sure you'll find a special pill in Greenport. Then let me know if I was wrong!",
     IGUI_SFQuest_Questyno_GabrielWalker1_Begin_Text_Accepted = "Good, good.",
     IGUI_SFQuest_Questyno_GabrielWalker1_Complete = "Good, good. Here's the address for you, check in the kitchen.",
@@ -7264,7 +7265,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
     IGUI_SFQuest_Questyno_TomasJoger2_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger2_Text = "Metal for the bike",
-    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "I have to bring Tomas 1 large sheet metal, 2 small sheet metal and 20 scrap metal.",
+    IGUI_SFQuest_Questyno_TomasJoger2_Lore = "I need to bring Tomas 1 sheet metal and 1 scrap metal.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text = "Okay, listen to me carefully: I don't care how you get it, but I need metal to carry on my project. Yes, you got it, dreams are not enough for the bike I'm building, you need properly processed iron! And keep in mind that this is just the first of five missions I'm going to give you. So, what do we do? Do we get to work or do you go back to where you came from?",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Accepted = "Come on, we're only at the beginning.",
     IGUI_SFQuest_Questyno_TomasJoger2_Begin_Text_Declined = "When it's time to get serious, guys like you always disappear!",
