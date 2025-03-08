@@ -1,4 +1,6 @@
 require "XpSystem/ISUI/SFQuest_MissionPanel"
+-- local ActivityCalendar = require("lib/ActivityCalendar")
+
 --[[ ]]
 --SF_MissionPanel = SF_MissionPanel
 SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
@@ -129,6 +131,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                     table.remove(actionevent, i)
                 end
                 SF_MissionPanel.instance.needsBackup = true
+                SF_MissionPanel.instance:triggerUpdate() --temp
             end
         end
     end
@@ -221,6 +224,12 @@ function SF_MissionPanel.Commands.unlockworldevent(identity, dialoguecode, quest
 	local worldevent = SF_MissionPanel.instance:getWorldInfo(identity);
 	local squaretag = worldevent.square;
 	local event = {identity = identity, dialoguecode = dialoguecode, quest = questid, dailycode = dailycode};
+
+    --if already exists a worldevent in that square then remove it
+    if player:getModData().missionProgress.WorldEvent[squaretag] then
+        SF_MissionPanel.instance:removeWorldEvent(squaretag);
+    end
+
 	player:getModData().missionProgress.WorldEvent[squaretag] = event;
 	
 	local squareTable = luautils.split(squaretag, "x");
@@ -276,7 +285,7 @@ function SF_MissionPanel.Commands.removeclickevent(address)
 	end
 end
 
--- super funzione per rimuovere coattamente una quest e tutte le relative sottofunzioni aggiunte (se presenti)
+-- super funzione per rimuovere coattamente una quest e tutte le relative sottofunzioni aggiunte (se presenti) - WIP
 function SF_MissionPanel.Commands.removequest(questid)
     local player = getPlayer();
     local currentTasks = player:getModData().missionProgress.Category2
@@ -435,7 +444,7 @@ function SF_MissionPanel.Commands.removequest(questid)
         end
     end   
     if done then
-    SF_MissionPanel.instance.needsUpdate = true
+    SF_MissionPanel.instance:triggerUpdate()
     SF_MissionPanel.instance.needsBackup = true;
     end
 end
@@ -466,6 +475,39 @@ function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1
     end
 	SF_MissionPanel.instance:runCommand("unlockworldevent", randompick[1], randompick[2], randompick[3], dailycode)
 end
+
+-- WIP
+-- function SF_MissionPanel.Commands.unlockdaily(daily)
+--     local player = getPlayer();
+--     if not player:getModData().missionProgress.DailyEvent then
+--         print("SOUL QUEST SYSTEM - " .. player:getUsername() .. " did not have a proper Daily Event table set.");
+--         return
+--     end
+    
+--     -- Se usiamo ActivityCalendar e days è diverso da 0, potremmo convertirlo
+--     -- in un timestamp reale. Ma se days è 0, lo lasciamo come 0 per indicare
+--     -- "disponibile immediatamente"
+--     local initialDays = daily.days
+    
+--     -- Opzionale: se vuoi convertire valori di days non-zero in timestamp
+--     if initialDays ~= 0 then
+--         local currentTime = ActivityCalendar.getStarTime()
+--         ActivityCalendar.setExpectedDateInSecond(currentTime)
+--         ActivityCalendar.setWaitingOfDays(initialDays)
+--         initialDays = ActivityCalendar.getExpectedDateInSecond()
+--     end
+    
+--     local dailyTable = { 
+--         dailycode = daily.dailycode, 
+--         condition = daily.condition, 
+--         commands = daily.commands, 
+--         days = initialDays,
+--         frequency = daily.frequency 
+--     };
+    
+--     table.insert(player:getModData().missionProgress.DailyEvent, dailyTable);
+--     SF_MissionPanel.instance.needsBackup = true;
+-- end
 
 function SF_MissionPanel:checkDefaults()
     if not self.player:getModData().missionProgress then return end
@@ -599,109 +641,160 @@ function SF_MissionPanel:readCommandTable(commandTable, questName)
 end
 
 local base_SF_MissionPanel_checkQuestForCompletionByType = SF_MissionPanel.checkQuestForCompletionByType;
+
 function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
     print("zSOUL QUEST SYSTEM - checkQuestForCompletionByType triggered")
-    if false then
-        base_SF_MissionPanel_checkQuestForCompletionByType(self, type, entry, newStatus);
-    end
+    
+    -- Se si vuole usare la funzione base, decommentare questa riga
+    -- base_SF_MissionPanel_checkQuestForCompletionByType(self, type, entry, newStatus);
+    
     local status = newStatus or "Obtained";
-
-    if self.player:getModData().missionProgress and self.player:getModData().missionProgress.Category2 then
-        local currentTasks = self.player:getModData().missionProgress.Category2
-        local done = false
-        if #currentTasks > 0 then
-            for i = 1, #currentTasks do
-                local task = currentTasks[i];
-                -- If there is no item script then it is a generic check for all possible items.
-                if entry == nil then
-                    if type == "item" and task.needsitem then
-                        local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(task.needsitem)
-                        if quantitycheck then
-                            if task.status == status then --faccio un controllo per assicurarmi che se è già Obtained allora non risblocca "onbtained"
-                                self.needsUpdate = false
-                            else
-                                task.status = status;
-                                self.needsUpdate = true
-                                -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " e' stato ottenuto", 0, 255, 0, 250)
-                                local questName = getText(task.text)
-                                local message = getText("IGUI_SFQuest_Questyno_Completed", questName)
-                                self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
-                                if status == "Obtained" and task.onobtained then
-                                    local commandTable = luautils.split(task.onobtained, ";");
-                                    SF_MissionPanel.instance:readCommandTable(commandTable, task.text); -- passiamo anche il text/nome della quest per il messaggio di completamento/ottenimento e viceversa
-                                end
-                            end
-                            if status == "Completed" then
-                                local guid = task.guid;
-                                SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
-								if task.ondone then
-									local commandTable = luautils.split(task.ondone, ";");
-									SF_MissionPanel.instance:readCommandTable(commandTable);
-								end
-                            end
-                        else 
-                            -- se perdiamo l'oggetto o l'oggetto cambia stato e non è più valido ripristina la quest a non completabile "status nil"
-							if task.status == "Obtained" and task.onobtained then
-								local onObtainedTable = luautils.split(task.onobtained, ";");
-                                if #onObtainedTable > 0 then
-                                    for j = 1, #onObtainedTable do
-                                        if onObtainedTable[j] == "unlockworldevent" then
-                                            local condition = onObtainedTable[j+2]
-                                            if self.player:getModData().missionProgress.WorldEvent then
-                                                for k, v in pairs(self.player:getModData().missionProgress.WorldEvent) do
-                                                    if v.dialoguecode == condition then
-                                                        if self.player:getModData().missionProgress.WorldEvent[k].marker then
-                                                            self.player:getModData().missionProgress.WorldEvent[k].marker:remove();
-                                                        end
-                                                        self.player:getModData().missionProgress.WorldEvent[k] = nil
-                                                        task.status = nil
-                                                        local questName = getText(task.text)
-                                                        -- getPlayer():setHaloNote(needsTable[2] .. " X " .. needsTable[1] .. " non e' piu' valido", 255, 0, 0, 250)
-                                                        local message = getText("IGUI_SFQuest_Questyno_NotCompleted", questName)
-                                                        self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
-                                                        self.needsBackup = true
-                                                        self.needsUpdate = true
-                                                        break;
-                                                    end
-                                                end
-                                            end
-                                        end
-                                    end
-                                end
-							end
-						end
-                    end
-                    if type == "item" and task.objectives and #task.objectives > 0 then
-                        for o = 1, #task.objectives do
-                            local objective = task.objectives[o];
-                            if objective.needsitem and objective.status ~= "Completed" then
-                                local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(objective.needsitem);
-                                if quantitycheck then
-                                    local guid = task.guid;
-                                    SF_MissionPanel.instance:updateObjective(guid, o, status)
-                                    self.needsUpdate = true
-                                end
-                            end
+    
+    -- Verifico se esiste il progresso delle missioni
+    if not self.player:getModData().missionProgress or not self.player:getModData().missionProgress.Category2 then
+        return
+    end
+    
+    local currentTasks = self.player:getModData().missionProgress.Category2
+    if #currentTasks == 0 then
+        return
+    end
+    
+    -- Funzione per processare obiettivi
+    local function processObjectives(task)
+        if not task.objectives or #task.objectives == 0 then
+            return
+        end
+        
+        for o = 1, #task.objectives do
+            local objective = task.objectives[o];
+            if objective.needsitem and objective.status ~= "Completed" then
+                local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(objective.needsitem);
+                if quantitycheck then
+                    local guid = task.guid;
+                    SF_MissionPanel.instance:updateObjective(guid, o, status)
+                    SF_MissionPanel.instance:triggerUpdate()
+                end
+            end
+        end
+    end
+    
+    -- Funzione per gestire gli eventi mondiali quando un oggetto non è più valido
+    local function handleWorldEvent(task)
+        if task.status ~= "Obtained" or not task.onobtained then
+            return
+        end
+        
+        local onObtainedTable = luautils.split(task.onobtained, ";");
+        if #onObtainedTable == 0 then
+            return
+        end
+        
+        for j = 1, #onObtainedTable do
+            if onObtainedTable[j] == "unlockworldevent" then
+                local condition = onObtainedTable[j+2]
+                if not self.player:getModData().missionProgress.WorldEvent then
+                    return
+                end
+                
+                for k, v in pairs(self.player:getModData().missionProgress.WorldEvent) do
+                    if v.dialoguecode == condition then
+                        -- Rimuovo il marker se esiste
+                        if self.player:getModData().missionProgress.WorldEvent[k].marker then
+                            self.player:getModData().missionProgress.WorldEvent[k].marker:remove();
                         end
+                        
+                        -- Rimuovo l'evento e resetto lo stato della missione
+                        self.player:getModData().missionProgress.WorldEvent[k] = nil
+                        task.status = nil
+                        
+                        -- Notifico il giocatore
+                        local questName = getText(task.text)
+                        local message = getText("IGUI_SFQuest_Questyno_NotCompleted", questName)
+                        self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+                        
+                        self.needsBackup = true
+                        SF_MissionPanel.instance:triggerUpdate()
+                        break;
                     end
+                end
+            end
+        end
+    end
+    
+    -- Funzione per gestire l'ottenimento di un oggetto
+    local function handleItemObtained(task)
+        if task.status ~= status then
+            task.status = status;
+            SF_MissionPanel.instance:triggerUpdate()
+            
+            -- Notifico il giocatore
+            local questName = getText(task.text)
+            local message = getText("IGUI_SFQuest_Questyno_Completed", questName)
+            self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+            
+            -- Eseguo azioni post-ottenimento
+            if status == "Obtained" and task.onobtained then
+                local commandTable = luautils.split(task.onobtained, ";");
+                SF_MissionPanel.instance:readCommandTable(commandTable, task.text);
+            end
+        end
+        
+        -- Gestisco il completamento della missione
+        if status == "Completed" then
+            local guid = task.guid;
+            SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
+            if task.ondone then
+                local commandTable = luautils.split(task.ondone, ";");
+                SF_MissionPanel.instance:readCommandTable(commandTable);
+            end
+        end
+    end
+    
+    -- Gestisco la ricerca generica per tutti gli oggetti
+    if not entry then
+        for i = 1, #currentTasks do
+            local task = currentTasks[i];
+            
+            if type == "item" and task.needsitem then
+                local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(task.needsitem)
+                
+                if quantitycheck then
+                    handleItemObtained(task)
                 else
-                    if type == "item" and task.needsitem then
-                        local needsTable = luautils.split(task.needsitem, ";");
-                        local itemscript = needsTable[1];
-                        local quantity = tonumber(needsTable[2]) or 1;
-                        local isTag;
-                        if luautils.stringStarts(needsTable[1], "Tag") or luautils.stringStarts(needsTable[1], "Predicate") then
-                            itemscript = luautils.split(itemscript, "#")[2];
-                            isTag = true;
-                        end
-                        if itemscript == entry then
-                            task.status = status;
-                            self.needsUpdate = true
-                            if status == "Completed" then
-                                local guid = task.guid;
-                                SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
-                            end
-                        end
+                    -- Se l'oggetto non è più valido, resetto la missione
+                    handleWorldEvent(task)
+                end
+            end
+            
+            -- Controllo gli obiettivi della missione
+            if type == "item" and task.objectives then
+                processObjectives(task)
+            end
+        end
+    else
+        -- Gestisco la ricerca per un oggetto specifico
+        for i = 1, #currentTasks do
+            local task = currentTasks[i];
+            
+            if type == "item" and task.needsitem then
+                local needsTable = luautils.split(task.needsitem, ";");
+                local itemscript = needsTable[1];
+                local quantity = tonumber(needsTable[2]) or 1;
+                local isTag = false;
+                
+                if luautils.stringStarts(needsTable[1], "Tag") or luautils.stringStarts(needsTable[1], "Predicate") then
+                    itemscript = luautils.split(itemscript, "#")[2];
+                    isTag = true;
+                end
+                
+                if itemscript == entry then
+                    task.status = status;
+                    SF_MissionPanel.instance:triggerUpdate()
+                    
+                    if status == "Completed" then
+                        local guid = task.guid;
+                        SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
                     end
                 end
             end
@@ -710,45 +803,83 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
 end
 
 function SF_MissionPanel:checkTaskForCompletion(guid)
-	local player = self.player or getPlayer();
-	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
-		local currentTasks = player:getModData().missionProgress.Category2
-		local done = false
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i];
-				if task.guid and task.guid == guid then
-					local completed = true;
-					local deliveryindex;
-					if task.objectives and #task.objectives > 0 then
-						for o=1,#task.objectives do
-							local objective = task.objectives[o];
-							if not objective.status then
-								completed = false;	
-							elseif objective.needsitem ~= nil and not objective.status == "Completed" then
-								completed = false;
-							elseif objective.blockscompletion == true and not objective.status == "Completed" then
-								completed = false;
-							elseif objective.deliverysquare then
-								deliveryindex = o;
-							end
-						end
-					end
-					if completed == true and task.onobjectivescompleted then
-						local commandsTable = luautils.split(task.onobjectivescompleted, ";");
-						SF_MissionPanel.instance:readCommandTable(commandsTable);
-					end
-					if completed == true and not task.needsreport then
-						if deliveryindex then
-							player:getModData().missionProgress.Category2[i].objectives[deliveryindex].status = "Completed";
-						end
-						SF_MissionPanel:completeQuest(player, guid);
-					end
-					break
-				end
-			end
-		end
-	end
+    local player = self.player or getPlayer();
+    
+    -- Verifica se esistono dati di missione
+    if not player:getModData().missionProgress or not player:getModData().missionProgress.Category2 then
+        return
+    end
+    
+    local currentTasks = player:getModData().missionProgress.Category2
+    if #currentTasks == 0 then
+        return
+    end
+    
+    -- Trova la missione con il GUID specificato
+    local taskIndex = nil
+    for i = 1, #currentTasks do
+        if currentTasks[i].guid and currentTasks[i].guid == guid then
+            taskIndex = i
+            break
+        end
+    end
+    
+    -- Se non troviamo la missione, usciamo
+    if not taskIndex then
+        return
+    end
+    
+    local task = currentTasks[taskIndex]
+    
+    -- Funzione per verificare se tutti gli obiettivi sono completati
+    local function areObjectivesCompleted(objectives)
+        if not objectives or #objectives == 0 then
+            return true, nil
+        end
+        
+        local allCompleted = true
+        local deliveryIndex = nil
+        
+        for o = 1, #objectives do
+            local objective = objectives[o]
+            
+            -- Un obiettivo senza stato non è completo
+            if not objective.status then
+                allCompleted = false
+            -- Un obiettivo con needsitem non è completo se non è "Completed"
+            elseif objective.needsitem ~= nil and objective.status ~= "Completed" then
+                allCompleted = false
+            -- Un obiettivo che blocca il completamento non è completo se non è "Completed"
+            elseif objective.blockscompletion == true and objective.status ~= "Completed" then
+                allCompleted = false
+            -- Salvare l'indice dell'obiettivo di consegna se presente
+            elseif objective.deliverysquare then
+                deliveryIndex = o
+            end
+        end
+        
+        return allCompleted, deliveryIndex
+    end
+    
+    -- Verifica se gli obiettivi sono completi
+    local completed, deliveryIndex = areObjectivesCompleted(task.objectives)
+    
+    -- Esegui comandi se gli obiettivi sono completati
+    if completed and task.onobjectivescompleted then
+        local commandsTable = luautils.split(task.onobjectivescompleted, ";")
+        SF_MissionPanel.instance:readCommandTable(commandsTable)
+    end
+    
+    -- Completa la missione se gli obiettivi sono completati e non serve una segnalazione
+    if completed and not task.needsreport then
+        -- Se c'è un obiettivo di consegna, imposta il suo stato come "Completed"
+        if deliveryIndex then
+            player:getModData().missionProgress.Category2[taskIndex].objectives[deliveryIndex].status = "Completed"
+        end
+        
+        -- Completa la missione
+        SF_MissionPanel:completeQuest(player, guid)
+    end
 end
 
 function SF_MissionPanel:updateFrequency(dailycode, frequency)
@@ -758,9 +889,9 @@ function SF_MissionPanel:updateFrequency(dailycode, frequency)
             if v.dailycode == dailycode then
                 v.frequency = frequency
                 self.needsBackup = true
-                self.needsUpdate = true
+                SF_MissionPanel.instance:triggerUpdate()
+                break
             end
-            break
         end
     end
 end  
@@ -877,34 +1008,102 @@ function SF_MissionPanel.Commands.randomcodedworldfrompool(dailycode, tablename1
 end
 
 function SF_MissionPanel:updateQuestStatus(guid, status)
-	local player = self.player or getPlayer();
-	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
-		local currentTasks = player:getModData().missionProgress.Category2
-		local done = false
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i]
-				if task.guid and task.guid == guid then
-					task.status = status;
-					if status == "Failed" and task.onfailed then
-						local commandTable = luautils.split(task.onfailed, ";");
-						SF_MissionPanel.instance:readCommandTable(commandTable);
-					elseif status == "Completed" and task.ondone then	
-						local commandTable = luautils.split(task.ondone, ";");
-						SF_MissionPanel.instance:readCommandTable(commandTable);
-					elseif status == "Obtained" and task.onobtained then	
-						local commandTable = luautils.split(task.onobtained, ";");
-						SF_MissionPanel.instance:readCommandTable(commandTable);							
-					end			
-					self.needsUpdate = true;
-					self.needsBackup = true;			
-				end
-			end
-		end
-	end
+    local player = self.player or getPlayer();
+    
+    -- Verifica se esistono dati di missione
+    if not player:getModData().missionProgress or not player:getModData().missionProgress.Category2 then
+        return
+    end
+    
+    local currentTasks = player:getModData().missionProgress.Category2
+    if #currentTasks == 0 then
+        return
+    end
+    
+    -- Funzione per eseguire i comandi in base allo stato
+    local function executeStatusCommands(task, status)
+        local commandProperty = nil
+        
+        if status == "Failed" and task.onfailed then
+            commandProperty = task.onfailed
+        elseif status == "Completed" and task.ondone then
+            commandProperty = task.ondone
+        elseif status == "Obtained" and task.onobtained then
+            commandProperty = task.onobtained
+        end
+        
+        if commandProperty then
+            local commandTable = luautils.split(commandProperty, ";")
+            SF_MissionPanel.instance:readCommandTable(commandTable)
+        end
+    end
+    
+    -- Cerca la missione con il GUID specificato
+    for i = 1, #currentTasks do
+        local task = currentTasks[i]
+        if task.guid and task.guid == guid then
+            -- Aggiorna lo stato della missione
+            task.status = status
+            
+            -- Esegui eventuali comandi basati sul nuovo stato
+            executeStatusCommands(task, status)
+            
+            -- Imposta i flag di aggiornamento e backup
+            SF_MissionPanel.instance:triggerUpdate()
+            self.needsBackup = true
+            
+            -- Esci dal ciclo dopo aver trovato e aggiornato la missione
+            break
+        end
+    end
 end
 
-function SF_MissionPanel.DailyEventRerollExpand()
+-- WIP
+-- function SF_MissionPanel.DailyEventRerollExpand()
+--     local player = getPlayer()
+--     if not player:getModData().missionProgress or not player:getModData().missionProgress.DailyEvent or 
+--        #player:getModData().missionProgress.DailyEvent == 0 then
+--         return
+--     end
+    
+--     local prog = player:getModData().missionProgress
+--     local currentTime = ActivityCalendar.getStarTime()
+--     local eventTable = prog.DailyEvent
+    
+--     for d = #eventTable, 1, -1 do
+--         local event = eventTable[d]
+--         if not event.days then event.days = 0 end
+        
+--         -- Verifica se è tempo di attivare l'evento
+--         local canActivate = (event.days == 0) or (currentTime >= event.days)
+        
+--         if canActivate and event.condition then
+--             local conditionTable = luautils.split(event.condition, ";")
+--             if conditionTable[1] == "notmaxedwithcode" and conditionTable[4] == "hasfactiontier" then
+--                 local dailycode = conditionTable[2]
+--                 local maxed = tonumber(conditionTable[3])
+--                 local active = SF_MissionPanel.instance:countActiveQuestsWithCode(dailycode)
+--                 local faction = conditionTable[5]
+--                 local tier = tonumber(conditionTable[6])
+--                 local playerTier = SF_MissionPanel.instance:getReputationTier(faction, player)
+                
+--                 if active < maxed and tier <= playerTier then
+--                     if not prog.WorldEvent or not SF_MissionPanel.instance:hasActiveWorldEventWithCode(dailycode) then
+--                         -- Calcola la data di prossima disponibilità (giorni attuali + frequenza)
+--                         ActivityCalendar.setWaitingOfDays(event.frequency)
+--                         event.days = ActivityCalendar.getExpectedDateInSecond()
+                        
+--                         SF_MissionPanel.instance.needsBackup = true
+--                         local commandTable = luautils.split(event.commands, ";")
+--                         SF_MissionPanel.instance:readCommandTable(commandTable)
+--                     end
+--                 end
+--             end
+--         end
+--     end
+-- end
+
+function SF_MissionPanel.DailyEventRerollExpand() -- da riscrivere con activity calendar lib di Lele xD 
     local player = getPlayer();
     if not player:getModData().missionProgress then return end
     local prog = player:getModData().missionProgress
@@ -1013,7 +1212,7 @@ function SF_MissionPanel.EveryTenMinutesExpand()
 			if timers[i].timer and timers[i].timer < ageHours then
 				if timers[i].command == "unlockQuest" then
 					if timers[i].category then
-						SF_MissionPanel.instance:addTaskToCategory(timers[i].guid, category, timers[i].sound);
+						SF_MissionPanel.instance:addTaskToCategory(timers[i].guid, timers[i].category, timers[i].sound);
 					else
 						SF_MissionPanel.instance:unlockQuest(timers[i].guid, timers[i].sound);
 					end
@@ -1213,34 +1412,45 @@ function SF_MissionPanel:takeNeededItem(neededitem)
 end
 
 function SF_MissionPanel:updateObjective(guid, index, status)
-	local player = self.player or getPlayer();
-	if player:getModData().missionProgress and player:getModData().missionProgress.Category2 then
-		local currentTasks = player:getModData().missionProgress.Category2
-		local done = false
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i]
-				if task.guid and task.guid == guid then -- error qui qualche volta
-					if task.objectives and  task.objectives[index] then
-						task.objectives[index].status = status;
-						if status == "Failed" and task.objectives[index].onfailed then
-							local commandTable = luautils.split(task.objectives[index].onfailed, ";");
-							SF_MissionPanel.instance:readCommandTable(commandTable);
-						elseif status == "Completed" and task.objectives[index].oncompleted then	
-							local commandTable = luautils.split(task.objectives[index].oncompleted, ";");
-							SF_MissionPanel.instance:readCommandTable(commandTable);
-						elseif status == "Obtained" and task.objectives[index].onobtained then	
-							local commandTable = luautils.split(task.objectives[index].onobtained, ";");
-							SF_MissionPanel.instance:readCommandTable(commandTable, task.text);
-						end
-						SF_MissionPanel:checkTaskForCompletion(guid)
-						self.needsUpdate = true;
-						self.needsBackup = true;
-					end
-				end
-			end
-		end
-	end
+    local player = self.player or getPlayer()
+    if not player:getModData().missionProgress.Category2 then return end
+
+    local currentTasks = player:getModData().missionProgress.Category2
+
+    -- Iterazione inversa con indici numerici
+    for i = #currentTasks, 1, -1 do
+        local task = currentTasks[i]
+        if task then
+            -- Controllo validità del GUID
+            if not task.guid then
+                print("Task senza GUID all'indice: " .. i)
+            elseif task.guid == guid then
+                -- Processo solo gli obiettivi validi
+                if task.objectives and task.objectives[index] then
+                    task.objectives[index].status = status
+                    
+                    -- Esecuzione comandi
+                    local commands = 
+                        (status == "Failed" and task.objectives[index].onfailed) or
+                        (status == "Completed" and task.objectives[index].oncompleted) or
+                        (status == "Obtained" and task.objectives[index].onobtained)
+                    
+                    if commands then
+                        local commandTable = luautils.split(commands, ";")
+                        self:readCommandTable(commandTable, task.text)
+                    end
+                    
+                    -- Aggiornamento stato missione
+                    self:checkTaskForCompletion(guid)
+                    SF_MissionPanel.instance:triggerUpdate()
+                    self.needsBackup = true
+                end
+                return -- Esco dopo aver trovato il task
+            end
+        else
+            print("Task nullo all'indice: " .. i)
+        end
+    end
 end
 
 
@@ -1310,8 +1520,8 @@ function SF_MissionPanel:removeReputation(faction, value)
 					end
 				end
 			end
-			SF_MissionPanel.instance.needsUpdate = true;
-			SF_MissionPanel.instance.needsBackup = true;	
+			SF_MissionPanel.instance:triggerUpdate();
+			SF_MissionPanel.instance.needsBackup = true;
 		end
 	end
 end
@@ -1439,7 +1649,7 @@ function SF_MissionPanel:completeQuest(player, guid)
                         print("Daily Event Reroll triggered");
                     end
 					done = true;
-					self.needsUpdate = true
+					SF_MissionPanel.instance:triggerUpdate()
 					break
 				end
 			end
@@ -1539,7 +1749,7 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
             -- si potrebbe pensare di mettere un checkQuestForCompletionByType check qui allo sblocco della quest per fixare il problema anche dell'addItem
             SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
             
-	    	SF_MissionPanel.instance.needsUpdate = true;
+	    	SF_MissionPanel.instance:triggerUpdate();
 	    	SF_MissionPanel.instance.needsBackup = true;
 	    	return
 	    else
