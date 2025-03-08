@@ -2808,7 +2808,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee_Intro_Lore = "La Dottoressa Susan ha bisogno di me per recuperare dei medicinali. Non posso deluderla. Sono certo che dandole una mano riusciremo ad avere meno perdite. La trovo sempre alla fattoria a Nord di Muldraugh",
     IGUI_SFQuest_Questyno_SusanLee_Intro_Complete_Text = "Ah, finalmente un volto nuovo. Sono Susan Lee, la dottoressa qui alla Tana. Se sei venuto per vedere se ci sono miracoli in grado di curare questa follia, temo di deluderti. Ma se sei disposto ad aiutare, possiamo fare qualcosa. Abbiamo bisogno di medicinali, disinfettanti, bende… tutto quello che può tenerci in vita un altro giorno. E sì, ti chiederò spesso di scendere per cercare ciò che ci serve. Non sono la tipica persona che si preoccupa solo di sopravvivere; credo che, in un mondo come questo, dobbiamo fare di più. Dobbiamo espanderci, cercare altri sopravvissuti. Noi siamo nati in questo caos, e ci siamo adattati. Però, anche nel disastro, non è mai stato giusto arrendersi senza cercare di fare qualcosa di più. Ciò che voglio dire è che qui, non si tratta solo di curare le ferite. Bisogna avere uno scopo più grande. Siamo cresciuti insieme, con George, con la consapevolezza che dovevamo costruire una vita dentro questo disastro. Ora, tocca a noi fare lo stesso per chi può essere ancora là fuori. So che non è facile, ma non possiamo fermarci. Abbiamo bisogno di tutti, e se vuoi davvero aiutare, preparati ad affrontare qualcosa di più di semplici ferite. Dunque, che ne dici? Sei pronto a fare qualcosa che conti davvero?",
 	
-	IGUI_SFQuest_Questyno_SusanLee1_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee1_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee1_Text = "Gli antibiotici per Susan",
     IGUI_SFQuest_Questyno_SusanLee1_Lore = "La dr. Susan mi ha chiesto di recuperare degli antibiotici nella clinica di Muldraugh (10875,10028,0). Spero di trovarli.",
     IGUI_SFQuest_Questyno_SusanLee1_Begin_Text = "La vita di molte persone dipende da te. Vai alla Clinica di Muldraugh  e recupera i medicinali.",
@@ -2818,7 +2818,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee1_A = "Cerca a Muldraugh (10875,10028,0)",
 	IGUI_SFQuest_Questyno_SusanLee1_A_Text = "Porta gli antibiotici a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee2_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee2_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee2_Text = "Le siringhe per Susan",
     IGUI_SFQuest_Questyno_SusanLee2_Lore = "La dr. Susan mi ha chiesto di recuperare delle siringhe nella clinca di Westwood (7683,11515,0). Spero di trovarli.",
     IGUI_SFQuest_Questyno_SusanLee2_Begin_Text = "La vita di molte persone dipende da te. Vai alla Clinica di Westwood e recupera i medicinali.",
@@ -2828,7 +2828,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee2_A = "Cerca a Westwood (7683,11515,0)",
 	IGUI_SFQuest_Questyno_SusanLee2_A_Text = "Porta le siringhe a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee3_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee3_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee3_Text = "Le siringhe per Susan",
     IGUI_SFQuest_Questyno_SusanLee3_Lore = "La dr. Susan mi ha chiesto di recuperare delle siringhe nella clinca di PitStop (9463,11239,0). Spero di trovarli.",
     IGUI_SFQuest_Questyno_SusanLee3_Begin_Text = "La vita di molte persone dipende da te. Vai alla Clinica di PitStop e recupera i medicinali.",
@@ -2838,7 +2838,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee3_A = "Cerca a PitStop (9463,11239,0)",
 	IGUI_SFQuest_Questyno_SusanLee3_A_Text = "Porta le siringhe a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee4_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee4_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee4_Text = "I sonniferi per Susan",
     IGUI_SFQuest_Questyno_SusanLee4_Lore = "La dr. Susan mi ha chiesto di recuperare dei sonniferi nella clinca di Rosewood (8087,11524,0). Spero di trovarli.",
     IGUI_SFQuest_Questyno_SusanLee4_Begin_Text = "La vita di molte persone dipende da te. Vai alla Clinica di Rosewood e recupera i medicinali.",
@@ -2848,7 +2848,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee4_A = "Cerca a Rosewood (8087,11524,0)",
 	IGUI_SFQuest_Questyno_SusanLee4_A_Text = "Porta i sonniferi a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee5_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee5_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee5_Text = "Le vitamine per Susan",
     IGUI_SFQuest_Questyno_SusanLee5_Lore = "La dr. Susan mi ha chiesto di recuperare delle vitamine nella clinica di West Point (11939,6795,0). Spero di trovarle.",
     IGUI_SFQuest_Questyno_SusanLee5_Begin_Text = "Dobbiamo essere più attenti al prossimo. Vai alla Clinica di West Point e recupera i medicinali.",
@@ -2858,7 +2858,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee5_A = "Cerca a West Point (11939,6795,0)",
 	IGUI_SFQuest_Questyno_SusanLee5_A_Text = "Porta le vitamine a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee6_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee6_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee6_Text = "Una steccatura per Susan",
     IGUI_SFQuest_Questyno_SusanLee6_Lore = "La dr. Susan mi ha chiesto di recuperare  una Steccatura utile a far guarire delle frature alla gamba. Mi bastano dei bastoni robusti e degli stracci.",
     IGUI_SFQuest_Questyno_SusanLee6_Begin_Text = "Dobbiamo essere più attenti al prossimo. Mark si è rotto una gamba e ha bisogno di una steccatura, riesci a farmene una velocemente?",
@@ -2866,7 +2866,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee6_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee6_Complete = "Grazie mille!",
 	
-	IGUI_SFQuest_Questyno_SusanLee7_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee7_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee7_Text = "Antibiotici per Susan",
     IGUI_SFQuest_Questyno_SusanLee7_Lore = "La dr. Susan mi ha chiesto di recuperare degli antibiotici. Speriamo me ne sia rimasto qualcuno.",
     IGUI_SFQuest_Questyno_SusanLee7_Begin_Text = "Silvia non smette di delirare, ha bisogno di far abbassare la febbre, riesci a trovarmi degli antibiotici?",
@@ -2874,7 +2874,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee7_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee7_Complete = "Grazie mille!",
 	
-	IGUI_SFQuest_Questyno_SusanLee8_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee8_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee8_Text = "Stracci su stracci, sterilizzati",
     IGUI_SFQuest_Questyno_SusanLee8_Lore = "La dr. Susan mi ha chiesto di recuperare 50 Stracci sterilizzati. Mi basterà trovare qualche vestito e bollire dell'acqua.",
     IGUI_SFQuest_Questyno_SusanLee8_Begin_Text = "Oggi è stata una carneficina abbiamo decine di feriti, ti prego di sterilizzare più stracci possibile immediatamente!",
@@ -2882,7 +2882,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee8_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee8_Complete = "Grazie mille!",
 	
-	IGUI_SFQuest_Questyno_SusanLee9_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee9_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee9_Text = "Una siringa per Susan",
     IGUI_SFQuest_Questyno_SusanLee9_Lore = "La dr. Susan mi ha chiesto di 1 Siringa. Vediamo se me ne avanza qualcuna.",
     IGUI_SFQuest_Questyno_SusanLee9_Begin_Text = "Oggi è stata una carneficina abbiamo decine di feriti, ti prego di portarmi più Siringhe possibile, immediatamente!",
@@ -2891,7 +2891,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee9_Complete = "Grazie, ci tornerà molto utile!",
 	
 	
-	IGUI_SFQuest_Questyno_SusanLee13_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee13_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee13_Text = "Gli strumenti del mestiere",
     IGUI_SFQuest_Questyno_SusanLee13_Lore = "La dr. Susan mi ha chiesto di recuperare degli strumenti nella farmacia di Westwood (7713,11429,0). Spero di trovarlo.",
     IGUI_SFQuest_Questyno_SusanLee13_Begin_Text = "Ci mancano gli strumenti basi per poter lavorare. Riesci a recuperare degli aghi da sutura dalla farmacia a Westwood? ",
@@ -2901,7 +2901,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee13_A = "Cerca a Westwood (7713,11429,0)",
 	IGUI_SFQuest_Questyno_SusanLee13_A_Text = "Porta gli strumenti a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee14_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee14_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee14_Text = "Aghi da sutura per Susan",
     IGUI_SFQuest_Questyno_SusanLee14_Lore = "La dr. Susan mi ha chiesto di recuperare degli aghi da sutura alla clinica di Westwood (7681,11518,0). Spero di trovarli.",
     IGUI_SFQuest_Questyno_SusanLee14_Begin_Text = "Ci mancano gli strumenti basi per poter lavorare. Riesci a recuperare degli aghi da sutura dalla Clinica a Westwood?",
@@ -2911,7 +2911,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee14_A = "Cerca a Westwood (7681,11518,0)",
 	IGUI_SFQuest_Questyno_SusanLee14_A_Text = "Porta gli aghi a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee15_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee15_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee15_Text = "Dolori alla schiena",
     IGUI_SFQuest_Questyno_SusanLee15_Lore = "La dr. Susan mi ha chiesto di recuperare un corsetto medico a casa del suo amico ad Utopia (7298,9618,1). Spero di trovarlo.",
     IGUI_SFQuest_Questyno_SusanLee15_Begin_Text = "La gente soffre di forti dolori alla schiena, avremmo bisogno di alcuni Corsetti Medici, riesci a recuperarne uno? Un mio amico lo usava, abitava ad Utopia, non credo gli serva più purtroppo.",
@@ -2921,7 +2921,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee15_A = "Cerca a Utopia (7298,9618,1)",
 	IGUI_SFQuest_Questyno_SusanLee15_A_Text = "Porta il corsetto a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee16_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee16_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee16_Text = "Una via di fuga dalla realtà",
     IGUI_SFQuest_Questyno_SusanLee16_Lore = "La dr. Susan mi ha chiesto di recuperare Degli antidepressivi nel magazzino a Muldraugh (10673,9819,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee16_Begin_Text = "Qui la gente sta impazzendo, non è solo un problema di ferite sanguinanti. Vai nel Magazzino di Muldraugh e recupera tutti gli antidepressivi che trovi.",
@@ -2931,7 +2931,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee16_A = "Cerca a Muldraugh (10673,9819,0)",
 	IGUI_SFQuest_Questyno_SusanLee16_A_Text = "Porta gli antidepressivi a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee17_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee17_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee17_Text = "Una via di fuga dalla realtà",
     IGUI_SFQuest_Questyno_SusanLee17_Lore = "La dr. Susan mi ha chiesto di recuperare degli antidepressivi nella farmacia a Rosewood Nord (8211,10887,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee17_Begin_Text = "Qui la gente sta impazzendo, non è solo un problema di ferite sanguinanti. Vai nel Magazzino di Rosewood Nord e recupera tutti gli antidepressivi che trovi.",
@@ -2941,7 +2941,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee17_A = "Cerca a Rosewood (8211,10887,0)",
 	IGUI_SFQuest_Questyno_SusanLee17_A_Text = "Porta gli antidepressivi a Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee18_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee18_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee18_Text = "Medicinali per Susan",
     IGUI_SFQuest_Questyno_SusanLee18_Lore = "La dr. Susan mi ha chiesto di recuperare dei medicinali nella clinica a New Ekron (7244,8373,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee18_Begin_Text = "Ho bisogno di più medicinali, ne troverai alcuni alla clinica di New Erkon.",
@@ -2956,7 +2956,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee18_E = "Antidolorifici",
 	IGUI_SFQuest_Questyno_SusanLee18_B_Text = "Torna da Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee19_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee19_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee19_Text = "Medicinali per Susan",
     IGUI_SFQuest_Questyno_SusanLee19_Lore = "La dr. Susan mi ha chiesto di recuperare dei medicinali nella clinica di Heartlake. Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee19_Begin_Text = "Ho bisogno di più medicinali, ne troverai alcuni alla clinica di Heartlake.",
@@ -2969,7 +2969,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee19_C = "2 Salviette con alcol",
 	IGUI_SFQuest_Questyno_SusanLee19_B_Text = "Torna da Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee20_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee20_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee20_Text = "Medicinali per Susan",
     IGUI_SFQuest_Questyno_SusanLee20_Lore = "La dr. Susan mi ha chiesto di recuperare dei medicinali nella clinica a Orchiwood (8236,9760,0). Spero di trovarne abbastanza.",
     IGUI_SFQuest_Questyno_SusanLee20_Begin_Text = "Ho bisogno di più medicinali, ne troverai alcuni alla clinica di Orchiwood.",
@@ -2982,7 +2982,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_SusanLee20_C = "Bottiglia di Disinfettante",
 	IGUI_SFQuest_Questyno_SusanLee20_B_Text = "Torna da Susan",
 	
-	IGUI_SFQuest_Questyno_SusanLee21_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee21_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee21_Text = "Poltiglie per Susan",
     IGUI_SFQuest_Questyno_SusanLee21_Lore = "La dr. Susan mi ha chiesto di portarle una Poltiglia di piantaggine. Dovrei riuscire a crearla con un Mortaio e pestello.",
     IGUI_SFQuest_Questyno_SusanLee21_Begin_Text = "Purtroppo alcuni pazienti sono allergici ad alcuni medicinali. Riesci a recuperarmi una Poltiglia di Piantaggine?",
@@ -2990,7 +2990,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee21_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee21_Complete = "Grazie mille!",
 	
-	IGUI_SFQuest_Questyno_SusanLee22_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee22_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee22_Text = "La citronella per Susan",
     IGUI_SFQuest_Questyno_SusanLee22_Lore = "La dr. Susan mi ha chiesto di portarle dell Citronella. Dovrei poterne trovare un po' nel bosco.",
     IGUI_SFQuest_Questyno_SusanLee22_Begin_Text = "Purtroppo alcuni pazienti sono allergici ad alcuni medicinali. Riesci a recuperarmi una un po' di citronella? ",
@@ -2998,7 +2998,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_SusanLee22_Begin_Text_Declined = "Peccato, era molto importante.",
     IGUI_SFQuest_Questyno_SusanLee22_Complete = "Grazie mille!",
 	
-	IGUI_SFQuest_Questyno_SusanLee23_Title = "Dr. Susan da Muldarugh",
+	IGUI_SFQuest_Questyno_SusanLee23_Title = "Dr. Susan Lee",
     IGUI_SFQuest_Questyno_SusanLee23_Text = "più letti per Susan",
     IGUI_SFQuest_Questyno_SusanLee23_Lore = "Susan vorrebbe dei letti per i suoi pazienti. Dice che ne troverò alcuni a Utopia (7341,9725,1)",
     IGUI_SFQuest_Questyno_SusanLee23_Begin_Text = "Abbiamo bisogno di più letti, puoi trovarne molti a Utopia.",

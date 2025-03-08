@@ -1881,7 +1881,7 @@ table.insert(SFQuest_Database.QuestPool, {
     dailycode = "Questyno_JeffreyLewis",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis9_Lore" },
-    needsitem = "Base.TVMagazine;50",
+    needsitem = "Base.TVMagazine;5",
     onobtained = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis9_Complete",
     text = "IGUI_SFQuest_Questyno_JeffreyLewis9_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
