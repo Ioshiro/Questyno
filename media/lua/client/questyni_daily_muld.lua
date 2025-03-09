@@ -2048,19 +2048,19 @@ local scottQuest15 = {
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_A",
         hidden = false,
         needsitem = "Shoes_RedTrainers;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;1;Completed;removeitem;Shoes_RedTrainers;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15;1;Completed;removeitem;Shoes_RedTrainers;1"
     },{
         guid = "Questyno_GeorgeScott15_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_B",
         hidden = false,
         needsitem = "Trousers_JeanBaggy;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;2;Completed;removeitem;Trousers_JeanBaggy;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15;2;Completed;removeitem;Trousers_JeanBaggy;1"
     }, {
         guid = "Questyno_GeorgeScott15_C",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_C",
         hidden = false,
         needsitem = "Skirt_Long;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15_A;3;Completed;removeitem;Skirt_Long;1"
+        onobtained = "updateobjective;Questyno_GeorgeScott15;3;Completed;removeitem;Skirt_Long;1"
     } },
     text = "IGUI_SFQuest_Questyno_GeorgeScott15_Text",
     texture = "media/textures/Item_GeorgeScott.png",
