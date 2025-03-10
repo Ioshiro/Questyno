@@ -6646,13 +6646,13 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_GabrielWalker9_Title = "Gabriel dalla Tana (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker9_Text = "Soldi per Potenziamento",
     IGUI_SFQuest_Questyno_GabrielWalker9_Lore = "Gabriel mi ha chiesto 30$ per rivelarmi la posizione di una Droga speciale.",
-    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "Sono certo che troverai una pasticchina speciale a Trelai. Poi fammi sapere se mi sbagliavo!",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "Sono certo che troverai una pasticchina speciale a Wellsburg Lake. Poi fammi sapere se mi sbagliavo!",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Accepted = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker9_Complete = "Bene, bene. Ecco a te l'indirizzo, controlla in cucina.",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Declined = "Non sai cosa ti perdi amico!",
-	IGUI_SFQuest_Questyno_GabrielWalker9_A = "Cerca a Trelai (7651x10397x0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A = "Cerca a Wellsburg Lake (7651,10397,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker9_A_Text = "Prendi la pasticchina in cucina",
-	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "Dovrei trovarla in cucina in una casa a Trelai (7651x10397x0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "Dovrei trovarla in cucina in una casa a Wellsburg Lake (7651,10397,0)",
   
 --[[
             *** Dylan Harris ***
