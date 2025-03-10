@@ -3336,8 +3336,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_XuMishura27_A",
         text = "IGUI_SFQuest_Questyno_XuMishura27_A",
         hidden = false,
-        needsitem = "Skirt_long;1",
-        onobtained = "updateobjective;Questyno_XuMishura27;1;Completed;removeitem;Skirt_long;1"
+        needsitem = "Skirt_Long;1",
+        onobtained = "updateobjective;Questyno_XuMishura27;1;Completed;removeitem;Skirt_Long;1"
     }, {
         guid = "Questyno_XuMishura27_B",
         text = "IGUI_SFQuest_Questyno_XuMishura27_B",
