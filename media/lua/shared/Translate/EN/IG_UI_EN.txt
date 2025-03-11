@@ -4622,7 +4622,7 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
 	IGUI_SFQuest_Questyno_JeffreyLewis20_Title = "Jeffrey from West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Text = "Nostalgic Jeffrey",
-    IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey asked me to bring him 5 Magazines for nostalgia for the time that has passed.",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey asked me to bring him 30 Magazines for nostalgia for the time that has passed.",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text = "I like to browse through old Magazines, they immerse me in a world that is now gone, if you find any, bring them to me?",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Accepted = "I'll wait for you here",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Declined = "Too bad...",
@@ -6645,13 +6645,13 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 	IGUI_SFQuest_Questyno_GabrielWalker9_Title = "Gabriel from the Den (9295,8580,0)",
     IGUI_SFQuest_Questyno_GabrielWalker9_Text = "Money for Boost",
     IGUI_SFQuest_Questyno_GabrielWalker9_Lore = "Gabriel asked me for $30 to reveal the location of a special Drug.",
-    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "I'm sure you'll find a special pill in Trelai. Then let me know if I was wrong!",
+    IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text = "I'm sure you'll find a special pill in Wellsburg Lake. Then let me know if I was wrong!",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Accepted = "Good, good. Here's the address for you, check in the kitchen.",
     IGUI_SFQuest_Questyno_GabrielWalker9_Complete = "Good, good. Here's the address for you, check in the kitchen.",
     IGUI_SFQuest_Questyno_GabrielWalker9_Begin_Text_Declined = "You don't know what you're missing friend!",
-	IGUI_SFQuest_Questyno_GabrielWalker9_A = "Search in Trelai (7651x10397x0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A = "Search in Wellsburg Lake (7651,10397,0)",
 	IGUI_SFQuest_Questyno_GabrielWalker9_A_Text = "Take the pill in the kitchen",
-	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "I should find it in the kitchen in a house in Trelai (7651x10397x0)",
+	IGUI_SFQuest_Questyno_GabrielWalker9_A_Lore = "I should find it in the kitchen in a house in Wellsburg Lake (7651,10397,0)",
 
 --[[
             *** Dylan Harris ***
