@@ -1075,7 +1075,7 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_HeatherThomas13_Title = "Heather dalla Tana",
     IGUI_SFQuest_Questyno_HeatherThomas13_Text = "Le esche preferite di Heather",
-    IGUI_SFQuest_Questyno_HeatherThomas13_Lore = "Heather mi ha chiesto di cercare 5 Vermi, una Carota e 2 Patate per le sue trappole. Vediamo cosa mi avanza.",
+    IGUI_SFQuest_Questyno_HeatherThomas13_Lore = "Heather mi ha chiesto di cercare Rapanelli, Carota e Patate per le sue trappole. Vediamo cosa mi avanza.",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text = "Sono un poco a corto di esce, riusciresti a portarmene qualcuna per le mie trappole?",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Accepted = "Dai muoviti, ti aspetto!",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Declined = "Pff, pivello",
