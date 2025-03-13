@@ -4623,7 +4623,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis20_Title = "Jeffrey da West Point 10149,6622,0",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Text = "Jeffrey il nostalgico",
-    IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey mi ha chiesto di portargli 5 Riviste per nostalgia del tempo che è stato..",
+    IGUI_SFQuest_Questyno_JeffreyLewis20_Lore = "Jeffrey mi ha chiesto di portargli 30 Riviste per nostalgia del tempo che è stato..",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text = "Mi piace sfogliare i i vecchi Magazine, mi immergono in un mondo che ormai è andato, se ne trovi qualcuno me lo porti?",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Accepted = "Ti aspetto qui",
     IGUI_SFQuest_Questyno_JeffreyLewis20_Begin_Text_Declined = "Peccato...",
