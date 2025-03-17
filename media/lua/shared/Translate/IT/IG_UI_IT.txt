@@ -1435,7 +1435,7 @@ IGUI_IT = {
 	IGUI_SFQuest_Questyno_EliaRima17_B_Text = "Torna da Elia",
 	
 	IGUI_SFQuest_Questyno_EliaRima18_Title = "Elia dalla Tana",
-    IGUI_SFQuest_Questyno_EliaRima18_Text = "Il prezzo della sviluppo",
+    IGUI_SFQuest_Questyno_EliaRima18_Text = "Il prezzo dello sviluppo",
     IGUI_SFQuest_Questyno_EliaRima18_Lore = "Elia mi ha chiesto di cercare dei i libri per i nostri ingegnieri a West Point (11361,6771,0). Devo stare molto attento.",
     IGUI_SFQuest_Questyno_EliaRima18_Begin_Text = "Ho bisogno che mi trovi alcune riviste che servono a i nostri ingegneri. Puoi trovarle alla scuola di West Point.",
     IGUI_SFQuest_Questyno_EliaRima18_Begin_Text_Accepted = "Leggo uno di questi, mentre ti aspetto.",
@@ -4597,7 +4597,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 	IGUI_SFQuest_Questyno_JeffreyLewis17_B_Text	= "Torna da Jeffrey",
 	
 	IGUI_SFQuest_Questyno_JeffreyLewis18_Title = "Jeffrey da West Point 10149,6622,0",
-    IGUI_SFQuest_Questyno_JeffreyLewis18_Text = "Il prezzo della sviluppo",
+    IGUI_SFQuest_Questyno_JeffreyLewis18_Text = "Il prezzo dello sviluppo",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Lore = "Jeffrey mi ha chiesto di cercare dei libri specifici per lui. Vorrebbe delle riviste che si trovano nella scuola a Muldraugh (10627,9973,0)",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text = "Ho bisogno che mi trovi alcune riviste che servono a i nostri ingegneri. Puoi trovarle alla scuola di Muldraugh.",
     IGUI_SFQuest_Questyno_JeffreyLewis18_Begin_Text_Accepted = "Ti aspetto qui",
@@ -7172,7 +7172,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_PaigeTurner1_Title = "Paige Turner",
     IGUI_SFQuest_Questyno_PaigeTurner1_Text = "[T2] Coplisci alla testa",
-    IGUI_SFQuest_Questyno_PaigeTurner1_Lore = "Paige mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_PaigeTurner1_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner1_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 200 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner1_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_PaigeTurner1_Begin_Text_Declined = "Pappamolla che non sei altro",
@@ -7180,7 +7180,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_PaigeTurner2_Title = "Paige Turner",
     IGUI_SFQuest_Questyno_PaigeTurner2_Text = "[T2] Coplisci alla testa",
-    IGUI_SFQuest_Questyno_PaigeTurner2_Lore = "Paige mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_PaigeTurner2_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner2_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 300 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner2_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_PaigeTurner2_Begin_Text_Declined = "Pappamolla che non sei altro",
@@ -7188,7 +7188,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_PaigeTurner3_Title = "Paige Turner",
     IGUI_SFQuest_Questyno_PaigeTurner3_Text = "[T2] Coplisci alla testa",
-    IGUI_SFQuest_Questyno_PaigeTurner3_Lore = "Paige mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_PaigeTurner3_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner3_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 350 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner3_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_PaigeTurner3_Begin_Text_Declined = "Pappamolla che non sei altro",
@@ -7212,7 +7212,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_AnselMerrick1_Title = "Ansel Merrick",
     IGUI_SFQuest_Questyno_AnselMerrick1_Text = "[T3]Coplisci e fuggi",
-    IGUI_SFQuest_Questyno_AnselMerrick1_Lore = "Ansel mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_AnselMerrick1_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick1_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 320 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick1_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_AnselMerrick1_Begin_Text_Declined = "Peccato, era molto importante.",
@@ -7220,7 +7220,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_AnselMerrick2_Title = "Ansel Merrick",
     IGUI_SFQuest_Questyno_AnselMerrick2_Text = "[T3]Coplisci e fuggi",
-    IGUI_SFQuest_Questyno_AnselMerrick2_Lore = "Ansel mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_AnselMerrick2_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick2_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 420 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick2_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_AnselMerrick2_Begin_Text_Declined = "Peccato, era molto importante.",
@@ -7228,7 +7228,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_AnselMerrick3_Title = "Ansel Merrick",
     IGUI_SFQuest_Questyno_AnselMerrick3_Text = "[T3]Coplisci e fuggi",
-    IGUI_SFQuest_Questyno_AnselMerrick3_Lore = "Ansel mi ha chiesto di collezionare un pò di uccisioni. Farò del mio meglio!",
+    IGUI_SFQuest_Questyno_AnselMerrick3_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick3_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 520 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick3_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
     IGUI_SFQuest_Questyno_AnselMerrick3_Begin_Text_Declined = "Peccato, era molto importante.",
@@ -7279,12 +7279,12 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_TomasJoger3_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger3_Text = "Lo sfascia carrozze",
-    IGUI_SFQuest_Questyno_TomasJoger3_Lore = "Recupera tutto il materiale che puoi trovare dal garage a Heartlake (10012,10524,0) e torna da Tomas.",
-    IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text = "E tu chi sei? Ah sei tu...allora fammi pensare bene...ok ci sono ! C'è un officina a Heartlake (10012,10524), era gestito da un vecchio bastardo che usava pezzi riciclati e li rivendeva come nuovi. Credo abbia fottuto anche me una volta...vabbe' non divaghiamo, c'è una specie di stanza dove restava a dormire quando era sbronzo, sono sicuro che abbia ancora dei componenti messi bene, portami tutto. Te la senti?",
+    IGUI_SFQuest_Questyno_TomasJoger3_Lore = "Recupera tutto il materiale che puoi trovare dal garage a Heartlake (9990,10562,0) e torna da Tomas.",
+    IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text = "E tu chi sei? Ah sei tu...allora fammi pensare bene...ok ci sono ! C'è un officina a Heartlake (9990,10562,0), era gestito da un vecchio bastardo che usava pezzi riciclati e li rivendeva come nuovi. Credo abbia fottuto anche me una volta...vabbe' non divaghiamo, c'è una specie di stanza dove restava a dormire quando era sbronzo, sono sicuro che abbia ancora dei componenti messi bene, portami tutto. Te la senti?",
     IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text_Accepted = "Stai iniziando a piacermi sai...",
     IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text_Declined = "Cosa ti aspettavi un parco giochi con gli scivoli ?",
-    IGUI_SFQuest_Questyno_TomasJoger3_Complete = "Perà! Complimenti! Andiamo avanti",
-    IGUI_SFQuest_Questyno_TomasJoger3_A = "Cerca a Heartlake (10012,10524,0)",
+    IGUI_SFQuest_Questyno_TomasJoger3_Complete = "Però! Complimenti! Andiamo avanti",
+    IGUI_SFQuest_Questyno_TomasJoger3_A = "Cerca a Heartlake (9990,10562,0)",
     IGUI_SFQuest_Questyno_TomasJoger3_A_Text = "Riporta gli oggetti a Tomas",
 
     IGUI_SFQuest_Questyno_TomasJoger4_Title = "Tomas Joger",
