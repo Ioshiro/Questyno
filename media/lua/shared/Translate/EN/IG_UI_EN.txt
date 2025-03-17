@@ -1074,7 +1074,7 @@ IGUI_EN = {
 
 	IGUI_SFQuest_Questyno_HeatherThomas13_Title = "Heather from the Den",
     IGUI_SFQuest_Questyno_HeatherThomas13_Text = "Heather's favorite baits",
-    IGUI_SFQuest_Questyno_HeatherThomas13_Lore = "Heather asked me to find 5 Worms, a Carrot and 2 Potatoes for his traps. Let's see what I have left.",
+    IGUI_SFQuest_Questyno_HeatherThomas13_Lore = "Heather asked me to search for Radishes, Carrots and Potatoes for his traps. Let's see what I have left.",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text = "I'm a little short on bait, could you bring me some for my traps?",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Accepted = "Come on, move it, I'm waiting for you!",
     IGUI_SFQuest_Questyno_HeatherThomas13_Begin_Text_Declined = "Pff, newbie",

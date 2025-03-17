@@ -1,6 +1,6 @@
 require "XpSystem/ISUI/SFQuest_MissionPanel"
 --[[ ]]
---SF_MissionPanel = SF_MissionPanel
+SF_MissionPanel = SF_MissionPanel or {};
 SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
 SF_MissionPanel.Events = {};
 SF_MissionPanel.EventsRegistered = false
@@ -1553,7 +1553,7 @@ end
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
-    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes) 
+    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
     -- check sandbox option of time and set everyten or everyone minutes based on it?
     -- if SandboxVars.DayLength >= 5 then
         -- Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
