@@ -58,7 +58,7 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn1_A",
 
-    awardsrep = "LaResistenza;5;EzekielFlynn;20", -- REP REWARD
+    awardsrep = "LaResistenza;5;EzekielFlynn;25", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Begin;Questyno_EzekielFlynn2", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn1_Lore" },
@@ -102,7 +102,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn2_A",
 
-    awardsrep = "LaResistenza;10;EzekielFlynn;20", -- REP REWARD
+    awardsrep = "LaResistenza;10;EzekielFlynn;25", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn3_Begin;Questyno_EzekielFlynn3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn2_Lore" },
@@ -115,7 +115,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn3",
 
-    awardsrep = "LaResistenza;15;EzekielFlynn;20", -- REP REWARD
+    awardsrep = "LaResistenza;15;EzekielFlynn;25", -- REP REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
@@ -125,7 +125,7 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn3_Complete:placeholder:updatequeststatus:Questyno_EzekielFlynn3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
-
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn4",
 
@@ -140,7 +140,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_EzekielFlynn4_Title",
     unlockedsound = "QuestUnlocked"
 });
-
+]]--
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5",
 
@@ -163,7 +163,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5_A",
 
-    awardsrep = "LaResistenza;45;EzekielFlynn;119", -- REP REWARD
+    awardsrep = "LaResistenza;45;EzekielFlynn;124", -- REP REWARD
     awardsitem = "Crowbar;1;BeefJerky;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
