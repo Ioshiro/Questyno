@@ -7278,12 +7278,12 @@ Show me you have an eye, that you don't just pick up whatever you find in the ru
 
     IGUI_SFQuest_Questyno_TomasJoger3_Title = "Tomas Joger",
     IGUI_SFQuest_Questyno_TomasJoger3_Text = "The junkyard",
-    IGUI_SFQuest_Questyno_TomasJoger3_Lore = "Retrieve all the material you can find from the garage in Heartlake (10012,10524,0) and return to Tomas.",
-    IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text = "And who are you? Ah it's you...then let me think carefully...okay I got it! There is a workshop in Heartlake (10012,10524), it was managed by an old bastard who used recycled parts and resold them as new. I think he screwed me once too...anyway let's not digress, there is a kind of room where he stayed to sleep when he was drunk, I'm sure he still has some good components, bring me everything. Do you feel up to it?",
+    IGUI_SFQuest_Questyno_TomasJoger3_Lore = "Retrieve all the material you can find from the garage in Heartlake (9990,10562,0) and return to Tomas.",
+    IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text = "And who are you? Ah it's you...then let me think carefully...okay I got it! There is a workshop in Heartlake (9990,10562,0), it was managed by an old bastard who used recycled parts and resold them as new. I think he screwed me once too...anyway let's not digress, there is a kind of room where he stayed to sleep when he was drunk, I'm sure he still has some good components, bring me everything. Do you feel up to it?",
     IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text_Accepted = "You're starting to please me you know...",
     IGUI_SFQuest_Questyno_TomasJoger3_Begin_Text_Declined = "What did you expect a playground with slides?",
     IGUI_SFQuest_Questyno_TomasJoger3_Complete = "Wow! Congratulations! Let's move on",
-    IGUI_SFQuest_Questyno_TomasJoger3_A = "Search in Heartlake (10012,10524,0)",
+    IGUI_SFQuest_Questyno_TomasJoger3_A = "Search in Heartlake (9990,10562,0)",
     IGUI_SFQuest_Questyno_TomasJoger3_A_Text = "Bring the objects back to Tomas",
 
     IGUI_SFQuest_Questyno_TomasJoger4_Title = "Tomas Joger",
