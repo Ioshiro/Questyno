@@ -164,7 +164,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5_A",
 
     awardsrep = "LaResistenza;45;EzekielFlynn;124", -- REP REWARD
-    awardsitem = "Crowbar;1;BeefJerky;1", -- ITEM REWARD
+    awardsitem = "Crowbar;1;BeefJerky;1;Base.li_townshipmap;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
     needsitem = "LogStacks4;1", -- ITEM REQUEST
@@ -235,7 +235,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett3",
 
     awardsrep = "LaResistenza;20;ElowenBeckett;20", -- REP REWARD
-    awardsitem = "BeefJerky;1", -- ITEM REWARD
+    awardsitem = "BeefJerky;1;Base.MuldraughMap;1;Base.SpringwoodMap;1;Base.GreenportLootableMap;1", -- ITEM REWARD
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Begin;Questyno_ElowenBeckett4", -- DIALOGUE REWARD
     needsitem = "LogStacks2;1", -- ITEM REQUEST
     completesound = "levelup",
@@ -266,7 +266,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
     awardsrep = "LaResistenza;30;ElowenBeckett;119", -- REP REWARD
-    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1", -- ITEM REWARD
+    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1", -- ITEM REWARD
     needsitem = "ScrapMetal;2", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
@@ -1527,7 +1527,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_Pyno5",
 
     awardsrep = "LaResistenza;1", -- REP REWARD
-    awardsitem = "Base.Pen;1", -- ITEM REWARD
+    awardsitem = "Base.Pen;1;Base.Homepie;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_Pyno5_Lore" },
     text = "IGUI_SFQuest_Questyno_Pyno5_Text",
@@ -1897,7 +1897,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger6_A",
 
     awardsrep = "LaResistenza;100;TomasJoger;14", -- REP REWARD
-    awardsitem = "MoneyToXP.Rotolo;1", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Rotolo;1;Base.LindenMap;1", -- ITEM REWARD
     awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger7_Begin;Questyno_TomasJoger7", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger6_Lore" },
