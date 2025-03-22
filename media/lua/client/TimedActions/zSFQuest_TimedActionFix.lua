@@ -31,9 +31,15 @@ local function delayAddItem()
 end
 
 -- local oldAdditem = SF_MissionPanel.Commands.additem
-local function additemOverWrite(item, quantity)
+local function additemOverWrite(itemType, quantity)
     local inv = getPlayer():getInventory();
-	inv:AddItems(item, quantity);
+	local items = inv:AddItems(itemType, quantity);
+    if items then
+        for i=0, items:size()-1 do
+            local item = items:get(i);
+            item:setFavorite(true);
+        end
+    end
     -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
         Events.OnTick.Add(delayAddItem)
     -- end
