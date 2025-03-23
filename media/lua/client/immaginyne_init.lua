@@ -17,7 +17,7 @@ local function bind()
     ExamineEntries.addEntry("Lore10", "media/ui/Poster.png", "pynokkio fynokkio");
 
     ExamineEntries.addEntry("Volantino1", "media/ui/Volantino.png", "Ancora questi volantini in inglese? Perchè continuano a passare ma non si fanno vedere?!" );
-	ExamineEntries.addEntry("Volantino2", "media/ui/Volantino2.png", "Mmmmmm.... Potrebbe essere una buona occasione per migliorare con la manutenzione le armi!" );
+	ExamineEntries.addEntry("Volantino2", "media/ui/Volantino2.png", "Ne ho trovati sparsi molti di questi in giro... Ed eccomi qua." );
 	--rivista1
 	local Rivista1_pagine = {
         "media/ui/Rivista1.png",
