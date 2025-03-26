@@ -51,7 +51,8 @@ function ISInventoryMenuElements.ContextBikeKey()
 			else
 				local vehicle = addVehicleDebug(_v, _p:getDir(), nil, _p:getSquare())
                 vehicle:repair()
-                vehicle:setKeyIsOnDoor(true)
+                local k = vehicle:createVehicleKey()
+                _p:getInventory():AddItem(k)
 			end
             _p:getInventory():Remove(key)
 	end

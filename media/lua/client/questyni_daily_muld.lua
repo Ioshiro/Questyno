@@ -2924,7 +2924,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura5",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
-    needsitem = "Shoes_RedTrainers;5", -- REQUIRE
+    needsitem = "Shoes_RedTrainers;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura5_Lore" },
@@ -3029,7 +3029,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura12",
 
     awardsrep = "LaResistenza;450", -- REP REWARD
-    needsitem = "Shorts_LongSport_Red;10", -- REQUIRE
+    needsitem = "Shorts_BoxingRed;10", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura12_Lore" },
@@ -3286,17 +3286,11 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_XuMishura26_B",
         text = "IGUI_SFQuest_Questyno_XuMishura26_B",
         hidden = false,
-        needsitem = "Apron_IceCream;1",
-        onobtained = "updateobjective;Questyno_XuMishura26;2;Completed;removeitem;Apron_IceCream;1"
+        needsitem = "Apron_PizzaWhirled;1",
+        onobtained = "updateobjective;Questyno_XuMishura26;2;Completed;removeitem;Apron_PizzaWhirled;1"
     }, {
         guid = "Questyno_XuMishura26_C",
         text = "IGUI_SFQuest_Questyno_XuMishura26_C",
-        hidden = false,
-        needsitem = "Apron_PizzaWhirled;1",
-        onobtained = "updateobjective;Questyno_XuMishura26;3;Completed;removeitem;Apron_PizzaWhirled;1"
-    }, {
-        guid = "Questyno_XuMishura26_D",
-        text = "IGUI_SFQuest_Questyno_XuMishura26_D",
         hidden = false,
         needsitem = "Apron_PileOCrepe;1",
         onobtained = "updateobjective;Questyno_XuMishura26;3;Completed;removeitem;Apron_PileOCrepe;1"
@@ -3305,7 +3299,7 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_XuMishura26_D",
         hidden = false,
         needsitem = "Apron_Black;1",
-        onobtained = "updateobjective;Questyno_XuMishura26;3;Completed;removeitem;Apron_Black;1"
+        onobtained = "updateobjective;Questyno_XuMishura26;4;Completed;removeitem;Apron_Black;1"
     } },
     text = "IGUI_SFQuest_Questyno_XuMishura26_Text",
     texture = "media/textures/Item_XuMishura.png",

@@ -1774,7 +1774,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_TomasJoger.png",
     title = "IGUI_SFQuest_Questyno_TomasJoger3_Title",
     unique = true,
-    unlocks = "clickevent;9990x10562x0:EventoTomasJoger3;time:50:anim:loot;updateobjective:Questyno_TomasJoger3:1:Completed",
+    unlocks = "clickevent;9922x10578x0:EventoTomasJoger3;time:50:anim:loot;updateobjective:Questyno_TomasJoger3:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 

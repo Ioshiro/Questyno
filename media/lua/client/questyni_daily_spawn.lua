@@ -1265,7 +1265,7 @@ local stellaQuest13 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella13_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella13_Title",
-    unlocks = "clickevent;10086x10606x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
+    unlocks = "clickevent;12700x9855x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest13);
