@@ -1438,6 +1438,13 @@ function SF_MissionPanel:completeQuest(player, guid)
                         SF_MissionPanel.instance.DailyEventRerollExpand()
                         print("Daily Event Reroll triggered");
                     end
+
+                    -- reset status
+                    task.status = "";
+                    for j=1,#task.objectives do
+                        task.objectives[j].status = "";
+                    end
+
 					done = true;
 					self.needsUpdate = true
 					break
