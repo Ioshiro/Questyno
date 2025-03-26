@@ -1440,9 +1440,11 @@ function SF_MissionPanel:completeQuest(player, guid)
                     end
 
                     -- reset status
-                    task.status = "";
-                    for j=1,#task.objectives do
-                        task.objectives[j].status = "";
+                    task.status = nil;
+                    if task.objectives then
+                        for j=1,#task.objectives do
+                            task.objectives[j].status = nil;
+                        end
                     end
 
 					done = true;
