@@ -33,7 +33,6 @@ SFQuest_Database.RandomRewardItemPool.GoldWeapons3 = {
 }
 
 SFQuest_Database.RandomRewardItemPool.Macchinyni = {
-    "LR.ChiaveMacchinyno1;1",
     "LR.ChiaveMacchinyno2;1",
     "LR.ChiaveMacchinyno3;1",
     "LR.ChiaveMacchinyno4;1",

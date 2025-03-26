@@ -3202,7 +3202,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "Money;100", -- ITEM REWARD
-    needsitem = "ComicBook;80", -- REQUIRE
+    needsitem = "ComicBook;30", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
     lore = { "IGUI_SFQuest_Questyno_MalachiBlevins2_Lore" },

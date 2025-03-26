@@ -668,7 +668,7 @@ local grifQuest29 = {
     texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif29_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;7250x8369x0:EventoGrif29;anim:loot:time:50;updateobjective:Questyno_Grif29:1:Completed"
+    unlocks = "clickevent;7250x8369x0:EventoGrif29;time:50:anim:loot;updateobjective:Questyno_Grif29:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest29);
 
@@ -704,7 +704,7 @@ local grifQuest30 = {
     texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif30_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;5033x10038x0:EventoGrif30;anim:loot:time:50;updateobjective:Questyno_Grif30:1:Completed"
+    unlocks = "clickevent;5033x10038x0:EventoGrif30;time:50:anim:loot;updateobjective:Questyno_Grif30:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest30);
 
@@ -740,7 +740,7 @@ local grifQuest31 = {
     texture = "media/textures/Item_Grif.png",
     title = "IGUI_SFQuest_Questyno_Grif31_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;10287x11351x0:EventoGrif31;anim:loot:time:50;updateobjective:Questyno_Grif31:1:Completed"
+    unlocks = "clickevent;10287x11351x0:EventoGrif31;time:50:anim:loot;updateobjective:Questyno_Grif31:1:Completed"
 }
 table.insert(SFQuest_Database.QuestPool, grifQuest31);
 
@@ -1265,7 +1265,7 @@ local stellaQuest13 = {
     text = "IGUI_SFQuest_Questyno_AngelicaStella13_Text",
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella13_Title",
-    unlocks = "clickevent;10086x10606x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
+    unlocks = "clickevent;12700x9855x0:EventoAngelicaStella13;time:50:anim:loot;updateobjective:Questyno_AngelicaStella13:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest13);

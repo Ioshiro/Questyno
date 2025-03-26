@@ -3,7 +3,7 @@ local SFQuest_Utils = require "utils/SFQuest_Utils"
 local SFQuest_Calendar = require("utils/SFQuest_Calendar")
 
 --[[ ]]
---SF_MissionPanel = SF_MissionPanel
+SF_MissionPanel = SF_MissionPanel or {};
 SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
 SF_MissionPanel.Events = {};
 SF_MissionPanel.EventsRegistered = false
@@ -1571,6 +1571,13 @@ function SF_MissionPanel:completeQuest(player, guid)
                         SF_MissionPanel.instance.DailyEventRerollExpand()
                         print("Daily Event Reroll triggered");
                     end
+
+                    -- reset status
+                    task.status = "";
+                    for j=1,#task.objectives do
+                        task.objectives[j].status = "";
+                    end
+
 					done = true;
 					SF_MissionPanel.instance:triggerUpdate()
 					break
@@ -1686,7 +1693,7 @@ end
 Events.OnGameBoot.Add(function()
     Events.EveryDays.Remove(SF_MissionPanel.DailyEventReroll);
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
-    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes) 
+    Events.EveryTenMinutes.Remove(SF_MissionPanel.EveryTenMinutes)
     -- check sandbox option of time and set everyten or everyone minutes based on it?
     -- if SandboxVars.DayLength >= 5 then
         -- Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
