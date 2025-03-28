@@ -108,7 +108,7 @@ module LR{
         Weight			=	0.1,
         Type			=	Normal,
         DisplayCategory = 	Literature,
-        DisplayName		=	Volantino,
+        DisplayName		=	Volantino U.S.A,
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
@@ -118,6 +118,17 @@ module LR{
         Type			=	Normal,
         DisplayCategory = 	Literature,
         DisplayName		=	Volantino,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+    }
+
+        }
+	
+	    item Volantino3 {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Literature,
+        DisplayName		=	Volantino Elezioni,
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
