@@ -121,8 +121,6 @@ module LR{
         Icon			=	Paper,        
         WorldStaticModel = EmptyNotebook,
     }
-
-        }
 	
 	    item Volantino3 {
         Weight			=	0.1,
