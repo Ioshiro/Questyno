@@ -51,7 +51,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_Lupo",
     lore = { "IGUI_SFQuest_Questyno_Lupo1_Lore" },
-    needsitem = "308Box;8", -- REQUIRE
+    needsitem = "308Box;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_TonyLupo;SFQuest_Questyno_Lupo1_Complete",
     text = "IGUI_SFQuest_Questyno_Lupo1_Text",
     texture = "media/textures/Item_TonyLupo.png",
@@ -3437,7 +3437,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez20",
-    awardsrep = "LaResistenza;60",
+    awardsrep = "LaResistenza;100",
     awardsitem = "Money;20;Pot;2",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",

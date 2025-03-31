@@ -526,7 +526,7 @@ Questyno = {
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez18_Begin;Questyno_PamelaPerez18",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez19_Begin;Questyno_PamelaPerez19",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez20_Begin;Questyno_PamelaPerez20",
-		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez21_Begin;Questyno_PamelaPerez21",
+		--"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez21_Begin;Questyno_PamelaPerez21",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez22_Begin;Questyno_PamelaPerez22",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez23_Begin;Questyno_PamelaPerez23",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez24_Begin;Questyno_PamelaPerez24",

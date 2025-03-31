@@ -2047,8 +2047,8 @@ local scottQuest15 = {
         guid = "Questyno_GeorgeScott15_A",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_A",
         hidden = false,
-        needsitem = "Shoes_RedTrainers;1",
-        onobtained = "updateobjective;Questyno_GeorgeScott15;1;Completed;removeitem;Shoes_RedTrainers;1"
+        needsitem = "Shoes_FlipFlop;1",
+        onobtained = "updateobjective;Questyno_GeorgeScott15;1;Completed;removeitem;Shoes_FlipFlop;1"
     },{
         guid = "Questyno_GeorgeScott15_B",
         text = "IGUI_SFQuest_Questyno_GeorgeScott15_B",
