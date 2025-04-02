@@ -2321,8 +2321,8 @@ IGUI_IT = {
 	
 	IGUI_SFQuest_Questyno_EmilyTerry2_Title = "Terry dalla Tana",
     IGUI_SFQuest_Questyno_EmilyTerry2_Text = "Semi per Terry",
-    IGUI_SFQuest_Questyno_EmilyTerry2_Lore = "Terry mi ha chiesto di portargli 12 Semi di Fragola. Dovrei trovarli nei campi agricoli.",
-    IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text = "Ho bisogno di qualche seme di fragola, riesci a rimediarlo?",
+    IGUI_SFQuest_Questyno_EmilyTerry2_Lore = "Terry mi ha chiesto di portargli 12 Semi di Patata. Dovrei trovarli nei campi agricoli.",
+    IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text = "Ho bisogno di qualche seme di patata, riesci a rimediarlo?",
     IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text_Accepted = "Grazie per il tuo aiuto",
     IGUI_SFQuest_Questyno_EmilyTerry2_Begin_Text_Declined = "Capisco, alla prossima.",
     IGUI_SFQuest_Questyno_EmilyTerry2_Complete = "Grazie mille, quando saranno cresciute ti chiamo! Grazie, prendi questa, torna fra un paio di settimane e queste che pianto saranno pronte! ",
