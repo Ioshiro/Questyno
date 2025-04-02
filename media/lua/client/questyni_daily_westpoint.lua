@@ -3254,11 +3254,11 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez12",
-    awardsrep = "LaResistenza;45",
+    awardsrep = "LaResistenza;120",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez12_Lore" },
-    needsitem = "Base.LogStacks2;5",
+    needsitem = "Base.KitchenKnife;3",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez12_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez12_Text",
     texture = "media/textures/Item_PamelaPerez.png",
@@ -3268,12 +3268,12 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez13",
-    awardsrep = "LaResistenza;40",
+    awardsrep = "LaResistenza;150",
     awardsitem = "Base.CommonMallow;10",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez13_Lore" },
-    needsitem = "Base.LogStacks2;4",
+    needsitem = "Base.Racket;1",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez13_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez13_Text",
     texture = "media/textures/Item_PamelaPerez.png",
@@ -3302,7 +3302,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez15_Lore" },
-    needsitem = "PredicateFreshFood#MushroomGeneric5;1",
+    needsitem = "PredicateFreshFood#MushroomGeneric6;1",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez15_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez15_Text",
     texture = "media/textures/Item_PamelaPerez.png",
@@ -3578,6 +3578,69 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_PamelaPerez25_Title",
     unlocks = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez25_Complete",
 });
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez26",
+
+    awardsrep = "LaResistenza;400", -- REP REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez26_Lore" },
+    needsitem = "PredicateFreshFood#MushroomGeneric3;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez26_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez26_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez26_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez27",
+
+    awardsrep = "LaResistenza;350", -- REP REWARD
+    awardsitem = "Base.GardenFork",  -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez27_Lore" },
+    needsitem = "PredicateFreshFood#MushroomGeneric2;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez27_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez27_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez27_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool,  {
+    guid = "Questyno_PamelaPerez28",
+
+    awardsrep = "LaResistenza;350", -- REP REWARD
+    awardsitem = "SOMW.CricketBatNails",  -- ITEM REWARD
+    completesound = "levelup",
+    dailycode = "Questyno_PamelaPerez",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez28_Lore" },
+    needsitem = "PredicateFreshFood#MushroomGeneric1;1", -- REQUIRE
+    onobtained ="unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez28_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez28_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez28_Title",
+    unlockedsound = "QuestUnlocked"
+});
+
+table.insert(SFQuest_Database.QuestPool, {
+    guid = "Questyno_PamelaPerez29",
+
+    awardsrep = "LaResistenza;350", -- REP REWARD
+    awardsitem = "Base.OilOlive",  -- ITEM REWARD
+    dailycode = "Questyno_PamelaPerez",
+    completesound = "levelup",
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez29_Lore" },
+    needsitem = "PredicateFreshFood#MushroomGeneric7;1",
+    onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez29_Complete",
+    text = "IGUI_SFQuest_Questyno_PamelaPerez29_Text",
+    texture = "media/textures/Item_PamelaPerez.png",
+    title = "IGUI_SFQuest_Questyno_PamelaPerez29_Title",
+    unlockedsound = "QuestUnlocked"
+})
 
 --[[
             *** Sam Fisher ***

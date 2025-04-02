@@ -2000,6 +2000,18 @@ table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_P
 table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez25_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez25", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez25_Begin_Text_Declined"})
 table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez25_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez25_A", text = "IGUI_SFQuest_Questyno_PamelaPerez25_Complete"})
 
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez26_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez26", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez26_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez26_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez26", text = "IGUI_SFQuest_Questyno_PamelaPerez26_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez27_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez27", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez27_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez27_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez27_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez27_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez27", text = "IGUI_SFQuest_Questyno_PamelaPerez27_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez28_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez28", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez28_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez28_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez28_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez28_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez28", text = "IGUI_SFQuest_Questyno_PamelaPerez28_Complete"})
+
+table.insert(SFQuest_Database.DialoguePool, {dialoguecode = "SFQuest_Questyno_PamelaPerez29_Begin", context = "ContextMenu_WorldEvent_TalkTo", command = "unlockquest;Questyno_PamelaPerez29", optional = true, text = "IGUI_SFQuest_Questyno_PamelaPerez29_Begin_Text", textaccepted = "IGUI_SFQuest_Questyno_PamelaPerez29_Begin_Text_Accepted",textdeclined = "IGUI_SFQuest_Questyno_PamelaPerez29_Begin_Text_Declined"})
+table.insert(SFQuest_Database.DialoguePool, { dialoguecode = "SFQuest_Questyno_PamelaPerez29_Complete", context = "ContextMenu_WorldEvent_TalkTo", command = "completequest;Questyno_PamelaPerez29", text = "IGUI_SFQuest_Questyno_PamelaPerez29_Complete"})
+
 --[[
             *** Sam Fisher ***
             Elenco:
