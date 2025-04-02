@@ -826,7 +826,7 @@ local stellaQuest1A = {
     guid = "Questyno_AngelicaStella1_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "Shovel2;1",      -- MONEY REWARD
+    awardsitem = "Money;25",      -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella1_Lore" },
@@ -902,7 +902,7 @@ local stellaQuest3A = {
     guid = "Questyno_AngelicaStella3_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
-    awardsitem = "Money;40",       -- MONEY REWARD
+    awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella3_Lore" },
@@ -940,7 +940,7 @@ local stellaQuest4A = {
     guid = "Questyno_AngelicaStella4_A",
 
     awardsrep = "LaResistenza;180", -- REP REWARD
-    awardsitem = "Money;40",       -- MONEY REWARD
+    awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella4_Lore" },
@@ -978,7 +978,7 @@ local stellaQuest5A = {
     guid = "Questyno_AngelicaStella5_A",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
-    awardsitem = "Money;40",       -- MONEY REWARD
+    awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella5_Lore" },
@@ -1007,7 +1007,7 @@ local stellaQuest6 = {
     texture = "media/textures/Item_AngelicaStella.png",
     title = "IGUI_SFQuest_Questyno_AngelicaStella6_Title",
     unlocks =
-    "clickevent;8384x8943x1:EventoAngelicaStella6;time:50:anim:loot;updateobjective:Questyno_AngelicaStella6:1:Completed",
+    "clickevent;8384x8943x2:EventoAngelicaStella6;time:50:anim:loot;updateobjective:Questyno_AngelicaStella6:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, stellaQuest6);
@@ -1015,7 +1015,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest6);
 local stellaQuest6A = {
     guid = "Questyno_AngelicaStella6_A",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_AngelicaStella",
     lore = { "IGUI_SFQuest_Questyno_AngelicaStella6_Lore" },
@@ -1570,7 +1570,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest21);
 				1. Recuperare Base.DeadRabbit;2 (200rep)
                 2. Recuperare Base.DeadRabbit (100rep)
                 3. Recuperare TrapCrate;20 (100rep + Spago)
-                4. Recuperare Base.TrapBox;10 (150rep + 30$)
+                4. Recuperare Base.TrapBox;10 (150rep + Balestra)
 				5. Recuperare Base.DeadSquirrel (50rep)
 				6. Recuperare Base.Bird;4 (140rep)
                 7. Recuperare Base.DeadRabbit (50rep + DehydratedMeatStick;6)
@@ -1585,7 +1585,7 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest21);
 				16. Recuperare Base.DeadSquirrel;10 parlando con (8509,10359,0) (150rep + Base.DeadSquirrel)
 				17. Recuperare Base.DeadRabbit;10 parlando con (10936,8488,0) (150rep + Coniglio)
 				18. Recuperare Base.DeadRabbit,Base.Money;5 (40rep + Base.BeefJerky;2)
-				19. Recuperare Base.LeatherStrips;10 (50rep + Scrap Club)
+				19. Recuperare Base.LeatherStrips;10 (50rep + LCCrossbowBoltWoodIronTipBundle)
 				20. Recuperare Base.LeatherStrips;5 (30rep)
 				21. Recuperare Base.TrapMouse (100rep)
 				22. Recuperare Base.DeadRabbit;3 (200rep + 50$)
@@ -1661,7 +1661,7 @@ local thomasQuest4 = {
     guid = "Questyno_HeatherThomas4",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
-    awardsitem = "Money;30",        -- MONEY REWARD
+    awardsitem = "LactoseCrossbow.CrossbowStrungString",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas4_Lore" },
@@ -2055,7 +2055,7 @@ local thomasQuest19 = {
     guid = "Questyno_HeatherThomas19",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
-    awardsitem = "Base.BaseballBatNails;1",    -- MONEY REWARD 
+    awardsitem = "LactoseCrossbow.LCCrossbowBoltWoodIronTipBundle;3",    -- MONEY REWARD 
     completesound = "levelup",
     dailycode = "Questyno_HeatherThomas",
     lore = { "IGUI_SFQuest_Questyno_HeatherThomas19_Lore" },

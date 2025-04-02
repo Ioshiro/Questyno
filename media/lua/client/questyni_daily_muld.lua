@@ -1992,7 +1992,7 @@ local scottQuest13 = {
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott13_Lore" },
-    needsitem = "Toothpaste;4", -- REQUIRE
+    needsitem = "Toothpaste;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott13_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott13_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2830,7 +2830,7 @@ table.insert(SFQuest_Database.QuestPool,{
 				9. Recuperare Base.Shirt_Lumberjack (40rep)
 				10. Recuperare Base.Apron_Spiffos (200rep)
 				11. Recuperare Base.Vest_Hunting_Camo (180rep)
-				12. Recuperare Base.Jacket_Black (100rep)
+				12. Recuperare Spongie.Jumper_TurtleVest(100rep)
 				13. Recuperare Base.Jacket_Shellsuit_Teal (100rep)
 				14. Recuperare Base.Shellsuit_Black (120rep)
 				15. Recuperare Base.Jacket_Varsity (100rep)
@@ -3029,7 +3029,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura12",
 
     awardsrep = "LaResistenza;450", -- REP REWARD
-    needsitem = "Shorts_BoxingRed;10", -- REQUIRE
+    needsitem = "Spongie.Jumper_TurtleVest;10", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura12_Lore" },

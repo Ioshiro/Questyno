@@ -265,8 +265,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane1_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_A",
         hidden = false,
-        needsitem = "CardID;50",
-        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;50",
+        needsitem = "CardID;15",
+        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;15",
     },{
         guid = "Questyno_MarcusKane1_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_B",
@@ -303,8 +303,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane2_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_A",
         hidden = false,
-        needsitem = "CardID;100",
-        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;100",
+        needsitem = "CardID;20",
+        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;20",
     },{
         guid = "Questyno_MarcusKane2_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_B",
@@ -321,7 +321,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane2_A",
 
     awardsrep = "LaResistenza;2000",
-    awardsitem = "Base.Money;50",
+    awardsitem = "Base.Money;20",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane2_Lore" },
@@ -341,8 +341,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane3_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_A",
         hidden = false,
-        needsitem = "CardID;120",
-        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;120",
+        needsitem = "CardID;30",
+        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;30",
     },{
         guid = "Questyno_MarcusKane3_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_B",
@@ -359,7 +359,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane3_A",
 
     awardsrep = "LaResistenza;2200",
-    awardsitem = "Base.Money;60",
+    awardsitem = "Base.Money;40",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane3_Lore" },
@@ -379,8 +379,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane4_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_A",
         hidden = false,
-        needsitem = "CardID;200",
-        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;200",
+        needsitem = "CardID;40",
+        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;40",
     },{
         guid = "Questyno_MarcusKane4_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_B",

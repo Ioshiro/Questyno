@@ -709,7 +709,7 @@ table.insert(SFQuest_Database.QuestPool, {
 				5. Recuperare Base.SpearCrafted;10 (35rep)
 				6. Recuperare Base.SpearCrafted;5 (25rep)
 				7. Recuperare Base.TreeBranch;20 (70rep)
-				8. Recuperare Base.Grasshopper;5,Base.Pillbug;5,Base.Cockroach (60rep)
+				8. Recuperare Base.Cricket;3,Base.Pillbug;1,Base.Cockroach (60rep)
 				9. Recuperare Base.LemonGrass;3,Base.BlackSage;2 (60rep + Base.PlantainCataplasm)
 				10. Recuperare Base.LogStacks3;2 (50rep + Base.GardenFork)
 				11. Recuperare Base.NailsBox (60rep + Base.Pumpkin)
@@ -865,10 +865,10 @@ local chinaQuest8 = {
     objectives = { {
         guid = "Questyno_RosaChina8_A",
         text = "IGUI_SFQuest_Questyno_RosaChina8_A",
-        icon = "media/textures/Item_Grasshopper",
+        icon = "media/textures/Item_Cricket",
         hidden = false,
-        needsitem = "PredicateFreshFood#Grasshopper;3",
-        onobtained = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Grasshopper;3"
+        needsitem = "PredicateFreshFood#Cricket;2",
+        onobtained = "updateobjective;Questyno_RosaChina8;1;Completed;removeitem;Cricket;2"
     }, { 
         guid = "Questyno_RosaChina8_B",
         text = "IGUI_SFQuest_Questyno_RosaChina8_B",
@@ -881,14 +881,14 @@ local chinaQuest8 = {
         text = "IGUI_SFQuest_Questyno_RosaChina8_C",
         icon = "media/textures/Item_Cockroach",
         hidden = false,
-        needsitem = "PredicateFreshFood#Cockroach;2",
-        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;2"
+        needsitem = "PredicateFreshFood#Cockroach;1",
+        onobtained = "updateobjective;Questyno_RosaChina8;3;Completed;removeitem;Cockroach;1"
     },{
         guid = "Questyno_RosaChina8_D",
         text = "IGUI_SFQuest_Questyno_RosaChina8_D",
         hidden = false,
-        needsitem = "PredicateFreshFood#Snail;5",
-        onobtained = "updateobjective;Questyno_RosaChina8;4;Completed;removeitem;Snail;5"
+        needsitem = "PredicateFreshFood#Snail;2",
+        onobtained = "updateobjective;Questyno_RosaChina8;4;Completed;removeitem;Snail;2"
     }}, -- REQUIRE
     text = "IGUI_SFQuest_Questyno_RosaChina8_Text",
     texture = "media/textures/Item_RosaChina.png",
@@ -900,7 +900,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest8);
 local chinaQuest8A = {
     guid = "Questyno_RosaChina8_A",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina8_Lore" },
@@ -920,14 +920,14 @@ local chinaQuest9 = {
     objectives = { {
         guid = "Questyno_RosaChina9_A",
         text = "IGUI_SFQuest_Questyno_RosaChina9_A",
-        icon = "media/textures/Item_Grasshopper",
+        icon = "media/textures/Item_LemonGrass",
         hidden = false,
-        needsitem = "PredicateFreshFood#Base.LemonGrass;3",
-        onobtained = "updateobjective;Questyno_RosaChina9;1;Completed;removeitem;Base.LemonGrass;3"
+        needsitem = "PredicateFreshFood#Base.LemonGrass;6",
+        onobtained = "updateobjective;Questyno_RosaChina9;1;Completed;removeitem;Base.LemonGrass;6"
     }, { 
         guid = "Questyno_RosaChina9_B",
         text = "IGUI_SFQuest_Questyno_RosaChina9_B",
-        icon = "media/textures/Item_Pillbug",
+        icon = "media/textures/Item_BlackSage",
         hidden = false,
         needsitem = "PredicateFreshFood#Base.BlackSage;2",
         onobtained = "updateobjective;Questyno_RosaChina9;2;Completed;removeitem;Base.BlackSage;2"
@@ -958,7 +958,7 @@ local chinaQuest10 = {
     guid = "Questyno_RosaChina10",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "Base.GardenFork",  -- ITEM REWARD
+    awardsitem = "SWeapons.SalvagedClub",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina10_Lore" },
@@ -1372,7 +1372,7 @@ table.insert(SFQuest_Database.QuestPool, chinaQuest27);
 				14. Recuperare Base.PercedWood,Base.TreeBranch (25rep)
 				15. Recuperare MushroomGeneric6,MushroomGeneric7 (250rep + Base.OilOlive)
 				16. Recuperare Base.AxeStone;2,Base.SpearCrafted;2,FlintKnife;2 (50rep)
-				17. Recuperare Base.ScrapMetal;2,Base.Plank (30rep + Base.GardenFork)
+				17. Recuperare Base.ScrapMetal;2,Base.Plank (30rep + SWeapons.TinCanClub)
 				18. Recuperare RippedSheets;50 (40rep)
 				19. Recuperare Bambola parlando con (7901,8180,0) (35rep + Base.BerryBlack;5)
 				20. Recuperare Base.PotOfSoupRecipe (35rep + 20$ + Base.Pot)
@@ -1415,12 +1415,12 @@ table.insert(SFQuest_Database.QuestPool, emilyTerryQuest1);
 local emilyTerryQuest2 = {
     guid = "Questyno_EmilyTerry2",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
-    awardsitem = "farming.Strewberrie",  -- ITEM REWARD
+    awardsrep = "LaResistenza;35", -- REP REWARD
+    awardsitem = "Base.PotatoPancakes",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry2_Lore" },
-    needsitem = "farming.StrewberrieSeed;12", -- REQUIRE
+    needsitem = "farming.PotatoSeed;6", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry2_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry2_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1518,7 +1518,7 @@ local emilyTerryQuest8 = {
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry8_Lore" },
-    needsitem = "PredicateFreshFood#Base.Grasshopper;5", -- REQUIRE
+    needsitem = "PredicateFreshFood#Base.Grasshopper;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry8_Complete",
     text = "IGUI_SFQuest_Questyno_EmilyTerry8_Text",
     texture = "media/textures/Item_EmilyTerry.png",
@@ -1747,7 +1747,7 @@ local emilyTerryQuest17A = {
     guid = "Questyno_EmilyTerry17_A",
 
     awardsrep = "LaResistenza;30", -- REP REWARD
-    awardsitem = "Base.GardenFork",  -- ITEM REWARD
+    awardsitem = "SWeapons.TinCanClub",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_EmilyTerry",
     lore = { "IGUI_SFQuest_Questyno_EmilyTerry17_Lore" },
@@ -3186,7 +3186,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;1000", -- REP REWARD
     awardsitem = "Money;120", -- ITEM REWARD
-    needsitem = "Newspaper;100", -- REQUIRE
+    needsitem = "Newspaper;50", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
     lore = { "IGUI_SFQuest_Questyno_MalachiBlevins1_Lore" },
@@ -3202,7 +3202,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "Money;100", -- ITEM REWARD
-    needsitem = "ComicBook;30", -- REQUIRE
+    needsitem = "ComicBook;10", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
     lore = { "IGUI_SFQuest_Questyno_MalachiBlevins2_Lore" },
@@ -3218,7 +3218,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
     awardsrep = "LaResistenza;800", -- REP REWARD
     awardsitem = "Money;100", -- ITEM REWARD
-    needsitem = "Magazine;80", -- REQUIRE
+    needsitem = "Magazine;50", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_MalachiBlevins",
     lore = { "IGUI_SFQuest_Questyno_MalachiBlevins3_Lore" },
