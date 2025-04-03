@@ -3273,7 +3273,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez13_Lore" },
-    needsitem = "Base.Rack;1",
+    needsitem = "Base.Rake;1",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez13_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez13_Text",
     texture = "media/textures/Item_PamelaPerez.png",
