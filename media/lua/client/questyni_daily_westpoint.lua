@@ -3269,11 +3269,11 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez13",
     awardsrep = "LaResistenza;150",
-    awardsitem = "Base.CommonMallow;10",
+    awardsitem = "Base.Apple",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez13_Lore" },
-    needsitem = "Base.Racket;1",
+    needsitem = "Base.Rack;1",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez13_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez13_Text",
     texture = "media/textures/Item_PamelaPerez.png",
