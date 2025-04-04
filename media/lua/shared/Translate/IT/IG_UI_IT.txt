@@ -2102,10 +2102,10 @@ IGUI_IT = {
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Accepted = "Te ne siamo tutti immensamente grati",
     IGUI_SFQuest_Questyno_RosaChina8_Begin_Text_Declined = "Spero troverai tempo.",
     IGUI_SFQuest_Questyno_RosaChina8_Complete = "Grazie, grazie di cuore.",
-	IGUI_SFQuest_Questyno_RosaChina8_A = "3 Cavallette",
+	IGUI_SFQuest_Questyno_RosaChina8_A = "2 Grillo",
 	IGUI_SFQuest_Questyno_RosaChina8_B = "1 Cimice",
-	IGUI_SFQuest_Questyno_RosaChina8_C = "2 Scarafaggi",
-	IGUI_SFQuest_Questyno_RosaChina8_D = "5 Chiocciole",
+	IGUI_SFQuest_Questyno_RosaChina8_C = "1 Scarafaggio",
+	IGUI_SFQuest_Questyno_RosaChina8_D = "2 Chiocciole",
 	IGUI_SFQuest_Questyno_RosaChina8_A_Text = "Incontra Rosa",
 	
 	IGUI_SFQuest_Questyno_RosaChina9_Title = "Rosa dalla Tana",
@@ -5892,7 +5892,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane1_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane1_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane1_A = "50 Carta d'Identità",
+	IGUI_SFQuest_Questyno_MarcusKane1_A = "15 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane1_B = "Uccidi 200 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane1_A_Text = "Parla con Marcus",
 	
@@ -5903,7 +5903,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane2_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane2_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane2_A = "100 Carta d'Identità",
+	IGUI_SFQuest_Questyno_MarcusKane2_A = "20 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane2_B = "Uccidi 500 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane2_A_Text = "Parla con Marcus",
 	
@@ -5914,7 +5914,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane3_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane3_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane3_A = "120 Carta d'Identità",
+	IGUI_SFQuest_Questyno_MarcusKane3_A = "30 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane3_B = "Uccidi 600 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane3_A_Text = "Parla con Marcus",
 	
@@ -5925,7 +5925,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_MarcusKane4_Begin_Text_Declined = "Sei serio amico?",
     IGUI_SFQuest_Questyno_MarcusKane4_Complete = "Okay, non male, ritorna da me il prossimo mese.",
-	IGUI_SFQuest_Questyno_MarcusKane4_A = "200 Carta d'Identità",
+	IGUI_SFQuest_Questyno_MarcusKane4_A = "40 Carta d'Identità",
 	IGUI_SFQuest_Questyno_MarcusKane4_B = "Uccidi 1000 Zombie",
 	IGUI_SFQuest_Questyno_MarcusKane4_A_Text = "Parla con Marcus",
 
