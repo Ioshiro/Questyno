@@ -3572,7 +3572,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsitem = "Base.SackProduce_Lettuce;1;Base.SackProduce_Corn;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
-    lore = { "IGUI_SFQuest_Questyno_PamelaPerez25_A_Lore" },
+    lore = { "IGUI_SFQuest_Questyno_PamelaPerez25_Lore" },
     text = "IGUI_SFQuest_Questyno_PamelaPerez25_A_Text",
     texture = "media/textures/Item_PamelaPerez.png",
     title = "IGUI_SFQuest_Questyno_PamelaPerez25_Title",
