@@ -266,7 +266,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
     awardsrep = "LaResistenza;30;ElowenBeckett;119", -- REP REWARD
-    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1", -- ITEM REWARD
+    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1;", -- ITEM REWARD
     needsitem = "ScrapMetal;2", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },

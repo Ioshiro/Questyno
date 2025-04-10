@@ -37,3 +37,19 @@ SFQuest_Database.RandomRewardItemPool.Macchinyni = {
     "LR.ChiaveMacchinyno3;1",
     "LR.ChiaveMacchinyno4;1",
 }
+
+SFQuest_Database.RandomRewardItemPool.SaccoCibo = {
+    "Base.SackProduce_Cherry;1",
+    "Base.SackProduce_Lettuce;1",
+    "Base.SackProduce_Mais;1",
+    "Base.SackProduce_Eggplant;1",
+    "Base.SackProduce_BellPepper;1",
+    "Base.SackProduce_Pear;1",
+    "Base.SackProduce_Peach;1",
+    "Base.SackProduce_RedRadish;1",
+    "Base.SackProduce_Apple;1",
+    "Base.SackProduce_Leek;1",
+    "Base.SackProduce_Onion;1",
+    "Base.SackProduce_Grapes;1",
+    
+}

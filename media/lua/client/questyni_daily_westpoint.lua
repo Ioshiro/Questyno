@@ -3125,7 +3125,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez3",
     awardsrep = "LaResistenza;40",
-    awardsitem = "Base.DriedBlackBeans;1",
+    awardsitem = "Base.SackProduce_Pear;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez3_Lore" },
@@ -3498,7 +3498,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez23",
     awardsrep = "LaResistenza;50",
-    awardsitem = "Money;15",
+    awardsitem = "Base.SackProduce_Corn;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez23_Lore" },
@@ -3569,7 +3569,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez25_A",
     awardsrep = "LaResistenza;450",
-    awardsitem = "Base.SackProduce_Lettuce;1;Base.SackProduce_Corn;1",
+    awardsitem = "Base.SackProduce_Lettuce;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez25_Lore" },
