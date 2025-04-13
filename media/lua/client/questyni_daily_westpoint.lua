@@ -2776,7 +2776,7 @@ table.insert(SFQuest_Database.QuestPool, {
     completesound = "levelup",
     dailycode = "Questyno_ChristopherDavis",
     lore = { "IGUI_SFQuest_Questyno_ChristopherDavis12_Lore" },
-    needsitem = "PredicateFoodWeight#Base.Cereal;2;0.3",
+    needsitem = "PredicateFoodWeight#Base.Cereal;2;0.2",
     onobtained = "unlockworldevent;Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis12_Complete",
     text = "IGUI_SFQuest_Questyno_ChristopherDavis12_A_Text",
     texture = "media/textures/Item_ChristopherDavis.png",
