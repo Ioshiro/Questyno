@@ -2144,7 +2144,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RyanParker6_Text",
     texture = "media/textures/Item_RyanParker.png",
     title = "IGUI_SFQuest_Questyno_RyanParker6_Title",
-    unlocks = "clickevent;39777x7672x0:EventoRyanParker6;time:50:anim:loot;updateobjective:Questyno_RyanParker6:1:Completed",
+    unlocks = "clickevent;3977x7672x0:EventoRyanParker6;time:50:anim:loot;updateobjective:Questyno_RyanParker6:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 

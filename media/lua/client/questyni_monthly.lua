@@ -2219,7 +2219,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DorianPrescott4_A_Text",
     texture = "media/textures/Item_DorianPrescott.png",
     title = "IGUI_SFQuest_Questyno_DorianPrescott4_Title",
-    unlocks = "clickevent;(7682x10299x0:EventoDorianPrescott4;time:50:anim:loot;updateobjective:Questyno_DorianPrescott4_A:1:Completed",
+    unlocks = "clickevent;7682x10299x0:EventoDorianPrescott4;time:50:anim:loot;updateobjective:Questyno_DorianPrescott4_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
