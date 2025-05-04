@@ -7199,7 +7199,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PaigeTurner_Intro_Complete_Text = "Ciao, io sono Paige e non sono una che parla molto. Non mi interessa fare discorsi, né raccontare storie. Gli zombie sono l'unica cosa che conta. Più li uccidi, più la tua mente resta lucida. Quindi, se sei venuto qui per fare chiacchiere, ti consiglio di andartene. Se invece vuoi imparare come affrontare questo mondo, allora forse puoi stare. Non rispetto chi ha paura di questi mostri. Non è il tempo per paura, non più. È il tempo di agire. Ho visto abbastanza gente nascondersi o implorare pietà. Qui non c'è pietà. Solo chi sa combattere sopravvive. Mi troverai dove c'è la carne da macellare. E se ti va di fare qualche lavoro utile, ci sono sempre un paio di cose da fare: cercare armi, raccogliere provviste… o eliminare qualche morto che si mette in mezzo. Rispetto chi non si ferma davanti ai non morti. E rispetto anche chi, come me, sa che il mondo è cambiato per sempre. Ma non cercare di fermarmi. Non ho bisogno di nessuno. Ho solo bisogno di zombie da uccidere.",
 
     IGUI_SFQuest_Questyno_PaigeTurner1_Title = "Paige Turner",
-    IGUI_SFQuest_Questyno_PaigeTurner1_Text = "[T2] Coplisci alla testa",
+    IGUI_SFQuest_Questyno_PaigeTurner1_Text = "[T2] Colpisci alla testa",
     IGUI_SFQuest_Questyno_PaigeTurner1_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner1_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 200 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner1_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
@@ -7207,7 +7207,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PaigeTurner1_Complete = "Benissimo, vai a leccarti le ferite nell'angolino!",
 
     IGUI_SFQuest_Questyno_PaigeTurner2_Title = "Paige Turner",
-    IGUI_SFQuest_Questyno_PaigeTurner2_Text = "[T2] Coplisci alla testa",
+    IGUI_SFQuest_Questyno_PaigeTurner2_Text = "[T2] Colpisci alla testa",
     IGUI_SFQuest_Questyno_PaigeTurner2_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner2_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 300 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner2_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
@@ -7215,7 +7215,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_PaigeTurner2_Complete = "Benissimo, vai a leccarti le ferite nell'angolino!",
 
     IGUI_SFQuest_Questyno_PaigeTurner3_Title = "Paige Turner",
-    IGUI_SFQuest_Questyno_PaigeTurner3_Text = "[T2] Coplisci alla testa",
+    IGUI_SFQuest_Questyno_PaigeTurner3_Text = "[T2] Colpisci alla testa",
     IGUI_SFQuest_Questyno_PaigeTurner3_Lore = "Paige mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_PaigeTurner3_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 350 di quei bastardi!",
     IGUI_SFQuest_Questyno_PaigeTurner3_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
@@ -7239,7 +7239,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_AnselMerrick_Intro_Complete_Text = "Mi chiamo Ansel Merrick. Un tempo ero un contrabbandiere, uno che guidava piccoli gruppi di disperati attraverso vecchie tratte ferroviarie e tunnel dimenticati. Portavo cibo, munizioni e medicinali a chi ne aveva bisogno, scavalcando posti di blocco e aggirando pattuglie di saccheggiatori. Era una vita rischiosa, ma mi ero creato una reputazione: sapevo come evitare guai, o almeno così credevo. Poi, una notte, un'orda di infetti ha fatto irruzione nei nostri rifugi di fortuna. Le mie rotte segrete non bastarono a salvarci: ci trovammo circondati e in trappola. Fu grazie al colpo di genio di Petra, la mia vecchia partner, che riuscimmo a scappare. Lei ha tenuto a bada quei mostri bastardi con un fucile a canne mozze e uno sguardo deciso, mentre io trascinavo il resto del gruppo verso un'apertura laterale in un vagone abbandonato. Senza di lei, non sarei qui ora. Sono tornato per aiutarti a non tremare più davanti a quei mangiacarne. Se c'è una cosa che ho imparato in tutti questi anni, è che la paura si può vincere, e io sono qui per mostrarti come.",
 
     IGUI_SFQuest_Questyno_AnselMerrick1_Title = "Ansel Merrick",
-    IGUI_SFQuest_Questyno_AnselMerrick1_Text = "[T3]Coplisci e fuggi",
+    IGUI_SFQuest_Questyno_AnselMerrick1_Text = "[T3]Colpisci e fuggi",
     IGUI_SFQuest_Questyno_AnselMerrick1_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick1_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 320 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick1_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
@@ -7247,7 +7247,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_AnselMerrick1_Complete = "Benissimo, vai a leccarti le ferite nell'angolino!",
 
     IGUI_SFQuest_Questyno_AnselMerrick2_Title = "Ansel Merrick",
-    IGUI_SFQuest_Questyno_AnselMerrick2_Text = "[T3]Coplisci e fuggi",
+    IGUI_SFQuest_Questyno_AnselMerrick2_Text = "[T3]Colpisci e fuggi",
     IGUI_SFQuest_Questyno_AnselMerrick2_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick2_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 420 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick2_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
@@ -7255,7 +7255,7 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
     IGUI_SFQuest_Questyno_AnselMerrick2_Complete = "Benissimo, vai a leccarti le ferite nell'angolino!",
 
     IGUI_SFQuest_Questyno_AnselMerrick3_Title = "Ansel Merrick",
-    IGUI_SFQuest_Questyno_AnselMerrick3_Text = "[T3]Coplisci e fuggi",
+    IGUI_SFQuest_Questyno_AnselMerrick3_Text = "[T3]Colpisci e fuggi",
     IGUI_SFQuest_Questyno_AnselMerrick3_Lore = "Ansel mi ha chiesto di collezionare un po' di uccisioni. Farò del mio meglio!",
     IGUI_SFQuest_Questyno_AnselMerrick3_Begin_Text = "Non perdere l'allenamento o un giorno ci resterai secco! Vai in città e uccidi 520 di quei bastardi!",
     IGUI_SFQuest_Questyno_AnselMerrick3_Begin_Text_Accepted = "Stavamo aspettando un tipo come te",
