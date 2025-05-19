@@ -89,6 +89,20 @@ function Questyno_Tweaks()
     manager:getItem("Base.BellyButton_StudGoldDiamond"):DoParam("Tags".." = ".. "Golden");
     manager:getItem("Base.NoseStud_Gold"):DoParam("Tags".." = ".. "Golden");
     manager:getItem("Base.NoseRing_Gold"):DoParam("Tags".." = ".. "Golden");
+    -- Penna
+    manager:getItem("Base.Pen"):DoParam("Tags".." = ".. "Penna");
+    manager:getItem("Base.BluePen"):DoParam("Tags".." = ".. "Penna");
+    manager:getItem("Base.RedPen"):DoParam("Tags".." = ".. "Penna");
+    -- BottigliaVetro
+    manager:getItem("Base.WineEmpty"):DoParam("Tags".." = ".. "BottigliaVetro");
+    manager:getItem("Base.WineEmpty2"):DoParam("Tags".." = ".. "BottigliaVetro");
+    manager:getItem("Base.BeerEmpty"):DoParam("Tags".." = ".. "BottigliaVetro");
+    manager:getItem("Base.WhiskeyEmpty"):DoParam("Tags".." = ".. "BottigliaVetro");
+    -- BottigliaPlastica
+    manager:getItem("Base.WaterBottleEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
+    manager:getItem("Base.PopBottleEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
+    manager:getItem("Base.MayonnaiseEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
+    manager:getItem("Base.BleachEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
 
     -- Mannequin
     -- manager:getItem("Moveables.location_shop_mall_01_66"):DoParam("Tags".." = ".. "Mannequin"); -- not working

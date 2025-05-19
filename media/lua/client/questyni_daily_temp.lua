@@ -299,7 +299,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo9",
 
-    awardsrep = "LaResistenza;60", -- REP REWARD
+    awardsrep = "LaResistenza;80", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo9_Lore" },
@@ -314,7 +314,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo10",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
     lore = { "IGUI_SFQuest_Questyno_MikePozzo10_Lore" },
@@ -502,7 +502,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo15_B",
 
-    awardsrep = "LaResistenza;100", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Base.TVDinner;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -604,7 +604,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MikePozzo19",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Money;20",  -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_MikePozzo",
@@ -1236,14 +1236,14 @@ local chinaQuest21 = {
     texture = "media/textures/Item_RosaChina.png",
     title = "IGUI_SFQuest_Questyno_RosaChina21_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;8314x8902x0:EventoRosaChina21;time:50:anim:loot;updateobjective:Questyno_RosaChina21:1:Completed",
+    unlocks = "clickevent;8267x9092x0:EventoRosaChina21;time:50:anim:loot;updateobjective:Questyno_RosaChina21:1:Completed",
 }
 table.insert(SFQuest_Database.QuestPool, chinaQuest21);
 
 local chinaQuest21A = {
     guid = "Questyno_RosaChina21_A",
 
-    awardsrep = "LaResistenza;130", -- REP REWARD
+    awardsrep = "LaResistenza;250", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_RosaChina",
     lore = { "IGUI_SFQuest_Questyno_RosaChina21_Lore" },

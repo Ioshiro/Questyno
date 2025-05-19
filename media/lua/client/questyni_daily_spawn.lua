@@ -55,7 +55,7 @@ table.insert(SFQuest_Database.QuestPool, grifIntro);
 local grifQuest1 = {
     guid = "Questyno_Grif1",
 
-    awardsrep = "LaResistenza;330", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif1_Lore" },
@@ -87,11 +87,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest2);
 local grifQuest3 = {
     guid = "Questyno_Grif3",
 
-    awardsrep = "LaResistenza;320", -- REP REWARD
+    awardsrep = "LaResistenza;1500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif3_Lore" },
-    needsitem = "PillsSleepingTablets;4", -- REQUIRE
+    needsitem = "PredicateFullDrainable#PillsSleepingTablets;4", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif3_Complete",
     text = "IGUI_SFQuest_Questyno_Grif3_Text",
     texture = "media/textures/Item_Grif.png",
@@ -103,7 +103,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest3);
 local grifQuest4 = {
     guid = "Questyno_Grif4",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif4_Lore" },
@@ -119,7 +119,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest4);
 local grifQuest5 = {
     guid = "Questyno_Grif5",
 
-    awardsrep = "LaResistenza;360", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -136,7 +136,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest5);
 local grifQuest6 = {
     guid = "Questyno_Grif6",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif6_Lore" },
@@ -168,7 +168,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest7);
 local grifQuest8 = {
     guid = "Questyno_Grif8",
 
-    awardsrep = "LaResistenza;400", -- REP REWARD
+    awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -185,7 +185,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest8);
 local grifQuest9 = {
     guid = "Questyno_Grif9",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;450", -- REP REWARD
     awardsitem = "Money;30",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -240,7 +240,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest10);
 local grifQuest10A = {
     guid = "Questyno_Grif10_A",
 
-    awardsrep = "LaResistenza;365", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif10_Lore" },
@@ -293,7 +293,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest11);
 local grifQuest11A = {
     guid = "Questyno_Grif11_A",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     awardsitem = "Money;40",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -348,7 +348,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest12);
 local grifQuest12A = {
     guid = "Questyno_Grif12_A",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;1500", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -363,7 +363,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest12A);
 local grifQuest13 = {
     guid = "Questyno_Grif13",
 
-    awardsrep = "LaResistenza;390", -- REP REWARD
+    awardsrep = "LaResistenza;750", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif13_Lore" },
@@ -379,11 +379,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest13);
 local grifQuest14 = {
     guid = "Questyno_Grif14",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif14_Lore" },
-    needsitem = "Disinfectant;3", -- REQUIRE
+    needsitem = "Disinfectant;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif14_Complete",
     text = "IGUI_SFQuest_Questyno_Grif14_Text",
     texture = "media/textures/Item_Grif.png",
@@ -395,7 +395,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest14);
 local grifQuest15 = {
     guid = "Questyno_Grif15",
 
-    awardsrep = "LaResistenza;310", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif15_Lore" },
@@ -440,8 +440,8 @@ table.insert(SFQuest_Database.QuestPool, grifQuest16);
 local grifQuest16A = {
     guid = "Questyno_Grif16_A",
 
-    awardsrep = "LaResistenza;350", -- REP REWARD
-    awardsitem = "Money;30",        -- MONEY REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
+    awardsitem = "Money;50",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif16_Lore" },
@@ -455,7 +455,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest16A);
 local grifQuest17 = {
     guid = "Questyno_Grif17",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     awardsitem = "Money;30",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -472,7 +472,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest17);
 local grifQuest18 = {
     guid = "Questyno_Grif18",
 
-    awardsrep = "LaResistenza;330", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif18_Lore" },
@@ -488,11 +488,11 @@ table.insert(SFQuest_Database.QuestPool, grifQuest18);
 local grifQuest19 = {
     guid = "Questyno_Grif19",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;500", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif19_Lore" },
-    needsitem = "Bandaid;9", -- REQUIRE
+    needsitem = "Bandaid;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif19_Complete",
     text = "IGUI_SFQuest_Questyno_Grif19_Text",
     texture = "media/textures/Item_Grif.png",
@@ -509,7 +509,7 @@ local grifQuest20 = {
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif20_Lore" },
-    needsitem = "Bandaid;5", -- REQUIRE
+    needsitem = "Bandaid;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif20_Complete",
     text = "IGUI_SFQuest_Questyno_Grif20_Text",
     texture = "media/textures/Item_Grif.png",
@@ -521,7 +521,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest20);
 local grifQuest21 = {
     guid = "Questyno_Grif21",
 
-    awardsrep = "LaResistenza;330", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif21_Lore" },
@@ -553,12 +553,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest22);
 local grifQuest23 = {
     guid = "Questyno_Grif23",
 
-    awardsrep = "LaResistenza;325", -- REP REWARD
+    awardsrep = "LaResistenza;1000", -- REP REWARD
     awardsitem = "FirstAidKit;1",
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif23_Lore" },
-    needsitem = "FirstAidKit;10", -- REQUIRE
+    needsitem = "FirstAidKit;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif23_Complete",
     text = "IGUI_SFQuest_Questyno_Grif23_Text",
     texture = "media/textures/Item_Grif.png",
@@ -570,7 +570,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest23);
 local grifQuest24 = {
     guid = "Questyno_Grif24",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     awardsitem = "Pills;1",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -587,7 +587,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest24);
 local grifQuest25 = {
     guid = "Questyno_Grif25",
 
-    awardsrep = "LaResistenza;400",         -- REP REWARD
+    awardsrep = "LaResistenza;1200",         -- REP REWARD
     awardsitem = "PillsSleepingTablets;1", -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -604,12 +604,12 @@ table.insert(SFQuest_Database.QuestPool, grifQuest25);
 local grifQuest26 = {
     guid = "Questyno_Grif26",
 
-    awardsrep = "LaResistenza;500",        -- REP REWARD
-    awardsitem = "LabItems.LabSyringe;5", -- MONEY REWARD
+    awardsrep = "LaResistenza;2200",        -- REP REWARD
+    awardsitem = "LabItems.LabSyringe;2", -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
     lore = { "IGUI_SFQuest_Questyno_Grif26_Lore" },
-    needsitem = "LabItems.LabSyringe;10", -- REQUIRE
+    needsitem = "LabItems.LabSyringe;5", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_Grif;SFQuest_Questyno_Grif26_Complete",
     text = "IGUI_SFQuest_Questyno_Grif26_Text",
     texture = "media/textures/Item_Grif.png",
@@ -621,7 +621,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest26);
 local grifQuest27 = {
     guid = "Questyno_Grif27",
 
-    awardsrep = "LaResistenza;320", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -711,7 +711,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest30);
 local grifQuest30A = {
     guid = "Questyno_Grif30_A",
 
-    awardsrep = "LaResistenza;345", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     awardsitem = "Money;50", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -747,7 +747,7 @@ table.insert(SFQuest_Database.QuestPool, grifQuest31);
 local grifQuest31A = {
     guid = "Questyno_Grif31_A",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;600", -- REP REWARD
     awardsitem = "Money;30", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_Grif",
@@ -3426,7 +3426,7 @@ table.insert(SFQuest_Database.QuestPool, bobIntro);
 local bobQuest1 = {
     guid = "Questyno_BobRepair1",
 
-    awardsrep = "LaResistenza;300", -- REP REWARD
+    awardsrep = "LaResistenza;400", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair1_Lore" },
@@ -3480,7 +3480,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest3);
 local bobQuest3A = {
     guid = "Questyno_BobRepair3_A",
 
-    awardsrep = "LaResistenza;1700", -- REP REWARD
+    awardsrep = "LaResistenza;1750", -- REP REWARD
     awardsitem = "Money;20",        -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3532,7 +3532,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest4);
 local bobQuest4A = {
     guid = "Questyno_BobRepair4_A",
 
-    awardsrep = "LaResistenza;400", -- REP REWARD
+    awardsrep = "LaResistenza;750", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair4_Lore" },
@@ -3599,7 +3599,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest6);
 local bobQuest6A = {
     guid = "Questyno_BobRepair6_A",
 
-    awardsrep = "LaResistenza;450",      -- REP REWARD
+    awardsrep = "LaResistenza;1500",      -- REP REWARD
     awardsitem = "SWeapons.TireIronAxe", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3652,7 +3652,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest7A);
 local bobQuest8 = {
     guid = "Questyno_BobRepair8",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     awardsitem = "Ham",            -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3711,7 +3711,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest9A);
 local bobQuest10 = {
     guid = "Questyno_BobRepair10",
 
-    awardsrep = "LaResistenza;500", -- REP REWARD
+    awardsrep = "LaResistenza;700", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair10_Lore" },
@@ -3743,7 +3743,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest11);
 local bobQuest12 = {
     guid = "Questyno_BobRepair12",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;120", -- REP REWARD
     awardsitem = "ScrapKilt",      -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
@@ -3782,7 +3782,8 @@ table.insert(SFQuest_Database.QuestPool, bobQuest13);
 local bobQuest13A = {
     guid = "Questyno_BobRepair13_A",
 
-    awardsrep = "LaResistenza;1500", -- REP REWARD
+    awardsrep = "LaResistenza;1000", -- REP REWARD
+    awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
     lore = { "IGUI_SFQuest_Questyno_BobRepair13_Lore" },
@@ -3877,7 +3878,7 @@ table.insert(SFQuest_Database.QuestPool, bobQuest15A);
 local bobQuest15B = {
     guid = "Questyno_BobRepair15_B",
 
-    awardsrep = "LaResistenza;250",             -- REP REWARD
+    awardsrep = "LaResistenza;100",             -- REP REWARD
     awardsitem = "SheetMetal;2;EngineParts;10", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_BobRepair",
