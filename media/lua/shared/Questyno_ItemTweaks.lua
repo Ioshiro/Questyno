@@ -101,7 +101,7 @@ function Questyno_Tweaks()
     -- BottigliaPlastica
     manager:getItem("Base.WaterBottleEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
     manager:getItem("Base.PopBottleEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
-    manager:getItem("Base.MayonnaiseEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
+    manager:getItem("farming.MayonnaiseEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
     manager:getItem("Base.BleachEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
 
     -- Mannequin

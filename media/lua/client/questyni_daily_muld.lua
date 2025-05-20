@@ -2104,11 +2104,11 @@ table.insert(SFQuest_Database.QuestPool, scottQuest16);
 local scottQuest17 = {
     guid = "Questyno_GeorgeScott17",
 
-    awardsrep = "LaResistenza;80", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott17_Lore" },
-    needsitem = "Base.Disc_Retail;2", -- REQUIRE
+    needsitem = "Base.Disc_Retail;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott17_Complete",
     text = "IGUI_SFQuest_Questyno_GeorgeScott17_Text",
     texture = "media/textures/Item_GeorgeScott.png",
@@ -2147,7 +2147,7 @@ table.insert(SFQuest_Database.QuestPool, scottQuest18);
 local scottQuest18A = {
     guid = "Questyno_GeorgeScott18_A",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott18_Lore" },
@@ -2240,7 +2240,7 @@ table.insert(SFQuest_Database.QuestPool, scottQuest20A);
 local scottQuest21 = {
     guid = "Questyno_GeorgeScott21",
 
-    awardsrep = "LaResistenza;50", -- REP REWARD
+    awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_GeorgeScott",
     lore = { "IGUI_SFQuest_Questyno_GeorgeScott21_Lore" },
@@ -3398,7 +3398,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura30",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
-    needsitem = "LongJohns_Bottoms;1", -- REQUIRE
+    needsitem = "AuthenticZLite.Thino1_LongJohns;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura30_Lore" },
