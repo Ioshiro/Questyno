@@ -681,7 +681,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso1",
 
-    awardsrep = "LaResistenza;180",
+    awardsrep = "LaResistenza;300",
     awardsitem = "Money;25",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
@@ -697,7 +697,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso2",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;250",
     awardsitem = "Money;15",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
@@ -730,7 +730,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso3_A",
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;300",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso3_Lore" },
@@ -792,7 +792,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso5_A",
-    awardsrep = "LaResistenza;35",
+    awardsrep = "LaResistenza;200",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso5_Lore" },
@@ -838,7 +838,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso7_A",
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;200",
     awardsitem = "Money;30",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
@@ -852,7 +852,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso8",
-    awardsrep = "LaResistenza;25",
+    awardsrep = "LaResistenza;300",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",
     lore = { "IGUI_SFQuest_Questyno_RafaelPrezioso8_Lore" },
@@ -889,7 +889,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RafaelPrezioso9_A",
-    awardsrep = "LaResistenza;800",
+    awardsrep = "LaResistenza;1200",
     awardsitem = "Money;30",
     completesound = "levelup",
     dailycode = "Questyno_RafaelPrezioso",

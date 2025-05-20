@@ -2246,7 +2246,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker9_A",
-    awardsrep = "LaResistenza;600",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "Money;100",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2374,7 +2374,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker13_A",
-    awardsrep = "LaResistenza;600",
+    awardsrep = "LaResistenza;1000",
     awardsitem = "Money;100",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2406,7 +2406,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker14_A",
-    awardsrep = "LaResistenza;600",
+    awardsrep = "LaResistenza;1800",
     awardsitem = "Money;100",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2534,7 +2534,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker18_A",
-    awardsrep = "LaResistenza;1200",
+    awardsrep = "LaResistenza;1600",
     awardsitem = "Money;200",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2566,7 +2566,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker19_A",
-    awardsrep = "LaResistenza;1200",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "Money;200",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2598,7 +2598,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker20_A",
-    awardsrep = "LaResistenza;1200",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "Money;200",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
@@ -2671,7 +2671,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner1_A",
 
-    awardsrep = "LaResistenza;700", -- REP REWARD
+    awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2705,7 +2705,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner2_A",
 
-    awardsrep = "LaResistenza;500", -- REP REWARD
+    awardsrep = "LaResistenza;2000", -- REP REWARD
     awardsitem = "Money;100", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2739,7 +2739,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner3_A",
 
-    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsrep = "LaResistenza;3500", -- REP REWARD
     awardsitem = "Money;180", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2773,7 +2773,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner4_A",
 
-    awardsrep = "LaResistenza;700", -- REP REWARD
+    awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2807,7 +2807,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner5_A",
 
-    awardsrep = "LaResistenza;1800", -- REP REWARD
+    awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "Money;200", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2841,7 +2841,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner6_A",
 
-    awardsrep = "LaResistenza;1600", -- REP REWARD
+    awardsrep = "LaResistenza;2800", -- REP REWARD
     awardsitem = "Money;200", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2875,7 +2875,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner7_A",
 
-    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsrep = "LaResistenza;2000", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2909,7 +2909,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner8_A",
 
-    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2943,7 +2943,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner9_A",
 
-    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsrep = "LaResistenza;2500", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -2977,7 +2977,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner10_A",
 
-    awardsrep = "LaResistenza;1600", -- REP REWARD
+    awardsrep = "LaResistenza;3000", -- REP REWARD
     awardsitem = "Money;200", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -3011,7 +3011,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner11_A",
 
-    awardsrep = "LaResistenza;1850", -- REP REWARD
+    awardsrep = "LaResistenza;3500", -- REP REWARD
     awardsitem = "Money;160", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -3045,7 +3045,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner12_A",
 
-    awardsrep = "LaResistenza;1850", -- REP REWARD
+    awardsrep = "LaResistenza;3600", -- REP REWARD
     awardsitem = "Money;160", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -3079,7 +3079,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner13_A",
 
-    awardsrep = "LaResistenza;850", -- REP REWARD
+    awardsrep = "LaResistenza;1650", -- REP REWARD
     awardsitem = "Money;120", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -3113,7 +3113,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner14_A",
 
-    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsrep = "LaResistenza;2250", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
@@ -3147,7 +3147,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JacobTurner15_A",
 
-    awardsrep = "LaResistenza;1250", -- REP REWARD
+    awardsrep = "LaResistenza;2250", -- REP REWARD
     awardsitem = "Money;150", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_JacobTurner",
