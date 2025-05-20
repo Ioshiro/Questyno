@@ -3398,7 +3398,7 @@ table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_XuMishura30",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
-    needsitem = "AuthenticZLite.Thino1_LongJohns;1", -- REQUIRE
+    needsitem = "Tag#Calzamaglia;1", -- REQUIRE
     completesound = "levelup",
     dailycode = "Questyno_XuMishura",
     lore = { "IGUI_SFQuest_Questyno_XuMishura30_Lore" },

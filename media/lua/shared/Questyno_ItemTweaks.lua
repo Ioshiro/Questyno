@@ -104,6 +104,11 @@ function Questyno_Tweaks()
     manager:getItem("farming.MayonnaiseEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
     manager:getItem("Base.BleachEmpty"):DoParam("Tags".." = ".. "BottigliaPlastica");
 
+       -- Mutandoni
+    manager:getItem("Base.LongJohns"):DoParam("Tags".." = ".. "Calzamaglia");
+    manager:getItem("AuthenticZLite.Thin01_LongJohns"):DoParam("Tags".." = ".. "Calzamaglia");
+
+
     -- Mannequin
     -- manager:getItem("Moveables.location_shop_mall_01_66"):DoParam("Tags".." = ".. "Mannequin"); -- not working
     -- manager:getItem("Moveables.location_shop_mall_01_69"):DoParam("Tags".." = ".. "Mannequin"); -- not working
