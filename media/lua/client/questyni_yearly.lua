@@ -25,7 +25,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer1",
 
-    awardsrep = "LaResistenza;1500", -- REP REWARD
+    awardsrep = "LaResistenza;4000", -- REP REWARD
     awardsitem = "SWeapons.WireBat;1",
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
@@ -40,7 +40,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer2",
 
-    awardsrep = "LaResistenza;1200", -- REP REWARD
+    awardsrep = "LaResistenza;3800", -- REP REWARD
     awardsitem = "SWeapons.BoltBat;1",
     completesound = "levelup",
     dailycode = "Questyno_AlexMercer",
@@ -55,7 +55,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_AlexMercer3",
 
-    awardsrep = "LaResistenza;1600", -- REP REWARD
+    awardsrep = "LaResistenza;4200", -- REP REWARD
     awardsitem = "SWeapons.ChainBat;1",
     -- awardstask = "Questyno_AlexMercer1",
     completesound = "levelup",

@@ -1877,7 +1877,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis9",
-    awardsrep = "LaResistenza;450",
+    awardsrep = "LaResistenza;750",
     dailycode = "Questyno_JeffreyLewis",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis9_Lore" },
@@ -1999,11 +1999,11 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JeffreyLewis12",
-    awardsrep = "LaResistenza;1500",
+    awardsrep = "LaResistenza;250",
     completesound = "levelup",
     dailycode = "Questyno_JeffreyLewis",
     lore = { "IGUI_SFQuest_Questyno_JeffreyLewis12_Lore" },
-    needsitem = "Base.TVMagazine;10",
+    needsitem = "Base.TVMagazine;1",
     onobtained = "unlockworldevent;Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis12_Complete",
     text = "IGUI_SFQuest_Questyno_JeffreyLewis12_Text",
     texture = "media/textures/Item_JeffreyLewis.png",
@@ -3124,12 +3124,12 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez3",
-    awardsrep = "LaResistenza;40",
+    awardsrep = "LaResistenza;150",
     awardsitem = "Base.SackProduce_Pear;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez3_Lore" },
-    needsitem = "LogStacks3;2",
+    needsitem = "Pencil;20",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez3_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez3_Text",
     texture = "media/textures/Item_PamelaPerez.png",
@@ -3497,12 +3497,12 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_PamelaPerez23",
-    awardsrep = "LaResistenza;50",
+    awardsrep = "LaResistenza;350",
     awardsitem = "Base.SackProduce_Corn;1",
     completesound = "levelup",
     dailycode = "Questyno_PamelaPerez",
     lore = { "IGUI_SFQuest_Questyno_PamelaPerez23_Lore" },
-    needsitem = "Base.HammerStone;8",
+    needsitem = "Tag#Asciugamano;20",
     onobtained = "unlockworldevent;Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez23_Complete",
     text = "IGUI_SFQuest_Questyno_PamelaPerez23_Text",
     texture = "media/textures/Item_PamelaPerez.png",

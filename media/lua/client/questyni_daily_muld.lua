@@ -1808,7 +1808,7 @@ local scottQuest9A = {
 }
 table.insert(SFQuest_Database.QuestPool, scottQuest9A);
 
-local scottQuest10 = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GeorgeScott10",
 
     awardstask = "Questyno_GeorgeScott10_A", -- TASK REWARD
@@ -1835,10 +1835,9 @@ local scottQuest10 = {
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
     unlockedsound = "QuestUnlocked",
     unlocks = "clickevent;8506x7685x0:EventoGeorgeScott10;anim:loot:time:50;updateobjective:Questyno_GeorgeScott10:1:Completed"
-}
-table.insert(SFQuest_Database.QuestPool, scottQuest10);
+});
 
-local scottQuest10A = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GeorgeScott10_A",
 
     awardstask = "Questyno_GeorgeScott10_B", -- TASK REWARD
@@ -1866,10 +1865,9 @@ local scottQuest10A = {
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_A_Text",
     texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
-}
-table.insert(SFQuest_Database.QuestPool, scottQuest10A);
+});
 
-local scottQuest10B = {
+table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_GeorgeScott10_B",
 
     awardsrep = "LaResistenza;140", -- REP REWARD
@@ -1881,8 +1879,7 @@ local scottQuest10B = {
     text = "IGUI_SFQuest_Questyno_GeorgeScott10_B_Text",
     texture = "media/textures/Item_GeorgeScott.png",
     title = "IGUI_SFQuest_Questyno_GeorgeScott10_Title",
-}
-table.insert(SFQuest_Database.QuestPool, scottQuest10B);
+});
 
 local scottQuest11 = {
     guid = "Questyno_GeorgeScott11",
@@ -2546,7 +2543,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_SamuelYoung13_A",
         text = "IGUI_SFQuest_Questyno_SamuelYoung13_A",
         hidden = false,
-        needsitem = "PredicateFreshFood#farming.Cabbage;10",
+        needsitem = "PredicateFreshFood#farming.Cabbage;6",
         onobtained = "updateobjective;Questyno_SamuelYoung13;1;Completed;removeitem;Cabbage;6"
     }, {
         guid = "Questyno_SamuelYoung13_B",

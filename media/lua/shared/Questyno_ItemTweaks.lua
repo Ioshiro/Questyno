@@ -107,6 +107,9 @@ function Questyno_Tweaks()
        -- Mutandoni
     manager:getItem("Base.LongJohns"):DoParam("Tags".." = ".. "Calzamaglia");
     manager:getItem("AuthenticZLite.Thin01_LongJohns"):DoParam("Tags".." = ".. "Calzamaglia");
+    -- Asciugamani
+    manager:getItem("Base.DishCloth"):DoParam("Tags".." = ".. "Asciugamano");
+    manager:getItem("Base.BathTowel"):DoParam("Tags".." = ".. "Asciugamano");
 
 
     -- Mannequin
