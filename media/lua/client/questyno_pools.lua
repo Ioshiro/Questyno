@@ -1040,14 +1040,14 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	days = 0,
 	frequency = 60
 });
---[[
+
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_RonaldPerez",
-	condition = "notmaxedwithcode;Questyno_RonaldPerez;1;hasfactiontier;LaResistenza;6",
+	condition = "notmaxedwithcode;Questyno_RonaldPerez;1;hasfactiontier;LaResistenza;7",
 	commands = "randomcodedworldfrompool;Questyno_RonaldPerez;Questyno;RonaldPerez",
 	days = 0,
 	frequency = 60
-});]]
+});
 table.insert(SFQuest_Database.DailyEventPool, {
 	dailycode = "Questyno_GarrettKing",
 	condition = "notmaxedwithcode;Questyno_GarrettKing;1;hasfactiontier;LaResistenza;7",
