@@ -8183,8 +8183,8 @@ Dimostrami che hai occhio, che non raccatti la prima cosa che trovi tra le macer
 
     IGUI_SFQuest_Questyno_VivianParker1_Title = "Vivian Parker",
     IGUI_SFQuest_Questyno_VivianParker1_Text = "Un ottimo affare",
-    IGUI_SFQuest_Questyno_VivianParker1_Lore = "Vivian mi darà una tanica di propano grande se gli porto abbastanza torce al propano piene!",
-    IGUI_SFQuest_Questyno_VivianParker1_Begin_Text = "Portami 15 Torce al propano e ti darò un bel bombolone da ciò che riuscirò ad estrarne!",
+    IGUI_SFQuest_Questyno_VivianParker1_Lore = "Vivian mi darà una tanica di propano grande se gli porto abbastanza torce al propano (quasi scariche)",
+    IGUI_SFQuest_Questyno_VivianParker1_Begin_Text = "Portami 10 Torce al propano e ti darò un bel bombolone da ciò che riuscirò ad estrarne!",
     IGUI_SFQuest_Questyno_VivianParker1_Begin_Text_Accepted = "Ottimo! Ti aspetto.",
     IGUI_SFQuest_Questyno_VivianParker1_Begin_Text_Declined = "Peggio per te amico!",
     IGUI_SFQuest_Questyno_VivianParker1_Complete = "Ecco a te il tuo bombolone!",
