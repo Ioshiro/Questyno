@@ -721,7 +721,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell1_A",
 
-    awardsrep = "LaResistenza;125",
+    awardsrep = "LaResistenza;1500",
     awardsitem = "TW.WorkshopMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -759,7 +759,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell2_A",
 
-    awardsrep = "LaResistenza;125",
+    awardsrep = "LaResistenza;2400",
     awardsitem = "TW.WorkshopMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -797,7 +797,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell3_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;1400",
     awardsitem = "TW.WorkshopMag2;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -835,7 +835,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell4_A",
 
-    awardsrep = "LaResistenza;100",
+    awardsrep = "LaResistenza;1200",
     awardsitem = "SWeapons.WeaponMag1;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -873,7 +873,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell5_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -911,7 +911,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell6_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;2200",
     awardsitem = "SWeapons.WeaponMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -949,7 +949,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell7_A",
 
-    awardsrep = "LaResistenza;160",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "SArmor.ArmorMag1;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -987,7 +987,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell8_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;1950",
     awardsitem = "SArmor.ArmorMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1025,7 +1025,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell9_A",
 
-    awardsrep = "LaResistenza;300",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "SWeapons.WeaponMag5;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1063,7 +1063,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell10_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SArmor.ArmorMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1101,7 +1101,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell11_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SWeapons.WeaponMag6;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1139,7 +1139,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell12_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;500",
     awardsitem = "SArmor.ArmorMag5;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
