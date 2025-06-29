@@ -2118,7 +2118,7 @@ table.insert(SFQuest_Database.QuestPool, {
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RyanParker5_A",
-    awardsrep = "LaResistenza;300",
+    awardsrep = "LaResistenza;600",
     awardsitem = "Money;50",
     completesound = "levelup",
     dailycode = "Questyno_RyanParker",
