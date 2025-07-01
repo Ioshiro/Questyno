@@ -213,7 +213,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze8_A_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze8_Title",
-    unlocks = "actionevent;killzombies:1000:tierlevel:5;updateobjective:Questyno_TaylorBlaze8:7:Completed"
+    unlocks = "actionevent;killzombies:1000:tierlevel:5;updateobjective:Questyno_TaylorBlaze8_A:7:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
