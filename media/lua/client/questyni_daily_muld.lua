@@ -849,12 +849,12 @@ table.insert(SFQuest_Database.QuestPool, leeQuest1);
 local leeQuest1A = {
     guid = "Questyno_SusanLee1_A",
 
-    awardsrep = "LaResistenza;150", -- REP REWARD
+    awardsrep = "LaResistenza;350", -- REP REWARD
     awardsitem = "Base.Disinfectant;1", -- ITEM REWARD
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee1_Lore" },
-    needsitem = "Antibiotics;2", -- REQUIRE
+    needsitem = "Antibiotics;1", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee1_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee1_A_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1025,11 +1025,11 @@ table.insert(SFQuest_Database.QuestPool, leeQuest6);
 local leeQuest7 = {
     guid = "Questyno_SusanLee7",
 
-    awardsrep = "LaResistenza;120", -- REP REWARD
+    awardsrep = "LaResistenza;220", -- REP REWARD
     completesound = "levelup",
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee7_Lore" },
-    needsitem = "Antibiotics;1", -- REQUIRE
+    needsitem = "Base.Pills;3", -- REQUIRE
     onobtained = "unlockworldevent;Questyno_SusanLee;SFQuest_Questyno_SusanLee7_Complete",
     text = "IGUI_SFQuest_Questyno_SusanLee7_Text",
     texture = "media/textures/Item_SusanLee.png",
@@ -1059,6 +1059,7 @@ local leeQuest9 = {
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
+    awardsitem = "Base.Bandage;2", -- ITEM REWARD
     dailycode = "Questyno_SusanLee",
     lore = { "IGUI_SFQuest_Questyno_SusanLee9_Lore" },
     needsitem = "LabSyringe;1", -- REQUIRE
