@@ -535,7 +535,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_VivianParker1",
 
-    awardsrep = "LaResistenza;200", -- REP REWARD
+    awardsrep = "LaResistenza;2000", -- REP REWARD
     awardsitem = "TW.LargePropaneTank;1",
     needsitem = "PredicateDrainable#BlowTorch;8;0.1", -- REQUIRE
     completesound = "levelup",
