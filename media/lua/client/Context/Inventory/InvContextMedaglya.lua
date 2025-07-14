@@ -20,15 +20,15 @@ function ISInventoryMenuElements.ContextMedaglya()
     function self.awardReputation( _p, _i)
         local rep = 0
         if _i:getType() == "MedaglyaBronzo" then
-            rep = 350
+            rep = 300
         elseif _i:getType() == "MedaglyaArgento" then
             rep = 1000
         elseif _i:getType() == "MedaglyaOro" then
-            rep = 3000
+            rep = 2000
         elseif _i:getType() == "MedaglyaPlatino" then
-            rep = 10000
+            rep = 5000
         elseif _i:getType() == "MedaglyaDiamante" then
-            rep = 50000
+            rep = 10000
         end
         SF_MissionPanel:awardReputation("LaResistenza", rep)
 
