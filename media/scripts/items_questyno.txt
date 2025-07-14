@@ -13,6 +13,16 @@ module LR{
         WorldStaticModel = FloppyDisk,
     }
 
+    item Autocertificazione {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayCategory = 	Special,
+        DisplayName		=	Autocertificazione,
+        Icon			=	Paper,        
+        WorldStaticModel = EmptyNotebook,
+        Tooltip           =   Tooltip_item_Autocertificazione,
+    }
+
     	
 	item Lore1 {
 		Weight			=	0.1,

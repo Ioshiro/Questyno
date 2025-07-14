@@ -368,7 +368,7 @@ function SF_MissionPanel.Commands.removequest(questid)
                                         local actionevent = player:getModData().missionProgress.ActionEvent; 
                                         for a=#actionevent,1,-1 do -- TODO: fix this with actionevent[a].condition == "killzombies" and using luautils.stringStarts
                                             local commands = luautils.split(actionevent[a].commands, ";");
-                                            if commands[1] == "killzombies" and commands[2] == task.guid then                                                        
+                                            if actionevent[a].condition == "killzombies" and commands[2] == task.guid then                                                        
                                                 table.remove(player:getModData().missionProgress.ActionEvent, a);
                                                 break;
                                             end
