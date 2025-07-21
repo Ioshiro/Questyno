@@ -774,7 +774,7 @@ table.insert(SFQuest_Database.QuestPool, {
             Elenco:
                 intro. Parla con Ethan Steele per sbloccare le daily.
 				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
-				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
+				2. Recuperare EHE.Jacket_DenimCutoff parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
 				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
 ]]
 
@@ -840,7 +840,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_EthanSteele2_A",
         text = "IGUI_SFQuest_Questyno_EthanSteele2_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoEthanSteele2;additem;AuthenticZLite.Jacket_ChuckGreene;1",
+        oncompleted = "removeclickevent;EventoEthanSteele2;additem;EHE.Jacket_DenimCutoff;1",
     },{
         guid = "Questyno_EthanSteele2_B",
         text = "IGUI_SFQuest_Questyno_EthanSteele2_B",
@@ -862,7 +862,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele3_Begin;Questyno_EthanSteele3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EthanSteele2_Lore" },
-    needsitem = "AuthenticZLite.Jacket_ChuckGreene;1",
+    needsitem = "EHE.Jacket_DenimCutoff;1",
     onobtained = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele2_Complete",
     text = "IGUI_SFQuest_Questyno_EthanSteele2_A_Text",
     texture = "media/textures/Item_EthanSteele.png",
