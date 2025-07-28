@@ -1171,7 +1171,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell13_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:150:tierlevel:3;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;5992x11924x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
+    unlocks = "actionevent;killzombies:150:tierlevel:3;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;5992x11225x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
