@@ -2359,7 +2359,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter6_B",
 
     awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
-    awardsitem = "MoneytoXP.Rotolo;4", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Rotolo;4", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter7_Begin;Questyno_KylePorter7", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter6_Lore" },
