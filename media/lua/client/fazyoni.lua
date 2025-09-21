@@ -41,12 +41,12 @@ LaResistenzaTiersTemplate = {
         tiername = "IGUI_Factions_Resistenza_Tier5",
         minrep = 17500,
         barcolor = "darkgreen",
-        unlocks = "addreputation;PamelaPerez;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;XuMishura;100;addreputation;DavidTurner;100"
+        unlocks = "addreputation;PamelaPerez;100;addreputation;HeatherThomas;100;addreputation;EliaRima;100;addreputation;VictoriaSecret;100;addreputation;SusanLee;100;addreputation;GeorgeScott;100;addreputation;XuMishura;100;addreputation;DavidTurner;100;addreputation;RobertWilson;100"
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier6",
         minrep = 180000,
         barcolor = "lightred",
-        unlocks = "addreputation;BrianWhite;100;addreputation;MarcusKane;100;addreputation;SergenteGrif;100;addreputation;BobRepair;100;addreputation;AlexMercer;100;addreputation;SamuelYoung;100;addreputation;LucasMiller;100;addreputation;TonyLupo;100;addreputation;RafaelPrezioso;100;addreputation;JeffreyLewis;100;addreputation;ChristopherDavis;100;addreputation;SamFisher;100;addreputation;RobertWilson;100;addreputation;GabrielWalker;100;addreputation;AnselMerrick;100;addreputation;MalachiBlevins;100;addreputation;RichardBrown;100"
+        unlocks = "addreputation;BrianWhite;100;addreputation;MarcusKane;100;addreputation;SergenteGrif;100;addreputation;BobRepair;100;addreputation;AlexMercer;100;addreputation;SamuelYoung;100;addreputation;LucasMiller;100;addreputation;TonyLupo;100;addreputation;RafaelPrezioso;100;addreputation;JeffreyLewis;100;addreputation;ChristopherDavis;100;addreputation;SamFisher;100;addreputation;GabrielWalker;100;addreputation;AnselMerrick;100;addreputation;MalachiBlevins;100;addreputation;RichardBrown;100"
         -- DA CREARE: ;addreputation;AaronFletcher;100
     }, {
         tiername = "IGUI_Factions_Resistenza_Tier7",

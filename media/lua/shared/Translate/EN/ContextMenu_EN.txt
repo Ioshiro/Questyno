@@ -6,4 +6,5 @@ ContextMenu_EN = {
     ContextMenu_TakeReputation = "Redeem Reputation",
     ContextMenu_ChiaveMacchinyno = "Redeem vehicle",
     ContextMenu_ChiaveMacchinyno_ToolTip = "Redeem vehicle in perfect condition and with 100 quality engine!",
+    ContextMenu_Autocertifica = "Complete quest",
 }

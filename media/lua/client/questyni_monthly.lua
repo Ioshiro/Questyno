@@ -213,7 +213,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_TaylorBlaze8_A_Text",
     texture = "media/textures/Item_TaylorBlaze.png",
     title = "IGUI_SFQuest_Questyno_TaylorBlaze8_Title",
-    unlocks = "actionevent;killzombies:1000:tierlevel:5;updateobjective:Questyno_TaylorBlaze8:7:Completed"
+    unlocks = "actionevent;killzombies:1000:tierlevel:5;updateobjective:Questyno_TaylorBlaze8_A:7:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -265,8 +265,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane1_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_A",
         hidden = false,
-        needsitem = "CardID;50",
-        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;50",
+        needsitem = "CardID;15",
+        onobtained = "updateobjective;Questyno_MarcusKane1;1;Completed;removeitem;CardID;15",
     },{
         guid = "Questyno_MarcusKane1_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane1_B",
@@ -303,8 +303,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane2_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_A",
         hidden = false,
-        needsitem = "CardID;100",
-        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;100",
+        needsitem = "CardID;20",
+        onobtained = "updateobjective;Questyno_MarcusKane2;1;Completed;removeitem;CardID;20",
     },{
         guid = "Questyno_MarcusKane2_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane2_B",
@@ -321,7 +321,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane2_A",
 
     awardsrep = "LaResistenza;2000",
-    awardsitem = "Base.Money;50",
+    awardsitem = "Base.Money;20",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane2_Lore" },
@@ -341,8 +341,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane3_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_A",
         hidden = false,
-        needsitem = "CardID;120",
-        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;120",
+        needsitem = "CardID;30",
+        onobtained = "updateobjective;Questyno_MarcusKane3;1;Completed;removeitem;CardID;30",
     },{
         guid = "Questyno_MarcusKane3_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane3_B",
@@ -359,7 +359,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MarcusKane3_A",
 
     awardsrep = "LaResistenza;2200",
-    awardsitem = "Base.Money;60",
+    awardsitem = "Base.Money;40",
     completesound = "levelup",
     dailycode = "Questyno_MarcusKane",
     lore = { "IGUI_SFQuest_Questyno_MarcusKane3_Lore" },
@@ -379,8 +379,8 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_MarcusKane4_A",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_A",
         hidden = false,
-        needsitem = "CardID;200",
-        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;200",
+        needsitem = "CardID;40",
+        onobtained = "updateobjective;Questyno_MarcusKane4;1;Completed;removeitem;CardID;40",
     },{
         guid = "Questyno_MarcusKane4_B",
         text = "IGUI_SFQuest_Questyno_MarcusKane4_B",
@@ -721,7 +721,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell1_A",
 
-    awardsrep = "LaResistenza;125",
+    awardsrep = "LaResistenza;1500",
     awardsitem = "TW.WorkshopMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -759,7 +759,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell2_A",
 
-    awardsrep = "LaResistenza;125",
+    awardsrep = "LaResistenza;2400",
     awardsitem = "TW.WorkshopMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -797,7 +797,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell3_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;1400",
     awardsitem = "TW.WorkshopMag2;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -835,7 +835,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell4_A",
 
-    awardsrep = "LaResistenza;100",
+    awardsrep = "LaResistenza;1200",
     awardsitem = "SWeapons.WeaponMag1;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -873,7 +873,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell5_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SWeapons.WeaponMag2;1;SWeapons.WeaponMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -911,7 +911,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell6_A",
 
-    awardsrep = "LaResistenza;150",
+    awardsrep = "LaResistenza;2200",
     awardsitem = "SWeapons.WeaponMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -949,7 +949,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell7_A",
 
-    awardsrep = "LaResistenza;160",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "SArmor.ArmorMag1;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -987,7 +987,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell8_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;1950",
     awardsitem = "SArmor.ArmorMag3;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1025,7 +1025,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell9_A",
 
-    awardsrep = "LaResistenza;300",
+    awardsrep = "LaResistenza;3000",
     awardsitem = "SWeapons.WeaponMag5;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1063,7 +1063,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell10_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SArmor.ArmorMag4;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1101,7 +1101,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell11_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;2000",
     awardsitem = "SWeapons.WeaponMag6;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1139,7 +1139,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_MayaBlackwell12_A",
 
-    awardsrep = "LaResistenza;200",
+    awardsrep = "LaResistenza;500",
     awardsitem = "SArmor.ArmorMag5;1",
     completesound = "levelup",
     dailycode = "Questyno_MayaBlackwell",
@@ -1171,7 +1171,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell13_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:150:tierlevel:3;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;5992x11924x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
+    unlocks = "actionevent;killzombies:150:tierlevel:3;updateobjective:Questyno_MayaBlackwell13:2:Completed;clickevent;5992x11225x0:EventoMayaBlackwell13;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell13:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2219,7 +2219,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_DorianPrescott4_A_Text",
     texture = "media/textures/Item_DorianPrescott.png",
     title = "IGUI_SFQuest_Questyno_DorianPrescott4_Title",
-    unlocks = "clickevent;(7682x10299x0:EventoDorianPrescott4;time:50:anim:loot;updateobjective:Questyno_DorianPrescott4_A:1:Completed",
+    unlocks = "clickevent;7682x10299x0:EventoDorianPrescott4;time:50:anim:loot;updateobjective:Questyno_DorianPrescott4_A:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {

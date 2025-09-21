@@ -266,7 +266,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
     awardsrep = "LaResistenza;30;ElowenBeckett;119", -- REP REWARD
-    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1", -- ITEM REWARD
+    awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1;", -- ITEM REWARD
     needsitem = "ScrapMetal;2", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
@@ -490,7 +490,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker1",
 
-    awardsrep = "LaResistenza;50;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;200;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.ScrapBlade;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker2_Begin;Questyno_JohnBaker2", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -507,7 +507,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker2",
 
-    awardsrep = "LaResistenza;100;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;300;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.ScrapMachete;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker3_Begin;Questyno_JohnBaker3", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -543,7 +543,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker3_A",
 
-    awardsrep = "LaResistenza;150;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;400;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.SpearScrapMachete;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker4_Begin;Questyno_JohnBaker4", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -559,7 +559,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker4",
 
-    awardsrep = "LaResistenza;200;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;500;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.ScrapSword;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker5_Begin;Questyno_JohnBaker5", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -630,7 +630,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker5_B",
 
-    awardsrep = "LaResistenza;250;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;600;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.SalvagedNightstick;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker6_Begin;Questyno_JohnBaker6", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -645,7 +645,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker6",
 
-    awardsrep = "LaResistenza;300;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;700;JohnBaker;8", -- REP REWARD
     awardsitem = "MoneyToXP.Droga4;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker7_Begin;Questyno_JohnBaker7", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -661,7 +661,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker7",
 
-    awardsrep = "LaResistenza;350;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;800;JohnBaker;8", -- REP REWARD
     awardsitem = "Base.SalvagedPipe;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker8_Begin;Questyno_JohnBaker8", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -693,7 +693,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker9",
 
-    awardsrep = "LaResistenza;450;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;900;JohnBaker;8", -- REP REWARD
     awardsitem = "SWeapons.SalvagedPipe;1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker10_Begin;Questyno_JohnBaker10", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -709,7 +709,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker10",
 
-    awardsrep = "LaResistenza;500;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;1000;JohnBaker;8", -- REP REWARD
     awardsitem = "Table:GoldWeapons1", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker11_Begin;Questyno_JohnBaker11", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -725,7 +725,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker11",
 
-    awardsrep = "LaResistenza;550;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;1200;JohnBaker;8", -- REP REWARD
     awardsitem = "Table:GoldWeapons2", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker12_Begin;Questyno_JohnBaker12", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -741,7 +741,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker12",
 
-    awardsrep = "LaResistenza;600;JohnBaker;8", -- REP REWARD
+    awardsrep = "LaResistenza;1400;JohnBaker;8", -- REP REWARD
     awardsitem = "Table:GoldWeapons2", -- ITEM REWARD
     awardsworld = "Questyno_JohnBaker;SFQuest_Questyno_JohnBaker13_Begin;Questyno_JohnBaker13", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -757,7 +757,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_JohnBaker13",
 
-    awardsrep = "LaResistenza;1000;JohnBaker;105", -- REP REWARD
+    awardsrep = "LaResistenza;2000;JohnBaker;105", -- REP REWARD
     awardsitem = "Table:GoldWeapons3", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_JohnBaker13_Lore" },
@@ -774,7 +774,7 @@ table.insert(SFQuest_Database.QuestPool, {
             Elenco:
                 intro. Parla con Ethan Steele per sbloccare le daily.
 				1. Recuperare Base.Army_Duffle_Bag parlando con (10102,11172,0), Uccidere 50 Zombie (40rep + 25$)
-				2. Recuperare AuthenticZLite.Jacket_ChuckGreene parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
+				2. Recuperare EHE.Jacket_DenimCutoff parlando con (10102,11172,0), Uccidere 50 Zombie (60rep + 25$)
 				3. Recuperare 250 Soldi (120rep + Base.EmptyCAN6)
 ]]
 
@@ -840,7 +840,7 @@ table.insert(SFQuest_Database.QuestPool, {
         guid = "Questyno_EthanSteele2_A",
         text = "IGUI_SFQuest_Questyno_EthanSteele2_A",
         hidden = false,
-        oncompleted = "removeclickevent;EventoEthanSteele2;additem;AuthenticZLite.Jacket_ChuckGreene;1",
+        oncompleted = "removeclickevent;EventoEthanSteele2;additem;EHE.Jacket_DenimCutoff;1",
     },{
         guid = "Questyno_EthanSteele2_B",
         text = "IGUI_SFQuest_Questyno_EthanSteele2_B",
@@ -862,7 +862,7 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_EthanSteele;SFQuest_Questyno_EthanSteele3_Begin;Questyno_EthanSteele3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EthanSteele2_Lore" },
-    needsitem = "AuthenticZLite.Jacket_ChuckGreene;1",
+    needsitem = "EHE.Jacket_DenimCutoff;1",
     onobtained = "unlockworldevent;Questyno_EthanSteele;SFQuest_Questyno_EthanSteele2_Complete",
     text = "IGUI_SFQuest_Questyno_EthanSteele2_A_Text",
     texture = "media/textures/Item_EthanSteele.png",
@@ -916,7 +916,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown1",
 
-    awardsrep = "LaResistenza;10;RichardBrown;20", -- REP REWARD
+    awardsrep = "LaResistenza;100;RichardBrown;20", -- REP REWARD
     awardsitem = "MoneyToXP.Droga1;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown2_Begin;Questyno_RichardBrown2", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -932,7 +932,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown2",
 
-    awardsrep = "LaResistenza;20;RichardBrown;20", -- REP REWARD
+    awardsrep = "LaResistenza;200;RichardBrown;20", -- REP REWARD
     awardsitem = "MoneyToXP.Droga2;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown3_Begin;Questyno_RichardBrown3", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -948,7 +948,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown3",
 
-    awardsrep = "LaResistenza;25;RichardBrown;20", -- REP REWARD
+    awardsrep = "LaResistenza;250;RichardBrown;20", -- REP REWARD
     awardsitem = "MoneyToXP.Droga3;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown4_Begin;Questyno_RichardBrown4", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -964,7 +964,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown4",
 
-    awardsrep = "LaResistenza;35;RichardBrown;20", -- REP REWARD
+    awardsrep = "LaResistenza;350;RichardBrown;20", -- REP REWARD
     awardsitem = "MoneyToXP.Droga4;1;Base.Apple;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown5_Begin;Questyno_RichardBrown5", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -980,7 +980,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_RichardBrown5",
 
-    awardsrep = "LaResistenza;60;RichardBrown;10", -- REP REWARD
+    awardsrep = "LaResistenza;600;RichardBrown;10", -- REP REWARD
     awardsitem = "Base.Money;50;MoneyToXP.SafehouseTicket;1", -- ITEM REWARD
     awardsworld = "Questyno_RichardBrown;SFQuest_Questyno_RichardBrown6_Begin;Questyno_RichardBrown6", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -1041,7 +1041,7 @@ table.insert(SFQuest_Database.QuestPool,{
 
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_RichardBrown6_B",
-    awardsrep = "LaResistenza;50;RichardBrown;109",
+    awardsrep = "LaResistenza;500;RichardBrown;109",
     awardsitem = "Money;50;Base.AVCSClaimOrb;1",
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_RichardBrown6_Lore" },
@@ -2359,7 +2359,7 @@ table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_KylePorter6_B",
 
     awardsrep = "LaResistenza;500;KylePorter;10", -- REP REWARD
-    awardsitem = "MoneytoXP.Rotolo;4", -- ITEM REWARD
+    awardsitem = "MoneyToXP.Rotolo;4", -- ITEM REWARD
     awardsworld = "Questyno_KylePorter;SFQuest_Questyno_KylePorter7_Begin;Questyno_KylePorter7", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_KylePorter6_Lore" },

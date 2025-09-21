@@ -6,4 +6,5 @@ ContextMenu_IT = {
     ContextMenu_TakeReputation = "Riscatta Reputazione",
     ContextMenu_ChiaveMacchinyno = "Riscatta veicolo",
     ContextMenu_ChiaveMacchinyno_ToolTip = "Riscatta veicolo in condizioni perfette e con il motore qualita' 100!",
+    ContextMenu_Autocertifica = "Autocertifica completamento",
 }

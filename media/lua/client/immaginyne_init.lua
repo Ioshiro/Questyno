@@ -18,6 +18,8 @@ local function bind()
 
     ExamineEntries.addEntry("Volantino1", "media/ui/Volantino.png", "Ancora questi volantini in inglese? Perchè continuano a passare ma non si fanno vedere?!" );
 	ExamineEntries.addEntry("Volantino2", "media/ui/Volantino2.png", "Ne ho trovati sparsi molti di questi in giro... Ed eccomi qua." );
+    ExamineEntries.addEntry("Volantino3", "media/ui/Volantino3.png", "Finalmente ci diamo una mossa! Ma chi ha stampato questa roba?!" );
+
 	--rivista1
 	local Rivista1_pagine = {
         "media/ui/Rivista1.png",
@@ -68,6 +70,7 @@ local function bind()
 
     table.insert(SPageTable, "LR.Volantino1");
     table.insert(SPageTable, "LR.Volantino2");
+    table.insert(SPageTable, "LR.Volantino3");
 	table.insert(MPageTable, "LR.Rivista1");
     table.insert(SPageTable, "LR.Rivista2");
 	 table.insert(SPageTable, "LR.Rivista3");
