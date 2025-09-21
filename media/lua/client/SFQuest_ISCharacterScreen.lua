@@ -1,4 +1,4 @@
-    require "fazyoni.lua"
+    require "globals_questyno"
 
     local originalISCharacterScreen_render = ISCharacterScreen.render
     function ISCharacterScreen:render()

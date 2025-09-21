@@ -1,0 +1,32 @@
+require 'SFQuest_Database'
+
+-- Pool quest per ChristopherDavis
+SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
+SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+
+SFQuest_Database.QuestPool.DailyPool.	ChristopherDavis = {
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis1_Begin;Questyno_ChristopherDavis1",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis2_Begin;Questyno_ChristopherDavis2",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis3_Begin;Questyno_ChristopherDavis3",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis4_Begin;Questyno_ChristopherDavis4",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis5_Begin;Questyno_ChristopherDavis5",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis6_Begin;Questyno_ChristopherDavis6",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis7_Begin;Questyno_ChristopherDavis7",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis8_Begin;Questyno_ChristopherDavis8",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis9_Begin;Questyno_ChristopherDavis9",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis10_Begin;Questyno_ChristopherDavis10",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis11_Begin;Questyno_ChristopherDavis11",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis12_Begin;Questyno_ChristopherDavis12",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis13_Begin;Questyno_ChristopherDavis13",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis14_Begin;Questyno_ChristopherDavis14",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis15_Begin;Questyno_ChristopherDavis15",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis16_Begin;Questyno_ChristopherDavis16",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis17_Begin;Questyno_ChristopherDavis17",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis18_Begin;Questyno_ChristopherDavis18",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis19_Begin;Questyno_ChristopherDavis19",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis20_Begin;Questyno_ChristopherDavis20",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis21_Begin;Questyno_ChristopherDavis21",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis22_Begin;Questyno_ChristopherDavis22",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis23_Begin;Questyno_ChristopherDavis23",
+		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis24_Begin;Questyno_ChristopherDavis24",
+	}

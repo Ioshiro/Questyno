@@ -1,0 +1,29 @@
+require 'SFQuest_Database'
+
+-- Pool quest per AngelicaStella
+SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
+SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+
+SFQuest_Database.QuestPool.DailyPool.	AngelicaStella = {
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella1_Begin;Questyno_AngelicaStella1",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella2_Begin;Questyno_AngelicaStella2",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella3_Begin;Questyno_AngelicaStella3",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella4_Begin;Questyno_AngelicaStella4",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella5_Begin;Questyno_AngelicaStella5",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella6_Begin;Questyno_AngelicaStella6",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella7_Begin;Questyno_AngelicaStella7",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella8_Begin;Questyno_AngelicaStella8",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella9_Begin;Questyno_AngelicaStella9",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella10_Begin;Questyno_AngelicaStella10",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella11_Begin;Questyno_AngelicaStella11",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella12_Begin;Questyno_AngelicaStella12",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella13_Begin;Questyno_AngelicaStella13",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella14_Begin;Questyno_AngelicaStella14",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella15_Begin;Questyno_AngelicaStella15",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella16_Begin;Questyno_AngelicaStella16",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella17_Begin;Questyno_AngelicaStella17",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella18_Begin;Questyno_AngelicaStella18",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella19_Begin;Questyno_AngelicaStella19",
+		--"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Begin;Questyno_AngelicaStella20",
+		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella21_Begin;Questyno_AngelicaStella21",
+	}
