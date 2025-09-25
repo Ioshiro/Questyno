@@ -997,7 +997,7 @@ table.insert(SFQuest_Database.DailyEventPool, {
 	condition = "notmaxedwithcode;Questyno_DylanHarris;1;hasfactiontier;DylanHarris;3",
 	commands = "randomcodedworldfrompool;Questyno_DylanHarris;Questyno;DylanHarris",
 	days = 0,
-	frequency = 365
+	frequency = 60
 });
 
 --[[
