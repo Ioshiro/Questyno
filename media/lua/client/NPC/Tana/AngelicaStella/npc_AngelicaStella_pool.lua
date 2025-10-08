@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per AngelicaStella
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	AngelicaStella = {
+SFQuest_Database.RandomEventPool.Questyno.AngelicaStella = {
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella1_Begin;Questyno_AngelicaStella1",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella2_Begin;Questyno_AngelicaStella2",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella3_Begin;Questyno_AngelicaStella3",
@@ -27,3 +27,15 @@ SFQuest_Database.QuestPool.DailyPool.	AngelicaStella = {
 		--"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella20_Begin;Questyno_AngelicaStella20",
 		"Questyno_AngelicaStella;SFQuest_Questyno_AngelicaStella21_Begin;Questyno_AngelicaStella21",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_AngelicaStella",
+	condition = "notmaxedwithcode;Questyno_AngelicaStella;1;hasfactiontier;AngelicaStella;3",
+	commands = "randomcodedworldfrompool;Questyno_AngelicaStella;Questyno;AngelicaStella",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_AngelicaStella" })

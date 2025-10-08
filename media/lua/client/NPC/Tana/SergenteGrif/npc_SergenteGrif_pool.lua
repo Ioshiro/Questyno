@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per Grif
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	Grif = {
+SFQuest_Database.RandomEventPool.Questyno.Grif = {
 		"Questyno_Grif;SFQuest_Questyno_Grif1_Begin;Questyno_Grif1",
 		"Questyno_Grif;SFQuest_Questyno_Grif2_Begin;Questyno_Grif2",
 		"Questyno_Grif;SFQuest_Questyno_Grif3_Begin;Questyno_Grif3",
@@ -37,3 +37,15 @@ SFQuest_Database.QuestPool.DailyPool.	Grif = {
 		"Questyno_Grif;SFQuest_Questyno_Grif30_Begin;Questyno_Grif30",
 		"Questyno_Grif;SFQuest_Questyno_Grif31_Begin;Questyno_Grif31",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_Grif",
+	condition = "notmaxedwithcode;Questyno_Grif;1;hasfactiontier;Grif;3",
+	commands = "randomcodedworldfrompool;Questyno_Grif;Questyno;Grif",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SergenteGrif" })

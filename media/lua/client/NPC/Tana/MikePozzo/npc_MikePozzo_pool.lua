@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per MikePozzo
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	MikePozzo = {
+SFQuest_Database.RandomEventPool.Questyno.MikePozzo = {
 		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo1_Begin;Questyno_MikePozzo1",
 		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo2_Begin;Questyno_MikePozzo2",
 		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo3_Begin;Questyno_MikePozzo3",
@@ -30,3 +30,15 @@ SFQuest_Database.QuestPool.DailyPool.	MikePozzo = {
 		--"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo23_Begin;Questyno_MikePozzo23",
 		"Questyno_MikePozzo;SFQuest_Questyno_MikePozzo24_Begin;Questyno_MikePozzo24",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MikePozzo",
+	condition = "notmaxedwithcode;Questyno_MikePozzo;1;hasfactiontier;MikePozzo;3",
+	commands = "randomcodedworldfrompool;Questyno_MikePozzo;Questyno;MikePozzo",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MikePozzo" })

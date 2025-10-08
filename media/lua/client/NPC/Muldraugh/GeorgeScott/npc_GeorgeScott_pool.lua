@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per GeorgeScott
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	GeorgeScott = {
+SFQuest_Database.RandomEventPool.Questyno.GeorgeScott = {
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott1_Begin;Questyno_GeorgeScott1",
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott2_Begin;Questyno_GeorgeScott2",
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott3_Begin;Questyno_GeorgeScott3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	GeorgeScott = {
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott22_Begin;Questyno_GeorgeScott22",
 		"Questyno_GeorgeScott;SFQuest_Questyno_GeorgeScott23_Begin;Questyno_GeorgeScott23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_GeorgeScott",
+	condition = "notmaxedwithcode;Questyno_GeorgeScott;1;hasfactiontier;GeorgeScott;3",
+	commands = "randomcodedworldfrompool;Questyno_GeorgeScott;Questyno;GeorgeScott",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_GeorgeScott" })

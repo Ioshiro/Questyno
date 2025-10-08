@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per PamelaPerez
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	PamelaPerez = {
+SFQuest_Database.RandomEventPool.Questyno.PamelaPerez = {
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez1_Begin;Questyno_PamelaPerez1",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez2_Begin;Questyno_PamelaPerez2",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez3_Begin;Questyno_PamelaPerez3",
@@ -35,3 +35,15 @@ SFQuest_Database.QuestPool.DailyPool.	PamelaPerez = {
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez28_Begin;Questyno_PamelaPerez28",
 		"Questyno_PamelaPerez;SFQuest_Questyno_PamelaPerez29_Begin;Questyno_PamelaPerez29",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_PamelaPerez",
+	condition = "notmaxedwithcode;Questyno_PamelaPerez;1;hasfactiontier;PamelaPerez;3",
+	commands = "randomcodedworldfrompool;Questyno_PamelaPerez;Questyno;PamelaPerez",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_PamelaPerez" })

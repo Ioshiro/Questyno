@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per JeffreyLewis
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	JeffreyLewis = {
+SFQuest_Database.RandomEventPool.Questyno.JeffreyLewis = {
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis1_Begin;Questyno_JeffreyLewis1",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis2_Begin;Questyno_JeffreyLewis2",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis3_Begin;Questyno_JeffreyLewis3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	JeffreyLewis = {
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis22_Begin;Questyno_JeffreyLewis22",
 		"Questyno_JeffreyLewis;SFQuest_Questyno_JeffreyLewis23_Begin;Questyno_JeffreyLewis23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_JeffreyLewis",
+	condition = "notmaxedwithcode;Questyno_JeffreyLewis;1;hasfactiontier;JeffreyLewis;3",
+	commands = "randomcodedworldfrompool;Questyno_JeffreyLewis;Questyno;JeffreyLewis",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_JeffreyLewis" })

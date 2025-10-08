@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per EmilyTerry
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	EmilyTerry = {
+SFQuest_Database.RandomEventPool.Questyno.EmilyTerry = {
 		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry1_Begin;Questyno_EmilyTerry1",
 		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry2_Begin;Questyno_EmilyTerry2",
 		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry3_Begin;Questyno_EmilyTerry3",
@@ -31,3 +31,15 @@ SFQuest_Database.QuestPool.DailyPool.	EmilyTerry = {
 		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry24_Begin;Questyno_EmilyTerry24",
 		"Questyno_EmilyTerry;SFQuest_Questyno_EmilyTerry25_Begin;Questyno_EmilyTerry25",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_EmilyTerry",
+	condition = "notmaxedwithcode;Questyno_EmilyTerry;1;hasfactiontier;EmilyTerry;3",
+	commands = "randomcodedworldfrompool;Questyno_EmilyTerry;Questyno;EmilyTerry",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EmilyTerry" })

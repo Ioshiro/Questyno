@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per RafaelPrezioso
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	RafaelPrezioso = {
+SFQuest_Database.RandomEventPool.Questyno.RafaelPrezioso = {
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso1_Begin;Questyno_RafaelPrezioso1",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso2_Begin;Questyno_RafaelPrezioso2",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso3_Begin;Questyno_RafaelPrezioso3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	RafaelPrezioso = {
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso22_Begin;Questyno_RafaelPrezioso22",
 		"Questyno_RafaelPrezioso;SFQuest_Questyno_RafaelPrezioso23_Begin;Questyno_RafaelPrezioso23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_RafaelPrezioso",
+	condition = "notmaxedwithcode;Questyno_RafaelPrezioso;1;hasfactiontier;RafaelPrezioso;3",
+	commands = "randomcodedworldfrompool;Questyno_RafaelPrezioso;Questyno;RafaelPrezioso",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RafaelPrezioso" })

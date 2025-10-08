@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per HeatherThomas
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	HeatherThomas = {
+SFQuest_Database.RandomEventPool.Questyno.HeatherThomas = {
 		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas1_Begin;Questyno_HeatherThomas1",
 		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas2_Begin;Questyno_HeatherThomas2",
 		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas3_Begin;Questyno_HeatherThomas3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	HeatherThomas = {
 		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas22_Begin;Questyno_HeatherThomas22",
 		"Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas23_Begin;Questyno_HeatherThomas23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_HeatherThomas",
+	condition = "notmaxedwithcode;Questyno_HeatherThomas;1;hasfactiontier;HeatherThomas;3",
+	commands = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_HeatherThomas" })

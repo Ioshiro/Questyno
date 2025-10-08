@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per SamuelYoung
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	SamuelYoung = {
+SFQuest_Database.RandomEventPool.Questyno.SamuelYoung = {
 		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung1_Begin;Questyno_SamuelYoung1",
 		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung2_Begin;Questyno_SamuelYoung2",
 		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung3_Begin;Questyno_SamuelYoung3",
@@ -30,3 +30,15 @@ SFQuest_Database.QuestPool.DailyPool.	SamuelYoung = {
 		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung23_Begin;Questyno_SamuelYoung23",
 		"Questyno_SamuelYoung;SFQuest_Questyno_SamuelYoung24_Begin;Questyno_SamuelYoung24",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_SamuelYoung",
+	condition = "notmaxedwithcode;Questyno_SamuelYoung;1;hasfactiontier;SamuelYoung;3",
+	commands = "randomcodedworldfrompool;Questyno_SamuelYoung;Questyno;SamuelYoung",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SamuelYoung" })

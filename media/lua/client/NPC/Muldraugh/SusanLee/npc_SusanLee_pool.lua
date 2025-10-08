@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per SusanLee
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	SusanLee = {
+SFQuest_Database.RandomEventPool.Questyno.SusanLee = {
 		"Questyno_SusanLee;SFQuest_Questyno_SusanLee1_Begin;Questyno_SusanLee1",
 		"Questyno_SusanLee;SFQuest_Questyno_SusanLee2_Begin;Questyno_SusanLee2",
 		"Questyno_SusanLee;SFQuest_Questyno_SusanLee3_Begin;Questyno_SusanLee3",
@@ -26,3 +26,15 @@ SFQuest_Database.QuestPool.DailyPool.	SusanLee = {
 		"Questyno_SusanLee;SFQuest_Questyno_SusanLee22_Begin;Questyno_SusanLee22",
 		"Questyno_SusanLee;SFQuest_Questyno_SusanLee23_Begin;Questyno_SusanLee23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_SusanLee",
+	condition = "notmaxedwithcode;Questyno_SusanLee;1;hasfactiontier;SusanLee;3",
+	commands = "randomcodedworldfrompool;Questyno_SusanLee;Questyno;SusanLee",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_SusanLee" })

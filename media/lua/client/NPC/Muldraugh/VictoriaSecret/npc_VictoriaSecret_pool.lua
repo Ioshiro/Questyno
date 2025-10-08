@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per VictoriaSecret
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	VictoriaSecret = {
+SFQuest_Database.RandomEventPool.Questyno.VictoriaSecret = {
 		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret1_Begin;Questyno_VictoriaSecret1",
 		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret2_Begin;Questyno_VictoriaSecret2",
 		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret3_Begin;Questyno_VictoriaSecret3",
@@ -27,3 +27,15 @@ SFQuest_Database.QuestPool.DailyPool.	VictoriaSecret = {
 		--"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret20_Begin;Questyno_VictoriaSecret20",
 		"Questyno_VictoriaSecret;SFQuest_Questyno_VictoriaSecret21_Begin;Questyno_VictoriaSecret21",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_VictoriaSecret",
+	condition = "notmaxedwithcode;Questyno_VictoriaSecret;1;hasfactiontier;VictoriaSecret;3",
+	commands = "randomcodedworldfrompool;Questyno_VictoriaSecret;Questyno;VictoriaSecret",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_VictoriaSecret" })

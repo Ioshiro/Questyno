@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per EliaRima
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	EliaRima = {
+SFQuest_Database.RandomEventPool.Questyno.EliaRima = {
 		"Questyno_EliaRima;SFQuest_Questyno_EliaRima1_Begin;Questyno_EliaRima1",
 		"Questyno_EliaRima;SFQuest_Questyno_EliaRima2_Begin;Questyno_EliaRima2",
 		"Questyno_EliaRima;SFQuest_Questyno_EliaRima3_Begin;Questyno_EliaRima3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	EliaRima = {
 		"Questyno_EliaRima;SFQuest_Questyno_EliaRima22_Begin;Questyno_EliaRima22",
 		"Questyno_EliaRima;SFQuest_Questyno_EliaRima23_Begin;Questyno_EliaRima23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_EliaRima",
+	condition = "notmaxedwithcode;Questyno_EliaRima;1;hasfactiontier;EliaRima;3",
+	commands = "randomcodedworldfrompool;Questyno_EliaRima;Questyno;EliaRima",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_EliaRima" })

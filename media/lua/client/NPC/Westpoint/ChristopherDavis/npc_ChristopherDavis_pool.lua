@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per ChristopherDavis
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	ChristopherDavis = {
+SFQuest_Database.RandomEventPool.Questyno.ChristopherDavis = {
 		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis1_Begin;Questyno_ChristopherDavis1",
 		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis2_Begin;Questyno_ChristopherDavis2",
 		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis3_Begin;Questyno_ChristopherDavis3",
@@ -30,3 +30,15 @@ SFQuest_Database.QuestPool.DailyPool.	ChristopherDavis = {
 		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis23_Begin;Questyno_ChristopherDavis23",
 		"Questyno_ChristopherDavis;SFQuest_Questyno_ChristopherDavis24_Begin;Questyno_ChristopherDavis24",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_ChristopherDavis",
+	condition = "notmaxedwithcode;Questyno_ChristopherDavis;1;hasfactiontier;ChristopherDavis;3",
+	commands = "randomcodedworldfrompool;Questyno_ChristopherDavis;Questyno;ChristopherDavis",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_ChristopherDavis" })

@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per RyanParker
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	RyanParker = {
+SFQuest_Database.RandomEventPool.Questyno.RyanParker = {
 		"Questyno_RyanParker;SFQuest_Questyno_RyanParker1_Begin;Questyno_RyanParker1",
 		"Questyno_RyanParker;SFQuest_Questyno_RyanParker2_Begin;Questyno_RyanParker2",
 		"Questyno_RyanParker;SFQuest_Questyno_RyanParker3_Begin;Questyno_RyanParker3",
@@ -26,3 +26,15 @@ SFQuest_Database.QuestPool.DailyPool.	RyanParker = {
 		"Questyno_RyanParker;SFQuest_Questyno_RyanParker19_Begin;Questyno_RyanParker19",
 		"Questyno_RyanParker;SFQuest_Questyno_RyanParker20_Begin;Questyno_RyanParker20",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_RyanParker",
+	condition = "notmaxedwithcode;Questyno_RyanParker;1;hasfactiontier;RyanParker;3",
+	commands = "randomcodedworldfrompool;Questyno_RyanParker;Questyno;RyanParker",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RyanParker" })

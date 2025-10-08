@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per MayaBlackwell
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	MayaBlackwell = {
+SFQuest_Database.RandomEventPool.Questyno.MayaBlackwell = {
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell1_Begin;Questyno_MayaBlackwell1",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell2_Begin;Questyno_MayaBlackwell2",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell3_Begin;Questyno_MayaBlackwell3",
@@ -19,3 +19,15 @@ SFQuest_Database.QuestPool.DailyPool.	MayaBlackwell = {
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell12_Begin;Questyno_MayaBlackwell12",
 		"Questyno_MayaBlackwell;SFQuest_Questyno_MayaBlackwell13_Begin;Questyno_MayaBlackwell13",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_MayaBlackwell",
+	condition = "notmaxedwithcode;Questyno_MayaBlackwell;1;hasfactiontier;MayaBlackwell;3",
+	commands = "randomcodedworldfrompool;Questyno_MayaBlackwell;Questyno;MayaBlackwell",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_MayaBlackwell" })

@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per RosaChina
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	RosaChina = {
+SFQuest_Database.RandomEventPool.Questyno.RosaChina = {
 		"Questyno_RosaChina;SFQuest_Questyno_RosaChina1_Begin;Questyno_RosaChina1",
 		"Questyno_RosaChina;SFQuest_Questyno_RosaChina2_Begin;Questyno_RosaChina2",
 		"Questyno_RosaChina;SFQuest_Questyno_RosaChina3_Begin;Questyno_RosaChina3",
@@ -33,3 +33,15 @@ SFQuest_Database.QuestPool.DailyPool.	RosaChina = {
 		--"Questyno_RosaChina;SFQuest_Questyno_RosaChina26_Begin;Questyno_RosaChina26",
 		--"Questyno_RosaChina;SFQuest_Questyno_RosaChina27_Begin;Questyno_RosaChina27",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_RosaChina",
+	condition = "notmaxedwithcode;Questyno_RosaChina;1;hasfactiontier;RosaChina;3",
+	commands = "randomcodedworldfrompool;Questyno_RosaChina;Questyno;RosaChina",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_RosaChina" })

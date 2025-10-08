@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per XuMishura
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	XuMishura = {
+SFQuest_Database.RandomEventPool.Questyno.XuMishura = {
 		"Questyno_XuMishura;SFQuest_Questyno_XuMishura1_Begin;Questyno_XuMishura1",
 		"Questyno_XuMishura;SFQuest_Questyno_XuMishura2_Begin;Questyno_XuMishura2",
 		"Questyno_XuMishura;SFQuest_Questyno_XuMishura3_Begin;Questyno_XuMishura3",
@@ -36,3 +36,15 @@ SFQuest_Database.QuestPool.DailyPool.	XuMishura = {
 		"Questyno_XuMishura;SFQuest_Questyno_XuMishura29_Begin;Questyno_XuMishura29",
 		"Questyno_XuMishura;SFQuest_Questyno_XuMishura30_Begin;Questyno_XuMishura30",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_XuMishura",
+	condition = "notmaxedwithcode;Questyno_XuMishura;1;hasfactiontier;XuMishura;3",
+	commands = "randomcodedworldfrompool;Questyno_XuMishura;Questyno;XuMishura",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_XuMishura" })

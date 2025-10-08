@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per DavidTurner
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	DavidTurner = {
+SFQuest_Database.RandomEventPool.Questyno.DavidTurner = {
 		"Questyno_DavidTurner;SFQuest_Questyno_DavidTurner1_Begin;Questyno_DavidTurner1",
 		"Questyno_DavidTurner;SFQuest_Questyno_DavidTurner2_Begin;Questyno_DavidTurner2",
 		"Questyno_DavidTurner;SFQuest_Questyno_DavidTurner3_Begin;Questyno_DavidTurner3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	DavidTurner = {
 		"Questyno_DavidTurner;SFQuest_Questyno_DavidTurner22_Begin;Questyno_DavidTurner22",
 		"Questyno_DavidTurner;SFQuest_Questyno_DavidTurner23_Begin;Questyno_DavidTurner23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_DavidTurner",
+	condition = "notmaxedwithcode;Questyno_DavidTurner;1;hasfactiontier;DavidTurner;3",
+	commands = "randomcodedworldfrompool;Questyno_DavidTurner;Questyno;DavidTurner",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_DavidTurner" })

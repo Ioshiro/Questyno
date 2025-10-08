@@ -1,10 +1,10 @@
 require 'SFQuest_Database'
 
 -- Pool quest per BobRepair
-SFQuest_Database.QuestPool = SFQuest_Database.QuestPool or {}
-SFQuest_Database.QuestPool.DailyPool = SFQuest_Database.QuestPool.DailyPool or {}
+SFQuest_Database.RandomEventPool = SFQuest_Database.RandomEventPool or {}
+SFQuest_Database.RandomEventPool.Questyno = SFQuest_Database.RandomEventPool.Questyno or {}
 
-SFQuest_Database.QuestPool.DailyPool.	BobRepair = {
+SFQuest_Database.RandomEventPool.Questyno.BobRepair = {
 		"Questyno_BobRepair;SFQuest_Questyno_BobRepair1_Begin;Questyno_BobRepair1",
 		"Questyno_BobRepair;SFQuest_Questyno_BobRepair2_Begin;Questyno_BobRepair2",
 		"Questyno_BobRepair;SFQuest_Questyno_BobRepair3_Begin;Questyno_BobRepair3",
@@ -29,3 +29,15 @@ SFQuest_Database.QuestPool.DailyPool.	BobRepair = {
 		"Questyno_BobRepair;SFQuest_Questyno_BobRepair22_Begin;Questyno_BobRepair22",
 		"Questyno_BobRepair;SFQuest_Questyno_BobRepair23_Begin;Questyno_BobRepair23",
 	}
+
+-- Inserimento nel DailyEventPool
+table.insert(SFQuest_Database.DailyEventPool, {
+	dailycode = "Questyno_BobRepair",
+	condition = "notmaxedwithcode;Questyno_BobRepair;1;hasfactiontier;BobRepair;3",
+	commands = "randomcodedworldfrompool;Questyno_BobRepair;Questyno;BobRepair",
+	days = 0,
+	frequency = 1
+})
+
+-- Inserimento nel StartingPool per attivazione daily alla creazione personaggio
+table.insert(SFQuest_Database.StartingPool, { daily = "Questyno_BobRepair" })
