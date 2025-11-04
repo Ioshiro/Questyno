@@ -1,5 +1,5 @@
 name=Questyno2
 id=questyno2
 description=smart
-require=SoulQuestSystem,Biciclettyna2
+require=SoulQuestSystem,Biciclettyna2,TierZonyne
 poster=poster.png

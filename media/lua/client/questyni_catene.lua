@@ -58,8 +58,8 @@ table.insert(SFQuest_Database.QuestPool,{
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn1_A",
 
-    awardsrep = "LaResistenza;5;EzekielFlynn;25", -- REP REWARD
-    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Begin;Questyno_EzekielFlynn2", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;15;EzekielFlynn;33", -- REP REWARD
+    awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn3_Begin;Questyno_EzekielFlynn3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn1_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn1_A_Text",
@@ -68,6 +68,7 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn1_Complete", -- ZOMBIE REQUEST
 });
 
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn2",
 
@@ -111,18 +112,20 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_EzekielFlynn2_Title",
     unlocks = "unlockworldevent;Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn2_Complete", -- ZOMBIE REQUEST
 });
+]]--
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn3",
 
-    awardsrep = "LaResistenza;15;EzekielFlynn;25", -- REP REWARD
+    awardsrep = "LaResistenza;15;EzekielFlynn;33", -- REP REWARD
+    awardsitem = "Crowbar;1", -- ITEM REWARD
     awardsworld = "Questyno_EzekielFlynn;SFQuest_Questyno_EzekielFlynn5_Begin;Questyno_EzekielFlynn5", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn3_Lore" },
     text = "IGUI_SFQuest_Questyno_EzekielFlynn3_Text",
     texture = "media/textures/Item_EzekielFlynn.png",
     title = "IGUI_SFQuest_Questyno_EzekielFlynn3_Title",
-    unlocks = "actionevent;killzombies:50;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn3_Complete:placeholder:updatequeststatus:Questyno_EzekielFlynn3:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:20;unlockworldevent:Questyno_EzekielFlynn:SFQuest_Questyno_EzekielFlynn3_Complete:placeholder:updatequeststatus:Questyno_EzekielFlynn3:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
 --[[
@@ -163,8 +166,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_EzekielFlynn5_A",
 
-    awardsrep = "LaResistenza;45;EzekielFlynn;124", -- REP REWARD
-    awardsitem = "Crowbar;1;BeefJerky;1;Base.li_townshipmap;1", -- ITEM REWARD
+    awardsrep = "LaResistenza;45;EzekielFlynn;133", -- REP REWARD
+    awardsitem = "Base.li_townshipmap;1;Base.Bowl;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_EzekielFlynn5_Lore" },
     needsitem = "LogStacks4;1", -- ITEM REQUEST
@@ -194,7 +197,6 @@ table.insert(SFQuest_Database.QuestPool, {
     awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett1_Begin;Questyno_ElowenBeckett1", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Lore" },
-    -- ondone = "randomcodedworldfrompool;Questyno_ElowenBeckett;Questyno;ElowenBeckett",
     text = "IGUI_SFQuest_Questyno_ElowenBeckett_Intro_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     unique = true,
@@ -205,17 +207,18 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett1",
 
-    awardsrep = "LaResistenza;10;ElowenBeckett;20", -- REP REWARD
-    awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett2_Begin;Questyno_ElowenBeckett2", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;25;ElowenBeckett;33", -- REP REWARD
+    awardsitem = "BeefJerky;1", -- MONEY REWARD
+    awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett3_Begin;Questyno_ElowenBeckett3", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett1_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett1_Text",
     texture = "media/textures/Item_ElowenBeckett.png",
     title = "IGUI_SFQuest_Questyno_ElowenBeckett1_Title",
-    unlocks = "actionevent;killzombies:50:tierlevel:1;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett1_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett1:Obtained", -- ZOMBIE REQUEST
+    unlocks = "actionevent;killzombies:20:tierlevel:2;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett1_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett1:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
-
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett2",
 
@@ -230,13 +233,14 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_ElowenBeckett2_Title",
     unlockedsound = "QuestUnlocked"
 });
+]]--
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett3",
 
-    awardsrep = "LaResistenza;20;ElowenBeckett;20", -- REP REWARD
-    awardsitem = "BeefJerky;1;Base.MuldraughMap;1;Base.SpringwoodMap;1;Base.GreenportLootableMap;1", -- ITEM REWARD
-    awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett4_Begin;Questyno_ElowenBeckett4", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;35;ElowenBeckett;33", -- REP REWARD
+    awardsitem = "Table:SleepingBags", -- ITEM REWARD
+    awardsworld = "Questyno_ElowenBeckett;SFQuest_Questyno_ElowenBeckett5_Begin;Questyno_ElowenBeckett5", -- DIALOGUE REWARD
     needsitem = "LogStacks2;1", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett3_Lore" },
@@ -246,7 +250,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_ElowenBeckett3_Title",
     unlockedsound = "QuestUnlocked"
 });
-
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett4",
 
@@ -261,13 +265,14 @@ table.insert(SFQuest_Database.QuestPool, {
     unlocks = "actionevent;killzombies:50:tierlevel:2;unlockworldevent:Questyno_ElowenBeckett:SFQuest_Questyno_ElowenBeckett4_Complete:placeholder:updatequeststatus:Questyno_ElowenBeckett4:Obtained", -- ZOMBIE REQUEST
     unlockedsound = "QuestUnlocked"
 });
+]]--
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_ElowenBeckett5",
 
-    awardsrep = "LaResistenza;30;ElowenBeckett;119", -- REP REWARD
+    awardsrep = "LaResistenza;40;ElowenBeckett;133", -- REP REWARD
     awardsitem = "Wheelbarrow.HCWoodenwheelbarrow;1;Base.EkronMap;1;", -- ITEM REWARD
-    needsitem = "ScrapMetal;2", -- ITEM REQUEST
+    needsitem = "ScrapMetal;1", -- ITEM REQUEST
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_ElowenBeckett5_Lore" },
     text = "IGUI_SFQuest_Questyno_ElowenBeckett5_Text",
@@ -1708,8 +1713,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger1_A",
 
-    awardsrep = "LaResistenza;100;TomasJoger;14", -- REP REWARD
-    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger2_Begin;Questyno_TomasJoger2", -- DIALOGUE REWARD
+    awardsrep = "LaResistenza;200;TomasJoger;25", -- REP REWARD
+    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger4_Begin;Questyno_TomasJoger4", -- DIALOGUE REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger1_Lore" },
     needsitem = "MetalPipe;4",
@@ -1719,7 +1724,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_TomasJoger1_Title",
     unique = true,
 });
-
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger2",
 
@@ -1792,6 +1797,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_TomasJoger3_Title",
     unique = true,
 });
+]]--
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger4",
@@ -1821,7 +1827,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger4_A",
 
-    awardsrep = "LaResistenza;80;TomasJoger;14", -- REP REWARD
+    awardsrep = "LaResistenza;200;TomasJoger;25", -- REP REWARD
     awardsitem = "Base.WhiskeyFull;1", -- ITEM REWARD
     awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger5_Begin;Questyno_TomasJoger5", -- DIALOGUE REWARD
     completesound = "levelup",
@@ -1862,8 +1868,8 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool,{
     guid = "Questyno_TomasJoger5_A",
 
-    awardsrep = "LaResistenza;90;TomasJoger;14",
-    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger6_Begin;Questyno_TomasJoger7", -- DIALOGUE REWARD 
+    awardsrep = "LaResistenza;90;TomasJoger;25",
+    awardsworld = "Questyno_TomasJoger;SFQuest_Questyno_TomasJoger7_Begin;Questyno_TomasJoger7", -- DIALOGUE REWARD 
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger5_Lore" },
     unlocks = "unlockworldevent;Questyno_TomasJoger;SFQuest_Questyno_TomasJoger5_Complete",
@@ -1874,6 +1880,7 @@ table.insert(SFQuest_Database.QuestPool,{
 })
 
 -- si salta la 6
+--[[
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger6",
 
@@ -1908,6 +1915,7 @@ table.insert(SFQuest_Database.QuestPool, {
     title = "IGUI_SFQuest_Questyno_TomasJoger6_Title",
     unique = true,
 });
+]]--
 
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger7",
@@ -1971,7 +1979,7 @@ table.insert(SFQuest_Database.QuestPool, {
 table.insert(SFQuest_Database.QuestPool, {
     guid = "Questyno_TomasJoger7_B",
 
-    awardsrep = "LaResistenza;250;TomasJoger;114", -- REP REWARD
+    awardsrep = "LaResistenza;250;TomasJoger;124", -- REP REWARD
     awardsitem = "LR.ChiaveBicicletta;1;PynoTweaks.Joint;1", -- ITEM REWARD
     completesound = "levelup",
     lore = { "IGUI_SFQuest_Questyno_TomasJoger7_Lore" },

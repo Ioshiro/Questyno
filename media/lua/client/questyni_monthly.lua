@@ -1437,7 +1437,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_LincolnReed.png",
     unique = true,
     ondone = "randomcodedworldfrompool;Questyno_LincolnReed;Questyno;LincolnReed",
-    unlocks = "addreputation;LincolnReed;100;unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
+    unlocks = "unlockworldevent;Questyno_LincolnReed;SFQuest_Questyno_LincolnReed_Intro_Complete",
     title = "IGUI_SFQuest_Questyno_LincolnReed_Intro_Title",
 });
 
