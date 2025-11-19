@@ -2400,7 +2400,7 @@ table.insert(SFQuest_Database.QuestPool, {
     text = "IGUI_SFQuest_Questyno_RyanParker14_Text",
     texture = "media/textures/Item_RyanParker.png",
     title = "IGUI_SFQuest_Questyno_RyanParker14_Title",
-    unlocks = "clickevent;4136x12145x0:EventoRyanParker14;time:50:anim:loot;updateobjective:Questyno_RyanParker14:1:Completed",
+    unlocks = "clickevent;4049x12125x2:EventoRyanParker14;time:50:anim:loot;updateobjective:Questyno_RyanParker14:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
@@ -2767,7 +2767,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JacobTurner.png",
     title = "IGUI_SFQuest_Questyno_JacobTurner4_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;3570x11270x0:EventoJacobTurner4;anim:loot:time:50;updateobjective:Questyno_JacobTurner4:1:Completed"
+    unlocks = "clickevent;3113x11400x0:EventoJacobTurner4;anim:loot:time:50;updateobjective:Questyno_JacobTurner4:1:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -2869,7 +2869,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_JacobTurner.png",
     title = "IGUI_SFQuest_Questyno_JacobTurner7_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "clickevent;3164x11163x0:EventoJacobTurner7;anim:loot:time:50;updateobjective:Questyno_JacobTurner7:1:Completed"
+    unlocks = "clickevent;2680x11285x0:EventoJacobTurner7;anim:loot:time:50;updateobjective:Questyno_JacobTurner7:1:Completed"
 });
 
 table.insert(SFQuest_Database.QuestPool, {

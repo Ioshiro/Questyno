@@ -453,7 +453,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_OliviaChambers.png",
     title = "IGUI_SFQuest_Questyno_OliviaChambers1_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_OliviaChambers1:2:Completed;clickevent;3960x11742x0:EventoOliviaChambers1;time:50:anim:loot;updateobjective:Questyno_OliviaChambers1:1:Completed",
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_OliviaChambers1:2:Completed;clickevent;3353x11750x0:EventoOliviaChambers1;time:50:anim:loot;updateobjective:Questyno_OliviaChambers1:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -567,7 +567,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_OliviaChambers.png",
     title = "IGUI_SFQuest_Questyno_OliviaChambers4_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:100;updateobjective:Questyno_OliviaChambers4:2:Completed;clickevent;4168x12035x0:EventoOliviaChambers4;time:50:anim:loot;updateobjective:Questyno_OliviaChambers4:1:Completed",
+    unlocks = "actionevent;killzombies:100;updateobjective:Questyno_OliviaChambers4:2:Completed;clickevent;3874x13301x2:EventoOliviaChambers4;time:50:anim:loot;updateobjective:Questyno_OliviaChambers4:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {
@@ -791,7 +791,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_MayaBlackwell.png",
     title = "IGUI_SFQuest_Questyno_MayaBlackwell3_Title",
     unlockedsound = "QuestUnlocked",
-    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell3:2:Completed;clickevent;3832x11659x0:EventoMayaBlackwell3;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell3:1:Completed",
+    unlocks = "actionevent;killzombies:200;updateobjective:Questyno_MayaBlackwell3:2:Completed;clickevent;3286x12137x0:EventoMayaBlackwell3;time:50:anim:loot;updateobjective:Questyno_MayaBlackwell3:1:Completed",
 });
 
 table.insert(SFQuest_Database.QuestPool, {

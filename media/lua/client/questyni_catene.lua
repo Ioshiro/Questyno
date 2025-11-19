@@ -2117,19 +2117,25 @@ table.insert(SFQuest_Database.QuestPool, {
         text = "IGUI_SFQuest_Questyno_KylePorter2_A",
         hidden = false,
         needsitem = "SheetMetal;10",
-        onobtained = "updateobjective;Questyno_KylePorter2;1;Completed;removeitem;SheetMetal;10"
+        onobtained = "updateobjective;Questyno_KylePorter2;1;Completed;removeitem;SheetMetal;20"
     }, {
         guid = "Questyno_KylePorter2_B",
         text = "IGUI_SFQuest_Questyno_KylePorter2_B",
         hidden = false,
         needsitem = "SmallSheetMetal;5",
-        onobtained = "updateobjective;Questyno_KylePorter2;2;Completed;removeitem;SmallSheetMetal;5"
+        onobtained = "updateobjective;Questyno_KylePorter2;2;Completed;removeitem;SmallSheetMetal;10"
     }, {
         guid = "Questyno_KylePorter2_C",
         text = "IGUI_SFQuest_Questyno_KylePorter2_C",
         hidden = false,
         needsitem = "ScrapMetal;50",
-        onobtained = "updateobjective;Questyno_KylePorter2;3;Completed;removeitem;ScrapMetal;50"
+        onobtained = "updateobjective;Questyno_KylePorter2;3;Completed;removeitem;ScrapMetal;100"
+    }, {
+        guid = "Questyno_KylePorter2_D",
+        text = "IGUI_SFQuest_Questyno_KylePorter2_D",
+        hidden = false,
+        needsitem = "WhiskeyFull;2",
+        onobtained = "updateobjective;Questyno_KylePorter2;4;Completed;removeitem;WhiskeyFull;2"
     } },
     text = "IGUI_SFQuest_Questyno_KylePorter2_Text",
     texture = "media/textures/Item_KylePorter.png",
@@ -2393,7 +2399,7 @@ table.insert(SFQuest_Database.QuestPool, {
     texture = "media/textures/Item_KylePorter.png",
     title = "IGUI_SFQuest_Questyno_KylePorter7_Title",
     unique = true,
-    unlocks = "clickevent;4121x13304x2:EventoKylePorter7;time:50:anim:loot;updateobjective:Questyno_KylePorter7:1:Completed",
+    unlocks = "clickevent;3521x13304x2:EventoKylePorter7;time:50:anim:loot;updateobjective:Questyno_KylePorter7:1:Completed",
     unlockedsound = "QuestUnlocked"
 });
 
