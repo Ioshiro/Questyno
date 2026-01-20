@@ -1,12 +1,12 @@
 local SFQuest_Utils = {}
 
-function SFQuest_Utils.SFQuest_Utils.isPartiallyEaten(item)
+function SFQuest_Utils.isPartiallyEaten(item)
     local baseHunger = math.abs(item:getBaseHunger() * 100) + 0.001
     local hungerChange = math.abs(item:getHungerChange() * 100) + 0.001
     return hungerChange < baseHunger
 end
 
-function SFQuest_Utils.SFQuest_Utils.isPoisonFood(item)
+function SFQuest_Utils.isPoisonFood(item)
     local poisonPower = item:getPoisonPower()
     return poisonPower > 0
 end

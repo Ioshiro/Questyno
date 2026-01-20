@@ -1,5 +1,5 @@
--- require "TimedActions/ISCraftAction" -- already present in SQS
-require "TimedActions/ISInventoryTransferAction" -- already present in SQS
+require "TimedActions/ISCraftAction"
+require "TimedActions/ISInventoryTransferAction"
 require "TimedActions/ISDropItemAction"
 require "TimedActions/ISGrabItemAction"
 require "TimedActions/ISDropWorldItemAction"
@@ -12,7 +12,11 @@ require "TimedActions/ISTakeGenerator"
 require "Foraging/ISForageAction"
 
 
-
+local ISCraftActionVanilla = ISCraftAction.perform;
+function ISCraftAction:perform()
+    ISCraftActionVanilla(self);
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+end
 
 local function postAddItem()
     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
@@ -55,10 +59,8 @@ Events.OnGameStart.Add(
 local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
 	ISInventoryTransferActionVanilla(self)
-    print("ISInventoryTransferAction Successful overwrite") -- temp, just for the print message
-    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
-	    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    -- end
+    print("ISInventoryTransferAction Successful overwrite") 
+	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
 
