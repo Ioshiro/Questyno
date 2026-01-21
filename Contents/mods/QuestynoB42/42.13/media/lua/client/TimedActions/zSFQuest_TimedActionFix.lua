@@ -1,10 +1,10 @@
 require "TimedActions/ISCraftAction"
 require "TimedActions/ISInventoryTransferAction"
-require "TimedActions/ISDropItemAction"
+-- require "TimedActions/ISDropItemAction"
 require "TimedActions/ISGrabItemAction"
 require "TimedActions/ISDropWorldItemAction"
 require "TimedActions/ISAddItemInRecipe"
-require "TimedActions/ISConsolidateDrainableAll"
+-- require "TimedActions/ISConsolidateDrainableAll"
 require "TimedActions/ISConsolidateDrainable"
 require "TimedActions/ISDrinkFromBottle"
 require "TimedActions/ISEatFoodAction"
@@ -90,9 +90,7 @@ local origin_ISForageAction_perform = ISForageAction.perform
 function ISForageAction:perform()
     origin_ISForageAction_perform(self)
     print("ISForageAction Successful overwrite")
-    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
         SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    -- end
 end
 
 if getActivatedMods():contains("\\nshopsb42") then
@@ -101,9 +99,7 @@ if getActivatedMods():contains("\\nshopsb42") then
     function ShopBuyAction:perform()
         origin_ShopBuyAction_perform(self)
         print("ShopBuyAction Successful overwrite")
-        -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
             SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-        -- end
     end
     local original_PlayerShopBuyAction_perform = PlayerShopBuyAction.perform
     function PlayerShopBuyAction:perform()

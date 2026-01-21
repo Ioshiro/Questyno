@@ -64,7 +64,7 @@ SFQuestMannequinSpawner = function(square)
 	local beard = SFQuest_Database.MannequinPool[squaretag].beard
 	local haircolor = SFQuest_Database.MannequinPool[squaretag].haircolor
 	local beardcolor = SFQuest_Database.MannequinPool[squaretag].beardcolor
-	local mannequin = IsoMannequin.new(getCell(), square, sprite);
+	local mannequin = IsoMannequin.new(getCell(), square, getSprite(sprite));
 	mannequin:setSquare(square);
 	local scriptName = SFQuestMannequinScriptname(sprite);
 	mannequin:setMannequinScriptName(scriptName);
