@@ -56,35 +56,26 @@ function ISCharacterInfoWindow:onTabTornOff(view, window)
 	
 end
 
--- Redefine RestoreLayout to include your 'quest' tab and fix the typo
+-- Redefine RestoreLayout to include the 'quest' tab floating restoration
 local previous_ISCharacterInfoWindow_RestoreLayout = ISCharacterInfoWindow.RestoreLayout
 function ISCharacterInfoWindow:RestoreLayout(name, layout)
 	print("zSOUL QUEST SYSTEM - RestoreLayout original overwrite successful");
 	previous_ISCharacterInfoWindow_RestoreLayout(self, name, layout)
 
-	-- fix the typo 'porotection' to 'protection'
-	local floating = { protection = false, quest = false }
+	-- Detect if the quest tab is floating (not present in the tabs list)
+	local questIsFloating = true  -- assume floating by default
 	if layout.tabs ~= nil then
 	    local tabs = string.split(layout.tabs, ',')
 	    for k,v in pairs(tabs) do
 	        if v == 'quest' then
-	            floating.quest = false
+	            questIsFloating = false  -- found in tabs, not floating
+	            break
 	        end
 	    end
-	else
-	    floating.quest = false
-	end
-	if floating.protection then
-	    self.panel:removeView(self.protectionView)
-	    local newWindow = ISCollapsableWindow:new(0, 0, self.protectionView:getWidth(), self.protectionView:getHeight())
-	    newWindow:initialise()
-	    newWindow:addToUIManager()
-	    newWindow:addView(self.protectionView)
-	    newWindow:setTitle(xpSystemText.protection)
-	    self:onTabTornOff(self.protectionView, newWindow)
 	end
 
-	if floating.quest then
+	-- If the quest tab was floating, recreate it as a separate window
+	if questIsFloating and self.questView then
 	    self.panel:removeView(self.questView)
 	    local newWindow = ISCollapsableWindow:new(0, 0, self.questView:getWidth(), self.questView:getHeight())
 	    newWindow:initialise()
@@ -93,11 +84,6 @@ function ISCharacterInfoWindow:RestoreLayout(name, layout)
 	    newWindow:setTitle(xpSystemText.quest)
 	    self:onTabTornOff(self.questView, newWindow)
 	end
-	
-	-- Activate the current tab if it's not floating
-	-- if layout.current and not floating[layout.current] then
-	--     self.panel:activateView(xpSystemText[layout.current])
-	-- end
 end
 
 

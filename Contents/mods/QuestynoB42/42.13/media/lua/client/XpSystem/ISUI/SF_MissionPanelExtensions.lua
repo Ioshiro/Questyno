@@ -3,6 +3,229 @@ local SFQuest_Calendar = require("utils/SFQuest_Calendar")
 
 SF_MissionPanel = SF_MissionPanel or ISPanelJoypad:derive("SF_MissionPanel");
 
+---------------------------------------------------------------------------------------------------------
+-- Database Lookups
+
+function SF_MissionPanel:getQuest(guid)
+	for i=1,#SFQuest_Database.QuestPool do
+		if SFQuest_Database.QuestPool[i].guid and SFQuest_Database.QuestPool[i].guid == guid then
+			return SFQuest_Database.QuestPool[i];
+		end
+	end
+	print("SOUL QUEST SYSTEM - No quest with guid: " .. guid .. " in the pool of quests.")
+	return nil
+end
+
+function SF_MissionPanel:getDailyEvent(dailycode)
+	for i=1,#SFQuest_Database.DailyEventPool do
+		if SFQuest_Database.DailyEventPool[i].dailycode and SFQuest_Database.DailyEventPool[i].dailycode == dailycode then
+			return SFQuest_Database.DailyEventPool[i];
+		end
+	end
+	print("SOUL QUEST SYSTEM - No daily event with dailycode: " .. dailycode .. " in the pool of daily events.")
+	return nil
+end
+
+function SF_MissionPanel:getTimer(guid)
+	for i=1,#SFQuest_Database.TimerPool do
+		if SFQuest_Database.TimerPool[i].guid and SFQuest_Database.TimerPool[i].guid == guid then
+			return SFQuest_Database.TimerPool[i];
+		end
+	end
+	print("SOUL QUEST SYSTEM - No Timer with guid: " .. guid .. " in the pool of timers.")
+	return nil
+end
+
+function SF_MissionPanel:getDialogueInfo(code)
+	for i=1,#SFQuest_Database.DialoguePool do
+		if SFQuest_Database.DialoguePool[i].dialoguecode and SFQuest_Database.DialoguePool[i].dialoguecode == code then
+			return SFQuest_Database.DialoguePool[i];
+		end
+	end
+	print("SOUL QUEST SYSTEM - Unable to find a Dialogue with dialoguecode: " .. code);
+	return nil
+end
+
+function SF_MissionPanel:getWorldInfo(identity)
+	for i=1,#SFQuest_Database.WorldPool do
+		if SFQuest_Database.WorldPool[i].identity and SFQuest_Database.WorldPool[i].identity == identity then
+			return SFQuest_Database.WorldPool[i];
+		end
+	end
+	print("SOUL QUEST SYSTEM - Unable to find a World Event with identity: " .. identity);
+	return nil
+end
+
+function SF_MissionPanel:getColor(color)
+	return SFQuest_Database.ColorPool[color];
+end
+
+function SF_MissionPanel:getStartingHour()
+	local timeofday = getGameTime():getStartTimeOfDay();
+	local modifier = 0;
+	if timeofday >= 7 then
+		modifier = 7;
+	else
+		modifier = -17; -- 19 e 22 pra 2AM e 5AM
+	end
+	return modifier
+end
+
+---------------------------------------------------------------------------------------------------------
+-- Quest Management
+
+function SF_MissionPanel:getActiveQuest(guid)
+	local player = self.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Category2 then
+		local currentTasks = prog.Category2
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i]
+				if task.guid and task.guid == guid then
+					return task;
+				end
+			end
+		end
+		print("SOUL QUEST SYSTEM - No quest with guid: " .. guid .. " in the list of active quests.")
+	end
+	return nil
+end
+
+function SF_MissionPanel:addQuestToCategory(quest, category, sound)
+	if not category then return end;
+	local prog = self.player:getModData().missionProgress
+	if prog and prog[category] then
+		local timedQuest = quest;
+		timedQuest.timetag = getGameTime():getWorldAgeHours();
+		table.insert(prog[category], timedQuest);
+		if sound then
+			self.player:getEmitter():playSound(sound);
+		end
+		self.needsBackup = true;
+	end
+end
+
+function SF_MissionPanel:countActiveQuestsWithCode(dailycode)
+	local player = getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Category2 then
+		local activeQuests = prog.Category2;
+		local count = 0;
+		for q=1,#activeQuests do
+			if activeQuests[q].dailycode and activeQuests[q].dailycode == dailycode then
+				count = count + 1;
+			end
+		end
+		return count
+	end
+	return 0
+end
+
+function SF_MissionPanel:checkObjectivesForCompletion(type, entry, newStatus)
+	local status = newStatus or "Obtained";
+	local prog = self.player:getModData().missionProgress
+
+	if prog and prog.Category2 then
+		local currentTasks = prog.Category2
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i]
+				if task.objectives and #task.objectives > 0 then
+					for k=1,#task.objectives do
+						local objective = task.objectives[k]
+						if not objective.status then
+							if type == "item" and objective.needsitem and objective.needsitem == entry then
+								SF_MissionPanel.instance:updateObjective(task.guid, k, status)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+function SF_MissionPanel:unlockQuestsFromPager()
+	local prog = self.player:getModData().missionProgress
+	if prog and prog.CategoryPager then
+		local pagerTasks = prog.CategoryPager;
+		local currentTasks = prog.Category2;
+		if #pagerTasks > 0 then
+			for i=1,#pagerTasks do
+				if not pagerTasks[i].update then
+					local task = pagerTasks[i];
+					table.insert(currentTasks, task);
+					table.remove(pagerTasks, i);
+					if task.unlocks then
+						local commandTable = luautils.split(task.unlocks, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+					end
+				else
+					local update = pagerTasks[i];
+					if update.unlocks then
+						local commandTable = luautils.split(update.unlocks, ";");
+						SF_MissionPanel.instance:readCommandTable(commandTable);
+					end
+					for t=1,#currentTasks do
+						local task = currentTasks[t]
+						if task.guid == update.task then
+							if update.index then --this is an update for one of the task's objectives
+								local objective = currentTasks[t].objectives[update.index] or {}
+								objective.status = update.status;
+								if update.blockscompletion then
+									objective.blockscompletion = update.blockscompletion;
+								end
+								if update.text then
+									objective.text = update.text;
+								end
+								currentTasks[t].objectives[update.index] = objective;
+							else -- this is an update for the task in general
+								currentTasks[t].status = update.status;
+								if update.text then
+									currentTasks[t].text = update.text;
+								end
+							end
+						end
+					end
+					table.remove(pagerTasks, i);
+				end
+				self.needsUpdate = true;
+				self.needsBackup = true;
+			end
+		else
+			print("pager list did not contain any tasks, unable to search for provided guid.")
+			return
+		end
+	else
+		print("Player does not have a pager list.");
+		return
+	end
+end
+
+function SF_MissionPanel:updateLore(guid, lore)
+	local player = self.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Category2 then
+		local currentTasks = prog.Category2;
+		if #currentTasks > 0 then
+			for i=1,#currentTasks do
+				local task = currentTasks[i]
+				if task.guid and task.guid == guid then
+					if not task.lore then
+						task.lore = {};
+					end
+					for l=1, #lore do
+						table.insert(task.lore, lore[l])
+					end
+					self.needsUpdate = true;
+					self.needsBackup = true;
+					break
+				end
+			end
+		end
+	end
+end
 
 function SF_MissionPanel:checkDefaults()
     local prog = self.player:getModData().missionProgress
@@ -159,13 +382,13 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
     if #currentTasks == 0 then
         return
     end
-    
+
     -- Funzione per processare obiettivi
     local function processObjectives(task)
         if not task.objectives or #task.objectives == 0 then
             return
         end
-        
+
         for o = 1, #task.objectives do
             local objective = task.objectives[o];
             if objective.needsitem and objective.status ~= "Completed" then
@@ -178,7 +401,7 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
             end
         end
     end
-    
+
     -- Funzione per gestire gli eventi mondiali quando un oggetto non è più valido
     local function handleWorldEvent(task)
         if task.status ~= "Obtained" or not task.onobtained then
@@ -222,25 +445,25 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
             end
         end
     end
-    
+
     -- Funzione per gestire l'ottenimento di un oggetto
     local function handleItemObtained(task)
         if task.status ~= status then
             task.status = status;
             SF_MissionPanel.instance:triggerUpdate()
-            
+
             -- Notifico il giocatore
             local questName = getText(task.text)
             local message = getText("IGUI_SFQuest_Questyno_Completed", questName)
             self.player:Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
-            
+
             -- Eseguo azioni post-ottenimento
             if status == "Obtained" and task.onobtained then
                 local commandTable = luautils.split(task.onobtained, ";");
                 SF_MissionPanel.instance:readCommandTable(commandTable, task.text);
             end
         end
-        
+
         -- Gestisco il completamento della missione
         if status == "Completed" then
             local guid = task.guid;
@@ -251,15 +474,15 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
             end
         end
     end
-    
+
     -- Gestisco la ricerca generica per tutti gli oggetti
     if not entry then
         for i = 1, #currentTasks do
             local task = currentTasks[i];
-            
+
             if type == "item" and task.needsitem then
                 local quantitycheck = SF_MissionPanel.instance:checkItemQuantity(task.needsitem)
-                
+
                 if quantitycheck then
                     handleItemObtained(task)
                 else
@@ -267,7 +490,7 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                     handleWorldEvent(task)
                 end
             end
-            
+
             -- Controllo gli obiettivi della missione
             if type == "item" and task.objectives then
                 processObjectives(task)
@@ -277,22 +500,22 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
         -- Gestisco la ricerca per un oggetto specifico
         for i = 1, #currentTasks do
             local task = currentTasks[i];
-            
+
             if type == "item" and task.needsitem then
                 local needsTable = luautils.split(task.needsitem, ";");
                 local itemscript = needsTable[1];
                 local quantity = tonumber(needsTable[2]) or 1;
                 local isTag = false;
-                
+
                 if luautils.stringStarts(needsTable[1], "Tag") or luautils.stringStarts(needsTable[1], "Predicate") then
                     itemscript = luautils.split(itemscript, "#")[2];
                     isTag = true;
                 end
-                
+
                 if itemscript == entry then
                     task.status = status;
                     SF_MissionPanel.instance:triggerUpdate()
-                    
+
                     if status == "Completed" then
                         local guid = task.guid;
                         SF_MissionPanel.instance:completeQuest(getPlayer(), guid);
@@ -316,7 +539,7 @@ function SF_MissionPanel:checkTaskForCompletion(guid)
     if #currentTasks == 0 then
         return
     end
-    
+
     -- Trova la missione con il GUID specificato
     local taskIndex = nil
     for i = 1, #currentTasks do
@@ -325,26 +548,26 @@ function SF_MissionPanel:checkTaskForCompletion(guid)
             break
         end
     end
-    
+
     -- Se non troviamo la missione, usciamo
     if not taskIndex then
         return
     end
-    
+
     local task = currentTasks[taskIndex]
-    
+
     -- Funzione per verificare se tutti gli obiettivi sono completati
     local function areObjectivesCompleted(objectives)
         if not objectives or #objectives == 0 then
             return true, nil
         end
-        
+
         local allCompleted = true
         local deliveryIndex = nil
-        
+
         for o = 1, #objectives do
             local objective = objectives[o]
-            
+
             -- Un obiettivo senza stato non è completo
             if not objective.status then
                 allCompleted = false
@@ -359,19 +582,19 @@ function SF_MissionPanel:checkTaskForCompletion(guid)
                 deliveryIndex = o
             end
         end
-        
+
         return allCompleted, deliveryIndex
     end
-    
+
     -- Verifica se gli obiettivi sono completi
     local completed, deliveryIndex = areObjectivesCompleted(task.objectives)
-    
+
     -- Esegui comandi se gli obiettivi sono completati
     if completed and task.onobjectivescompleted then
         local commandsTable = luautils.split(task.onobjectivescompleted, ";")
         SF_MissionPanel.instance:readCommandTable(commandsTable)
     end
-    
+
     -- Completa la missione se gli obiettivi sono completati e non serve una segnalazione
     if completed and not task.needsreport then
         -- Se c'è un obiettivo di consegna, imposta il suo stato come "Completed"
@@ -382,105 +605,6 @@ function SF_MissionPanel:checkTaskForCompletion(guid)
         -- Completa la missione
         SF_MissionPanel:completeQuest(player, guid)
     end
-end
-
-function SF_MissionPanel:updateFrequency(dailycode, frequency)
-    local player = getPlayer();
-    local prog = player:getModData().missionProgress
-    if prog and prog.DailyEvent then
-        for i, v in ipairs(prog.DailyEvent) do
-            if v.dailycode == dailycode then
-                v.frequency = frequency
-                self.needsBackup = true
-                SF_MissionPanel.instance:triggerUpdate()
-                break
-            end
-        end
-    end
-end  
-
---PredicateFullDrainable#Base.PropaneTank;2;
-function SF_MissionPanel:checkItemQuantity(stringforcheck)
-	local needsTable = luautils.split(stringforcheck, ";");
-	local itemscript = needsTable[1]; -- PredicateFullDrainable#Base.PropaneTank
-	local quantity = tonumber(needsTable[2]) or 1;
-	local carrying;
-	local isTag;
-    local isPredicate;
-	local predicateValue;
-
-     -- Verifica se itemscript inizia con 'Tag' o 'Predicate' e imposta i booleani
-     if luautils.stringStarts(itemscript, "Tag") then
-        itemscript = luautils.split(itemscript, "#")[2];
-        predicateValue = tonumber(needsTable[3]);
-        isTag = true
-    end
-    if luautils.stringStarts(itemscript, "Predicate") then
-        --PredicateFullDrainable#Base.PropaneTank
-        itemscript = luautils.split(itemscript, "#")[2]; -- Base.PropaneTank
-        predicateValue = tonumber(needsTable[3]) or 0;
-        isPredicate = true
-    end
-    if isTag then
-	    if luautils.stringStarts(needsTable[1], "Tag#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagRecurse(itemscript);
-	    elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
-	    elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
-	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);	
-	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
-	    elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger") then
-	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked") then
-        	isTag = true;
-        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
-        end
-    elseif isPredicate then
-        if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
-
-        elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
-
-        elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);    
-
-        elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
-        elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
-
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
-
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger") then
-            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked") then
-            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
-        end
-    else
-		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
-	end
-	if quantity <= carrying then
-        print("Carrying: " .. carrying .. " Quantity: " .. quantity)
-		return true
-	end
-	return false
 end
 
 function SF_MissionPanel:updateQuestStatus(guid, status)
@@ -496,11 +620,11 @@ function SF_MissionPanel:updateQuestStatus(guid, status)
     if #currentTasks == 0 then
         return
     end
-    
+
     -- Funzione per eseguire i comandi in base allo stato
     local function executeStatusCommands(task, status)
         local commandProperty = nil
-        
+
         if status == "Failed" and task.onfailed then
             commandProperty = task.onfailed
         elseif status == "Completed" and task.ondone then
@@ -508,157 +632,31 @@ function SF_MissionPanel:updateQuestStatus(guid, status)
         elseif status == "Obtained" and task.onobtained then
             commandProperty = task.onobtained
         end
-        
+
         if commandProperty then
             local commandTable = luautils.split(commandProperty, ";")
             SF_MissionPanel.instance:readCommandTable(commandTable)
         end
     end
-    
+
     -- Cerca la missione con il GUID specificato
     for i = 1, #currentTasks do
         local task = currentTasks[i]
         if task.guid and task.guid == guid then
             -- Aggiorna lo stato della missione
             task.status = status
-            
+
             -- Esegui eventuali comandi basati sul nuovo stato
             executeStatusCommands(task, status)
-            
+
             -- Imposta i flag di aggiornamento e backup
             SF_MissionPanel.instance:triggerUpdate()
             self.needsBackup = true
-            
+
             -- Esci dal ciclo dopo aver trovato e aggiornato la missione
             break
         end
     end
-end
-
-
-function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
-    local player = getPlayer();
-    local prog = player:getModData().missionProgress
-    if prog and prog.WorldEvent then
-        for k, v in pairs(prog.WorldEvent) do
-            if v.identity == dailycode then
-                return true
-            end
-        end
-    end
-    return false
-end
-
--- PredicateFullDrainable#Base.PropaneTank;2
-function SF_MissionPanel:takeNeededItem(neededitem)
-    local player = getPlayer();
-    local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
-    local itemscript = needsTable[1];
-    local quantity = tonumber(needsTable[2]) or 1;
-    local items;
-    local predicateValue;
-    local isTag;
-    local isPredicate;
-    local isQuantity = SF_MissionPanel.instance:checkItemQuantity(neededitem);
-
-    if not isQuantity then
-        return false
-    end
-
-    -- Verifica se itemscript inizia con 'Tag' o 'Predicate' e imposta i booleani
-    if luautils.stringStarts(itemscript, "Tag") then
-        isTag = true;
-        itemscript = luautils.split(itemscript, "#")[2];
-        predicateValue = tonumber(needsTable[3]);
-    end
-    if luautils.stringStarts(itemscript, "Predicate") then
-        isPredicate = true;
-        itemscript = luautils.split(itemscript, "#")[2];
-        predicateValue = tonumber(needsTable[3]);
-    end
-    if isTag then
-        -- Gestione dei casi con 'Tag'
-        if luautils.stringStarts(needsTable[1], "Tag#") then
-                items = player:getInventory():getSomeTagRecurse(itemscript, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);        
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then    
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then    
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then    
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
-        end
-    elseif isPredicate then
-        -- Gestione dei casi senza 'Tag' (solo 'Predicate')
-        if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);
-        elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);    
-        elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then    
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);    
-        elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then    
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
-        elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then    
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
-                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
-        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked#") then
-                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
-        end
-    else
-        -- Caso di default (nessun 'Tag' o 'Predicate')
-            items = player:getInventory():getSomeTypeRecurse(itemscript, quantity);
-    end
-
-    if items then
-        for i=0, items:size()-1 do
-            local item = items:get(i);
-            local itemId = item:getID();
-            if item:isEquipped() then
-                item:getContainer():setDrawDirty(true);
-                item:setJobDelta(0.0);
-                player:removeWornItem(item)
-        
-                local hotbar = getPlayerHotbar(player:getPlayerNum())
-                local fromHotbar = false;
-                if hotbar then
-                    fromHotbar = hotbar:isItemAttached(item);
-                end
-        
-                if fromHotbar then
-                    hotbar.chr:setAttachedItem(item:getAttachedToModel(), item);
-                    player:resetEquippedHandsModels()
-                end
-        
-                if item == player:getPrimaryHandItem() then
-                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getSecondaryHandItem() then
-                        player:setSecondaryHandItem(nil);
-                    end
-                    player:setPrimaryHandItem(nil);
-                end
-                if item == player:getSecondaryHandItem() then
-                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getPrimaryHandItem() then
-                        player:setPrimaryHandItem(nil);
-                    end
-                    player:setSecondaryHandItem(nil);
-                end
-            end
-            player:getInventory():removeItemWithIDRecurse(itemId);
-        end
-        return true
-    end
-    return nil
 end
 
 function SF_MissionPanel:updateObjective(guid, index, status)
@@ -679,18 +677,18 @@ function SF_MissionPanel:updateObjective(guid, index, status)
                 -- Processo solo gli obiettivi validi
                 if task.objectives and task.objectives[index] then
                     task.objectives[index].status = status
-                    
+
                     -- Esecuzione comandi
-                    local commands = 
+                    local commands =
                         (status == "Failed" and task.objectives[index].onfailed) or
                         (status == "Completed" and task.objectives[index].oncompleted) or
                         (status == "Obtained" and task.objectives[index].onobtained)
-                    
+
                     if commands then
                         local commandTable = luautils.split(commands, ";")
                         self:readCommandTable(commandTable, task.text)
                     end
-                    
+
                     -- Aggiornamento stato missione
                     self:checkTaskForCompletion(guid)
                     SF_MissionPanel.instance:triggerUpdate()
@@ -704,89 +702,20 @@ function SF_MissionPanel:updateObjective(guid, index, status)
     end
 end
 
-
-function SF_MissionPanel:forceBackupData()
-	local player = self.player or getPlayer();
-	local data = player:getModData().missionProgress;
-    data.forceBackup = true;
-	if not data then
-		print("Player had no quest data for the backup.");
-		return
-	end
-	if isClient() then
-		print("****************SALVO CLIENT************************");
-		sendClientCommand(player, 'SFQuest', 'saveData', data);
-	else
-		print("****************SALVO SERVER************************");
-		SFQuest_Server.localBackup(player, data);
-	end;
-end
-
-function SF_MissionPanel:removeReputation(faction, value)
-	local player = SF_MissionPanel.instance.player or getPlayer();
-	local prog = player:getModData().missionProgress
-	if prog and prog.Factions then
-		local factions = prog.Factions;
-
-		local facIndex;
-		local currentRep;
-		local currentTier;
-		local newTier;
-
-		if #factions > 0 then
-			for j=1,#factions do
-				if factions[j].factioncode and factions[j].factioncode == faction then
-					facIndex = j;
-					currentRep = factions[j].reputation;
-					currentTier = factions[j].tierlevel;
-					break
-				end
-			end
-		end
-		if facIndex then
-			local playerFaction = factions[facIndex]
-			for i=1,#SFQuest_Database.FactionPool do
-				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
-					if currentTier == 1 then
-						playerFaction.reputation = currentRep - value;
-						if playerFaction.reputation < 0 then
-							playerFaction.reputation = 0;
-						end
-					else
-						playerFaction.reputation = currentRep - value;
-						if playerFaction.reputation < 0 then
-							newTier = currentTier - 1;
-							playerFaction.tierlevel = newTier;
-							if SFQuest_Database.FactionPool[i].tiers then
-								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
-								playerFaction.tiername = tier.tiername;
-								playerFaction.repmax = tier.minrep;
-								playerFaction.tiercolor = tier.barcolor;
-							end
-							playerFaction.reputation = playerFaction.repmax + playerFaction.reputation;
-						end
-					end
-				end
-			end
-			SF_MissionPanel.instance:triggerUpdate();
-			SF_MissionPanel.instance.needsBackup = true;
-		end
-	end
-end
-
-function SF_MissionPanel.RemoveAllWorldMarkers()
+function SF_MissionPanel:updateFrequency(dailycode, frequency)
     local player = getPlayer();
     local prog = player:getModData().missionProgress
-    if prog and prog.WorldEvent then
-        for k2, v2 in pairs(prog.WorldEvent) do
-            print("SOUL QUEST SYSTEM - checking marker for: " .. v2.dialoguecode);
-            if v2.marker then
-                v2.marker:remove();
+    if prog and prog.DailyEvent then
+        for i, v in ipairs(prog.DailyEvent) do
+            if v.dailycode == dailycode then
+                v.frequency = frequency
+                self.needsBackup = true
+                SF_MissionPanel.instance:triggerUpdate()
+                break
             end
         end
     end
 end
-
 
 function SF_MissionPanel:completeQuest(player, guid)
 	local prog = player:getModData().missionProgress
@@ -833,7 +762,7 @@ function SF_MissionPanel:completeQuest(player, guid)
 					end
 					if task.awardsworld then
 						local entry = luautils.split(task.awardsworld, ";");
-						SF_MissionPanel.instance:runCommand("unlockworldevent", entry[1], entry[2], entry[3]);				
+						SF_MissionPanel.instance:runCommand("unlockworldevent", entry[1], entry[2], entry[3]);
 					end
                     -- "task.ondone" not quite sure to put this here because it's already present in "updateQuestStatus" when status is setted to == "Completed" and "checkQuestForCompletionByType" too. So there is a possibility to trigger it twice or more. because if you update the quest status to "Complete" and there is "ondone" command, it will be executed and then will be executed again when "completequest" is called.
                     if task.ondone then
@@ -993,7 +922,7 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 	    	end
             -- si potrebbe pensare di mettere un checkQuestForCompletionByType check qui allo sblocco della quest per fixare il problema anche dell'addItem
             SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-            
+
 	    	SF_MissionPanel.instance:triggerUpdate();
 	    	SF_MissionPanel.instance.needsBackup = true;
 	    	return
@@ -1005,3 +934,473 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
     end
 end
 
+---------------------------------------------------------------------------------------------------------
+-- Item Check Utilities
+
+--PredicateFullDrainable#Base.PropaneTank;2;
+function SF_MissionPanel:checkItemQuantity(stringforcheck)
+	local needsTable = luautils.split(stringforcheck, ";");
+	local itemscript = needsTable[1]; -- PredicateFullDrainable#Base.PropaneTank
+	local quantity = tonumber(needsTable[2]) or 1;
+	local carrying;
+	local isTag;
+    local isPredicate;
+	local predicateValue;
+
+     -- Verifica se itemscript inizia con 'Tag' o 'Predicate' e imposta i booleani
+     if luautils.stringStarts(itemscript, "Tag") then
+        itemscript = luautils.split(itemscript, "#")[2];
+        predicateValue = tonumber(needsTable[3]);
+        isTag = true
+    end
+    if luautils.stringStarts(itemscript, "Predicate") then
+        --PredicateFullDrainable#Base.PropaneTank
+        itemscript = luautils.split(itemscript, "#")[2]; -- Base.PropaneTank
+        predicateValue = tonumber(needsTable[3]) or 0;
+        isPredicate = true
+    end
+    if isTag then
+	    if luautils.stringStarts(needsTable[1], "Tag#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagRecurse(itemscript);
+	    elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
+	    elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
+	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);
+	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
+	    elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger") then
+	    	isTag = true;
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked") then
+        	isTag = true;
+        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
+        end
+    elseif isPredicate then
+        if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
+
+        elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
+
+        elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);
+
+        elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
+        elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
+
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight") then
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
+
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger") then
+            carrying = self.player:getInventory():getCountTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked") then
+            carrying = self.player:getInventory():getCountTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
+        end
+    else
+		carrying = self.player:getInventory():getItemCountRecurse(itemscript);
+	end
+	if quantity <= carrying then
+        print("Carrying: " .. carrying .. " Quantity: " .. quantity)
+		return true
+	end
+	return false
+end
+
+-- PredicateFullDrainable#Base.PropaneTank;2
+function SF_MissionPanel:takeNeededItem(neededitem)
+    local player = getPlayer();
+    local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
+    local itemscript = needsTable[1];
+    local quantity = tonumber(needsTable[2]) or 1;
+    local items;
+    local predicateValue;
+    local isTag;
+    local isPredicate;
+    local isQuantity = SF_MissionPanel.instance:checkItemQuantity(neededitem);
+
+    if not isQuantity then
+        return false
+    end
+
+    -- Verifica se itemscript inizia con 'Tag' o 'Predicate' e imposta i booleani
+    if luautils.stringStarts(itemscript, "Tag") then
+        isTag = true;
+        itemscript = luautils.split(itemscript, "#")[2];
+        predicateValue = tonumber(needsTable[3]);
+    end
+    if luautils.stringStarts(itemscript, "Predicate") then
+        isPredicate = true;
+        itemscript = luautils.split(itemscript, "#")[2];
+        predicateValue = tonumber(needsTable[3]);
+    end
+    if isTag then
+        -- Gestione dei casi con 'Tag'
+        if luautils.stringStarts(needsTable[1], "Tag#") then
+                items = player:getInventory():getSomeTagRecurse(itemscript, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight#") then
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
+                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked#") then
+                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
+        end
+    elseif isPredicate then
+        -- Gestione dei casi senza 'Tag' (solo 'Predicate')
+        if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateCondition#") then
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFreshFood#") then
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFullDrainable#") then
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateDrainable#") then
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodWeight#") then
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodHunger#") then
+                items = player:getInventory():getSomeTypeEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
+        elseif luautils.stringStarts(needsTable[1], "PredicateFoodCooked#") then
+                items = player:getInventory():getSomeTypeEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
+        end
+    else
+        -- Caso di default (nessun 'Tag' o 'Predicate')
+            items = player:getInventory():getSomeTypeRecurse(itemscript, quantity);
+    end
+
+    if items then
+        for i=0, items:size()-1 do
+            local item = items:get(i);
+            local itemId = item:getID();
+            if item:isEquipped() then
+                item:getContainer():setDrawDirty(true);
+                item:setJobDelta(0.0);
+                player:removeWornItem(item)
+
+                local hotbar = getPlayerHotbar(player:getPlayerNum())
+                local fromHotbar = false;
+                if hotbar then
+                    fromHotbar = hotbar:isItemAttached(item);
+                end
+
+                if fromHotbar then
+                    hotbar.chr:setAttachedItem(item:getAttachedToModel(), item);
+                    player:resetEquippedHandsModels()
+                end
+
+                if item == player:getPrimaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getSecondaryHandItem() then
+                        player:setSecondaryHandItem(nil);
+                    end
+                    player:setPrimaryHandItem(nil);
+                end
+                if item == player:getSecondaryHandItem() then
+                    if (item:isTwoHandWeapon() or item:isRequiresEquippedBothHands()) and item == player:getPrimaryHandItem() then
+                        player:setPrimaryHandItem(nil);
+                    end
+                    player:setSecondaryHandItem(nil);
+                end
+            end
+            player:getInventory():removeItemWithIDRecurse(itemId);
+        end
+        return true
+    end
+    return nil
+end
+
+---------------------------------------------------------------------------------------------------------
+-- Reputation System
+
+function SF_MissionPanel:awardReputation(faction, value)
+	local player = self.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Factions then
+		local factions = prog.Factions;
+
+		local facIndex;
+		local currentRep;
+		local currentTier;
+		local newTier;
+		local maxTier;
+
+		if #factions > 0 then
+			for j=1,#factions do
+				if factions[j].factioncode and factions[j].factioncode == faction then
+					facIndex = j;
+					currentRep = factions[j].reputation;
+					currentTier = factions[j].tierlevel;
+					break
+				end
+			end
+		end
+		if facIndex then
+			local playerFaction = factions[facIndex]
+			for i=1,#SFQuest_Database.FactionPool do
+				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+					if SFQuest_Database.FactionPool[i].maxtier then maxTier = SFQuest_Database.FactionPool[i].maxtier end
+					if currentTier == maxTier then
+						playerFaction.reputation = currentRep + value;
+						if playerFaction.reputation > playerFaction.repmax then
+							playerFaction.reputation = playerFaction.repmax;
+						end
+					else
+						playerFaction.reputation = currentRep + value;
+						if playerFaction.reputation >= playerFaction.repmax then
+							newTier = currentTier + 1;
+							playerFaction.tierlevel = newTier;
+							playerFaction.reputation = playerFaction.reputation - playerFaction.repmax;
+							if SFQuest_Database.FactionPool[i].tiers then
+								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
+								if tier.unlocks then
+									local commandTable = luautils.split(tier.unlocks, ";");
+									SF_MissionPanel.instance:readCommandTable(commandTable);
+								end
+								playerFaction.tiername = tier.tiername;
+								playerFaction.repmax = tier.minrep;
+								playerFaction.tiercolor = tier.barcolor;
+							end
+						end
+					end
+				end
+			end
+			self.needsUpdate = true;
+			self.needsBackup = true;
+		end
+	end
+end
+
+function SF_MissionPanel:removeReputation(faction, value)
+	local player = SF_MissionPanel.instance.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Factions then
+		local factions = prog.Factions;
+
+		local facIndex;
+		local currentRep;
+		local currentTier;
+		local newTier;
+
+		if #factions > 0 then
+			for j=1,#factions do
+				if factions[j].factioncode and factions[j].factioncode == faction then
+					facIndex = j;
+					currentRep = factions[j].reputation;
+					currentTier = factions[j].tierlevel;
+					break
+				end
+			end
+		end
+		if facIndex then
+			local playerFaction = factions[facIndex]
+			for i=1,#SFQuest_Database.FactionPool do
+				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+					if currentTier == 1 then
+						playerFaction.reputation = currentRep - value;
+						if playerFaction.reputation < 0 then
+							playerFaction.reputation = 0;
+						end
+					else
+						playerFaction.reputation = currentRep - value;
+						if playerFaction.reputation < 0 then
+							newTier = currentTier - 1;
+							playerFaction.tierlevel = newTier;
+							if SFQuest_Database.FactionPool[i].tiers then
+								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
+								playerFaction.tiername = tier.tiername;
+								playerFaction.repmax = tier.minrep;
+								playerFaction.tiercolor = tier.barcolor;
+							end
+							playerFaction.reputation = playerFaction.repmax + playerFaction.reputation;
+						end
+					end
+				end
+			end
+			SF_MissionPanel.instance:triggerUpdate();
+			SF_MissionPanel.instance.needsBackup = true;
+		end
+	end
+end
+
+function SF_MissionPanel:getReputationTier(faction, player)
+	local player = player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.Factions then
+		local factions = prog.Factions;
+		if #factions > 0 then
+			for j=1,#factions do
+				if factions[j].factioncode and factions[j].factioncode == faction then
+					local tier = factions[j].tierlevel or 1;
+					return tier;
+				end
+			end
+		end
+	end
+	print("Player is missing data for the requested faction's tier. Returning 1 as the tier to avoid errors.");
+	return 1;
+end
+
+function SF_MissionPanel:getColorForFactionTier(faction, reputation)
+	for i=1,#SFQuest_Database.FactionPool do
+		if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+			print("Found the right faction, now seeking for the proper color!");
+			if SFQuest_Database.FactionPool[i].tiers then
+				local tiers = SFQuest_Database.FactionPool[i].tiers;
+				if #tiers > 0 then
+					for j=1,#tiers do
+						if tiers[j].minrep and reputation > tiers[j].minrep then
+							print("Tier's minimum reputation was " .. tostring(tiers[j].minrep) .. " so player has enough reputation for this tier.");
+							local color = tiers[j].barcolor;
+							print("Tier's color was " .. color);
+							if color and SFQuest_Database.ColorPool[color] then
+								print("Color " .. color .. " was found! Let's return it then.");
+								local tab = SFQuest_Database.ColorPool[color];
+								return tab;
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	return {1.0, 1.0, 1.0}
+end
+
+---------------------------------------------------------------------------------------------------------
+-- World Events
+
+function SF_MissionPanel:hasActiveWorldEventWithCode(dailycode)
+    local player = getPlayer();
+    local prog = player:getModData().missionProgress
+    if prog and prog.WorldEvent then
+        for k, v in pairs(prog.WorldEvent) do
+            if v.identity == dailycode then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+-- Removes a World Event from a player's list.
+function SF_MissionPanel:removeWorldEvent(squaretag)
+	local player = self.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.WorldEvent then
+		local worldEvents = prog.WorldEvent
+		if worldEvents[squaretag] and worldEvents[squaretag].marker then
+			worldEvents[squaretag].marker:remove();
+		end
+		worldEvents[squaretag] = nil;
+	end
+end
+
+-- Searches for world events that match the dailycode and remove them
+function SF_MissionPanel:removeWorldEventsWithCode(dailycode)
+	local player = self.player or getPlayer();
+	local prog = player:getModData().missionProgress
+	if prog and prog.WorldEvent then
+		for k, v in ipairs(prog.WorldEvent) do
+			if v.dailycode and v.dailycode == dailycode then
+				SF_MissionPanel.instance:removeWorldEvent(k);
+			end
+		end
+	end
+end
+
+function SF_MissionPanel.RemoveAllWorldMarkers()
+    local player = getPlayer();
+    local prog = player:getModData().missionProgress
+    if prog and prog.WorldEvent then
+        for k2, v2 in pairs(prog.WorldEvent) do
+            print("SOUL QUEST SYSTEM - checking marker for: " .. v2.dialoguecode);
+            if v2.marker then
+                v2.marker:remove();
+            end
+        end
+    end
+end
+
+---------------------------------------------------------------------------------------------------------
+-- Data Backup Utilities
+
+function SF_MissionPanel:backupData()
+	local player = self.player or getPlayer();
+	local data = player:getModData().missionProgress;
+	if not data then
+		print("Player had no quest data for the backup.");
+		return
+	end
+	if isClient() then
+		sendClientCommand(player, 'SFQuest', 'saveData', data);
+	else
+		SFQuest_Server.localBackup(player, data);
+	end;
+end
+
+function SF_MissionPanel:forceBackupData()
+	local player = self.player or getPlayer();
+	local data = player:getModData().missionProgress;
+    data.forceBackup = true;
+	if not data then
+		print("Player had no quest data for the backup.");
+		return
+	end
+	if isClient() then
+		print("****************SALVO CLIENT************************");
+		sendClientCommand(player, 'SFQuest', 'saveData', data);
+	else
+		print("****************SALVO SERVER************************");
+		SFQuest_Server.localBackup(player, data);
+	end;
+end
+
+function SF_MissionPanel:removeCallFromList(guid)
+	local prog = self.player:getModData().missionProgress
+	if prog and prog.Calls then
+		local calls = prog.Calls;
+		if #calls > 0 then
+			for i=1,#calls do
+				if calls[i] == guid then
+					table.remove(calls, i);
+					break
+				end
+			end
+		end
+	end
+end
+
+function SF_MissionPanel:returnAwardedItemsForEventWindow(awardeditem)
+	local tab = luautils.split(awardeditem, ";");
+	local scriptItem = getScriptManager():FindItem(tab[1])
+	local itemName = scriptItem:getName();
+	local finalstring = itemName
+	if tab[2] then
+		finalstring = itemName .. " X " .. tab[2];
+		return finalstring;
+	end
+end

@@ -34,7 +34,7 @@ manager:getItem("Base.DeadBird"):DoParam("Tags".." = ".. "DeadAnimal");
 manager:getItem("Base.DeadRabbit"):DoParam("Tags".." = ".. "DeadAnimal");
 manager:getItem("Base.DeadSquirrel"):DoParam("Tags".." = ".. "DeadAnimal");
 
-manager:getItem("Base.Bass"):DoParam("Tags".." = ".. "Fish");
+-- manager:getItem("Base.Bass"):DoParam("Tags".." = ".. "Fish"); no b42
 manager:getItem("Base.Catfish"):DoParam("Tags".." = ".. "Fish");
 manager:getItem("Base.Crappie"):DoParam("Tags".." = ".. "Fish");
 manager:getItem("Base.Panfish"):DoParam("Tags".." = ".. "Fish");

@@ -18,43 +18,6 @@ function ISCraftAction:perform()
     SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
-local function postAddItem()
-    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-    print("additem Successful overwrite again");
-end
-
-local tickAdditem = 50
-local function delayAddItem()
-    if tickAdditem <= 0 then
-        Events.OnTick.Remove(delayAddItem)
-        postAddItem()
-        tickAdditem = 50
-        return
-    end
-    tickAdditem = tickAdditem - 1
-end
-
--- local oldAdditem = SF_MissionPanel.Commands.additem
-local function additemOverWrite(itemType, quantity)
-    local inv = getPlayer():getInventory();
-	local items = inv:AddItems(itemType, quantity);
-    if items then
-        for i=0, items:size()-1 do
-            local item = items:get(i);
-            item:setFavorite(true);
-        end
-    end
-    -- if not getPlayerInventory(0):getIsVisible() and not getPlayerLoot(0):getIsVisible() then
-        Events.OnTick.Add(delayAddItem)
-    -- end
-end
-
-
-Events.OnGameStart.Add(
-    function()
-        SF_MissionPanel.Commands["additem"] = additemOverWrite;
-    end
-) 
 
 local ISInventoryTransferActionVanilla = ISInventoryTransferAction.perform
 function ISInventoryTransferAction:perform()
@@ -65,12 +28,12 @@ end
 
 
 -- Drop item (seems not working, it triggers ISInventoryTransferAction instead?)
-local oldISDropItemAction_perform = ISDropItemAction.perform
-function ISDropItemAction:perform()
-	oldISDropItemAction_perform(self)
-    print("ISDropItemAction Successful overwrite")
-	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-end
+-- local oldISDropItemAction_perform = ISDropItemAction.perform
+-- function ISDropItemAction:perform()
+-- 	oldISDropItemAction_perform(self)
+--     print("ISDropItemAction Successful overwrite")
+-- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+-- end
 
 -- Place item in the world
 local oldISDropWorldItemAction_perform = ISDropWorldItemAction.perform
@@ -95,12 +58,12 @@ function ISAddItemInRecipe:perform()
 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
 end
 
-local ISConsolidateDrainableAll_perform = ISConsolidateDrainableAll.perform
-function ISConsolidateDrainableAll:perform()
-	ISConsolidateDrainableAll_perform(self)
-	print("ISConsolidateDrainableAll_perform")
-	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
-end
+-- local ISConsolidateDrainableAll_perform = ISConsolidateDrainableAll.perform
+-- function ISConsolidateDrainableAll:perform()
+-- 	ISConsolidateDrainableAll_perform(self)
+-- 	print("ISConsolidateDrainableAll_perform")
+-- 	SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+-- end
 
 local ISConsolidateDrainable_perform = ISConsolidateDrainable.perform
 function ISConsolidateDrainable:perform()
@@ -132,7 +95,7 @@ function ISForageAction:perform()
     -- end
 end
 
-if getActivatedMods():contains("nshops_retexture") or getActivatedMods():contains("nshops") or getActivatedMods():contains("nshoppyniTest") or getActivatedMods():contains("nshoppyni") then
+if getActivatedMods():contains("\\nshopsb42") then
     -- require "TimedActions/ShopBuyAction"
     local origin_ShopBuyAction_perform = ShopBuyAction.perform
     function ShopBuyAction:perform()

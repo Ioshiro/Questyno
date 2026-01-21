@@ -37,9 +37,32 @@ function SF_MissionPanel.Commands.actionevent(condition, commandslist)
     end
 end
 
-function SF_MissionPanel.Commands.additem(item, quantity)
+local function postAddItem()
+    SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");
+    print("additem Successful overwrite again");
+end
+
+local tickAdditem = 50
+local function delayAddItem()
+    if tickAdditem <= 0 then
+        Events.OnTick.Remove(delayAddItem)
+        postAddItem()
+        tickAdditem = 50
+        return
+    end
+    tickAdditem = tickAdditem - 1
+end
+
+function SF_MissionPanel.Commands.additem(itemType, quantity)
 	local inv = getPlayer():getInventory();
-	inv:AddItems(item, quantity);
+	local items = inv:AddItems(itemType, quantity);
+    if items then
+        for i=0, items:size()-1 do
+            local item = items:get(i);
+            item:setFavorite(true);
+        end
+    end
+    Events.OnTick.Add(delayAddItem)
 end
 
 function SF_MissionPanel.Commands.addmannequin(squaretag)

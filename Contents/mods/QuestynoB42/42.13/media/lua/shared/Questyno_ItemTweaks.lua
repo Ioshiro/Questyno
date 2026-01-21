@@ -19,7 +19,7 @@ function Questyno_Tweaks()
     manager:getItem("Base.WristWatch_Right_ClassicGold"):DoParam("Tags".." = ".. "WatchLuxury");
     manager:getItem("Base.WristWatch_Left_ClassicGold"):DoParam("Tags".." = ".. "WatchLuxury");
     -- GuitarElectricBass
-    manager:getItem("Base.GuitarElectricBassRed"):DoParam("Tags".." = ".. "GuitarElectricBass");
+    -- manager:getItem("Base.GuitarElectricBassRed"):DoParam("Tags".." = ".. "GuitarElectricBass"); no b42
     manager:getItem("Base.GuitarElectricBassBlack"):DoParam("Tags".." = ".. "GuitarElectricBass");
     manager:getItem("Base.GuitarElectricBassBlue"):DoParam("Tags".." = ".. "GuitarElectricBass");
     -- Bandana
