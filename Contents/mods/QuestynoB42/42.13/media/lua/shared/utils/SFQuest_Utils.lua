@@ -78,8 +78,12 @@ function SFQuest_Utils.predicateDrainable(item, condition)
 	return item:getUsedDelta() >= condition
 end
 
-
-
+--- Converte un nome tag (stringa) in un oggetto ItemTag per B42
+---@param tagName string
+---@return ItemTag
+function SFQuest_Utils.getItemTag(tagName)
+    return ItemTag.get(ResourceLocation.of(tagName))
+end
 
 
 return SFQuest_Utils

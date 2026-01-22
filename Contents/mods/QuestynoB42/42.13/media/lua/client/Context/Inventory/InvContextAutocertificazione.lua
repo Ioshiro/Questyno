@@ -53,72 +53,106 @@ function ISInventoryMenuElements.ContextAutocertificazione()
 	end
 
     function self.cleanQuestEvents(player, task)
-     -- rimozione di eventuali clickevent degli obiettivi (se presenti)
+        local prog = player:getModData().missionProgress
+        local idx = prog.Indexes
+
+        -- Helper: Remove ClickEvent by address using O(1) lookup with fallback
+        local function removeClickEventByAddress(address)
+            if not prog.ClickEvent then return end
+            -- O(1) lookup first
+            if idx and idx.ClickEventByAddress and idx.ClickEventByAddress[address] then
+                local entry = idx.ClickEventByAddress[address]
+                if entry.event and entry.event.marker then
+                    entry.event.marker:remove()
+                end
+                prog.ClickEvent[entry.squaretag] = nil
+                idx.ClickEventByAddress[address] = nil
+                return
+            end
+            -- Fallback: O(n) loop for backward compatibility
+            for k2, event in pairs(prog.ClickEvent) do
+                if event.address and event.address == address then
+                    if event.marker then event.marker:remove() end
+                    prog.ClickEvent[k2] = nil
+                    break
+                end
+            end
+        end
+
+        -- Helper: Remove WorldEvent by dialoguecode using O(1) lookup with fallback
+        local function removeWorldEventByDialogue(dialoguecode)
+            if not prog.WorldEvent then return end
+            -- O(1) lookup first
+            if idx and idx.WorldEventByDialogue and idx.WorldEventByDialogue[dialoguecode] then
+                local entry = idx.WorldEventByDialogue[dialoguecode]
+                if entry.event and entry.event.marker then
+                    entry.event.marker:remove()
+                end
+                prog.WorldEvent[entry.squaretag] = nil
+                idx.WorldEventByDialogue[dialoguecode] = nil
+                return
+            end
+            -- Fallback: O(n) loop for backward compatibility
+            for k, v in pairs(prog.WorldEvent) do
+                if v.dialoguecode == dialoguecode then
+                    if prog.WorldEvent[k].marker then
+                        prog.WorldEvent[k].marker:remove()
+                    end
+                    prog.WorldEvent[k] = nil
+                    break
+                end
+            end
+        end
+
+        -- Helper: Remove ActionEvent by questGuid using O(1) lookup with fallback
+        local function removeActionEventByQuestGuid(questGuid)
+            if not prog.ActionEvent or #prog.ActionEvent == 0 then return end
+            -- O(1) lookup first
+            if idx and idx.ActionEventByQuestGuid and idx.ActionEventByQuestGuid[questGuid] then
+                local event = idx.ActionEventByQuestGuid[questGuid]
+                -- Find index in array and remove
+                for a = #prog.ActionEvent, 1, -1 do
+                    if prog.ActionEvent[a] == event then
+                        table.remove(prog.ActionEvent, a)
+                        break
+                    end
+                end
+                idx.ActionEventByQuestGuid[questGuid] = nil
+                return
+            end
+            -- Fallback: O(n) loop for backward compatibility
+            for a = #prog.ActionEvent, 1, -1 do
+                local commands = luautils.split(prog.ActionEvent[a].commands, ";")
+                if prog.ActionEvent[a].condition == "killzombies" and commands[2] == questGuid then
+                    table.remove(prog.ActionEvent, a)
+                    break
+                end
+            end
+        end
+
+        -- rimozione di eventuali clickevent degli obiettivi (se presenti)
         if task.objectives and #task.objectives > 0 then
-            for k=1,#task.objectives do
+            for k = 1, #task.objectives do
                 if task.objectives[k].oncompleted then
-                    local oncompletedTable = luautils.split(task.objectives[k].oncompleted, ";");
+                    local oncompletedTable = luautils.split(task.objectives[k].oncompleted, ";")
                     for j = 1, #oncompletedTable do
                         if oncompletedTable[j] == "removeclickevent" then
-                            local removeClickEventValue = oncompletedTable[j + 1]
-                            for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
-                                if event.address and event.address == removeClickEventValue then
-                                    player:getModData().missionProgress.ClickEvent[k2] = nil
-                                    break;
-                                end
-                            end
-                        end
-                        if oncompletedTable[j] == "unlockworldevent" then
-                            local condition = oncompletedTable[j+2]
-                            if player:getModData().missionProgress.WorldEvent then
-                                for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
-                                    if v.dialoguecode == condition then
-                                        if player:getModData().missionProgress.WorldEvent[k].marker then
-                                            player:getModData().missionProgress.WorldEvent[k].marker:remove();
-                                        end
-                                        player:getModData().missionProgress.WorldEvent[k] = nil
-                                        break;
-                                    end
-                                end
-                            end
-                        end
-                        if oncompletedTable[j] == "clickevent" then
-                            local removeClickEventValue = oncompletedTable[j + 2]
-                            for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
-                                if event.address and event.address == removeClickEventValue then
-                                    player:getModData().missionProgress.ClickEvent[k2] = nil
-                                    break;
-                                end
-                            end
+                            removeClickEventByAddress(oncompletedTable[j + 1])
+                        elseif oncompletedTable[j] == "unlockworldevent" then
+                            removeWorldEventByDialogue(oncompletedTable[j + 2])
+                        elseif oncompletedTable[j] == "clickevent" then
+                            removeClickEventByAddress(oncompletedTable[j + 2])
                         end
                     end
                 end
                 if task.objectives[k].onobtained then
-                    local onObtainedTable = luautils.split(task.objectives[k].onobtained, ";");
+                    local onObtainedTable = luautils.split(task.objectives[k].onobtained, ";")
                     if #onObtainedTable > 0 then
                         for j = 1, #onObtainedTable do
                             if onObtainedTable[j] == "unlockworldevent" then
-                                local condition = onObtainedTable[j+2]
-                                if player:getModData().missionProgress.WorldEvent then
-                                    for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
-                                        if v.dialoguecode == condition then
-                                            if player:getModData().missionProgress.WorldEvent[k].marker then
-                                                player:getModData().missionProgress.WorldEvent[k].marker:remove();
-                                            end
-                                            player:getModData().missionProgress.WorldEvent[k] = nil
-                                            break;
-                                        end
-                                    end
-                                end
-                            end
-                            if onObtainedTable[j] == "clickevent" then
-                                local removeClickEventValue = onObtainedTable[j + 2]
-                                for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
-                                    if event.address and event.address == removeClickEventValue then
-                                        player:getModData().missionProgress.ClickEvent[k2] = nil
-                                        break;
-                                    end
-                                end
+                                removeWorldEventByDialogue(onObtainedTable[j + 2])
+                            elseif onObtainedTable[j] == "clickevent" then
+                                removeClickEventByAddress(onObtainedTable[j + 2])
                             end
                         end
                     end
@@ -126,65 +160,26 @@ function ISInventoryMenuElements.ContextAutocertificazione()
             end
         end
         if task.unlocks then
-            local convertedcondition = task.unlocks:gsub(":", ";");
-            local unlocksTable = luautils.split(convertedcondition, ";");
+            local convertedcondition = task.unlocks:gsub(":", ";")
+            local unlocksTable = luautils.split(convertedcondition, ";")
             if #unlocksTable > 0 then
                 for j = 1, #unlocksTable do
                     if unlocksTable[j] == "killzombies" then
-                        if player:getModData().missionProgress.ActionEvent and #player:getModData().missionProgress.ActionEvent > 0 then
-                            local actionevent = player:getModData().missionProgress.ActionEvent; 
-                            for a=#actionevent,1,-1 do -- TODO: fix this with actionevent[a].condition == "killzombies" and using luautils.stringStarts
-                                local commands = luautils.split(actionevent[a].commands, ";");
-                                if actionevent[a].condition == "killzombies" and commands[2] == task.guid then
-                                    table.remove(player:getModData().missionProgress.ActionEvent, a);
-                                    break;
-                                end
-                            end
-                        end
-                    end
-                    if unlocksTable[j] == "unlockworldevent" then
-                        local condition = unlocksTable[j+2]
-                        if player:getModData().missionProgress.WorldEvent then
-                            for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
-                                    if v.dialoguecode == condition then
-                                    if player:getModData().missionProgress.WorldEvent[k].marker then
-                                        player:getModData().missionProgress.WorldEvent[k].marker:remove();
-                                    end
-                                    player:getModData().missionProgress.WorldEvent[k] = nil
-                                    break;
-                                end
-                            end
-                        end
-                    end
-                    if unlocksTable[j] == "clickevent" then
-                        local removeClickEventValue = unlocksTable[j + 2]
-                        for k2,event in pairs(player:getModData().missionProgress.ClickEvent) do
-                            if event.address and event.address == removeClickEventValue then
-                                player:getModData().missionProgress.ClickEvent[k2] = nil
-                                break;
-                            end
-                        end
+                        removeActionEventByQuestGuid(task.guid)
+                    elseif unlocksTable[j] == "unlockworldevent" then
+                        removeWorldEventByDialogue(unlocksTable[j + 2])
+                    elseif unlocksTable[j] == "clickevent" then
+                        removeClickEventByAddress(unlocksTable[j + 2])
                     end
                 end
             end
         end
         if task.onobtained then
-            local onObtainedTable = luautils.split(task.onobtained, ";");
+            local onObtainedTable = luautils.split(task.onobtained, ";")
             if #onObtainedTable > 0 then
                 for j = 1, #onObtainedTable do
                     if onObtainedTable[j] == "unlockworldevent" then
-                        local condition = onObtainedTable[j+2]
-                        if player:getModData().missionProgress.WorldEvent then
-                            for k, v in pairs(player:getModData().missionProgress.WorldEvent) do
-                                if v.dialoguecode == condition then
-                                    if player:getModData().missionProgress.WorldEvent[k].marker then
-                                        player:getModData().missionProgress.WorldEvent[k].marker:remove();
-                                    end
-                                    player:getModData().missionProgress.WorldEvent[k] = nil
-                                    break;
-                                end
-                            end
-                        end
+                        removeWorldEventByDialogue(onObtainedTable[j + 2])
                     end
                 end
             end

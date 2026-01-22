@@ -34,7 +34,7 @@ SFQuest_Database.DailyEventPool = {
 -- text = The text to be displayed in the dialogue box, if there is a proper text set for the reputation tier (see below) that will be used instead.
 -- tiers = A table that holds certain values for each faction's reputation tier. The exact faction is informed by the World Event itself (see below). For example: text.
 SFQuest_Database.DialoguePool = {
-	
+
 }
 
 --This is a template for a faction's reputation tiers, if you don't want to cuztomize your faction's tiers (see below) you can simply set tiers = SFQuest_Database.tiersTemplate
@@ -74,7 +74,7 @@ SFQuest_Database.RandomRewardItemPool = {}
 -- This table contains additions to the character when created. It can include quests, timers, world events and so on.
 -- condition = A condition that must be met for this entry to be added to the character, for example a profession "profession;metalworker" or a trait "trait;Handy" These must match the internal names used by the game.
 -- quest = A guid value for a quest to be added.
--- timer = A guid value for a timer to be added. 
+-- timer = A guid value for a timer to be added.
 -- world = world event plus dialogue to be added and quest. For example "TESTnpc;FirstTalk".
 SFQuest_Database.StartingPool = {
 	--{world = "TESTNPC;TESTstart;SawLog"},
@@ -98,3 +98,95 @@ SFQuest_Database.TimerPool = {
 SFQuest_Database.WorldPool = {
 	--{identity = "TESTNPC", square = "10625x9652x0", name = "IGUI_WorldEventName_TEST", faction = "TESTRubberDucks", picture = "media/textures/Picture_Test.png", tiers = { {name = "IGUI_WorldEventName_TEST1"}, {name = "IGUI_WorldEventName_TEST2"}, {name = "IGUI_WorldEventName_TEST3"}, {name = "IGUI_WorldEventName_TEST4"}, {name = "IGUI_WorldEventName_TEST5"} } },
 }
+
+---------------------------------------------------
+-- INDEXES: O(1) Lookup Tables (built once at startup)
+---------------------------------------------------
+SFQuest_Database.Indexes = {
+	QuestByGuid = {},        -- QuestPool indexed by guid
+	DailyEventByCode = {},   -- DailyEventPool indexed by dailycode
+	DialogueByCode = {},     -- DialoguePool indexed by dialoguecode
+	WorldByIdentity = {},    -- WorldPool indexed by identity
+	FactionByCode = {},      -- FactionPool indexed by factioncode
+	TimerByGuid = {},        -- TimerPool indexed by guid
+}
+
+-- Build all static indexes from database pools
+-- Call this once after all quest/NPC files have been loaded
+function SFQuest_Database.BuildIndexes()
+	local idx = SFQuest_Database.Indexes
+
+	-- Clear existing indexes
+	idx.QuestByGuid = {}
+	idx.DailyEventByCode = {}
+	idx.DialogueByCode = {}
+	idx.WorldByIdentity = {}
+	idx.FactionByCode = {}
+	idx.TimerByGuid = {}
+
+	-- Index QuestPool by guid
+	for i, quest in ipairs(SFQuest_Database.QuestPool) do
+		if quest.guid then
+			idx.QuestByGuid[quest.guid] = quest
+		end
+	end
+
+	-- Index DailyEventPool by dailycode
+	for i, daily in ipairs(SFQuest_Database.DailyEventPool) do
+		if daily.dailycode then
+			idx.DailyEventByCode[daily.dailycode] = daily
+		end
+	end
+
+	-- Index DialoguePool by dialoguecode
+	for i, dialogue in ipairs(SFQuest_Database.DialoguePool) do
+		if dialogue.dialoguecode then
+			idx.DialogueByCode[dialogue.dialoguecode] = dialogue
+		end
+	end
+
+	-- Index WorldPool by identity
+	for i, world in ipairs(SFQuest_Database.WorldPool) do
+		if world.identity then
+			idx.WorldByIdentity[world.identity] = world
+		end
+	end
+
+	-- Index FactionPool by factioncode
+	for i, faction in ipairs(SFQuest_Database.FactionPool) do
+		if faction.factioncode then
+			idx.FactionByCode[faction.factioncode] = faction
+		end
+	end
+
+	-- Index TimerPool by guid
+	for i, timer in ipairs(SFQuest_Database.TimerPool) do
+		if timer.guid then
+			idx.TimerByGuid[timer.guid] = timer
+		end
+	end
+
+	-- Log index counts for debugging
+	local counts = {
+		QuestByGuid = 0,
+		DailyEventByCode = 0,
+		DialogueByCode = 0,
+		WorldByIdentity = 0,
+		FactionByCode = 0,
+		TimerByGuid = 0,
+	}
+	for k, v in pairs(idx.QuestByGuid) do counts.QuestByGuid = counts.QuestByGuid + 1 end
+	for k, v in pairs(idx.DailyEventByCode) do counts.DailyEventByCode = counts.DailyEventByCode + 1 end
+	for k, v in pairs(idx.DialogueByCode) do counts.DialogueByCode = counts.DialogueByCode + 1 end
+	for k, v in pairs(idx.WorldByIdentity) do counts.WorldByIdentity = counts.WorldByIdentity + 1 end
+	for k, v in pairs(idx.FactionByCode) do counts.FactionByCode = counts.FactionByCode + 1 end
+	for k, v in pairs(idx.TimerByGuid) do counts.TimerByGuid = counts.TimerByGuid + 1 end
+
+	print("[SFQuest] Database Indexes built: " ..
+		"Quests=" .. counts.QuestByGuid .. ", " ..
+		"DailyEvents=" .. counts.DailyEventByCode .. ", " ..
+		"Dialogues=" .. counts.DialogueByCode .. ", " ..
+		"WorldNPCs=" .. counts.WorldByIdentity .. ", " ..
+		"Factions=" .. counts.FactionByCode .. ", " ..
+		"Timers=" .. counts.TimerByGuid)
+end

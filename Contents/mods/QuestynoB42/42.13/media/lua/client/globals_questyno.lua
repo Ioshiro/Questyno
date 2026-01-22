@@ -96,3 +96,7 @@ table.insert(SFQuest_Database.FactionPool, {
     maxtier = 9,
     tiers = LaResistenzaTiersTemplate
 })
+
+-- Carica l'indice master degli NPC (che è in shared/)
+-- Questo assicura che tutti gli NPC spawn files siano stati caricati
+require 'NPC/npc_master_index'

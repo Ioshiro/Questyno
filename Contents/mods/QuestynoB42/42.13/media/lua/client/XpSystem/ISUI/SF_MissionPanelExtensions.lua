@@ -7,52 +7,52 @@ SF_MissionPanel = SF_MissionPanel or ISPanelJoypad:derive("SF_MissionPanel");
 -- Database Lookups
 
 function SF_MissionPanel:getQuest(guid)
-	for i=1,#SFQuest_Database.QuestPool do
-		if SFQuest_Database.QuestPool[i].guid and SFQuest_Database.QuestPool[i].guid == guid then
-			return SFQuest_Database.QuestPool[i];
-		end
+	-- O(1) lookup using pre-built index
+	local quest = SFQuest_Database.Indexes.QuestByGuid[guid]
+	if quest then
+		return quest
 	end
-	print("SOUL QUEST SYSTEM - No quest with guid: " .. guid .. " in the pool of quests.")
+	print("SOUL QUEST SYSTEM - No quest with guid: " .. tostring(guid) .. " in the pool of quests.")
 	return nil
 end
 
 function SF_MissionPanel:getDailyEvent(dailycode)
-	for i=1,#SFQuest_Database.DailyEventPool do
-		if SFQuest_Database.DailyEventPool[i].dailycode and SFQuest_Database.DailyEventPool[i].dailycode == dailycode then
-			return SFQuest_Database.DailyEventPool[i];
-		end
+	-- O(1) lookup using pre-built index
+	local daily = SFQuest_Database.Indexes.DailyEventByCode[dailycode]
+	if daily then
+		return daily
 	end
-	print("SOUL QUEST SYSTEM - No daily event with dailycode: " .. dailycode .. " in the pool of daily events.")
+	print("SOUL QUEST SYSTEM - No daily event with dailycode: " .. tostring(dailycode) .. " in the pool of daily events.")
 	return nil
 end
 
 function SF_MissionPanel:getTimer(guid)
-	for i=1,#SFQuest_Database.TimerPool do
-		if SFQuest_Database.TimerPool[i].guid and SFQuest_Database.TimerPool[i].guid == guid then
-			return SFQuest_Database.TimerPool[i];
-		end
+	-- O(1) lookup using pre-built index
+	local timer = SFQuest_Database.Indexes.TimerByGuid[guid]
+	if timer then
+		return timer
 	end
-	print("SOUL QUEST SYSTEM - No Timer with guid: " .. guid .. " in the pool of timers.")
+	print("SOUL QUEST SYSTEM - No Timer with guid: " .. tostring(guid) .. " in the pool of timers.")
 	return nil
 end
 
 function SF_MissionPanel:getDialogueInfo(code)
-	for i=1,#SFQuest_Database.DialoguePool do
-		if SFQuest_Database.DialoguePool[i].dialoguecode and SFQuest_Database.DialoguePool[i].dialoguecode == code then
-			return SFQuest_Database.DialoguePool[i];
-		end
+	-- O(1) lookup using pre-built index
+	local dialogue = SFQuest_Database.Indexes.DialogueByCode[code]
+	if dialogue then
+		return dialogue
 	end
-	print("SOUL QUEST SYSTEM - Unable to find a Dialogue with dialoguecode: " .. code);
+	print("SOUL QUEST SYSTEM - Unable to find a Dialogue with dialoguecode: " .. tostring(code));
 	return nil
 end
 
 function SF_MissionPanel:getWorldInfo(identity)
-	for i=1,#SFQuest_Database.WorldPool do
-		if SFQuest_Database.WorldPool[i].identity and SFQuest_Database.WorldPool[i].identity == identity then
-			return SFQuest_Database.WorldPool[i];
-		end
+	-- O(1) lookup using pre-built index
+	local world = SFQuest_Database.Indexes.WorldByIdentity[identity]
+	if world then
+		return world
 	end
-	print("SOUL QUEST SYSTEM - Unable to find a World Event with identity: " .. identity);
+	print("SOUL QUEST SYSTEM - Unable to find a World Event with identity: " .. tostring(identity));
 	return nil
 end
 
@@ -77,17 +77,15 @@ end
 function SF_MissionPanel:getActiveQuest(guid)
 	local player = self.player or getPlayer();
 	local prog = player:getModData().missionProgress
-	if prog and prog.Category2 then
-		local currentTasks = prog.Category2
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i]
-				if task.guid and task.guid == guid then
-					return task;
-				end
+	if prog then
+		-- O(1) lookup using player index
+		if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+			local quest = prog.Indexes.ActiveQuestByGuid[guid]
+			if quest then
+				return quest
 			end
 		end
-		print("SOUL QUEST SYSTEM - No quest with guid: " .. guid .. " in the list of active quests.")
+		print("SOUL QUEST SYSTEM - No quest with guid: " .. tostring(guid) .. " in the list of active quests.")
 	end
 	return nil
 end
@@ -99,6 +97,18 @@ function SF_MissionPanel:addQuestToCategory(quest, category, sound)
 		local timedQuest = quest;
 		timedQuest.timetag = getGameTime():getWorldAgeHours();
 		table.insert(prog[category], timedQuest);
+
+		-- Update indexes for O(1) lookup (only for Category2 = active quests)
+		if category == "Category2" and prog.Indexes then
+			if timedQuest.guid then
+				prog.Indexes.ActiveQuestByGuid[timedQuest.guid] = timedQuest
+			end
+			if timedQuest.dailycode then
+				prog.Indexes.ActiveQuestsByDailyCode[timedQuest.dailycode] = prog.Indexes.ActiveQuestsByDailyCode[timedQuest.dailycode] or {}
+				table.insert(prog.Indexes.ActiveQuestsByDailyCode[timedQuest.dailycode], timedQuest)
+			end
+		end
+
 		if sound then
 			self.player:getEmitter():playSound(sound);
 		end
@@ -109,15 +119,14 @@ end
 function SF_MissionPanel:countActiveQuestsWithCode(dailycode)
 	local player = getPlayer();
 	local prog = player:getModData().missionProgress
-	if prog and prog.Category2 then
-		local activeQuests = prog.Category2;
-		local count = 0;
-		for q=1,#activeQuests do
-			if activeQuests[q].dailycode and activeQuests[q].dailycode == dailycode then
-				count = count + 1;
+	if prog then
+		-- O(1) lookup using player index
+		if prog.Indexes and prog.Indexes.ActiveQuestsByDailyCode then
+			local quests = prog.Indexes.ActiveQuestsByDailyCode[dailycode]
+			if quests then
+				return #quests
 			end
 		end
-		return count
 	end
 	return 0
 end
@@ -156,6 +165,16 @@ function SF_MissionPanel:unlockQuestsFromPager()
 				if not pagerTasks[i].update then
 					local task = pagerTasks[i];
 					table.insert(currentTasks, task);
+					-- Update indexes after inserting quest
+					if prog.Indexes then
+						if task.guid then
+							prog.Indexes.ActiveQuestByGuid[task.guid] = task
+						end
+						if task.dailycode then
+							prog.Indexes.ActiveQuestsByDailyCode[task.dailycode] = prog.Indexes.ActiveQuestsByDailyCode[task.dailycode] or {}
+							table.insert(prog.Indexes.ActiveQuestsByDailyCode[task.dailycode], task)
+						end
+					end
 					table.remove(pagerTasks, i);
 					if task.unlocks then
 						local commandTable = luautils.split(task.unlocks, ";");
@@ -167,24 +186,35 @@ function SF_MissionPanel:unlockQuestsFromPager()
 						local commandTable = luautils.split(update.unlocks, ";");
 						SF_MissionPanel.instance:readCommandTable(commandTable);
 					end
-					for t=1,#currentTasks do
-						local task = currentTasks[t]
-						if task.guid == update.task then
-							if update.index then --this is an update for one of the task's objectives
-								local objective = currentTasks[t].objectives[update.index] or {}
-								objective.status = update.status;
-								if update.blockscompletion then
-									objective.blockscompletion = update.blockscompletion;
-								end
-								if update.text then
-									objective.text = update.text;
-								end
-								currentTasks[t].objectives[update.index] = objective;
-							else -- this is an update for the task in general
-								currentTasks[t].status = update.status;
-								if update.text then
-									currentTasks[t].text = update.text;
-								end
+					-- O(1) lookup using player index
+					local task = nil
+					if prog.Indexes and prog.Indexes.ActiveQuestByGuid and update.task then
+						task = prog.Indexes.ActiveQuestByGuid[update.task]
+					end
+					-- Fallback: O(n) loop for backward compatibility
+					if not task then
+						for t=1,#currentTasks do
+							if currentTasks[t].guid == update.task then
+								task = currentTasks[t]
+								break
+							end
+						end
+					end
+					if task then
+						if update.index then --this is an update for one of the task's objectives
+							local objective = task.objectives[update.index] or {}
+							objective.status = update.status;
+							if update.blockscompletion then
+								objective.blockscompletion = update.blockscompletion;
+							end
+							if update.text then
+								objective.text = update.text;
+							end
+							task.objectives[update.index] = objective;
+						else -- this is an update for the task in general
+							task.status = update.status;
+							if update.text then
+								task.text = update.text;
 							end
 						end
 					end
@@ -207,22 +237,30 @@ function SF_MissionPanel:updateLore(guid, lore)
 	local player = self.player or getPlayer();
 	local prog = player:getModData().missionProgress
 	if prog and prog.Category2 then
-		local currentTasks = prog.Category2;
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i]
-				if task.guid and task.guid == guid then
-					if not task.lore then
-						task.lore = {};
-					end
-					for l=1, #lore do
-						table.insert(task.lore, lore[l])
-					end
-					self.needsUpdate = true;
-					self.needsBackup = true;
+		-- O(1) lookup using player index
+		local task = nil
+		if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+			task = prog.Indexes.ActiveQuestByGuid[guid]
+		end
+		-- Fallback: O(n) loop for backward compatibility
+		if not task then
+			local currentTasks = prog.Category2
+			for i = 1, #currentTasks do
+				if currentTasks[i].guid and currentTasks[i].guid == guid then
+					task = currentTasks[i]
 					break
 				end
 			end
+		end
+		if task then
+			if not task.lore then
+				task.lore = {}
+			end
+			for l = 1, #lore do
+				table.insert(task.lore, lore[l])
+			end
+			self.needsUpdate = true
+			self.needsBackup = true
 		end
 	end
 end
@@ -255,12 +293,8 @@ function SF_MissionPanel:checkDefaults()
 end
 
 function SF_MissionPanel:readCommandTable(commandTable, questName)
-    if false then
-        base_SF_MissionPanel_readCommandTable(self, commandTable);
-    end
     local player = getPlayer();
     local count = 1;
-
     while commandTable[count] do
         if commandTable[count] == "actionevent" then
             SF_MissionPanel.instance:runCommand("actionevent", commandTable[count + 1], commandTable[count + 2]);
@@ -428,6 +462,11 @@ function SF_MissionPanel:checkQuestForCompletionByType(type, entry, newStatus)
                             worldEvents[k].marker:remove();
                         end
 
+                        -- Update index before removal
+                        if prog.Indexes and prog.Indexes.WorldEventByDialogue and v.dialoguecode then
+                            prog.Indexes.WorldEventByDialogue[v.dialoguecode] = nil
+                        end
+
                         -- Rimuovo l'evento e resetto lo stato della missione
                         worldEvents[k] = nil
                         task.status = nil
@@ -540,21 +579,37 @@ function SF_MissionPanel:checkTaskForCompletion(guid)
         return
     end
 
-    -- Trova la missione con il GUID specificato
+    -- O(1) lookup using player index
+    local task = nil
     local taskIndex = nil
-    for i = 1, #currentTasks do
-        if currentTasks[i].guid and currentTasks[i].guid == guid then
-            taskIndex = i
-            break
+    if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+        task = prog.Indexes.ActiveQuestByGuid[guid]
+        -- We still need taskIndex for deliveryIndex update
+        if task then
+            for i = 1, #currentTasks do
+                if currentTasks[i] == task then
+                    taskIndex = i
+                    break
+                end
+            end
+        end
+    end
+
+    -- Fallback: O(n) loop for backward compatibility
+    if not task then
+        for i = 1, #currentTasks do
+            if currentTasks[i].guid and currentTasks[i].guid == guid then
+                taskIndex = i
+                task = currentTasks[i]
+                break
+            end
         end
     end
 
     -- Se non troviamo la missione, usciamo
-    if not taskIndex then
+    if not task then
         return
     end
-
-    local task = currentTasks[taskIndex]
 
     -- Funzione per verificare se tutti gli obiettivi sono completati
     local function areObjectivesCompleted(objectives)
@@ -639,23 +694,32 @@ function SF_MissionPanel:updateQuestStatus(guid, status)
         end
     end
 
-    -- Cerca la missione con il GUID specificato
-    for i = 1, #currentTasks do
-        local task = currentTasks[i]
-        if task.guid and task.guid == guid then
-            -- Aggiorna lo stato della missione
-            task.status = status
+    -- O(1) lookup using player index
+    local task = nil
+    if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+        task = prog.Indexes.ActiveQuestByGuid[guid]
+    end
 
-            -- Esegui eventuali comandi basati sul nuovo stato
-            executeStatusCommands(task, status)
-
-            -- Imposta i flag di aggiornamento e backup
-            SF_MissionPanel.instance:triggerUpdate()
-            self.needsBackup = true
-
-            -- Esci dal ciclo dopo aver trovato e aggiornato la missione
-            break
+    -- Fallback: O(n) loop for backward compatibility
+    if not task then
+        for i = 1, #currentTasks do
+            if currentTasks[i].guid and currentTasks[i].guid == guid then
+                task = currentTasks[i]
+                break
+            end
         end
+    end
+
+    if task then
+        -- Aggiorna lo stato della missione
+        task.status = status
+
+        -- Esegui eventuali comandi basati sul nuovo stato
+        executeStatusCommands(task, status)
+
+        -- Imposta i flag di aggiornamento e backup
+        SF_MissionPanel.instance:triggerUpdate()
+        self.needsBackup = true
     end
 end
 
@@ -666,38 +730,47 @@ function SF_MissionPanel:updateObjective(guid, index, status)
 
     local currentTasks = prog.Category2
 
-    -- Iterazione inversa con indici numerici
-    for i = #currentTasks, 1, -1 do
-        local task = currentTasks[i]
-        if task then
-            -- Controllo validità del GUID
-            if not task.guid then
-                print("Task senza GUID all'indice: " .. i)
-            elseif task.guid == guid then
-                -- Processo solo gli obiettivi validi
-                if task.objectives and task.objectives[index] then
-                    task.objectives[index].status = status
+    -- O(1) lookup using player index
+    local task = nil
+    if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+        task = prog.Indexes.ActiveQuestByGuid[guid]
+    end
 
-                    -- Esecuzione comandi
-                    local commands =
-                        (status == "Failed" and task.objectives[index].onfailed) or
-                        (status == "Completed" and task.objectives[index].oncompleted) or
-                        (status == "Obtained" and task.objectives[index].onobtained)
-
-                    if commands then
-                        local commandTable = luautils.split(commands, ";")
-                        self:readCommandTable(commandTable, task.text)
-                    end
-
-                    -- Aggiornamento stato missione
-                    self:checkTaskForCompletion(guid)
-                    SF_MissionPanel.instance:triggerUpdate()
-                    self.needsBackup = true
-                end
-                return -- Esco dopo aver trovato il task
+    -- Fallback: O(n) loop for backward compatibility
+    if not task then
+        for i = #currentTasks, 1, -1 do
+            if currentTasks[i] and currentTasks[i].guid == guid then
+                task = currentTasks[i]
+                break
             end
-        else
-            print("Task nullo all'indice: " .. i)
+        end
+    end
+
+    if task then
+        -- Controllo validità del GUID
+        if not task.guid then
+            print("Task senza GUID")
+            return
+        end
+        -- Processo solo gli obiettivi validi
+        if task.objectives and task.objectives[index] then
+            task.objectives[index].status = status
+
+            -- Esecuzione comandi
+            local commands =
+                (status == "Failed" and task.objectives[index].onfailed) or
+                (status == "Completed" and task.objectives[index].oncompleted) or
+                (status == "Obtained" and task.objectives[index].onobtained)
+
+            if commands then
+                local commandTable = luautils.split(commands, ";")
+                self:readCommandTable(commandTable, task.text)
+            end
+
+            -- Aggiornamento stato missione
+            self:checkTaskForCompletion(guid)
+            SF_MissionPanel.instance:triggerUpdate()
+            self.needsBackup = true
         end
     end
 end
@@ -706,13 +779,24 @@ function SF_MissionPanel:updateFrequency(dailycode, frequency)
     local player = getPlayer();
     local prog = player:getModData().missionProgress
     if prog and prog.DailyEvent then
-        for i, v in ipairs(prog.DailyEvent) do
-            if v.dailycode == dailycode then
-                v.frequency = frequency
-                self.needsBackup = true
-                SF_MissionPanel.instance:triggerUpdate()
-                break
+        local daily = nil
+        -- O(1) lookup using player index
+        if prog.Indexes and prog.Indexes.PlayerDailyEventByCode then
+            daily = prog.Indexes.PlayerDailyEventByCode[dailycode]
+        end
+        -- Fallback: O(n) loop for backward compatibility
+        if not daily then
+            for i, v in ipairs(prog.DailyEvent) do
+                if v.dailycode == dailycode then
+                    daily = v
+                    break
+                end
             end
+        end
+        if daily then
+            daily.frequency = frequency
+            self.needsBackup = true
+            SF_MissionPanel.instance:triggerUpdate()
         end
     end
 end
@@ -722,10 +806,36 @@ function SF_MissionPanel:completeQuest(player, guid)
 	if prog and prog.Category2 then
 		local currentTasks = prog.Category2;
 		local done = false
-		if #currentTasks > 0 then
-			for i=1,#currentTasks do
-				local task = currentTasks[i];
-				if task.guid and task.guid == guid then
+
+		-- O(1) lookup using player index to find the task, then find its index
+		local task = nil
+		local taskIndex = nil
+		if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+			task = prog.Indexes.ActiveQuestByGuid[guid]
+			if task then
+				-- We need the index for table.remove
+				for i = 1, #currentTasks do
+					if currentTasks[i] == task then
+						taskIndex = i
+						break
+					end
+				end
+			end
+		end
+
+		-- Fallback: O(n) loop for backward compatibility
+		if not task and #currentTasks > 0 then
+			for i = 1, #currentTasks do
+				if currentTasks[i].guid and currentTasks[i].guid == guid then
+					task = currentTasks[i]
+					taskIndex = i
+					break
+				end
+			end
+		end
+
+		if task and taskIndex then
+			local i = taskIndex  -- Alias for minimal code changes below
 					currentTasks[i].status = "Completed";
 					if task.awardsitem then
 						local count = 1;
@@ -820,11 +930,24 @@ function SF_MissionPanel:completeQuest(player, guid)
                         end
                     end
 
-					done = true;
-					SF_MissionPanel.instance:triggerUpdate()
-					break
+				-- Update indexes before removing
+			if prog.Indexes then
+				if task.guid and prog.Indexes.ActiveQuestByGuid then
+					prog.Indexes.ActiveQuestByGuid[task.guid] = nil
+				end
+				if task.dailycode and prog.Indexes.ActiveQuestsByDailyCode and prog.Indexes.ActiveQuestsByDailyCode[task.dailycode] then
+					local dailyQuests = prog.Indexes.ActiveQuestsByDailyCode[task.dailycode]
+					for q = #dailyQuests, 1, -1 do
+						if dailyQuests[q].guid == task.guid then
+							table.remove(dailyQuests, q)
+							break
+						end
+					end
 				end
 			end
+
+			done = true;
+			SF_MissionPanel.instance:triggerUpdate()
 		end
 		local deliveries = prog.Delivery
 		if deliveries and #deliveries > 0 then
@@ -848,19 +971,30 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 			local currentTasks = prog.Category2
 			if guid then
 				local hasTask = false
-				if #currentTasks > 0 then
-					for i=1,#currentTasks do
-						if currentTasks[i].guid and currentTasks[i].guid == guid then
-							hasTask = true
+				-- O(1) lookup using player index
+				if prog.Indexes and prog.Indexes.ActiveQuestByGuid then
+					if prog.Indexes.ActiveQuestByGuid[guid] then
+						hasTask = true
+					end
+				else
+					-- Fallback: O(n) loop for backward compatibility
+					if #currentTasks > 0 then
+						for i=1,#currentTasks do
+							if currentTasks[i].guid and currentTasks[i].guid == guid then
+								hasTask = true
+								break
+							end
 						end
 					end
 				end
 				if quest.unique then --a unique quest will never be unlocked again, so we need to check the quest log too
+					-- Note: Category1 (quest log) doesn't have an O(1) index, keeping O(n) loop
 					local questLog = prog.Category1
 					if questLog and #questLog > 0 then
 						for i=1,#questLog do
 							if questLog[i].guid and questLog[i].guid == guid then
 								hasTask = true
+								break
 							end
 						end
 					end
@@ -900,10 +1034,12 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 					print("SOUL QUEST SYSTEM - Unlocked quest was an update to an existing quest that could not be found.");
 				end
 			else
+				local insertedQuest = nil
 				if quest.awardsitem and overrideAwardsItem then
 					local newQuest = quest;
 					newQuest.awardsitem = overrideAwardsItem;
 					table.insert(currentTasks, newQuest);
+					insertedQuest = newQuest
 				elseif quest.awardsitem and luautils.stringStarts(quest.awardsitem, "Table:") then
 					local tableKey = luautils.split(quest.awardsitem, ":")[2];
 					local rewardTable = SFQuest_Database.RandomRewardItemPool[tableKey];
@@ -912,8 +1048,20 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 						newQuest.awardsitem = rewardTable[ZombRand(1, #rewardTable + 1)]
 					end
 					table.insert(currentTasks, newQuest);
+					insertedQuest = newQuest
 				else
 					table.insert(currentTasks, quest);
+					insertedQuest = quest
+				end
+				-- Update indexes after inserting quest
+				if insertedQuest and prog.Indexes then
+					if insertedQuest.guid then
+						prog.Indexes.ActiveQuestByGuid[insertedQuest.guid] = insertedQuest
+					end
+					if insertedQuest.dailycode then
+						prog.Indexes.ActiveQuestsByDailyCode[insertedQuest.dailycode] = prog.Indexes.ActiveQuestsByDailyCode[insertedQuest.dailycode] or {}
+						table.insert(prog.Indexes.ActiveQuestsByDailyCode[insertedQuest.dailycode], insertedQuest)
+					end
 				end
 			end
 	    	if quest.unlocks then
@@ -960,33 +1108,34 @@ function SF_MissionPanel:checkItemQuantity(stringforcheck)
         isPredicate = true
     end
     if isTag then
+        local tag = SFQuest_Utils.getItemTag(itemscript)
 	    if luautils.stringStarts(needsTable[1], "Tag#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagRecurse(itemscript);
+	    	carrying = self.player:getInventory():getCountTagRecurse(tag);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish);
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(tag, SFQuest_Utils.predicateBigFish);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood);
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFreshFood);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable);
+	    	carrying = self.player:getInventory():getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFullDrainable);
 	    elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger") then
 	    	isTag = true;
-	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
+	    	carrying = self.player:getInventory():getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked") then
         	isTag = true;
-        	carrying = self.player:getInventory():getCountTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked);
+        	carrying = self.player:getInventory():getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFoodCooked);
         end
     elseif isPredicate then
         if luautils.stringStarts(needsTable[1], "PredicateBigFish#") then
@@ -1023,7 +1172,7 @@ end
 
 -- PredicateFullDrainable#Base.PropaneTank;2
 function SF_MissionPanel:takeNeededItem(neededitem)
-    local player = getPlayer();
+    local player = self.player or getPlayer();
     local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
     local itemscript = needsTable[1];
     local quantity = tonumber(needsTable[2]) or 1;
@@ -1050,24 +1199,25 @@ function SF_MissionPanel:takeNeededItem(neededitem)
     end
     if isTag then
         -- Gestione dei casi con 'Tag'
+        local tag = SFQuest_Utils.getItemTag(itemscript)
         if luautils.stringStarts(needsTable[1], "Tag#") then
-                items = player:getInventory():getSomeTagRecurse(itemscript, quantity);
+                items = player:getInventory():getSomeTagRecurse(tag, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateBigFish#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateBigFish, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateBigFish, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateCondition#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFreshFood#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFreshFood, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFreshFood, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFullDrainable#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFullDrainable, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFullDrainable, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateDrainable#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodWeight#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodHunger#") then
-                items = player:getInventory():getSomeTagEvalArgRecurse(itemscript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
+                items = player:getInventory():getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity);
         elseif luautils.stringStarts(needsTable[1], "TagPredicateFoodCooked#") then
-                items = player:getInventory():getSomeTagEvalRecurse(itemscript, SFQuest_Utils.predicateFoodCooked, quantity);
+                items = player:getInventory():getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFoodCooked, quantity);
         end
     elseif isPredicate then
         -- Gestione dei casi senza 'Tag' (solo 'Predicate')
@@ -1142,48 +1292,67 @@ function SF_MissionPanel:awardReputation(faction, value)
 	if prog and prog.Factions then
 		local factions = prog.Factions;
 
-		local facIndex;
+		local playerFaction;
 		local currentRep;
 		local currentTier;
 		local newTier;
 		local maxTier;
 
-		if #factions > 0 then
+		-- O(1) lookup using player index
+		if prog.Indexes and prog.Indexes.FactionByCode then
+			playerFaction = prog.Indexes.FactionByCode[faction]
+			if playerFaction then
+				currentRep = playerFaction.reputation
+				currentTier = playerFaction.tierlevel
+			end
+		end
+
+		-- Fallback: O(n) loop for backward compatibility
+		if not playerFaction and #factions > 0 then
 			for j=1,#factions do
 				if factions[j].factioncode and factions[j].factioncode == faction then
-					facIndex = j;
+					playerFaction = factions[j]
 					currentRep = factions[j].reputation;
 					currentTier = factions[j].tierlevel;
 					break
 				end
 			end
 		end
-		if facIndex then
-			local playerFaction = factions[facIndex]
-			for i=1,#SFQuest_Database.FactionPool do
-				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
-					if SFQuest_Database.FactionPool[i].maxtier then maxTier = SFQuest_Database.FactionPool[i].maxtier end
-					if currentTier == maxTier then
-						playerFaction.reputation = currentRep + value;
-						if playerFaction.reputation > playerFaction.repmax then
-							playerFaction.reputation = playerFaction.repmax;
-						end
-					else
-						playerFaction.reputation = currentRep + value;
-						if playerFaction.reputation >= playerFaction.repmax then
-							newTier = currentTier + 1;
-							playerFaction.tierlevel = newTier;
-							playerFaction.reputation = playerFaction.reputation - playerFaction.repmax;
-							if SFQuest_Database.FactionPool[i].tiers then
-								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
-								if tier.unlocks then
-									local commandTable = luautils.split(tier.unlocks, ";");
-									SF_MissionPanel.instance:readCommandTable(commandTable);
-								end
-								playerFaction.tiername = tier.tiername;
-								playerFaction.repmax = tier.minrep;
-								playerFaction.tiercolor = tier.barcolor;
+		if playerFaction then
+			-- O(1) lookup for database faction data
+			local dbFaction = SFQuest_Database.Indexes.FactionByCode[faction]
+			if not dbFaction then
+				-- Fallback: O(n) loop
+				for i=1,#SFQuest_Database.FactionPool do
+					if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+						dbFaction = SFQuest_Database.FactionPool[i]
+						break
+					end
+				end
+			end
+
+			if dbFaction then
+				if dbFaction.maxtier then maxTier = dbFaction.maxtier end
+				if currentTier == maxTier then
+					playerFaction.reputation = currentRep + value;
+					if playerFaction.reputation > playerFaction.repmax then
+						playerFaction.reputation = playerFaction.repmax;
+					end
+				else
+					playerFaction.reputation = currentRep + value;
+					if playerFaction.reputation >= playerFaction.repmax then
+						newTier = currentTier + 1;
+						playerFaction.tierlevel = newTier;
+						playerFaction.reputation = playerFaction.reputation - playerFaction.repmax;
+						if dbFaction.tiers then
+							local tier = dbFaction.tiers[newTier];
+							if tier.unlocks then
+								local commandTable = luautils.split(tier.unlocks, ";");
+								SF_MissionPanel.instance:readCommandTable(commandTable);
 							end
+							playerFaction.tiername = tier.tiername;
+							playerFaction.repmax = tier.minrep;
+							playerFaction.tiercolor = tier.barcolor;
 						end
 					end
 				end
@@ -1200,43 +1369,62 @@ function SF_MissionPanel:removeReputation(faction, value)
 	if prog and prog.Factions then
 		local factions = prog.Factions;
 
-		local facIndex;
+		local playerFaction;
 		local currentRep;
 		local currentTier;
 		local newTier;
 
-		if #factions > 0 then
+		-- O(1) lookup using player index
+		if prog.Indexes and prog.Indexes.FactionByCode then
+			playerFaction = prog.Indexes.FactionByCode[faction]
+			if playerFaction then
+				currentRep = playerFaction.reputation
+				currentTier = playerFaction.tierlevel
+			end
+		end
+
+		-- Fallback: O(n) loop for backward compatibility
+		if not playerFaction and #factions > 0 then
 			for j=1,#factions do
 				if factions[j].factioncode and factions[j].factioncode == faction then
-					facIndex = j;
+					playerFaction = factions[j]
 					currentRep = factions[j].reputation;
 					currentTier = factions[j].tierlevel;
 					break
 				end
 			end
 		end
-		if facIndex then
-			local playerFaction = factions[facIndex]
-			for i=1,#SFQuest_Database.FactionPool do
-				if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
-					if currentTier == 1 then
-						playerFaction.reputation = currentRep - value;
-						if playerFaction.reputation < 0 then
-							playerFaction.reputation = 0;
+		if playerFaction then
+			-- O(1) lookup for database faction data
+			local dbFaction = SFQuest_Database.Indexes.FactionByCode[faction]
+			if not dbFaction then
+				-- Fallback: O(n) loop
+				for i=1,#SFQuest_Database.FactionPool do
+					if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+						dbFaction = SFQuest_Database.FactionPool[i]
+						break
+					end
+				end
+			end
+
+			if dbFaction then
+				if currentTier == 1 then
+					playerFaction.reputation = currentRep - value;
+					if playerFaction.reputation < 0 then
+						playerFaction.reputation = 0;
+					end
+				else
+					playerFaction.reputation = currentRep - value;
+					if playerFaction.reputation < 0 then
+						newTier = currentTier - 1;
+						playerFaction.tierlevel = newTier;
+						if dbFaction.tiers then
+							local tier = dbFaction.tiers[newTier];
+							playerFaction.tiername = tier.tiername;
+							playerFaction.repmax = tier.minrep;
+							playerFaction.tiercolor = tier.barcolor;
 						end
-					else
-						playerFaction.reputation = currentRep - value;
-						if playerFaction.reputation < 0 then
-							newTier = currentTier - 1;
-							playerFaction.tierlevel = newTier;
-							if SFQuest_Database.FactionPool[i].tiers then
-								local tier = SFQuest_Database.FactionPool[i].tiers[newTier];
-								playerFaction.tiername = tier.tiername;
-								playerFaction.repmax = tier.minrep;
-								playerFaction.tiercolor = tier.barcolor;
-							end
-							playerFaction.reputation = playerFaction.repmax + playerFaction.reputation;
-						end
+						playerFaction.reputation = playerFaction.repmax + playerFaction.reputation;
 					end
 				end
 			end
@@ -1250,6 +1438,14 @@ function SF_MissionPanel:getReputationTier(faction, player)
 	local player = player or getPlayer();
 	local prog = player:getModData().missionProgress
 	if prog and prog.Factions then
+		-- O(1) lookup using player index
+		if prog.Indexes and prog.Indexes.FactionByCode then
+			local playerFaction = prog.Indexes.FactionByCode[faction]
+			if playerFaction then
+				return playerFaction.tierlevel or 1
+			end
+		end
+		-- Fallback: O(n) loop for backward compatibility
 		local factions = prog.Factions;
 		if #factions > 0 then
 			for j=1,#factions do
@@ -1265,22 +1461,32 @@ function SF_MissionPanel:getReputationTier(faction, player)
 end
 
 function SF_MissionPanel:getColorForFactionTier(faction, reputation)
-	for i=1,#SFQuest_Database.FactionPool do
-		if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
-			print("Found the right faction, now seeking for the proper color!");
-			if SFQuest_Database.FactionPool[i].tiers then
-				local tiers = SFQuest_Database.FactionPool[i].tiers;
-				if #tiers > 0 then
-					for j=1,#tiers do
-						if tiers[j].minrep and reputation > tiers[j].minrep then
-							print("Tier's minimum reputation was " .. tostring(tiers[j].minrep) .. " so player has enough reputation for this tier.");
-							local color = tiers[j].barcolor;
-							print("Tier's color was " .. color);
-							if color and SFQuest_Database.ColorPool[color] then
-								print("Color " .. color .. " was found! Let's return it then.");
-								local tab = SFQuest_Database.ColorPool[color];
-								return tab;
-							end
+	-- O(1) lookup for database faction data
+	local dbFaction = SFQuest_Database.Indexes.FactionByCode[faction]
+	if not dbFaction then
+		-- Fallback: O(n) loop
+		for i=1,#SFQuest_Database.FactionPool do
+			if SFQuest_Database.FactionPool[i].factioncode and SFQuest_Database.FactionPool[i].factioncode == faction then
+				dbFaction = SFQuest_Database.FactionPool[i]
+				break
+			end
+		end
+	end
+
+	if dbFaction then
+		print("Found the right faction, now seeking for the proper color!");
+		if dbFaction.tiers then
+			local tiers = dbFaction.tiers;
+			if #tiers > 0 then
+				for j=1,#tiers do
+					if tiers[j].minrep and reputation > tiers[j].minrep then
+						print("Tier's minimum reputation was " .. tostring(tiers[j].minrep) .. " so player has enough reputation for this tier.");
+						local color = tiers[j].barcolor;
+						print("Tier's color was " .. color);
+						if color and SFQuest_Database.ColorPool[color] then
+							print("Color " .. color .. " was found! Let's return it then.");
+							local tab = SFQuest_Database.ColorPool[color];
+							return tab;
 						end
 					end
 				end
@@ -1312,10 +1518,18 @@ function SF_MissionPanel:removeWorldEvent(squaretag)
 	local prog = player:getModData().missionProgress
 	if prog and prog.WorldEvent then
 		local worldEvents = prog.WorldEvent
-		if worldEvents[squaretag] and worldEvents[squaretag].marker then
-			worldEvents[squaretag].marker:remove();
+		local event = worldEvents[squaretag]
+		if event then
+			-- Remove marker if exists
+			if event.marker then
+				event.marker:remove();
+			end
+			-- Update index before removing
+			if prog.Indexes and prog.Indexes.WorldEventByDialogue and event.dialoguecode then
+				prog.Indexes.WorldEventByDialogue[event.dialoguecode] = nil
+			end
+			worldEvents[squaretag] = nil;
 		end
-		worldEvents[squaretag] = nil;
 	end
 end
 
@@ -1324,7 +1538,8 @@ function SF_MissionPanel:removeWorldEventsWithCode(dailycode)
 	local player = self.player or getPlayer();
 	local prog = player:getModData().missionProgress
 	if prog and prog.WorldEvent then
-		for k, v in ipairs(prog.WorldEvent) do
+		-- FIX: Use pairs() instead of ipairs() - WorldEvent uses string keys like "9332x8605x0"
+		for k, v in pairs(prog.WorldEvent) do
 			if v.dailycode and v.dailycode == dailycode then
 				SF_MissionPanel.instance:removeWorldEvent(k);
 			end

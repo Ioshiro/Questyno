@@ -2,14 +2,15 @@ require 'SFQuest_Database'
 
 -- Pyno 9332,8605,0 EST
 table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_Pyno",
+    identity = "Pyno",
     square = "9332x8605x0",
-    name = "IGUI_SFQuest_Questyno_Pyno_Name",
+    name = "IGUI_SFQuest_Pyno_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_Pyno.png",
 })
 
 SFQuest_Database.MannequinPool["9332x8605x0"] = {
+    identity = "Pyno",  -- Collegamento esplicito al WorldPool
     sprite = "location_shop_mall_01_76",
     direction = "E",
     beard = "Goatee",

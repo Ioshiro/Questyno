@@ -1,138 +1,180 @@
--- temporary disabled for b42 testing
+-- SFQuest_Tweaks.lua
+-- Aggiunge tag vanilla agli item per il sistema di quest
+--
+-- NOTA: Questi sono tag vanilla (HasMetal, CannedFood, Fish, etc.)
+-- che esistono già nel gioco. Non serve registrarli. FORSE IN B42 Non esistono più però
 
--- local manager = ScriptManager.instance
+local manager = ScriptManager.instance
 
--- function SFQuest_Tweaks()
+-- Helper function: aggiunge un tag ad un item preservando i tag esistenti
+-- Usa l'API Java diretta: getTags():add(ItemTag)
+local function addTag(itemName, tagName)
+    local item = manager:getItem(itemName)
+    if item then
+        item:getTags():add(ItemTag.get(ResourceLocation.of(tagName)))
+    else
+        print("[SFQuest] addTag: Item non trovato - " .. itemName)
+    end
+end
 
--- manager:getItem("Base.CannedCorn"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedMushroomSoup"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedPeas"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedPotato2"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedSardines"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedTomato2"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedCarrots2"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedChili"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedBolognese"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedCornedBeef"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.TinnedSoup"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.TinnedBeans"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.TunaTin"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedFruitCocktail"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedFruitBeverage"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedPeaches"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedPineapple"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
--- manager:getItem("Base.CannedMilk"):DoParam("Tags".." = ".. "HasMetal;CannedFood");
+function SFQuest_Tweaks()
+    -- CannedFood con HasMetal
+    addTag("Base.CannedCorn", "HasMetal")
+    addTag("Base.CannedCorn", "CannedFood")
+    addTag("Base.CannedMushroomSoup", "HasMetal")
+    addTag("Base.CannedMushroomSoup", "CannedFood")
+    addTag("Base.CannedPeas", "HasMetal")
+    addTag("Base.CannedPeas", "CannedFood")
+    addTag("Base.CannedPotato2", "HasMetal")
+    addTag("Base.CannedPotato2", "CannedFood")
+    addTag("Base.CannedSardines", "HasMetal")
+    addTag("Base.CannedSardines", "CannedFood")
+    addTag("Base.CannedTomato2", "HasMetal")
+    addTag("Base.CannedTomato2", "CannedFood")
+    addTag("Base.CannedCarrots2", "HasMetal")
+    addTag("Base.CannedCarrots2", "CannedFood")
+    addTag("Base.CannedChili", "HasMetal")
+    addTag("Base.CannedChili", "CannedFood")
+    addTag("Base.CannedBolognese", "HasMetal")
+    addTag("Base.CannedBolognese", "CannedFood")
+    addTag("Base.CannedCornedBeef", "HasMetal")
+    addTag("Base.CannedCornedBeef", "CannedFood")
+    addTag("Base.TinnedSoup", "HasMetal")
+    addTag("Base.TinnedSoup", "CannedFood")
+    addTag("Base.TinnedBeans", "HasMetal")
+    addTag("Base.TinnedBeans", "CannedFood")
+    addTag("Base.TunaTin", "HasMetal")
+    addTag("Base.TunaTin", "CannedFood")
+    addTag("Base.CannedFruitCocktail", "HasMetal")
+    addTag("Base.CannedFruitCocktail", "CannedFood")
+    addTag("Base.CannedFruitBeverage", "HasMetal")
+    addTag("Base.CannedFruitBeverage", "CannedFood")
+    addTag("Base.CannedPeaches", "HasMetal")
+    addTag("Base.CannedPeaches", "CannedFood")
+    addTag("Base.CannedPineapple", "HasMetal")
+    addTag("Base.CannedPineapple", "CannedFood")
+    addTag("Base.CannedMilk", "HasMetal")
+    addTag("Base.CannedMilk", "CannedFood")
 
--- manager:getItem("Base.Bullets9mmBox"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.Bullets45Box"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.Bullets44Box"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.Bullets38Box"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.ShotgunShellsBox"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.223Box"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.308Box"):DoParam("Tags".." = ".. "AmmoBox");
--- manager:getItem("Base.556Box"):DoParam("Tags".." = ".. "AmmoBox");
+    -- AmmoBox
+    addTag("Base.Bullets9mmBox", "AmmoBox")
+    addTag("Base.Bullets45Box", "AmmoBox")
+    addTag("Base.Bullets44Box", "AmmoBox")
+    addTag("Base.Bullets38Box", "AmmoBox")
+    addTag("Base.ShotgunShellsBox", "AmmoBox")
+    addTag("Base.223Box", "AmmoBox")
+    addTag("Base.308Box", "AmmoBox")
+    addTag("Base.556Box", "AmmoBox")
 
--- manager:getItem("Base.DeadBird"):DoParam("Tags".." = ".. "DeadAnimal");
--- manager:getItem("Base.DeadRabbit"):DoParam("Tags".." = ".. "DeadAnimal");
--- manager:getItem("Base.DeadSquirrel"):DoParam("Tags".." = ".. "DeadAnimal");
+    -- DeadAnimal
+    addTag("Base.DeadBird", "DeadAnimal")
+    addTag("Base.DeadRabbit", "DeadAnimal")
+    addTag("Base.DeadSquirrel", "DeadAnimal")
 
--- manager:getItem("Base.Bass"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Catfish"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Crappie"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Panfish"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Perch"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Pike"):DoParam("Tags".." = ".. "Fish");
--- manager:getItem("Base.Trout"):DoParam("Tags".." = ".. "Fish");
+    -- Fish
+    addTag("Base.Bass", "Fish")
+    addTag("Base.Catfish", "Fish")
+    addTag("Base.Crappie", "Fish")
+    addTag("Base.Panfish", "Fish")
+    addTag("Base.Perch", "Fish")
+    addTag("Base.Pike", "Fish")
+    addTag("Base.Trout", "Fish")
 
--- manager:getItem("Base.Basil"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Chives"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Cilantro"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Oregano"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Parsley"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Rosemary"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Sage"):DoParam("Tags".." = ".. "ForagedPlant");
--- manager:getItem("Base.Thyme"):DoParam("Tags".." = ".. "ForagedPlant");
+    -- ForagedPlant
+    addTag("Base.Basil", "ForagedPlant")
+    addTag("Base.Chives", "ForagedPlant")
+    addTag("Base.Cilantro", "ForagedPlant")
+    addTag("Base.Oregano", "ForagedPlant")
+    addTag("Base.Parsley", "ForagedPlant")
+    addTag("Base.Rosemary", "ForagedPlant")
+    addTag("Base.Sage", "ForagedPlant")
+    addTag("Base.Thyme", "ForagedPlant")
 
--- manager:getItem("Base.Pills"):DoParam("Tags".." = ".. "Medicine");
--- manager:getItem("Base.PillsAntiDep"):DoParam("Tags".." = ".. "Medicine");
--- manager:getItem("Base.PillsBeta"):DoParam("Tags".." = ".. "Medicine");
--- manager:getItem("Base.PillsSleepingTablets"):DoParam("Tags".." = ".. "Medicine");
--- manager:getItem("Base.PillsVitamins"):DoParam("Tags".." = ".. "Medicine");
+    -- Medicine
+    addTag("Base.Pills", "Medicine")
+    addTag("Base.PillsAntiDep", "Medicine")
+    addTag("Base.PillsBeta", "Medicine")
+    addTag("Base.PillsSleepingTablets", "Medicine")
+    addTag("Base.PillsVitamins", "Medicine")
 
--- manager:getItem("Base.Pistol"):DoParam("Tags".." = ".. "Pistol");
--- manager:getItem("Base.Pistol2"):DoParam("Tags".." = ".. "Pistol");
--- manager:getItem("Base.Pistol3"):DoParam("Tags".." = ".. "Pistol");
--- manager:getItem("Base.Revolver"):DoParam("Tags".." = ".. "Pistol");
--- manager:getItem("Base.Revolver_Long"):DoParam("Tags".." = ".. "Pistol");
--- manager:getItem("Base.Revolver_Short"):DoParam("Tags".." = ".. "Pistol");
+    -- Pistol
+    addTag("Base.Pistol", "Pistol")
+    addTag("Base.Pistol2", "Pistol")
+    addTag("Base.Pistol3", "Pistol")
+    addTag("Base.Revolver", "Pistol")
+    addTag("Base.Revolver_Long", "Pistol")
+    addTag("Base.Revolver_Short", "Pistol")
 
--- manager:getItem("Base.AssaultRifle"):DoParam("Tags".." = ".. "Rifle");
--- manager:getItem("Base.AssaultRifle2"):DoParam("Tags".." = ".. "Rifle");
--- manager:getItem("Base.HuntingRifle"):DoParam("Tags".." = ".. "Rifle");
--- manager:getItem("Base.VarmintRifle"):DoParam("Tags".." = ".. "Rifle");
+    -- Rifle
+    addTag("Base.AssaultRifle", "Rifle")
+    addTag("Base.AssaultRifle2", "Rifle")
+    addTag("Base.HuntingRifle", "Rifle")
+    addTag("Base.VarmintRifle", "Rifle")
 
--- manager:getItem("Base.DoubleBarrelShotgun"):DoParam("Tags".." = ".. "Shotgun");
--- manager:getItem("Base.DoubleBarrelShotgunSawnoff"):DoParam("Tags".." = ".. "Shotgun");
--- manager:getItem("Base.Shotgun"):DoParam("Tags".." = ".. "Shotgun");
--- manager:getItem("Base.ShotgunSawnoff"):DoParam("Tags".." = ".. "Shotgun");
+    -- Shotgun
+    addTag("Base.DoubleBarrelShotgun", "Shotgun")
+    addTag("Base.DoubleBarrelShotgunSawnoff", "Shotgun")
+    addTag("Base.Shotgun", "Shotgun")
+    addTag("Base.ShotgunSawnoff", "Shotgun")
 
--- manager:getItem("Base.BookCarpentry1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCarpentry2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCarpentry3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCarpentry4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCarpentry5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCooking1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCooking2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCooking3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCooking4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookCooking5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookElectrician1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookElectrician2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookElectrician3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookElectrician4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookElectrician5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFarming1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFarming2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFarming3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFarming4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFarming5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFirstAid1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFirstAid2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFirstAid3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFirstAid4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFirstAid5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFishing1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFishing2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFishing3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFishing4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookFishing5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookForaging1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookForaging2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookForaging3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookForaging4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookForaging5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMechanic1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMechanic2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMechanic3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMechanic4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMechanic5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMetalWelding1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMetalWelding2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMetalWelding3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMetalWelding4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookMetalWelding5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTailoring1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTailoring2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTailoring3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTailoring4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTailoring5"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTrapping1"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTrapping2"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTrapping3"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTrapping4"):DoParam("Tags".." = ".. "SkillBook");
--- manager:getItem("Base.BookTrapping5"):DoParam("Tags".." = ".. "SkillBook");
+    -- SkillBook
+    addTag("Base.BookCarpentry1", "SkillBook")
+    addTag("Base.BookCarpentry2", "SkillBook")
+    addTag("Base.BookCarpentry3", "SkillBook")
+    addTag("Base.BookCarpentry4", "SkillBook")
+    addTag("Base.BookCarpentry5", "SkillBook")
+    addTag("Base.BookCooking1", "SkillBook")
+    addTag("Base.BookCooking2", "SkillBook")
+    addTag("Base.BookCooking3", "SkillBook")
+    addTag("Base.BookCooking4", "SkillBook")
+    addTag("Base.BookCooking5", "SkillBook")
+    addTag("Base.BookElectrician1", "SkillBook")
+    addTag("Base.BookElectrician2", "SkillBook")
+    addTag("Base.BookElectrician3", "SkillBook")
+    addTag("Base.BookElectrician4", "SkillBook")
+    addTag("Base.BookElectrician5", "SkillBook")
+    addTag("Base.BookFarming1", "SkillBook")
+    addTag("Base.BookFarming2", "SkillBook")
+    addTag("Base.BookFarming3", "SkillBook")
+    addTag("Base.BookFarming4", "SkillBook")
+    addTag("Base.BookFarming5", "SkillBook")
+    addTag("Base.BookFirstAid1", "SkillBook")
+    addTag("Base.BookFirstAid2", "SkillBook")
+    addTag("Base.BookFirstAid3", "SkillBook")
+    addTag("Base.BookFirstAid4", "SkillBook")
+    addTag("Base.BookFirstAid5", "SkillBook")
+    addTag("Base.BookFishing1", "SkillBook")
+    addTag("Base.BookFishing2", "SkillBook")
+    addTag("Base.BookFishing3", "SkillBook")
+    addTag("Base.BookFishing4", "SkillBook")
+    addTag("Base.BookFishing5", "SkillBook")
+    addTag("Base.BookForaging1", "SkillBook")
+    addTag("Base.BookForaging2", "SkillBook")
+    addTag("Base.BookForaging3", "SkillBook")
+    addTag("Base.BookForaging4", "SkillBook")
+    addTag("Base.BookForaging5", "SkillBook")
+    addTag("Base.BookMechanic1", "SkillBook")
+    addTag("Base.BookMechanic2", "SkillBook")
+    addTag("Base.BookMechanic3", "SkillBook")
+    addTag("Base.BookMechanic4", "SkillBook")
+    addTag("Base.BookMechanic5", "SkillBook")
+    addTag("Base.BookMetalWelding1", "SkillBook")
+    addTag("Base.BookMetalWelding2", "SkillBook")
+    addTag("Base.BookMetalWelding3", "SkillBook")
+    addTag("Base.BookMetalWelding4", "SkillBook")
+    addTag("Base.BookMetalWelding5", "SkillBook")
+    addTag("Base.BookTailoring1", "SkillBook")
+    addTag("Base.BookTailoring2", "SkillBook")
+    addTag("Base.BookTailoring3", "SkillBook")
+    addTag("Base.BookTailoring4", "SkillBook")
+    addTag("Base.BookTailoring5", "SkillBook")
+    addTag("Base.BookTrapping1", "SkillBook")
+    addTag("Base.BookTrapping2", "SkillBook")
+    addTag("Base.BookTrapping3", "SkillBook")
+    addTag("Base.BookTrapping4", "SkillBook")
+    addTag("Base.BookTrapping5", "SkillBook")
 
-
--- end
+    print("[SFQuest] Tweaks applicati con successo")
+end
 
 -- Events.OnGameBoot.Add(SFQuest_Tweaks)

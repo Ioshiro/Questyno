@@ -46,6 +46,10 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                     questName = getText("IGUI_SFQuest_"..questName.."_Text")
                     player:Say(getText("IGUI_SFQuest_Questyno_ZombieCompleted", eventData.goal, questName), 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
                     SF_MissionPanel.instance:readCommandTable(commandTable)
+                    -- Update index before removing from array
+                    if prog.Indexes and prog.Indexes.ActionEventByQuestGuid and eventData.questGuid then
+                        prog.Indexes.ActionEventByQuestGuid[eventData.questGuid] = nil
+                    end
                     table.remove(actionevent, i)
                 end
                 SF_MissionPanel.instance.needsBackup = true
@@ -171,6 +175,10 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                         if player:getSquare():getRoom() == room then
                             local commandTable = luautils.split(event.commands, ";");
                             SF_MissionPanel.instance:readCommandTable(commandTable);
+                            -- Update index before removing from array
+                            if prog.Indexes and prog.Indexes.ActionEventByQuestGuid and event.questGuid then
+                                prog.Indexes.ActionEventByQuestGuid[event.questGuid] = nil
+                            end
                             table.remove(actionevent, a);
                         end
                     end
@@ -185,6 +193,10 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                     if player:getModData().CurrentDungeon.dungeonId and player:getModData().CurrentDungeon.dungeonId == dungeonID then
                         local commandTable = luautils.split(event.commands, ";");
                         SF_MissionPanel.instance:readCommandTable(commandTable);
+                        -- Update index before removing from array
+                        if prog.Indexes and prog.Indexes.ActionEventByQuestGuid and event.questGuid then
+                            prog.Indexes.ActionEventByQuestGuid[event.questGuid] = nil
+                        end
                         table.remove(actionevent, a);
                     end
                 elseif conditionSplit[1] == "readbook" then
@@ -195,6 +207,10 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                     if watched and event.commands then
                         local commandTable = luautils.split(event.commands, ";");
                         SF_MissionPanel.instance:readCommandTable(commandTable);
+                        -- Update index before removing from array
+                        if prog.Indexes and prog.Indexes.ActionEventByQuestGuid and event.questGuid then
+                            prog.Indexes.ActionEventByQuestGuid[event.questGuid] = nil
+                        end
                         table.remove(actionevent, a);
                     end
                 end
@@ -238,20 +254,15 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                 local marker = nil
                 if square then
                     if string.find(string.lower(v2.dialoguecode), "complete") then
-                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+                        marker = getIsoMarkers():addIsoMarker({"media/textures/Complete_Marker.png"}, square, 1, 1, 1, 1.0);
                     else
-                        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+                        marker = getIsoMarkers():addIsoMarker({"media/textures/Test_Marker.png"}, square, 1, 1, 1, 1.0);
                     end
                     if marker then
-                        marker:setDoAlpha(false);
-                        marker:setAlphaMin(0.8);
-                        marker:setAlpha(1.0);
                         v2.marker = marker;
                     end
                 end
             else
-                v2.marker:setDoAlpha(false);
-                v2.marker:setAlphaMin(0.8);
                 v2.marker:setAlpha(1.0);
             end
         end
@@ -265,17 +276,12 @@ function SF_MissionPanel.EveryTenMinutesExpand()
                 local square = getCell():getGridSquare(x, y, z);
                 local marker
                 if square then
-                    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
+                    marker = getIsoMarkers():addIsoMarker({"media/textures/worldclickevent.png"}, square, 1, 1, 1, 1.0);
                     if marker then
-                        marker:setDoAlpha(false);
-                        marker:setAlphaMin(0.8);
-                        marker:setAlpha(1.0);
                         event.marker = marker;
                     end
                 end
             else
-                event.marker:setDoAlpha(false);
-                event.marker:setAlphaMin(0.8);
                 event.marker:setAlpha(1.0);
             end
         end
@@ -310,6 +316,9 @@ end
 
 
 Events.OnGameBoot.Add(function()
+    -- Build static database indexes for O(1) lookups
+    SFQuest_Database.BuildIndexes()
+
     Events.EveryDays.Add(SF_MissionPanel.DailyEventRerollExpand)
     Events.EveryTenMinutes.Add(SF_MissionPanel.EveryTenMinutesExpand)
     -- check sandbox option of time and set everyten or everyone minutes based on it?

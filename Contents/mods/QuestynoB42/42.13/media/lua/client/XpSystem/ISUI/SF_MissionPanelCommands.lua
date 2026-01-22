@@ -21,14 +21,25 @@ function SF_MissionPanel.Commands.actionevent(condition, commandslist)
             tierlevel = tonumber(conditionValue)
         end
         local convertedCommands = commandslist:gsub(":", ";");
-        table.insert(prog.ActionEvent, {
+        -- Extract questGuid from commands for O(1) lookup (format: "updateobjective;questGuid;index;status")
+        local commandParts = luautils.split(convertedCommands, ";")
+        local questGuid = commandParts[2]  -- questGuid is the second element
+
+        local newEvent = {
+            questGuid = questGuid,  -- Direct reference for O(1) lookup
             kills = 0,
             goal = goal,
             tierzone = tierzone,
             tierlevel = tierlevel,
             condition = "killzombies",
             commands = convertedCommands
-        })
+        }
+        table.insert(prog.ActionEvent, newEvent)
+
+        -- Update player index for O(1) lookup
+        if prog.Indexes and questGuid then
+            prog.Indexes.ActionEventByQuestGuid[questGuid] = newEvent
+        end
         if not SF_MissionPanel.EventsRegistered then
             Events.OnZombieDead.Add(SF_MissionPanel.Events.OnZombieDead);
             SF_MissionPanel.EventsRegistered = true;
@@ -124,20 +135,27 @@ function SF_MissionPanel.Commands.unlockworldevent(identity, dialoguecode, quest
 
     prog.WorldEvent[squaretag] = event;
 
+    -- Update player index for O(1) lookup by dialoguecode
+    if prog.Indexes and dialoguecode then
+        prog.Indexes.WorldEventByDialogue[dialoguecode] = {
+            squaretag = squaretag,
+            event = event
+        }
+    end
+
     local squareTable = luautils.split(squaretag, "x");
     local x, y, z = tonumber(squareTable[1]), tonumber(squareTable[2]), tonumber(squareTable[3]);
     local square = getCell():getGridSquare(x, y, z);
     local marker
     if square then
         if string.find(string.lower(dialoguecode), "complete") then
-            marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+            marker = getIsoMarkers():addIsoMarker({"media/textures/Complete_Marker.png"}, square, 1, 1, 1, 1.0);
         else
-            marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+            marker = getIsoMarkers():addIsoMarker({"media/textures/Test_Marker.png"}, square, 1, 1, 1, 1.0);
         end
-        marker:setDoAlpha(false);
-        marker:setAlphaMin(0.8);
-        marker:setAlpha(1.0);
-        prog.WorldEvent[squaretag].marker = marker;
+        if marker then
+            prog.WorldEvent[squaretag].marker = marker;
+        end
         SF_MissionPanel.instance.needsBackup = true;
     end
 end
@@ -154,18 +172,36 @@ function SF_MissionPanel.Commands.clickevent(squareaddress, actiondata, commands
     local squareTable = luautils.split(squareaddress, ":");
     local convertedaction = actiondata:gsub(":", ";");
     local convertedlist = commands:gsub(":", ";");
+
+    -- Extract questGuid from commands for O(1) lookup (format: "updateobjective;questGuid;index;status")
+    local commandParts = luautils.split(convertedlist, ";")
+    local questGuid = commandParts[2]  -- questGuid is the second element
+
     local squareCoord = luautils.split(squareTable[1], "x");
     local x,y,z = tonumber(squareCoord[1]), tonumber(squareCoord[2]), tonumber(squareCoord[3]);
     local square = getCell():getGridSquare(x,y,z);
     local marker;
     if square then
-        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/worldclickevent.png"}, square, 1, 1, 1, false, false);
-        marker:setDoAlpha(false);
-        marker:setAlphaMin(0.8);
-        marker:setAlpha(1.0);
+        marker = getIsoMarkers():addIsoMarker({"media/textures/worldclickevent.png"}, square, 1, 1, 1, 1.0);
     end
-    local event = {square = squareTable[1], address = squareTable[2], actiondata = convertedaction, commands = convertedlist, marker = marker};
+    local event = {
+        questGuid = questGuid,  -- Direct reference for O(1) lookup
+        square = squareTable[1],
+        address = squareTable[2],
+        actiondata = convertedaction,
+        commands = convertedlist,
+        marker = marker
+    };
     prog.ClickEvent[squareTable[1]] = event;
+
+    -- Update player index for O(1) lookup
+    if prog.Indexes and event.address then
+        prog.Indexes.ClickEventByAddress[event.address] = {
+            squaretag = squareTable[1],
+            event = event
+        }
+    end
+
     SF_MissionPanel.instance.needsBackup = true;
 end
 
@@ -173,6 +209,24 @@ function SF_MissionPanel.Commands.removeclickevent(address)
     local player = getPlayer();
     local prog = player:getModData().missionProgress;
     if not prog or not prog.ClickEvent then return end
+
+    -- O(1) lookup using index
+    if prog.Indexes and prog.Indexes.ClickEventByAddress then
+        local entry = prog.Indexes.ClickEventByAddress[address]
+        if entry then
+            local event = entry.event
+            local squaretag = entry.squaretag
+            if event.marker then
+                event.marker:remove()
+            end
+            prog.ClickEvent[squaretag] = nil
+            prog.Indexes.ClickEventByAddress[address] = nil
+            SF_MissionPanel.instance.needsBackup = true
+            return
+        end
+    end
+
+    -- Fallback: O(n) loop for backward compatibility with old data
     for k2,event in pairs(prog.ClickEvent) do
         if event.address and event.address == address then
             if event.marker then
@@ -193,11 +247,23 @@ function SF_MissionPanel.Commands.removequest(questid)
     local clickEvents = prog.ClickEvent;
     local worldEvents = prog.WorldEvent;
     local actionEvents = prog.ActionEvent;
+    local idx = prog.Indexes  -- Get indexes for O(1) lookup
     local done = false
 
-    -- Helper function per rimuovere WorldEvent by dialoguecode
+    -- Helper function per rimuovere WorldEvent by dialoguecode (O(1) with fallback)
     local function removeWorldEventByDialogue(condition)
         if not worldEvents then return end
+        -- Try O(1) lookup first
+        if idx and idx.WorldEventByDialogue and idx.WorldEventByDialogue[condition] then
+            local entry = idx.WorldEventByDialogue[condition]
+            if entry.event.marker then
+                entry.event.marker:remove()
+            end
+            worldEvents[entry.squaretag] = nil
+            idx.WorldEventByDialogue[condition] = nil
+            return
+        end
+        -- Fallback: O(n) loop for backward compatibility
         for k, v in pairs(worldEvents) do
             if v.dialoguecode == condition then
                 if worldEvents[k].marker then
@@ -209,9 +275,17 @@ function SF_MissionPanel.Commands.removequest(questid)
         end
     end
 
-    -- Helper function per rimuovere ClickEvent by address
+    -- Helper function per rimuovere ClickEvent by address (O(1) with fallback)
     local function removeClickEventByAddress(address)
         if not clickEvents then return end
+        -- Try O(1) lookup first
+        if idx and idx.ClickEventByAddress and idx.ClickEventByAddress[address] then
+            local entry = idx.ClickEventByAddress[address]
+            clickEvents[entry.squaretag] = nil
+            idx.ClickEventByAddress[address] = nil
+            return
+        end
+        -- Fallback: O(n) loop for backward compatibility
         for k2, event in pairs(clickEvents) do
             if event.address and event.address == address then
                 clickEvents[k2] = nil
@@ -258,7 +332,22 @@ function SF_MissionPanel.Commands.removequest(questid)
                         local unlocksTable = luautils.split(convertedcondition, ";");
                         for j = 1, #unlocksTable do
                             if unlocksTable[j] == "killzombies" then
-                                if actionEvents and #actionEvents > 0 then
+                                -- Try O(1) lookup by questGuid first
+                                local removed = false
+                                if idx and idx.ActionEventByQuestGuid and idx.ActionEventByQuestGuid[task.guid] then
+                                    local event = idx.ActionEventByQuestGuid[task.guid]
+                                    -- Find index in array and remove
+                                    for a=#actionEvents,1,-1 do
+                                        if actionEvents[a] == event then
+                                            table.remove(actionEvents, a)
+                                            break
+                                        end
+                                    end
+                                    idx.ActionEventByQuestGuid[task.guid] = nil
+                                    removed = true
+                                end
+                                -- Fallback: O(n) loop for backward compatibility
+                                if not removed and actionEvents and #actionEvents > 0 then
                                     for a=#actionEvents,1,-1 do
                                         local commands = luautils.split(actionEvents[a].commands, ";");
                                         if actionEvents[a].condition == "killzombies" and commands[2] == task.guid then
@@ -286,6 +375,23 @@ function SF_MissionPanel.Commands.removequest(questid)
                     if task.status == "Completed" then
                         table.insert(prog.Category1, task);
                     end
+
+                    -- Update indexes before removing from Category2
+                    if idx then
+                        if task.guid and idx.ActiveQuestByGuid then
+                            idx.ActiveQuestByGuid[task.guid] = nil
+                        end
+                        if task.dailycode and idx.ActiveQuestsByDailyCode and idx.ActiveQuestsByDailyCode[task.dailycode] then
+                            local dailyQuests = idx.ActiveQuestsByDailyCode[task.dailycode]
+                            for q = #dailyQuests, 1, -1 do
+                                if dailyQuests[q].guid == task.guid then
+                                    table.remove(dailyQuests, q)
+                                    break
+                                end
+                            end
+                        end
+                    end
+
                     -- rimozione coatta dalle quest attive
                     table.remove(currentTasks, i);
                     done = true;
@@ -354,6 +460,12 @@ function SF_MissionPanel.Commands.unlockdaily(daily)
     local lastRoll = math.floor(serverTime / (24 * (daily.frequency or 1)));
     local dailyTable = { dailycode = daily.dailycode, condition = daily.condition, commands = daily.commands, days = lastRoll, frequency = daily.frequency };
     table.insert(prog.DailyEvent, dailyTable);
+
+    -- Update player index for O(1) lookup
+    if prog.Indexes and daily.dailycode then
+        prog.Indexes.PlayerDailyEventByCode[daily.dailycode] = dailyTable
+    end
+
     SF_MissionPanel.instance.needsBackup = true;
 end
 

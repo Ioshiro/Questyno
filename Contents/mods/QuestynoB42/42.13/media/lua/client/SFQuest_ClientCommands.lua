@@ -41,6 +41,8 @@ function Commands.setProgressTxt(args)
 	if args.checkDefaults then
 		SF_MissionPanel.instance:checkDefaults();
 	end
+	-- Rebuild player indexes after backup data is applied
+	SFQuest_PlayerHandler.rebuildPlayerIndexes(player)
 	SF_MissionPanel.instance:triggerUpdate();
 end
 
@@ -74,6 +76,8 @@ function Commands.setProgress(args)
 	if args.checkDefaults then
 		SF_MissionPanel.instance:checkDefaults();
 	end
+	-- Rebuild player indexes after backup data is applied
+	SFQuest_PlayerHandler.rebuildPlayerIndexes(player)
 	SF_MissionPanel.instance:triggerUpdate();
 end
 

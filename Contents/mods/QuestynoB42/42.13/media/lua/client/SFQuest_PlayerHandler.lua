@@ -15,9 +15,145 @@ SFQuest_PlayerHandler.startingPlayerStats = {
 	Delivery = {},
 	WorldEvent = {},
 	LastDailyCompleted = {},
+	-- O(1) Lookup Indexes (rebuilt on load, not persisted)
+	Indexes = {
+		ActiveQuestByGuid = {},      -- Category2 indexed by guid
+		ActiveQuestsByDailyCode = {}, -- Category2 indexed by dailycode (array per code)
+		ActionEventByQuestGuid = {}, -- ActionEvent indexed by questGuid
+		WorldEventByDialogue = {},   -- WorldEvent indexed by dialoguecode
+		ClickEventByAddress = {},    -- ClickEvent indexed by address
+		FactionByCode = {},          -- Factions indexed by factioncode
+		PlayerDailyEventByCode = {}, -- DailyEvent (player unlocked) indexed by dailycode
+	},
 };
 
 SFQuest_PlayerHandler.imDeath = false
+
+-- Rebuild all player progress indexes from existing data
+-- Call this on game load to restore O(1) lookups
+function SFQuest_PlayerHandler.rebuildPlayerIndexes(player)
+	local prog = player:getModData().missionProgress
+	if not prog then return end
+
+	-- Ensure Indexes structure exists (for backward compatibility)
+	if not prog.Indexes then
+		prog.Indexes = {
+			ActiveQuestByGuid = {},
+			ActiveQuestsByDailyCode = {},
+			ActionEventByQuestGuid = {},
+			WorldEventByDialogue = {},
+			ClickEventByAddress = {},
+			FactionByCode = {},
+			PlayerDailyEventByCode = {},
+		}
+	end
+
+	local idx = prog.Indexes
+
+	-- Clear all indexes
+	idx.ActiveQuestByGuid = {}
+	idx.ActiveQuestsByDailyCode = {}
+	idx.ActionEventByQuestGuid = {}
+	idx.WorldEventByDialogue = {}
+	idx.ClickEventByAddress = {}
+	idx.FactionByCode = {}
+	idx.PlayerDailyEventByCode = {}
+
+	-- Index active quests (Category2) by guid and dailycode
+	if prog.Category2 then
+		for i, quest in ipairs(prog.Category2) do
+			if quest.guid then
+				idx.ActiveQuestByGuid[quest.guid] = quest
+			end
+			if quest.dailycode then
+				idx.ActiveQuestsByDailyCode[quest.dailycode] = idx.ActiveQuestsByDailyCode[quest.dailycode] or {}
+				table.insert(idx.ActiveQuestsByDailyCode[quest.dailycode], quest)
+			end
+		end
+	end
+
+	-- Index ActionEvent by questGuid (extracted from commands)
+	if prog.ActionEvent then
+		for i, event in ipairs(prog.ActionEvent) do
+			-- Check if event has direct questGuid (new format)
+			if event.questGuid then
+				idx.ActionEventByQuestGuid[event.questGuid] = event
+			elseif event.commands then
+				-- Legacy format: extract questGuid from commands string
+				local commands = luautils.split(event.commands, ";")
+				if commands[2] then
+					idx.ActionEventByQuestGuid[commands[2]] = event
+				end
+			end
+		end
+	end
+
+	-- Index WorldEvent by dialoguecode
+	if prog.WorldEvent then
+		for squaretag, event in pairs(prog.WorldEvent) do
+			if event.dialoguecode then
+				idx.WorldEventByDialogue[event.dialoguecode] = {
+					squaretag = squaretag,
+					event = event
+				}
+			end
+		end
+	end
+
+	-- Index ClickEvent by address
+	if prog.ClickEvent then
+		for squaretag, event in pairs(prog.ClickEvent) do
+			if event.address then
+				idx.ClickEventByAddress[event.address] = {
+					squaretag = squaretag,
+					event = event
+				}
+			end
+		end
+	end
+
+	-- Index Factions by factioncode
+	if prog.Factions then
+		for i, faction in ipairs(prog.Factions) do
+			if faction.factioncode then
+				idx.FactionByCode[faction.factioncode] = faction
+			end
+		end
+	end
+
+	-- Index DailyEvent by dailycode
+	if prog.DailyEvent then
+		for i, daily in ipairs(prog.DailyEvent) do
+			if daily.dailycode then
+				idx.PlayerDailyEventByCode[daily.dailycode] = daily
+			end
+		end
+	end
+
+	-- Log rebuild results
+	local counts = {
+		ActiveQuestByGuid = 0,
+		ActionEventByQuestGuid = 0,
+		WorldEventByDialogue = 0,
+		ClickEventByAddress = 0,
+		FactionByCode = 0,
+		PlayerDailyEventByCode = 0,
+	}
+	for k, v in pairs(idx.ActiveQuestByGuid) do counts.ActiveQuestByGuid = counts.ActiveQuestByGuid + 1 end
+	for k, v in pairs(idx.ActionEventByQuestGuid) do counts.ActionEventByQuestGuid = counts.ActionEventByQuestGuid + 1 end
+	for k, v in pairs(idx.WorldEventByDialogue) do counts.WorldEventByDialogue = counts.WorldEventByDialogue + 1 end
+	for k, v in pairs(idx.ClickEventByAddress) do counts.ClickEventByAddress = counts.ClickEventByAddress + 1 end
+	for k, v in pairs(idx.FactionByCode) do counts.FactionByCode = counts.FactionByCode + 1 end
+	for k, v in pairs(idx.PlayerDailyEventByCode) do counts.PlayerDailyEventByCode = counts.PlayerDailyEventByCode + 1 end
+
+	print("[SFQuest] Player Indexes rebuilt: " ..
+		"ActiveQuests=" .. counts.ActiveQuestByGuid .. ", " ..
+		"ActionEvents=" .. counts.ActionEventByQuestGuid .. ", " ..
+		"WorldEvents=" .. counts.WorldEventByDialogue .. ", " ..
+		"ClickEvents=" .. counts.ClickEventByAddress .. ", " ..
+		"Factions=" .. counts.FactionByCode .. ", " ..
+		"DailyEvents=" .. counts.PlayerDailyEventByCode)
+end
 
 function SFQuest_PlayerHandler.StartPlayer()
 
@@ -124,6 +260,8 @@ function SFQuest_PlayerHandler.StartPlayer()
 	SFQuest_PlayerHandler.imDeath = false --in caso si rimuove di nuovo nella stessa partita (due o più volte volte di fila)
 	Events.EveryOneMinute.Add(SF_MissionPanel.EveryTenMinutesExpand)
 	Events.EveryOneMinute.Add(SF_MissionPanel.DebugEveryTenMinutes)
+	-- Rebuild player indexes AFTER missionProgress is populated
+	SFQuest_PlayerHandler.rebuildPlayerIndexes(player)
 	SF_MissionPanel.instance:triggerUpdate(); -- qui errore dell'istanza?
 end
 -- check for faction members based on reputation
@@ -184,8 +322,11 @@ end
 
 function SFQuest_PlayerHandler.OnGameStart()
 	SF_MissionPanel.instance:triggerUpdate();
-	
+
 	local player = getPlayer();
+
+	-- NOTE: rebuildPlayerIndexes() is now called in StartPlayer() after missionProgress is populated
+
 	if player:getModData().missionProgress then
 		if  player:getModData().missionProgress.WorldEvent then
 			for k2,v2 in pairs(player:getModData().missionProgress.WorldEvent) do
@@ -196,20 +337,15 @@ function SFQuest_PlayerHandler.OnGameStart()
 					local marker = nil
 					if square then
         	    	    if string.find(string.lower(v2.dialoguecode), "complete") then
-        	    	        marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Complete_Marker.png"}, square, 1, 1, 1, false, false);
+        	    	        marker = getIsoMarkers():addIsoMarker({"media/textures/Complete_Marker.png"}, square, 1, 1, 1, 1.0);
         	    	    else
-						    marker = getIsoMarkers():addIsoMarker({}, {"media/textures/Test_Marker.png"}, square, 1, 1, 1, false, false);
+						    marker = getIsoMarkers():addIsoMarker({"media/textures/Test_Marker.png"}, square, 1, 1, 1, 1.0);
         	    	    end
 						if marker then
-							marker:setDoAlpha(false);
-							marker:setAlphaMin(0.8);
-							marker:setAlpha(1.0);
 							v2.marker = marker;
 						end
 					end
 				else
-					v2.marker:setDoAlpha(false);
-					v2.marker:setAlphaMin(0.8);
 					v2.marker:setAlpha(1.0);
 				end
 			end
@@ -222,17 +358,12 @@ function SFQuest_PlayerHandler.OnGameStart()
 					local square = getCell():getGridSquare(x, y, z);
 					local marker = nil
 					if square then
-						marker = getIsoMarkers():addIsoMarker({}, {"media/textures/clickevent.png"}, square, 1, 1, 1, false, false);
+						marker = getIsoMarkers():addIsoMarker({"media/textures/clickevent.png"}, square, 1, 1, 1, 1.0);
 						if marker then
-							marker:setDoAlpha(false);
-							marker:setAlphaMin(0.8);
-							marker:setAlpha(1.0);
 							event.marker = marker;
 						end
 					end
 				else
-					event.marker:setDoAlpha(false);
-					event.marker:setAlphaMin(0.8);
 					event.marker:setAlpha(1.0);
 				end
 			end
