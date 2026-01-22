@@ -1563,6 +1563,17 @@ end
 ---------------------------------------------------------------------------------------------------------
 -- Data Backup Utilities
 
+-- Helper: crea copia dei dati senza Indexes (sono dati derivati, ricostruiti al restore)
+local function copyDataWithoutIndexes(data)
+	local dataToSave = {}
+	for k, v in pairs(data) do
+		if k ~= "Indexes" then
+			dataToSave[k] = v
+		end
+	end
+	return dataToSave
+end
+
 function SF_MissionPanel:backupData()
 	local player = self.player or getPlayer();
 	local data = player:getModData().missionProgress;
@@ -1570,27 +1581,31 @@ function SF_MissionPanel:backupData()
 		print("Player had no quest data for the backup.");
 		return
 	end
+	-- Escludi Indexes dal backup (verranno ricostruiti da rebuildPlayerIndexes al restore)
+	local dataToSave = copyDataWithoutIndexes(data)
 	if isClient() then
-		sendClientCommand(player, 'SFQuest', 'saveData', data);
+		sendClientCommand(player, 'SFQuest', 'saveData', dataToSave);
 	else
-		SFQuest_Server.localBackup(player, data);
+		SFQuest_Server.localBackup(player, dataToSave);
 	end;
 end
 
 function SF_MissionPanel:forceBackupData()
 	local player = self.player or getPlayer();
 	local data = player:getModData().missionProgress;
-    data.forceBackup = true;
 	if not data then
 		print("Player had no quest data for the backup.");
 		return
 	end
+	-- Escludi Indexes dal backup (verranno ricostruiti da rebuildPlayerIndexes al restore)
+	local dataToSave = copyDataWithoutIndexes(data)
+	dataToSave.forceBackup = true;
 	if isClient() then
 		print("****************SALVO CLIENT************************");
-		sendClientCommand(player, 'SFQuest', 'saveData', data);
+		sendClientCommand(player, 'SFQuest', 'saveData', dataToSave);
 	else
 		print("****************SALVO SERVER************************");
-		SFQuest_Server.localBackup(player, data);
+		SFQuest_Server.localBackup(player, dataToSave);
 	end;
 end
 

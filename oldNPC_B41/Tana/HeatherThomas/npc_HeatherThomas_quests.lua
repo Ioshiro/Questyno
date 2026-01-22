@@ -4,23 +4,23 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.QuestPool, thomasQuest22);
 
 local thomasQuest23 = {
-    guid = "Questyno_HeatherThomas23",
+    guid = "HeatherThomas23",
 
     awardsrep = "LaResistenza;400", -- REP REWARD
     awardsitem = "Salt;1",         -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
+    dailycode = "HeatherThomas",
     objectives = { {
-        guid = "Questyno_HeatherThomas23_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas23_A",
+        guid = "HeatherThomas23_A",
+        text = "IGUI_SFQuest_HeatherThomas23_A",
         hidden = false,
         oncompleted = "removeclickevent;EventoHeatherThomas23"
     } },
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas23_Lore" },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas23_Text",
+    lore = { "IGUI_SFQuest_HeatherThomas23_Lore" },
+    text = "IGUI_SFQuest_HeatherThomas23_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas23_Title",
-    unlocks = "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:Questyno_HeatherThomas23:1:Completed",
+    title = "IGUI_SFQuest_HeatherThomas23_Title",
+    unlocks = "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:HeatherThomas23:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest23);

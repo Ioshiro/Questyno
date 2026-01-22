@@ -853,131 +853,131 @@ table.insert(SFQuest_Database.QuestPool, stellaQuest21);
 ]]
 
 local thomasIntro = {
-    guid = "Questyno_HeatherThomas_Intro",
+    guid = "HeatherThomas_Intro",
 
     awardsrep = "HeatherThomas;100", -- REP REWARD
     completesound = "levelup",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Lore" },
-    ondone = "randomcodedworldfrompool;Questyno_HeatherThomas;Questyno;HeatherThomas",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Text",
+    lore = { "IGUI_SFQuest_HeatherThomas_Intro_Lore" },
+    ondone = "randomcodedworldfrompool;HeatherThomas;Questyno;HeatherThomas",
+    text = "IGUI_SFQuest_HeatherThomas_Intro_Text",
     texture = "media/textures/Item_HeatherThomas.png",
     unique = true,
-    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas_Intro_Complete",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas_Intro_Title",
+    unlocks = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas_Intro_Complete",
+    title = "IGUI_SFQuest_HeatherThomas_Intro_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasIntro);
 
 local thomasQuest1 = {
-    guid = "Questyno_HeatherThomas1",
+    guid = "HeatherThomas1",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas1_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas1_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas1_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas1_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas1_Complete",
+    text = "IGUI_SFQuest_HeatherThomas1_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas1_Title",
+    title = "IGUI_SFQuest_HeatherThomas1_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest1);
 
 local thomasQuest2 = {
-    guid = "Questyno_HeatherThomas2",
+    guid = "HeatherThomas2",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas2_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas2_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas2_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas2_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas2_Complete",
+    text = "IGUI_SFQuest_HeatherThomas2_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas2_Title",
+    title = "IGUI_SFQuest_HeatherThomas2_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest2);
 
 local thomasQuest3 = {
-    guid = "Questyno_HeatherThomas3",
+    guid = "HeatherThomas3",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "Twine;1",         -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas3_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas3_Lore" },
     needsitem = "TrapCrate;20", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas3_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas3_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas3_Complete",
+    text = "IGUI_SFQuest_HeatherThomas3_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas3_Title",
+    title = "IGUI_SFQuest_HeatherThomas3_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest3);
 
 local thomasQuest4 = {
-    guid = "Questyno_HeatherThomas4",
+    guid = "HeatherThomas4",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     awardsitem = "LactoseCrossbow.CrossbowStrungString",        -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas4_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas4_Lore" },
     needsitem = "TrapBox;10", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas4_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas4_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas4_Complete",
+    text = "IGUI_SFQuest_HeatherThomas4_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas4_Title",
+    title = "IGUI_SFQuest_HeatherThomas4_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest4);
 
 local thomasQuest5 = {
-    guid = "Questyno_HeatherThomas5",
+    guid = "HeatherThomas5",
 
     awardsrep = "LaResistenza;50", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas5_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas5_Lore" },
     needsitem = "PredicateFreshFood#DeadSquirrel;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas5_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas5_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas5_Complete",
+    text = "IGUI_SFQuest_HeatherThomas5_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas5_Title",
+    title = "IGUI_SFQuest_HeatherThomas5_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest5);
 
 local thomasQuest6 = {
-    guid = "Questyno_HeatherThomas6",
+    guid = "HeatherThomas6",
 
     awardsrep = "LaResistenza;140", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas6_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas6_Lore" },
     needsitem = "PredicateFreshFood#DeadBird;4", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas6_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas6_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas6_Complete",
+    text = "IGUI_SFQuest_HeatherThomas6_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas6_Title",
+    title = "IGUI_SFQuest_HeatherThomas6_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest6);
 
 local thomasQuest7 = {
-    guid = "Questyno_HeatherThomas7",
+    guid = "HeatherThomas7",
 
     awardsrep = "LaResistenza;50",        -- REP REWARD
     awardsitem = "DehydratedMeatStick;6", -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas7_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas7_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas7_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas7_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas7_Complete",
+    text = "IGUI_SFQuest_HeatherThomas7_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas7_Title",
+    title = "IGUI_SFQuest_HeatherThomas7_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest7);
@@ -985,416 +985,416 @@ table.insert(SFQuest_Database.QuestPool, thomasQuest7);
 --				8. Recuperare base.Wire parlando con (11064,10640,0) (40rep + 50$)
 
 local thomasQuest8 = {
-    guid = "Questyno_HeatherThomas8",
+    guid = "HeatherThomas8",
 
-    awardstask = "Questyno_HeatherThomas8_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
+    awardstask = "HeatherThomas8_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas8_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas8_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas8_A",
+        guid = "HeatherThomas8_A",
+        text = "IGUI_SFQuest_HeatherThomas8_A",
         hidden = false,
         oncompleted = "additem;Wire;1;removeclickevent;EventoHeatherThomas8"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas8_Text",
+    text = "IGUI_SFQuest_HeatherThomas8_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas8_Title",
+    title = "IGUI_SFQuest_HeatherThomas8_Title",
     unlocks =
-    "clickevent;11064x10640x0:EventoHeatherThomas8;time:50:anim:loot;updateobjective:Questyno_HeatherThomas8:1:Completed",
+    "clickevent;11064x10640x0:EventoHeatherThomas8;time:50:anim:loot;updateobjective:HeatherThomas8:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest8);
 
 local thomasQuest8A = {
-    guid = "Questyno_HeatherThomas8_A",
+    guid = "HeatherThomas8_A",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;50",       -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
+    dailycode = "HeatherThomas",
     hidden = true,
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas8_Lore" },
+    lore = { "IGUI_SFQuest_HeatherThomas8_Lore" },
     needsitem = "Wire;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas8_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas8_A_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas8_Complete",
+    text = "IGUI_SFQuest_HeatherThomas8_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas8_Title",
+    title = "IGUI_SFQuest_HeatherThomas8_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest8A);
 
 local thomasQuest9 = {
-    guid = "Questyno_HeatherThomas9",
+    guid = "HeatherThomas9",
 
     awardsrep = "LaResistenza;70",        -- REP REWARD
     awardsitem = "DehydratedMeatStick;2", -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas9_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas9_Lore" },
     needsitem = "PredicateFreshFood#DeadBird;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas9_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas9_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas9_Complete",
+    text = "IGUI_SFQuest_HeatherThomas9_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas9_Title",
+    title = "IGUI_SFQuest_HeatherThomas9_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest9);
 
 local thomasQuest10 = {
-    guid = "Questyno_HeatherThomas10",
+    guid = "HeatherThomas10",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "BeefJerky;2",     -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas10_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas10_Lore" },
     needsitem = "PredicateFreshFood#DeadSquirrel;1", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas10_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas10_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas10_Complete",
+    text = "IGUI_SFQuest_HeatherThomas10_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas10_Title",
+    title = "IGUI_SFQuest_HeatherThomas10_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest10);
 
 local thomasQuest11 = {
-    guid = "Questyno_HeatherThomas11",
+    guid = "HeatherThomas11",
 
     awardsrep = "LaResistenza;35", -- REP REWARD
     awardsitem = "Money;20",       -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas11_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas11_Lore" },
     needsitem = "TrapBox;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas11_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas11_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas11_Complete",
+    text = "IGUI_SFQuest_HeatherThomas11_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas11_Title",
+    title = "IGUI_SFQuest_HeatherThomas11_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest11);
 
 local thomasQuest12 = {
-    guid = "Questyno_HeatherThomas12",
+    guid = "HeatherThomas12",
 
     awardsrep = "LaResistenza;40", -- REP REWARD
     awardsitem = "Money;20",       -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas12_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas12_Lore" },
     needsitem = "TrapCrate;4", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas12_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas12_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas12_Complete",
+    text = "IGUI_SFQuest_HeatherThomas12_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas12_Title",
+    title = "IGUI_SFQuest_HeatherThomas12_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest12);
 
 local thomasQuest13 = {
-    guid = "Questyno_HeatherThomas13",
+    guid = "HeatherThomas13",
 
-    awardstask = "Questyno_HeatherThomas13_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas13_Lore" },
+    awardstask = "HeatherThomas13_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas13_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas13_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas13_A",
+        guid = "HeatherThomas13_A",
+        text = "IGUI_SFQuest_HeatherThomas13_A",
         hidden = false,
         needsitem = "PredicateFreshFood#farming.RedRadish;15",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;1;Completed;removeitem;farming.RedRadish;15"
+        onobtained = "updateobjective;HeatherThomas13;1;Completed;removeitem;farming.RedRadish;15"
     }, {
-        guid = "Questyno_HeatherThomas13_B",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas13_B",
+        guid = "HeatherThomas13_B",
+        text = "IGUI_SFQuest_HeatherThomas13_B",
         hidden = false,
         needsitem = "PredicateFreshFood#Carrots;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;2;Completed;removeitem;Carrots;1"
+        onobtained = "updateobjective;HeatherThomas13;2;Completed;removeitem;Carrots;1"
     }, {
-        guid = "Questyno_HeatherThomas13_C",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas13_C",
+        guid = "HeatherThomas13_C",
+        text = "IGUI_SFQuest_HeatherThomas13_C",
         hidden = false,
         needsitem = "PredicateFreshFood#farming.Potato;2",
-        onobtained = "updateobjective;Questyno_HeatherThomas13;3;Completed;removeitem;farming.Potato;2"
+        onobtained = "updateobjective;HeatherThomas13;3;Completed;removeitem;farming.Potato;2"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas13_Text",
+    text = "IGUI_SFQuest_HeatherThomas13_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas13_Title",
+    title = "IGUI_SFQuest_HeatherThomas13_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest13);
 
 local thomasQuest13A = {
-    guid = "Questyno_HeatherThomas13_A",
+    guid = "HeatherThomas13_A",
 
     awardsrep = "LaResistenza;150", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas13_Lore" },
-    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas13_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas13_A_Text",
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas13_Lore" },
+    unlocks = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas13_Complete",
+    text = "IGUI_SFQuest_HeatherThomas13_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas13_Title",
+    title = "IGUI_SFQuest_HeatherThomas13_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest13A);
 
 local thomasQuest14 = {
-    guid = "Questyno_HeatherThomas14",
+    guid = "HeatherThomas14",
 
-    awardstask = "Questyno_HeatherThomas14_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas14_Lore" },
+    awardstask = "HeatherThomas14_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas14_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas14_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas14_A",
+        guid = "HeatherThomas14_A",
+        text = "IGUI_SFQuest_HeatherThomas14_A",
         hidden = false,
         needsitem = "PredicateFreshFood#Grasshopper;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas14;1;Completed;removeitem;Grasshopper;5"
+        onobtained = "updateobjective;HeatherThomas14;1;Completed;removeitem;Grasshopper;5"
     }, {
-        guid = "Questyno_HeatherThomas14_B",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas14_B",
+        guid = "HeatherThomas14_B",
+        text = "IGUI_SFQuest_HeatherThomas14_B",
         hidden = false,
         needsitem = "PredicateFreshFood#Worm;10",
-        onobtained = "updateobjective;Questyno_HeatherThomas14;2;Completed;removeitem;Worm;10"
+        onobtained = "updateobjective;HeatherThomas14;2;Completed;removeitem;Worm;10"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas14_Text",
+    text = "IGUI_SFQuest_HeatherThomas14_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas14_Title",
+    title = "IGUI_SFQuest_HeatherThomas14_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest14);
 
 local thomasQuest14A = {
-    guid = "Questyno_HeatherThomas14_A",
+    guid = "HeatherThomas14_A",
 
     awardsrep = "LaResistenza;180", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas14_Lore" },
-    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas14_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas14_A_Text",
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas14_Lore" },
+    unlocks = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas14_Complete",
+    text = "IGUI_SFQuest_HeatherThomas14_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas14_Title",
+    title = "IGUI_SFQuest_HeatherThomas14_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest14A);
 
 local thomasQuest15 = {
-    guid = "Questyno_HeatherThomas15",
+    guid = "HeatherThomas15",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas15_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas15_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas15_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas15_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas15_Complete",
+    text = "IGUI_SFQuest_HeatherThomas15_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas15_Title",
+    title = "IGUI_SFQuest_HeatherThomas15_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest15);
 
 local thomasQuest16 = {
-    guid = "Questyno_HeatherThomas16",
+    guid = "HeatherThomas16",
 
-    awardstask = "Questyno_HeatherThomas16_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas16_Lore" },
+    awardstask = "HeatherThomas16_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas16_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas16_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas16_A",
+        guid = "HeatherThomas16_A",
+        text = "IGUI_SFQuest_HeatherThomas16_A",
         hidden = false,
         oncompleted = "additem;DeadSquirrel;10;removeclickevent;EventoHeatherThomas16"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas16_Text",
+    text = "IGUI_SFQuest_HeatherThomas16_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas16_Title",
+    title = "IGUI_SFQuest_HeatherThomas16_Title",
     unlocks =
-    "clickevent;8509x10359x0:EventoHeatherThomas16;time:50:anim:loot;updateobjective:Questyno_HeatherThomas16:1:Completed",
+    "clickevent;8509x10359x0:EventoHeatherThomas16;time:50:anim:loot;updateobjective:HeatherThomas16:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest16);
 
 local thomasQuest16A = {
-    guid = "Questyno_HeatherThomas16_A",
+    guid = "HeatherThomas16_A",
 
     awardsrep = "LaResistenza;250", -- REP REWARD
     awardsitem = "DeadSquirrel;1",  -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas16_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas16_Lore" },
     needsitem = "PredicateFreshFood#DeadSquirrel;10", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas16_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas16_A_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas16_Complete",
+    text = "IGUI_SFQuest_HeatherThomas16_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas16_Title",
+    title = "IGUI_SFQuest_HeatherThomas16_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest16A);
 
 local thomasQuest17 = {
-    guid = "Questyno_HeatherThomas17",
+    guid = "HeatherThomas17",
 
-    awardstask = "Questyno_HeatherThomas17_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas17_Lore" },
+    awardstask = "HeatherThomas17_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas17_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas17_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas17_A",
+        guid = "HeatherThomas17_A",
+        text = "IGUI_SFQuest_HeatherThomas17_A",
         hidden = false,
         oncompleted = "additem;DeadRabbit;10;removeclickevent;EventoHeatherThomas17"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas17_Text",
+    text = "IGUI_SFQuest_HeatherThomas17_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas17_Title",
+    title = "IGUI_SFQuest_HeatherThomas17_Title",
     unlocks =
-    "clickevent;10936x8488x0:EventoHeatherThomas17;time:50:anim:loot;updateobjective:Questyno_HeatherThomas17:1:Completed",
+    "clickevent;10936x8488x0:EventoHeatherThomas17;time:50:anim:loot;updateobjective:HeatherThomas17:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest17);
 
 local thomasQuest17A = {
-    guid = "Questyno_HeatherThomas17_A",
+    guid = "HeatherThomas17_A",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "DeadRabbit;1",    -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas17_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas17_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;10", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas17_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas17_A_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas17_Complete",
+    text = "IGUI_SFQuest_HeatherThomas17_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas17_Title",
+    title = "IGUI_SFQuest_HeatherThomas17_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest17A);
 
 local thomasQuest18 = {
-    guid = "Questyno_HeatherThomas18",
+    guid = "HeatherThomas18",
 
-    awardstask = "Questyno_HeatherThomas18_A", -- TASK REWARD
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas18_Lore" },
+    awardstask = "HeatherThomas18_A", -- TASK REWARD
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas18_Lore" },
     objectives = { {
-        guid = "Questyno_HeatherThomas18_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas18_A",
+        guid = "HeatherThomas18_A",
+        text = "IGUI_SFQuest_HeatherThomas18_A",
         hidden = false,
         needsitem = "PredicateFreshFood#DeadRabbit;1",
-        onobtained = "updateobjective;Questyno_HeatherThomas18;1;Completed;removeitem;DeadRabbit;1"
+        onobtained = "updateobjective;HeatherThomas18;1;Completed;removeitem;DeadRabbit;1"
     }, {
-        guid = "Questyno_HeatherThomas18_B",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas18_B",
+        guid = "HeatherThomas18_B",
+        text = "IGUI_SFQuest_HeatherThomas18_B",
         hidden = false,
         needsitem = "Money;5",
-        onobtained = "updateobjective;Questyno_HeatherThomas18;2;Completed;removeitem;Money;5"
+        onobtained = "updateobjective;HeatherThomas18;2;Completed;removeitem;Money;5"
     } },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas18_Text",
+    text = "IGUI_SFQuest_HeatherThomas18_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas18_Title",
+    title = "IGUI_SFQuest_HeatherThomas18_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest18);
 
 local thomasQuest18A = {
-    guid = "Questyno_HeatherThomas18_A",
+    guid = "HeatherThomas18_A",
 
     awardsrep = "LaResistenza;100", -- REP REWARD
     awardsitem = "BeefJerky;2",    -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas18_Lore" },
-    unlocks = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas18_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas18_A_Text",
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas18_Lore" },
+    unlocks = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas18_Complete",
+    text = "IGUI_SFQuest_HeatherThomas18_A_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas18_Title",
+    title = "IGUI_SFQuest_HeatherThomas18_Title",
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest18A);
 
 local thomasQuest19 = {
-    guid = "Questyno_HeatherThomas19",
+    guid = "HeatherThomas19",
 
     awardsrep = "LaResistenza;200", -- REP REWARD
     awardsitem = "LactoseCrossbow.LCCrossbowBoltWoodIronTipBundle;3",    -- MONEY REWARD 
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas19_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas19_Lore" },
     needsitem = "LeatherStrips;50", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas19_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas19_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas19_Complete",
+    text = "IGUI_SFQuest_HeatherThomas19_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas19_Title",
+    title = "IGUI_SFQuest_HeatherThomas19_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest19);
 
 local thomasQuest20 = {
-    guid = "Questyno_HeatherThomas20",
+    guid = "HeatherThomas20",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
     awardsitem = "Base.PickAxe;1",    -- MONEY REWARD 
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas20_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas20_Lore" },
     needsitem = "LeatherStrips;80", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas20_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas20_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas20_Complete",
+    text = "IGUI_SFQuest_HeatherThomas20_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas20_Title",
+    title = "IGUI_SFQuest_HeatherThomas20_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest20);
 
 local thomasQuest21 = {
-    guid = "Questyno_HeatherThomas21",
+    guid = "HeatherThomas21",
 
     awardsrep = "LaResistenza;300", -- REP REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas21_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas21_Lore" },
     needsitem = "TrapSnare;2", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas21_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas21_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas21_Complete",
+    text = "IGUI_SFQuest_HeatherThomas21_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas21_Title",
+    title = "IGUI_SFQuest_HeatherThomas21_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest21);
 
 local thomasQuest22 = {
-    guid = "Questyno_HeatherThomas22",
+    guid = "HeatherThomas22",
 
     awardsrep = "LaResistenza;280", -- REP REWARD
     awardsitem = "Money;50",        -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas22_Lore" },
+    dailycode = "HeatherThomas",
+    lore = { "IGUI_SFQuest_HeatherThomas22_Lore" },
     needsitem = "PredicateFreshFood#DeadRabbit;3", -- REQUIRE
-    onobtained = "unlockworldevent;Questyno_HeatherThomas;SFQuest_Questyno_HeatherThomas22_Complete",
-    text = "IGUI_SFQuest_Questyno_HeatherThomas22_Text",
+    onobtained = "unlockworldevent;HeatherThomas;SFQuest_HeatherThomas22_Complete",
+    text = "IGUI_SFQuest_HeatherThomas22_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas22_Title",
+    title = "IGUI_SFQuest_HeatherThomas22_Title",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest22);
 
 local thomasQuest23 = {
-    guid = "Questyno_HeatherThomas23",
+    guid = "HeatherThomas23",
 
     awardsrep = "LaResistenza;400", -- REP REWARD
     awardsitem = "Salt;1",         -- MONEY REWARD
     completesound = "levelup",
-    dailycode = "Questyno_HeatherThomas",
+    dailycode = "HeatherThomas",
     objectives = { {
-        guid = "Questyno_HeatherThomas23_A",
-        text = "IGUI_SFQuest_Questyno_HeatherThomas23_A",
+        guid = "HeatherThomas23_A",
+        text = "IGUI_SFQuest_HeatherThomas23_A",
         hidden = false,
         oncompleted = "removeclickevent;EventoHeatherThomas23"
     } },
-    lore = { "IGUI_SFQuest_Questyno_HeatherThomas23_Lore" },
-    text = "IGUI_SFQuest_Questyno_HeatherThomas23_Text",
+    lore = { "IGUI_SFQuest_HeatherThomas23_Lore" },
+    text = "IGUI_SFQuest_HeatherThomas23_Text",
     texture = "media/textures/Item_HeatherThomas.png",
-    title = "IGUI_SFQuest_Questyno_HeatherThomas23_Title",
-    unlocks = "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:Questyno_HeatherThomas23:1:Completed",
+    title = "IGUI_SFQuest_HeatherThomas23_Title",
+    unlocks = "clickevent;11064x10640x0:EventoHeatherThomas23;time:50:anim:loot;updateobjective:HeatherThomas23:1:Completed",
     unlockedsound = "QuestUnlocked"
 }
 table.insert(SFQuest_Database.QuestPool, thomasQuest23);

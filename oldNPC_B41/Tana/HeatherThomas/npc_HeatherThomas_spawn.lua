@@ -2,14 +2,15 @@ require 'SFQuest_Database'
 
 -- Heather Thomas  9315x8624,0
 table.insert(SFQuest_Database.WorldPool, {
-    identity = "Questyno_HeatherThomas",
+    identity = "HeatherThomas",
     square = "9315x8624x0",
-    name = "IGUI_SFQuest_Questyno_HeatherThomas_Name",
+    name = "IGUI_SFQuest_HeatherThomas_Name",
     faction = "LaResistenza",
     picture = "media/textures/Picture_HeatherThomas.png",
 })
 
 SFQuest_Database.MannequinPool["9315x8624x0"] = {
+    identity = "HeatherThomas",
     sprite = "location_shop_mall_01_68",
     direction = "E",
     beard = "Scruffy",

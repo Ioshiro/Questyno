@@ -6,3 +6,4 @@
 -- L'ordine di caricamento PZ: shared/ -> client/ -> server/
 
 require 'NPC/Pyno/index'
+require 'NPC/EzekielFlynn/index'
