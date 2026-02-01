@@ -8,6 +8,7 @@ require "TimedActions/ISBaseTimedAction"
 ---@field character IsoPlayer The character performing the follow action
 ---@field square IsoGridSquare The current square of the clicked player
 ---@field anim string|CharacterActionAnims
+---@field address string
 ---@field animvar1 string
 ---@field animvar2 string
 ---@field prop1 InventoryItem 
@@ -53,7 +54,7 @@ function SFQuest_ClickEventAction:perform()
 end
 
 function SFQuest_ClickEventAction:new(character, square, address, time, anim, prop1, prop2, commands, animvar1, animvar2)
-	local o = ISBaseTimedAction.new(self, character)
+	local o = ISBaseTimedAction.new(self, character) --[[@as SFQuest_ClickEventAction]]
 	o.character = character;
 	o.square = square;
 	o.address = address;

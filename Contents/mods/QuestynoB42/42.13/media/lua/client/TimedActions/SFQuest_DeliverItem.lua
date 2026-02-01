@@ -47,7 +47,7 @@ function SFQuestDeliverItem:perform()
 end
 
 function SFQuestDeliverItem:new(character, square, item, guid, index)
-	local o = ISBaseTimedAction.new(self, character)
+	local o = ISBaseTimedAction.new(self, character) --[[@as SFQuestDeliverItem]]
 	o.character = character;
 	o.square = square;
 	o.item = item;

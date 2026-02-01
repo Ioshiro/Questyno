@@ -33,7 +33,7 @@ function SFQuest_WorldEventCheck:perform()
 end
 
 function SFQuest_WorldEventCheck:new(character, square, worldinfo, dialogueinfo, questid)
-	local o = ISBaseTimedAction.new(self, character)
+	local o = ISBaseTimedAction.new(self, character) --[[@as SFQuest_WorldEventCheck]]
 	setmetatable(o, self)
 	self.__index = self
 	o.maxTime = 0;
