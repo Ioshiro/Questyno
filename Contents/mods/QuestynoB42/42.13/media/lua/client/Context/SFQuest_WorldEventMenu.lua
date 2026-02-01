@@ -1,3 +1,4 @@
+require "SFQuest_Utils"
 local function onInteraction2(worldobjects, playerObj, square, worldinfo, dialogueinfo, questid)
 	if luautils.walkAdj(playerObj, square) then
 		ISTimedActionQueue.add(SFQuest_WorldEventCheck:new(playerObj, square, worldinfo, dialogueinfo, questid));
@@ -17,7 +18,7 @@ local function SFQuest_WorldEventMenu(player, context, worldobjects, test)
 	local npcsFounds = {}
 	for i = x1, x2 do
         for j = y1, y2 do
-            local sqTag = tostring(i).."x"..tostring(j).."x"..tostring(startingZ);
+            local sqTag = SFQuest_Utils.squaretag(i,j,startingZ)
 			if playerObj:getModData().missionProgress.WorldEvent[sqTag] then
 				local square = getCell():getGridSquare(i, j, startingZ);
 				local event = playerObj:getModData().missionProgress.WorldEvent[sqTag];

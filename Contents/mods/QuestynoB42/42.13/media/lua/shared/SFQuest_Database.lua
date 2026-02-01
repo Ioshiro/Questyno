@@ -5,6 +5,27 @@
 
 SFQuest_Database = {};
 
+-- Centralized map: sprite name → mannequin script name
+SFQuest_Database.MannequinScriptMap = {
+    ["location_shop_mall_01_65"] = "FemaleWhite01",
+    ["location_shop_mall_01_66"] = "FemaleWhite02",
+    ["location_shop_mall_01_67"] = "FemaleWhite03",
+    ["location_shop_mall_01_68"] = "MaleWhite01",
+    ["location_shop_mall_01_69"] = "MaleWhite02",
+    ["location_shop_mall_01_70"] = "MaleWhite03",
+    ["location_shop_mall_01_73"] = "FemaleBlack01",
+    ["location_shop_mall_01_74"] = "FemaleBlack02",
+    ["location_shop_mall_01_75"] = "FemaleBlack03",
+    ["location_shop_mall_01_76"] = "MaleBlack01",
+    ["location_shop_mall_01_77"] = "MaleBlack02",
+    ["location_shop_mall_01_78"] = "MaleBlack03",
+}
+
+-- Centralized utility: get mannequin script name from sprite
+SFQuest_Database.getScriptName = function(sprite)
+    return SFQuest_Database.MannequinScriptMap[sprite] or "MaleWhite01"
+end
+
 --This is a list of RGB values used by the UI.
 --Feel free to insert your own colors here to be used by your mod but please refrain from changing existing colors.
 SFQuest_Database.ColorPool = {

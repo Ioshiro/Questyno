@@ -1,12 +1,3 @@
 Tooltip_IT = {
-	Tooltip_MedaglyaBronzo = "+300 punti reputazione",
-	Tooltip_MedaglyaArgento = "+1000 punti reputazione",
-	Tooltip_MedaglyaOro = "+2000 punti reputazione",
-	Tooltip_MedaglyaPlatino = "+5000 punti reputazione",
-	Tooltip_MedaglyaDiamante = "+10000 punti reputazione",
-	Tooltip_item_ChiaveMacchinyno1 = "potenza del motore 360, peso 1170kg, 4 posti",
-	Tooltip_item_ChiaveMacchinyno2 = "potenza del motore 340, peso 1100kg, 4 posti",
-	Tooltip_item_ChiaveMacchinyno3 = "potenza del motore 400, peso 1250kg, 2 posti",
-	Tooltip_item_ChiaveMacchinyno4 = "potenza del motore 380, peso 1150kg, 4 posti",
-	Tooltip_item_Autocertificazione = "Io sottoscritto/a, sopravvissuto/a di chiara fama e comprovata affidabilità morale, <br>attualmente impegnato/a nella missione assegnata dal/dalla Sig./Sig.ra NPC, <br><br>DICHIARO ESPRESSAMENTE <br><br>- di essere già in possesso di tutti gli oggetti e materiali richiesti;<br>- che gli oggetti stessi non sono fisicamente con me solo per cause indipendenti dalla mia volontà (smarrimento temporaneo, furto zombie, prestito non restituito, ecc.); <br>- che mi impegno solennemente a portarli al più presto, appena me ne ricorderò o appena me ne capiteranno di simili tra le mani; <br><br>DICHIARO ALTRESÌ <br><br>- che eventuali ritardi nella consegna saranno certamente imputabili esclusivamente agli zombie; <br>- che nessun NPC, vivo o non-morto, ha diritto di dubitare della mia buona fede e/o delle mie intenzioni future. <br><br>Firmato in calce con timbro ufficiale reperito presso la più vicina Cancelleria della Tana. Data e luogo irrilevanti, perché tanto ormai il calendario non lo segue più nessuno.",
+
 }

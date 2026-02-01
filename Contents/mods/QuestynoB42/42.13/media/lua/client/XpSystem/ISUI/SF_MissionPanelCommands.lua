@@ -1,5 +1,3 @@
-local SFQuest_Utils = require "utils/SFQuest_Utils"
-
 SF_MissionPanel = SF_MissionPanel or ISPanelJoypad:derive("SF_MissionPanel");
 SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
 

@@ -22,30 +22,12 @@
 ]]--
 
 require 'SFQuest_Database'
+require 'SFQuest_Utils'
 
 if isClient() then return end -- This file runs ONLY on server (and singleplayer)
 
 -- Initialize the module
 SFQuestMannequinServer = SFQuestMannequinServer or {}
-
--- Helper function to get mannequin script name from sprite
-SFQuestMannequinServer.getScriptName = function(sprite)
-    local scriptMap = {
-        ["location_shop_mall_01_65"] = "FemaleWhite01",
-        ["location_shop_mall_01_66"] = "FemaleWhite02",
-        ["location_shop_mall_01_67"] = "FemaleWhite03",
-        ["location_shop_mall_01_68"] = "MaleWhite01",
-        ["location_shop_mall_01_69"] = "MaleWhite02",
-        ["location_shop_mall_01_70"] = "MaleWhite03",
-        ["location_shop_mall_01_73"] = "FemaleBlack01",
-        ["location_shop_mall_01_74"] = "FemaleBlack02",
-        ["location_shop_mall_01_75"] = "FemaleBlack03",
-        ["location_shop_mall_01_76"] = "MaleBlack01",
-        ["location_shop_mall_01_77"] = "MaleBlack02",
-        ["location_shop_mall_01_78"] = "MaleBlack03",
-    }
-    return scriptMap[sprite] or "MaleWhite01"
-end
 
 -- Get removed state from ModData (persistence)
 SFQuestMannequinServer.getRemovedState = function()
@@ -62,7 +44,7 @@ end
 -- Mark a mannequin as removed (persistent)
 SFQuestMannequinServer.removeMannequin = function(x, y, z)
     local removedState = SFQuestMannequinServer.getRemovedState()
-    local squaretag = tostring(x) .. "x" .. tostring(y) .. "x" .. tostring(z)
+    local squaretag = SFQuest_Utils.squaretag(x, y, z)
     removedState[squaretag] = true
     ModData.transmit("SFQuest_MannequinRemoved")
 end
@@ -70,18 +52,20 @@ end
 -- Unmark a mannequin as removed (for re-spawning)
 SFQuestMannequinServer.unremoveMannequin = function(x, y, z)
     local removedState = SFQuestMannequinServer.getRemovedState()
-    local squaretag = tostring(x) .. "x" .. tostring(y) .. "x" .. tostring(z)
+    local squaretag = SFQuest_Utils.squaretag(x, y, z)
     removedState[squaretag] = nil
     ModData.transmit("SFQuest_MannequinRemoved")
 end
 
 -- Check if a mannequin already exists on the square
+---@param square IsoGridSquare
+---@return IsoMannequin|nil
 SFQuestMannequinServer.findExistingMannequin = function(square)
     local objects = square:getObjects()
     for i = 0, objects:size() - 1 do
         local object = objects:get(i)
-        local name = object:getObjectName()
-        if name and name == "Mannequin" then
+        if instanceof(object, "IsoMannequin")then
+            ---@cast object IsoMannequin
             return object
         end
     end
@@ -89,9 +73,11 @@ SFQuestMannequinServer.findExistingMannequin = function(square)
 end
 
 -- Main spawner function - called on LoadGridsquare event
+---comment
+---@param square IsoGridSquare
 SFQuestMannequinServer.onLoadGridsquare = function(square)
     local x, y, z = square:getX(), square:getY(), square:getZ()
-    local squaretag = tostring(x) .. "x" .. tostring(y) .. "x" .. tostring(z)
+    local squaretag = SFQuest_Utils.squaretag(x, y, z)
 
     -- Get mannequin data directly from SSOT (SFQuest_Database.MannequinPool)
     local mannequinData = SFQuest_Database.MannequinPool[squaretag]
@@ -138,7 +124,7 @@ SFQuestMannequinServer.onLoadGridsquare = function(square)
     mannequin:setSquare(square)
 
     -- Set script name
-    local scriptName = SFQuestMannequinServer.getScriptName(sprite)
+    local scriptName = SFQuest_Database.getScriptName(sprite)
     mannequin:setMannequinScriptName(scriptName)
 
     -- Set direction

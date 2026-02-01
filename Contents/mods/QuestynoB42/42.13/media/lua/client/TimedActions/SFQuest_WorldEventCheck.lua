@@ -1,6 +1,13 @@
 require "TimedActions/ISBaseTimedAction"
 require "ISUI/ISLayoutManager"
 
+---@class SFQuest_WorldEventCheck : ISBaseTimedAction
+---@field character IsoPlayer The character performing the follow action
+---@field playerNum integer
+---@field square IsoGridSquare The current square of the clicked player
+---@field worldinfo string
+---@field dialogueinfo string
+---@field questid string 
 SFQuest_WorldEventCheck = ISBaseTimedAction:derive("SFQuest_WorldEventCheck")
 
 function SFQuest_WorldEventCheck:isValid()
@@ -26,7 +33,7 @@ function SFQuest_WorldEventCheck:perform()
 end
 
 function SFQuest_WorldEventCheck:new(character, square, worldinfo, dialogueinfo, questid)
-	local o = {}
+	local o = ISBaseTimedAction.new(self, character)
 	setmetatable(o, self)
 	self.__index = self
 	o.maxTime = 0;

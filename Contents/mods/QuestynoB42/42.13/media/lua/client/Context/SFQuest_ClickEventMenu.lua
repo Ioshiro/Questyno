@@ -1,3 +1,4 @@
+require "SFQuest_Utils"
 local function onClickEvent(worldobjects, playerObj, square, address, actiondata, commands)
 	local dataTable = luautils.split(actiondata, ";");
 	local count = 1;
@@ -47,7 +48,7 @@ local function SFQuest_ClickEventMenu(player, context, worldobjects, test)
 	local clickEventsFounds = {}
 	for i = x1, x2 do
         for j = y1, y2 do
-			local sqTag = tostring(i).."x"..tostring(j).."x"..tostring(startingZ);
+			local sqTag = SFQuest_Utils.squaretag(i,j,startingZ)
 			local event = playerObj:getModData().missionProgress.ClickEvent[sqTag];
 			if event then
 				local square = getCell():getGridSquare(i, j, startingZ);

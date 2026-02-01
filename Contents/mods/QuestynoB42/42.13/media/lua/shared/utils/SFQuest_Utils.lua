@@ -1,4 +1,4 @@
-local SFQuest_Utils = {}
+SFQuest_Utils = SFQuest_Utils or {}
 
 function SFQuest_Utils.isPartiallyEaten(item)
     local baseHunger = math.abs(item:getBaseHunger() * 100) + 0.001
@@ -85,5 +85,7 @@ function SFQuest_Utils.getItemTag(tagName)
     return ItemTag.get(ResourceLocation.of(tagName))
 end
 
-
-return SFQuest_Utils
+-- Centralized utility: build a coordinate tag string from x, y, z
+function SFQuest_Utils.squaretag(x, y, z)
+    return tostring(x) .. "x" .. tostring(y) .. "x" .. tostring(z)
+end

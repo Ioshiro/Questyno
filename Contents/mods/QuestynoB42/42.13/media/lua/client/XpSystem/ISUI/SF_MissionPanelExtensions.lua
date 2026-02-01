@@ -950,10 +950,10 @@ function SF_MissionPanel:completeQuest(player, guid)
 			SF_MissionPanel.instance:triggerUpdate()
 		end
 		local deliveries = prog.Delivery
-		if deliveries and #deliveries > 0 then
-			for d=1,#deliveries do
-				if deliveries[d] == guid then
-					deliveries[d] = nil;
+		if deliveries then
+			for sqTag, deliveryGuid in pairs(deliveries) do
+				if deliveryGuid == guid then
+					deliveries[sqTag] = nil
 					break
 				end
 			end

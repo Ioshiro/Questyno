@@ -1,189 +1,189 @@
-ISInventoryMenuElements = ISInventoryMenuElements or {};
+-- ISInventoryMenuElements = ISInventoryMenuElements or {};
 
-function ISInventoryMenuElements.ContextAutocertificazione()
-    local self 					= ISMenuElement.new();
-    self.invMenu			    = ISContextManager.getInstance().getInventoryMenu();
+-- function ISInventoryMenuElements.ContextAutocertificazione()
+--     local self 					= ISMenuElement.new();
+--     self.invMenu			    = ISContextManager.getInstance().getInventoryMenu();
 
-    function self.init()
-    end
+--     function self.init()
+--     end
 
-    function self.createMenu( _item )
-        if _item:getType() == "Autocertificazione" then
-            if _item:getContainer() ~= self.invMenu.inventory then
-                return;
-			end
+--     function self.createMenu( _item )
+--         if _item:getType() == "Autocertificazione" then
+--             if _item:getContainer() ~= self.invMenu.inventory then
+--                 return;
+-- 			end
 
-            local player = getPlayer()
-            local currentTasks = player:getModData().missionProgress.Category2;
-			local option = self.invMenu.context:addOption(getText("ContextMenu_Autocertifica"), player, nil, nil, nil);
+--             local player = getPlayer()
+--             local currentTasks = player:getModData().missionProgress.Category2;
+-- 			local option = self.invMenu.context:addOption(getText("ContextMenu_Autocertifica"), player, nil, nil, nil);
 
-            if not currentTasks or #currentTasks < 1 then
-                option.notAvailable = true
-                return;
-            end
+--             if not currentTasks or #currentTasks < 1 then
+--                 option.notAvailable = true
+--                 return;
+--             end
 
-            local subMenuQuests = ISContextMenu:getNew(self.invMenu.context);
-            self.invMenu.context:addSubMenu(option, subMenuQuests);
-            for i=1,#currentTasks do
-                local task = currentTasks[i];
-                subMenuQuests:addOption(getText(task.text), player, self.completeQuest, task);
-            end
-        end
-    end
+--             local subMenuQuests = ISContextMenu:getNew(self.invMenu.context);
+--             self.invMenu.context:addSubMenu(option, subMenuQuests);
+--             for i=1,#currentTasks do
+--                 local task = currentTasks[i];
+--                 subMenuQuests:addOption(getText(task.text), player, self.completeQuest, task);
+--             end
+--         end
+--     end
 
-    function self.completeQuest( _p, _q)
-        local cert = self.invMenu.inventory:getItemFromType("LR.Autocertificazione")
-		if cert == nil then return end
-        if _q == nil then return end
-        self.cleanQuestEvents(_p, _q)
-        SF_MissionPanel:completeQuest(_p, _q.guid)
-        if _q.awardstask then -- in caso sia una missione da 2 parti (_A)
-            local nextTask = SF_MissionPanel:getActiveQuest(_q.awardstask);
-            if nextTask == nil then print("no task found for " .. _q.guid .. " -> " .. _q.awardstask); return end
-            self.cleanQuestEvents(_p, nextTask)
-            SF_MissionPanel:completeQuest(_p, nextTask.guid);
-            if nextTask.awardstask then -- in caso sia una missione da 3 parti (_B)
-                local lastTask = SF_MissionPanel:getActiveQuest(nextTask.awardstask);
-                if lastTask == nil then print("no task found for " .. nextTask.guid .. " -> " .. nextTask.awardstask); return end
-                self.cleanQuestEvents(_p, lastTask)
-                SF_MissionPanel:completeQuest(_p, lastTask.guid);
-            end
-        end
-        _p:getInventory():Remove(cert)
-	end
+--     function self.completeQuest( _p, _q)
+--         local cert = self.invMenu.inventory:getItemFromType("LR.Autocertificazione")
+-- 		if cert == nil then return end
+--         if _q == nil then return end
+--         self.cleanQuestEvents(_p, _q)
+--         SF_MissionPanel:completeQuest(_p, _q.guid)
+--         if _q.awardstask then -- in caso sia una missione da 2 parti (_A)
+--             local nextTask = SF_MissionPanel:getActiveQuest(_q.awardstask);
+--             if nextTask == nil then print("no task found for " .. _q.guid .. " -> " .. _q.awardstask); return end
+--             self.cleanQuestEvents(_p, nextTask)
+--             SF_MissionPanel:completeQuest(_p, nextTask.guid);
+--             if nextTask.awardstask then -- in caso sia una missione da 3 parti (_B)
+--                 local lastTask = SF_MissionPanel:getActiveQuest(nextTask.awardstask);
+--                 if lastTask == nil then print("no task found for " .. nextTask.guid .. " -> " .. nextTask.awardstask); return end
+--                 self.cleanQuestEvents(_p, lastTask)
+--                 SF_MissionPanel:completeQuest(_p, lastTask.guid);
+--             end
+--         end
+--         _p:getInventory():Remove(cert)
+-- 	end
 
-    function self.cleanQuestEvents(player, task)
-        local prog = player:getModData().missionProgress
-        local idx = prog.Indexes
+--     function self.cleanQuestEvents(player, task)
+--         local prog = player:getModData().missionProgress
+--         local idx = prog.Indexes
 
-        -- Helper: Remove ClickEvent by address using O(1) lookup with fallback
-        local function removeClickEventByAddress(address)
-            if not prog.ClickEvent then return end
-            -- O(1) lookup first
-            if idx and idx.ClickEventByAddress and idx.ClickEventByAddress[address] then
-                local entry = idx.ClickEventByAddress[address]
-                if entry.event and entry.event.marker then
-                    entry.event.marker:remove()
-                end
-                prog.ClickEvent[entry.squaretag] = nil
-                idx.ClickEventByAddress[address] = nil
-                return
-            end
-            -- Fallback: O(n) loop for backward compatibility
-            for k2, event in pairs(prog.ClickEvent) do
-                if event.address and event.address == address then
-                    if event.marker then event.marker:remove() end
-                    prog.ClickEvent[k2] = nil
-                    break
-                end
-            end
-        end
+--         -- Helper: Remove ClickEvent by address using O(1) lookup with fallback
+--         local function removeClickEventByAddress(address)
+--             if not prog.ClickEvent then return end
+--             -- O(1) lookup first
+--             if idx and idx.ClickEventByAddress and idx.ClickEventByAddress[address] then
+--                 local entry = idx.ClickEventByAddress[address]
+--                 if entry.event and entry.event.marker then
+--                     entry.event.marker:remove()
+--                 end
+--                 prog.ClickEvent[entry.squaretag] = nil
+--                 idx.ClickEventByAddress[address] = nil
+--                 return
+--             end
+--             -- Fallback: O(n) loop for backward compatibility
+--             for k2, event in pairs(prog.ClickEvent) do
+--                 if event.address and event.address == address then
+--                     if event.marker then event.marker:remove() end
+--                     prog.ClickEvent[k2] = nil
+--                     break
+--                 end
+--             end
+--         end
 
-        -- Helper: Remove WorldEvent by dialoguecode using O(1) lookup with fallback
-        local function removeWorldEventByDialogue(dialoguecode)
-            if not prog.WorldEvent then return end
-            -- O(1) lookup first
-            if idx and idx.WorldEventByDialogue and idx.WorldEventByDialogue[dialoguecode] then
-                local entry = idx.WorldEventByDialogue[dialoguecode]
-                if entry.event and entry.event.marker then
-                    entry.event.marker:remove()
-                end
-                prog.WorldEvent[entry.squaretag] = nil
-                idx.WorldEventByDialogue[dialoguecode] = nil
-                return
-            end
-            -- Fallback: O(n) loop for backward compatibility
-            for k, v in pairs(prog.WorldEvent) do
-                if v.dialoguecode == dialoguecode then
-                    if prog.WorldEvent[k].marker then
-                        prog.WorldEvent[k].marker:remove()
-                    end
-                    prog.WorldEvent[k] = nil
-                    break
-                end
-            end
-        end
+--         -- Helper: Remove WorldEvent by dialoguecode using O(1) lookup with fallback
+--         local function removeWorldEventByDialogue(dialoguecode)
+--             if not prog.WorldEvent then return end
+--             -- O(1) lookup first
+--             if idx and idx.WorldEventByDialogue and idx.WorldEventByDialogue[dialoguecode] then
+--                 local entry = idx.WorldEventByDialogue[dialoguecode]
+--                 if entry.event and entry.event.marker then
+--                     entry.event.marker:remove()
+--                 end
+--                 prog.WorldEvent[entry.squaretag] = nil
+--                 idx.WorldEventByDialogue[dialoguecode] = nil
+--                 return
+--             end
+--             -- Fallback: O(n) loop for backward compatibility
+--             for k, v in pairs(prog.WorldEvent) do
+--                 if v.dialoguecode == dialoguecode then
+--                     if prog.WorldEvent[k].marker then
+--                         prog.WorldEvent[k].marker:remove()
+--                     end
+--                     prog.WorldEvent[k] = nil
+--                     break
+--                 end
+--             end
+--         end
 
-        -- Helper: Remove ActionEvent by questGuid using O(1) lookup with fallback
-        local function removeActionEventByQuestGuid(questGuid)
-            if not prog.ActionEvent or #prog.ActionEvent == 0 then return end
-            -- O(1) lookup first
-            if idx and idx.ActionEventByQuestGuid and idx.ActionEventByQuestGuid[questGuid] then
-                local event = idx.ActionEventByQuestGuid[questGuid]
-                -- Find index in array and remove
-                for a = #prog.ActionEvent, 1, -1 do
-                    if prog.ActionEvent[a] == event then
-                        table.remove(prog.ActionEvent, a)
-                        break
-                    end
-                end
-                idx.ActionEventByQuestGuid[questGuid] = nil
-                return
-            end
-            -- Fallback: O(n) loop for backward compatibility
-            for a = #prog.ActionEvent, 1, -1 do
-                local commands = luautils.split(prog.ActionEvent[a].commands, ";")
-                if prog.ActionEvent[a].condition == "killzombies" and commands[2] == questGuid then
-                    table.remove(prog.ActionEvent, a)
-                    break
-                end
-            end
-        end
+--         -- Helper: Remove ActionEvent by questGuid using O(1) lookup with fallback
+--         local function removeActionEventByQuestGuid(questGuid)
+--             if not prog.ActionEvent or #prog.ActionEvent == 0 then return end
+--             -- O(1) lookup first
+--             if idx and idx.ActionEventByQuestGuid and idx.ActionEventByQuestGuid[questGuid] then
+--                 local event = idx.ActionEventByQuestGuid[questGuid]
+--                 -- Find index in array and remove
+--                 for a = #prog.ActionEvent, 1, -1 do
+--                     if prog.ActionEvent[a] == event then
+--                         table.remove(prog.ActionEvent, a)
+--                         break
+--                     end
+--                 end
+--                 idx.ActionEventByQuestGuid[questGuid] = nil
+--                 return
+--             end
+--             -- Fallback: O(n) loop for backward compatibility
+--             for a = #prog.ActionEvent, 1, -1 do
+--                 local commands = luautils.split(prog.ActionEvent[a].commands, ";")
+--                 if prog.ActionEvent[a].condition == "killzombies" and commands[2] == questGuid then
+--                     table.remove(prog.ActionEvent, a)
+--                     break
+--                 end
+--             end
+--         end
 
-        -- rimozione di eventuali clickevent degli obiettivi (se presenti)
-        if task.objectives and #task.objectives > 0 then
-            for k = 1, #task.objectives do
-                if task.objectives[k].oncompleted then
-                    local oncompletedTable = luautils.split(task.objectives[k].oncompleted, ";")
-                    for j = 1, #oncompletedTable do
-                        if oncompletedTable[j] == "removeclickevent" then
-                            removeClickEventByAddress(oncompletedTable[j + 1])
-                        elseif oncompletedTable[j] == "unlockworldevent" then
-                            removeWorldEventByDialogue(oncompletedTable[j + 2])
-                        elseif oncompletedTable[j] == "clickevent" then
-                            removeClickEventByAddress(oncompletedTable[j + 2])
-                        end
-                    end
-                end
-                if task.objectives[k].onobtained then
-                    local onObtainedTable = luautils.split(task.objectives[k].onobtained, ";")
-                    if #onObtainedTable > 0 then
-                        for j = 1, #onObtainedTable do
-                            if onObtainedTable[j] == "unlockworldevent" then
-                                removeWorldEventByDialogue(onObtainedTable[j + 2])
-                            elseif onObtainedTable[j] == "clickevent" then
-                                removeClickEventByAddress(onObtainedTable[j + 2])
-                            end
-                        end
-                    end
-                end
-            end
-        end
-        if task.unlocks then
-            local convertedcondition = task.unlocks:gsub(":", ";")
-            local unlocksTable = luautils.split(convertedcondition, ";")
-            if #unlocksTable > 0 then
-                for j = 1, #unlocksTable do
-                    if unlocksTable[j] == "killzombies" then
-                        removeActionEventByQuestGuid(task.guid)
-                    elseif unlocksTable[j] == "unlockworldevent" then
-                        removeWorldEventByDialogue(unlocksTable[j + 2])
-                    elseif unlocksTable[j] == "clickevent" then
-                        removeClickEventByAddress(unlocksTable[j + 2])
-                    end
-                end
-            end
-        end
-        if task.onobtained then
-            local onObtainedTable = luautils.split(task.onobtained, ";")
-            if #onObtainedTable > 0 then
-                for j = 1, #onObtainedTable do
-                    if onObtainedTable[j] == "unlockworldevent" then
-                        removeWorldEventByDialogue(onObtainedTable[j + 2])
-                    end
-                end
-            end
-        end
-    end
-	return self;
-end
+--         -- rimozione di eventuali clickevent degli obiettivi (se presenti)
+--         if task.objectives and #task.objectives > 0 then
+--             for k = 1, #task.objectives do
+--                 if task.objectives[k].oncompleted then
+--                     local oncompletedTable = luautils.split(task.objectives[k].oncompleted, ";")
+--                     for j = 1, #oncompletedTable do
+--                         if oncompletedTable[j] == "removeclickevent" then
+--                             removeClickEventByAddress(oncompletedTable[j + 1])
+--                         elseif oncompletedTable[j] == "unlockworldevent" then
+--                             removeWorldEventByDialogue(oncompletedTable[j + 2])
+--                         elseif oncompletedTable[j] == "clickevent" then
+--                             removeClickEventByAddress(oncompletedTable[j + 2])
+--                         end
+--                     end
+--                 end
+--                 if task.objectives[k].onobtained then
+--                     local onObtainedTable = luautils.split(task.objectives[k].onobtained, ";")
+--                     if #onObtainedTable > 0 then
+--                         for j = 1, #onObtainedTable do
+--                             if onObtainedTable[j] == "unlockworldevent" then
+--                                 removeWorldEventByDialogue(onObtainedTable[j + 2])
+--                             elseif onObtainedTable[j] == "clickevent" then
+--                                 removeClickEventByAddress(onObtainedTable[j + 2])
+--                             end
+--                         end
+--                     end
+--                 end
+--             end
+--         end
+--         if task.unlocks then
+--             local convertedcondition = task.unlocks:gsub(":", ";")
+--             local unlocksTable = luautils.split(convertedcondition, ";")
+--             if #unlocksTable > 0 then
+--                 for j = 1, #unlocksTable do
+--                     if unlocksTable[j] == "killzombies" then
+--                         removeActionEventByQuestGuid(task.guid)
+--                     elseif unlocksTable[j] == "unlockworldevent" then
+--                         removeWorldEventByDialogue(unlocksTable[j + 2])
+--                     elseif unlocksTable[j] == "clickevent" then
+--                         removeClickEventByAddress(unlocksTable[j + 2])
+--                     end
+--                 end
+--             end
+--         end
+--         if task.onobtained then
+--             local onObtainedTable = luautils.split(task.onobtained, ";")
+--             if #onObtainedTable > 0 then
+--                 for j = 1, #onObtainedTable do
+--                     if onObtainedTable[j] == "unlockworldevent" then
+--                         removeWorldEventByDialogue(onObtainedTable[j + 2])
+--                     end
+--                 end
+--             end
+--         end
+--     end
+-- 	return self;
+-- end

@@ -1,5 +1,6 @@
 -- B42 OK
 require 'SFQuest_Database'
+require 'SFQuest_Utils'
 
 -- Monkey patch per impedire la distruzione con sledgehammer dei manichini nel MannequinPool
 local original_canDestroy = ISDestroyCursor.canDestroy
@@ -10,7 +11,7 @@ function ISDestroyCursor:canDestroy(object)
         if props:has("CustomName") and props:get("CustomName") == "Mannequin" then
             local square = object:getSquare()
             local x, y, z = square:getX(), square:getY(), square:getZ()
-            local squaretag = tostring(x) .. "x" .. tostring(y) .. "x" .. tostring(z)
+            local squaretag = SFQuest_Utils.squaretag(x, y, z)
             if SFQuest_Database.MannequinPool[squaretag] then
                 return false
             end

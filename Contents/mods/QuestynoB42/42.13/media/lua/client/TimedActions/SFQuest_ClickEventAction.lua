@@ -4,6 +4,15 @@
 
 require "TimedActions/ISBaseTimedAction"
 
+---@class SFQuest_ClickEventAction : ISBaseTimedAction
+---@field character IsoPlayer The character performing the follow action
+---@field square IsoGridSquare The current square of the clicked player
+---@field anim string|CharacterActionAnims
+---@field animvar1 string
+---@field animvar2 string
+---@field prop1 InventoryItem 
+---@field prop2 InventoryItem
+---@field commands string
 SFQuest_ClickEventAction = ISBaseTimedAction:derive("SFQuest_ClickEventAction");
 
 function SFQuest_ClickEventAction:isValid()

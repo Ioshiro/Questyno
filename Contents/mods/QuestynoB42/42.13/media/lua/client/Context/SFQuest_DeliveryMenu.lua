@@ -1,3 +1,4 @@
+require "SFQuest_Utils"
 local onDelivery = function(worldobjects, playerObj, square, item, guid, index)
 	if luautils.walkAdj(playerObj, square) then
 		ISTimedActionQueue.add(SFQuestDeliverItem:new(playerObj, square, item, guid, index));
@@ -18,14 +19,15 @@ SFQuest_DeliveryMenu = function(player, context, worldobjects, test)
 	end
 
 	local x,y,z = tostring(square:getX()), tostring(square:getY()), tostring(square:getZ());
-	local sqTag = x .. "x" .. y .. "x" .. z;
+	local sqTag = SFQuest_Utils.squaretag(x,y,z)
 	--print("Clicked square was " .. sqTag);
 	if playerObj:getModData().missionProgress.Delivery[sqTag] then
 		local guid = playerObj:getModData().missionProgress.Delivery[sqTag];
 		local task = SF_MissionPanel.instance:getActiveQuest(guid);
+		if not task or not task.objectives then return end
 		local keepMenu = false;
 		for o=1,#task.objectives do
-			obj = task.objectives[o];
+			local obj = task.objectives[o];
 			if obj.needsitem and obj.status == "Obtained" then
 				keepMenu = true;
 			end
@@ -35,7 +37,7 @@ SFQuest_DeliveryMenu = function(player, context, worldobjects, test)
 		local subMenu = ISContextMenu:getNew(context);
 		context:addSubMenu(deliveryOption, subMenu)
 		for o=1,#task.objectives do
-			obj = task.objectives[o];
+			local obj = task.objectives[o];
 			if obj.needsitem and obj.status == "Obtained" then
 				local itemName = getItemNameFromFullType(obj.needsitem);
 				local item;

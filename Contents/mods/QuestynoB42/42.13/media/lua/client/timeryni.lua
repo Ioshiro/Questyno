@@ -15,4 +15,4 @@ require 'SFQuest_Database'
 table.insert(SFQuest_Database.TimerPool, {guid = "DucksQuestTimerExample", command = "unlockQuest", timermin = 1, timermax = 2, sound = "doublebeep"});
 table.insert(SFQuest_Database.TimerPool, {guid = "PondStalker_BanditsInit", commands = "randomcodedworldfrompool;PondStalker_Bandits;ThePondStalker;Bandits", timermin = 0.15, timermax = 0.15});
 ]]--
-table.insert(SFQuest_Database.TimerPool, {guid = "Questyno_MoneyInit", commands = "randomcodedworldfrompool;Questyno_Money;Questyno;Money", timermin = 0.15, timermax = 0.15});
+-- table.insert(SFQuest_Database.TimerPool, {guid = "Questyno_MoneyInit", commands = "randomcodedworldfrompool;Questyno_Money;Questyno;Money", timermin = 0.15, timermax = 0.15});

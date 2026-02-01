@@ -4,6 +4,12 @@
 
 require "TimedActions/ISBaseTimedAction"
 
+---@class SFQuestDeliverItem : ISBaseTimedAction
+---@field character IsoPlayer The character performing the follow action
+---@field square IsoGridSquare The current square of the clicked player
+---@field guid string
+---@field index string
+---@field item InventoryItem 
 SFQuestDeliverItem = ISBaseTimedAction:derive("SFQuestDeliverItem");
 
 function SFQuestDeliverItem:isValid()
@@ -43,7 +49,6 @@ end
 function SFQuestDeliverItem:new(character, square, item, guid, index)
 	local o = ISBaseTimedAction.new(self, character)
 	o.character = character;
-	o.body = body;
 	o.square = square;
 	o.item = item;
 	o.guid = guid;

@@ -43,10 +43,4 @@ QuestynoTags.BOTTIGLIA_PLASTICA = ItemTag.register("questyno:bottiglia_plastica"
 QuestynoTags.ASCIUGAMANO = ItemTag.register("questyno:asciugamano")
 QuestynoTags.MANNEQUIN = ItemTag.register("questyno:mannequin")
 
--- TAD (The Art of Dance) tags - mantenuti per compatibilita
-TAD = TAD or {}
-TAD.TAG_DanceMag  = ItemTag.register("tad:dancemag")
-TAD.TAG_DanceCard = ItemTag.register("tad:dancecard")
-TAD.TAG_CardGiver = ItemTag.register("tad:cardgiver")
-
 print("[Questyno] ItemTags registrati con successo")
