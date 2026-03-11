@@ -1,0 +1,13 @@
+{
+    "ContextMenu_WorldEvent": "Interact with NPC",
+    "ContextMenu_ClickEvent": "Interact with Quest",
+    "ContextMenu_WorldEvent_TalkTo": "Talk with %1",
+    "ContextMenu_InvestigateCorpse": "Inspect container (quest)",
+    "ContextMenu_TakeReputation": "Redeem Reputation",
+    "ContextMenu_ChiaveMacchinyno": "Redeem vehicle",
+    "ContextMenu_ChiaveMacchinyno_ToolTip": "Redeem vehicle in perfect condition and with 100 quality engine!",
+    "ContextMenu_Autocertifica": "Complete quest",
+    "ContextMenu_HideItem": "Hide",
+    "ContextMenu_EnableNPC": "Enable NPC",
+    "ContextMenu_DisableNPC": "Disable NPC"
+}
