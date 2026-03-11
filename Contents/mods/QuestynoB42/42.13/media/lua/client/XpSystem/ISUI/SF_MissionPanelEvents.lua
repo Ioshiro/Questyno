@@ -44,7 +44,7 @@ function SF_MissionPanel.Events.OnZombieDead(zombie)
                     local commandTable = luautils.split(eventData.commands, ";")
                     local questName = commandTable[3]:gsub("^SFQuest_", ""):gsub("_Complete$", "")
                     questName = getText("IGUI_SFQuest_"..questName.."_Text")
-                    player:Say(getText("IGUI_SFQuest_Questyno_ZombieCompleted", eventData.goal, questName), 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+                    HaloTextHelper.addGoodText(player, getText("IGUI_SFQuest_Questyno_ZombieCompleted", eventData.goal, questName))
                     SF_MissionPanel.instance:readCommandTable(commandTable)
                     -- Update index before removing from array
                     if prog.Indexes and prog.Indexes.ActionEventByQuestGuid and eventData.questGuid then

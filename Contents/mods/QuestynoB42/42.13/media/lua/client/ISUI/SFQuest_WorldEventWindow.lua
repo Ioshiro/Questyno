@@ -96,7 +96,19 @@ function SFQuest_WorldEventWindow:createChildren()
 		local index = tonumber(self.commandparam2); 
 		local neededStuffTaken = true;
 		if self.quest.objectives and self.quest.objectives[index] and self.quest.objectives[index].needsitem then
-			neededStuffTaken = SF_MissionPanel.instance:takeNeededItem(self.quest.objectives[index].needsitem);
+			if isClient() then
+				-- MP: check quantity client-side (read-only), delegate removal to server
+				local hasEnough = SF_MissionPanel.instance:checkItemQuantity(self.quest.objectives[index].needsitem)
+				if hasEnough then
+					local needsTable = luautils.split(self.quest.objectives[index].needsitem, ";")
+					sendClientCommand(self.character, 'SFQuest', 'removeItem',
+						{item = needsTable[1], quantity = needsTable[2], predicateValue = needsTable[3],
+						 questName = self.quest.title})
+				end
+				neededStuffTaken = hasEnough
+			else
+				neededStuffTaken = SF_MissionPanel.instance:takeNeededItem(self.quest.objectives[index].needsitem);
+			end
 		end
 		if neededStuffTaken then
 			SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square);
@@ -138,7 +150,19 @@ function SFQuest_WorldEventWindow:onOptionMouseDown(button, x, y)
 		end
 		local neededStuffTaken = true;
 		if self.quest.needsitem then
-			neededStuffTaken = SF_MissionPanel.instance:takeNeededItem(self.quest.needsitem);
+			if isClient() then
+				-- MP: check quantity client-side (read-only), delegate removal to server
+				local hasEnough = SF_MissionPanel.instance:checkItemQuantity(self.quest.needsitem)
+				if hasEnough then
+					local needsTable = luautils.split(self.quest.needsitem, ";")
+					sendClientCommand(self.character, 'SFQuest', 'removeItem',
+						{item = needsTable[1], quantity = needsTable[2], predicateValue = needsTable[3],
+						 questName = self.quest.title})
+				end
+				neededStuffTaken = hasEnough
+			else
+				neededStuffTaken = SF_MissionPanel.instance:takeNeededItem(self.quest.needsitem);
+			end
 		end
 		if neededStuffTaken then
 			SF_MissionPanel.instance:removeWorldEvent(self.worldinfo.square);
@@ -282,7 +306,7 @@ function SFQuest_WorldEventWindow:new(x, y, character, square, worldinfo, dialog
 			local x,y,z = tostring(square:getX()), tostring(square:getY()), tostring(square:getZ());
 			local sqTag = x .. "x" .. y .. "x" .. z;
 			SF_MissionPanel.instance:removeWorldEvent(sqTag);
-			character:Say("This quest was already completed.");
+			HaloTextHelper.addBadText(character, "This quest was already completed.")
 			o:removeFromUIManager();
 			o:close();
 			SF_MissionPanel.instance.DailyEventRerollExpand()

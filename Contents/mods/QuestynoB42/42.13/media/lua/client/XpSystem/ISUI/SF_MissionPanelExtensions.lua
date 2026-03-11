@@ -844,11 +844,21 @@ function SF_MissionPanel:completeQuest(player, guid)
 						if rewardTable[count + 1] then
 							quantity = tonumber(rewardTable[count + 1]);
 						end
-						player:getInventory():AddItems(rewardTable[1], quantity);
+						if isClient() then
+							sendClientCommand(player, 'SFQuest', 'addItem',
+								{itemType = rewardTable[1], quantity = quantity})
+						else
+							player:getInventory():AddItems(rewardTable[1], quantity);
+						end
 						count = 3;
 						while rewardTable[count] do
 							quantity = tonumber(rewardTable[count + 1]);
-							player:getInventory():AddItems(rewardTable[count], quantity);
+							if isClient() then
+								sendClientCommand(player, 'SFQuest', 'addItem',
+									{itemType = rewardTable[count], quantity = quantity})
+							else
+								player:getInventory():AddItems(rewardTable[count], quantity);
+							end
 							count = count + 2;
 						end
 					end
@@ -1172,6 +1182,10 @@ end
 
 -- PredicateFullDrainable#Base.PropaneTank;2
 function SF_MissionPanel:takeNeededItem(neededitem)
+    if isClient() then
+        print("[takeNeededItem] WARNING: called on client in MP, skipping")
+        return false
+    end
     local player = self.player or getPlayer();
     local needsTable = luautils.split(neededitem, ";"); -- Esempio: "TagPredicateFreshFood#Pot;1;4"
     local itemscript = needsTable[1];

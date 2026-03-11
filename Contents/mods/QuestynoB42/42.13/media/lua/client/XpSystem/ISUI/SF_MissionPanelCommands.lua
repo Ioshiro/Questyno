@@ -63,8 +63,16 @@ local function delayAddItem()
 end
 
 function SF_MissionPanel.Commands.additem(itemType, quantity)
-	local inv = getPlayer():getInventory();
-	local items = inv:AddItems(itemType, quantity);
+    if isClient() then
+        -- MP: request server to add items
+        sendClientCommand(getPlayer(), 'SFQuest', 'addItem',
+            {itemType = itemType, quantity = quantity})
+        Events.OnTick.Add(delayAddItem)
+        return
+    end
+    -- SP: add directly
+    local inv = getPlayer():getInventory();
+    local items = inv:AddItems(itemType, quantity);
     if items then
         for i=0, items:size()-1 do
             local item = items:get(i);
@@ -89,16 +97,24 @@ end
 -- @message IGUI_SFQuest_Questyno_ItemRemoved "Removed {quantity} {itemName} for quest {questName}."
 -- @message IGUI_SFQuest_Questyno_ItemRemoveFailed "Failed to remove item for quest {questName}."
 function SF_MissionPanel.Commands.removeitem(item, quantity, questName)
+    if isClient() then
+        -- MP: request server to remove items (server sends HaloText feedback)
+        sendClientCommand(getPlayer(), 'SFQuest', 'removeItem',
+            {item = item, quantity = quantity, questName = questName})
+        return
+    end
+    -- SP: remove directly via takeNeededItem
+    local player = getPlayer()
     local success = SF_MissionPanel.instance:takeNeededItem(item .. ";" .. quantity)
 
     if success then
         local newString = item:gsub("Tag.-#", ""):gsub("Predicate.-#", "")
-        local itemName =  getItemText(newString)
+        local itemName = getItemText(newString)
         local message = getText("IGUI_SFQuest_Questyno_ItemRemoved", quantity, itemName, getText(questName))
-        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+        HaloTextHelper.addGoodText(player, message)
     else
         local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(questName))
-        getPlayer():Say(message, 1.000, 0.000, 0.000, UIFont.Small, 0, "default")
+        HaloTextHelper.addBadText(player, message)
     end
 end
 

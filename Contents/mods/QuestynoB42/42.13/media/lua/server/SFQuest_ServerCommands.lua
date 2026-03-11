@@ -119,6 +119,154 @@ function Commands.saveHistory(player, args)
     end
 end
 
+-- B42 server-side inventory operations (called via sendClientCommand from client)
+
+function Commands.addItem(player, args)
+    if not args or not args.itemType or not args.quantity then return end
+    local inv = player:getInventory()
+    local items = inv:AddItems(args.itemType, tonumber(args.quantity))
+    if items then
+        for i = 0, items:size() - 1 do
+            items:get(i):setFavorite(true)
+        end
+        sendAddItemsToContainer(inv, items)
+    end
+end
+
+function Commands.removeItem(player, args)
+    if not args or not args.item or not args.quantity then return end
+    local itemSpec = args.item
+    local quantity = tonumber(args.quantity)
+    local inv = player:getInventory()
+
+    -- Set predicate value for eval-arg predicates
+    SFQuest_Utils.predicateValue = tonumber(args.predicateValue) or 0
+
+    -- Quantity check (prevent partial removal - getSome*Recurse returns partial results)
+    local needsTable = luautils.split(itemSpec .. ";" .. quantity, ";")
+    local itemscript = needsTable[1]
+    local carrying = 0
+
+    if luautils.stringStarts(itemscript, "Tag") then
+        local tag = SFQuest_Utils.getItemTag(luautils.split(itemscript, "#")[2])
+        if luautils.stringStarts(itemscript, "Tag#") then
+            carrying = inv:getCountTagRecurse(tag)
+        elseif luautils.stringStarts(itemscript, "TagPredicateBigFish#") then
+            carrying = inv:getCountTagEvalRecurse(tag, SFQuest_Utils.predicateBigFish)
+        elseif luautils.stringStarts(itemscript, "TagPredicateCondition#") then
+            carrying = inv:getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFreshFood#") then
+            carrying = inv:getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFreshFood)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFullDrainable#") then
+            carrying = inv:getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFullDrainable)
+        elseif luautils.stringStarts(itemscript, "TagPredicateDrainable#") then
+            carrying = inv:getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodWeight#") then
+            carrying = inv:getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodHunger#") then
+            carrying = inv:getCountTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodCooked#") then
+            carrying = inv:getCountTagEvalRecurse(tag, SFQuest_Utils.predicateFoodCooked)
+        end
+    elseif luautils.stringStarts(itemscript, "Predicate") then
+        local typeScript = luautils.split(itemscript, "#")[2]
+        if luautils.stringStarts(itemscript, "PredicateBigFish#") then
+            carrying = inv:getCountTypeEvalRecurse(typeScript, SFQuest_Utils.predicateBigFish)
+        elseif luautils.stringStarts(itemscript, "PredicateCondition#") then
+            carrying = inv:getCountTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "PredicateFreshFood#") then
+            carrying = inv:getCountTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFreshFood)
+        elseif luautils.stringStarts(itemscript, "PredicateFullDrainable#") then
+            carrying = inv:getCountTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFullDrainable)
+        elseif luautils.stringStarts(itemscript, "PredicateDrainable#") then
+            carrying = inv:getCountTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodWeight#") then
+            carrying = inv:getCountTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodHunger#") then
+            carrying = inv:getCountTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodCooked#") then
+            carrying = inv:getCountTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFoodCooked)
+        end
+    else
+        carrying = inv:getItemCountRecurse(itemscript)
+    end
+
+    if carrying < quantity then
+        if args.questName then
+            local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(args.questName))
+            HaloTextHelper.addBadText(player, message)
+        end
+        return
+    end
+
+    -- Actual removal (quantity check passed)
+    local items
+
+    if luautils.stringStarts(itemscript, "Tag") then
+        local tag = SFQuest_Utils.getItemTag(luautils.split(itemscript, "#")[2])
+        if luautils.stringStarts(itemscript, "Tag#") then
+            items = inv:getSomeTagRecurse(tag, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateBigFish#") then
+            items = inv:getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateBigFish, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateCondition#") then
+            items = inv:getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFreshFood#") then
+            items = inv:getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFreshFood, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFullDrainable#") then
+            items = inv:getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFullDrainable, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateDrainable#") then
+            items = inv:getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodWeight#") then
+            items = inv:getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodHunger#") then
+            items = inv:getSomeTagEvalArgRecurse(tag, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "TagPredicateFoodCooked#") then
+            items = inv:getSomeTagEvalRecurse(tag, SFQuest_Utils.predicateFoodCooked, quantity)
+        end
+    elseif luautils.stringStarts(itemscript, "Predicate") then
+        local typeScript = luautils.split(itemscript, "#")[2]
+        if luautils.stringStarts(itemscript, "PredicateBigFish#") then
+            items = inv:getSomeTypeEvalRecurse(typeScript, SFQuest_Utils.predicateBigFish, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateCondition#") then
+            items = inv:getSomeTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateCondition, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateFreshFood#") then
+            items = inv:getSomeTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFreshFood, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateFullDrainable#") then
+            items = inv:getSomeTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFullDrainable, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateDrainable#") then
+            items = inv:getSomeTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateDrainable, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodWeight#") then
+            items = inv:getSomeTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateFoodWeight, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodHunger#") then
+            items = inv:getSomeTypeEvalArgRecurse(typeScript, SFQuest_Utils.predicateFoodHunger, SFQuest_Utils.predicateValue, quantity)
+        elseif luautils.stringStarts(itemscript, "PredicateFoodCooked#") then
+            items = inv:getSomeTypeEvalRecurse(typeScript, SFQuest_Utils.predicateFoodCooked, quantity)
+        end
+    else
+        items = inv:getSomeTypeRecurse(itemscript, quantity)
+    end
+
+    if items then
+        for i = 0, items:size() - 1 do
+            local item = items:get(i)
+            sendRemoveItemFromContainer(inv, item)
+            inv:removeItemWithIDRecurse(item:getID())
+        end
+        -- HaloText feedback (auto-syncs to client)
+        if args.questName then
+            local newString = itemSpec:gsub("Tag.-#", ""):gsub("Predicate.-#", "")
+            local itemName = getItemText(newString)
+            local message = getText("IGUI_SFQuest_Questyno_ItemRemoved", quantity, itemName, getText(args.questName))
+            HaloTextHelper.addGoodText(player, message)
+        end
+    else
+        if args.questName then
+            local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(args.questName))
+            HaloTextHelper.addBadText(player, message)
+        end
+    end
+end
+
 --Events.OnPlayerDeath.Add(Commands.saveData); -- todo: magari rifarla decentemente, con gli args ecc
 Events.OnClientCommand.Add(function(module, command, player, args)
 	if module == 'SFQuest' and Commands[command] then

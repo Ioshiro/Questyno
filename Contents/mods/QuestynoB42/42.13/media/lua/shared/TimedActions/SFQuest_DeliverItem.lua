@@ -9,7 +9,7 @@ require "TimedActions/ISBaseTimedAction"
 ---@field square IsoGridSquare The current square of the clicked player
 ---@field guid string
 ---@field index string
----@field item InventoryItem 
+---@field item InventoryItem
 SFQuestDeliverItem = ISBaseTimedAction:derive("SFQuestDeliverItem");
 
 function SFQuestDeliverItem:isValid()
@@ -34,12 +34,20 @@ function SFQuestDeliverItem:stop()
     ISBaseTimedAction.stop(self);
 end
 
-function SFQuestDeliverItem:perform()
+function SFQuestDeliverItem:complete()
+	-- Server-authoritative: remove item from inventory
 	local playerInv = self.character:getInventory();
 	playerInv:Remove(self.item);
-	local task = SF_MissionPanel.instance:getActiveQuest(self.guid)
-	if self.index then
-		SF_MissionPanel.instance:updateObjective(self.guid, self.index, "Delivered");
+	sendRemoveItemFromContainer(playerInv, self.item);
+	return true;
+end
+
+function SFQuestDeliverItem:perform()
+	-- Client-side: update quest objective (runs after server confirms)
+	if SF_MissionPanel and SF_MissionPanel.instance then
+		if self.index then
+			SF_MissionPanel.instance:updateObjective(self.guid, self.index, "Delivered");
+		end
 	end
 
     -- needed to remove from queue / start next.
