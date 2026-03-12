@@ -26,6 +26,12 @@ require 'SFQuest_Utils'
 
 if isClient() then return end -- This file runs ONLY on server (and singleplayer)
 
+-- If createBot exists, IsoNPC handles all NPC spawning - disable mannequin system entirely
+if createBot and type(createBot) == "function" then
+    print("[SFQuest] createBot detected - MannequinSpawner DISABLED, using IsoNPC system")
+    return
+end
+
 -- Initialize the module
 SFQuestMannequinServer = SFQuestMannequinServer or {}
 

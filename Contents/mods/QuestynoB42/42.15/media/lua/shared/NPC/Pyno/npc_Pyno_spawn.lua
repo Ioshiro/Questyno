@@ -1,6 +1,6 @@
 require 'SFQuest_Database'
 
--- Pyno 9332,8605,0 EST
+-- WorldPool (serves quest system)
 table.insert(SFQuest_Database.WorldPool, {
     identity = "Pyno",
     square = "9332x8605x0",
@@ -9,8 +9,27 @@ table.insert(SFQuest_Database.WorldPool, {
     picture = "media/textures/Picture_Pyno.png",
 })
 
+-- NpcPool (primary - used by IsoNPC/createBot)
+if NpcPool then
+    NpcPool["9332x8605x0"] = {
+        identity = "Pyno",
+        name = "Pyno",
+        female = false,
+        skin = 2,
+        hair = "Bald",
+        hairColor = {r=0, g=0, b=0},
+        beard = "Goatee",
+        beardColor = {r=0, g=0, b=0},
+        outfit = "Pyno",
+        direction = "E",
+        npcType = "quest",
+        faction = "LaResistenza",
+    }
+end
+
+-- MannequinPool (fallback - used if IsoNPC not present)
 SFQuest_Database.MannequinPool["9332x8605x0"] = {
-    identity = "Pyno",  -- Collegamento esplicito al WorldPool
+    identity = "Pyno",
     sprite = "location_shop_mall_01_76",
     direction = "E",
     beard = "Goatee",

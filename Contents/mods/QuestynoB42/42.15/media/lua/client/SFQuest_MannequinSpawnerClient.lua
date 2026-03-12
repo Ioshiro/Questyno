@@ -16,6 +16,13 @@
 ]]--
 if isServer() then return end -- This file runs ONLY on clients (and singleplayer)
 
+-- If IsoNPC is loaded, it handles NPC spawning - disable mannequin client
+if NpcPool then
+    SFQuestMannequinClient = SFQuestMannequinClient or {}
+    SFQuestMannequinClient.isRemoved = function() return false end
+    return
+end
+
 require 'SFQuest_Utils'
 
 

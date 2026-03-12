@@ -1,4 +1,8 @@
 require "SFQuest_Utils"
+require "SFQuest_Database"
+
+local useIsoNpc = (type(NpcPool) == "table")
+
 local function onInteraction2(worldobjects, playerObj, square, worldinfo, dialogueinfo, questid)
 	if luautils.walkAdj(playerObj, square) then
 		ISTimedActionQueue.add(SFQuest_WorldEventCheck:new(playerObj, square, worldinfo, dialogueinfo, questid));
@@ -14,20 +18,55 @@ local function SFQuest_WorldEventMenu(player, context, worldobjects, test)
 	local square = worldobjects[1]:getSquare();
 
 	local startingX,startingY,startingZ = square:getX(), square:getY(), square:getZ();
-	local x1, y1, x2, y2 = startingX-1, startingY-1, startingX+1, startingY+1
 	local npcsFounds = {}
-	for i = x1, x2 do
-        for j = y1, y2 do
-            local sqTag = SFQuest_Utils.squaretag(i,j,startingZ)
-			if playerObj:getModData().missionProgress.WorldEvent[sqTag] then
-				local square = getCell():getGridSquare(i, j, startingZ);
-				local event = playerObj:getModData().missionProgress.WorldEvent[sqTag];
-				local worldinfo = SF_MissionPanel.instance:getWorldInfo(event.identity);
-				local dialogueinfo = SF_MissionPanel.instance:getDialogueInfo(event.dialoguecode);
-				table.insert(npcsFounds, {square = square, worldinfo = worldinfo, dialogueinfo = dialogueinfo});
+
+	if useIsoNpc and isBot then
+		-- Bot mode: scan for IsoPlayer bots in 3x3 area
+		local foundIdentities = {}
+		for x = startingX - 1, startingX + 1 do
+			for y = startingY - 1, startingY + 1 do
+				local sq = getCell():getGridSquare(x, y, startingZ)
+				if sq then
+					local movingObjects = sq:getMovingObjects()
+					for i = 0, movingObjects:size() - 1 do
+						local obj = movingObjects:get(i)
+						if instanceof(obj, "IsoPlayer") and isBot(obj) then
+							local botIdentity = obj:getVariableString("botIdentity")
+							if botIdentity and not foundIdentities[botIdentity] then
+								foundIdentities[botIdentity] = true
+								local worldPoolEntry = SFQuest_Database.Indexes.WorldByIdentity[botIdentity]
+								if worldPoolEntry then
+									local sqTag = worldPoolEntry.square
+									local event = playerObj:getModData().missionProgress.WorldEvent[sqTag]
+									if event then
+										local targetSquare = obj:getSquare()
+										local worldinfo = SF_MissionPanel.instance:getWorldInfo(event.identity)
+										local dialogueinfo = SF_MissionPanel.instance:getDialogueInfo(event.dialoguecode)
+										table.insert(npcsFounds, {square = targetSquare, worldinfo = worldinfo, dialogueinfo = dialogueinfo})
+									end
+								end
+							end
+						end
+					end
+				end
 			end
-        end
-    end
+		end
+	else
+		-- Mannequin fallback: squaretag-based
+		for i = startingX - 1, startingX + 1 do
+			for j = startingY - 1, startingY + 1 do
+				local sqTag = SFQuest_Utils.squaretag(i,j,startingZ)
+				if playerObj:getModData().missionProgress.WorldEvent[sqTag] then
+					local sq = getCell():getGridSquare(i, j, startingZ);
+					local event = playerObj:getModData().missionProgress.WorldEvent[sqTag];
+					local worldinfo = SF_MissionPanel.instance:getWorldInfo(event.identity);
+					local dialogueinfo = SF_MissionPanel.instance:getDialogueInfo(event.dialoguecode);
+					table.insert(npcsFounds, {square = sq, worldinfo = worldinfo, dialogueinfo = dialogueinfo});
+				end
+			end
+		end
+	end
+
 	if #npcsFounds == 0 then return end
 	local newOption = context:addOptionOnTop(getText("ContextMenu_WorldEvent"), worldobjects, nil);
 	newOption.iconTexture = getTexture("media/textures/esclamativo.png");
