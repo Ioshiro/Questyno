@@ -3,7 +3,7 @@ SF_MissionPanel.Commands = SF_MissionPanel.Commands or {};
 
 -- Commands
 
-function SF_MissionPanel.Commands.actionevent(condition, commandslist)
+function SF_MissionPanel.Commands.actionevent(condition, commandslist, questGuid)
     local checkcondition = luautils.split(condition, ":");
     if checkcondition[1] == "killzombies" then
         local player = getPlayer();
@@ -19,12 +19,9 @@ function SF_MissionPanel.Commands.actionevent(condition, commandslist)
             tierlevel = tonumber(conditionValue)
         end
         local convertedCommands = commandslist:gsub(":", ";");
-        -- Extract questGuid from commands for O(1) lookup (format: "updateobjective;questGuid;index;status")
-        local commandParts = luautils.split(convertedCommands, ";")
-        local questGuid = commandParts[2]  -- questGuid is the second element
 
         local newEvent = {
-            questGuid = questGuid,  -- Direct reference for O(1) lookup
+            questGuid = questGuid,  -- Passed explicitly from caller for correct O(1) lookup
             kills = 0,
             goal = goal,
             tierzone = tierzone,

@@ -193,8 +193,11 @@ function Commands.removeItem(player, args)
 
     if carrying < quantity then
         if args.questName then
-            local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(args.questName))
-            HaloTextHelper.addBadText(player, message)
+            sendServerCommand(player, 'SFQuest', 'haloText', {
+                type = "bad",
+                key = "IGUI_SFQuest_Questyno_ItemRemoveFailed",
+                args = { args.questName }
+            })
         end
         return
     end
@@ -252,17 +255,23 @@ function Commands.removeItem(player, args)
             sendRemoveItemFromContainer(inv, item)
             inv:removeItemWithIDRecurse(item:getID())
         end
-        -- HaloText feedback (auto-syncs to client)
+        -- HaloText feedback via client-side localization
         if args.questName then
             local newString = itemSpec:gsub("Tag.-#", ""):gsub("Predicate.-#", "")
-            local itemName = getItemText(newString)
-            local message = getText("IGUI_SFQuest_Questyno_ItemRemoved", quantity, itemName, getText(args.questName))
-            HaloTextHelper.addGoodText(player, message)
+            sendServerCommand(player, 'SFQuest', 'haloText', {
+                type = "good",
+                key = "IGUI_SFQuest_Questyno_ItemRemoved",
+                args = { tostring(quantity), newString, args.questName },
+                itemIcon = newString
+            })
         end
     else
         if args.questName then
-            local message = getText("IGUI_SFQuest_Questyno_ItemRemoveFailed", getText(args.questName))
-            HaloTextHelper.addBadText(player, message)
+            sendServerCommand(player, 'SFQuest', 'haloText', {
+                type = "bad",
+                key = "IGUI_SFQuest_Questyno_ItemRemoveFailed",
+                args = { args.questName }
+            })
         end
     end
 end

@@ -132,44 +132,23 @@ function SFQuest_MissionLists:onMouseDown(x, y)
 
 	self.selected = row;
 
-        -- expand or collapse...
-        --if x < 6 then
-            if self.items[row].guid == parent.expanded then
-                parent.expanded = nil;
-				parent.loretitle = nil;
-				parent.lore = {};
-				parent.currentPage = 1;
-				self:setHeight(self.originalheight);
-				parent.titleLabel:setVisible(false);
-				parent.pageLabel:setVisible(false);
-				parent.nextPage:setVisible(false);
-				parent.previousPage:setVisible(false);
-				parent.richText:setVisible(false);
-				getSoundManager():playUISound("UISelectListItem");
-			elseif self.items[row].lore and #self.items[row].lore > 0 then
-				self:setHeight(self.height2);
-				parent.expanded = self.items[row].guid;
-				parent.lore = self.items[row].lore;
-				parent.currentPage = 1;
-				parent.loretitle = getText(self.items[row].title) or "???";
-				parent.titleLabel.name = getText(self.items[row].title) or "???";
-				parent.titleLabel:setVisible(true);
-				parent.pageLabel.name = getText("IGUI_Pages") .. tostring(parent.currentPage) .. "/" .. tostring(#parent.lore or 1);
-				parent.pageLabel:setVisible(true);
-				if #parent.lore == 1 then
-					parent.nextPage:setEnable(false);
-				else
-					parent.nextPage:setEnable(true);				
-				end
-				parent.nextPage:setVisible(true);
-				parent.previousPage:setVisible(true);
-				parent.richText:setVisible(true);
-				local text = self.items[row].lore[1];
-				parent.richText.text = getText(text);
-				getSoundManager():playUISound("UISelectListItem");
-            end
-			SF_MissionPanel.instance:triggerUpdate();	
-        --end
+	if self.items[row].lore and #self.items[row].lore > 0 then
+		-- Se la stessa quest è già aperta, non fare nulla
+		if SFQuest_QuestWindow.instances[self.items[row].guid] then
+			return
+		end
+		local offsetCount = 0
+		for _ in pairs(SFQuest_QuestWindow.instances) do offsetCount = offsetCount + 1 end
+		local offset = offsetCount * 30
+		parent.window = SFQuest_QuestWindow:new(70 + offset, 50 + offset, self.items[row]);
+		parent.window:initialise()
+		parent.window:addToUIManager()
+		parent.window:setVisible(true)
+		parent.window.pin = true;
+		parent.window.resizable = true
+		getSoundManager():playUISound("UISelectListItem");
+	end
+	SF_MissionPanel.instance:triggerUpdate();
 end
 
 function SFQuest_MissionLists:new(x, y, width, height, character, greyed)

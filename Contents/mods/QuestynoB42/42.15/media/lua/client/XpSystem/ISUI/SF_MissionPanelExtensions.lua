@@ -178,13 +178,13 @@ function SF_MissionPanel:unlockQuestsFromPager()
 					table.remove(pagerTasks, i);
 					if task.unlocks then
 						local commandTable = luautils.split(task.unlocks, ";");
-						SF_MissionPanel.instance:readCommandTable(commandTable);
+						SF_MissionPanel.instance:readCommandTable(commandTable, nil, task.guid);
 					end
 				else
 					local update = pagerTasks[i];
 					if update.unlocks then
 						local commandTable = luautils.split(update.unlocks, ";");
-						SF_MissionPanel.instance:readCommandTable(commandTable);
+						SF_MissionPanel.instance:readCommandTable(commandTable, nil, update.guid);
 					end
 					-- O(1) lookup using player index
 					local task = nil
@@ -292,12 +292,12 @@ function SF_MissionPanel:checkDefaults()
     end
 end
 
-function SF_MissionPanel:readCommandTable(commandTable, questName)
+function SF_MissionPanel:readCommandTable(commandTable, questName, questGuid)
     local player = getPlayer();
     local count = 1;
     while commandTable[count] do
         if commandTable[count] == "actionevent" then
-            SF_MissionPanel.instance:runCommand("actionevent", commandTable[count + 1], commandTable[count + 2]);
+            SF_MissionPanel.instance:runCommand("actionevent", commandTable[count + 1], commandTable[count + 2], questGuid);
             count = count + 3;
         elseif commandTable[count] == "additem" then
             SF_MissionPanel.instance:runCommand("additem", commandTable[count + 1], tonumber(commandTable[count + 2]));
@@ -390,9 +390,9 @@ function SF_MissionPanel:readCommandTable(commandTable, questName)
     end
 end
 
-function SF_MissionPanel:runCommand(command, param1, param2, param3)
+function SF_MissionPanel:runCommand(command, param1, param2, param3, param4)
 	if SF_MissionPanel.Commands[command] then
-		SF_MissionPanel.Commands[command](param1, param2, param3)
+		SF_MissionPanel.Commands[command](param1, param2, param3, param4)
 	else
 		print("SOUL QUEST SYSTEM - Unknown command: " .. command);
 	end
@@ -1076,7 +1076,7 @@ function SF_MissionPanel:unlockQuest(guid, overrideAwardsItem)
 			end
 	    	if quest.unlocks then
 	    		local commandTable = luautils.split(quest.unlocks, ";");
-	    		SF_MissionPanel.instance:readCommandTable(commandTable);
+	    		SF_MissionPanel.instance:readCommandTable(commandTable, nil, quest.guid);
 	    	end
             -- si potrebbe pensare di mettere un checkQuestForCompletionByType check qui allo sblocco della quest per fixare il problema anche dell'addItem
             SF_MissionPanel.instance:checkQuestForCompletionByType("item", nil, "Obtained");

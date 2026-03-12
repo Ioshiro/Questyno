@@ -81,6 +81,55 @@ function Commands.setProgress(args)
 	SF_MissionPanel.instance:triggerUpdate();
 end
 
+function Commands.haloText(args)
+	local player = getPlayer()
+	if not player then return end
+
+	-- Resolve args: translation keys (IGUI_), item fullTypes (Base.X), or plain strings
+	local resolvedArgs = {}
+	for i, v in ipairs(args.args or {}) do
+		if type(v) == "string" and v:match("^IGUI_") then
+			resolvedArgs[i] = getText(v)
+		elseif type(v) == "string" and v:match("^%u%a+%.") then
+			resolvedArgs[i] = getItemText(v)
+		else
+			resolvedArgs[i] = v
+		end
+	end
+
+	local text = getText(args.key, unpack(resolvedArgs))
+
+	-- BBCode [img=] must be OUTSIDE [col=]...[/] blocks because PZ's TextDrawObject
+	-- parser ignores nested tags when hasOpened=true (an open [col=] suppresses [img=])
+	if args.itemIcon then
+		local iconName = args.itemIcon
+		local script = ScriptManager.instance:getItem(args.itemIcon)
+		if script then
+			iconName = script:getIcon()
+		end
+		local imgTag = "[img=" .. iconName .. "] "
+		if args.type == "good" then
+			local ci = Core.getInstance():getGoodHighlitedColor()
+			local r, g, b = math.floor(ci:getR() * 255), math.floor(ci:getG() * 255), math.floor(ci:getB() * 255)
+			HaloTextHelper.addText(player, imgTag .. "[col=" .. r .. "," .. g .. "," .. b .. "]" .. text .. "[/]")
+		elseif args.type == "bad" then
+			local ci = Core.getInstance():getBadHighlitedColor()
+			local r, g, b = math.floor(ci:getR() * 255), math.floor(ci:getG() * 255), math.floor(ci:getB() * 255)
+			HaloTextHelper.addText(player, imgTag .. "[col=" .. r .. "," .. g .. "," .. b .. "]" .. text .. "[/]")
+		else
+			HaloTextHelper.addText(player, imgTag .. text)
+		end
+	else
+		if args.type == "good" then
+			HaloTextHelper.addGoodText(player, text)
+		elseif args.type == "bad" then
+			HaloTextHelper.addBadText(player, text)
+		else
+			HaloTextHelper.addText(player, text)
+		end
+	end
+end
+
 Events.OnServerCommand.Add(function(module, command, args)
 	if not isClient() then return end
 	if module == "SFQuest" and Commands[command] then

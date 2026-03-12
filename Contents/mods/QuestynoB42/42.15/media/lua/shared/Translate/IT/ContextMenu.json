@@ -7,6 +7,7 @@
     "ContextMenu_ChiaveMacchinyno_ToolTip": "Riscatta veicolo in condizioni perfette e con il motore qualita' 100!",
     "ContextMenu_Autocertifica": "Autocertifica completamento",
     "ContextMenu_WorldEvent_TalkTo": "Parla con %1",
+    "ContextMenu_WorldEvent_TalkTo2": "Parla con %1",
     "ContextMenu_EnableNPC": "Riabilita NPC",
     "ContextMenu_DisableNPC": "Disabilita NPC"
 }

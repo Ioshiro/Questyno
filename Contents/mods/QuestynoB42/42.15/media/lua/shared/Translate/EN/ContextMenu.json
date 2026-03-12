@@ -2,6 +2,7 @@
     "ContextMenu_WorldEvent": "Interact with NPC",
     "ContextMenu_ClickEvent": "Interact with Quest",
     "ContextMenu_WorldEvent_TalkTo": "Talk with %1",
+    "ContextMenu_WorldEvent_TalkTo2": "Talk with %1",
     "ContextMenu_InvestigateCorpse": "Inspect container (quest)",
     "ContextMenu_TakeReputation": "Redeem Reputation",
     "ContextMenu_ChiaveMacchinyno": "Redeem vehicle",
